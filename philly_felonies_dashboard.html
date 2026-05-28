@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Philadelphia Felony Dashboard</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
+    .header { background: #1a1a2e; color: white; padding: 20px 30px; }
+    .header h1 { font-size: 24px; margin-bottom: 5px; }
+    .header .meta { color: #aaa; font-size: 13px; }
+    .stats { display: flex; gap: 15px; padding: 20px 30px; flex-wrap: wrap; }
+    .stat { background: white; border-radius: 8px; padding: 15px 20px; min-width: 160px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .stat .number { font-size: 28px; font-weight: 700; color: #1a1a2e; }
+    .stat .label { font-size: 12px; color: #666; text-transform: uppercase; }
+    .content { padding: 0 30px 30px; }
+    .section { margin-top: 20px; }
+    .section h2 { font-size: 18px; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 2px solid #e0e0e0; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    th { background: #1a1a2e; color: white; text-align: left; padding: 10px 12px; font-size: 12px; text-transform: uppercase; }
+    td { padding: 8px 12px; border-bottom: 1px solid #eee; font-size: 13px; vertical-align: top; }
+    tr:hover { background: #f8f8ff; }
+    .felony { color: #c0392b; font-weight: 600; }
+    .misdemeanor { color: #7f8c8d; }
+    .charge-list { list-style: none; padding: 0; }
+    .charge-list li { margin-bottom: 3px; }
+    .charge-list li.felony-charge { color: #c0392b; font-weight: 500; }
+    a { color: #2980b9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge { display: inline-block; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: 600; }
+    .badge-felony { background: #fde8e8; color: #c0392b; }
+    .badge-misd { background: #eef; color: #555; }
+    .top-charges { display: flex; flex-wrap: wrap; gap: 8px; }
+    .top-charge { background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+    .top-charge .count { font-weight: 700; color: #1a1a2e; }
+    .note { background: #fff3cd; padding: 10px 15px; border-radius: 6px; font-size: 13px; margin-top: 15px; }
+    .filter-bar { padding: 15px 30px; background: white; border-bottom: 1px solid #ddd; }
+    .filter-bar input { padding: 8px 12px; border: 1px solid #ccc; border-radius: 4px; width: 300px; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:12px;">&#128274;</div>
+    <h2 style="margin:0 0 8px;font-size:20px;color:#1a1a2e;">Philadelphia Court Monitor</h2>
+    <p style="color:#666;font-size:13px;margin-bottom:20px;">Enter password to continue</p>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === '503749c9f5f4de031709a4cef33041f579cac84019cab7df4e3feb856bfb3b17') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<div style="position:fixed;right:0;top:50%;transform:translateY(-50%);background:#c0392b;color:white;padding:12px 8px;font-size:11px;font-weight:700;letter-spacing:1px;writing-mode:vertical-rl;text-orientation:mixed;z-index:9999;border-radius:4px 0 0 4px;box-shadow:-2px 0 8px rgba(0,0,0,0.2);">DO NOT CITE DIRECTLY — ALWAYS CHECK THE DOCKET</div>
+<div style="background:#1a1a2e;padding:10px 30px;">
+    <a href="index.html" style="color:#aaa;text-decoration:none;font-size:13px;margin-right:20px;">Home</a>
+    <a href="philly_calendar.html" style="color:#aaa;text-decoration:none;font-size:13px;margin-right:20px;">Court Calendar</a>
+    <a href="philly_felonies_dashboard.html" style="color:white;text-decoration:none;font-size:13px;margin-right:20px;font-weight:600;">New Felony Filings</a>
+    <a href="philly_plea_calendar.html" style="color:#aaa;text-decoration:none;font-size:13px;margin-right:20px;">Plea Calendar</a>
+    <a href="philly_new_pleas.html" style="color:#aaa;text-decoration:none;font-size:13px;">Guilty Plea Watch</a>
+</div>
+<div class="header">
+    <h1>Philadelphia Criminal Docket Dashboard</h1>
+    <div class="meta">Cases filed 05/27/2026 to 05/28/2026 | Generated May 28, 2026 at 10:17 AM</div>
+</div>
+
+<div class="stats">
+    <div class="stat"><div class="number">80</div><div class="label">Total CP Cases</div></div>
+    <div class="stat"><div class="number">80</div><div class="label">With Charges Parsed</div></div>
+    <div class="stat"><div class="number felony">54</div><div class="label">With Felony Charges</div></div>
+    <div class="stat"><div class="number">322</div><div class="label">Total Charges</div></div>
+</div>
+
+<div class="filter-bar">
+    <input type="text" id="search" placeholder="Filter by name, docket, charge..." oninput="filterTable()">
+</div>
+
+<div class="content">
+
+<div class="section">
+    <h2>Most Common Charges</h2>
+    <div class="top-charges">
+        <div class="top-charge"><span class="count">25</span> 18 § 2705</div>
+        <div class="top-charge"><span class="count">25</span> 35 § 780</div>
+        <div class="top-charge"><span class="count">22</span> 18 § 907</div>
+        <div class="top-charge"><span class="count">20</span> 18 § 6106</div>
+        <div class="top-charge"><span class="count">19</span> 18 § 3304</div>
+        <div class="top-charge"><span class="count">19</span> 18 § 2701</div>
+        <div class="top-charge"><span class="count">19</span> 18 § 3925</div>
+        <div class="top-charge"><span class="count">18</span> 18 § 3921</div>
+        <div class="top-charge"><span class="count">18</span> 18 § 903</div>
+        <div class="top-charge"><span class="count">15</span> 18 § 2702</div>
+        <div class="top-charge"><span class="count">13</span> 18 § 6108</div>
+        <div class="top-charge"><span class="count">12</span> 18 § 2706</div>
+        <div class="top-charge"><span class="count">10</span> 18 § 6105</div>
+        <div class="top-charge"><span class="count">10</span> 18 § 3934</div>
+        <div class="top-charge"><span class="count">9</span> 18 § 3503</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>All Cases</h2>
+    <table id="cases-table">
+    <thead>
+    <tr>
+        <th>Docket</th>
+        <th>Defendant</th>
+        <th>Filed</th>
+        <th>Charges</th>
+        <th>Bail</th>
+        <th>Next Event</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003395-2026.pdf" target="_blank">CP-51-CR-0003395-2026</a></td>
+        <td>Fernando, Francisco</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Murder (18 § 2502)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003395-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Francisco  Fernando Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Denied $0.00</td>
+        <td>Formal Arraignment - 06/16/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003416-2026.pdf" target="_blank">CP-51-CR-0003416-2026</a></td>
+        <td>Moore, Davieon L.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003416-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Davieon L. Moore Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Access Device Used To Obt Or Att Obt Prop/Service (18 § 4106)</li><li class="">Access Device Used To Obt Or Att Obt Prop/Service (18 § 4106)</li></ul></td>
+        <td>Monetary $100,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003447-2026.pdf" target="_blank">CP-51-CR-0003447-2026</a></td>
+        <td>Kennedy, Stiffany A.</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Robbery-Inflict Threat Imm Bod Inj (18 § 3701)</li><li class="">Conspiracy (18 § 903)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Robbery-Inflict Threat Imm Bod Inj (18 § 3701)</li><li class="">Conspiracy (18 § 903)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Monetary $20,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003448-2026.pdf" target="_blank">CP-51-CR-0003448-2026</a></td>
+        <td>Kennedy, Veronica S.</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Robbery-Inflict Threat Imm Bod Inj (18 § 3701)</li><li class="">Conspiracy (18 § 903)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003448-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Veronica S . Kennedy Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Robbery-Inflict Threat Imm Bod Inj (18 § 3701)</li><li class="">Conspiracy (18 § 903)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Monetary $2,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003397-2026.pdf" target="_blank">CP-51-CR-0003397-2026</a></td>
+        <td>Russell, Matthew</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Robbery-Take Property Fr Other/Force (18 § 3701)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li></ul></td>
+        <td>ror $10,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003398-2026.pdf" target="_blank">CP-51-CR-0003398-2026</a></td>
+        <td>Rollins, Kareem R.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li></ul></td>
+        <td>Monetary $350,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003401-2026.pdf" target="_blank">CP-51-CR-0003401-2026</a></td>
+        <td>Paige, Tyhir R.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003401-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Tyhir R . Paige Possession Of Firearm Prohibited (18 § 6105)</li><li class="">Evading Arrest or Detention on Foot (18 § 5104.2)</li></ul></td>
+        <td>Monetary $250,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003444-2026.pdf" target="_blank">CP-51-CR-0003444-2026</a></td>
+        <td>MCDERMOTT, JAMES</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Burglary - Not Adapted for Overnight Accommodation, No Person Present (18 § 3502)</li><li class="">Crim Tres-Break Into Structure (18 § 3503)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003444-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. JAMES  MCDERMOTT Conspiracy (18 § 903)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $30.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003453-2026.pdf" target="_blank">CP-51-CR-0003453-2026</a></td>
+        <td>Kabba, Sanuise M.</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003453-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Sanuise M. Kabba Conspiracy (18 § 903)</li></ul></td>
+        <td>Monetary $15,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003456-2026.pdf" target="_blank">CP-51-CR-0003456-2026</a></td>
+        <td>Grant, Shannell</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Robbery-Inflict Threat Imm Bod Inj (18 § 3701)</li><li class="">Conspiracy (18 § 903)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003456-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Shannell  Grant Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003457-2026.pdf" target="_blank">CP-51-CR-0003457-2026</a></td>
+        <td>Bey, Mecca T.</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003457-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Mecca T . Bey Robbery-Threat Immed Ser Injury (18 § 3701)</li></ul></td>
+        <td>ror $50,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003459-2026.pdf" target="_blank">CP-51-CR-0003459-2026</a></td>
+        <td>Hunt, Tony</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003459-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Tony  Hunt Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause or causes BI with deadly weapon (18 § 2702)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li></ul></td>
+        <td>Monetary $150,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003461-2026.pdf" target="_blank">CP-51-CR-0003461-2026</a></td>
+        <td>Brown, Quadir</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Posses Firearm W/Manufacturer Number Altered, Etc (18 § 6110.2)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li><li class="">Evading Arrest or Detention on Foot (18 § 5104.2)</li></ul></td>
+        <td>Unsecured $250,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003465-2026.pdf" target="_blank">CP-51-CR-0003465-2026</a></td>
+        <td>Edwards, Blake</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Posses Firearm W/Manufacturer Number Altered, Etc (18 § 6110.2)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003465-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Blake  Edwards Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="">Carrying Loaded Weapon (18 § 6106.1)</li></ul></td>
+        <td>Monetary $300.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003399-2026.pdf" target="_blank">CP-51-CR-0003399-2026</a></td>
+        <td>Heredia, Josea A.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Unsecured $100,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003400-2026.pdf" target="_blank">CP-51-CR-0003400-2026</a></td>
+        <td>Jenkins, Zachary</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Unsecured $250,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003403-2026.pdf" target="_blank">CP-51-CR-0003403-2026</a></td>
+        <td>BLACK, ROBERT</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003403-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. ROBERT  BLACK Evading Arrest or Detention on Foot (18 § 5104.2)</li></ul></td>
+        <td>Monetary $500,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003405-2026.pdf" target="_blank">CP-51-CR-0003405-2026</a></td>
+        <td>SPELLER, NASIR</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Criminal Mischief - Damage Property (18 § 3304)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Unauth Use Motor/Other Vehicles (18 § 3928)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003410-2026.pdf" target="_blank">CP-51-CR-0003410-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003410-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $15,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003411-2026.pdf" target="_blank">CP-51-CR-0003411-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR- 0003411 -2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $15,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003413-2026.pdf" target="_blank">CP-51-CR-0003413-2026</a></td>
+        <td>Colon, Heriberto</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Unsecured $100,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003417-2026.pdf" target="_blank">CP-51-CR-0003417-2026</a></td>
+        <td>WILLIAMS, KHALIL</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Unsecured $100,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003422-2026.pdf" target="_blank">CP-51-CR-0003422-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003422-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003423-2026.pdf" target="_blank">CP-51-CR-0003423-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003423-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003424-2026.pdf" target="_blank">CP-51-CR-0003424-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003424-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003425-2026.pdf" target="_blank">CP-51-CR-0003425-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003425-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003426-2026.pdf" target="_blank">CP-51-CR-0003426-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003426-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003427-2026.pdf" target="_blank">CP-51-CR-0003427-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003427-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003428-2026.pdf" target="_blank">CP-51-CR-0003428-2026</a></td>
+        <td>Lopez, Christian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003428-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Christian  Lopez Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Theft From A Motor Vehicle (18 § 3934)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003443-2026.pdf" target="_blank">CP-51-CR-0003443-2026</a></td>
+        <td>Davies, Evan</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Theft By Unlaw Taking-Movable Prop (18 § 3921)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Unauth Use Motor/Other Vehicles (18 § 3928)</li></ul></td>
+        <td>Monetary $75,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003460-2026.pdf" target="_blank">CP-51-CR-0003460-2026</a></td>
+        <td>Boyd, Kevin</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Unsecured $50,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003462-2026.pdf" target="_blank">CP-51-CR-0003462-2026</a></td>
+        <td>FRANQUIZ, BRANDON</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Monetary $2,500.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003463-2026.pdf" target="_blank">CP-51-CR-0003463-2026</a></td>
+        <td>Ramirez, Alexander</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li></ul></td>
+        <td>Monetary $250,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003466-2026.pdf" target="_blank">CP-51-CR-0003466-2026</a></td>
+        <td>Shynes, Cecil</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003466-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Cecil  Shynes Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Monetary $2,000,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003467-2026.pdf" target="_blank">CP-51-CR-0003467-2026</a></td>
+        <td>Byrd, Jada S.</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003471-2026.pdf" target="_blank">CP-51-CR-0003471-2026</a></td>
+        <td>Ortolaza, Genesis</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Criminal Attempt - Murder (18 § 901)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003471-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Genesis  Ortolaza Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause or causes BI with deadly weapon (18 § 2702)</li></ul></td>
+        <td>Monetary $350,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003473-2026.pdf" target="_blank">CP-51-CR-0003473-2026</a></td>
+        <td>Hernandez, Samuel</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Carry Firearms Public In Phila (18 § 6108)</li></ul></td>
+        <td>Unsecured $100,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003402-2026.pdf" target="_blank">CP-51-CR-0003402-2026</a></td>
+        <td>Pinkney, Darryl J.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Firearms Not To Be Carried W/O License (18 § 6106)</li></ul></td>
+        <td>Unsecured $400,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003409-2026.pdf" target="_blank">CP-51-CR-0003409-2026</a></td>
+        <td>Schum, Buddy</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Contempt For Violation of Order or Agreement (23 § 6114)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Burglary - Not Adapted for Overnight Accommodation, No Person Present (18 § 3502)</li><li class="">Crim Tres-Break Into Structure (18 § 3503)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003412-2026.pdf" target="_blank">CP-51-CR-0003412-2026</a></td>
+        <td>Brown, Julian</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Possession Of Firearm Prohibited (18 § 6105)</li><li class="">False Identification To Law Enforcement Officer (18 § 4914)</li></ul></td>
+        <td>Monetary $2,000,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003418-2026.pdf" target="_blank">CP-51-CR-0003418-2026</a></td>
+        <td>LOPEZ, YASIN</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="">Criminal Mischief - Damage Property (18 § 3304)</li></ul></td>
+        <td>Unsecured $50,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003429-2026.pdf" target="_blank">CP-51-CR-0003429-2026</a></td>
+        <td>Brower, Anthony</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003429-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Anthony  Brower Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Endangering Welfare of Children - Parent/Guardian/ Other Commits Offense (18 § 4304)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Unsecured $50,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003430-2026.pdf" target="_blank">CP-51-CR-0003430-2026</a></td>
+        <td>Dorsey, Darrell</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Strangulation - Applying Pressure to Throat or Neck (18 § 2718)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003430-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Darrell  Dorsey Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Monetary $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003434-2026.pdf" target="_blank">CP-51-CR-0003434-2026</a></td>
+        <td>Lee, Mahkiy</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003434-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Mahkiy  Lee Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Stalking - Repeatedly Commit Acts To Cause Fear (18 § 2709.1)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="">Criminal Mischief (18 § 3304)</li></ul></td>
+        <td>Monetary $50,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003438-2026.pdf" target="_blank">CP-51-CR-0003438-2026</a></td>
+        <td>Bethea, Ronald</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause or causes BI with deadly weapon (18 § 2702)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003438-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Ronald  Bethea Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003439-2026.pdf" target="_blank">CP-51-CR-0003439-2026</a></td>
+        <td>Kelly, Kerry I.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003439-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Kerry I. Kelly Conspiracy (18 § 903)</li><li class="">Unauth Use Motor/Other Vehicles (18 § 3928)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003440-2026.pdf" target="_blank">CP-51-CR-0003440-2026</a></td>
+        <td>Strickland, Howard</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Unsecured $50,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003449-2026.pdf" target="_blank">CP-51-CR-0003449-2026</a></td>
+        <td>Lomax, Afiya</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Stalking - Repeatedly Commit Acts To Cause Fear (18 § 2709.1)</li><li class="">Harassment - Subject Other to Physical Contact (18 § 2709)</li><li class="felony-charge"><span class="badge badge-felony">F</span> Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003449-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Afiya  Lomax Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime (18 § 3502)</li><li class="">Conspiracy (18 § 903)</li><li class="">Crim Tres-Break Into Structure (18 § 3503)</li><li class="">Contempt for Violation of Order or Agreement (42 § 62)</li><li class="">Stalking - Repeatedly Commit Acts To Cause Fear (18 § 2709.1)</li><li class="">Criminal Mischief - Damage Property (18 § 3304)</li></ul></td>
+        <td>Monetary $50,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003451-2026.pdf" target="_blank">CP-51-CR-0003451-2026</a></td>
+        <td>Thompson-Perry, Kyzir</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Receiving Stolen Property (18 § 3925)</li><li class="">Conspiracy (18 § 903)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003454-2026.pdf" target="_blank">CP-51-CR-0003454-2026</a></td>
+        <td>Norris, Shamar</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Endangering Welfare of Children - Parent/Guardian/ Other Commits Offense (18 § 4304)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003454-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Shamar  Norris Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Monetary $2,500.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003469-2026.pdf" target="_blank">CP-51-CR-0003469-2026</a></td>
+        <td>Banks, Debarshi</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Strangulation - Applying Pressure to Throat or Neck (18 § 2718)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003469-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Debarshi  Banks Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Unsecured $75,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003470-2026.pdf" target="_blank">CP-51-CR-0003470-2026</a></td>
+        <td>Davis, Bilal H.</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Strangulation - Applying Pressure to Throat or Neck (18 § 2718)</li><li class="">Terroristic Threats W / Int To Terrorize Another (18 § 2706)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003470-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Bilal H. Davis Recklessly Endangering Another Person (18 § 2705)</li><li class="">Criminal Mischief - Damage Property (18 § 3304)</li></ul></td>
+        <td>Monetary $100,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003472-2026.pdf" target="_blank">CP-51-CR-0003472-2026</a></td>
+        <td>Elisca, Yves</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference (18 § 2702)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="">Criminal Mischief - Damage Property (18 § 3304)</li></ul></td>
+        <td>Unsecured $150,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003474-2026.pdf" target="_blank">CP-51-CR-0003474-2026</a></td>
+        <td>MOORE, LYKEEMAH</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="felony-charge"><span class="badge badge-felony">F</span> Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime (18 § 3502)</li><li class="">Crim Tres-Break Into Structure (18 § 3503)</li><li class="">Criminal Mischief - Damage Property (18 § 3304)</li></ul></td>
+        <td>ROR $0.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003396-2026.pdf" target="_blank">CP-51-CR-0003396-2026</a></td>
+        <td>Ross, Khaleel M.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Unknown Statute (0 § 0)</li><li class="">Intim Wit/Vit - Refrain From Report (18 § 4952)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003396-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Khaleel M. Ross Endangering Welfare of Children - Parent/Guardian/ Other Commits Offense (18 § 4304)</li><li class="">Corruption Of Minors - Defendant Age 18 or Above (18 § 6301)</li><li class="">Ind Asslt Person Less 16 Yrs Age (18 § 3126)</li></ul></td>
+        <td>Monetary $350,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003404-2026.pdf" target="_blank">CP-51-CR-0003404-2026</a></td>
+        <td>Shaw, Taheem</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Retaliation Against Witness or Victim (18 § 4953)</li><li class="">Simple Assault (18 § 2701)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003404-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Taheem  Shaw Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Monetary $150,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003406-2026.pdf" target="_blank">CP-51-CR-0003406-2026</a></td>
+        <td>Rivera, Javier</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Unsecured $150,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003407-2026.pdf" target="_blank">CP-51-CR-0003407-2026</a></td>
+        <td>Baker, Torey A.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003408-2026.pdf" target="_blank">CP-51-CR-0003408-2026</a></td>
+        <td>Brown, Quintin</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Retail Theft-Take Mdse (18 § 3929)</li></ul></td>
+        <td>Unsecured $7,500.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003414-2026.pdf" target="_blank">CP-51-CR-0003414-2026</a></td>
+        <td>Martinez, Noemari</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Conspiracy (18 § 903)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Monetary $10,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003415-2026.pdf" target="_blank">CP-51-CR-0003415-2026</a></td>
+        <td>AMINOV, RAUF</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Fleeing or Attempting to Elude Officer (75 § 3733)</li><li class="">Poss Instrument Of Crime W/Int (18 § 907)</li><li class="">Disorderly Conduct Hazardous/Physi Off (18 § 5503)</li><li class="">Improp Display Plate (75 § 1332)</li><li class="">Reckless Driving (75 § 3736)</li></ul></td>
+        <td>Unsecured $150,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003419-2026.pdf" target="_blank">CP-51-CR-0003419-2026</a></td>
+        <td>Krajci, Stephen</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Retail Theft-Take Mdse (18 § 3929)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003420-2026.pdf" target="_blank">CP-51-CR-0003420-2026</a></td>
+        <td>Cruz, Carlos</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Unsecured $100,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003421-2026.pdf" target="_blank">CP-51-CR-0003421-2026</a></td>
+        <td>Marsden, Christopher A.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Accidents Involving Death Or Personal Injury (75 § 3742)</li><li class="">Aggravated assault by vehicle (75 § 3732.1)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003421-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Christopher A . Marsden Careless Driving (75 § 3714)</li><li class="">Reckless Driving (75 § 3736)</li></ul></td>
+        <td>Monetary $5,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003431-2026.pdf" target="_blank">CP-51-CR-0003431-2026</a></td>
+        <td>Richardson, Emanuel</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Conspiracy (18 § 903)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003431-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Emanuel  Richardson Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Monetary $300.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003432-2026.pdf" target="_blank">CP-51-CR-0003432-2026</a></td>
+        <td>Mansoor, Thompson</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Conspiracy (18 § 903)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003432-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Thompson  Mansoor Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Monetary $50,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003433-2026.pdf" target="_blank">CP-51-CR-0003433-2026</a></td>
+        <td>Torres, Carlos</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Unsecured $75,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003435-2026.pdf" target="_blank">CP-51-CR-0003435-2026</a></td>
+        <td>Diaz, Maggie</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Conspiracy (18 § 903)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003435-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Maggie  Diaz Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003436-2026.pdf" target="_blank">CP-51-CR-0003436-2026</a></td>
+        <td>Williams, Darrick</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li><li class="">Conspiracy (18 § 903)</li></ul></td>
+        <td>Unsecured $25,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003437-2026.pdf" target="_blank">CP-51-CR-0003437-2026</a></td>
+        <td>Johnson, Brandon</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Conspiracy (18 § 903)</li></ul></td>
+        <td>Unsecured $50,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003441-2026.pdf" target="_blank">CP-51-CR-0003441-2026</a></td>
+        <td>Woodson, Sherwood L.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Def Tres Posted (18 § 3503)</li><li class="">Criminal Mischief - Damage Property (18 § 3304)</li><li class="">Loitering And Prowling At Night Time (18 § 5506)</li><li class="">Crim Tres-Enter Structure (18 § 3503)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003442-2026.pdf" target="_blank">CP-51-CR-0003442-2026</a></td>
+        <td>Woodson, Sherwood L.</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Def Tres Posted (18 § 3503)</li><li class="">Crim Tres-Enter Structure (18 § 3503)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/09/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003445-2026.pdf" target="_blank">CP-51-CR-0003445-2026</a></td>
+        <td>Gary, Toneshia</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Unlawful Restraint/ Serious Bodily Injury (18 § 2902)</li><li class="">False Imprisonment (18 § 2903)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003445-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Toneshia  Gary Endangering Welfare of Children - Parent/Guardian/ Other Commits Offense (18 § 4304)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="">Unlawful Restraint/ Serious Bodily Injury (18 § 2902)</li><li class="">False Imprisonment (18 § 2903)</li><li class="">Endangering Welfare of Children - Parent/Guardian/ Other Commits Offense (18 § 4304)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li><li class="">Unlawful Restraint/ Serious Bodily Injury (18 § 2902)</li><li class="">False Imprisonment (18 § 2903)</li><li class="">Endangering Welfare of Children - Parent/Guardian/ Other Commits Offense (18 § 4304)</li><li class="">Recklessly Endangering Another Person (18 § 2705)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/03/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003446-2026.pdf" target="_blank">CP-51-CR-0003446-2026</a></td>
+        <td>Ukere, Ughemetani</td>
+        <td>05/27/2026</td>
+        <td><ul class="charge-list"><li class="">Indec Asslt-W/O Cons Of Other (18 § 3126)</li><li class="">Harassment - Comm. Lewd, Threatening, Etc. Language (18 § 2709)</li></ul></td>
+        <td>Unsecured $250,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003450-2026.pdf" target="_blank">CP-51-CR-0003450-2026</a></td>
+        <td>Natal, Enrique</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003450-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Enrique  Natal Verify Address or Photographed as Required (18 § 4915)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003452-2026.pdf" target="_blank">CP-51-CR-0003452-2026</a></td>
+        <td>GONZALEZ, ALEXANDER</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Crim Tres-Break Into Structure (18 § 3503)</li><li class="">Conspiracy (18 § 903)</li><li class="">Criminal Mischief - Damage Property (18 § 3304)</li></ul></td>
+        <td>Unsecured $10,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003455-2026.pdf" target="_blank">CP-51-CR-0003455-2026</a></td>
+        <td>Pierce, Jerome</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Conspiracy (18 § 903)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003455-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Jerome  Pierce Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Monetary $300.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003458-2026.pdf" target="_blank">CP-51-CR-0003458-2026</a></td>
+        <td>Vovchak, Lisa</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver (35 § 780)</li><li class="">Int Poss Contr Subst By Per Not Reg (35 § 780)</li></ul></td>
+        <td>Monetary $300.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003464-2026.pdf" target="_blank">CP-51-CR-0003464-2026</a></td>
+        <td>Rosser, Quincey</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Fail to Verify Address/Be Photographed (18 § 4915.2)</li><li class="">Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003464-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Quincey  Rosser Fail to Provide Accurate Registration Info (18 § 4915.1)</li></ul></td>
+        <td>Unsecured $150,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    <tr class="">
+        <td><a href="dockets/CP-51-CR-0003468-2026.pdf" target="_blank">CP-51-CR-0003468-2026</a></td>
+        <td>Crawford, Hassan</td>
+        <td>05/28/2026</td>
+        <td><ul class="charge-list"><li class="">Fail to Verify Address/Be Photographed (18 § 4915.2)</li></ul></td>
+        <td>Unsecured $50,000.00</td>
+        <td>Formal Arraignment - 06/10/2026 11:00 am</td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+
+<div class="note">
+    <strong>Note:</strong> This dashboard shows Common Pleas (CP) criminal cases filed in Philadelphia.
+    CP-51-CR cases are typically bound over from Municipal Court after a preliminary hearing, indicating
+    the judge found probable cause. Charge grades marked "U" mean the grade was not specified in the CP docket.
+    Cases are sorted with felony charges first.
+</div>
+
+</div>
+
+<script>
+function filterTable() {
+    const q = document.getElementById('search').value.toLowerCase();
+    const rows = document.querySelectorAll('#cases-table tbody tr');
+    rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        row.style.display = text.includes(q) ? '' : 'none';
+    });
+}
+</script>
+</body>
+</html>
