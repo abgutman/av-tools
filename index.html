@@ -23,6 +23,11 @@
     .card-filings { border-top: 4px solid #c0392b; }
     .card-pleas { border-top: 4px solid #8e1600; }
     .card-plea-cal { border-top: 4px solid #d4a017; }
+    .card-civil { border-top: 4px solid #27ae60; }
+    .card-habeas { border-top: 4px solid #8e44ad; }
+    .section-divider { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 30px; }
+    .section-divider hr { border: none; border-top: 1px solid #ddd; }
+    .section-divider h3 { color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 15px; }
     .footer { text-align: center; padding: 30px; color: #999; font-size: 12px; }
 </style>
 </head>
@@ -96,6 +101,27 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <h2>Guilty Plea Watch</h2>
         <p>Daily scan of serious violent felony dockets. Flags cases where a guilty plea newly appeared since yesterday. Catches pleas from any hearing type.</p>
         <a href="philly_new_pleas.html">View Watch</a>
+    </div>
+</div>
+
+<div class="section-divider">
+    <hr>
+    <h3>Federal — Eastern District of Pennsylvania</h3>
+</div>
+
+<div class="cards">
+    <div class="card card-civil">
+        <div class="icon">&#x1f3db;&#xfe0f;</div>
+        <h2>DOJ Civil Cases</h2>
+        <p>Active DOJ civil lawsuits in E.D. Pa. filed under the Biden and Trump administrations. Tracks case status, judges, and CourtListener docket links.</p>
+        <a href="civil_edpa_dashboard.html">View Cases</a>
+    </div>
+
+    <div class="card card-habeas">
+        <div class="icon">&#x1f512;</div>
+        <h2>Habeas Corpus</h2>
+        <p>Habeas corpus petitions filed in E.D. Pa. Tracks immigration detention, criminal conviction, and other federal custody challenges.</p>
+        <a href="habeas_edpa.html">View Petitions</a>
     </div>
 </div>
 
