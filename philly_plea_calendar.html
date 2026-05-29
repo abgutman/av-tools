@@ -70,7 +70,7 @@ async function sha256(msg) {
 }
 async function checkPw() {
   const h = await sha256(document.getElementById('auth-pw').value);
-  if (h === '503749c9f5f4de031709a4cef33041f579cac84019cab7df4e3feb856bfb3b17') {
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
     sessionStorage.setItem('court_auth','1');
     document.getElementById('auth-gate').remove();
   } else {

@@ -28,6 +28,7 @@
     .card-filings-app { border-top: 4px solid #1a237e; }
     .card-opinions { border-top: 4px solid #b71c1c; }
     .card-calendars { border-top: 4px solid #e65100; }
+    .card-business { border-top: 4px solid #2c3e50; }
     .section-divider { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 30px; }
     .section-divider hr { border: none; border-top: 1px solid #ddd; }
     .section-divider h3 { color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 15px; }
@@ -57,7 +58,7 @@ async function sha256(msg) {
 }
 async function checkPw() {
   const h = await sha256(document.getElementById('auth-pw').value);
-  if (h === '503749c9f5f4de031709a4cef33041f579cac84019cab7df4e3feb856bfb3b17') {
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
     sessionStorage.setItem('court_auth','1');
     document.getElementById('auth-gate').remove();
   } else {
@@ -156,8 +157,21 @@ if (sessionStorage.getItem('court_auth')==='1') {
     </div>
 </div>
 
+<div class="section-divider">
+    <hr>
+    <h3>Business</h3>
+</div>
+
+<div class="cards">
+    <div class="card card-business">
+        <div class="icon">&#x1f4c8;</div>
+        <h2>Earnings Reports</h2>
+        <p>TK</p>
+    </div>
+</div>
+
 <div class="footer">
-    The Philadelphia Inquirer | Data from PA Unified Judicial System Portal
+    The Philadelphia Inquirer
 </div>
 
 </body>
