@@ -25,6 +25,9 @@
     .card-plea-cal { border-top: 4px solid #d4a017; }
     .card-civil { border-top: 4px solid #27ae60; }
     .card-habeas { border-top: 4px solid #8e44ad; }
+    .card-filings-app { border-top: 4px solid #1a237e; }
+    .card-opinions { border-top: 4px solid #b71c1c; }
+    .card-calendars { border-top: 4px solid #e65100; }
     .section-divider { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 30px; }
     .section-divider hr { border: none; border-top: 1px solid #ddd; }
     .section-divider h3 { color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 15px; }
@@ -122,6 +125,34 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <h2>Habeas Corpus</h2>
         <p>Habeas corpus petitions filed in E.D. Pa. Tracks immigration detention, criminal conviction, and other federal custody challenges.</p>
         <a href="habeas_edpa.html">View Petitions</a>
+    </div>
+</div>
+
+<div class="section-divider">
+    <hr>
+    <h3>PA & Federal Appellate Courts</h3>
+</div>
+
+<div class="cards">
+    <div class="card card-filings-app">
+        <div class="icon">&#x1f4e5;</div>
+        <h2>New Filings</h2>
+        <p>Recent filings across PA Supreme, Superior, Commonwealth courts, and SCOTUS cert petitions. Filterable by court.</p>
+        <a href="https://abgutman.github.io/court-feed/index.html">View Filings</a>
+    </div>
+
+    <div class="card card-opinions">
+        <div class="icon">&#x1f4dc;</div>
+        <h2>Opinions</h2>
+        <p>Published opinions from PA appellate courts and Third Circuit. Ranked by precedential status and Philadelphia-area relevance.</p>
+        <a href="https://abgutman.github.io/court-feed/index.html#opinions">View Opinions</a>
+    </div>
+
+    <div class="card card-calendars">
+        <div class="icon">&#x1f5d3;&#xfe0f;</div>
+        <h2>Court Calendars</h2>
+        <p>Upcoming oral arguments and hearings across E.D. Pa., Third Circuit, PA Superior, and PA Commonwealth courts.</p>
+        <a href="https://abgutman.github.io/court-feed/calendar.html">View Calendars</a>
     </div>
 </div>
 
