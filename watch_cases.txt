@@ -1,0 +1,4 @@
+# Guilty Plea Watch — manual case tracking
+# Add CP-51-CR docket numbers below, one per line.
+# These cases will be tracked for guilty pleas regardless of charges.
+# Example: CP-51-CR-0001234-2025
