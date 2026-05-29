@@ -100,18 +100,18 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Guilty Plea Watch</h1>
-    <div class="meta">Updated May 28, 2026 at 10:46 AM | Previous check: May 28 at 10:46 AM</div>
+    <div class="meta">Updated May 29, 2026 at 02:49 PM | Previous check: May 29 at 02:49 PM</div>
 </div>
 
 <div class="stats">
-    <div class="stat"><div class="number">0</div><div class="label">New Pleas This Run</div></div>
-    <div class="stat"><div class="number">113</div><div class="label">Total with Pleas</div></div>
-    <div class="stat"><div class="number">224</div><div class="label">Still Open</div></div>
-    <div class="stat"><div class="number">337</div><div class="label">Cases Watched</div></div>
+    <div class="stat"><div class="number">2</div><div class="label">New Pleas This Run</div></div>
+    <div class="stat"><div class="number">115</div><div class="label">Total with Pleas</div></div>
+    <div class="stat"><div class="number">249</div><div class="label">Still Open</div></div>
+    <div class="stat"><div class="number">364</div><div class="label">Cases Watched</div></div>
 </div>
 
 <div class="explainer">
-    <strong>What this page does:</strong> Tracks 337 open cases charged with murder, manslaughter,
+    <strong>What this page does:</strong> Tracks 364 open cases charged with murder, manslaughter,
     aggravated assault, strangulation, kidnapping, rape, IDSI, sexual assault, aggravated indecent assault,
     robbery with SBI, or child pornography in Philadelphia. Every day, each docket sheet is re-downloaded and parsed.
     When a guilty plea newly appears on a docket, it's flagged here.<br>
@@ -119,8 +119,8 @@ if (sessionStorage.getItem('court_auth')==='1') {
 </div>
 
 <div class="tab-bar">
-    <button class="tab active" onclick="switchTab('new')">New Pleas<span class="tab-count">0</span></button>
-    <button class="tab" onclick="switchTab('watchlist')">Full Watchlist<span class="tab-count">337</span></button>
+    <button class="tab active" onclick="switchTab('new')">New Pleas<span class="tab-count">2</span></button>
+    <button class="tab" onclick="switchTab('watchlist')">Full Watchlist<span class="tab-count">364</span></button>
     <button class="tab" onclick="switchTab('add')">+ Add Case</button>
 </div>
 <div id="panel-new" class="tab-panel active">
@@ -128,7 +128,26 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <input type="text" id="search-new" placeholder="Search name, docket..." oninput="filterPanel('new')">
 </div>
 <div class="content">
-<div class="no-events">No new guilty pleas detected since the last check.</div>
+<table>
+<thead><tr>
+    <th></th><th>Docket</th><th>Defendant</th><th>Charges</th><th>Plea Details</th>
+</tr></thead>
+<tbody>
+<tr>
+    <td><span class="new-badge">NEW</span></td>
+    <td><a href="dockets/CP-51-CR-0002149-2025.pdf" target="_blank">CP-51-CR-0002149-2025</a></td>
+    <td>Comm. v. White, Salik I.</td>
+    <td><span class="charge-tag charge-murder">Murder Of The First Degree</span> <span class="charge-tag charge-murder">Conspiracy - Murder Of The First Degree</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault</span> <span class="charge-tag charge-murder">Attempt, Solicitation, Conspir Commit Murder</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault</span> <span class="charge-tag charge-murder">Attempt, Solicitation, Conspir Commit Murder</span> <span class="charge-tag charge-murder">Murder Of The Third Degree</span> <span class="charge-tag charge-murder">Conspiracy - Murder Of The Third Degree</span> </td>
+    <td><div><span class="plea-type">Guilty Plea</span> <span style="font-size:12px;color:#666;">(03/31/2026)</span></div></td>
+</tr>
+<tr>
+    <td><span class="new-badge">NEW</span></td>
+    <td><a href="dockets/CP-51-CR-0008379-2025.pdf" target="_blank">CP-51-CR-0008379-2025</a></td>
+    <td></td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td><div><span class="plea-type">Guilty Plea</span> <span style="font-size:12px;color:#666;">(05/28/2026)</span></div><div><span class="plea-type">Guilty Plea</span> <span style="font-size:12px;color:#666;">(04/23/2026)</span></div></td>
+</tr>
+</tbody></table>
 </div>
 </div>
 <div id="panel-watchlist" class="tab-panel">
@@ -141,6 +160,15 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <th>Status</th><th>Docket</th><th>Defendant</th><th>Charges</th><th>Source</th><th>Added</th><th>Plea</th>
 </tr></thead>
 <tbody>
+<tr>
+    <td><span class="status-plea">PLEA</span></td>
+    <td><a href="dockets/CP-51-CR-0008379-2025.pdf" target="_blank">CP-51-CR-0008379-2025</a></td>
+    <td></td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">broad_seed</td>
+    <td style="font-size:11px;">2026-05-28</td>
+    <td><span class="plea-type">Guilty Plea</span> <span style="font-size:11px;color:#666;">(05/28/2026)</span> <span class="plea-type">Guilty Plea</span> <span style="font-size:11px;color:#666;">(04/23/2026)</span> <div style="font-size:11px;color:#999;">First seen: 2026-05-29</div></td>
+</tr>
 <tr>
     <td><span class="status-plea">PLEA</span></td>
     <td><a href="dockets/CP-51-CR-0007692-2025.pdf" target="_blank">CP-51-CR-0007692-2025</a></td>
@@ -284,6 +312,15 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <td style="font-size:11px;">broad_seed</td>
     <td style="font-size:11px;">2026-05-28</td>
     <td><span class="plea-type">Guilty Plea</span> <span style="font-size:11px;color:#666;">(04/09/2026)</span> <span class="plea-type">Guilty Plea</span> <span class="plea-type">Guilty Plea</span> <span style="font-size:11px;color:#666;">(04/02/2026)</span> <div style="font-size:11px;color:#999;">First seen: 2026-05-28</div></td>
+</tr>
+<tr>
+    <td><span class="status-plea">PLEA</span></td>
+    <td><a href="dockets/CP-51-CR-0002149-2025.pdf" target="_blank">CP-51-CR-0002149-2025</a></td>
+    <td>Comm. v. White, Salik I.</td>
+    <td><span class="charge-tag charge-murder">Murder Of The First Degree</span> <span class="charge-tag charge-murder">Conspiracy - Murder Of The First Degree</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault</span> <span class="charge-tag charge-murder">Attempt, Solicitation, Conspir Commit Murder</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault</span> <span class="charge-tag charge-murder">Attempt, Solicitation, Conspir Commit Murder</span> <span class="charge-tag charge-murder">Murder Of The Third Degree</span> <span class="charge-tag charge-murder">Conspiracy - Murder Of The Third Degree</span> </td>
+    <td style="font-size:11px;">calendar</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span class="plea-type">Guilty Plea</span> <span style="font-size:11px;color:#666;">(03/31/2026)</span> <div style="font-size:11px;color:#999;">First seen: 2026-05-29</div></td>
 </tr>
 <tr>
     <td><span class="status-plea">PLEA</span></td>
@@ -1160,6 +1197,15 @@ if (sessionStorage.getItem('court_auth')==='1') {
 </tr>
 <tr>
     <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0012026-2013.pdf" target="_blank">CP-51-CR-0012026-2013</a></td>
+    <td>Comm. v. Kennedy, Unique S.</td>
+    <td><span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-murder">Conspiracy - Murder N 872225-4 H1 07/09/2013</span> </td>
+    <td style="font-size:11px;">calendar</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
     <td><a href="dockets/CP-51-CR-0008565-2025.pdf" target="_blank">CP-51-CR-0008565-2025</a></td>
     <td>Comm. v. Johnson, David</td>
     <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
@@ -1174,15 +1220,6 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <td><span class="charge-tag charge-sex">Rape of Child</span> </td>
     <td style="font-size:11px;">calendar</td>
     <td style="font-size:11px;">2026-05-27</td>
-    <td><span style="color:#999;font-size:12px;">None detected</span></td>
-</tr>
-<tr>
-    <td><span class="status-open">OPEN</span></td>
-    <td><a href="dockets/CP-51-CR-0008379-2025.pdf" target="_blank">CP-51-CR-0008379-2025</a></td>
-    <td></td>
-    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
-    <td style="font-size:11px;">broad_seed</td>
-    <td style="font-size:11px;">2026-05-28</td>
     <td><span style="color:#999;font-size:12px;">None detected</span></td>
 </tr>
 <tr>
@@ -1237,6 +1274,24 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
     <td style="font-size:11px;">calendar</td>
     <td style="font-size:11px;">2026-05-28</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0007036-2025.pdf" target="_blank">CP-51-CR-0007036-2025</a></td>
+    <td>Comm. v. Brogdon, Nasir</td>
+    <td><span class="charge-tag charge-murder">Murder</span> <span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> </td>
+    <td style="font-size:11px;">calendar</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0007035-2025.pdf" target="_blank">CP-51-CR-0007035-2025</a></td>
+    <td>Comm. v. Peoples, Nyzir</td>
+    <td><span class="charge-tag charge-murder">Murder</span> <span class="charge-tag charge-robbery">Robbery-Inflict Serious Bodily Injury</span> </td>
+    <td style="font-size:11px;">calendar</td>
+    <td style="font-size:11px;">2026-05-29</td>
     <td><span style="color:#999;font-size:12px;">None detected</span></td>
 </tr>
 <tr>
@@ -1385,11 +1440,218 @@ if (sessionStorage.getItem('court_auth')==='1') {
 </tr>
 <tr>
     <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003863-2025.pdf" target="_blank">CP-51-CR-0003863-2025</a></td>
+    <td>Comm. v. Forid, Fahmid A.</td>
+    <td><span class="charge-tag charge-murder">Homicide by Vehicle While DUI</span> <span class="charge-tag charge-murder">Homicide By Vehicle</span> <span class="charge-tag charge-murder">Involuntary Manslaughter</span> <span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-assault">Aggravated assault by vehicle</span> <span class="charge-tag charge-assault">Aggravated Assault By Vehicle While Dui</span> <span class="charge-tag charge-assault">Aggravated assault by vehicle</span> <span class="charge-tag charge-assault">Aggravated Assault By Vehicle While Dui</span> <span class="charge-tag charge-assault">Aggravated assault by vehicle</span> </td>
+    <td style="font-size:11px;">calendar</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
     <td><a href="dockets/CP-51-CR-0003659-2025.pdf" target="_blank">CP-51-CR-0003659-2025</a></td>
     <td>Comm. v. Eisenberg, Richard L.</td>
     <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
     <td style="font-size:11px;">calendar</td>
     <td style="font-size:11px;">2026-05-28</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003519-2026.pdf" target="_blank">CP-51-CR-0003519-2026</a></td>
+    <td>Comm. v. Healy-Fields, William</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003515-2026.pdf" target="_blank">CP-51-CR-0003515-2026</a></td>
+    <td>Comm. v. LOPEZ, ANTONIO</td>
+    <td><span class="charge-tag charge-sex">Rape of Child</span> <span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-assault">Agg. Ind. Assault of Child</span> <span class="charge-tag charge-sex">Sexual Assault</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003514-2026.pdf" target="_blank">CP-51-CR-0003514-2026</a></td>
+    <td>Comm. v. Bendy, Yanira Z.</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003513-2026.pdf" target="_blank">CP-51-CR-0003513-2026</a></td>
+    <td>Comm. v. Goodwin, Zion A.</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Strangulation - Applying Pressure to Throat or Nec</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003510-2026.pdf" target="_blank">CP-51-CR-0003510-2026</a></td>
+    <td>Comm. v. Belotte, Marven</td>
+    <td><span class="charge-tag charge-assault">Strangulation - Applying Pressure to Throat or Nec</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003508-2026.pdf" target="_blank">CP-51-CR-0003508-2026</a></td>
+    <td>Comm. v. Blair, Ernest C.</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003507-2026.pdf" target="_blank">CP-51-CR-0003507-2026</a></td>
+    <td>Comm. v. Lopez, Antonio J.</td>
+    <td><span class="charge-tag charge-sex">Rape of Child</span> <span class="charge-tag charge-sex">Invol. Deviate Sexual Intercourse W/Child</span> <span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-other">Photograph/Film/Depict on Computer Sex Act - Knowi</span> <span class="charge-tag charge-sex">Sexual Assault</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003506-2026.pdf" target="_blank">CP-51-CR-0003506-2026</a></td>
+    <td>Comm. v. Lopez, Antonio J.</td>
+    <td><span class="charge-tag charge-sex">Rape of Child</span> <span class="charge-tag charge-sex">Invol. Deviate Sexual Intercourse W/Child</span> <span class="charge-tag charge-sex">Sexual Assault</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003505-2026.pdf" target="_blank">CP-51-CR-0003505-2026</a></td>
+    <td>Comm. v. Lopez, Antonio J.</td>
+    <td><span class="charge-tag charge-sex">Criminal Attempt - Rape of Child</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-other">Photograph/Film/Depict on Computer Sex Act - Knowi</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003502-2026.pdf" target="_blank">CP-51-CR-0003502-2026</a></td>
+    <td>Comm. v. Taylor, Serena</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003501-2026.pdf" target="_blank">CP-51-CR-0003501-2026</a></td>
+    <td>Comm. v. Hill, Russell</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003500-2026.pdf" target="_blank">CP-51-CR-0003500-2026</a></td>
+    <td>Comm. v. Freeman, Kwmaine</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Strangulation - Applying Pressure to Throat or Nec</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003497-2026.pdf" target="_blank">CP-51-CR-0003497-2026</a></td>
+    <td>Comm. v. Williams, Elmer</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003489-2026.pdf" target="_blank">CP-51-CR-0003489-2026</a></td>
+    <td>Comm. v. Meleski, Anthony</td>
+    <td><span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-robbery">Robbery-Inflict Serious Bodily Injury</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003486-2026.pdf" target="_blank">CP-51-CR-0003486-2026</a></td>
+    <td>Comm. v. Mitchell, Joshua</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003481-2026.pdf" target="_blank">CP-51-CR-0003481-2026</a></td>
+    <td>Comm. v. Henry, Saleem</td>
+    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003480-2026.pdf" target="_blank">CP-51-CR-0003480-2026</a></td>
+    <td>Comm. v. Sanders, Kyisheen D.</td>
+    <td><span class="charge-tag charge-assault">Aggravated assault by vehicle</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003479-2026.pdf" target="_blank">CP-51-CR-0003479-2026</a></td>
+    <td>Comm. v. Ross, Wasim</td>
+    <td><span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003478-2026.pdf" target="_blank">CP-51-CR-0003478-2026</a></td>
+    <td>Comm. v. Brown, Stephen A.</td>
+    <td><span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003477-2026.pdf" target="_blank">CP-51-CR-0003477-2026</a></td>
+    <td>Comm. v. Brooks, Nasiir</td>
+    <td><span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003476-2026.pdf" target="_blank">CP-51-CR-0003476-2026</a></td>
+    <td>Comm. v. Freeman, Kaseem S.</td>
+    <td><span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003475-2026.pdf" target="_blank">CP-51-CR-0003475-2026</a></td>
+    <td>Comm. v. Keita, Abou</td>
+    <td><span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">felony_filings</td>
+    <td style="font-size:11px;">2026-05-29</td>
     <td><span style="color:#999;font-size:12px;">None detected</span></td>
 </tr>
 <tr>
