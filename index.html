@@ -30,6 +30,7 @@
     .card-calendars { border-top: 4px solid #e65100; }
     .card-business { border-top: 4px solid #2c3e50; }
     .card-montco { border-top: 4px solid #d35400; }
+    .card-delco { border-top: 4px solid #16a085; }
     .section-divider { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 30px; }
     .section-divider hr { border: none; border-top: 1px solid #ddd; }
     .section-divider h3 { color: #666; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 15px; }
@@ -180,6 +181,13 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <h2>Lower Merion Court</h2>
         <p>New lawsuits, judgments, and hearings in Montgomery County CCP where a party or property is in Lower Merion Township. Updated weekly.</p>
         <a href="montco_lm_dashboard.html">View Cases</a>
+    </div>
+
+    <div class="card card-delco">
+        <div class="icon">&#x1f3db;&#xfe0f;</div>
+        <h2>Media Borough Court</h2>
+        <p>Civil cases in Delaware County CCP where a party has a Media (19063) address. Torts, contracts, real property, and appeals.</p>
+        <a href="delco_media_dashboard.html">View Cases</a>
     </div>
 </div>
 
