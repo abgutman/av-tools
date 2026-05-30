@@ -2,14 +2,12 @@
 
 NOINDEX_META = '<meta name="robots" content="noindex, nofollow">'
 
-PASSWORD_HASH = "503749c9f5f4de031709a4cef33041f579cac84019cab7df4e3feb856bfb3b17"
+PASSWORD_HASH = "c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336"
 
 AUTH_GATE_HTML = f"""
 <div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
   <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
-    <div style="font-size:28px;margin-bottom:12px;">&#128274;</div>
-    <h2 style="margin:0 0 8px;font-size:20px;color:#1a1a2e;">Philadelphia Court Monitor</h2>
-    <p style="color:#666;font-size:13px;margin-bottom:20px;">Enter password to continue</p>
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
     <input id="auth-pw" type="password" placeholder="Password" autofocus
       style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
       onkeydown="if(event.key==='Enter')checkPw()">
@@ -41,8 +39,11 @@ if (sessionStorage.getItem('court_auth')==='1') {{
 """
 
 
+HOME_LINK = '<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;left:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av\'s Tools Homepage</a>'
+
+
 def inject_auth(html):
-    """Add noindex meta and password gate to an HTML page string."""
+    """Add noindex meta, password gate, and home link to an HTML page string."""
     html = html.replace("<head>", f"<head>\n{NOINDEX_META}", 1)
-    html = html.replace("<body>", f"<body>\n{AUTH_GATE_HTML}", 1)
+    html = html.replace("<body>", f"<body>\n{AUTH_GATE_HTML}\n{HOME_LINK}", 1)
     return html

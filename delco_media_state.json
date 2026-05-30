@@ -1,0 +1,170 @@
+{
+  "cases": {
+    "CV-2026-005079": {
+      "case_id": "01c2171f9270fa40977b3820770a7b13d596ad4fbf2a9107879e8c1bf6ec377b",
+      "case_number": "CV-2026-005079",
+      "title": "Wells Fargo Bank, N.A. v. MORRIS",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-23",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:25.184150"
+    },
+    "CV-2026-005076": {
+      "case_id": "9c0f1187745196dcc636b1600a340dd40568a29b72810d0a553bbcd4d443b300",
+      "case_number": "CV-2026-005076",
+      "title": "Wells Fargo Bank, N.A. v. XIANG",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-23",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:25.544414"
+    },
+    "CV-2026-005083": {
+      "case_id": "7e8bb65c247e35d9b0301465fc6aa8a315e42940084161f1e44cade091c51441",
+      "case_number": "CV-2026-005083",
+      "title": "Wells Fargo Bank, N.A. v. CAPONE",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-23",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:25.899932"
+    },
+    "CV-2026-005080": {
+      "case_id": "f6ea4bb883a96bdc2fd79b9bd4f1928ea02610446de2d06dbdce800f2b07a35f",
+      "case_number": "CV-2026-005080",
+      "title": "WELLS FARGO BANK, N.A. v. MINH",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-23",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:26.319309"
+    },
+    "CV-2026-005087": {
+      "case_id": "e58d09fb2dbbdde1020c9b44606f08d17b56930e2fa56b7097e4c5f3f261373f",
+      "case_number": "CV-2026-005087",
+      "title": "Wells Fargo Bank, N.A. v. HYATT JR",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-23",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:26.670898"
+    },
+    "CV-2026-005067": {
+      "case_id": "09fa511e8f890997d1d2f5f019e889042880d2b61871b46f23323322f44d7731",
+      "case_number": "CV-2026-005067",
+      "title": "Wells Fargo Bank, N.A. v. SHILLER",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-23",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:27.023558"
+    },
+    "CV-2026-005068": {
+      "case_id": "0b7c554dab17e93eac5e41134afafa1c7c2acae8d90ef23b52945a0025463c63",
+      "case_number": "CV-2026-005068",
+      "title": "Wells Fargo Bank, N.A. v. STEPHEN",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-23",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:27.416488"
+    },
+    "CV-2026-005093": {
+      "case_id": "118014f197e144a1627d708276171408c0caacf0335ac11810a8f6f035b142cc",
+      "case_number": "CV-2026-005093",
+      "title": "PNC BANK, NATIONAL ASSOCIATION v. DURANT et al",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-05-26",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:27.768686"
+    },
+    "CV-2026-005084": {
+      "case_id": "b6c9f00c375201ba380a364df40ae99ba9e111e2a119ce53ee35e18c65a2aeee",
+      "case_number": "CV-2026-005084",
+      "title": "A&F Good Homes, LLC v. Robinson",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Landlord/Tenant Dispute",
+      "filed_date": "2026-05-26",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:28.128356"
+    },
+    "CV-2026-005113": {
+      "case_id": "7702912f2e9c8b479c8221d37f9ee3ed6b8bef8c1c59527a724cc49c91ed4078",
+      "case_number": "CV-2026-005113",
+      "title": "Robinson v. MEACHUM",
+      "case_type": "Civil Appeal",
+      "classification": "Civil - Civil Appeal - Civil Appeal: Other",
+      "filed_date": "2026-05-26",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:28.479647"
+    },
+    "CV-2026-005119": {
+      "case_id": "7fa134cfb929db2bb0d73dda9f3e072a834603391053a874867102816169670e",
+      "case_number": "CV-2026-005119",
+      "title": "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY v. Strassle",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Contract: Other",
+      "filed_date": "2026-05-27",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:28.827942"
+    },
+    "CV-2026-005124": {
+      "case_id": "e2fe0fab7f745e84395d6d53cb28cfca276d0f339b8998616ff147e44ee7dd6d",
+      "case_number": "CV-2026-005124",
+      "title": "CAPITAL ONE, N.A. successor by merger to DISCOVER BANK v. BROWN",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-27",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:29.190616"
+    },
+    "CV-2026-005128": {
+      "case_id": "3d1d49b2354a778e6303faa4ab7f78dfcf584293e82ee9eb96da4060c864a2e2",
+      "case_number": "CV-2026-005128",
+      "title": "Bank of America, N.A. v. Kaba",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-27",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:29.551084"
+    },
+    "CV-2026-005120": {
+      "case_id": "9d63ecf9a829b8ae77c4beb9620252d84f75600daedccf81bd4cea834cefe1d9",
+      "case_number": "CV-2026-005120",
+      "title": "FREEDOM MORTGAGE CORPORATION v. Kreider",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-05-27",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:29.994385"
+    },
+    "CV-2026-005125": {
+      "case_id": "48d19a08810e520e1bde523b795f62de596a2684a6f73fa7b184f19f2bcf33b8",
+      "case_number": "CV-2026-005125",
+      "title": "HEADWAY CAPITAL, LLC. v. EGAN CONTRACTING INC et al",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Contract: Other",
+      "filed_date": "2026-05-27",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-05-30T18:08:30.360741"
+    }
+  },
+  "last_run": "2026-05-30T18:08:30.666996"
+}

@@ -2,7 +2,7 @@ name: Daily Court Scrape
 
 on:
   schedule:
-    - cron: '30 9 * * 1-5'  # 9:30 UTC = 5:30 AM ET (EDT), Mon-Fri
+    - cron: '0 9 * * 1-5'  # 9:00 UTC = 5:00 AM ET (EDT), Mon-Fri
   workflow_dispatch:
 
 permissions:
@@ -23,22 +23,13 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: |
-          pip install playwright PyPDF2
-          playwright install chromium
-          playwright install-deps chromium
+        run: pip install requests
 
-      - name: Fetch court calendar
-        run: python fetch_philly_calendar.py
+      - name: Fetch Lower Merion cases (Montco)
+        run: python fetch_montco_lm.py --daily
 
-      - name: Fetch new felony filings
-        run: python fetch_philly_felonies.py
-
-      - name: Fetch plea calendar
-        run: python fetch_philly_pleas.py
-
-      - name: Run plea watch (daily mode)
-        run: python fetch_plea_watch.py --daily
+      - name: Fetch Media cases (Delco)
+        run: python fetch_delco_media.py --daily
 
       - name: Commit and push changes
         run: |
