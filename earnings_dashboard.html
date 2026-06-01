@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<title>Earnings Calendar — Av's Tools</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; background: #f6f6f7; color: #1a1a2e; }
+.container { max-width: 1700px; margin: 30px auto; padding: 0 24px; }
+h1 { font-size: 28px; margin: 0 0 6px; }
+.meta { color: #6c757d; font-size: 13px; margin-bottom: 24px; }
+.legend { background: white; padding: 10px 14px; border-radius: 6px; margin-bottom: 16px; font-size: 12.5px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); display: flex; gap: 18px; flex-wrap: wrap; }
+.legend strong { display: inline-block; min-width: 88px; }
+.tbl { background: white; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; width: 100%; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { background: #1a1a2e; color: white; text-align: left; padding: 9px 12px; font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.4px; }
+td { padding: 9px 12px; border-bottom: 1px solid #ececef; vertical-align: top; }
+tr:hover { background: #fafbfc; }
+.next { font-weight: 600; white-space: nowrap; }
+.tk { font-family: ui-monospace, monospace; font-weight: 700; color: #2c5282; }
+.nm { font-weight: 500; }
+.cnty { color: #6c757d; font-size: 11px; }
+.dim { color: #999; font-size: 11px; }
+.fye, .lastrel, .wire, .ec { font-size: 12px; color: #495057; }
+.notes { font-size: 11.5px; color: #6c757d; max-width: 260px; }
+.links { font-size: 12px; }
+.links a { color: #2c5282; text-decoration: none; font-weight: 500; }
+.links a:hover { text-decoration: underline; }
+.sep { color: #ccc; padding: 0 3px; }
+.tinylink { font-size: 10.5px; color: #888 !important; font-weight: 400 !important; }
+.overdue { color: #d63031; font-weight: 700; }
+.today { color: #d63031; font-weight: 700; background: #ffeaa7; padding: 1px 5px; border-radius: 3px; }
+.soon { color: #e17055; font-weight: 700; }
+h2 { font-size: 17px; margin: 28px 0 10px; }
+.divider { background: #f0f1f3; }
+.divider td { padding: 6px 12px; font-size: 11px; text-transform: uppercase; color: #6c757d; font-weight: 600; letter-spacing: 0.5px; }
+</style>
+</head>
+<body>
+
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;left:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
+<div class="container">
+  <h1>Earnings Calendar — Tracked Companies</h1>
+  <p class="meta">
+    29 public companies HQ'd in the 8-county Philadelphia region.
+    Predicted dates derived from EDGAR 8-K (item 2.02) filing history.
+    Three signal endpoints per company: IR page, press wire (BusinessWire/GlobeNewswire/PR Newswire/self), and EDGAR filings feed.
+    Updated 2026-06-01 12:45.
+  </p>
+
+  <div class="legend">
+    <span><strong>IR</strong> — investor relations page</span>
+    <span><strong>Press</strong> — company press-release listing</span>
+    <span><strong>EDGAR</strong> — SEC filings index (canonical)</span>
+    <span><strong>Call</strong> — earnings-call audio/transcript</span>
+    <span><strong>Wire</strong> — third-party wire vendor for earnings releases</span>
+  </div>
+
+  <div class="tbl">
+  <table>
+    <thead>
+      <tr>
+        <th>Next predicted</th>
+        <th>Ticker</th>
+        <th>Company</th>
+        <th>Location</th>
+        <th>FYE</th>
+        <th>Last release</th>
+        <th>Signals</th>
+        <th>Wire</th>
+        <th>Earnings call</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="divider"><td colspan="10">Upcoming (28)</td></tr>
+      
+    <tr>
+      <td class="next"><span class="today">2026-06-01 (TODAY)</span></td>
+      <td class="tk">PASG</td>
+      <td class="nm">Passage BIO, Inc.</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-03-03<br><span class="dim">Tue</span></td>
+      <td class="links">
+        <a href="https://investors.passagebio.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investors.passagebio.com/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001787297&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investors.passagebio.com/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Passage%2520Bio" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">GlobeNewswire. Smaller biotech — less consistent cadence.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-06-12 (in 11d)</td>
+      <td class="tk">CPB</td>
+      <td class="nm">CAMPBELL'S Co</td>
+      <td class="loc">CAMDEN<br><span class="cnty">Camden Co. (NJ)</span></td>
+      <td class="fye">08/03</td>
+      <td class="lastrel">2026-03-11<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://investor.campbellsoupcompany.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investor.campbellsoupcompany.com/news" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000016732&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investor.campbellsoupcompany.com/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Campbell+Soup" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire. Fiscal year Jul 31. Now legally 'The Campbell's Co'.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-06-24 (in 23d)</td>
+      <td class="tk">FIVE</td>
+      <td class="nm">FIVE BELOW, INC</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">01/30</td>
+      <td class="lastrel">2026-03-18<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://investor.fivebelow.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investor.fivebelow.com/news/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001177609&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investor.fivebelow.com/news/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Five%2520Below" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">GlobeNewswire. Audio webcast.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-20 (in 49d)</td>
+      <td class="tk">HRMY</td>
+      <td class="nm">Harmony Biosciences Holdings, Inc.</td>
+      <td class="loc">PLYMOUTH MEETING<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-07<br><span class="dim">Tue</span></td>
+      <td class="links">
+        <a href="https://ir.harmonybiosciences.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.harmonybiosciences.com/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001802665&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.harmonybiosciences.com/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Harmony%2520Biosciences" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">GlobeNewswire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-22 (in 51d)</td>
+      <td class="tk">SEIC</td>
+      <td class="nm">SEI INVESTMENTS CO</td>
+      <td class="loc">OAKS<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-22<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://www.seic.com/about-sei/investor-relations" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.seic.com/insights/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000350894&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.seic.com/about-sei/investor-relations/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=SEI+Investments" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-23 (in 52d)</td>
+      <td class="tk">CMCSA</td>
+      <td class="nm">COMCAST CORP</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-23<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://www.cmcsa.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.cmcsa.com/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001166691&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.cmcsa.com/events-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">Self-hosted</td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">Self-hosts everything on cmcsa.com; also files via 8-K. Quarterly earnings call audio archived.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-23 (in 52d)</td>
+      <td class="tk">BDN</td>
+      <td class="nm">BRANDYWINE REALTY TRUST</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-23<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://www.brandywinerealty.com/investors" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.brandywinerealty.com/investors/news-and-events/news" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000790816&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.brandywinerealty.com/investors/news-and-events/events" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Brandywine%2520Realty%2520Trust" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">GlobeNewswire confirmed by user link example. REIT — declares dividend + earnings same day usually.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-28 (in 57d)</td>
+      <td class="tk">UHS</td>
+      <td class="nm">UNIVERSAL HEALTH SERVICES INC</td>
+      <td class="loc">KING OF PRUSSIA<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-28<br><span class="dim">Tue</span></td>
+      <td class="links">
+        <a href="https://ir.uhsinc.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.uhsinc.com/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000352915&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.uhsinc.com/events" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Universal+Health+Services" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-29 (in 58d)</td>
+      <td class="tk">FMC</td>
+      <td class="nm">FMC CORP</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-29<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://investors.fmc.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investors.fmc.com/news-events/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000037785&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investors.fmc.com/news-events/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?ndmViewId=news_view&newsId=*FMC*" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire press releases; full call replays.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-29 (in 58d)</td>
+      <td class="tk">IRT</td>
+      <td class="nm">INDEPENDENCE REALTY TRUST, INC.</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-29<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://ir.irtliving.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.irtliving.com/news/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001466085&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.irtliving.com/news/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Independence%2520Realty%2520Trust" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">GlobeNewswire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-29 (in 58d)</td>
+      <td class="tk">AXTA</td>
+      <td class="nm">Axalta Coating Systems Ltd.</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-30<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://ir.axalta.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.axalta.com/news-and-events/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001616862&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.axalta.com/news-and-events/events" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">PR Newswire <a href="https://www.prnewswire.com/news/axalta" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">PR Newswire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-29 (in 58d)</td>
+      <td class="tk">OFLX</td>
+      <td class="nm">Omega Flex, Inc.</td>
+      <td class="loc">EXTON<br><span class="cnty">Chester Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-29<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://www.omegaflex.com/investor-relations" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.omegaflex.com/news" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001317945&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        
+      </td>
+      <td class="wire">Self-hosted</td>
+      <td class="ec">No call hosted</td>
+      <td class="notes">Small cap — self-hosted releases, no earnings call typically.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-29 (in 58d)</td>
+      <td class="tk">AWK</td>
+      <td class="nm">American Water Works Company, Inc.</td>
+      <td class="loc">CAMDEN<br><span class="cnty">Camden Co. (NJ)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-29<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://ir.amwater.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.amwater.com/news-events/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001410636&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.amwater.com/news-events/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=American+Water" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-30 (in 59d)</td>
+      <td class="tk">AME</td>
+      <td class="nm">AMETEK INC/</td>
+      <td class="loc">BERWYN<br><span class="cnty">Chester Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-04-30<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://investors.ametek.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investors.ametek.com/news/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001037868&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investors.ametek.com/news/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">PR Newswire <a href="https://www.prnewswire.com/news/ametek-inc" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">PR Newswire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-07-30 (in 59d)</td>
+      <td class="tk">OCGN</td>
+      <td class="nm">Ocugen, Inc.</td>
+      <td class="loc">MALVERN<br><span class="cnty">Chester Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-07<br><span class="dim">Tue</span></td>
+      <td class="links">
+        <a href="https://ir.ocugen.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.ocugen.com/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001372299&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.ocugen.com/events-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Ocugen" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">GlobeNewswire. Smaller biotech.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-04 (in 64d)</td>
+      <td class="tk">UIS</td>
+      <td class="nm">UNISYS CORP</td>
+      <td class="loc">BLUE BELL<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-05<br><span class="dim">Tue</span></td>
+      <td class="links">
+        <a href="https://www.unisys.com/investor-relations/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.unisys.com/newsroom/news-releases/" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000746838&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.unisys.com/investor-relations/events-and-presentations/" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Unisys" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-05 (in 65d)</td>
+      <td class="tk">COR</td>
+      <td class="nm">Cencora, Inc.</td>
+      <td class="loc">CONSHOHOCKEN<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">09/30</td>
+      <td class="lastrel">2026-05-06<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://investor.cencora.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investor.cencora.com/news-events/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001140859&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investor.cencora.com/news-events/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Cencora" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire. Formerly AmerisourceBergen. Fiscal year Sep 30.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-05 (in 65d)</td>
+      <td class="tk">LRMR</td>
+      <td class="nm">Larimar Therapeutics, Inc.</td>
+      <td class="loc">BALA CYNWYD<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-14<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://ir.larimartx.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.larimartx.com/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001374690&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.larimartx.com/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Larimar%2520Therapeutics" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">GlobeNewswire. Bala Cynwyd biotech.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-06 (in 66d)</td>
+      <td class="tk">RDN</td>
+      <td class="nm">RADIAN GROUP INC</td>
+      <td class="loc">WAYNE<br><span class="cnty">Delaware Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-07<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://www.radian.com/investors" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.radian.com/investors/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000890926&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.radian.com/investors/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Radian+Group" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-06 (in 66d)</td>
+      <td class="tk">LNC</td>
+      <td class="nm">LINCOLN NATIONAL CORP</td>
+      <td class="loc">RADNOR<br><span class="cnty">Delaware Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-07<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://investor.lincolnfinancial.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investor.lincolnfinancial.com/news-events/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000059558&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investor.lincolnfinancial.com/news-events/events" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Lincoln+Financial" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-06 (in 66d)</td>
+      <td class="tk">BSY</td>
+      <td class="nm">BENTLEY SYSTEMS INC</td>
+      <td class="loc">EXTON<br><span class="cnty">Chester Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-07<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://investors.bentley.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investors.bentley.com/news-releases/news-release-details" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001031308&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investors.bentley.com/news-and-events/events" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Bentley%2520Systems" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">GlobeNewswire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-06 (in 66d)</td>
+      <td class="tk">WTRG</td>
+      <td class="nm">Essential Utilities, Inc.</td>
+      <td class="loc">BRYN MAWR<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-07<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://investor.essential.co/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investor.essential.co/news" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000078128&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investor.essential.co/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Essential+Utilities" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">BusinessWire. Aqua + Peoples Gas parent.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-06 (in 66d)</td>
+      <td class="tk">UGI</td>
+      <td class="nm">UGI CORP /PA/</td>
+      <td class="loc">KING OF PRUSSIA<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">09/30</td>
+      <td class="lastrel">2026-05-07<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://www.ugicorp.com/investors" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.ugicorp.com/investors/news" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884614&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.ugicorp.com/investors/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=UGI+Corp" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire. AmeriGas subsidiary.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-11 (in 71d)</td>
+      <td class="tk">ARMK</td>
+      <td class="nm">Aramark</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">10/02</td>
+      <td class="lastrel">2026-05-12<br><span class="dim">Tue</span></td>
+      <td class="links">
+        <a href="https://www.aramark.com/about-us/investors" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investors.aramark.com/news-events/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001584509&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investors.aramark.com/news-events/events" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/news/?ndmConfigId=1000007&newsLang=en&beanID=2042389517&viewID=news_view_archive&filterName=Aramark" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">Uses BusinessWire wire historically. IR site has webcast archives.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-12 (in 72d)</td>
+      <td class="tk">VSH</td>
+      <td class="nm">VISHAY INTERTECHNOLOGY INC</td>
+      <td class="loc">MALVERN<br><span class="cnty">Chester Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-13<br><span class="dim">Wed</span></td>
+      <td class="links">
+        <a href="https://ir.vishay.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.vishay.com/financials/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000103730&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.vishay.com/events-and-presentations/events-calendar" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Vishay" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-18 (in 78d)</td>
+      <td class="tk">TOL</td>
+      <td class="nm">Toll Brothers, Inc.</td>
+      <td class="loc">FORT WASHINGTON<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">10/31</td>
+      <td class="lastrel">2026-05-19<br><span class="dim">Tue</span></td>
+      <td class="links">
+        <a href="https://investors.tollbrothers.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://investors.tollbrothers.com/news" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000794170&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://investors.tollbrothers.com/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Toll+Brothers" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio + transcript</td>
+      <td class="notes">BusinessWire. Non-Dec fiscal year (Oct 31 FY-end).</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-19 (in 79d)</td>
+      <td class="tk">INO</td>
+      <td class="nm">INOVIO PHARMACEUTICALS, INC.</td>
+      <td class="loc">PLYMOUTH MEETING<br><span class="cnty">Montgomery Co. (PA)</span></td>
+      <td class="fye">12/31</td>
+      <td class="lastrel">2026-05-13<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://ir.inovio.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://ir.inovio.com/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001055726&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://ir.inovio.com/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">GlobeNewswire <a href="https://www.globenewswire.com/en/search/organization/Inovio%2520Pharmaceuticals" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">GlobeNewswire.</td>
+    </tr>
+    <tr>
+      <td class="next">2026-08-25 (in 85d)</td>
+      <td class="tk">BURL</td>
+      <td class="nm">Burlington Stores, Inc.</td>
+      <td class="loc">BURLINGTON<br><span class="cnty">Burlington Co. (NJ)</span></td>
+      <td class="fye">02/01</td>
+      <td class="lastrel">2026-05-28<br><span class="dim">Thu</span></td>
+      <td class="links">
+        <a href="https://www.burlingtoninvestors.com/" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.burlingtoninvestors.com/news/news-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579298&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.burlingtoninvestors.com/news/events-and-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Burlington+Stores" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">BusinessWire. Retail fiscal calendar.</td>
+    </tr>
+      <tr class="divider"><td colspan="10">Past / no upcoming date (1)</td></tr>
+      
+    <tr>
+      <td class="next"></td>
+      <td class="tk">URBN</td>
+      <td class="nm">URBAN OUTFITTERS INC</td>
+      <td class="loc">PHILADELPHIA<br><span class="cnty">Philadelphia</span></td>
+      <td class="fye">01/31</td>
+      <td class="lastrel">—<br><span class="dim"></span></td>
+      <td class="links">
+        <a href="https://www.urbn.com/investors" target="_blank" rel="noopener">IR</a>
+        <span class="sep">·</span>
+        <a href="https://www.urbn.com/investors/press-releases" target="_blank" rel="noopener">Press</a>
+        <span class="sep">·</span>
+        <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912615&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">EDGAR</a>
+        <span class="sep">·</span><a href="https://www.urbn.com/investors/events-presentations" target="_blank" rel="noopener">Call</a>
+      </td>
+      <td class="wire">BusinessWire <a href="https://www.businesswire.com/portal/site/home/?searchTerm=Urban+Outfitters" target="_blank" rel="noopener" class="tinylink">search</a></td>
+      <td class="ec">Audio only</td>
+      <td class="notes">BusinessWire.</td>
+    </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+</body>
+</html>
