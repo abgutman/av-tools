@@ -20,7 +20,7 @@ STATE_LM = "montco_lm_state.json"
 STATE_MEDIA = "delco_media_state.json"
 LOOKBACK_DAYS = 7
 
-FIRST_MESSAGE = """Bonjour Denali! I hope your sister's graduation was wonderful, and that you enjoy Montreal. Vive le Québec libre! I've been playing with building internal reporting tools, mostly for fun, and built a local tracker for court cases with plaintiff or defendant from Lower Merion and Greater Media. I'm not sure it's helpful but click around and tell me if you think this can be useful to you — I can also try to expand it, make it smaller. Whatever you want! It currently looks at Delco and Montco courts, so no cases from there that were filed in Philly Common Pleas (which would be a good chunk). This has been a great learning experience for me, so even if you don't use it at all no worries. Just tell me so I won't maintain it. Oh and it will send you this digest every week on Monday morning with everything from the past week. And no, the fact that I literally have a list of Lower Merion Zip codes will not make me ever stop asking you, what is Lower Merion?!"""
+FIRST_MESSAGE = """Bonjour Denali! I hope your sister's graduation was wonderful, and that you enjoy Montreal. Vive le Québec libre! I've been playing with building internal reporting tools, mostly for fun, and built a local tracker for court cases with plaintiff or defendant from Lower Merion and Greater Media. I'm not sure it's helpful but click around and tell me if you think this can be useful to you — I can also try to expand it, make it smaller. Whatever you want! It currently looks at Delco and Montco courts, so no cases from there that were filed in Philly Common Pleas (which would be a good chunk). This has been a great learning experience for me, so even if you don't use it at all no worries. Just tell me so I won't maintain it. Oh and it will send you this digest every week on Monday morning with everything from the past week if you'd like. And no, the fact that I literally have a list of Lower Merion Zip codes will not make me ever stop asking you, what is Lower Merion?!"""
 
 
 def esc(text):
@@ -200,7 +200,8 @@ def send_digest(include_first_message=False):
 
     user = os.environ["GMAIL_USER"]
     pwd = os.environ["GMAIL_APP_PASSWORD"]
-    to = os.environ.get("ALERT_TO") or "agutman@inquirer.com"
+    to = os.environ.get("ALERT_TO") or "dsagner@inquirer.com"
+    cc = os.environ.get("ALERT_CC") or "agutman@inquirer.com"
 
     now_str = datetime.now().strftime("%b %d")
     msg = EmailMessage()
@@ -210,6 +211,7 @@ def send_digest(include_first_message=False):
         msg["Subject"] = f"Lower Merion and Greater Media court tracker — {now_str}"
     msg["From"] = user
     msg["To"] = to
+    msg["Cc"] = cc
     msg.set_content(build_plaintext(lm_recent, media_recent, include_first_message))
     msg.add_alternative(build_email_html(lm_recent, media_recent, include_first_message), subtype="html")
 
@@ -218,7 +220,7 @@ def send_digest(include_first_message=False):
         s.login(user, pwd)
         s.send_message(msg)
 
-    print(f"Digest sent to {to}")
+    print(f"Digest sent to {to} (cc: {cc})")
 
 
 def main():
