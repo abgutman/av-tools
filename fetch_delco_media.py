@@ -352,13 +352,28 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
 .addr {{ color: #666; }}
 .empty {{ color: #999; font-style: italic; padding: 20px; text-align: center; }}
 .footer {{ text-align: center; padding: 30px; color: #999; font-size: 12px; }}
+.nav {{ display: flex; justify-content: center; gap: 12px; padding: 12px 20px; background: #eee; border-bottom: 1px solid #ddd; }}
+.nav a {{ font-size: 14px; font-weight: 600; color: #2c3e50; text-decoration: none; padding: 6px 16px; border-radius: 6px; }}
+.nav a:hover {{ background: #ddd; }}
+.nav a.current {{ background: #2c3e50; color: white; }}
+.blurb {{ max-width: 900px; margin: 20px auto 0; padding: 16px 20px; background: #fff; border-radius: 8px; font-size: 13px; color: #555; line-height: 1.6; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }}
+.blurb strong {{ color: #333; }}
 </style>
 </head>
 <body>
 
 <div class="header">
     <h1>Greater Media Civil Cases</h1>
-    <div class="meta">Delaware County Court of Common Pleas | Updated {now.strftime("%B %d, %Y at %I:%M %p")} | Last {LOOKBACK_DAYS} days</div>
+    <div class="meta">Delaware County Court of Common Pleas | Updated {now.strftime("%B %d, %Y at %I:%M %p")}</div>
+</div>
+
+<div class="nav">
+    <a href="montco_lm_dashboard.html">Lower Merion</a>
+    <a href="delco_media_dashboard.html" class="current">Greater Media</a>
+</div>
+
+<div class="blurb">
+    <strong>What this shows:</strong> All civil cases filed in Delaware County Court of Common Pleas in the past {LOOKBACK_DAYS} days where at least one party has an address in the Greater Media area &mdash; Media (19063, 19065, 19091), Swarthmore (19081), or Wallingford (19086). Municipal liens and non-reportable cases are excluded. Cases appear here for {LOOKBACK_DAYS} days from their filing date, then drop off. Data is refreshed daily at 5 AM.
 </div>
 
 <div class="tabs">

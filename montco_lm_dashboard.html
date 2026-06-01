@@ -41,6 +41,12 @@ summary { cursor: pointer; font-size: 13px; color: #1b3a4b; font-weight: 600; }
 .docket-date { white-space: nowrap; color: #666; }
 .empty { color: #999; font-style: italic; padding: 20px; text-align: center; }
 .footer { text-align: center; padding: 30px; color: #999; font-size: 12px; }
+.nav { display: flex; justify-content: center; gap: 12px; padding: 12px 20px; background: #eee; border-bottom: 1px solid #ddd; }
+.nav a { font-size: 14px; font-weight: 600; color: #1b3a4b; text-decoration: none; padding: 6px 16px; border-radius: 6px; }
+.nav a:hover { background: #ddd; }
+.nav a.current { background: #1b3a4b; color: white; }
+.blurb { max-width: 900px; margin: 20px auto 0; padding: 16px 20px; background: #fff; border-radius: 8px; font-size: 13px; color: #555; line-height: 1.6; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.blurb strong { color: #333; }
 </style>
 </head>
 <body>
@@ -81,7 +87,16 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion Civil Cases</h1>
-    <div class="meta">Montgomery County Court of Common Pleas | Updated June 01, 2026 at 07:43 AM | Last 7 days</div>
+    <div class="meta">Montgomery County Court of Common Pleas | Updated June 01, 2026 at 07:58 AM</div>
+</div>
+
+<div class="nav">
+    <a href="montco_lm_dashboard.html" class="current">Lower Merion</a>
+    <a href="delco_media_dashboard.html">Greater Media</a>
+</div>
+
+<div class="blurb">
+    <strong>What this shows:</strong> All civil cases filed in Montgomery County Court of Common Pleas in the past 7 days where at least one party has an address in a Lower Merion Township zip code (Ardmore, Bala Cynwyd, Bryn Mawr, Gladwyne, Haverford, Merion Station, Narberth, Havertown, Villanova, Wynnewood). Liens are excluded. Cases appear here for 7 days from their filing date, then drop off. Data is refreshed daily at 5 AM.
 </div>
 
 <div class="tabs">
