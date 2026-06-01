@@ -40,7 +40,7 @@ jobs:
         run: |
           DAY=$(date -u +%a)
           if [ "$DAY" = "Mon" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python send_local_digest.py
+            python send_local_digest.py --first
           else
             echo "Not Monday, skipping digest"
           fi
