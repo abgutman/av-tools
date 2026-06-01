@@ -1,0 +1,51 @@
+name: Earnings EDGAR Poll
+
+# SAFETY NOTES (Phase 2a — initial deploy):
+#   1. Schedule trigger is COMMENTED OUT below. Workflow only runs on manual dispatch
+#      until Av reviews and enables it.
+#   2. `poll_edgar.py` is invoked WITHOUT the `--live` flag — alerts are logged to the
+#      action log but NOT emailed. Flip `--live` on when you're ready for real emails.
+
+on:
+  workflow_dispatch:
+  # When ready to go live, uncomment and adjust the schedule:
+  # schedule:
+  #   # Every 5 min, 11:00-13:55 UTC = 7:00-9:55 AM ET (EDT), weekdays
+  #   - cron: '*/5 11-13 * * 1-5'
+  #   # 4 PM ET (EDT) evening single shot = 20:00 UTC, weekdays
+  #   - cron: '0 20 * * 1-5'
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run EDGAR poll (no --live → logs alerts but does NOT email)
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          # NOTE: --live flag is intentionally absent. To enable real emails,
+          # add `--live` to the command below AFTER reviewing the action logs.
+          python poll_edgar.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add earnings_data/last_seen.json earnings_data/poll_log.txt 2>/dev/null || true
+          git diff --cached --quiet && echo "No state changes" && exit 0
+          git commit -m "Earnings poll state update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
