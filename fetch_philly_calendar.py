@@ -470,14 +470,16 @@ def build_index_html():
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Philadelphia Court Monitor</title>
+<title>Av's Tools</title>
 <style>
     * {{ box-sizing: border-box; margin: 0; padding: 0; }}
     body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; min-height: 100vh; }}
     .header {{ background: #1a1a2e; color: white; padding: 40px 30px; text-align: center; }}
     .header h1 {{ font-size: 32px; margin-bottom: 8px; }}
     .header .meta {{ color: #aaa; font-size: 14px; }}
-    .cards {{ display: flex; gap: 25px; padding: 40px 30px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }}
+    .section-header {{ max-width: 1100px; margin: 30px auto 0; padding: 0 30px; }}
+    .section-header h2 {{ font-size: 18px; color: #555; border-bottom: 2px solid #ddd; padding-bottom: 6px; }}
+    .cards {{ display: flex; gap: 25px; padding: 20px 30px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }}
     .card {{ background: white; border-radius: 12px; padding: 30px; width: 320px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.15s, box-shadow 0.15s; }}
     .card:hover {{ transform: translateY(-3px); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }}
     .card h2 {{ font-size: 20px; margin-bottom: 10px; }}
@@ -489,6 +491,11 @@ def build_index_html():
     .card-filings {{ border-top: 4px solid #c0392b; }}
     .card-pleas {{ border-top: 4px solid #8e1600; }}
     .card-plea-cal {{ border-top: 4px solid #d4a017; }}
+    .card-edpa {{ border-top: 4px solid #2e86c1; }}
+    .card-habeas {{ border-top: 4px solid #6c3483; }}
+    .card-appellate {{ border-top: 4px solid #1e8449; }}
+    .card-local {{ border-top: 4px solid #b9770e; }}
+    .card-business {{ border-top: 4px solid #566573; }}
     .footer {{ text-align: center; padding: 30px; color: #999; font-size: 12px; }}
 </style>
 </head>
@@ -496,10 +503,11 @@ def build_index_html():
 <div style="position:fixed;right:0;top:50%;transform:translateY(-50%);background:#c0392b;color:white;padding:12px 8px;font-size:11px;font-weight:700;letter-spacing:1px;writing-mode:vertical-rl;text-orientation:mixed;z-index:9999;border-radius:4px 0 0 4px;box-shadow:-2px 0 8px rgba(0,0,0,0.2);">DO NOT CITE DIRECTLY — ALWAYS CHECK THE DOCKET</div>
 
 <div class="header">
-    <h1>Philadelphia Court Monitor</h1>
-    <div class="meta">Daily tools for crime reporters | Last updated {now}</div>
+    <h1>Av's Tools</h1>
+    <div class="meta">Last updated {now}</div>
 </div>
 
+<div class="section-header"><h2>Philadelphia Criminal Courts</h2></div>
 <div class="cards">
     <div class="card card-calendar">
         <div class="icon">&#x1f4c5;</div>
@@ -530,8 +538,76 @@ def build_index_html():
     </div>
 </div>
 
+<div class="section-header"><h2>Federal &mdash; Eastern District of Pennsylvania</h2></div>
+<div class="cards">
+    <div class="card card-edpa">
+        <div class="icon">&#x1f3db;</div>
+        <h2>DOJ Civil Cases</h2>
+        <p>New civil cases filed by or against the U.S. government in E.D. Pa. Environmental enforcement, civil rights, fraud, and asset forfeiture actions.</p>
+        <a href="civil_edpa_dashboard.html">View Cases</a>
+    </div>
+
+    <div class="card card-habeas">
+        <div class="icon">&#x1f513;</div>
+        <h2>Habeas Corpus</h2>
+        <p>New habeas corpus petitions filed in E.D. Pa. Challenges to state and federal convictions, immigration detention, and other custody disputes.</p>
+        <a href="habeas_edpa.html">View Petitions</a>
+    </div>
+</div>
+
+<div class="section-header"><h2>PA &amp; Federal Appellate Courts</h2></div>
+<div class="cards">
+    <div class="card card-appellate">
+        <div class="icon">&#x1f4c4;</div>
+        <h2>New Filings</h2>
+        <p>Recent filings at the PA Supreme, Superior, and Commonwealth Courts plus the Third Circuit. Ranked by precedential value and Philadelphia relevance.</p>
+        <a href="https://abgutman.github.io/court-feed/index.html#filings">View Filings</a>
+    </div>
+
+    <div class="card card-appellate">
+        <div class="icon">&#x1f4dc;</div>
+        <h2>Opinions</h2>
+        <p>Published and non-published opinions from PA appellate courts and the Third Circuit. Filtered and ranked for newsworthiness.</p>
+        <a href="https://abgutman.github.io/court-feed/index.html#opinions">View Opinions</a>
+    </div>
+
+    <div class="card card-appellate">
+        <div class="icon">&#x1f4c5;</div>
+        <h2>Calendars</h2>
+        <p>Upcoming oral argument calendars for PA appellate courts and the Third Circuit.</p>
+        <a href="https://abgutman.github.io/court-feed/index.html#calendars">View Calendars</a>
+    </div>
+</div>
+
+<div class="section-header"><h2>Local</h2></div>
+<div class="cards">
+    <div class="card card-local">
+        <div class="icon">&#x1f3d8;</div>
+        <h2>Lower Merion Court</h2>
+        <p>Civil cases in Montgomery County CCP where a party has a Lower Merion address. New lawsuits, judgments, and hearings from the past 7 days.</p>
+        <a href="montco_lm_dashboard.html">View Cases</a>
+    </div>
+
+    <div class="card card-local">
+        <div class="icon">&#x1f3d8;</div>
+        <h2>Greater Media Court</h2>
+        <p>Civil cases in Delaware County CCP involving Media, Swarthmore, or Wallingford addresses. New filings and judgments from the past 7 days.</p>
+        <a href="delco_media_dashboard.html">View Cases</a>
+    </div>
+</div>
+
+<div class="section-header"><h2>Business</h2></div>
+<div class="cards">
+    <div class="card card-business">
+        <div class="icon">&#x1f4c8;</div>
+        <h2>Earnings Reports TK</h2>
+        <p>Coming soon.</p>
+        <a href="#" style="opacity:0.5;pointer-events:none;">Coming Soon</a>
+    </div>
+</div>
+
 <div class="footer">
-    The Philadelphia Inquirer | Data from PA Unified Judicial System Portal
+    The Philadelphia Inquirer
 </div>
 
 </body>

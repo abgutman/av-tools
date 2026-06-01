@@ -2,7 +2,7 @@ name: Daily Court Scrape
 
 on:
   schedule:
-    - cron: '0 9 * * 1-5'  # 9:00 UTC = 5:00 AM ET (EDT), Mon-Fri
+    - cron: '0 9 * * *'  # 9:00 UTC = 5:00 AM ET (EDT), every day
   workflow_dispatch:
 
 permissions:

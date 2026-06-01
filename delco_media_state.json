@@ -164,7 +164,165 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-05-30T18:08:30.360741"
+    },
+    "CV-2026-005186": {
+      "case_id": "223104d2b442b32076d7172e1195481cf2fcc8452806380595d01069aaaa540c",
+      "case_number": "CV-2026-005186",
+      "title": "Ferraiolo v. Ferraiolo",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - Divorce with 3 counts",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:27.029051"
+    },
+    "CV-2026-005193": {
+      "case_id": "77410550948bcb5cee2a1fec523a69d39e12abfbbad10f0054306cde420e9989",
+      "case_number": "CV-2026-005193",
+      "title": "Firmani v. Kelly",
+      "case_type": "Custody",
+      "classification": "Family - Custody - Custody / Partial Custody / Shared Custody / Visitation",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:27.387470"
+    },
+    "CV-2026-005203": {
+      "case_id": "e195dff60d8976f1cb543a68f8c4984ada6f93626cdb04efb6d3d7be1e08ceb5",
+      "case_number": "CV-2026-005203",
+      "title": "Onity Mortgage Corporation f/k/a PHH Mortgage Corporation successor to merger to Ocwen Loan Servicing, LLC v. Thomas et al",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:27.741166"
+    },
+    "CV-2026-005204": {
+      "case_id": "3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88",
+      "case_number": "CV-2026-005204",
+      "title": "Adams v. Morroni",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Contract: Other",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_parties": [
+        {
+          "name": "Kimberly Adams",
+          "role": "Plaintiff",
+          "address": "534 Williamson Circle, Media PA 19063",
+          "zip": "19063"
+        }
+      ],
+      "judge": "",
+      "status": null,
+      "first_seen": "2026-06-01T07:43:28.194455",
+      "detail_url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88"
+    },
+    "CV-2026-005216": {
+      "case_id": "f494681a432613cf46007a059a8eb6ed73400e5ff8348bd982ab2600a82ab37b",
+      "case_number": "CV-2026-005216",
+      "title": "SEGICH v. ERIE INSURANCE COMPANY",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Buyer Plaintiff",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:28.546315"
+    },
+    "CV-2026-005187": {
+      "case_id": "1fc1b7bcf18ed49d3c5db78190207144adf053a092de185ecc3e76c3bd1dec56",
+      "case_number": "CV-2026-005187",
+      "title": "Drexel Tov, LLC v. Bridges",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Landlord/Tenant Dispute",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:28.904876"
+    },
+    "CV-2026-005188": {
+      "case_id": "2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b",
+      "case_number": "CV-2026-005188",
+      "title": "Collazo et al v. Breischaft et al",
+      "case_type": "Tort",
+      "classification": "Civil - Tort - Motor Vehicle",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_parties": [
+        {
+          "name": "Robert Karl Breischaft",
+          "role": "Defendant",
+          "address": "324 State Road, Media PA 19063",
+          "zip": "19063"
+        },
+        {
+          "name": "Nick Falcone & Sons Inc.",
+          "role": "Defendant",
+          "address": "650 Painter Street, Media PA 19063",
+          "zip": "19063"
+        }
+      ],
+      "judge": "",
+      "status": null,
+      "first_seen": "2026-06-01T07:43:29.327085",
+      "detail_url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b"
+    },
+    "CV-2026-005190": {
+      "case_id": "f5de2147fceee1d1e44c8ba1a3dddc4d358d708ec2f1affbd1bf94893229e1dc",
+      "case_number": "CV-2026-005190",
+      "title": "COUNTY BAIL BONDS v. NORTHERN et al",
+      "case_type": "Judgment",
+      "classification": "Civil NR - Judgment - MDJ Transfer",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:29.678217"
+    },
+    "CV-2026-005191": {
+      "case_id": "318a35ca17b3a99811451d59713f0d25983703392476c147d66c77faffffb5c1",
+      "case_number": "CV-2026-005191",
+      "title": "Dillon v. Momolu",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - No Fault Only",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:30.032124"
+    },
+    "CV-2026-005199": {
+      "case_id": "1df21acfb14e7ab93a42cd84118a996c843988db8a9512b9fc6baacd5e2228ef",
+      "case_number": "CV-2026-005199",
+      "title": "Franklin Mint Federal Credit Union v. Haynes",
+      "case_type": "Judgment",
+      "classification": "Civil NR - Judgment - MDJ Transfer",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:30.381571"
+    },
+    "CV-2026-005202": {
+      "case_id": "67f1c1ac4c15a1d47cd5e28137545b940d9ad83a3c581054b0a24e0d1239dd6d",
+      "case_number": "CV-2026-005202",
+      "title": "PENNSYLVANIA HOUSING FINANCE AGENCY v. WILLIAMS et al",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:30.822387"
+    },
+    "CV-2026-005211": {
+      "case_id": "9a3dffc0c2352e47e5a5d37ff019b16f520be7e04a55f0c3184fe7faa1a0d1d5",
+      "case_number": "CV-2026-005211",
+      "title": "Miller Remington LLC v. Robinson et al",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Landlord/Tenant Dispute",
+      "filed_date": "2026-05-29",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-01T07:43:31.170544"
     }
   },
-  "last_run": "2026-05-30T18:08:30.666996"
+  "last_run": "2026-06-01T07:43:31.478726"
 }

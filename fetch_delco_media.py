@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Delaware County Court of Common Pleas — Media Borough Civil Case Tracker
+Delaware County Court of Common Pleas — Greater Media Civil Case Tracker
 
-Fetches new civil cases, checks party addresses for Media PA (19063),
+Fetches new civil cases, checks party addresses for Greater Media area,
 and builds an HTML dashboard showing new lawsuits, judgments, and hearings.
 
 Data source: https://delcopublicaccess.co.delaware.pa.us/
@@ -29,8 +29,15 @@ STATE_FILE = "delco_media_state.json"
 OUTPUT_HTML = "delco_media_dashboard.html"
 LOOKBACK_DAYS = 7
 
-MEDIA_ZIPS = {"19063", "19065", "19091"}
-MEDIA_CITY = "media"
+MEDIA_ZIPS = {"19063", "19065", "19081", "19086", "19091"}
+ZIP_NAMES = {
+    "19063": "Media",
+    "19065": "Media (east)",
+    "19081": "Swarthmore",
+    "19086": "Wallingford",
+    "19091": "Media (PO Box)",
+}
+MEDIA_CITIES = {"media", "swarthmore", "wallingford"}
 
 SKIP_CASE_TYPES = {"Municipal Lien", "Lien", "Non-Reportable"}
 
@@ -140,7 +147,7 @@ def check_media(parties_data):
             postal = (addr_info.get("postalCode") or "").strip()
             city = (addr_info.get("city") or "").strip().lower()
 
-            is_media = any(postal.startswith(z) for z in MEDIA_ZIPS) or city == MEDIA_CITY
+            is_media = any(postal.startswith(z) for z in MEDIA_ZIPS) or city in MEDIA_CITIES
 
             if is_media:
                 display_name = name_info.get("displayName", "")
@@ -257,11 +264,24 @@ def esc(text):
     return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
+FORECLOSURE_KEYWORDS = {"mortgage foreclosure", "foreclosure", "mortgage", "ejectment"}
+
+
+def is_foreclosure(case):
+    ct = (case.get("case_type") or "").lower()
+    cl = (case.get("classification") or "").lower()
+    return any(kw in ct or kw in cl for kw in FORECLOSURE_KEYWORDS)
+
+
 def build_dashboard(media_cases):
-    """Build the HTML dashboard."""
+    """Build the HTML dashboard with tabs."""
     now = datetime.now()
 
-    media_cases.sort(key=lambda x: x.get("filed_date", ""), reverse=True)
+    foreclosures = [c for c in media_cases if is_foreclosure(c)]
+    other = [c for c in media_cases if not is_foreclosure(c)]
+
+    for lst in (media_cases, foreclosures, other):
+        lst.sort(key=lambda x: x.get("filed_date", ""), reverse=True)
 
     def case_row(c):
         party_lines = ""
@@ -287,25 +307,36 @@ def build_dashboard(media_cases):
             {party_lines}
         </div>'''
 
-    if not media_cases:
-        cards = '<div class="empty">No Media cases found in the last 7 days.</div>'
-    else:
-        cards = '\n'.join(case_row(c) for c in media_cases)
+    def section(title, icon, cases, section_id):
+        if not cases:
+            cards = '<div class="empty">No cases found in this category.</div>'
+        else:
+            cards = '\n'.join(case_row(c) for c in cases)
+        return f'''<div class="section" id="{section_id}">
+            <h2>{icon} {title} <span class="count">({len(cases)})</span></h2>
+            {cards}
+        </div>'''
 
     html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Media Borough Civil Cases — Delaware County CCP</title>
+<title>Greater Media Civil Cases — Delaware County CCP</title>
 <style>
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }}
 .header {{ background: #2c3e50; color: white; padding: 30px; text-align: center; }}
 .header h1 {{ font-size: 26px; margin-bottom: 6px; }}
 .header .meta {{ color: #aaa; font-size: 13px; }}
+.tabs {{ display: flex; justify-content: center; gap: 10px; padding: 20px; background: #fff; border-bottom: 1px solid #ddd; flex-wrap: wrap; }}
+.tab {{ padding: 8px 18px; border-radius: 20px; cursor: pointer; font-size: 14px; font-weight: 600; border: 2px solid #ddd; background: white; }}
+.tab.active {{ background: #2c3e50; color: white; border-color: #2c3e50; }}
+.tab:hover {{ border-color: #2c3e50; }}
 .content {{ max-width: 900px; margin: 0 auto; padding: 20px; }}
-.content h2 {{ font-size: 20px; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #2c3e50; }}
+.section {{ display: none; }}
+.section.active {{ display: block; }}
+.section h2 {{ font-size: 20px; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #2c3e50; }}
 .count {{ color: #888; font-weight: normal; font-size: 16px; }}
 .case-card {{ background: white; border-radius: 8px; padding: 18px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-left: 4px solid #2c3e50; }}
 .case-header {{ display: flex; align-items: center; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }}
@@ -326,18 +357,35 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
 <body>
 
 <div class="header">
-    <h1>Media Borough Civil Cases</h1>
+    <h1>Greater Media Civil Cases</h1>
     <div class="meta">Delaware County Court of Common Pleas | Updated {now.strftime("%B %d, %Y at %I:%M %p")} | Last {LOOKBACK_DAYS} days</div>
 </div>
 
+<div class="tabs">
+    <div class="tab active" onclick="showTab('filings')">New Filings ({len(other)})</div>
+    <div class="tab" onclick="showTab('foreclosures')">Foreclosures ({len(foreclosures)})</div>
+    <div class="tab" onclick="showTab('all')">All Cases ({len(media_cases)})</div>
+</div>
+
 <div class="content">
-    <h2>Civil Cases with Media Addresses <span class="count">({len(media_cases)})</span></h2>
-    {cards}
+    {section("New Filings", "&#x1f4c4;", other, "filings")}
+    {section("Foreclosures", "&#x1f3e0;", foreclosures, "foreclosures")}
+    {section("All Greater Media Cases", "&#x1f4cb;", media_cases, "all")}
 </div>
 
 <div class="footer">
-    Data from Delaware County C-Track Public Access | Filtered for Media area (19063, 19065, 19091)
+    Data from Delaware County C-Track Public Access | Filtered for Greater Media area (19063, 19065, 19081, 19086, 19091)
 </div>
+
+<script>
+function showTab(id) {{
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    event.target.classList.add('active');
+}}
+document.getElementById('filings').classList.add('active');
+</script>
 
 </body>
 </html>'''

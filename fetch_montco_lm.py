@@ -316,6 +316,14 @@ def fetch_and_filter(session, date_from, date_to, state):
     return lm_cases
 
 
+FORECLOSURE_KEYWORDS = {"mortgage foreclosure", "foreclosure", "mortgage", "ejectment"}
+
+
+def is_foreclosure(case):
+    ct = (case.get("case_type") or "").lower()
+    return any(kw in ct for kw in FORECLOSURE_KEYWORDS)
+
+
 def build_dashboard(lm_cases):
     """Build the HTML dashboard."""
     now = datetime.now()
@@ -323,8 +331,11 @@ def build_dashboard(lm_cases):
     filings = []
     judgments = []
     hearings = []
+    foreclosures = []
 
     for c in lm_cases:
+        if is_foreclosure(c):
+            foreclosures.append(c)
         if "events" not in c:
             continue
         if "filing" in c["events"]:
@@ -337,6 +348,7 @@ def build_dashboard(lm_cases):
     filings.sort(key=lambda x: x.get("commenced", ""), reverse=True)
     judgments.sort(key=lambda x: x.get("commenced", ""), reverse=True)
     hearings.sort(key=lambda x: x.get("commenced", ""), reverse=True)
+    foreclosures.sort(key=lambda x: x.get("commenced", ""), reverse=True)
 
     def case_row(c):
         zips = c.get("lm_zips", [])
@@ -440,6 +452,7 @@ summary {{ cursor: pointer; font-size: 13px; color: #1b3a4b; font-weight: 600; }
 
 <div class="tabs">
     <div class="tab active" onclick="showTab('filings')">New Lawsuits ({len(filings)})</div>
+    <div class="tab" onclick="showTab('foreclosures')">Foreclosures ({len(foreclosures)})</div>
     <div class="tab" onclick="showTab('judgments')">Judgments ({len(judgments)})</div>
     <div class="tab" onclick="showTab('hearings')">Hearings ({len(hearings)})</div>
     <div class="tab" onclick="showTab('all')">All Cases ({len(lm_cases)})</div>
@@ -447,6 +460,7 @@ summary {{ cursor: pointer; font-size: 13px; color: #1b3a4b; font-weight: 600; }
 
 <div class="content">
     {section("New Lawsuits Filed", "&#x1f4c4;", filings, "filings")}
+    {section("Foreclosures", "&#x1f3e0;", foreclosures, "foreclosures")}
     {section("Judgments", "&#x2696;&#xfe0f;", judgments, "judgments")}
     {section("Hearings &amp; Scheduled Events", "&#x1f4c5;", hearings, "hearings")}
     {section("All Lower Merion Cases", "&#x1f4cb;", lm_cases, "all")}

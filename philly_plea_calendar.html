@@ -80,9 +80,8 @@ if (sessionStorage.getItem('court_auth')==='1') {
   document.getElementById('auth-gate').remove();
 }
 </script>
+
 <a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;left:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
-
-
 <div style="position:fixed;right:0;top:50%;transform:translateY(-50%);background:#c0392b;color:white;padding:12px 8px;font-size:11px;font-weight:700;letter-spacing:1px;writing-mode:vertical-rl;text-orientation:mixed;z-index:9999;border-radius:4px 0 0 4px;box-shadow:-2px 0 8px rgba(0,0,0,0.2);">DO NOT CITE DIRECTLY — ALWAYS CHECK THE DOCKET</div>
 
 <div style="background:#1a1a2e;padding:10px 30px;">
@@ -96,11 +95,11 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Plea Calendar</h1>
-    <div class="meta">Updated May 29, 2026 at 02:48 PM</div>
+    <div class="meta">Updated June 01, 2026 at 07:41 AM</div>
 </div>
 
 <div class="stats">
-    <div class="stat"><div class="number">30</div><div class="label">Target Offense Status Hearings</div></div>
+    <div class="stat"><div class="number">38</div><div class="label">Target Offense Status Hearings</div></div>
     <div class="stat"><div class="number">18</div><div class="label">Scheduled Plea Hearings</div></div>
     <div class="stat"><div class="number">5</div><div class="label">Court Days</div></div>
 </div>
@@ -115,7 +114,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 </div>
 
 <div class="tab-bar">
-    <button class="tab active" onclick="switchTab('status')">Status — Serious Felonies<span class="tab-count">30</span></button>
+    <button class="tab active" onclick="switchTab('status')">Status — Serious Felonies<span class="tab-count">38</span></button>
     <button class="tab" onclick="switchTab('pleas')">Plea Hearings<span class="tab-count">18</span></button>
 </div>
 <div id="panel-status" class="tab-panel active">
@@ -123,42 +122,6 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <input type="text" id="search-status" placeholder="Search name, docket, charge..." oninput="filterPanel('status')">
 </div>
 <div class="content">
-
-<div class="day-section">
-    <div class="day-header">Friday, May 29, 2026<span class="count">4 events</span></div>
-    <table><thead><tr>
-        <th>Time</th><th>Room</th><th>Docket</th><th>Defendant</th><th>Target Charges</th>
-    </tr></thead><tbody>
-        <tr>
-            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
-            <td style="white-space:nowrap">907</td>
-            <td><a href="dockets/CP-51-CR-0003300-2025.pdf" target="_blank">CP-51-CR-0003300-2025</a></td>
-            <td>Comm. v. Sturgis, Demetrius D.</td>
-            <td><span class="charge-tag charge-murder">Murder</span> </td>
-        </tr>
-        <tr>
-            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
-            <td style="white-space:nowrap">1007</td>
-            <td><a href="dockets/CP-51-CR-0004257-2025.pdf" target="_blank">CP-51-CR-0004257-2025</a></td>
-            <td>Comm. v. Williams-Hightower, Khari</td>
-            <td><span class="charge-tag charge-murder">Murder Of The Third Degree</span> <span class="charge-tag charge-assault">Strangulation - Applying Pressure to Throat or Neck</span> </td>
-        </tr>
-        <tr>
-            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
-            <td style="white-space:nowrap">901</td>
-            <td><a href="dockets/CP-51-CR-0008140-2024.pdf" target="_blank">CP-51-CR-0008140-2024</a></td>
-            <td>Comm. v. Aidoo, Stephen</td>
-            <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or causes injury </span> <span class="charge-tag charge-assault">Aggravated Assault By Vehicle While Dui</span> </td>
-        </tr>
-        <tr>
-            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
-            <td style="white-space:nowrap">507</td>
-            <td><a href="dockets/CP-51-CR-0008879-2021.pdf" target="_blank">CP-51-CR-0008879-2021</a></td>
-            <td>Comm. v. Glover, Clarence</td>
-            <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes BI with dea</span> </td>
-        </tr>
-    </tbody></table>
-</div>
 
 <div class="day-section">
     <div class="day-header">Monday, June 01, 2026<span class="count">5 events</span></div>
@@ -370,6 +333,98 @@ if (sessionStorage.getItem('court_auth')==='1') {
             <td><a href="dockets/CP-51-CR-0012026-2013.pdf" target="_blank">CP-51-CR-0012026-2013</a></td>
             <td>Comm. v. Kennedy, Unique S.</td>
             <td><span class="charge-tag charge-murder">Recent entries made in the court filing offices may not be i</span> <span class="charge-tag charge-assault">Conspiracy - Murder N 872225-4 H1 07/09/2013</span> </td>
+        </tr>
+    </tbody></table>
+</div>
+
+<div class="day-section">
+    <div class="day-header">Friday, June 05, 2026<span class="count">12 events</span></div>
+    <table><thead><tr>
+        <th>Time</th><th>Room</th><th>Docket</th><th>Defendant</th><th>Target Charges</th>
+    </tr></thead><tbody>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">604</td>
+            <td><a href="dockets/CP-51-CR-0002792-2026.pdf" target="_blank">CP-51-CR-0002792-2026</a></td>
+            <td>Comm. v. Timms, April</td>
+            <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes BI with dea</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or causes injury </span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">604</td>
+            <td><a href="dockets/CP-51-CR-0005141-2025.pdf" target="_blank">CP-51-CR-0005141-2025</a></td>
+            <td>Comm. v. Timms, April R.</td>
+            <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes BI with dea</span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">807</td>
+            <td><a href="dockets/CP-51-CR-0005808-2024.pdf" target="_blank">CP-51-CR-0005808-2024</a></td>
+            <td>Comm. v. Simmons, Khaleed</td>
+            <td><span class="charge-tag charge-murder">Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Victim Less Than 13 and Defendant 18 or</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or causes injury </span> <span class="charge-tag charge-assault">Aggravated Assault - Victim Less Than 13 and Defendant 18 or</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or causes injury </span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">807</td>
+            <td><a href="dockets/CP-51-CR-0005810-2024.pdf" target="_blank">CP-51-CR-0005810-2024</a></td>
+            <td>Comm. v. Simmons, Khaleed</td>
+            <td><span class="charge-tag charge-murder">Murder</span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">1007</td>
+            <td><a href="dockets/CP-51-CR-0006088-2012.pdf" target="_blank">CP-51-CR-0006088-2012</a></td>
+            <td>Comm. v. Riley, Daniel</td>
+            <td><span class="charge-tag charge-murder">Murder Of The First Degree N 793835-0 H1 09/30/2011</span> <span class="charge-tag charge-assault">Robbery-Inflict Serious Bodily Injury N 793835-0 F1 09/30/20</span> <span class="charge-tag charge-assault">Conspiracy - Robbery-Inflict Serious Bodily InjuryN 793835-0</span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">701</td>
+            <td><a href="dockets/CP-51-CR-0006849-2024.pdf" target="_blank">CP-51-CR-0006849-2024</a></td>
+            <td>Comm. v. Dip, Koleeyana</td>
+            <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or causes injury </span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">607</td>
+            <td><a href="dockets/CP-51-CR-0007746-2024.pdf" target="_blank">CP-51-CR-0007746-2024</a></td>
+            <td>Comm. v. Perkins, Raymond</td>
+            <td><span class="charge-tag charge-murder">Recent entries made in the court filing offices may not be i</span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">907</td>
+            <td><a href="dockets/CP-51-CR-0008115-2025.pdf" target="_blank">CP-51-CR-0008115-2025</a></td>
+            <td>Comm. v. McDonald, Nickalus</td>
+            <td><span class="charge-tag charge-assault">Recent entries made in the court filing offices may not be i</span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">901</td>
+            <td><a href="dockets/CP-51-CR-0008333-2025.pdf" target="_blank">CP-51-CR-0008333-2025</a></td>
+            <td>Comm. v. Heyward, Clarence</td>
+            <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or causes injury </span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">907</td>
+            <td><a href="dockets/CP-51-CR-0009096-2022.pdf" target="_blank">CP-51-CR-0009096-2022</a></td>
+            <td>Comm. v. Fonseca-Claudio, Joel</td>
+            <td><span class="charge-tag charge-murder">Murder</span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">907</td>
+            <td><a href="dockets/CP-51-CR-0009097-2022.pdf" target="_blank">CP-51-CR-0009097-2022</a></td>
+            <td>Comm. v. Rivera, Nathalie</td>
+            <td><span class="charge-tag charge-murder">Murder</span> </td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;white-space:nowrap">09:00 AM</td>
+            <td style="white-space:nowrap">701</td>
+            <td><a href="dockets/CP-51-CR-0009804-2021.pdf" target="_blank">CP-51-CR-0009804-2021</a></td>
+            <td>Comm. v. Herrera, Jose</td>
+            <td><span class="charge-tag charge-assault">Recent entries made in the court filing offices may not be i</span> <span class="charge-tag charge-assault">Criminal Attempt - Murder</span> </td>
         </tr>
     </tbody></table>
 </div>

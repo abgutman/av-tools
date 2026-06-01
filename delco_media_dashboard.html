@@ -4,15 +4,21 @@
 <meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Media Borough Civil Cases — Delaware County CCP</title>
+<title>Greater Media Civil Cases — Delaware County CCP</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
 .header { background: #2c3e50; color: white; padding: 30px; text-align: center; }
 .header h1 { font-size: 26px; margin-bottom: 6px; }
 .header .meta { color: #aaa; font-size: 13px; }
+.tabs { display: flex; justify-content: center; gap: 10px; padding: 20px; background: #fff; border-bottom: 1px solid #ddd; flex-wrap: wrap; }
+.tab { padding: 8px 18px; border-radius: 20px; cursor: pointer; font-size: 14px; font-weight: 600; border: 2px solid #ddd; background: white; }
+.tab.active { background: #2c3e50; color: white; border-color: #2c3e50; }
+.tab:hover { border-color: #2c3e50; }
 .content { max-width: 900px; margin: 0 auto; padding: 20px; }
-.content h2 { font-size: 20px; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #2c3e50; }
+.section { display: none; }
+.section.active { display: block; }
+.section h2 { font-size: 20px; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #2c3e50; }
 .count { color: #888; font-weight: normal; font-size: 16px; }
 .case-card { background: white; border-radius: 8px; padding: 18px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-left: 4px solid #2c3e50; }
 .case-header { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
@@ -67,18 +73,174 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;left:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
 
 <div class="header">
-    <h1>Media Borough Civil Cases</h1>
-    <div class="meta">Delaware County Court of Common Pleas | Updated May 30, 2026 at 06:08 PM | Last 7 days</div>
+    <h1>Greater Media Civil Cases</h1>
+    <div class="meta">Delaware County Court of Common Pleas | Updated June 01, 2026 at 07:43 AM | Last 7 days</div>
+</div>
+
+<div class="tabs">
+    <div class="tab active" onclick="showTab('filings')">New Filings (6)</div>
+    <div class="tab" onclick="showTab('foreclosures')">Foreclosures (0)</div>
+    <div class="tab" onclick="showTab('all')">All Cases (6)</div>
 </div>
 
 <div class="content">
-    <h2>Civil Cases with Media Addresses <span class="count">(0)</span></h2>
-    <div class="empty">No Media cases found in the last 7 days.</div>
+    <div class="section" id="filings">
+            <h2>&#x1f4c4; New Filings <span class="count">(6)</span></h2>
+            <div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="case-number">CV-2026-005204</a>
+                <span class="case-type">Contract</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Adams v. Morroni</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Contract - Contract: Other</div>
+            <div class="media-party"><strong>Plaintiff:</strong> Kimberly Adams <span class="addr">534 Williamson Circle, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="case-number">CV-2026-005188</a>
+                <span class="case-type">Tort</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Collazo et al v. Breischaft et al</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Tort - Motor Vehicle</div>
+            <div class="media-party"><strong>Defendant:</strong> Robert Karl Breischaft <span class="addr">324 State Road, Media PA 19063</span></div><div class="media-party"><strong>Defendant:</strong> Nick Falcone &amp; Sons Inc. <span class="addr">650 Painter Street, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="case-number">CV-2026-005204</a>
+                <span class="case-type">Contract</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Adams v. Morroni</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Contract - Contract: Other</div>
+            <div class="media-party"><strong>Plaintiff:</strong> Kimberly Adams <span class="addr">534 Williamson Circle, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="case-number">CV-2026-005188</a>
+                <span class="case-type">Tort</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Collazo et al v. Breischaft et al</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Tort - Motor Vehicle</div>
+            <div class="media-party"><strong>Defendant:</strong> Robert Karl Breischaft <span class="addr">324 State Road, Media PA 19063</span></div><div class="media-party"><strong>Defendant:</strong> Nick Falcone &amp; Sons Inc. <span class="addr">650 Painter Street, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="case-number">CV-2026-005204</a>
+                <span class="case-type">Contract</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Adams v. Morroni</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Contract - Contract: Other</div>
+            <div class="media-party"><strong>Plaintiff:</strong> Kimberly Adams <span class="addr">534 Williamson Circle, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="case-number">CV-2026-005188</a>
+                <span class="case-type">Tort</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Collazo et al v. Breischaft et al</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Tort - Motor Vehicle</div>
+            <div class="media-party"><strong>Defendant:</strong> Robert Karl Breischaft <span class="addr">324 State Road, Media PA 19063</span></div><div class="media-party"><strong>Defendant:</strong> Nick Falcone &amp; Sons Inc. <span class="addr">650 Painter Street, Media PA 19063</span></div>
+        </div>
+        </div>
+    <div class="section" id="foreclosures">
+            <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
+            <div class="empty">No cases found in this category.</div>
+        </div>
+    <div class="section" id="all">
+            <h2>&#x1f4cb; All Greater Media Cases <span class="count">(6)</span></h2>
+            <div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="case-number">CV-2026-005204</a>
+                <span class="case-type">Contract</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Adams v. Morroni</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Contract - Contract: Other</div>
+            <div class="media-party"><strong>Plaintiff:</strong> Kimberly Adams <span class="addr">534 Williamson Circle, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="case-number">CV-2026-005188</a>
+                <span class="case-type">Tort</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Collazo et al v. Breischaft et al</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Tort - Motor Vehicle</div>
+            <div class="media-party"><strong>Defendant:</strong> Robert Karl Breischaft <span class="addr">324 State Road, Media PA 19063</span></div><div class="media-party"><strong>Defendant:</strong> Nick Falcone &amp; Sons Inc. <span class="addr">650 Painter Street, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="case-number">CV-2026-005204</a>
+                <span class="case-type">Contract</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Adams v. Morroni</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Contract - Contract: Other</div>
+            <div class="media-party"><strong>Plaintiff:</strong> Kimberly Adams <span class="addr">534 Williamson Circle, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="case-number">CV-2026-005188</a>
+                <span class="case-type">Tort</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Collazo et al v. Breischaft et al</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Tort - Motor Vehicle</div>
+            <div class="media-party"><strong>Defendant:</strong> Robert Karl Breischaft <span class="addr">324 State Road, Media PA 19063</span></div><div class="media-party"><strong>Defendant:</strong> Nick Falcone &amp; Sons Inc. <span class="addr">650 Painter Street, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="case-number">CV-2026-005204</a>
+                <span class="case-type">Contract</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3d1aa7edc6229253ed902eae76bbc5a5e7fe83ed6642d0fcb569d7267b544a88" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Adams v. Morroni</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Contract - Contract: Other</div>
+            <div class="media-party"><strong>Plaintiff:</strong> Kimberly Adams <span class="addr">534 Williamson Circle, Media PA 19063</span></div>
+        </div>
+<div class="case-card">
+            <div class="case-header">
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="case-number">CV-2026-005188</a>
+                <span class="case-type">Tort</span>
+                <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/2c45db77554a84251bf0cd2b1793cdb8fcd2812d7e2147a38dbb7bf6749eb73b" target="_blank" class="docket-link">View Docket &rarr;</a>
+            </div>
+            <div class="caption">Collazo et al v. Breischaft et al</div>
+            <div class="case-meta">Filed: 2026-05-29</div>
+            <div class="classification">Civil - Tort - Motor Vehicle</div>
+            <div class="media-party"><strong>Defendant:</strong> Robert Karl Breischaft <span class="addr">324 State Road, Media PA 19063</span></div><div class="media-party"><strong>Defendant:</strong> Nick Falcone &amp; Sons Inc. <span class="addr">650 Painter Street, Media PA 19063</span></div>
+        </div>
+        </div>
 </div>
 
 <div class="footer">
-    Data from Delaware County C-Track Public Access | Filtered for Media area (19063, 19065, 19091)
+    Data from Delaware County C-Track Public Access | Filtered for Greater Media area (19063, 19065, 19081, 19086, 19091)
 </div>
+
+<script>
+function showTab(id) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    event.target.classList.add('active');
+}
+document.getElementById('filings').classList.add('active');
+</script>
 
 </body>
 </html>
