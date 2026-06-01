@@ -200,7 +200,7 @@ def send_digest(include_first_message=False):
 
     user = os.environ["GMAIL_USER"]
     pwd = os.environ["GMAIL_APP_PASSWORD"]
-    to = os.environ.get("ALERT_TO", "agutman@inquirer.com")
+    to = os.environ.get("ALERT_TO") or "agutman@inquirer.com"
 
     now_str = datetime.now().strftime("%b %d")
     msg = EmailMessage()
