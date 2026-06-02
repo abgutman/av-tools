@@ -38,8 +38,11 @@ jobs:
         run: pip install curl-cffi
 
       - name: Run Yahoo upcoming poll
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
-          python poll_upcoming.py
+          python poll_upcoming.py --live
           python simple_dashboard.py
 
       - name: Commit + push if changed

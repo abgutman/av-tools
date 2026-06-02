@@ -20,6 +20,7 @@ Output: earnings_data/upcoming_dates.json — what the Upcoming page reads
 import json, os, sys, subprocess, re, html, time
 from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
+from email_utils import send_email, subject_save_the_date, body_save_the_date
 
 HERE = Path(__file__).parent
 ED = HERE / "earnings_data"
@@ -221,7 +222,8 @@ def save_upcoming(data):
 def main():
     args = sys.argv[1:]
     init_mode = "--init" in args
-    log(f"=== Yahoo upcoming-poll start (init={init_mode}) ===")
+    live = "--live" in args
+    log(f"=== Yahoo upcoming-poll start (init={init_mode}, live={live}) ===")
 
     companies = json.loads(COMPANIES_FILE.read_text())
     targets = [c for c in companies
@@ -300,6 +302,19 @@ def main():
             new_found += 1
             log(f"  + {ticker}: release={extracted.get('release_date')} call={extracted.get('call_date')} {extracted.get('call_time')}")
             log(f"    via: {title[:100]}")
+            if live:
+                try:
+                    name = c.get("name","") or c.get("seed_name","") or ticker
+                    send_email(
+                        subject_save_the_date(name, ticker),
+                        body_save_the_date(name, ticker,
+                            extracted.get("release_date"), extracted.get("call_date"),
+                            extracted.get("call_time"), item.get("link",""), title),
+                        log_fn=log,
+                    )
+                    log(f"  ✉ alert sent for {ticker}")
+                except Exception as e:
+                    log(f"  ⚠ email err for {ticker}: {e}")
 
         state[ticker] = seen
 

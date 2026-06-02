@@ -27,9 +27,8 @@ Usage:
   python3 simple_earnings.py edgar-poll     # refetch EDGAR submissions, detect new 8-K item 2.02 filings
   python3 simple_earnings.py poll --live    # also send emails
 """
-import json, os, sys, subprocess, smtplib, ssl, time
+import json, os, sys, subprocess, time
 from datetime import datetime, timezone, timedelta
-from email.mime.text import MIMEText
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -88,23 +87,7 @@ def title_matches_earnings(title):
 
 # ============ EMAIL ============
 
-EMAIL_TO = "agutman@inquirer.com"
-GMAIL_USER = os.environ.get("GMAIL_USER", "")
-GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
-
-def send_email(subject, body):
-    if not GMAIL_USER or not GMAIL_APP_PASSWORD:
-        log(f"⚠ No Gmail creds; would have sent: {subject}")
-        return False
-    msg = MIMEText(body, "plain")
-    msg["From"] = GMAIL_USER
-    msg["To"] = EMAIL_TO
-    msg["Subject"] = subject
-    ctx = ssl.create_default_context()
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx) as smtp:
-        smtp.login(GMAIL_USER, GMAIL_APP_PASSWORD)
-        smtp.send_message(msg)
-    return True
+from email_utils import send_email, subject_new_report, body_new_report_edgar, body_new_report_wire
 
 # ============ LOGGING ============
 
@@ -293,18 +276,12 @@ def edgar_poll(live=False):
         log(f"    {url}")
         if live:
             try:
-                subject = f"[earnings 8-K] {ticker} filed earnings press release ({latest['filing_date']})"
-                body = f"""\
-NEW SEC 8-K item 2.02 detected on EDGAR.
-
-Company:  {info.get('name','')} ({ticker})
-Filed:    {latest['filing_date']}
-Filing:   {url}
-
-This is the actual quarterly-earnings release. The wire press release typically
-posts 5-15 minutes before EDGAR accepts the 8-K.
-"""
-                send_email(subject, body)
+                name = info.get('name', ticker)
+                send_email(
+                    subject_new_report(name, ticker),
+                    body_new_report_edgar(name, ticker, latest['filing_date'], url),
+                    log_fn=log,
+                )
                 log(f"    ✉ alert sent")
             except Exception as e:
                 log(f"    ⚠ email err: {e}")
@@ -378,16 +355,18 @@ def poll_all(live=False):
         new_events_total += 1
 
         # Email alert
-        subject = f"[earnings] {ticker} — {latest['title'][:100]}"
-        body = format_email_body(ticker, info, latest)
+        name = info.get('name', ticker)
+        published_str = latest_dt.strftime('%A %B %d, %Y at %I:%M:%S %p ET')
+        subj = subject_new_report(name, ticker)
+        body = body_new_report_wire(name, ticker, published_str, latest['title'], latest.get('link', ''))
         if live:
             try:
-                send_email(subject, body)
+                send_email(subj, body, log_fn=log)
                 log(f"    ✉ alert sent")
             except Exception as e:
                 log(f"    ⚠ email err: {e}")
         else:
-            log(f"    [no-email] would send: {subject}")
+            log(f"    [no-email] would send: {subj}")
 
         # Update cache
         info.setdefault("history", []).append({
@@ -405,31 +384,6 @@ def poll_all(live=False):
     CACHE_FILE.write_text(json.dumps(cache, indent=1))
     log(f"=== POLL complete: {new_events_total} new events ===")
 
-def format_email_body(ticker, info, latest):
-    latest_dt = datetime.fromtimestamp(latest["providerPublishTime"], tz=timezone.utc).astimezone(ET)
-    prev_date = info.get("last_event_date","(none)")
-    return f"""\
-NEW WIRE-PUBLISHED EARNINGS EVENT detected
-
-Company:    {info.get('name','')} ({ticker})
-Title:      {latest['title']}
-Publisher:  {latest['publisher']}
-Published:  {latest_dt.strftime('%A %B %d, %Y at %I:%M:%S %p ET')}
-Link:       {latest.get('link','')}
-
-Previous known event for this company:
-            {prev_date}
-            {info.get('last_event_title','')}
-
-This is the most recent wire-published item matching our earnings keywords
-(earnings / results / quarterly / fiscal / conference call / financial /
-Q1-Q4 / first-fourth quarter / annual). One of three things:
-  - A save-the-date for an upcoming quarter
-  - The actual earnings release
-  - A late press release for a prior quarter
-
-Read the title to determine which.
-"""
 
 # ============ MAIN ============
 
