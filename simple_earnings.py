@@ -22,9 +22,10 @@ is the next event in the company's cycle.
 State: cache.json (single file, all companies, all tracked events).
 
 Usage:
-  python3 simple_earnings.py init    # build baseline from EDGAR cache
-  python3 simple_earnings.py poll    # poll Yahoo for new events
-  python3 simple_earnings.py poll --live   # actually send emails
+  python3 simple_earnings.py init           # build baseline from EDGAR cache
+  python3 simple_earnings.py poll           # poll Yahoo for new save-the-dates / press
+  python3 simple_earnings.py edgar-poll     # refetch EDGAR submissions, detect new 8-K item 2.02 filings
+  python3 simple_earnings.py poll --live    # also send emails
 """
 import json, os, sys, subprocess, smtplib, ssl, time
 from datetime import datetime, timezone, timedelta
@@ -229,6 +230,87 @@ def apply_overrides(cache):
     if applied:
         log(f"  applied {applied} manual override(s)")
 
+# ============ EDGAR FRESH POLL ============
+
+def fetch_edgar_submissions(cik):
+    """Hit EDGAR live (not the cache). Returns dict or None."""
+    url = f"https://data.sec.gov/submissions/CIK{cik_padded(cik)}.json"
+    try:
+        out = subprocess.run(
+            ["curl", "-s", "-A", UA, "-L", "--max-time", "15", url],
+            capture_output=True, text=True, timeout=18,
+        )
+        return json.loads(out.stdout) if out.returncode == 0 and out.stdout else None
+    except Exception as e:
+        log(f"  edgar fetch err for CIK {cik}: {e}")
+        return None
+
+def edgar_poll(live=False):
+    """For each tracked company, fetch fresh EDGAR submissions. If there's a NEW
+    8-K item 2.02 (accession we hadn't seen), update the cache and record the
+    detection timestamp so the dashboard can highlight it for 24 hours."""
+    log(f"=== EDGAR POLL: refetching submissions for new 8-K item 2.02 filings (live={live}) ===")
+    if not CACHE_FILE.exists():
+        log("  ⚠ cache.json missing — run `init` first")
+        return
+    cache = json.loads(CACHE_FILE.read_text())
+    now = datetime.now(timezone.utc).isoformat()
+    new_count = 0
+    fetched = 0
+    for ticker, info in cache.items():
+        cik = info.get("cik")
+        if not cik: continue
+        sub = fetch_edgar_submissions(cik)
+        time.sleep(0.12)  # SEC fair-use politeness
+        if not sub: continue
+        fetched += 1
+        latest = find_latest_earnings_8k(sub)
+        if not latest: continue
+        # Compare against what we already have
+        prev_accession = info.get("last_8k_accession")
+        if latest["accession"] == prev_accession:
+            continue  # nothing new
+        # NEW FILING DETECTED
+        cik_no_pad = int(cik)
+        acc_no_clean = latest["accession"].replace("-", "")
+        url = f"https://www.sec.gov/Archives/edgar/data/{cik_no_pad}/{acc_no_clean}/{latest['primary_doc']}"
+        info["last_8k_date"] = latest["filing_date"]
+        info["last_8k_accession"] = latest["accession"]
+        info["last_8k_url"] = url
+        info["last_8k_detected_at"] = now
+        # Also update the cache's "last_event" if EDGAR is now the most recent thing
+        if latest["date"] > info.get("last_event_date",""):
+            info["last_event_date"] = latest["date"]
+            info["last_event_title"] = f"8-K item 2.02 filed {latest['filing_date']}"
+            info["last_event_source"] = "edgar"
+            info["last_event_url"] = url
+        # Update the submissions cache on disk too (for derive_windows etc.)
+        cf = SUBMISSIONS_CACHE / f"CIK{cik_padded(cik)}.json"
+        try: cf.write_text(json.dumps(sub))
+        except Exception as e: log(f"  cache write err: {e}")
+        new_count += 1
+        log(f"  ★ NEW 8-K item 2.02 for {ticker} ({info.get('name','')[:40]}) filed {latest['filing_date']}")
+        log(f"    {url}")
+        if live:
+            try:
+                subject = f"[earnings 8-K] {ticker} filed earnings press release ({latest['filing_date']})"
+                body = f"""\
+NEW SEC 8-K item 2.02 detected on EDGAR.
+
+Company:  {info.get('name','')} ({ticker})
+Filed:    {latest['filing_date']}
+Filing:   {url}
+
+This is the actual quarterly-earnings release. The wire press release typically
+posts 5-15 minutes before EDGAR accepts the 8-K.
+"""
+                send_email(subject, body)
+                log(f"    ✉ alert sent")
+            except Exception as e:
+                log(f"    ⚠ email err: {e}")
+    CACHE_FILE.write_text(json.dumps(cache, indent=1))
+    log(f"=== EDGAR POLL complete. Fetched {fetched} companies, {new_count} new filings. ===")
+
 # ============ YAHOO POLLING ============
 
 def fetch_yahoo_news(ticker):
@@ -361,6 +443,8 @@ def main():
         init_baseline()
     elif cmd == "poll":
         poll_all(live=live)
+    elif cmd == "edgar-poll":
+        edgar_poll(live=live)
     else:
         print(__doc__)
 

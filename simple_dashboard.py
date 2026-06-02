@@ -59,6 +59,7 @@ def build_recent_rows():
     """For each company in cache, take their last_8k_date (from EDGAR submissions),
     and include them if within the last 90 days. EDGAR-only — never Yahoo."""
     cutoff = (today_date - timedelta(days=90)).isoformat()
+    twenty_four_hours_ago = today - timedelta(hours=24)
     out = []
     for tk, v in cache.items():
         last_8k = v.get("last_8k_date","")
@@ -67,6 +68,14 @@ def build_recent_rows():
             d = datetime.strptime(last_8k, "%Y-%m-%d").date()
         except: continue
         days = (today_date - d).days
+        # NEW detection: was this filing detected by the poller in the last 24h?
+        is_new = False
+        detected_at = v.get("last_8k_detected_at","")
+        if detected_at:
+            try:
+                det = datetime.fromisoformat(detected_at.replace("Z","+00:00"))
+                is_new = det >= twenty_four_hours_ago
+            except: pass
         out.append({
             "ticker": tk,
             "name": v.get("name",""),
@@ -74,8 +83,11 @@ def build_recent_rows():
             "filing_date": last_8k,
             "days": days,
             "edgar_url": v.get("last_8k_url",""),
+            "is_new": is_new,
+            "detected_at": detected_at,
         })
-    out.sort(key=lambda x: x["filing_date"], reverse=True)
+    # Sort: NEW rows first, then by filing date desc
+    out.sort(key=lambda x: (not x["is_new"], -datetime.strptime(x["filing_date"], "%Y-%m-%d").toordinal()))
     return out
 
 def render_recent_row(r):
@@ -85,9 +97,11 @@ def render_recent_row(r):
     elif r.get("cik"):
         edgar_link = f'<a href="{esc(edgar_filings_url(r["cik"]))}" target="_blank" rel="noopener">View 8-K filing</a>'
     yahoo_link = f'<a href="{esc(yahoo_search_url(r["ticker"]))}" target="_blank" rel="noopener">Yahoo News</a>'
+    new_badge = '<span class="badge-new">NEW</span> ' if r.get("is_new") else ""
+    row_class = "row-new" if r.get("is_new") else ""
     return f"""
-    <tr>
-      <td class="date"><b>{fmt_date(r["filing_date"])}</b><br><span class="dim">{r["days"]}d ago</span></td>
+    <tr class="{row_class}">
+      <td class="date">{new_badge}<b>{fmt_date(r["filing_date"])}</b><br><span class="dim">{r["days"]}d ago</span></td>
       <td class="tk">{esc(r["ticker"])}</td>
       <td class="nm">{esc(r["name"])}</td>
       <td class="links">{edgar_link} · {yahoo_link}</td>
@@ -95,8 +109,10 @@ def render_recent_row(r):
 
 def build_recent_page():
     rows = build_recent_rows()
+    new_count = sum(1 for r in rows if r.get("is_new"))
     body_rows = "".join(render_recent_row(r) for r in rows)
     table_html = f"<table><thead><tr><th>Filed</th><th>Ticker</th><th>Company</th><th>Links</th></tr></thead><tbody>{body_rows}</tbody></table>"
+    new_stat = f'<div class="stat new-stat"><b>{new_count}</b> new in last 24h</div>' if new_count else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8"><title>Recent earnings — Av's Tools</title>{COMMON_STYLES}</head>
@@ -104,7 +120,10 @@ def build_recent_page():
   <h1>Recent earnings reports</h1>
   <p class="meta">Each company's most recent SEC 8-K item 2.02 filing (the actual quarterly earnings release), if filed in the last 90 days. EDGAR source of truth. Newest first. Updated {datetime.now().strftime("%Y-%m-%d %H:%M")}.</p>
   {render_tabs(active="recent")}
-  <div class="stats"><div class="stat"><b>{len(rows)}</b> companies filed in last 90 days</div></div>
+  <div class="stats">
+    <div class="stat"><b>{len(rows)}</b> companies filed in last 90 days</div>
+    {new_stat}
+  </div>
   {table_html if rows else '<p class="empty">No 8-K item 2.02 filings in the last 90 days.</p>'}
   {build_dormant_note()}
 </div></body></html>"""
@@ -254,6 +273,8 @@ h1 { font-size: 24px; margin: 0 0 4px; }
 .stats { display: flex; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
 .stat { background: white; padding: 8px 14px; border-radius: 4px; font-size: 12.5px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
 .stat b { color: #1a1a2e; font-size: 15px; margin-right: 4px; }
+.stat.new-stat { background: #fff4d6; border-left: 3px solid #d63031; }
+.stat.new-stat b { color: #d63031; }
 
 table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-radius: 4px; overflow: hidden; }
 th { background: #1a1a2e; color: white; text-align: left; padding: 9px 12px; font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.4px; }
@@ -275,6 +296,11 @@ tr:hover { background: #fbfbfc; }
 .soon { color: #e17055; font-weight: 700; }
 
 .empty { color: #6c757d; font-style: italic; padding: 30px; background: white; border-radius: 4px; text-align: center; }
+
+tr.row-new { background: #fff4d6; }
+tr.row-new:hover { background: #ffeeb9; }
+tr.row-new td { border-bottom: 1px solid #ffd966; }
+.badge-new { display: inline-block; padding: 2px 7px; background: #d63031; color: white; border-radius: 3px; font-size: 10px; font-weight: 700; letter-spacing: 0.4px; margin-right: 6px; }
 
 .dormant { margin-top: 30px; background: white; padding: 14px 18px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
 .dormant summary { cursor: pointer; font-weight: 600; color: #495057; font-size: 13px; }
