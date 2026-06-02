@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<title>Recent earnings — Av's Tools</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; background: #f4f5f7; color: #1a1a2e; }
+.container { max-width: 1400px; margin: 24px auto; padding: 0 24px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+.meta { color: #6c757d; font-size: 13px; margin-bottom: 14px; }
+
+.tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 1px solid #d3d9de; }
+.tabs a { padding: 9px 14px; text-decoration: none; color: #495057; font-size: 13.5px; font-weight: 500; border-bottom: 3px solid transparent; }
+.tabs a.active { color: #1a1a2e; border-bottom-color: #1a1a2e; }
+.tabs a:hover { background: #eef0f3; }
+
+.stats { display: flex; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+.stat { background: white; padding: 8px 14px; border-radius: 4px; font-size: 12.5px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+.stat b { color: #1a1a2e; font-size: 15px; margin-right: 4px; }
+
+table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-radius: 4px; overflow: hidden; }
+th { background: #1a1a2e; color: white; text-align: left; padding: 8px 11px; font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.4px; }
+td { padding: 9px 11px; border-bottom: 1px solid #ececef; vertical-align: top; font-size: 13px; }
+tr:hover { background: #fbfbfc; }
+tr.row-confirmed { background: #fff9e3; }
+tr.row-confirmed:hover { background: #fff4cc; }
+
+.tk { font-family: ui-monospace, monospace; font-weight: 700; color: #2c5282; white-space: nowrap; }
+.nm { font-weight: 500; min-width: 180px; }
+.date { white-space: nowrap; min-width: 100px; }
+.dim { color: #999; font-size: 11px; }
+.title, .ctx { color: #2d3436; max-width: 520px; }
+.links { white-space: nowrap; font-size: 12px; }
+.links a { color: #2c5282; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+
+.when { white-space: nowrap; font-size: 12px; }
+.overdue { color: #d63031; font-weight: 600; }
+.today { color: #d63031; font-weight: 700; background: #ffeaa7; padding: 2px 6px; border-radius: 3px; }
+.soon { color: #e17055; font-weight: 600; }
+
+.badge { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
+.badge.confirmed { background: #d63031; color: white; }
+.badge.predicted { background: #dfe6e9; color: #495057; }
+
+.empty { color: #6c757d; font-style: italic; padding: 30px; background: white; border-radius: 4px; text-align: center; }
+</style>
+</head>
+<body>
+
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;left:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
+<div class="container">
+  <h1>Recent earnings reports</h1>
+  <p class="meta">Earnings-related events filed in the last 14 days. Newest first. Updated 2026-06-01 20:51.</p>
+  
+  <div class="tabs">
+    <a href="recent_earnings.html" class="active">Recent earnings</a>
+    <a href="upcoming_earnings.html">Upcoming earnings</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>8</b> events in last 14 days</div>
+  </div>
+  <table><thead><tr><th>Filed</th><th>Ticker</th><th>Company</th><th>Title</th><th>Links</th></tr></thead><tbody>
+    <tr>
+      <td class="date">May 28, 2026<br><span class="dim">4d ago</span></td>
+      <td class="tk">BDN</td>
+      <td class="nm">BRANDYWINE REALTY TRUST</td>
+      <td class="title">Brandywine Realty Trust Announces Common Quarterly Dividend, and Confirms Second Quarter 2026 Earnings Release and Conference Call</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/BDN/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000790816&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/markets/stocks/articles/brandywine-realty-trust-announces-common-172500192.html" target="_blank" rel="noopener">Source</a></td>
+    </tr>
+    <tr>
+      <td class="date">May 28, 2026<br><span class="dim">4d ago</span></td>
+      <td class="tk">BURL</td>
+      <td class="nm">Burlington Stores, Inc.</td>
+      <td class="title">8-K item 2.02 filed 2026-05-28</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/BURL/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001579298&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://www.sec.gov/Archives/edgar/data/1579298/000119312526242954/burl-20260528.htm" target="_blank" rel="noopener">Source</a></td>
+    </tr>
+    <tr>
+      <td class="date">May 26, 2026<br><span class="dim">6d ago</span></td>
+      <td class="tk">QNBC</td>
+      <td class="nm">QNB CORP.</td>
+      <td class="title">QNB Corp. Declares Q2 2026 Dividend</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/QNBC/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000750558&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/markets/stocks/articles/qnb-corp-declares-q2-2026-193000750.html" target="_blank" rel="noopener">Source</a></td>
+    </tr>
+    <tr>
+      <td class="date">May 22, 2026<br><span class="dim">10d ago</span></td>
+      <td class="tk">BSY</td>
+      <td class="nm">BENTLEY SYSTEMS INC</td>
+      <td class="title">Bentley Systems, Incorporated Declares Second Quarter 2026 Dividend</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/BSY/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001031308&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/markets/stocks/articles/bentley-systems-incorporated-declares-second-200100589.html" target="_blank" rel="noopener">Source</a></td>
+    </tr>
+    <tr>
+      <td class="date">May 21, 2026<br><span class="dim">11d ago</span></td>
+      <td class="tk">HLNE</td>
+      <td class="nm">Hamilton Lane INC</td>
+      <td class="title">8-K item 2.02 filed 2026-05-21</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/HLNE/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001433642&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://www.sec.gov/Archives/edgar/data/1433642/000143364226000016/hlne-20260521.htm" target="_blank" rel="noopener">Source</a></td>
+    </tr>
+    <tr>
+      <td class="date">May 20, 2026<br><span class="dim">12d ago</span></td>
+      <td class="tk">FIVE</td>
+      <td class="nm">FIVE BELOW, INC</td>
+      <td class="title">Five Below, Inc. Announces First Quarter Fiscal 2026 Earnings Release and Conference Call Date</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/FIVE/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001177609&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/markets/stocks/articles/five-below-inc-announces-first-200100799.html" target="_blank" rel="noopener">Source</a></td>
+    </tr>
+    <tr>
+      <td class="date">May 19, 2026<br><span class="dim">13d ago</span></td>
+      <td class="tk">TOL</td>
+      <td class="nm">Toll Brothers, Inc.</td>
+      <td class="title">8-K item 2.02 filed 2026-05-19</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/TOL/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000794170&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://www.sec.gov/Archives/edgar/data/794170/000079417026000083/tol-20260519.htm" target="_blank" rel="noopener">Source</a></td>
+    </tr>
+    <tr>
+      <td class="date">May 19, 2026<br><span class="dim">13d ago</span></td>
+      <td class="tk">CUBE</td>
+      <td class="nm">CubeSmart</td>
+      <td class="title">CubeSmart Declares Second Quarter 2026 Dividend</td>
+      <td class="links"><a href="https://finance.yahoo.com/quote/CUBE/news" target="_blank" rel="noopener">Yahoo News</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001298675&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/markets/stocks/articles/cubesmart-declares-second-quarter-2026-201500615.html" target="_blank" rel="noopener">Source</a></td>
+    </tr></tbody></table>
+</div>
+</body>
+</html>

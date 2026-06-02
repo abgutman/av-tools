@@ -154,6 +154,11 @@ def edgar_baseline_for_company(c):
         "last_event_url": url,
         "last_event_publisher": None,
         "edgar_accession": rec["accession"],
+        # Last actual 8-K filing — sticks around even if cache.last_event_* gets
+        # updated by a more-recent save-the-date.
+        "last_8k_date": rec["filing_date"],
+        "last_8k_accession": rec["accession"],
+        "last_8k_url": url,
         "history": [],
     }
 

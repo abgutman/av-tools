@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<title>Upcoming earnings — Av's Tools</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; background: #f4f5f7; color: #1a1a2e; }
+.container { max-width: 1400px; margin: 24px auto; padding: 0 24px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+.meta { color: #6c757d; font-size: 13px; margin-bottom: 14px; }
+
+.tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 1px solid #d3d9de; }
+.tabs a { padding: 9px 14px; text-decoration: none; color: #495057; font-size: 13.5px; font-weight: 500; border-bottom: 3px solid transparent; }
+.tabs a.active { color: #1a1a2e; border-bottom-color: #1a1a2e; }
+.tabs a:hover { background: #eef0f3; }
+
+.stats { display: flex; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+.stat { background: white; padding: 8px 14px; border-radius: 4px; font-size: 12.5px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+.stat b { color: #1a1a2e; font-size: 15px; margin-right: 4px; }
+
+table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-radius: 4px; overflow: hidden; }
+th { background: #1a1a2e; color: white; text-align: left; padding: 8px 11px; font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.4px; }
+td { padding: 9px 11px; border-bottom: 1px solid #ececef; vertical-align: top; font-size: 13px; }
+tr:hover { background: #fbfbfc; }
+tr.row-confirmed { background: #fff9e3; }
+tr.row-confirmed:hover { background: #fff4cc; }
+
+.tk { font-family: ui-monospace, monospace; font-weight: 700; color: #2c5282; white-space: nowrap; }
+.nm { font-weight: 500; min-width: 180px; }
+.date { white-space: nowrap; min-width: 100px; }
+.dim { color: #999; font-size: 11px; }
+.title, .ctx { color: #2d3436; max-width: 520px; }
+.links { white-space: nowrap; font-size: 12px; }
+.links a { color: #2c5282; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+
+.when { white-space: nowrap; font-size: 12px; }
+.overdue { color: #d63031; font-weight: 600; }
+.today { color: #d63031; font-weight: 700; background: #ffeaa7; padding: 2px 6px; border-radius: 3px; }
+.soon { color: #e17055; font-weight: 600; }
+
+.badge { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; }
+.badge.confirmed { background: #d63031; color: white; }
+.badge.predicted { background: #dfe6e9; color: #495057; }
+
+.empty { color: #6c757d; font-style: italic; padding: 30px; background: white; border-radius: 4px; text-align: center; }
+</style>
+</head>
+<body>
+
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;left:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
+<div class="container">
+  <h1>Upcoming earnings reports</h1>
+  <p class="meta">Confirmed save-the-dates and companies whose next earnings is approaching based on quarterly cadence (last 8-K item 2.02 was ≥75 days ago). Soonest first. Updated 2026-06-01 20:51.</p>
+  
+  <div class="tabs">
+    <a href="recent_earnings.html">Recent earnings</a>
+    <a href="upcoming_earnings.html" class="active">Upcoming earnings</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>3</b> confirmed dates</div>
+    <div class="stat"><b>19</b> predicted due (≥75d since last 8-K)</div>
+  </div>
+  <table><thead><tr><th>Expected</th><th>When</th><th>Status</th><th>Ticker</th><th>Company</th><th>Context</th><th>Links</th></tr></thead><tbody>
+    <tr class="row-predicted">
+      <td class="date"><b>Dec 29, 2010</b></td>
+      <td class="when"><span class="overdue">past expected — 5634d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">ESMC</td>
+      <td class="nm">ESCALON MEDICAL CORP</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2010-09-29; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000862668&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/ESMC/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>May 11, 2015</b></td>
+      <td class="when"><span class="overdue">past expected — 4040d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">RPMT</td>
+      <td class="nm">REGO PAYMENT ARCHITECTURES, INC.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2015-02-09; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001437283&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/RPMT/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Feb 22, 2017</b></td>
+      <td class="when"><span class="overdue">past expected — 3387d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">URBN</td>
+      <td class="nm">URBAN OUTFITTERS INC</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2016-11-23; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000912615&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/URBN/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Apr 27, 2020</b></td>
+      <td class="when"><span class="overdue">past expected — 2227d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">DWAY</td>
+      <td class="nm">Driveitaway Holdings, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2020-01-27; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001394638&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/DWAY/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Feb 18, 2022</b></td>
+      <td class="when"><span class="overdue">past expected — 1565d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">GMER</td>
+      <td class="nm">GOOD GAMING, INC.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2021-11-19; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001454742&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/GMER/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Feb 13, 2023</b></td>
+      <td class="when"><span class="overdue">past expected — 1205d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">INVU</td>
+      <td class="nm">Investview, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2022-11-14; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000862651&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/INVU/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Jun 21, 2023</b></td>
+      <td class="when"><span class="overdue">past expected — 1077d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">CNTX</td>
+      <td class="nm">Context Therapeutics Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2023-03-22; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001842952&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/CNTX/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Jan 9, 2024</b></td>
+      <td class="when"><span class="overdue">past expected — 875d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">VLGEA</td>
+      <td class="nm">VILLAGE SUPER MARKET INC</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2023-10-10; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000103595&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/VLGEA/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Feb 1, 2024</b></td>
+      <td class="when"><span class="overdue">past expected — 852d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">SFES</td>
+      <td class="nm">SAFEGUARD SCIENTIFICS INC</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2023-11-02; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000086115&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/SFES/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Nov 13, 2024</b></td>
+      <td class="when"><span class="overdue">past expected — 566d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">GRTX</td>
+      <td class="nm">Galera Therapeutics, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2024-08-14; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001563577&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/GRTX/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Aug 15, 2025</b></td>
+      <td class="when"><span class="overdue">past expected — 291d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">WINT</td>
+      <td class="nm">WINDTREE THERAPEUTICS INC /DE/</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2025-05-16; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000946486&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/WINT/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Feb 4, 2026</b></td>
+      <td class="when"><span class="overdue">past expected — 118d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">QVCAQ</td>
+      <td class="nm">QVC Group, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2025-11-05; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001355096&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/QVCAQ/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Feb 11, 2026</b></td>
+      <td class="when"><span class="overdue">past expected — 111d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">NXGL</td>
+      <td class="nm">NEXGEL, INC.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2025-11-12; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001468929&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/NXGL/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Feb 12, 2026</b></td>
+      <td class="when"><span class="overdue">past expected — 110d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">SSKN</td>
+      <td class="nm">STRATA Skin Sciences, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2025-11-13; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001051514&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/SSKN/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>May 5, 2026</b></td>
+      <td class="when"><span class="overdue">past expected — 28d ago</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">BV</td>
+      <td class="nm">BrightView Holdings, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2026-02-03; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001734713&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/BV/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Jun 2, 2026</b></td>
+      <td class="when"><span class="today">TODAY</span></td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">PASG</td>
+      <td class="nm">Passage BIO, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2026-03-03; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001787297&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/PASG/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-confirmed">
+      <td class="date"><b>Jun 3, 2026</b><br><span class="dim">call Jun 3, 2026 @ 16:30 ET</span></td>
+      <td class="when"><span class="soon">in 1d</span></td>
+      <td class="stat-cell"><span class="badge confirmed">CONFIRMED</span></td>
+      <td class="tk">FIVE</td>
+      <td class="nm">FIVE BELOW, INC</td>
+      <td class="ctx">Five Below, Inc. Announces First Quarter Fiscal 2026 Earnings Release and Conference Call Date</td>
+      <td class="links"><a href="https://finance.yahoo.com/markets/stocks/articles/five-below-inc-announces-first-200100799.html" target="_blank" rel="noopener">Source</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001177609&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/FIVE/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Jun 10, 2026</b></td>
+      <td class="when">in 8d</td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">BTCS</td>
+      <td class="nm">BTCS Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2026-03-11; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001436229&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/BTCS/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-confirmed">
+      <td class="date"><b>Jun 11, 2026</b><br><span class="dim">call Jun 11, 2026 @ 08:00 ET</span></td>
+      <td class="when">in 9d</td>
+      <td class="stat-cell"><span class="badge confirmed">CONFIRMED</span></td>
+      <td class="tk">CPB</td>
+      <td class="nm">CAMPBELL&#x27;S Co</td>
+      <td class="ctx">Campbell&#x27;s Q3 FY2026 Earnings Conference Call</td>
+      <td class="links"><a href="https://investor.thecampbellscompany.com/events/event-details/q3-fiscal-2026-campbells-company-earnings-conference-call" target="_blank" rel="noopener">Source</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000016732&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/CPB/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Jun 11, 2026</b></td>
+      <td class="when">in 9d</td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">AXR</td>
+      <td class="nm">AMREP CORP.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2026-03-12; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000006207&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/AXR/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-predicted">
+      <td class="date"><b>Jun 17, 2026</b></td>
+      <td class="when">in 15d</td>
+      <td class="stat-cell"><span class="badge predicted">predicted</span></td>
+      <td class="tk">XHLD</td>
+      <td class="nm">TEN Holdings, Inc.</td>
+      <td class="ctx">Last 8-K item 2.02 filed 2026-03-18; next expected ~91 days later</td>
+      <td class="links"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0002030954&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/XHLD/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr>
+    <tr class="row-confirmed">
+      <td class="date"><b>Jul 22, 2026</b><br><span class="dim">call Jul 23, 2026 @ 09:00 ET</span></td>
+      <td class="when">in 50d</td>
+      <td class="stat-cell"><span class="badge confirmed">CONFIRMED</span></td>
+      <td class="tk">BDN</td>
+      <td class="nm">BRANDYWINE REALTY TRUST</td>
+      <td class="ctx">Brandywine Realty Trust Announces Common Quarterly Dividend, and Confirms Q2 2026 Earnings Release and Conference Call</td>
+      <td class="links"><a href="https://www.globenewswire.com/news-release/2026/05/28/3303157/0/en/brandywine-realty-trust-announces-common-quarterly-dividend-and-confirms-second-quarter-2026-earnings-release-and-conference-call.html" target="_blank" rel="noopener">Source</a> · <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000790816&amp;type=10-Q,10-K,8-K&amp;dateb=&amp;owner=include&amp;count=20" target="_blank" rel="noopener">EDGAR</a> · <a href="https://finance.yahoo.com/quote/BDN/news" target="_blank" rel="noopener">Yahoo News</a></td>
+    </tr></tbody></table>
+
+  <p class="meta" style="margin-top:18px;font-size:11px;">
+    <b>Confirmed</b> = explicit date from a save-the-date press release or manual entry.
+    <b>Predicted</b> = expected based on 91-day quarterly cadence (most companies file Q+1 about 91 days after Q's 8-K item 2.02).
+  </p>
+</div>
+</body>
+</html>
