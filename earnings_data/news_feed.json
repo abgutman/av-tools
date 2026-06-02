@@ -1,6 +1,260 @@
 {
- "generated_at": "2026-06-02T14:47:52",
+ "generated_at": "2026-06-02T18:35:42",
  "items": [
+  {
+   "uuid": "32130764-833f-37a4-a46e-98dd57971e03",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Roth Staffing Companies Named to Inc.'s 2026 Best Workplaces List",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/roth-staffing-companies-named-inc-183000312.html",
+   "published_unix": 1780425000,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "b2627e36-a1f1-3fe7-8ef6-875814f22caa",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Proffy Corporation's EMPEG Joins DTEA as Founding Member",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/proffy-corporations-empeg-joins-dtea-183000486.html",
+   "published_unix": 1780425000,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "b3639de1-ca0f-3a89-8070-585ac0843b42",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Cognizant and CrowdStrike Expand Strategic Alliance to Secure the Agentic Enterprise",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/cognizant-crowdstrike-expand-strategic-alliance-183000545.html",
+   "published_unix": 1780425000,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "b6eee20a-afa5-3e9f-b59a-ead01b2f1ab6",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Docusign Brings Trusted Agreement Intelligence and Workflows into ChatGPT and Codex",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/docusign-brings-trusted-agreement-intelligence-183000571.html",
+   "published_unix": 1780425000,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "08e14cd8-f1cd-3b0f-aab6-c5e95f3e3abb",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Micron Just Ripped 93% in a Month. Is It Time to Cash Out?",
+   "publisher": "24/7 Wall St.",
+   "link": "https://finance.yahoo.com/m/08e14cd8-f1cd-3b0f-aab6-c5e95f3e3abb/micron-just-ripped-93%25-in-a.html",
+   "published_unix": 1780424990,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "4b4aa65c-63de-301f-a657-e04d24751a4e",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "HelloNation Highlights BMW and Mercedes Repair Insights From European Auto Repair Expert Josh Anderson",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/hellonation-highlights-bmw-mercedes-repair-182800116.html",
+   "published_unix": 1780424880,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "4b0f0b3f-8db1-3cb9-a507-c8b43504413e",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Trump names inexperienced ally as intelligence director",
+   "publisher": "AFP",
+   "link": "https://finance.yahoo.com/m/4b0f0b3f-8db1-3cb9-a507-c8b43504413e/trump-names-inexperienced.html",
+   "published_unix": 1780424871,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "dd47dd1c-3a11-3e59-b447-7a515c1e4ea0",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Bitcoin Breaks Below $70,000 As ETF Outflows Hit $3.5 Billion",
+   "publisher": "GuruFocus.com",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-breaks-below-70-000-182750511.html",
+   "published_unix": 1780424870,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "9df9464c-a95b-39d5-9987-6131b6e09e72",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "NVIDIA vs. Broadcom: Which Is the Better Long-Term AI Chip Bet?",
+   "publisher": "24/7 Wall St.",
+   "link": "https://finance.yahoo.com/m/9df9464c-a95b-39d5-9987-6131b6e09e72/nvidia-vs.-broadcom%3A-which-is.html",
+   "published_unix": 1780424848,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "4fdc7b81-196f-39e7-91d0-5f7eee662a0c",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Senegal's new government strengthens president against rival: analysts",
+   "publisher": "AFP",
+   "link": "https://finance.yahoo.com/m/4fdc7b81-196f-39e7-91d0-5f7eee662a0c/senegal%27s-new-government.html",
+   "published_unix": 1780424839,
+   "captured_at": "2026-06-02T18:35:40"
+  },
+  {
+   "uuid": "86ccd8b0-2739-3006-985d-c80ec848a9d0",
+   "tickers": [
+    "MRK"
+   ],
+   "company": "Merck & Co., Inc.",
+   "title": "Intapp And 2 Additional Stocks That May Be Priced Below Estimated Value",
+   "publisher": "Simply Wall St.",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/intapp-2-additional-stocks-may-173821273.html",
+   "published_unix": 1780421901,
+   "captured_at": "2026-06-02T18:35:42"
+  },
+  {
+   "uuid": "c9324d97-6496-32fe-b864-e0e79c11a163",
+   "tickers": [
+    "CPB"
+   ],
+   "company": "CAMPBELL'S Co",
+   "title": "Packaged Food Companies Face 'Tough' Setup Amid Weak Demand, Growing Costs, UBS Says",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/packaged-food-companies-face-apos-173214649.html",
+   "published_unix": 1780421534,
+   "captured_at": "2026-06-02T18:35:07"
+  },
+  {
+   "uuid": "a3c61caf-242c-3e5c-ad99-5c65cbe7ef52",
+   "tickers": [
+    "WTRG",
+    "AWK"
+   ],
+   "company": "Essential Utilities, Inc.",
+   "title": "AWK Concludes the Acquisition of Nexus Utility Assets for $315 Million",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/awk-concludes-acquisition-nexus-utility-171200388.html",
+   "published_unix": 1780420320,
+   "captured_at": "2026-06-02T18:35:05"
+  },
+  {
+   "uuid": "ec7c847e-d009-32ee-9274-4c982681463e",
+   "tickers": [
+    "BURL"
+   ],
+   "company": "Burlington Stores, Inc.",
+   "title": "TJX Companies Extends Sales Growth Momentum: More Upside Ahead?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tjx-companies-extends-sales-growth-170700752.html",
+   "published_unix": 1780420020,
+   "captured_at": "2026-06-02T18:35:08"
+  },
+  {
+   "uuid": "9051ac26-1994-3b09-b5b0-54e05202f83a",
+   "tickers": [
+    "HSY"
+   ],
+   "company": "HERSHEY CO",
+   "title": "Hershey (NYSE:HSY): Strongest Q1 Results from the Shelf-Stable Food Group",
+   "publisher": "StockStory",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hershey-nyse-hsy-strongest-q1-170123242.html",
+   "published_unix": 1780419683,
+   "captured_at": "2026-06-02T18:35:41"
+  },
+  {
+   "uuid": "4a0abb6d-45a7-3bea-987c-acca5c74de5b",
+   "tickers": [
+    "WST"
+   ],
+   "company": "WEST PHARMACEUTICAL SERVICES INC",
+   "title": "Here's Why You Should Retain AMN Stock in Your Portfolio for Now",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-retain-amn-stock-155900471.html",
+   "published_unix": 1780415940,
+   "captured_at": "2026-06-02T18:35:10"
+  },
+  {
+   "uuid": "a24145ea-4d8f-37d0-b52c-e93a0e11a415",
+   "tickers": [
+    "WST",
+    "GMED"
+   ],
+   "company": "WEST PHARMACEUTICAL SERVICES INC",
+   "title": "NPCE Receives FDA Approval for AI-Powered ECoG Assistant for Epilepsy",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/npce-receives-fda-approval-ai-155000608.html",
+   "published_unix": 1780415400,
+   "captured_at": "2026-06-02T18:35:10"
+  },
+  {
+   "uuid": "014353e8-af5b-3a30-be49-2c43f399663a",
+   "tickers": [
+    "URBN"
+   ],
+   "company": "URBAN OUTFITTERS INC",
+   "title": "Buckle's Earnings Looked Good, Until You Read the Fine Print",
+   "publisher": "Trefis",
+   "link": "https://finance.yahoo.com/m/014353e8-af5b-3a30-be49-2c43f399663a/buckle%27s-earnings-looked.html",
+   "published_unix": 1780414235,
+   "captured_at": "2026-06-02T18:34:59"
+  },
+  {
+   "uuid": "4df1fa98-f030-3061-9b8a-2e20ea3ff671",
+   "tickers": [
+    "HLNE"
+   ],
+   "company": "Hamilton Lane INC",
+   "title": "Securitize Launches Hamilton Lane\u2019s Tokenized Private Credit Fund on TRON Blockchain",
+   "publisher": "CCN",
+   "link": "https://finance.yahoo.com/m/4df1fa98-f030-3061-9b8a-2e20ea3ff671/securitize-launches-hamilton.html",
+   "published_unix": 1780414035,
+   "captured_at": "2026-06-02T18:35:13"
+  },
+  {
+   "uuid": "6e6d2630-8c58-3187-8d41-5eceba59b852",
+   "tickers": [
+    "AWK"
+   ],
+   "company": "American Water Works Company, Inc.",
+   "title": "American Water Joins Dialogue on Affordability at the Western Conference of Public Service Commissioners 2026 Annual Meeting",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/american-water-joins-dialogue-affordability-150900120.html",
+   "published_unix": 1780412940,
+   "captured_at": "2026-06-02T18:35:07"
+  },
+  {
+   "uuid": "55639580-81ae-32ed-9029-49311587d49c",
+   "tickers": [
+    "ARMK"
+   ],
+   "company": "Aramark",
+   "title": "1 Stock Under $50 Worth Your Attention and 2 We Ignore",
+   "publisher": "StockStory",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/1-stock-under-50-worth-145323565.html",
+   "published_unix": 1780412003,
+   "captured_at": "2026-06-02T18:34:58"
+  },
   {
    "uuid": "87a3444e-9beb-3b57-af41-a5d1e435040d",
    "tickers": [
@@ -122,6 +376,18 @@
    "captured_at": "2026-06-02T14:47:49"
   },
   {
+   "uuid": "6e27b086-a0e5-3445-86de-2777f5b2c4e7",
+   "tickers": [
+    "GMED"
+   ],
+   "company": "GLOBUS MEDICAL INC",
+   "title": "Should You Buy, Hold or Sell GMED Stock Amid Musculoskeletal Boom?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-gmed-stock-142900110.html",
+   "published_unix": 1780410540,
+   "captured_at": "2026-06-02T18:35:10"
+  },
+  {
    "uuid": "506be234-dc82-3e30-8c2b-9fd2c0557041",
    "tickers": [
     "MRK"
@@ -144,6 +410,18 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-campbell-134251280.html",
    "published_unix": 1780407771,
    "captured_at": "2026-06-02T14:47:12"
+  },
+  {
+   "uuid": "29998324-131d-3940-9e3c-775b49bc54d9",
+   "tickers": [
+    "URBN"
+   ],
+   "company": "URBAN OUTFITTERS INC",
+   "title": "Here's Why Urban Outfitters (URBN) is a Strong Value Stock",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-urban-outfitters-urbn-134004883.html",
+   "published_unix": 1780407604,
+   "captured_at": "2026-06-02T18:34:59"
   },
   {
    "uuid": "aeb4426e-5c6b-396b-bd8d-9207312ff0bc",
@@ -1730,30 +2008,6 @@
    "link": "https://finance.yahoo.com/m/558878cc-7e2e-39ce-b1cc-6c8db0876193/why-this-fund-cashed-out-of-a.html",
    "published_unix": 1780264457,
    "captured_at": "2026-06-02T06:49:01"
-  },
-  {
-   "uuid": "8756a80f-2803-3560-a7f5-21a6fe81b2b5",
-   "tickers": [
-    "FIVE"
-   ],
-   "company": "FIVE BELOW, INC",
-   "title": "3 Earnings Reports to Watch This Week",
-   "publisher": "Motley Fool",
-   "link": "https://finance.yahoo.com/m/8756a80f-2803-3560-a7f5-21a6fe81b2b5/3-earnings-reports-to-watch.html",
-   "published_unix": 1780249800,
-   "captured_at": "2026-06-02T06:48:43"
-  },
-  {
-   "uuid": "a45441eb-2a2d-34b8-8600-6d3e6a90a91a",
-   "tickers": [
-    "JNJ"
-   ],
-   "company": "JOHNSON & JOHNSON",
-   "title": "How to Build $12,500 a Month in Dividend Income From a $2.8 Million Portfolio Without Touching the Aggressive Tier",
-   "publisher": "24/7 Wall St.",
-   "link": "https://finance.yahoo.com/m/a45441eb-2a2d-34b8-8600-6d3e6a90a91a/how-to-build-%2412%2C500-a-month.html",
-   "published_unix": 1780249289,
-   "captured_at": "2026-06-02T06:49:26"
   }
  ]
 }
