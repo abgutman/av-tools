@@ -11608,20 +11608,5 @@
   "status": "ok",
   "ticker_hint": "DD",
   "priority_tier": 2
- },
- {
-  "cik": null,
-  "name": "Independence Blue Cross",
-  "tickers": [
-   "IBX"
-  ],
-  "ticker_hint": "IBX",
-  "city": "PHILADELPHIA",
-  "state": "PA",
-  "core_county": "phila",
-  "region_tier": "core",
-  "priority_tier": 1,
-  "status": "non-sec-filer",
-  "notes": "Mutual benefit corporation \u2014 no SEC filings. Tracked via newsroom scrape only."
  }
 ]
