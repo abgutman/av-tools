@@ -39,7 +39,7 @@ if (sessionStorage.getItem('court_auth')==='1') {{
 """
 
 
-HOME_LINK = '<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;left:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av\'s Tools Homepage</a>'
+HOME_LINK = '<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;right:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av\'s Tools Homepage</a>'
 
 
 def inject_auth(html):
