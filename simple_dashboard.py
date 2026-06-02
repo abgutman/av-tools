@@ -256,9 +256,100 @@ def render_tabs(active):
   <div class="tabs">
     <a href="recent_earnings.html"{' class="active"' if active=='recent' else ''}>Recent earnings</a>
     <a href="upcoming_earnings.html"{' class="active"' if active=='upcoming' else ''}>Upcoming earnings</a>
+    <a href="earnings_notes.html"{' class="active"' if active=='notes' else ''}>Notes</a>
   </div>"""
 
-COMMON_STYLES = """<style>
+def build_notes_page():
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Notes — Earnings Reports — Av's Tools</title>{COMMON_STYLES}
+<style>
+.notes-content {{ background: white; padding: 26px 32px; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); line-height: 1.65; max-width: 900px; }}
+.notes-content h2 {{ margin: 22px 0 8px; font-size: 17px; padding-bottom: 6px; border-bottom: 2px solid #ececef; color: #1a1a2e; }}
+.notes-content h2:first-of-type {{ margin-top: 0; }}
+.notes-content h3 {{ margin: 18px 0 6px; font-size: 13.5px; color: #495057; text-transform: uppercase; letter-spacing: 0.4px; }}
+.notes-content p, .notes-content li {{ font-size: 14px; color: #2d3436; }}
+.notes-content ul {{ margin: 4px 0 10px; padding-left: 22px; }}
+.notes-content li {{ margin: 3px 0; }}
+.notes-content code {{ background: #f1f3f5; padding: 1px 6px; border-radius: 3px; font-size: 12.5px; color: #d63031; }}
+.notes-content strong {{ color: #1a1a2e; }}
+.notes-content table.schedule {{ width: 100%; margin: 8px 0 12px; font-size: 13px; }}
+.notes-content table.schedule th {{ background: #f1f3f5; color: #1a1a2e; text-transform: none; letter-spacing: normal; font-size: 12.5px; padding: 6px 10px; }}
+.notes-content table.schedule td {{ font-size: 13px; padding: 6px 10px; }}
+.callout {{ background: #fff9e3; padding: 10px 14px; border-left: 3px solid #ffd966; border-radius: 0 4px 4px 0; margin: 8px 0; font-size: 13px; }}
+.callout b {{ color: #b08200; }}
+</style></head>
+<body><div class="container">
+  <h1>About these pages</h1>
+  <p class="meta">How the Recent and Upcoming earnings pages are populated, and when they update.</p>
+  {render_tabs(active="notes")}
+
+  <div class="notes-content">
+
+    <h2>Recent earnings reports</h2>
+
+    <h3>What it shows</h3>
+    <p>Each Philadelphia-area public company's most recent <strong>SEC 8-K item 2.02</strong> filing — the formal SEC filing that contains the actual quarterly earnings release. Only filings from the last 90 days are shown.</p>
+
+    <h3>Where the data comes from</h3>
+    <p><strong>SEC EDGAR</strong> (the canonical record). We fetch each company's filing history directly from <code>data.sec.gov/submissions/CIK*.json</code>, identify the most recent 8-K with item 2.02 listed, and show it.</p>
+
+    <h3>How often it updates</h3>
+    <p>15 polling runs every weekday, clustered around when companies typically release earnings:</p>
+    <table class="schedule">
+      <thead><tr><th>Window</th><th>Frequency</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>7:30 AM &ndash; 9:30 AM ET</td><td>Every 15 min (9 polls)</td><td>Pre-market: most large filers drop earnings here</td></tr>
+        <tr><td>Noon ET &amp; 2 PM ET</td><td>Sporadic (2 polls)</td><td>Catches mid-day filings (mostly REITs and utilities)</td></tr>
+        <tr><td>4:00 PM &ndash; 5:00 PM ET</td><td>Every 15 min (5 polls)</td><td>Post-market: the other major release window</td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout"><b>NEW badge:</b> When a polling run detects an 8-K item 2.02 we hadn't seen before, that row gets a red <strong>NEW</strong> badge and yellow highlight for 24 hours.</div>
+
+    <h3>Known limitations</h3>
+    <ul>
+      <li>Some smaller filers release results via 10-Q only (no accompanying 8-K item 2.02). They won't appear here even after they've reported.</li>
+      <li>Companies with no 8-K item 2.02 in the last 90 days are listed in the collapsed &ldquo;Dormant filers&rdquo; footer.</li>
+      <li>EDGAR typically accepts an 8-K filing 5&ndash;15 minutes after the wire press release goes out. So even with 15-minute polling, the page can be ~30 minutes behind the wire in worst case.</li>
+    </ul>
+
+    <h2>Upcoming earnings reports</h2>
+
+    <h3>What it shows</h3>
+    <p>Confirmed upcoming earnings releases and conference calls &mdash; the dates companies have publicly announced via save-the-date press releases. Each row shows the expected release date and (when known) the conference call date and time.</p>
+
+    <h3>Where the data comes from</h3>
+    <p>Two sources, merged:</p>
+    <ul>
+      <li><strong>Yahoo Finance API (auto).</strong> Polls the public news feed for each tracked company. Keeps only items from wire publishers (Business Wire, GlobeNewswire, PR Newswire, ACCESS Newswire) with earnings keywords in the title. For each match, tries to extract the future date from the title; if not there, fetches the article body and parses release/call/time from the press release text.</li>
+      <li><strong>Manual override</strong> (<code>earnings_data/upcoming_dates.json</code>). User-editable file for any dates we know about that the automation missed. Manually entered dates are preserved across runs.</li>
+    </ul>
+
+    <h3>How often it updates</h3>
+    <p>Once a day, weekdays, at <strong>6:00 PM ET</strong>. By then most save-the-date press releases for the day have been published.</p>
+
+    <h3>Known limitations</h3>
+    <ul>
+      <li><strong>Yahoo's recency limit.</strong> Yahoo Finance's news API returns only the ~10 most recent items per company. For active names with lots of analyst commentary (e.g., Five Below), a save-the-date press release can age out of the feed within a week. The manual override file catches those.</li>
+      <li>Past entries are automatically cleaned out: once both the release date and call date are in the past, the row disappears from this view.</li>
+    </ul>
+
+    <h2>Companies tracked</h2>
+    <p>~100 public companies headquartered in the 8-county Philadelphia region: <strong>Philadelphia</strong> + Bucks, Chester, Delaware, Montgomery (PA) + Camden, Burlington, Gloucester (NJ).</p>
+
+    <h3>Not tracked</h3>
+    <ul>
+      <li><strong>Independence Blue Cross</strong> &mdash; mutual benefit corp, not a SEC filer.</li>
+      <li><strong>Foreign filers</strong> like AstraZeneca &mdash; they file annual 20-F, not quarterly 10-Q/8-K.</li>
+      <li><strong>Closed-end funds and ETFs</strong> &mdash; they file N-CSR/N-PORT, not quarterly earnings.</li>
+    </ul>
+
+  </div>
+</div></body></html>"""
+
+COMMON_STYLES = """
+<style>
 * { box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; background: #f4f5f7; color: #1a1a2e; }
 .container { max-width: 1300px; margin: 24px auto; padding: 0 24px; }
@@ -314,6 +405,7 @@ tr.row-new td { border-bottom: 1px solid #ffd966; }
 
 (HERE / "recent_earnings.html").write_text(inject_auth(build_recent_page()))
 (HERE / "upcoming_earnings.html").write_text(inject_auth(build_upcoming_page()))
+(HERE / "earnings_notes.html").write_text(inject_auth(build_notes_page()))
 
 # Old URL → recent
 (HERE / "earnings_dashboard.html").write_text(inject_auth(

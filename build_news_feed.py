@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Render news_feed.html from news_feed.json — all Yahoo headlines for tracked
-Philadelphia-area companies, deduped, sorted newest first."""
+"""Render news_feed.html from news_feed.json.
+
+Social-media-style scrollable feed of Yahoo headlines for tracked Philadelphia
+companies, newest first."""
 import json, html
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -20,79 +22,112 @@ now = datetime.now(timezone.utc)
 
 def esc(s): return html.escape(str(s) if s is not None else "")
 
-def fmt_ts(unix):
-    if not unix: return "—"
-    dt = datetime.fromtimestamp(unix, tz=timezone.utc).astimezone(ET)
+def fmt_ago(unix):
+    if not unix: return ""
     age = now - datetime.fromtimestamp(unix, tz=timezone.utc)
     secs = int(age.total_seconds())
-    if secs < 3600:
-        return f"{secs // 60}m ago"
-    if secs < 24*3600:
-        h = secs // 3600
-        return f"{h}h ago"
-    days = secs // 86400
-    return f"{days}d ago" + f" · {dt.strftime('%b %-d %I:%M %p ET')}"
+    if secs < 60: return "just now"
+    if secs < 3600: return f"{secs // 60}m"
+    if secs < 24*3600: return f"{secs // 3600}h"
+    return f"{secs // 86400}d"
 
 def fmt_full_ts(unix):
     if not unix: return ""
     dt = datetime.fromtimestamp(unix, tz=timezone.utc).astimezone(ET)
-    return dt.strftime("%a %b %-d, %I:%M %p ET")
+    return dt.strftime("%a %b %-d, %-I:%M %p ET")
 
-def render_row(item):
+def render_card(item):
     tickers = item.get("tickers", [])
-    ticker_html = " · ".join(f'<span class="tk">{esc(t)}</span>' for t in tickers[:4])
-    if len(tickers) > 4:
-        ticker_html += f' <span class="dim">+{len(tickers)-4}</span>'
+    ticker_html = "".join(f'<span class="chip">{esc(t)}</span>' for t in tickers[:6])
+    if len(tickers) > 6:
+        ticker_html += f'<span class="chip more">+{len(tickers)-6}</span>'
+    company = ""
+    if item.get("company"):
+        company = f'<span class="company">{esc(item["company"])[:60]}</span>'
+    ago = fmt_ago(item.get("published_unix",0))
+    full_ts = fmt_full_ts(item.get("published_unix",0))
+    publisher = esc(item.get("publisher",""))
+    title = esc(item.get("title",""))
+    link = esc(item.get("link",""))
     return f"""
-    <tr>
-      <td class="ts" title="{fmt_full_ts(item.get('published_unix',0))}">{fmt_ts(item.get('published_unix',0))}</td>
-      <td class="tickers">{ticker_html}</td>
-      <td class="title"><a href="{esc(item.get('link',''))}" target="_blank" rel="noopener">{esc(item.get('title',''))}</a></td>
-      <td class="pub">{esc(item.get('publisher',''))}</td>
-    </tr>"""
+    <article class="post">
+      <div class="post-header">
+        <div class="chips">{ticker_html}</div>
+        <span class="ts" title="{full_ts}">{ago}</span>
+      </div>
+      <h3 class="headline"><a href="{link}" target="_blank" rel="noopener">{title}</a></h3>
+      <div class="post-footer">
+        <span class="publisher">{publisher}</span>
+        {company}
+      </div>
+    </article>"""
 
-body_rows = "".join(render_row(it) for it in items)
+posts_html = "".join(render_card(it) for it in items)
 gen = feed.get("generated_at", "")
+n_companies = len(set(t for it in items for t in it.get("tickers",[])))
 
 html_doc = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Philly Business News — Av's Tools</title>
+<title>Philly Business News Feed — Av's Tools</title>
 <style>
 * {{ box-sizing: border-box; }}
-body {{ font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; background: #f4f5f7; color: #1a1a2e; }}
-.container {{ max-width: 1400px; margin: 24px auto; padding: 0 24px; }}
-h1 {{ font-size: 24px; margin: 0 0 4px; }}
-.meta {{ color: #6c757d; font-size: 13px; margin-bottom: 14px; }}
-.stats {{ display: flex; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }}
-.stat {{ background: white; padding: 8px 14px; border-radius: 4px; font-size: 12.5px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }}
-.stat b {{ color: #1a1a2e; font-size: 15px; margin-right: 4px; }}
-table {{ width: 100%; border-collapse: collapse; background: white; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-radius: 4px; overflow: hidden; }}
-th {{ background: #1a1a2e; color: white; text-align: left; padding: 9px 12px; font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.4px; }}
-td {{ padding: 9px 12px; border-bottom: 1px solid #ececef; vertical-align: top; font-size: 13.5px; }}
-tr:hover {{ background: #fbfbfc; }}
-.ts {{ white-space: nowrap; min-width: 90px; color: #495057; font-size: 12.5px; }}
-.tickers {{ white-space: nowrap; min-width: 130px; font-size: 12px; }}
-.tickers .tk {{ font-family: ui-monospace, monospace; font-weight: 700; color: #2c5282; }}
-.dim {{ color: #999; font-size: 11px; }}
-.title {{ color: #1a1a2e; line-height: 1.4; }}
-.title a {{ color: #1a1a2e; text-decoration: none; font-weight: 500; }}
-.title a:hover {{ color: #2c5282; text-decoration: underline; }}
-.pub {{ font-size: 12px; color: #6c757d; white-space: nowrap; max-width: 140px; }}
-.empty {{ color: #6c757d; font-style: italic; padding: 30px; background: white; border-radius: 4px; text-align: center; }}
+body {{ font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; background: #ecf0f3; color: #1a1a2e; }}
+.feed-shell {{ max-width: 720px; margin: 24px auto; padding: 0 20px 60px; }}
+
+.feed-header {{ background: white; padding: 18px 22px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); margin-bottom: 16px; }}
+.feed-header h1 {{ font-size: 22px; margin: 0 0 4px; }}
+.feed-header .sub {{ font-size: 13px; color: #6c757d; margin: 0; }}
+.feed-header .counts {{ display: flex; gap: 16px; margin-top: 12px; font-size: 12.5px; }}
+.feed-header .counts span {{ color: #495057; }}
+.feed-header .counts b {{ color: #1a1a2e; font-size: 14px; }}
+
+.post {{ background: white; padding: 14px 18px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); margin-bottom: 10px; transition: box-shadow 0.15s; }}
+.post:hover {{ box-shadow: 0 2px 10px rgba(0,0,0,0.10); }}
+
+.post-header {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }}
+.chips {{ display: flex; gap: 5px; flex-wrap: wrap; }}
+.chip {{ background: #eef0f3; color: #2c5282; font-family: ui-monospace, monospace; font-size: 11.5px; font-weight: 700; padding: 2px 8px; border-radius: 12px; }}
+.chip.more {{ background: transparent; color: #6c757d; font-weight: 500; }}
+.ts {{ color: #6c757d; font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums; }}
+
+.headline {{ font-size: 16px; line-height: 1.4; margin: 0 0 10px; font-weight: 600; }}
+.headline a {{ color: #1a1a2e; text-decoration: none; }}
+.headline a:hover {{ color: #2c5282; }}
+.headline a:visited {{ color: #6c757d; }}
+
+.post-footer {{ display: flex; align-items: center; gap: 10px; font-size: 12px; color: #6c757d; }}
+.publisher {{ font-weight: 500; color: #495057; }}
+.publisher::before {{ content: "via "; color: #adb5bd; font-weight: 400; }}
+.company {{ font-style: italic; }}
+.company::before {{ content: "·"; margin-right: 8px; color: #adb5bd; }}
+
+.empty {{ background: white; padding: 40px; border-radius: 12px; text-align: center; color: #6c757d; font-style: italic; }}
+
+@media (max-width: 600px) {{
+  .feed-shell {{ padding: 0 12px 60px; }}
+  .feed-header, .post {{ border-radius: 10px; }}
+  .headline {{ font-size: 15px; }}
+}}
 </style>
 </head>
-<body><div class="container">
-  <h1>Philly Business News Feed</h1>
-  <p class="meta">All Yahoo Finance headlines from the last 48 hours for the 100+ public companies HQ'd in the 8-county Philadelphia region. Sorted newest first. Updated hourly during business hours.</p>
-  <div class="stats">
-    <div class="stat"><b>{len(items)}</b> headlines</div>
-    <div class="stat"><b>{len(set(t for it in items for t in it.get('tickers',[])))}</b> companies with news</div>
-    <div class="stat dim" style="font-size:11px">Last update: {esc(gen[:16] if gen else 'unknown')}</div>
+<body>
+<div class="feed-shell">
+  <div class="feed-header">
+    <h1>Philly Business News</h1>
+    <p class="sub">Yahoo Finance headlines for the 100+ public companies HQ'd in the 8-county Philadelphia region. Last 48 hours, newest first.</p>
+    <div class="counts">
+      <span><b>{len(items)}</b> headlines</span>
+      <span><b>{n_companies}</b> companies in news</span>
+      <span>Refreshed hourly · last update {esc(gen[11:16] if gen else 'unknown')}</span>
+    </div>
   </div>
-  {("<table><thead><tr><th>When</th><th>Tickers</th><th>Headline</th><th>Source</th></tr></thead><tbody>" + body_rows + "</tbody></table>") if items else '<p class="empty">No news in the last 48 hours.</p>'}
-</div></body></html>"""
+
+  {posts_html if items else '<div class="empty">No news in the last 48 hours.</div>'}
+</div>
+</body>
+</html>"""
 
 OUT.write_text(inject_auth(html_doc))
 print(f"Wrote {OUT} ({len(items)} items)")
