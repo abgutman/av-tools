@@ -1,6 +1,6 @@
 name: Earnings EDGAR Poll
 
-# SAFETY NOTES (Phase 2a + 2b deploy):
+# SAFETY NOTES (Phase 2 deploy):
 #   1. Schedule trigger is COMMENTED OUT below. Workflow only runs on manual dispatch
 #      until Av reviews and enables it.
 #   2. Scripts run WITHOUT the `--live` flag — alerts log to action output but DO NOT email.
@@ -20,7 +20,7 @@ permissions:
 jobs:
   poll:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repo
@@ -31,22 +31,26 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run EDGAR poll
+      - name: Install dependencies
+        run: pip install curl-cffi
+
+      - name: Run all polls
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
           # NOTE: --live flag intentionally absent → alerts log only, no email.
-          # To enable real emails, add `--live` to BOTH commands below.
+          # To enable real emails, add `--live` to all commands below.
           python poll_edgar.py
-          python poll_wires.py || echo "(wires script optional)"
+          python poll_yahoo_news.py || echo "(yahoo poll optional)"
+          python poll_wires.py || echo "(wires poll optional)"
 
       - name: Commit updated state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add earnings_data/last_seen.json earnings_data/wire_last_seen.json 2>/dev/null || true
-          git add earnings_data/poll_log.txt earnings_data/wire_log.txt 2>/dev/null || true
+          git add earnings_data/last_seen.json earnings_data/yahoo_last_seen.json earnings_data/wire_last_seen.json 2>/dev/null || true
+          git add earnings_data/confirmed_dates.json earnings_data/*log.txt 2>/dev/null || true
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "Earnings poll state update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
