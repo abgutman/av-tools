@@ -67,14 +67,17 @@ def body_save_the_date(name, ticker, release_date, call_date, call_time, source_
 
 # ── Sender ────────────────────────────────────────────────────────────────────
 
-def send_email(subject, body, log_fn=None):
+def send_email(subject, body, log_fn=None, to=None):
     if not GMAIL_USER or not GMAIL_APP_PASSWORD:
         if log_fn:
             log_fn(f"⚠ No Gmail creds; would have sent: {subject}")
         return False
+    recipients = to if to else [EMAIL_TO]
+    if isinstance(recipients, str):
+        recipients = [recipients]
     msg = MIMEText(body, "plain")
     msg["From"] = GMAIL_USER
-    msg["To"] = EMAIL_TO
+    msg["To"] = ", ".join(recipients)
     msg["Subject"] = subject
     ctx = ssl.create_default_context()
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx) as smtp:
