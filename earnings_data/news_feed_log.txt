@@ -1,0 +1,3 @@
+[2026-06-02 14:47:02] === News feed poll start ===
+[2026-06-02 14:47:02] Polling Yahoo for 109 companies
+[2026-06-02 14:47:52] === Done. Fetched 108 companies, 780 new items, 146 total in 48h window ===
