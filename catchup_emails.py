@@ -8,9 +8,7 @@ Usage:
 import json, sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from email_utils import send_email
-
-RECIPIENTS = ["agutman@inquirer.com", "EPalan@inquirer.com", "eravitch@inquirer.com"]
+from email_utils import send_email, EMAIL_TO
 
 HERE = Path(__file__).parent
 ED = HERE / "earnings_data"
@@ -57,12 +55,12 @@ if edgar_hits:
     lines.append("Dashboard: https://abgutman.github.io/av-tools/recent_earnings.html")
     subject = f"New earning reports: {len(edgar_hits)} filing{'s' if len(edgar_hits) > 1 else ''} in last 24h"
     body = "\n".join(lines)
-    print(f"TO: {', '.join(RECIPIENTS)}")
+    print(f"TO: {', '.join(EMAIL_TO)}")
     print(f"SUBJECT: {subject}")
     print(body)
     print("---")
     if live:
-        ok = send_email(subject, body, to=RECIPIENTS)
+        ok = send_email(subject, body)
         print("✉ sent" if ok else "⚠ send failed (check credentials)")
     else:
         print("[dry run — pass --live to send]")
@@ -86,12 +84,12 @@ if std_hits:
     lines.append("Dashboard: https://abgutman.github.io/av-tools/upcoming_earnings.html")
     subject = f"Save the date: {len(std_hits)} new earnings date{'s' if len(std_hits) > 1 else ''} in last 24h"
     body = "\n".join(lines)
-    print(f"TO: {', '.join(RECIPIENTS)}")
+    print(f"TO: {', '.join(EMAIL_TO)}")
     print(f"SUBJECT: {subject}")
     print(body)
     print("---")
     if live:
-        ok = send_email(subject, body, to=RECIPIENTS)
+        ok = send_email(subject, body)
         print("✉ sent" if ok else "⚠ send failed (check credentials)")
     else:
         print("[dry run — pass --live to send]")

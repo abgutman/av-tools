@@ -7,7 +7,7 @@ import os, smtplib, ssl
 from email.mime.text import MIMEText
 
 # ── Recipients & credentials ─────────────────────────────────────────────────
-EMAIL_TO = "agutman@inquirer.com"
+EMAIL_TO = ["agutman@inquirer.com", "EPalan@inquirer.com", "eravitch@inquirer.com"]
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 
@@ -72,7 +72,7 @@ def send_email(subject, body, log_fn=None, to=None):
         if log_fn:
             log_fn(f"⚠ No Gmail creds; would have sent: {subject}")
         return False
-    recipients = to if to else [EMAIL_TO]
+    recipients = to if to is not None else EMAIL_TO
     if isinstance(recipients, str):
         recipients = [recipients]
     msg = MIMEText(body, "plain")
