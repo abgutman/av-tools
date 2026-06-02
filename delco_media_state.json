@@ -322,7 +322,264 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-01T07:43:31.170544"
+    },
+    "CV-2026-005244": {
+      "case_id": "46746e855ecc6354a57b68f5169fc68637c4ec8b4178b468a75095e18b766f02",
+      "case_number": "CV-2026-005244",
+      "title": "NCB Management Services, Inc. v. Miller",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:03.022890"
+    },
+    "CV-2026-005233": {
+      "case_id": "39e8ee39f0866ffa81b57b277382ae3bb730f23afc9fe7e49691aa5fa2f43827",
+      "case_number": "CV-2026-005233",
+      "title": "Barnes v. Barnes et al",
+      "case_type": "Custody",
+      "classification": "Family - Custody - Custody / Partial Custody / Shared Custody / Visitation",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:03.349795"
+    },
+    "CV-2026-005245": {
+      "case_id": "871b294e06541165f4db09eba0751478b7115633cae1767eb60236a878b3959b",
+      "case_number": "CV-2026-005245",
+      "title": "Velocity Investments, LLC v. Burgos",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:03.673483"
+    },
+    "CV-2026-005230": {
+      "case_id": "fe6ed10d64b6e60a0c5ca5020740b2fc5523a6576b4d7bfce87d80561eb3f7aa",
+      "case_number": "CV-2026-005230",
+      "title": "Freedom Mortgage Corporation v. Cobb",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:03.998524"
+    },
+    "CV-2026-005236": {
+      "case_id": "3c56d778c6d59260d624986e83a6a6805bc73147de42ee0d5ffd28499fc6e019",
+      "case_number": "CV-2026-005236",
+      "title": "PENNSYLVANIA HOUSING FINANCE AGENCY v. Smart-Green et al",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Ejectment",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:04.323543"
+    },
+    "CV-2026-005243": {
+      "case_id": "0407139062db156aa264c1c8587a85b245a35f4ad376f90a3522530defeccbff",
+      "case_number": "CV-2026-005243",
+      "title": "Capital One N A  Successor By Merger To Discover Bank v. Foschi",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:04.648579"
+    },
+    "CV-2026-005228": {
+      "case_id": "5f7966aa1f79d4de10af5b9d42b2a6e945b8e85236c48569eb809096d6d44f8a",
+      "case_number": "CV-2026-005228",
+      "title": "Marquis v. Awobaikun",
+      "case_type": "Custody",
+      "classification": "Family - Custody - Custody / Partial Custody / Shared Custody / Visitation",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:04.973539"
+    },
+    "CV-2026-005247": {
+      "case_id": "8e5bc41f6850b6fd0f15e7d4a07fa23f30a00014dc5ce3c1ebfeea60e3cdcc38",
+      "case_number": "CV-2026-005247",
+      "title": "Johnson v. Johnson",
+      "case_type": "Custody",
+      "classification": "Family - Custody - Custody / Partial Custody / Shared Custody / Visitation",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_parties": [
+        {
+          "name": "Andrew Johnson",
+          "role": "Defendant",
+          "address": "205 Avondale Rd, Wallingford PA 19086",
+          "zip": "19086"
+        },
+        {
+          "name": "Amy Johnson",
+          "role": "Plaintiff",
+          "address": "205 Avondale Rd, Wallingford PA 19086",
+          "zip": "19086"
+        }
+      ],
+      "judge": "",
+      "status": null,
+      "first_seen": "2026-06-02T12:43:05.315468",
+      "detail_url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/8e5bc41f6850b6fd0f15e7d4a07fa23f30a00014dc5ce3c1ebfeea60e3cdcc38"
+    },
+    "CV-2026-005249": {
+      "case_id": "6caac24cb1bb782daa0ac10abe7ed69e9b00aae4296806753d0ca170aa43dded",
+      "case_number": "CV-2026-005249",
+      "title": "American Express National Bank v. RAGUCCI",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:05.639356"
+    },
+    "CV-2026-005254": {
+      "case_id": "b63c5d7b323925c7b485cc1a7e0410d80af86b8085816796e0e08bfbd50d52fd",
+      "case_number": "CV-2026-005254",
+      "title": "Lopez Hernandez et al v. Progressive Advanced Insurance Company et al",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Contract: Other",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:05.965327"
+    },
+    "CV-2026-005251": {
+      "case_id": "ce5a7a69d640e8b8209ca19a959fe827baccd00939726bd55554cf38c83b177e",
+      "case_number": "CV-2026-005251",
+      "title": "American Express National Bank v. DUKE",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:06.295479"
+    },
+    "CV-2026-005252": {
+      "case_id": "5bbedaa1cf190bc3b01a27d2e9872de4cd56f546a1f698944aa997cb55a5277c",
+      "case_number": "CV-2026-005252",
+      "title": "LVNV Funding LLC v. King-West",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:06.618854"
+    },
+    "CV-2026-005257": {
+      "case_id": "9cd63525471b74f82c506178ce894f8355392a805f6b608f453a507a2f97bb26",
+      "case_number": "CV-2026-005257",
+      "title": "Cambridge Partnership Holdings, LLC et al v. Half Price Hot Tubs LLC",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Ejectment",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_parties": [
+        {
+          "name": "Cambridge Partnership Holdings, LLC",
+          "role": "Plaintiff",
+          "address": "9 Hickory Lane, Wallingford PA 19086",
+          "zip": "19086"
+        }
+      ],
+      "judge": "",
+      "status": null,
+      "first_seen": "2026-06-02T12:43:06.959679",
+      "detail_url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/9cd63525471b74f82c506178ce894f8355392a805f6b608f453a507a2f97bb26"
+    },
+    "CV-2026-005237": {
+      "case_id": "a662e81458aa9790eae585832d09e6d4f82217785cdecbe4a3568fa90919ec95",
+      "case_number": "CV-2026-005237",
+      "title": "CITIGROUP MORTGAGE LOAN TRUST 2022-RP2, v. JAIME R LEFKOWITZ AS ADMINISTRATOR OF THE ESTATE OF DAVID LEFKOWITZ",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:07.284997"
+    },
+    "CV-2026-005248": {
+      "case_id": "f7728e4c7268f31d87acb3c88b86dcb6488828256f649a3c3ce570eef695b904",
+      "case_number": "CV-2026-005248",
+      "title": "Spring Village v. Galamn",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Landlord/Tenant Dispute",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:07.608844"
+    },
+    "CV-2026-005253": {
+      "case_id": "3e9751be4c6e2c88ced34a2fb5dc86730a8d6ccd8c9d4e3222102b24d1edb382",
+      "case_number": "CV-2026-005253",
+      "title": "Selective Insurance Company of America as subrogee of Acute Community Home Aid Inc. v. Garay",
+      "case_type": "Tort",
+      "classification": "Civil - Tort - Motor Vehicle",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:07.935359"
+    },
+    "CV-2026-005256": {
+      "case_id": "7e330eab140c645b3c009f3ec74c175cf38182a85f1b43c6a2f644c27112e499",
+      "case_number": "CV-2026-005256",
+      "title": "Respes v. Palmer",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - No Fault Only",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:08.259650"
+    },
+    "CV-2026-005224": {
+      "case_id": "7fdc47b44ff4e6f161fe51b12705718a4821d7677a3584cee859f8593cc37a68",
+      "case_number": "CV-2026-005224",
+      "title": "FRANCIS v. LANSDOWNE PJ, LLC t/a PAPA JOHN'S (STORE #1239) et al",
+      "case_type": "Tort",
+      "classification": "Civil - Tort - Motor Vehicle",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:08.585343"
+    },
+    "CV-2026-005223": {
+      "case_id": "6d1ac9a70026a33d70cacbc770b8ef3244f49a30990984172e5165d43f8f7f05",
+      "case_number": "CV-2026-005223",
+      "title": "Chase v. Chase",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - No Fault Only",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:08.909583"
+    },
+    "CV-2026-005231": {
+      "case_id": "f4252cae2063c41d6c2edca4ce7f380bae3ae6ecb4a7fefaa29249c985421a55",
+      "case_number": "CV-2026-005231",
+      "title": "BARCLAYS BANK DELAWARE v. MASON",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-05-31",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:02.700224"
+    },
+    "CV-2026-005241": {
+      "case_id": "968004fc59976c635a61501f83b8286585076adc146d77fa95ed1a99a98771ea",
+      "case_number": "CV-2026-005241",
+      "title": "Capital One  N A Successor By Merger To Discover Bank v. Mcbride",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-02T12:43:09.232063"
     }
   },
-  "last_run": "2026-06-01T12:28:44.508438"
+  "last_run": "2026-06-02T12:43:09.532801"
 }
