@@ -1,0 +1,2252 @@
+{
+ "08002": {
+  "state": "NJ",
+  "po_name": "Cherry Hill",
+  "region": "South Jersey"
+ },
+ "08003": {
+  "state": "NJ",
+  "po_name": "Cherry Hill",
+  "region": "South Jersey"
+ },
+ "08004": {
+  "state": "NJ",
+  "po_name": "Atco",
+  "region": "South Jersey"
+ },
+ "08007": {
+  "state": "NJ",
+  "po_name": "Barrington",
+  "region": "South Jersey"
+ },
+ "08009": {
+  "state": "NJ",
+  "po_name": "Berlin",
+  "region": "South Jersey"
+ },
+ "08010": {
+  "state": "NJ",
+  "po_name": "Beverly",
+  "region": "South Jersey"
+ },
+ "08011": {
+  "state": "NJ",
+  "po_name": "Birmingham",
+  "region": "South Jersey"
+ },
+ "08012": {
+  "state": "NJ",
+  "po_name": "Blackwood",
+  "region": "South Jersey"
+ },
+ "08014": {
+  "state": "NJ",
+  "po_name": "Bridgeport",
+  "region": "South Jersey"
+ },
+ "08015": {
+  "state": "NJ",
+  "po_name": "Browns Mills",
+  "region": "South Jersey"
+ },
+ "08016": {
+  "state": "NJ",
+  "po_name": "Burlington",
+  "region": "South Jersey"
+ },
+ "08018": {
+  "state": "NJ",
+  "po_name": "Cedar Brook",
+  "region": "South Jersey"
+ },
+ "08019": {
+  "state": "NJ",
+  "po_name": "Chatsworth",
+  "region": "South Jersey"
+ },
+ "08020": {
+  "state": "NJ",
+  "po_name": "Clarksboro",
+  "region": "South Jersey"
+ },
+ "08021": {
+  "state": "NJ",
+  "po_name": "Clementon",
+  "region": "South Jersey"
+ },
+ "08022": {
+  "state": "NJ",
+  "po_name": "Columbus",
+  "region": "South Jersey"
+ },
+ "08025": {
+  "state": "NJ",
+  "po_name": "Ewan",
+  "region": "South Jersey"
+ },
+ "08026": {
+  "state": "NJ",
+  "po_name": "Gibbsboro",
+  "region": "South Jersey"
+ },
+ "08027": {
+  "state": "NJ",
+  "po_name": "Gibbstown",
+  "region": "South Jersey"
+ },
+ "08028": {
+  "state": "NJ",
+  "po_name": "Glassboro",
+  "region": "South Jersey"
+ },
+ "08029": {
+  "state": "NJ",
+  "po_name": "Glendora",
+  "region": "South Jersey"
+ },
+ "08030": {
+  "state": "NJ",
+  "po_name": "Gloucester City",
+  "region": "South Jersey"
+ },
+ "08031": {
+  "state": "NJ",
+  "po_name": "Bellmawr",
+  "region": "South Jersey"
+ },
+ "08032": {
+  "state": "NJ",
+  "po_name": "Grenloch",
+  "region": "South Jersey"
+ },
+ "08033": {
+  "state": "NJ",
+  "po_name": "Haddonfield",
+  "region": "South Jersey"
+ },
+ "08034": {
+  "state": "NJ",
+  "po_name": "Cherry Hill",
+  "region": "South Jersey"
+ },
+ "08035": {
+  "state": "NJ",
+  "po_name": "Haddon Heights",
+  "region": "South Jersey"
+ },
+ "08036": {
+  "state": "NJ",
+  "po_name": "Hainesport",
+  "region": "South Jersey"
+ },
+ "08039": {
+  "state": "NJ",
+  "po_name": "Harrisonville",
+  "region": "South Jersey"
+ },
+ "08041": {
+  "state": "NJ",
+  "po_name": "Jobstown",
+  "region": "South Jersey"
+ },
+ "08042": {
+  "state": "NJ",
+  "po_name": "Juliustown",
+  "region": "South Jersey"
+ },
+ "08043": {
+  "state": "NJ",
+  "po_name": "Voorhees",
+  "region": "South Jersey"
+ },
+ "08045": {
+  "state": "NJ",
+  "po_name": "Lawnside",
+  "region": "South Jersey"
+ },
+ "08046": {
+  "state": "NJ",
+  "po_name": "Willingboro",
+  "region": "South Jersey"
+ },
+ "08048": {
+  "state": "NJ",
+  "po_name": "Lumberton",
+  "region": "South Jersey"
+ },
+ "08049": {
+  "state": "NJ",
+  "po_name": "Magnolia",
+  "region": "South Jersey"
+ },
+ "08051": {
+  "state": "NJ",
+  "po_name": "Mantua",
+  "region": "South Jersey"
+ },
+ "08052": {
+  "state": "NJ",
+  "po_name": "Maple Shade",
+  "region": "South Jersey"
+ },
+ "08053": {
+  "state": "NJ",
+  "po_name": "Marlton",
+  "region": "South Jersey"
+ },
+ "08054": {
+  "state": "NJ",
+  "po_name": "Mount Laurel",
+  "region": "South Jersey"
+ },
+ "08055": {
+  "state": "NJ",
+  "po_name": "Medford",
+  "region": "South Jersey"
+ },
+ "08056": {
+  "state": "NJ",
+  "po_name": "Mickleton",
+  "region": "South Jersey"
+ },
+ "08057": {
+  "state": "NJ",
+  "po_name": "Moorestown",
+  "region": "South Jersey"
+ },
+ "08059": {
+  "state": "NJ",
+  "po_name": "Mount Ephraim",
+  "region": "South Jersey"
+ },
+ "08060": {
+  "state": "NJ",
+  "po_name": "Mount Holly",
+  "region": "South Jersey"
+ },
+ "08061": {
+  "state": "NJ",
+  "po_name": "Mount Royal",
+  "region": "South Jersey"
+ },
+ "08062": {
+  "state": "NJ",
+  "po_name": "Mullica Hill",
+  "region": "South Jersey"
+ },
+ "08063": {
+  "state": "NJ",
+  "po_name": "National Park",
+  "region": "South Jersey"
+ },
+ "08064": {
+  "state": "NJ",
+  "po_name": "New Lisbon",
+  "region": "South Jersey"
+ },
+ "08065": {
+  "state": "NJ",
+  "po_name": "Palmyra",
+  "region": "South Jersey"
+ },
+ "08066": {
+  "state": "NJ",
+  "po_name": "Paulsboro",
+  "region": "South Jersey"
+ },
+ "08068": {
+  "state": "NJ",
+  "po_name": "Pemberton",
+  "region": "South Jersey"
+ },
+ "08071": {
+  "state": "NJ",
+  "po_name": "Pitman",
+  "region": "South Jersey"
+ },
+ "08073": {
+  "state": "NJ",
+  "po_name": "Rancocas",
+  "region": "South Jersey"
+ },
+ "08074": {
+  "state": "NJ",
+  "po_name": "Richwood",
+  "region": "South Jersey"
+ },
+ "08075": {
+  "state": "NJ",
+  "po_name": "Delanco",
+  "region": "South Jersey"
+ },
+ "08076": {
+  "state": "NJ",
+  "po_name": "Riverton",
+  "region": "South Jersey"
+ },
+ "08077": {
+  "state": "NJ",
+  "po_name": "Riverton",
+  "region": "South Jersey"
+ },
+ "08078": {
+  "state": "NJ",
+  "po_name": "Runnemede",
+  "region": "South Jersey"
+ },
+ "08080": {
+  "state": "NJ",
+  "po_name": "Sewell",
+  "region": "South Jersey"
+ },
+ "08081": {
+  "state": "NJ",
+  "po_name": "Sicklerville",
+  "region": "South Jersey"
+ },
+ "08083": {
+  "state": "NJ",
+  "po_name": "Somerdale",
+  "region": "South Jersey"
+ },
+ "08084": {
+  "state": "NJ",
+  "po_name": "Stratford",
+  "region": "South Jersey"
+ },
+ "08085": {
+  "state": "NJ",
+  "po_name": "Swedesboro",
+  "region": "South Jersey"
+ },
+ "08086": {
+  "state": "NJ",
+  "po_name": "Thorofare",
+  "region": "South Jersey"
+ },
+ "08088": {
+  "state": "NJ",
+  "po_name": "Shamong",
+  "region": "South Jersey"
+ },
+ "08089": {
+  "state": "NJ",
+  "po_name": "Waterford Works",
+  "region": "South Jersey"
+ },
+ "08090": {
+  "state": "NJ",
+  "po_name": "Wenonah",
+  "region": "South Jersey"
+ },
+ "08091": {
+  "state": "NJ",
+  "po_name": "West Berlin",
+  "region": "South Jersey"
+ },
+ "08093": {
+  "state": "NJ",
+  "po_name": "Westville",
+  "region": "South Jersey"
+ },
+ "08094": {
+  "state": "NJ",
+  "po_name": "Williamstown",
+  "region": "South Jersey"
+ },
+ "08095": {
+  "state": "NJ",
+  "po_name": "Winslow",
+  "region": "South Jersey"
+ },
+ "08096": {
+  "state": "NJ",
+  "po_name": "Deptford",
+  "region": "South Jersey"
+ },
+ "08097": {
+  "state": "NJ",
+  "po_name": "Woodbury Heights",
+  "region": "South Jersey"
+ },
+ "08099": {
+  "state": "NJ",
+  "po_name": "Bellmawr",
+  "region": "South Jersey"
+ },
+ "08101": {
+  "state": "NJ",
+  "po_name": "Camden",
+  "region": "South Jersey"
+ },
+ "08102": {
+  "state": "NJ",
+  "po_name": "Camden",
+  "region": "South Jersey"
+ },
+ "08103": {
+  "state": "NJ",
+  "po_name": "Camden",
+  "region": "South Jersey"
+ },
+ "08104": {
+  "state": "NJ",
+  "po_name": "Camden",
+  "region": "South Jersey"
+ },
+ "08105": {
+  "state": "NJ",
+  "po_name": "Camden",
+  "region": "South Jersey"
+ },
+ "08106": {
+  "state": "NJ",
+  "po_name": "Audubon",
+  "region": "South Jersey"
+ },
+ "08107": {
+  "state": "NJ",
+  "po_name": "Haddon Township",
+  "region": "South Jersey"
+ },
+ "08108": {
+  "state": "NJ",
+  "po_name": "Collingswood",
+  "region": "South Jersey"
+ },
+ "08109": {
+  "state": "NJ",
+  "po_name": "Merchantville",
+  "region": "South Jersey"
+ },
+ "08110": {
+  "state": "NJ",
+  "po_name": "Pennsauken",
+  "region": "South Jersey"
+ },
+ "08224": {
+  "state": "NJ",
+  "po_name": "New Gretna",
+  "region": "South Jersey"
+ },
+ "08312": {
+  "state": "NJ",
+  "po_name": "Clayton",
+  "region": "South Jersey"
+ },
+ "08322": {
+  "state": "NJ",
+  "po_name": "Franklinville",
+  "region": "South Jersey"
+ },
+ "08328": {
+  "state": "NJ",
+  "po_name": "Malaga",
+  "region": "South Jersey"
+ },
+ "08344": {
+  "state": "NJ",
+  "po_name": "Newfield",
+  "region": "South Jersey"
+ },
+ "08505": {
+  "state": "NJ",
+  "po_name": "Bordentown",
+  "region": "South Jersey"
+ },
+ "08511": {
+  "state": "NJ",
+  "po_name": "Cookstown",
+  "region": "South Jersey"
+ },
+ "08515": {
+  "state": "NJ",
+  "po_name": "Chesterfield",
+  "region": "South Jersey"
+ },
+ "08518": {
+  "state": "NJ",
+  "po_name": "Florence",
+  "region": "South Jersey"
+ },
+ "08554": {
+  "state": "NJ",
+  "po_name": "Roebling",
+  "region": "South Jersey"
+ },
+ "08562": {
+  "state": "NJ",
+  "po_name": "Wrightstown",
+  "region": "South Jersey"
+ },
+ "08640": {
+  "state": "NJ",
+  "po_name": "Fort DIX",
+  "region": "South Jersey"
+ },
+ "08641": {
+  "state": "NJ",
+  "po_name": "Trenton",
+  "region": "South Jersey"
+ },
+ "18039": {
+  "state": "PA",
+  "po_name": "Durham",
+  "region": "Pa suburbs"
+ },
+ "18041": {
+  "state": "PA",
+  "po_name": "East Greenville",
+  "region": "Pa suburbs"
+ },
+ "18054": {
+  "state": "PA",
+  "po_name": "Green Lane",
+  "region": "Pa suburbs"
+ },
+ "18070": {
+  "state": "PA",
+  "po_name": "Palm",
+  "region": "Pa suburbs"
+ },
+ "18073": {
+  "state": "PA",
+  "po_name": "Pennsburg",
+  "region": "Pa suburbs"
+ },
+ "18074": {
+  "state": "PA",
+  "po_name": "Perkiomenville",
+  "region": "Pa suburbs"
+ },
+ "18076": {
+  "state": "PA",
+  "po_name": "Red Hill",
+  "region": "Pa suburbs"
+ },
+ "18077": {
+  "state": "PA",
+  "po_name": "Riegelsville",
+  "region": "Pa suburbs"
+ },
+ "18081": {
+  "state": "PA",
+  "po_name": "Springtown",
+  "region": "Pa suburbs"
+ },
+ "18084": {
+  "state": "PA",
+  "po_name": "Sumneytown",
+  "region": "Pa suburbs"
+ },
+ "18901": {
+  "state": "PA",
+  "po_name": "Doylestown",
+  "region": "Pa suburbs"
+ },
+ "18902": {
+  "state": "PA",
+  "po_name": "Doylestown",
+  "region": "Pa suburbs"
+ },
+ "18910": {
+  "state": "PA",
+  "po_name": "Bedminster",
+  "region": "Pa suburbs"
+ },
+ "18911": {
+  "state": "PA",
+  "po_name": "Blooming Glen",
+  "region": "Pa suburbs"
+ },
+ "18912": {
+  "state": "PA",
+  "po_name": "Buckingham",
+  "region": "Pa suburbs"
+ },
+ "18913": {
+  "state": "PA",
+  "po_name": "Carversville",
+  "region": "Pa suburbs"
+ },
+ "18914": {
+  "state": "PA",
+  "po_name": "Chalfont",
+  "region": "Pa suburbs"
+ },
+ "18915": {
+  "state": "PA",
+  "po_name": "Colmar",
+  "region": "Pa suburbs"
+ },
+ "18916": {
+  "state": "PA",
+  "po_name": "Danboro",
+  "region": "Pa suburbs"
+ },
+ "18917": {
+  "state": "PA",
+  "po_name": "Dublin",
+  "region": "Pa suburbs"
+ },
+ "18918": {
+  "state": "PA",
+  "po_name": "Earlington",
+  "region": "Pa suburbs"
+ },
+ "18920": {
+  "state": "PA",
+  "po_name": "Erwinna",
+  "region": "Pa suburbs"
+ },
+ "18921": {
+  "state": "PA",
+  "po_name": "Ferndale",
+  "region": "Pa suburbs"
+ },
+ "18922": {
+  "state": "PA",
+  "po_name": "Forest Grove",
+  "region": "Pa suburbs"
+ },
+ "18923": {
+  "state": "PA",
+  "po_name": "Fountainville",
+  "region": "Pa suburbs"
+ },
+ "18924": {
+  "state": "PA",
+  "po_name": "Franconia",
+  "region": "Pa suburbs"
+ },
+ "18925": {
+  "state": "PA",
+  "po_name": "Furlong",
+  "region": "Pa suburbs"
+ },
+ "18926": {
+  "state": "PA",
+  "po_name": "Gardenville",
+  "region": "Pa suburbs"
+ },
+ "18927": {
+  "state": "PA",
+  "po_name": "Hilltown",
+  "region": "Pa suburbs"
+ },
+ "18928": {
+  "state": "PA",
+  "po_name": "Holicong",
+  "region": "Pa suburbs"
+ },
+ "18929": {
+  "state": "PA",
+  "po_name": "Jamison",
+  "region": "Pa suburbs"
+ },
+ "18930": {
+  "state": "PA",
+  "po_name": "Kintnersville",
+  "region": "Pa suburbs"
+ },
+ "18931": {
+  "state": "PA",
+  "po_name": "Lahaska",
+  "region": "Pa suburbs"
+ },
+ "18932": {
+  "state": "PA",
+  "po_name": "Line Lexington",
+  "region": "Pa suburbs"
+ },
+ "18933": {
+  "state": "PA",
+  "po_name": "Lumberville",
+  "region": "Pa suburbs"
+ },
+ "18934": {
+  "state": "PA",
+  "po_name": "Mechanicsville",
+  "region": "Pa suburbs"
+ },
+ "18935": {
+  "state": "PA",
+  "po_name": "Milford Square",
+  "region": "Pa suburbs"
+ },
+ "18936": {
+  "state": "PA",
+  "po_name": "Montgomeryville",
+  "region": "Pa suburbs"
+ },
+ "18938": {
+  "state": "PA",
+  "po_name": "New Hope",
+  "region": "Pa suburbs"
+ },
+ "18940": {
+  "state": "PA",
+  "po_name": "Newtown",
+  "region": "Pa suburbs"
+ },
+ "18942": {
+  "state": "PA",
+  "po_name": "Ottsville",
+  "region": "Pa suburbs"
+ },
+ "18943": {
+  "state": "PA",
+  "po_name": "Penns Park",
+  "region": "Pa suburbs"
+ },
+ "18944": {
+  "state": "PA",
+  "po_name": "Perkasie",
+  "region": "Pa suburbs"
+ },
+ "18946": {
+  "state": "PA",
+  "po_name": "Pineville",
+  "region": "Pa suburbs"
+ },
+ "18947": {
+  "state": "PA",
+  "po_name": "Pipersville",
+  "region": "Pa suburbs"
+ },
+ "18949": {
+  "state": "PA",
+  "po_name": "Plumsteadville",
+  "region": "Pa suburbs"
+ },
+ "18950": {
+  "state": "PA",
+  "po_name": "Point Pleasant",
+  "region": "Pa suburbs"
+ },
+ "18951": {
+  "state": "PA",
+  "po_name": "Quakertown",
+  "region": "Pa suburbs"
+ },
+ "18953": {
+  "state": "PA",
+  "po_name": "Revere",
+  "region": "Pa suburbs"
+ },
+ "18954": {
+  "state": "PA",
+  "po_name": "Richboro",
+  "region": "Pa suburbs"
+ },
+ "18955": {
+  "state": "PA",
+  "po_name": "Richlandtown",
+  "region": "Pa suburbs"
+ },
+ "18956": {
+  "state": "PA",
+  "po_name": "Rushland",
+  "region": "Pa suburbs"
+ },
+ "18957": {
+  "state": "PA",
+  "po_name": "Salford",
+  "region": "Pa suburbs"
+ },
+ "18958": {
+  "state": "PA",
+  "po_name": "Salfordville",
+  "region": "Pa suburbs"
+ },
+ "18960": {
+  "state": "PA",
+  "po_name": "Sellersville",
+  "region": "Pa suburbs"
+ },
+ "18962": {
+  "state": "PA",
+  "po_name": "Silverdale",
+  "region": "Pa suburbs"
+ },
+ "18963": {
+  "state": "PA",
+  "po_name": "Solebury",
+  "region": "Pa suburbs"
+ },
+ "18964": {
+  "state": "PA",
+  "po_name": "Souderton",
+  "region": "Pa suburbs"
+ },
+ "18966": {
+  "state": "PA",
+  "po_name": "Southampton",
+  "region": "Pa suburbs"
+ },
+ "18968": {
+  "state": "PA",
+  "po_name": "Spinnerstown",
+  "region": "Pa suburbs"
+ },
+ "18969": {
+  "state": "PA",
+  "po_name": "Telford",
+  "region": "Pa suburbs"
+ },
+ "18970": {
+  "state": "PA",
+  "po_name": "Trumbauersville",
+  "region": "Pa suburbs"
+ },
+ "18971": {
+  "state": "PA",
+  "po_name": "Tylersport",
+  "region": "Pa suburbs"
+ },
+ "18972": {
+  "state": "PA",
+  "po_name": "Upper Black Eddy",
+  "region": "Pa suburbs"
+ },
+ "18974": {
+  "state": "PA",
+  "po_name": "Warminster",
+  "region": "Pa suburbs"
+ },
+ "18976": {
+  "state": "PA",
+  "po_name": "Warrington",
+  "region": "Pa suburbs"
+ },
+ "18977": {
+  "state": "PA",
+  "po_name": "Washington Crossing",
+  "region": "Pa suburbs"
+ },
+ "18979": {
+  "state": "PA",
+  "po_name": "Woxall",
+  "region": "Pa suburbs"
+ },
+ "18980": {
+  "state": "PA",
+  "po_name": "Wycombe",
+  "region": "Pa suburbs"
+ },
+ "18981": {
+  "state": "PA",
+  "po_name": "Zionhill",
+  "region": "Pa suburbs"
+ },
+ "18991": {
+  "state": "PA",
+  "po_name": "Warminster",
+  "region": "Pa suburbs"
+ },
+ "19001": {
+  "state": "PA",
+  "po_name": "Abington",
+  "region": "Pa suburbs"
+ },
+ "19002": {
+  "state": "PA",
+  "po_name": "Ambler",
+  "region": "Pa suburbs"
+ },
+ "19003": {
+  "state": "PA",
+  "po_name": "Ardmore",
+  "region": "Pa suburbs"
+ },
+ "19004": {
+  "state": "PA",
+  "po_name": "Bala Cynwyd",
+  "region": "Pa suburbs"
+ },
+ "19006": {
+  "state": "PA",
+  "po_name": "Huntingdon Valley",
+  "region": "Pa suburbs"
+ },
+ "19007": {
+  "state": "PA",
+  "po_name": "Bristol",
+  "region": "Pa suburbs"
+ },
+ "19008": {
+  "state": "PA",
+  "po_name": "Broomall",
+  "region": "Pa suburbs"
+ },
+ "19009": {
+  "state": "PA",
+  "po_name": "Bryn Athyn",
+  "region": "Pa suburbs"
+ },
+ "19010": {
+  "state": "PA",
+  "po_name": "Bryn Mawr",
+  "region": "Pa suburbs"
+ },
+ "19012": {
+  "state": "PA",
+  "po_name": "Cheltenham",
+  "region": "Pa suburbs"
+ },
+ "19013": {
+  "state": "PA",
+  "po_name": "Chester",
+  "region": "Pa suburbs"
+ },
+ "19014": {
+  "state": "PA",
+  "po_name": "Aston",
+  "region": "Pa suburbs"
+ },
+ "19015": {
+  "state": "PA",
+  "po_name": "Brookhaven",
+  "region": "Pa suburbs"
+ },
+ "19016": {
+  "state": "PA",
+  "po_name": "Chester",
+  "region": "Pa suburbs"
+ },
+ "19017": {
+  "state": "PA",
+  "po_name": "Chester Heights",
+  "region": "Pa suburbs"
+ },
+ "19018": {
+  "state": "PA",
+  "po_name": "Clifton Heights",
+  "region": "Pa suburbs"
+ },
+ "19019": {
+  "state": "PA",
+  "po_name": "Philadelphia",
+  "region": "Philadelphia"
+ },
+ "19020": {
+  "state": "PA",
+  "po_name": "Bensalem",
+  "region": "Pa suburbs"
+ },
+ "19021": {
+  "state": "PA",
+  "po_name": "Croydon",
+  "region": "Pa suburbs"
+ },
+ "19022": {
+  "state": "PA",
+  "po_name": "Crum Lynne",
+  "region": "Pa suburbs"
+ },
+ "19023": {
+  "state": "PA",
+  "po_name": "Darby",
+  "region": "Pa suburbs"
+ },
+ "19025": {
+  "state": "PA",
+  "po_name": "Dresher",
+  "region": "Pa suburbs"
+ },
+ "19026": {
+  "state": "PA",
+  "po_name": "Drexel Hill",
+  "region": "Pa suburbs"
+ },
+ "19027": {
+  "state": "PA",
+  "po_name": "Elkins Park",
+  "region": "Pa suburbs"
+ },
+ "19028": {
+  "state": "PA",
+  "po_name": "Edgemont",
+  "region": "Pa suburbs"
+ },
+ "19029": {
+  "state": "PA",
+  "po_name": "Essington",
+  "region": "Pa suburbs"
+ },
+ "19030": {
+  "state": "PA",
+  "po_name": "Fairless Hills",
+  "region": "Pa suburbs"
+ },
+ "19031": {
+  "state": "PA",
+  "po_name": "Flourtown",
+  "region": "Pa suburbs"
+ },
+ "19032": {
+  "state": "PA",
+  "po_name": "Folcroft",
+  "region": "Pa suburbs"
+ },
+ "19033": {
+  "state": "PA",
+  "po_name": "Folsom",
+  "region": "Pa suburbs"
+ },
+ "19034": {
+  "state": "PA",
+  "po_name": "Fort Washington",
+  "region": "Pa suburbs"
+ },
+ "19035": {
+  "state": "PA",
+  "po_name": "Gladwyne",
+  "region": "Pa suburbs"
+ },
+ "19036": {
+  "state": "PA",
+  "po_name": "Glenolden",
+  "region": "Pa suburbs"
+ },
+ "19037": {
+  "state": "PA",
+  "po_name": "Glen Riddle Lima",
+  "region": "Pa suburbs"
+ },
+ "19038": {
+  "state": "PA",
+  "po_name": "Glenside",
+  "region": "Pa suburbs"
+ },
+ "19039": {
+  "state": "PA",
+  "po_name": "Gradyville",
+  "region": "Pa suburbs"
+ },
+ "19040": {
+  "state": "PA",
+  "po_name": "Hatboro",
+  "region": "Pa suburbs"
+ },
+ "19041": {
+  "state": "PA",
+  "po_name": "Haverford",
+  "region": "Pa suburbs"
+ },
+ "19043": {
+  "state": "PA",
+  "po_name": "Holmes",
+  "region": "Pa suburbs"
+ },
+ "19044": {
+  "state": "PA",
+  "po_name": "Horsham",
+  "region": "Pa suburbs"
+ },
+ "19046": {
+  "state": "PA",
+  "po_name": "Jenkintown",
+  "region": "Pa suburbs"
+ },
+ "19047": {
+  "state": "PA",
+  "po_name": "Langhorne",
+  "region": "Pa suburbs"
+ },
+ "19048": {
+  "state": "PA",
+  "po_name": "Fort Washington",
+  "region": "Pa suburbs"
+ },
+ "19049": {
+  "state": "PA",
+  "po_name": "Fort Washington",
+  "region": "Pa suburbs"
+ },
+ "19050": {
+  "state": "PA",
+  "po_name": "Lansdowne",
+  "region": "Pa suburbs"
+ },
+ "19052": {
+  "state": "PA",
+  "po_name": "Lenni",
+  "region": "Pa suburbs"
+ },
+ "19053": {
+  "state": "PA",
+  "po_name": "Feasterville Trevose",
+  "region": "Pa suburbs"
+ },
+ "19054": {
+  "state": "PA",
+  "po_name": "Levittown",
+  "region": "Pa suburbs"
+ },
+ "19055": {
+  "state": "PA",
+  "po_name": "Levittown",
+  "region": "Pa suburbs"
+ },
+ "19056": {
+  "state": "PA",
+  "po_name": "Levittown",
+  "region": "Pa suburbs"
+ },
+ "19057": {
+  "state": "PA",
+  "po_name": "Levittown",
+  "region": "Pa suburbs"
+ },
+ "19058": {
+  "state": "PA",
+  "po_name": "Levittown",
+  "region": "Pa suburbs"
+ },
+ "19061": {
+  "state": "PA",
+  "po_name": "Marcus Hook",
+  "region": "Pa suburbs"
+ },
+ "19063": {
+  "state": "PA",
+  "po_name": "Media",
+  "region": "Pa suburbs"
+ },
+ "19064": {
+  "state": "PA",
+  "po_name": "Springfield",
+  "region": "Pa suburbs"
+ },
+ "19065": {
+  "state": "PA",
+  "po_name": "Media",
+  "region": "Pa suburbs"
+ },
+ "19066": {
+  "state": "PA",
+  "po_name": "Merion Station",
+  "region": "Pa suburbs"
+ },
+ "19067": {
+  "state": "PA",
+  "po_name": "Morrisville",
+  "region": "Pa suburbs"
+ },
+ "19070": {
+  "state": "PA",
+  "po_name": "Morton",
+  "region": "Pa suburbs"
+ },
+ "19072": {
+  "state": "PA",
+  "po_name": "Narberth",
+  "region": "Pa suburbs"
+ },
+ "19073": {
+  "state": "PA",
+  "po_name": "Newtown Square",
+  "region": "Pa suburbs"
+ },
+ "19074": {
+  "state": "PA",
+  "po_name": "Norwood",
+  "region": "Pa suburbs"
+ },
+ "19075": {
+  "state": "PA",
+  "po_name": "Oreland",
+  "region": "Pa suburbs"
+ },
+ "19076": {
+  "state": "PA",
+  "po_name": "Prospect Park",
+  "region": "Pa suburbs"
+ },
+ "19078": {
+  "state": "PA",
+  "po_name": "Ridley Park",
+  "region": "Pa suburbs"
+ },
+ "19079": {
+  "state": "PA",
+  "po_name": "Sharon Hill",
+  "region": "Pa suburbs"
+ },
+ "19080": {
+  "state": "PA",
+  "po_name": "Wayne",
+  "region": "Pa suburbs"
+ },
+ "19081": {
+  "state": "PA",
+  "po_name": "Swarthmore",
+  "region": "Pa suburbs"
+ },
+ "19082": {
+  "state": "PA",
+  "po_name": "Upper Darby",
+  "region": "Pa suburbs"
+ },
+ "19083": {
+  "state": "PA",
+  "po_name": "Havertown",
+  "region": "Pa suburbs"
+ },
+ "19085": {
+  "state": "PA",
+  "po_name": "Villanova",
+  "region": "Pa suburbs"
+ },
+ "19086": {
+  "state": "PA",
+  "po_name": "Wallingford",
+  "region": "Pa suburbs"
+ },
+ "19087": {
+  "state": "PA",
+  "po_name": "Wayne",
+  "region": "Pa suburbs"
+ },
+ "19088": {
+  "state": "PA",
+  "po_name": "Wayne",
+  "region": "Pa suburbs"
+ },
+ "19089": {
+  "state": "PA",
+  "po_name": "Wayne",
+  "region": "Pa suburbs"
+ },
+ "19090": {
+  "state": "PA",
+  "po_name": "Willow Grove",
+  "region": "Pa suburbs"
+ },
+ "19091": {
+  "state": "PA",
+  "po_name": "Media",
+  "region": "Pa suburbs"
+ },
+ "19092": {
+  "state": "PA",
+  "po_name": "Philadelphia",
+  "region": "Philadelphia"
+ },
+ "19093": {
+  "state": "PA",
+  "po_name": "Philadelphia",
+  "region": "Philadelphia"
+ },
+ "19094": {
+  "state": "PA",
+  "po_name": "Woodlyn",
+  "region": "Pa suburbs"
+ },
+ "19095": {
+  "state": "PA",
+  "po_name": "Wyncote",
+  "region": "Pa suburbs"
+ },
+ "19096": {
+  "state": "PA",
+  "po_name": "Wynnewood",
+  "region": "Pa suburbs"
+ },
+ "19098": {
+  "state": "PA",
+  "po_name": "Holmes",
+  "region": "Pa suburbs"
+ },
+ "19101": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19102": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19103": {
+  "state": "PA",
+  "po_name": "Center City West",
+  "region": "Philadelphia"
+ },
+ "19104": {
+  "state": "PA",
+  "po_name": "University City, Mantua, Powelton",
+  "region": "Philadelphia"
+ },
+ "19105": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19106": {
+  "state": "PA",
+  "po_name": "Old City, Society Hill",
+  "region": "Philadelphia"
+ },
+ "19107": {
+  "state": "PA",
+  "po_name": "Center City, Chinatown",
+  "region": "Philadelphia"
+ },
+ "19108": {
+  "state": "PA",
+  "po_name": "Callowhill",
+  "region": "Philadelphia"
+ },
+ "19109": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19110": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19111": {
+  "state": "PA",
+  "po_name": "Fox Chase, Burlholme, Lawndale",
+  "region": "Philadelphia"
+ },
+ "19112": {
+  "state": "PA",
+  "po_name": "Navy Yard",
+  "region": "Philadelphia"
+ },
+ "19113": {
+  "state": "PA",
+  "po_name": "Airport",
+  "region": "Philadelphia"
+ },
+ "19114": {
+  "state": "PA",
+  "po_name": "Northeast, Torresdale",
+  "region": "Philadelphia"
+ },
+ "19115": {
+  "state": "PA",
+  "po_name": "Bustleton",
+  "region": "Philadelphia"
+ },
+ "19116": {
+  "state": "PA",
+  "po_name": "Somerton, Byberry",
+  "region": "Philadelphia"
+ },
+ "19118": {
+  "state": "PA",
+  "po_name": "Chestnut Hill",
+  "region": "Philadelphia"
+ },
+ "19119": {
+  "state": "PA",
+  "po_name": "Mount Airy",
+  "region": "Philadelphia"
+ },
+ "19120": {
+  "state": "PA",
+  "po_name": "Olney, Feltonville",
+  "region": "Philadelphia"
+ },
+ "19121": {
+  "state": "PA",
+  "po_name": "Strawberry Mansion, Brewerytown",
+  "region": "Philadelphia"
+ },
+ "19122": {
+  "state": "PA",
+  "po_name": "North Philadelphia, Ludlow",
+  "region": "Philadelphia"
+ },
+ "19123": {
+  "state": "PA",
+  "po_name": "Northern Liberties, North Philadelphia",
+  "region": "Philadelphia"
+ },
+ "19124": {
+  "state": "PA",
+  "po_name": "Frankford, Juniata Park, Crescentville",
+  "region": "Philadelphia"
+ },
+ "19125": {
+  "state": "PA",
+  "po_name": "Fishtown, Kensington",
+  "region": "Philadelphia"
+ },
+ "19126": {
+  "state": "PA",
+  "po_name": "East Oak Lane, Oak Lane",
+  "region": "Philadelphia"
+ },
+ "19127": {
+  "state": "PA",
+  "po_name": "Manayunk",
+  "region": "Philadelphia"
+ },
+ "19128": {
+  "state": "PA",
+  "po_name": "Roxborough, Wissahickon",
+  "region": "Philadelphia"
+ },
+ "19129": {
+  "state": "PA",
+  "po_name": "East Falls, Tioga, Nicetown",
+  "region": "Philadelphia"
+ },
+ "19130": {
+  "state": "PA",
+  "po_name": "Spring Garden, Fairmount",
+  "region": "Philadelphia"
+ },
+ "19131": {
+  "state": "PA",
+  "po_name": "Wynnefield, West Park, Overbrook",
+  "region": "Philadelphia"
+ },
+ "19132": {
+  "state": "PA",
+  "po_name": "North Philadelphia, Strawberry Mansion, Swampoodle",
+  "region": "Philadelphia"
+ },
+ "19133": {
+  "state": "PA",
+  "po_name": "Fairhill",
+  "region": "Philadelphia"
+ },
+ "19134": {
+  "state": "PA",
+  "po_name": "Kensington, Port Richmond",
+  "region": "Philadelphia"
+ },
+ "19135": {
+  "state": "PA",
+  "po_name": "Tacony, Wissinoming",
+  "region": "Philadelphia"
+ },
+ "19136": {
+  "state": "PA",
+  "po_name": "Holmesburg",
+  "region": "Philadelphia"
+ },
+ "19137": {
+  "state": "PA",
+  "po_name": "Bridesburg, Port Richmond",
+  "region": "Philadelphia"
+ },
+ "19138": {
+  "state": "PA",
+  "po_name": "West Oak Lane, East Germantown",
+  "region": "Philadelphia"
+ },
+ "19139": {
+  "state": "PA",
+  "po_name": "West Philadelphia, Mill Creek, Dunlap",
+  "region": "Philadelphia"
+ },
+ "19140": {
+  "state": "PA",
+  "po_name": "Hunting Park, Tioga, Nicetown",
+  "region": "Philadelphia"
+ },
+ "19141": {
+  "state": "PA",
+  "po_name": "Logan, Fern Rock, Ogontz",
+  "region": "Philadelphia"
+ },
+ "19142": {
+  "state": "PA",
+  "po_name": "West Philadelphia, Elmwood",
+  "region": "Philadelphia"
+ },
+ "19143": {
+  "state": "PA",
+  "po_name": "Kingsessing",
+  "region": "Philadelphia"
+ },
+ "19144": {
+  "state": "PA",
+  "po_name": "Germantown",
+  "region": "Philadelphia"
+ },
+ "19145": {
+  "state": "PA",
+  "po_name": "South Philadelphia West",
+  "region": "Philadelphia"
+ },
+ "19146": {
+  "state": "PA",
+  "po_name": "Southwest Center City, Point Breeze, Grays Ferry",
+  "region": "Philadelphia"
+ },
+ "19147": {
+  "state": "PA",
+  "po_name": "Bella Vista, Queen Village",
+  "region": "Philadelphia"
+ },
+ "19148": {
+  "state": "PA",
+  "po_name": "South Philadelphia East",
+  "region": "Philadelphia"
+ },
+ "19149": {
+  "state": "PA",
+  "po_name": "Oxford Circle, Mayfair",
+  "region": "Philadelphia"
+ },
+ "19150": {
+  "state": "PA",
+  "po_name": "Cedarbrook, Stenton",
+  "region": "Philadelphia"
+ },
+ "19151": {
+  "state": "PA",
+  "po_name": "Overbrook",
+  "region": "Philadelphia"
+ },
+ "19152": {
+  "state": "PA",
+  "po_name": "Rhawnhurst",
+  "region": "Philadelphia"
+ },
+ "19153": {
+  "state": "PA",
+  "po_name": "Eastwick, Southwest Philadelphia",
+  "region": "Philadelphia"
+ },
+ "19154": {
+  "state": "PA",
+  "po_name": "Northeast Philadelphia, Parkwood Manor",
+  "region": "Philadelphia"
+ },
+ "19155": {
+  "state": "PA",
+  "po_name": "Northeast Philadelphia",
+  "region": "Philadelphia"
+ },
+ "19160": {
+  "state": "PA",
+  "po_name": "Hunting Park",
+  "region": "Philadelphia"
+ },
+ "19161": {
+  "state": "PA",
+  "po_name": "Burlholme",
+  "region": "Philadelphia"
+ },
+ "19162": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19170": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19171": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19172": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19173": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19175": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19176": {
+  "state": "PA",
+  "po_name": "Eastwick",
+  "region": "Philadelphia"
+ },
+ "19177": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19178": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19181": {
+  "state": "PA",
+  "po_name": "Old City",
+  "region": "Philadelphia"
+ },
+ "19182": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19184": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19185": {
+  "state": "PA",
+  "po_name": "Navy Yard",
+  "region": "Philadelphia"
+ },
+ "19187": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19188": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19191": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19192": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19193": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19194": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19195": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19196": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19197": {
+  "state": "PA",
+  "po_name": "Center City",
+  "region": "Philadelphia"
+ },
+ "19244": {
+  "state": "PA",
+  "po_name": "Northeast Philadelphia",
+  "region": "Philadelphia"
+ },
+ "19255": {
+  "state": "PA",
+  "po_name": "Somerton",
+  "region": "Philadelphia"
+ },
+ "19301": {
+  "state": "PA",
+  "po_name": "Paoli",
+  "region": "Pa suburbs"
+ },
+ "19310": {
+  "state": "PA",
+  "po_name": "Atglen",
+  "region": "Pa suburbs"
+ },
+ "19311": {
+  "state": "PA",
+  "po_name": "Avondale",
+  "region": "Pa suburbs"
+ },
+ "19312": {
+  "state": "PA",
+  "po_name": "Berwyn",
+  "region": "Pa suburbs"
+ },
+ "19316": {
+  "state": "PA",
+  "po_name": "Brandamore",
+  "region": "Pa suburbs"
+ },
+ "19317": {
+  "state": "PA",
+  "po_name": "Chadds Ford",
+  "region": "Pa suburbs"
+ },
+ "19318": {
+  "state": "PA",
+  "po_name": "Chatham",
+  "region": "Pa suburbs"
+ },
+ "19319": {
+  "state": "PA",
+  "po_name": "Cheyney",
+  "region": "Pa suburbs"
+ },
+ "19320": {
+  "state": "PA",
+  "po_name": "Coatesville",
+  "region": "Pa suburbs"
+ },
+ "19330": {
+  "state": "PA",
+  "po_name": "Cochranville",
+  "region": "Pa suburbs"
+ },
+ "19331": {
+  "state": "PA",
+  "po_name": "Concordville",
+  "region": "Pa suburbs"
+ },
+ "19333": {
+  "state": "PA",
+  "po_name": "Devon",
+  "region": "Pa suburbs"
+ },
+ "19335": {
+  "state": "PA",
+  "po_name": "Downingtown",
+  "region": "Pa suburbs"
+ },
+ "19339": {
+  "state": "PA",
+  "po_name": "Concordville",
+  "region": "Pa suburbs"
+ },
+ "19340": {
+  "state": "PA",
+  "po_name": "Concordville",
+  "region": "Pa suburbs"
+ },
+ "19341": {
+  "state": "PA",
+  "po_name": "Exton",
+  "region": "Pa suburbs"
+ },
+ "19342": {
+  "state": "PA",
+  "po_name": "Glen Mills",
+  "region": "Pa suburbs"
+ },
+ "19343": {
+  "state": "PA",
+  "po_name": "Glenmoore",
+  "region": "Pa suburbs"
+ },
+ "19344": {
+  "state": "PA",
+  "po_name": "Honey Brook",
+  "region": "Pa suburbs"
+ },
+ "19345": {
+  "state": "PA",
+  "po_name": "Immaculata",
+  "region": "Pa suburbs"
+ },
+ "19346": {
+  "state": "PA",
+  "po_name": "Kelton",
+  "region": "Pa suburbs"
+ },
+ "19347": {
+  "state": "PA",
+  "po_name": "Kemblesville",
+  "region": "Pa suburbs"
+ },
+ "19348": {
+  "state": "PA",
+  "po_name": "Kennett Square",
+  "region": "Pa suburbs"
+ },
+ "19350": {
+  "state": "PA",
+  "po_name": "Landenberg",
+  "region": "Pa suburbs"
+ },
+ "19351": {
+  "state": "PA",
+  "po_name": "Lewisville",
+  "region": "Pa suburbs"
+ },
+ "19352": {
+  "state": "PA",
+  "po_name": "Lincoln University",
+  "region": "Pa suburbs"
+ },
+ "19353": {
+  "state": "PA",
+  "po_name": "Lionville",
+  "region": "Pa suburbs"
+ },
+ "19354": {
+  "state": "PA",
+  "po_name": "Lyndell",
+  "region": "Pa suburbs"
+ },
+ "19355": {
+  "state": "PA",
+  "po_name": "Malvern",
+  "region": "Pa suburbs"
+ },
+ "19357": {
+  "state": "PA",
+  "po_name": "Mendenhall",
+  "region": "Pa suburbs"
+ },
+ "19358": {
+  "state": "PA",
+  "po_name": "Modena",
+  "region": "Pa suburbs"
+ },
+ "19360": {
+  "state": "PA",
+  "po_name": "New London",
+  "region": "Pa suburbs"
+ },
+ "19362": {
+  "state": "PA",
+  "po_name": "Nottingham",
+  "region": "Pa suburbs"
+ },
+ "19363": {
+  "state": "PA",
+  "po_name": "Oxford",
+  "region": "Pa suburbs"
+ },
+ "19365": {
+  "state": "PA",
+  "po_name": "Parkesburg",
+  "region": "Pa suburbs"
+ },
+ "19366": {
+  "state": "PA",
+  "po_name": "Pocopson",
+  "region": "Pa suburbs"
+ },
+ "19367": {
+  "state": "PA",
+  "po_name": "Pomeroy",
+  "region": "Pa suburbs"
+ },
+ "19369": {
+  "state": "PA",
+  "po_name": "Sadsburyville",
+  "region": "Pa suburbs"
+ },
+ "19371": {
+  "state": "PA",
+  "po_name": "Suplee",
+  "region": "Pa suburbs"
+ },
+ "19372": {
+  "state": "PA",
+  "po_name": "Thorndale",
+  "region": "Pa suburbs"
+ },
+ "19373": {
+  "state": "PA",
+  "po_name": "Thornton",
+  "region": "Pa suburbs"
+ },
+ "19374": {
+  "state": "PA",
+  "po_name": "Toughkenamon",
+  "region": "Pa suburbs"
+ },
+ "19375": {
+  "state": "PA",
+  "po_name": "Unionville",
+  "region": "Pa suburbs"
+ },
+ "19376": {
+  "state": "PA",
+  "po_name": "Wagontown",
+  "region": "Pa suburbs"
+ },
+ "19380": {
+  "state": "PA",
+  "po_name": "West Chester",
+  "region": "Pa suburbs"
+ },
+ "19381": {
+  "state": "PA",
+  "po_name": "West Chester",
+  "region": "Pa suburbs"
+ },
+ "19382": {
+  "state": "PA",
+  "po_name": "West Chester",
+  "region": "Pa suburbs"
+ },
+ "19383": {
+  "state": "PA",
+  "po_name": "West Chester",
+  "region": "Pa suburbs"
+ },
+ "19390": {
+  "state": "PA",
+  "po_name": "West Grove",
+  "region": "Pa suburbs"
+ },
+ "19395": {
+  "state": "PA",
+  "po_name": "Westtown",
+  "region": "Pa suburbs"
+ },
+ "19397": {
+  "state": "PA",
+  "po_name": "Southeastern",
+  "region": "Pa suburbs"
+ },
+ "19398": {
+  "state": "PA",
+  "po_name": "Southeastern",
+  "region": "Pa suburbs"
+ },
+ "19399": {
+  "state": "PA",
+  "po_name": "Southeastern",
+  "region": "Pa suburbs"
+ },
+ "19401": {
+  "state": "PA",
+  "po_name": "Norristown",
+  "region": "Pa suburbs"
+ },
+ "19403": {
+  "state": "PA",
+  "po_name": "Norristown",
+  "region": "Pa suburbs"
+ },
+ "19404": {
+  "state": "PA",
+  "po_name": "Norristown",
+  "region": "Pa suburbs"
+ },
+ "19405": {
+  "state": "PA",
+  "po_name": "Bridgeport",
+  "region": "Pa suburbs"
+ },
+ "19406": {
+  "state": "PA",
+  "po_name": "King of Prussia",
+  "region": "Pa suburbs"
+ },
+ "19407": {
+  "state": "PA",
+  "po_name": "Audubon",
+  "region": "Pa suburbs"
+ },
+ "19408": {
+  "state": "PA",
+  "po_name": "Eagleville",
+  "region": "Pa suburbs"
+ },
+ "19409": {
+  "state": "PA",
+  "po_name": "Fairview Village",
+  "region": "Pa suburbs"
+ },
+ "19415": {
+  "state": "PA",
+  "po_name": "Eagleville",
+  "region": "Pa suburbs"
+ },
+ "19421": {
+  "state": "PA",
+  "po_name": "Birchrunville",
+  "region": "Pa suburbs"
+ },
+ "19422": {
+  "state": "PA",
+  "po_name": "Blue Bell",
+  "region": "Pa suburbs"
+ },
+ "19423": {
+  "state": "PA",
+  "po_name": "Cedars",
+  "region": "Pa suburbs"
+ },
+ "19424": {
+  "state": "PA",
+  "po_name": "Blue Bell",
+  "region": "Pa suburbs"
+ },
+ "19425": {
+  "state": "PA",
+  "po_name": "Chester Springs",
+  "region": "Pa suburbs"
+ },
+ "19426": {
+  "state": "PA",
+  "po_name": "Collegeville",
+  "region": "Pa suburbs"
+ },
+ "19428": {
+  "state": "PA",
+  "po_name": "Conshohocken",
+  "region": "Pa suburbs"
+ },
+ "19429": {
+  "state": "PA",
+  "po_name": "Conshohocken",
+  "region": "Pa suburbs"
+ },
+ "19430": {
+  "state": "PA",
+  "po_name": "Creamery",
+  "region": "Pa suburbs"
+ },
+ "19432": {
+  "state": "PA",
+  "po_name": "Devault",
+  "region": "Pa suburbs"
+ },
+ "19435": {
+  "state": "PA",
+  "po_name": "Frederick",
+  "region": "Pa suburbs"
+ },
+ "19436": {
+  "state": "PA",
+  "po_name": "Gwynedd",
+  "region": "Pa suburbs"
+ },
+ "19437": {
+  "state": "PA",
+  "po_name": "Gwynedd Valley",
+  "region": "Pa suburbs"
+ },
+ "19438": {
+  "state": "PA",
+  "po_name": "Harleysville",
+  "region": "Pa suburbs"
+ },
+ "19440": {
+  "state": "PA",
+  "po_name": "Hatfield",
+  "region": "Pa suburbs"
+ },
+ "19441": {
+  "state": "PA",
+  "po_name": "Harleysville",
+  "region": "Pa suburbs"
+ },
+ "19442": {
+  "state": "PA",
+  "po_name": "Kimberton",
+  "region": "Pa suburbs"
+ },
+ "19443": {
+  "state": "PA",
+  "po_name": "Kulpsville",
+  "region": "Pa suburbs"
+ },
+ "19444": {
+  "state": "PA",
+  "po_name": "Lafayette Hill",
+  "region": "Pa suburbs"
+ },
+ "19446": {
+  "state": "PA",
+  "po_name": "Lansdale",
+  "region": "Pa suburbs"
+ },
+ "19450": {
+  "state": "PA",
+  "po_name": "Lederach",
+  "region": "Pa suburbs"
+ },
+ "19451": {
+  "state": "PA",
+  "po_name": "Mainland",
+  "region": "Pa suburbs"
+ },
+ "19453": {
+  "state": "PA",
+  "po_name": "Mont Clare",
+  "region": "Pa suburbs"
+ },
+ "19454": {
+  "state": "PA",
+  "po_name": "North Wales",
+  "region": "Pa suburbs"
+ },
+ "19455": {
+  "state": "PA",
+  "po_name": "North Wales",
+  "region": "Pa suburbs"
+ },
+ "19456": {
+  "state": "PA",
+  "po_name": "Oaks",
+  "region": "Pa suburbs"
+ },
+ "19457": {
+  "state": "PA",
+  "po_name": "Parker Ford",
+  "region": "Pa suburbs"
+ },
+ "19460": {
+  "state": "PA",
+  "po_name": "Phoenixville",
+  "region": "Pa suburbs"
+ },
+ "19462": {
+  "state": "PA",
+  "po_name": "Plymouth Meeting",
+  "region": "Pa suburbs"
+ },
+ "19464": {
+  "state": "PA",
+  "po_name": "Pottstown",
+  "region": "Pa suburbs"
+ },
+ "19465": {
+  "state": "PA",
+  "po_name": "Pottstown",
+  "region": "Pa suburbs"
+ },
+ "19468": {
+  "state": "PA",
+  "po_name": "Royersford",
+  "region": "Pa suburbs"
+ },
+ "19470": {
+  "state": "PA",
+  "po_name": "Saint Peters",
+  "region": "Pa suburbs"
+ },
+ "19472": {
+  "state": "PA",
+  "po_name": "Sassamansville",
+  "region": "Pa suburbs"
+ },
+ "19473": {
+  "state": "PA",
+  "po_name": "Schwenksville",
+  "region": "Pa suburbs"
+ },
+ "19474": {
+  "state": "PA",
+  "po_name": "Skippack",
+  "region": "Pa suburbs"
+ },
+ "19475": {
+  "state": "PA",
+  "po_name": "Spring City",
+  "region": "Pa suburbs"
+ },
+ "19477": {
+  "state": "PA",
+  "po_name": "Spring House",
+  "region": "Pa suburbs"
+ },
+ "19478": {
+  "state": "PA",
+  "po_name": "Spring Mount",
+  "region": "Pa suburbs"
+ },
+ "19480": {
+  "state": "PA",
+  "po_name": "Uwchland",
+  "region": "Pa suburbs"
+ },
+ "19481": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19482": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19483": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19484": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19485": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19486": {
+  "state": "PA",
+  "po_name": "West Point",
+  "region": "Pa suburbs"
+ },
+ "19487": {
+  "state": "PA",
+  "po_name": "King of Prussia",
+  "region": "Pa suburbs"
+ },
+ "19489": {
+  "state": "PA",
+  "po_name": "Norristown",
+  "region": "Pa suburbs"
+ },
+ "19490": {
+  "state": "PA",
+  "po_name": "Worcester",
+  "region": "Pa suburbs"
+ },
+ "19492": {
+  "state": "PA",
+  "po_name": "Zieglerville",
+  "region": "Pa suburbs"
+ },
+ "19493": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19494": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19495": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19496": {
+  "state": "PA",
+  "po_name": "Valley Forge",
+  "region": "Pa suburbs"
+ },
+ "19520": {
+  "state": "PA",
+  "po_name": "Elverson",
+  "region": "Pa suburbs"
+ },
+ "19525": {
+  "state": "PA",
+  "po_name": "Gilbertsville",
+  "region": "Pa suburbs"
+ }
+}

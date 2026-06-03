@@ -600,9 +600,21 @@ def build_index_html():
 <div class="cards">
     <div class="card card-business">
         <div class="icon">&#x1f4c8;</div>
-        <h2>Earnings Reports TK</h2>
-        <p>Coming soon.</p>
-        <a href="#" style="opacity:0.5;pointer-events:none;">Coming Soon</a>
+        <h2>Earnings Reports</h2>
+        <p>Public companies HQ'd in the 8-county Philadelphia region. Recent quarterly earnings filings (last 90 days) and confirmed upcoming earnings calls.</p>
+        <a href="earnings_dashboard.html">View reports</a>
+    </div>
+    <div class="card card-business">
+        <div class="icon">&#x1f4f0;</div>
+        <h2>Philly Business News Feed</h2>
+        <p>All Yahoo Finance headlines from the last 48 hours for the 100+ public companies HQ'd in the region. Updated hourly during business hours.</p>
+        <a href="news_feed.html">View feed</a>
+    </div>
+    <div class="card card-business">
+        <img src="https://media.giphy.com/media/8nM6YNtvjuezzD7DNh/giphy.gif" style="width:48px;height:48px;border-radius:8px;object-fit:cover;">
+        <h2>Bankruptcy Tracker</h2>
+        <p>Chapter 11 filings from companies in the Philadelphia region, tracked across all federal courts nationwide.</p>
+        <a href="bankruptcy_dashboard.html">View filings</a>
     </div>
 </div>
 

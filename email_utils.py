@@ -74,8 +74,9 @@ def _html_email(header_bg, tag, title, company, blurb, rows, cta_url, cta_label,
 
 # ── TEMPLATES — edit subject/body functions below ────────────────────────────
 
-EARNINGS_COLOR  = "#1a1a2e"   # dark navy — matches the dashboard
-SAVE_DATE_COLOR = "#1a5c3a"   # dark green — calendar / upcoming feel
+EARNINGS_COLOR    = "#1a1a2e"   # dark navy — matches the dashboard
+SAVE_DATE_COLOR   = "#1a5c3a"   # dark green — calendar / upcoming feel
+BANKRUPTCY_COLOR  = "#8e1600"   # dark red/maroon
 
 def subject_new_report(name, ticker):
     return f"\U0001f4c8 New earning report: {name}"   # 📈
@@ -159,6 +160,36 @@ def body_save_the_date(name, ticker, release_date, call_date, call_time, source_
         cta_label="Read Press Release →",
         dashboard_url="https://abgutman.github.io/av-tools/upcoming_earnings.html",
         source_note="Source: Yahoo Finance / wire services (Business Wire, GlobeNewswire, PR Newswire)",
+    )
+
+
+def subject_bankruptcy_alert(debtor_name):
+    return f"\U0001f4a5 New Chapter 11: {debtor_name}"   # 💥
+
+def body_bankruptcy_alert(debtor_name, court, date_filed, debtor_zip, region,
+                          courtlistener_url, pacer_url=None):
+    rows = [
+        ("Date filed",  date_filed),
+        ("Court",       court),
+        ("Debtor zip",  f"{debtor_zip} ({region})"),
+    ]
+    cta_url = courtlistener_url or pacer_url or "#"
+    return _html_email(
+        header_bg=BANKRUPTCY_COLOR,
+        tag="\U0001f4a5 Bankruptcy Alert",
+        title="New Chapter 11 Filing",
+        company=debtor_name,
+        blurb=(
+            "This alert was generated automatically by <strong>Claude (Anthropic AI)</strong>, "
+            "which monitors federal bankruptcy courts nationwide for Chapter 11 filings from "
+            "companies in the Philadelphia region at Av's request. The debtor's address in "
+            "court records matched a zip code in the Inquirer's 8-county coverage area."
+        ),
+        rows=rows,
+        cta_url=cta_url,
+        cta_label="View on CourtListener &rarr;",
+        dashboard_url="https://abgutman.github.io/av-tools/bankruptcy_dashboard.html",
+        source_note="Source: CourtListener / RECAP &mdash; <a href='https://www.courtlistener.com' style='color:#adb5bd;'>courtlistener.com</a>",
     )
 
 

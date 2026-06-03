@@ -1,0 +1,51 @@
+name: Bankruptcy Poll — Chapter 11 Local Filings
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'backfill or poll'
+        required: true
+        default: 'poll'
+        type: choice
+        options:
+          - poll
+          - backfill
+  schedule:
+    - cron: '0 14 * * 1-5'   # 10:00 AM ET (weekdays)
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run bankruptcy scanner
+        env:
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'poll' }}"
+          python poll_bankruptcies.py "$MODE" --live
+          python build_bankruptcy_dashboard.py
+
+      - name: Commit + push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bankruptcy_data/cases.json bankruptcy_data/scan_state.json bankruptcy_data/poll_bankruptcy_log.txt bankruptcy_dashboard.html 2>/dev/null || true
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Auto: bankruptcy poll $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
