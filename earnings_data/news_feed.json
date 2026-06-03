@@ -1,6 +1,162 @@
 {
- "generated_at": "2026-06-02T23:30:01",
+ "generated_at": "2026-06-03T04:59:09",
  "items": [
+  {
+   "uuid": "7e650c73-a05d-31f4-a5a0-a6a3a51bccfe",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "The Pros and Cons of Claiming Social Security at 62, 67, and 70",
+   "publisher": "Motley Fool",
+   "link": "https://finance.yahoo.com/m/7e650c73-a05d-31f4-a5a0-a6a3a51bccfe/the-pros-and-cons-of-claiming.html",
+   "published_unix": 1780462200,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "7f81fbb0-4bd4-35c6-b145-5a55de03575b",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Peter Schiff Wonders If Bitcoin's Crash Is A 'Harbinger' Of Major Trouble In Risk Assets: 'Maybe' A Catalyst To Drive Investors Into 'Safety'",
+   "publisher": "Benzinga",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/peter-schiff-wonders-bitcoins-crash-044803296.html",
+   "published_unix": 1780462083,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "a73c16d9-e5ca-3b2d-8af2-138a519f8cc0",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Sigenergy (HKEX: 6656.HK) Launches SigenAgent, a Goal-Based AI Energy Agent for Solar, Storage and EV Charging",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/sectors/energy/articles/sigenergy-hkex-6656-hk-launches-044500388.html",
+   "published_unix": 1780461900,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "c003189d-e35d-3976-9fe1-7d6aa553a3fd",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "TANG CAPITAL MANAGEMENT, LLC FILES EARLY WARNING REPORT RESPECTING AURINIA PHARMACEUTICALS INC.",
+   "publisher": "CNW Group",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tang-capital-management-llc-files-044300280.html",
+   "published_unix": 1780461780,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "303297df-f7f1-34e1-8c7a-12ef3c87659f",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Inteleos and Medvarsity Partner to Expand Global POCUS Education Access",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/inteleos-medvarsity-partner-expand-global-044000915.html",
+   "published_unix": 1780461600,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "56eb1abc-e1f6-3cfd-bde2-4d8cf7d14c1e",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Another vote of confidence from international: Bank Leumi Completes Overseas CoCo Bond Issuance totaling USD 1 Billion - in the lowest spread in the history of an Israeli bank issuance \u200e",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/another-vote-confidence-international-bank-043700220.html",
+   "published_unix": 1780461420,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "74be6495-8583-3575-a9c5-5806314dd1ac",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Morning Bid: Marvell, a fitting name for the latest AI darling",
+   "publisher": "Reuters",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-marvell-fitting-name-043542710.html",
+   "published_unix": 1780461342,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "c8db429c-b5ec-3955-95dc-19662fb45a5d",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "3 Asian Growth Companies With High Insider Ownership Growing Earnings At 16%",
+   "publisher": "Simply Wall St.",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-asian-growth-companies-high-043532260.html",
+   "published_unix": 1780461332,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "95580c0f-4d8b-35c7-bc84-258506151a3d",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Able Global Berhad (KLSE:ABLEGLOB) Ticks All The Boxes When It Comes To Earnings Growth",
+   "publisher": "Simply Wall St.",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/able-global-berhad-klse-ableglob-043515037.html",
+   "published_unix": 1780461315,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "2ed7ebc8-03e2-38a3-9364-c5ecd2eb88df",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "A Look At Macquarie Group\u2019s (ASX:MQG) Valuation As Recent Share Price Momentum Eases",
+   "publisher": "Simply Wall St.",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/look-macquarie-group-asx-mqg-043300835.html",
+   "published_unix": 1780461180,
+   "captured_at": "2026-06-03T04:59:06"
+  },
+  {
+   "uuid": "e6a22ebc-8ec3-3a5d-8c4f-1aece0ca778c",
+   "tickers": [
+    "JNJ"
+   ],
+   "company": "JOHNSON & JOHNSON",
+   "title": "Johnson & Johnson late-breaking results show nipocalimab significantly reduced systemic lupus erythematosus (SLE) disease activity in a Phase 2 study",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/johnson-johnson-breaking-results-show-040400920.html",
+   "published_unix": 1780459440,
+   "captured_at": "2026-06-03T04:59:08"
+  },
+  {
+   "uuid": "a02c9617-214d-3a13-b5a8-ee269287ec04",
+   "tickers": [
+    "JNJ"
+   ],
+   "company": "JOHNSON & JOHNSON",
+   "title": "Johnson & Johnson presents new data further reinforcing the role of nipocalimab in lowering the autoantibodies driving Sj\u00f6gren's disease",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/johnson-johnson-presents-data-further-040300825.html",
+   "published_unix": 1780459380,
+   "captured_at": "2026-06-03T04:59:08"
+  },
+  {
+   "uuid": "a1e7c1dc-e603-3419-b02e-8ca3a7636912",
+   "tickers": [
+    "VSH"
+   ],
+   "company": "VISHAY INTERTECHNOLOGY INC",
+   "title": "Himax, FormFactor, and Vishay Intertechnology Shares Skyrocket, What You Need To Know",
+   "publisher": "StockStory",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/himax-formfactor-vishay-intertechnology-shares-000523196.html",
+   "published_unix": 1780445123,
+   "captured_at": "2026-06-03T04:58:31"
+  },
   {
    "uuid": "ebe21577-7acb-3483-b478-919eb6a4ccf7",
    "tickers": [
@@ -432,6 +588,18 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/best-strong-buy-stocks-buy-192300451.html",
    "published_unix": 1780428180,
    "captured_at": "2026-06-02T21:44:18"
+  },
+  {
+   "uuid": "288db984-7fcf-31b6-8b88-7c8a0230752f",
+   "tickers": [
+    "JNJ"
+   ],
+   "company": "JOHNSON & JOHNSON",
+   "title": "Even If Eli Lilly Stock Continues to Shine, Stay Away from This Pharmaceutical ETF",
+   "publisher": "Barchart",
+   "link": "https://finance.yahoo.com/m/288db984-7fcf-31b6-8b88-7c8a0230752f/even-if-eli-lilly-stock.html",
+   "published_unix": 1780426970,
+   "captured_at": "2026-06-03T04:59:08"
   },
   {
    "uuid": "18cdc12b-af9d-39e3-b3a7-b3ca2ea3e142",
@@ -2452,18 +2620,6 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/burlington-q1-earnings-call-points-065900339.html",
    "published_unix": 1780297140,
    "captured_at": "2026-06-02T06:48:52"
-  },
-  {
-   "uuid": "5b606840-81dc-3465-9776-33a0016ba5af",
-   "tickers": [
-    "JNJ"
-   ],
-   "company": "JOHNSON & JOHNSON",
-   "title": "Is Johnson & Johnson (JNJ) One of the Best Dividend Paying Stocks to Buy Right Now?",
-   "publisher": "Insider Monkey",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-one-best-031946723.html",
-   "published_unix": 1780283986,
-   "captured_at": "2026-06-02T06:49:26"
   }
  ]
 }
