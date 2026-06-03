@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>QVC Group, Inc. — Bankruptcy Detail — Av's Tools</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif; background:#eef0f3; color:#1a1a2e; padding:0; }
+  .header { background:#8e1600; color:white; padding:28px 32px; }
+  .header h1 { font-size:22px; font-weight:700; margin-bottom:4px; }
+  .header p { font-size:14px; opacity:0.85; }
+  .header a { color:rgba(255,255,255,0.9); }
+  .container { max-width:1100px; margin:24px auto; padding:0 16px; }
+  .card { background:white; border-radius:8px; padding:22px 28px; box-shadow:0 1px 3px rgba(0,0,0,0.06); margin-bottom:20px; }
+  .card h2 { font-size:16px; font-weight:700; margin-bottom:14px; color:#2c3e50; }
+  .meta-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:12px; }
+  .meta-item .label { font-size:12px; color:#6c757d; text-transform:uppercase; letter-spacing:0.5px; }
+  .meta-item .value { font-size:15px; font-weight:600; margin-top:2px; }
+  table { width:100%; border-collapse:collapse; }
+  thead { background:#f8f9fa; }
+  th { padding:10px 12px; text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:0.5px; color:#6c757d; border-bottom:2px solid #e9ecef; }
+  td { padding:10px 12px; font-size:13px; border-bottom:1px solid #f0f0f0; vertical-align:top; }
+  tr:hover { background:#fafbfc; }
+  a { color:#8e1600; text-decoration:none; font-weight:500; }
+  a:hover { text-decoration:underline; }
+  .footer { margin:24px 0; text-align:center; font-size:12px; color:#adb5bd; }
+  .footer a { color:#adb5bd; }
+  .back-link { margin-bottom:16px; font-size:14px; }
+  @media (max-width:700px) {
+    th, td { padding:8px 8px; font-size:12px; }
+    .meta-grid { grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;right:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
+
+<div style="position:fixed;right:0;top:50%;transform:translateY(-50%);background:#c0392b;color:white;padding:12px 8px;font-size:11px;font-weight:700;letter-spacing:1px;writing-mode:vertical-rl;text-orientation:mixed;z-index:9999;border-radius:4px 0 0 4px;box-shadow:-2px 0 8px rgba(0,0,0,0.2);">AI-BUILT DASHBOARD &mdash; NEVER CITE DIRECTLY &mdash; ALWAYS CHECK THE DOCKET</div>
+
+<div class="header">
+  <h1>QVC Group, Inc.</h1>
+  <p>26-90447 &middot; United States Bankruptcy Court, S.D. Texas &middot; Filed Apr 16, 2026</p>
+</div>
+
+<div class="container">
+
+<p class="back-link">&larr; <a href="bankruptcy_dashboard.html">Back to all filings</a></p>
+
+<div class="card">
+  <h2>Case Summary</h2>
+  <div class="meta-grid">
+    <div class="meta-item">
+      <div class="label">Debtor</div>
+      <div class="value">QVC Group, Inc.</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Docket Number</div>
+      <div class="value">26-90447</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Court</div>
+      <div class="value">United States Bankruptcy Court, S.D. Texas</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Region</div>
+      <div class="value">Pa suburbs</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Date Filed</div>
+      <div class="value">Apr 16, 2026</div>
+    </div>
+    <div class="meta-item">
+      <div class="label">Links</div>
+      <div class="value"><a href="https://www.courtlistener.com/docket/73205273/qvc-group-inc/" target="_blank">CourtListener</a> · <a href="https://ecf.txsb.uscourts.gov/cgi-bin/DktRpt.pl?494450" target="_blank">PACER</a></div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="card">
+  <h2>Key Dates</h2>
+  <p style="font-size:12px;color:#6c757d;margin-bottom:12px;">
+    <strong style="color:#1e8449;">HAPPENED</strong> = date passed, filing found &nbsp;|&nbsp;
+    <strong style="color:#2874a6;">SCHEDULED</strong> = future date found &nbsp;|&nbsp;
+    <strong style="color:#aab7b8;">UNKNOWN</strong> = not found on docket yet
+  </p>
+  <table>
+    <thead>
+      <tr><th>Milestone</th><th>Date</th><th>Status</th><th>Source</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-weight:600;">Petition Filed</td>
+        <td>Apr 16, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">HAPPENED</span></td>
+        <td style="font-size:12px;color:#6c757d;">case filing</td>
+      </tr>      <tr>
+        <td style="font-weight:600;">First Day Hearing</td>
+        <td>Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">HAPPENED</span></td>
+        <td style="font-size:12px;color:#6c757d;">entry #4</td>
+      </tr>      <tr>
+        <td style="font-weight:600;">341 Meeting of Creditors</td>
+        <td>May 31, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">HAPPENED</span></td>
+        <td style="font-size:12px;color:#6c757d;">entry #342</td>
+      </tr>      <tr>
+        <td style="font-weight:600;">Claims Bar Date</td>
+        <td>Not yet set</td>
+        <td><span style="display:inline-block;background:#aab7b8;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">UNKNOWN</span></td>
+        <td style="font-size:12px;color:#6c757d;"></td>
+      </tr>      <tr>
+        <td style="font-weight:600;">Sale / Bid Deadline</td>
+        <td>Not yet set</td>
+        <td><span style="display:inline-block;background:#aab7b8;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">UNKNOWN</span></td>
+        <td style="font-size:12px;color:#6c757d;"></td>
+      </tr>      <tr>
+        <td style="font-weight:600;">Plan Confirmation</td>
+        <td>Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">HAPPENED</span></td>
+        <td style="font-size:12px;color:#6c757d;">entry #41</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h2>Key Filings</h2>
+  <p style="font-size:12px;color:#6c757d;margin-bottom:12px;">116 key filings identified from 436 total docket entries</p>
+  <table>
+    <thead>
+      <tr><th>#</th><th>Date</th><th>Type</th><th>Description</th><th>Documents</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="white-space:nowrap;">393</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#117a65;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">341 Meeting</span></td>
+        <td>Notice of Debtors&#x27; First Supplemental Exhibit List for Hearing Scheduled June 4, 2026, at 1:00 p.m. - Section A (publicly filed Exhibits 408-434). (Related document(s):340 Notice, 341 Notice, 342 Noti</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466095693/recapdocument/481320230/" target="_blank">Notice</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">392</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement of the Official Committee of Unsecured Creditors in (I) Support of Confirmation of the Plan and (II) Response to the Preferred Shareholder Ad Hoc Groups Objection (Filed By Official Committe</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466088208/recapdocument/481311606/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">390</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Motion to Seal Preferred Shareholders&#x27; Exhibits for June 4, 2026 Confirmation Hearing (Docs. 381, 382 and 388) Filed by Interested Party Certain Preferred Shareholders of QVC Group, Inc. (Attachments:</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466084190/recapdocument/481307518/" target="_blank">Seal Document Motion or Other Pleading</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">389</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Second Amended Chapter 11 Plan Filed by QVC Group, Inc.. (Related document(s):15 Chapter 11 Plan) (Brookner, Jason) (Entered: 06/02/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466079060/recapdocument/481302215/" target="_blank">Amended Chapter 11 Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">380</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Sealed Document The Official Committee of Unsecured Creditors Witness and Exhibit List for the Confirmation Hearing Scheduled to Begin on June 4, 2026 (Filed By Official Committee of Unsecured Credito</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466058407/recapdocument/481280883/" target="_blank">Document</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">379</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Witness List, Exhibit List (Filed By Official Committee of Unsecured Creditors ).(Related document(s):207 Sealed Motion, 289 Amended Chapter 11 Plan, 327 Order Setting Hearing (FORM)) (Attachments: # </td>
+        <td><a href="recap/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.379.0.pdf" target="_blank">Exhibit List AND Witness List</a> · <a href="recap/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.379.1_1.pdf" target="_blank">Exhibit 1</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">378</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Notice of Filing of Second Amended Joint Prepackaged Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates Pursuant to Chapter 11 of the Bankruptcy Code. (Related document(s):289 Amended</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466057343/recapdocument/481279800/" target="_blank">Notice</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">377</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Declaration re: Declaration of Bill Wafford in Support of (I) Approval of the Debtors&#x27; Disclosure Statement on a Final Basis and (II) Confirmation of the Second Amended Joint Prepackaged Plan of Reorg</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466049169/recapdocument/481271332/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">377</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Declaration re: Declaration of Bill Wafford in Support of (I) Approval of the Debtors&#x27; Disclosure Statement on a Final Basis and (II) Confirmation of the Second Amended Joint Prepackaged Plan of Reorg</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466049169/recapdocument/481271332/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">374</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement / Joinder of Special Committee of the Board of Directors of Debtor QRI Cornerstone, Inc. to the Debtors&#x27; Memorandum of Law In Support of Approval of Disclosure Statement and Confirmation of </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466035341/recapdocument/481257216/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">372</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement / Joinder of the Disinterested Directors of QVC, Inc. to the Debtors&#x27; Memorandum of Law in Support of Confirmation of the Joint Prepackaged Chapter 11 Plan of Reorganization of QVC Group, In</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466017873/recapdocument/481237936/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">368</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement / Joinder of the Linta Independent Managers to the Debtors&#x27; Memorandum of Law in Support of an Order (I) Approving the Debtors&#x27; Disclosure Statement for the Joint Prepackaged Plan of Reorgan</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465999075/recapdocument/481218712/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">367</td>
+        <td style="white-space:nowrap;">Jun 2, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement and Joinder in Support of Confirmation of First Amended Joint Prepackaged Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates Pursuant to Chapter 11 of the Bankruptcy Code (F</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465999295/recapdocument/481218932/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">365</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement of the LINTA Ad Hoc Group in Support of Confirmation of the First Amended Joint Prepackaged Plan of Reorganization of QVC Group, Inc. and Its Debtor Affiliates Pursuant to Chapter 11 of the </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954729/recapdocument/481173171/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">364</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Declaration re: Declaration of Craig E. Johnson of Kroll Restructuring Administration LLC Regarding the Solicitation of Votes and Tabulation of Ballots Cast on the Joint Prepackaged Plan of Reorganiza</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954735/recapdocument/481173173/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">364</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Declaration re: Declaration of Craig E. Johnson of Kroll Restructuring Administration LLC Regarding the Solicitation of Votes and Tabulation of Ballots Cast on the Joint Prepackaged Plan of Reorganiza</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954735/recapdocument/481173173/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">363</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Reply Filed by QVC Noteholder Group. (Related document(s):289 Amended Chapter 11 Plan, 318 Objection to Confirmation of the Plan, 359 Notice) (Higgins, John) (Entered: 06/01/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954738/recapdocument/481173176/" target="_blank">Reply</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">361</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: Affidavit of Service of Solicitation Materials (Filed By QVC Group, Inc. ).(Related document(s):14 Disclosure Statement, 15 Chapter 11 Plan) (Brookner, Jason) (Entered: 06/01/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954278/recapdocument/481172676/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">361</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: Affidavit of Service of Solicitation Materials (Filed By QVC Group, Inc. ).(Related document(s):14 Disclosure Statement, 15 Chapter 11 Plan) (Brookner, Jason) (Entered: 06/01/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954278/recapdocument/481172676/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">360</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Notice of Joinder of the RCF Lender Group to Debtors Memorandum in Support of the Disclosure Statement and Confirmation of the Plan of Reorganization. (Related document(s):359 Notice) Filed by JPMORGA</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954325/recapdocument/481172723/" target="_blank">Notice</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">359</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Notice of Debtors&#x27; Memorandum of Law in Support of an Order (I) Approving the Debtors&#x27; Disclosure Statement for the Joint Prepackaged Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliate</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465954335/recapdocument/481172733/" target="_blank">Notice</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">355</td>
+        <td style="white-space:nowrap;">Jun 1, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Nelson Crespin Regarding Debtors Opposition to the Emergency Motion of the Preferred Shareholders to Terminate. (related document(s):312 Objection). Filed by Kroll Restructuring Admin</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465945720/recapdocument/481163664/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">344</td>
+        <td style="white-space:nowrap;">May 31, 2026</td>
+        <td><span style="display:inline-block;background:#117a65;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">341 Meeting</span></td>
+        <td>Sealed Document Notice of Debtors&#x27; Witness and Exhibit List for Hearing Scheduled for June 4, 2026 - Section B (Sealed Exhibits 301-357) (Filed By QVC Group, Inc. ). (Attachments: # 1 DX-301 # 2 DX-30</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/466001077/recapdocument/481220792/" target="_blank">Document</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">342</td>
+        <td style="white-space:nowrap;">May 31, 2026</td>
+        <td><span style="display:inline-block;background:#117a65;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">341 Meeting</span></td>
+        <td>Notice of Debtors&#x27; Witness and Exhibit List for Hearing Scheduled June 4, 2026 - Section B (publicly filed cover sheets Exhibits 253-407). Filed by QVC Group, Inc. (Attachments: # 1 DX-253 # 2 DX-254 </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465789082/recapdocument/481002280/" target="_blank">Notice</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">338</td>
+        <td style="white-space:nowrap;">May 28, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Objection to Confirmation of Plan Filed by Bhavin Shah. (Related document(s):289 Amended Chapter 11 Plan) (jld4) (Entered: 05/29/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465620606/recapdocument/480829200/" target="_blank">Objection to Confirmation of Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">336</td>
+        <td style="white-space:nowrap;">May 28, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Notice of Filing of Amended Joint Prepackaged Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates Pursuant to Chapter 11 of the Bankruptcy Code, </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465552077/recapdocument/480759076/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">336</td>
+        <td style="white-space:nowrap;">May 28, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Notice of Filing of Amended Joint Prepackaged Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates Pursuant to Chapter 11 of the Bankruptcy Code, </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465552077/recapdocument/480759076/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">333</td>
+        <td style="white-space:nowrap;">May 28, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Nelson Crespin Regarding Debtors Motion for Entry of an Order (I) Authorizing the Retention and Compensation of Certain Professionals Utilized in the Ordinary Course of Business and (</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465461075/recapdocument/480665993/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">332</td>
+        <td style="white-space:nowrap;">May 28, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Nelson Crespin Regarding Stipulation and Order Establishing Certain Confirmation-Related Dates, and Supplemental Declaration of Benjamin J. Steele in Support of Debtors Emergency Ex P</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465454941/recapdocument/480659662/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">332</td>
+        <td style="white-space:nowrap;">May 28, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Affidavit Re: of Nelson Crespin Regarding Stipulation and Order Establishing Certain Confirmation-Related Dates, and Supplemental Declaration of Benjamin J. Steele in Support of Debtors Emergency Ex P</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465454941/recapdocument/480659662/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">328</td>
+        <td style="white-space:nowrap;">May 27, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Nelson Crespin Regarding Notice of Continued Hearing Scheduled for May 18, 2026, at 1:00 p.m. (prevailing Central Time). (related document(s):201 Notice). Filed by Kroll Restructuring</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465380214/recapdocument/480583001/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">327</td>
+        <td style="white-space:nowrap;">May 27, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Stipulation and Order Establishing Certain Confirmation-Related Dates, Signed on 5/27/2026 (Related document(s):70 Order Setting Hearing (FORM), 320 Stipulation) Confirmation hearing to be held on 6/4</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.327.0.pdf" target="_blank">Setting Hearing (FORM)</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">326</td>
+        <td style="white-space:nowrap;">May 27, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Certificate of No Objection Regarding the Debtors Emergency Motion for Entry of Interim and Final Orders (I) Authorizing the Debtors to (A) Continue Using the Ca</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465344844/recapdocument/480546725/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">326</td>
+        <td style="white-space:nowrap;">May 27, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Certificate of No Objection Regarding the Debtors Emergency Motion for Entry of Interim and Final Orders (I) Authorizing the Debtors to (A) Continue Using the Ca</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465344844/recapdocument/480546725/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">322</td>
+        <td style="white-space:nowrap;">May 26, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Response/Objection Filed by Arbitration Counsel and the Arbitration Claimants. (Related document(s):289 Amended Chapter 11 Plan) (Fulfree, Nicole) (Entered: 05/26/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465259015/recapdocument/480458470/" target="_blank">Response/Objection</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">321</td>
+        <td style="white-space:nowrap;">May 26, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Declaration re: Supplemental Declaration of Benjamin J. Steele in Support of Debtors&#x27; Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructuri</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465190275/recapdocument/480387843/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">318</td>
+        <td style="white-space:nowrap;">May 25, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Objection to Confirmation of Plan Filed by Certain Preferred Shareholders of QVC Group, Inc.. (Related document(s):14 Disclosure Statement, 289 Amended Chapter 11 Plan) (Attachments: # 1 Exhibit 1 - P</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465126417/recapdocument/480322775/" target="_blank">Objection to Confirmation of Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">317</td>
+        <td style="white-space:nowrap;">May 25, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Motion to Seal Certain Preferred Shareholders&#x27; Objection to Confirmation of the Debtors&#x27; Joint Prepackaged Chapter 11 Plan of Reorganization Filed by Interested Party Certain Preferred Shareholders of</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465125655/recapdocument/480321910/" target="_blank">Seal Document Motion or Other Pleading</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">316</td>
+        <td style="white-space:nowrap;">May 25, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Sealed Document Objection to Confirmation of the Debtors&#x27; Joint Prepackaged Chapter 11 Plan of Reorganization (Filed By Certain Preferred Shareholders of QVC Group, Inc. ). (Attachments: # 1 Exhibit 1</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/465265259/recapdocument/480464830/" target="_blank">Document</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">305</td>
+        <td style="white-space:nowrap;">May 21, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Stipulated Confidentiality Agreement and Protective Order, Certificate of Counsel Regarding the Debtors Emergency Motion for Entry of Interim and Final Orders (I</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464846410/recapdocument/480034829/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">305</td>
+        <td style="white-space:nowrap;">May 21, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Stipulated Confidentiality Agreement and Protective Order, Certificate of Counsel Regarding the Debtors Emergency Motion for Entry of Interim and Final Orders (I</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464846410/recapdocument/480034829/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">299</td>
+        <td style="white-space:nowrap;">May 18, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Objection to Confirmation of Plan Filed by SALIL RAJADHYAKSHA. (Related document(s):15 Chapter 11 Plan) (dm4) (Entered: 05/20/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464740239/recapdocument/479925275/" target="_blank">Objection to Confirmation of Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">296</td>
+        <td style="white-space:nowrap;">May 20, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: of Lucas Rhodes Regarding Notice of Filing of Valuation Analysis as an Exhibit to the Disclosure Statement. (related document(s):196 Notice). Filed by Kroll Restructuring Administration </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464669490/recapdocument/479852049/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">296</td>
+        <td style="white-space:nowrap;">May 20, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Lucas Rhodes Regarding Notice of Filing of Valuation Analysis as an Exhibit to the Disclosure Statement. (related document(s):196 Notice). Filed by Kroll Restructuring Administration </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464669490/recapdocument/479852049/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">295</td>
+        <td style="white-space:nowrap;">May 19, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Objection to Confirmation of the Debtors&#x27; Chapter 11 Plan and Request for Continuance, Additional Disclosure, and Preservation of Rights Filed by Guowei Zhang. (Related document(s):289 Amended Chapter</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464661390/recapdocument/479843812/" target="_blank">Objection to Confirmation of Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">291</td>
+        <td style="white-space:nowrap;">May 19, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Objection to Confirmation of Plan Filed by US Trustee. (Related document(s):289 Amended Chapter 11 Plan) (Whitworth, Jana) (Entered: 05/19/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464598935/recapdocument/479777667/" target="_blank">Objection to Confirmation of Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">289</td>
+        <td style="white-space:nowrap;">May 19, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>First Amended Chapter 11 Plan Filed by QVC Group, Inc.. (Related document(s):15 Chapter 11 Plan) (Brookner, Jason) (Entered: 05/19/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464551138/recapdocument/479728369/" target="_blank">Amended Chapter 11 Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">288</td>
+        <td style="white-space:nowrap;">May 19, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Notice of Filing of Amended Joint Prepackaged Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates Pursuant to Chapter 11 of the Bankruptcy Code. (Related document(s):15 Chapter 11 Plan</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464551315/recapdocument/479728546/" target="_blank">Notice</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">285</td>
+        <td style="white-space:nowrap;">May 18, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Courtroom Minutes. Time Hearing Held: 1:02 PM to 1:16 PM. Appearances: See attached. Additional appearances: Andrew Glenn for the Ad Hoc Preferred Shareholders. ERO: Yes. Status Conference held regard</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464419926/recapdocument/479593005/" target="_blank">Courtroom Minutes</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">275</td>
+        <td style="white-space:nowrap;">May 18, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Final Order (I) Authorizing the Debtors to (A) Continue Using the Cash Management System, (B) Maintain Existing Bank Accounts, Business Forms, and Books and Records, and (C) Continue Intercompany Tran</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464364387/recapdocument/479535802/" target="_blank">Emergency</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">270</td>
+        <td style="white-space:nowrap;">May 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Certificate of No Objection Regarding the Debtors&#x27; Emergency Motion for Entry of Interim and Final Orders (I) Authorizing the Debtors to (A) Continue Using the Cash Management System, (B) Maintain Exi</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464333498/recapdocument/479503782/" target="_blank">Certificate of No Objection (Complex 11 ONLY)</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">269</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application APPLICATION FOR ENTRY OF AN ORDER AUTHORIZING THE RETENTION AND EMPLOYMENT OF SEWARD &amp; KISSEL LLP AS COUNSEL TO THE DISINTERESTED DIRECTORS OF QRI CORNERSTONE, INC. EFFECTIVE AS OF THE PET</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464306126/recapdocument/479475463/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">268</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application DEBTORS APPLICATION FOR ENTRY OF AN ORDER AUTHORIZING THE EMPLOYMENT AND RETENTION OF MILBANK LLP AS COUNSEL TO QURATE RETAIL GROUP, INC. AND LIBERTY INTERACTIVE LLC EFFECTIVE AS OF THE PE</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464306129/recapdocument/479475466/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">267</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application QVC GROUP, INC.S APPLICATION FOR ENTRY OF AN ORDER AUTHORIZING THE RETENTION AND EMPLOYMENT OF KOBRE &amp; KIM LLP AS SPECIAL COUNSEL TO THE SPECIAL COMMITTEE OF THE BOARD OF DIRECTORS OF QVC </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464306139/recapdocument/479475476/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">266</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application DEBTORS APPLICATION FOR ENTRY OF AN ORDER AUTHORIZING THE RETENTION AND EMPLOYMENT OF KATTEN MUCHIN ROSENMAN LLP AS COUNSEL TO QVC, INC. AT THE SOLE DIRECTION OF THE DISINTERESTED DIRECTOR</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464306141/recapdocument/479475478/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">263</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application DEBTORS APPLICATION FOR ENTRY OF AN ORDER (I) AUTHORIZING THE RETENTION AND EMPLOYMENT OF KPMG LLP TO PROVIDE AUDIT AND TAX CONSULTING SERVICES EFFECTIVE AS OF THE PETITION DATE AND (II) G</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464305582/recapdocument/479474757/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">262</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application QVC GROUP, INC.S APPLICATION FOR ENTRY OF AN ORDER AUTHORIZING THE RETENTION AND EMPLOYMENT OF HOLTZ, SLAVETT, DRABKIN &amp; WARNER, APLC AS SPECIAL TAX COUNSEL TO THE SPECIAL COMMITTEE OF THE</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464305586/recapdocument/479474761/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">261</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application DEBTORS APPLICATION FOR ENTRY OF AN ORDER (I) AUTHORIZING THE RETENTION AND EMPLOYMENT OF EVERCORE GROUP L.L.C. AS INVESTMENT BANKER EFFECTIVE AS OF THE PETITION DATE AND (II) GRANTING REL</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464305590/recapdocument/479474765/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">260</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application DEBTORS APPLICATION FOR ENTRY OF AN ORDER AUTHORIZING THE EMPLOYMENT AND RETENTION OF ALIXPARTNERS, LLP AS FINANCIAL ADVISOR TO THE DEBTORS EFFECTIVE AS OF THE PETITION DATE Filed by Debto</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464305406/recapdocument/479474551/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">259</td>
+        <td style="white-space:nowrap;">May 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Application DEBTORS APPLICATION FOR ENTRY OF AN ORDER AUTHORIZING THE EMPLOYMENT OF GRAY REED AS CO-COUNSEL TO THE DEBTORS AND DEBTORS IN POSSESSION, EFFECTIVE AS OF THE PETITION DATE Filed by Debtor </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/464305408/recapdocument/479474553/" target="_blank">Generic Application</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">203</td>
+        <td style="white-space:nowrap;">May 8, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: of Nelson Crespin Regarding Notice of Filing of Valuation Analysis as an Exhibit to the Disclosure Statement. (related document(s):196 Notice). Filed by Kroll Restructuring Administratio</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/463497113/recapdocument/478644613/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">203</td>
+        <td style="white-space:nowrap;">May 8, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Nelson Crespin Regarding Notice of Filing of Valuation Analysis as an Exhibit to the Disclosure Statement. (related document(s):196 Notice). Filed by Kroll Restructuring Administratio</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/463497113/recapdocument/478644613/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">202</td>
+        <td style="white-space:nowrap;">May 8, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Declaration re: Intent to Accumulate Stock (Filed By Sona Asset Management (US) LLC ).(Related document(s):78 Order Setting Hearing) (Taylor, Mark) (Entered: 05/08/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/463439620/recapdocument/478585503/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">196</td>
+        <td style="white-space:nowrap;">May 4, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Notice of Filing of Valuation Analysis as an Exhibit to the Disclosure Statement. (Related document(s):14 Disclosure Statement, 15 Chapter 11 Plan) Filed by QVC Group, Inc. (Attachments: # 1 Exhibit E</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.196.0.pdf" target="_blank">Notice</a> · <a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.196.1.pdf" target="_blank">Exhibit E - Valuation Analysis</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">195</td>
+        <td style="white-space:nowrap;">May 4, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">195</td>
+        <td style="white-space:nowrap;">May 4, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">195</td>
+        <td style="white-space:nowrap;">May 4, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">First Day</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">195</td>
+        <td style="white-space:nowrap;">May 4, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">195</td>
+        <td style="white-space:nowrap;">May 4, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">195</td>
+        <td style="white-space:nowrap;">May 4, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">178</td>
+        <td style="white-space:nowrap;">May 1, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Notice of Non-Insider Severance Benefits Payments in Excess of the Priority Amounts Set Forth in Bankruptcy Code Sections 507(a)(4) and 507(a)(5). (related docum</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462708357/recapdocument/477829107/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">174</td>
+        <td style="white-space:nowrap;">May 1, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Statement of the Special Committee of Debtor QVC Group, Inc. in Support of Intercompany Settlement in Joint Prepackaged Chapter 11 Plan of Reorganization of QVC </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462696229/recapdocument/477816557/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">174</td>
+        <td style="white-space:nowrap;">May 1, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Statement of the Special Committee of Debtor QVC Group, Inc. in Support of Intercompany Settlement in Joint Prepackaged Chapter 11 Plan of Reorganization of QVC </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462696229/recapdocument/477816557/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">159</td>
+        <td style="white-space:nowrap;">Apr 30, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Statement of Disinterested Directors of QVC, Inc. In Support of Joint Prepackaged Chapter 11 Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates,</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462558654/recapdocument/477676366/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">159</td>
+        <td style="white-space:nowrap;">Apr 30, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sonia Akter Regarding Statement of Disinterested Directors of QVC, Inc. In Support of Joint Prepackaged Chapter 11 Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates,</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462558654/recapdocument/477676366/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">150</td>
+        <td style="white-space:nowrap;">Apr 29, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement of Special Committee of the Board of Directors of Debtor QRI Cornerstone, Inc. in Support of Proposed Intercompany Settlement in the Joint Prepackaged Plan of Reorganization of QVC Group, In</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462410787/recapdocument/477524848/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">149</td>
+        <td style="white-space:nowrap;">Apr 29, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement of the Special Committee of Debtor QVC Group, Inc. in Support of Intercompany Settlement in Joint Prepackaged Chapter 11 Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates (</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462393795/recapdocument/477507290/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">148</td>
+        <td style="white-space:nowrap;">Apr 29, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement of Linta Independent Managers in Support of the Proposed Intercompany Settlement (Filed By Qurate Retail Group, Inc. and Liberty Interactive LLC ).(Related document(s):14 Disclosure Statemen</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462384213/recapdocument/477497550/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">147</td>
+        <td style="white-space:nowrap;">Apr 29, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Statement of Disinterested Directors of QVC, Inc. in Support of Joint Prepackaged Chapter 11 Plan of Reorganization of QVC Group, Inc. and its Debtor Affiliates (Filed By Jill Frizzley and Paul Keglev</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462381215/recapdocument/477494525/" target="_blank">Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">146</td>
+        <td style="white-space:nowrap;">Apr 29, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: The New York Times International Edition&#x27;s Proof of Publication of Notice of Commencement (Filed By QVC Group, Inc. ).(Related document(s):63 Order on Emergency Motion) (Brookner, Jason)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462361752/recapdocument/477474530/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">145</td>
+        <td style="white-space:nowrap;">Apr 29, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: The New York Times&#x27; Proof of Publication of Notice of Commencement (Filed By QVC Group, Inc. ).(Related document(s):63 Order on Emergency Motion) (Brookner, Jason) (Entered: 04/29/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/462361778/recapdocument/477474556/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">127</td>
+        <td style="white-space:nowrap;">Apr 23, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: Proof of Publication (Filed By QVC Group, Inc. ).(Related document(s):12 Emergency Motion) (Brookner, Jason) (Entered: 04/23/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461808588/recapdocument/476908571/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">80</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">80</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">80</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">First Day</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">80</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Affidavit</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">80</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">80</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Affidavit Re: of Sid Garabato Regarding Debtors Emergency Motion for Entry of an Order (I) Directing Joint Administration of the Debtors Chapter 11 Cases and (II) Granting Related Relief, Notice of De</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/" target="_blank">Affidavit</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">78</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Interim Order (I) Approving Notification and Hearing Procedures for Certain Transfers of and Declarations of Worthlessness with Respect to Stock, (II) Directing That Any Such Transfer or Declaration o</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.78.0.pdf" target="_blank">Setting Hearing</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">73</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">First Day</span></td>
+        <td>AO 435 TRANSCRIPT ORDER FORM (Daily (24 hours)) by Debtors / Jason S. Brookner. This is to order a transcript of the First Day Hearing held on April 17, 2026 before Judge Alfredo R. Perez. Court Repor</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461170866/recapdocument/476255539/" target="_blank">AO435 Transcript Request</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">70</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Order (I) Scheduling a Combined Disclosure Statement and Plan Confirmation Hearing, (II) Approving the Solicitation Procedures, (III) Approving the Deadlines and Notices Related Thereto; (IV) Waiving </td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.70.0.pdf" target="_blank">Setting Hearing</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">70</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Order (I) Scheduling a Combined Disclosure Statement and Plan Confirmation Hearing, (II) Approving the Solicitation Procedures, (III) Approving the Deadlines and Notices Related Thereto; (IV) Waiving </td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.70.0.pdf" target="_blank">Setting Hearing</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">67</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Order (I) Authorizing the Debtors to (A) Maintain Insurance Coverage Entered into Prepetition and Satisfy Prepetition Obligations Related Thereto, (B) Renew, Amend, Supplement, Extend, Purchase, Cance</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461162910/recapdocument/476247487/" target="_blank">Emergency</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">66</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Order (I) Authorizing the Debtors to (A) Maintain and Administer Their Existing Customer Programs, Credit Card Programs, Distribution Program, and Charitable Programs, and (B) Honor Certain Prepetitio</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461163031/recapdocument/476247608/" target="_blank">Emergency</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">64</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Order (I) Authorizing the Debtors to (A) Pay Prepetition Wages, Salaries, Other Compensation, and Reimbursable Expenses and (B) Continue the Compensation and Benefits Programs, and (II) Granting Relat</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461158931/recapdocument/476243448/" target="_blank">Emergency</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">62</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Interim Order (I) Authorizing the Debtors to (A) Continue Using the Cash Management System, (B) Maintain Existing Bank Accounts, Business Forms, and Books and Records, and (C) Continue Intercompany Tr</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461159023/recapdocument/476243540/" target="_blank">Setting Hearing</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">59</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">First Day</span></td>
+        <td>Sealed Document Notice of Filing of Sealed Exhibit Attached to the Letter of Credit Motion and Debtors&#x27; Witness and Exhibit List for April 17, 2026, First Day Hearings (Filed By QVC Group, Inc. ). (At</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461251297/recapdocument/476337886/" target="_blank">Document</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">54</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Exhibit List, Witness List (Filed By QVC Group, Inc. ).(Related document(s):3 Designation of Complex Chapter 11 Bankruptcy Case, 4 Declaration, 5 Emergency Motion, 7 Emergency Motion, 8 Emergency Moti</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.54.0.pdf" target="_blank">Exhibit List AND Witness List</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">54</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Exhibit List, Witness List (Filed By QVC Group, Inc. ).(Related document(s):3 Designation of Complex Chapter 11 Bankruptcy Case, 4 Declaration, 5 Emergency Motion, 7 Emergency Motion, 8 Emergency Moti</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.54.0.pdf" target="_blank">Exhibit List AND Witness List</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">48</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Declaration re: of Jason Keyes in Support of the Debtors&#x27; Emergency Motion (I) Authorizing the QVC Debtors to (A) Enter into the DIP LC Facility (B) Fund the LC Cash Collateral Account, and (C) Grant </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461135280/recapdocument/476219068/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">41</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#0b5345;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Confirmation</span></td>
+        <td>Emergency Motion for Entry of an Order (I) Scheduling a Combined Disclosure Statement and Plan Confirmation Hearing, (II) Approving the Solicitation Procedures, (III) Approving the Deadlines and Notic</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461129664/recapdocument/476213401/" target="_blank">Emergency Motion</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">41</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Emergency Motion for Entry of an Order (I) Scheduling a Combined Disclosure Statement and Plan Confirmation Hearing, (II) Approving the Solicitation Procedures, (III) Approving the Deadlines and Notic</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461129664/recapdocument/476213401/" target="_blank">Emergency Motion</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">21</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Declaration re: Jason Keyes in Support of Debtors&#x27; Emergency Motion for Entry of Interim and Final Orders (I) Authorizing the Payment of All Trade Claims, (II) Confirming the Administrative Expense Pr</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461097038/recapdocument/476180042/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">16</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">First Day</span></td>
+        <td>Notice of First Day Hearings. (Related document(s):2 Emergency Motion, 3 Designation of Complex Chapter 11 Bankruptcy Case, 5 Emergency Motion, 6 Emergency Motion, 7 Emergency Motion, 8 Emergency Moti</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.16.0.pdf" target="_blank">Notice</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">15</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Chapter 11 Plan of Reorganization Filed by QVC Group, Inc.. (Brookner, Jason) (Entered: 04/17/2026)</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.15.0.pdf" target="_blank">Chapter 11 Plan</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">14</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1a5276;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Plan</span></td>
+        <td>Disclosure Statement Filed by QVC Group, Inc.. (Brookner, Jason) (Entered: 04/17/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461084637/recapdocument/476167328/" target="_blank">Disclosure Statement</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">12</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Emergency Motion for Entry of an Order (I) Approving Notification and Hearing Procedures for Certain Transfers of and Declarations of Worthlessness with Respect to Stock, (II) Directing That Any Such </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461084383/recapdocument/476167029/" target="_blank">Emergency Motion</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">11</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Emergency Motion for Entry of an Order (I) Authorizing the Debtors to (A) Maintain Insurance Coverage Entered into Prepetition and Satisfy Prepetition Obligations Related Thereto, (B) Renew, Amend, Su</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461084387/recapdocument/476167033/" target="_blank">Emergency Motion</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">10</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Emergency Motion for Entry of an Order (I) Authorizing the Debtors to (A) Maintain and Administer Their Existing Customer Programs, Credit Card Programs, Distribution Program, and Charitable Programs,</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461084204/recapdocument/476166846/" target="_blank">Emergency Motion</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">8</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Emergency Motion for Entry of an Order (I) Authorizing the Debtors to (A) Pay Prepetition Wages, Salaries, Other Compensation, and Reimbursable Expenses and (B) Continue the Compensation and Benefits </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461083971/recapdocument/476166609/" target="_blank">Emergency Motion</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">5</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Emergency Motion for Entry of Interim and Final Orders (I) Authorizing the Debtors to (A) Continue Using the Cash Management System, (B) Maintain Existing Bank Accounts, Business Forms, and Books and </td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461083953/recapdocument/476166591/" target="_blank">Emergency Motion</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">4</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#1e8449;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">First Day</span></td>
+        <td>Declaration re: Declaration of Bill Wafford in Support of Debtors&#x27; Chapter 11 Petitions and First Day Motions (Filed By QVC Group, Inc. ). (Brookner, Jason) (Entered: 04/17/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461083661/recapdocument/476166299/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">4</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#5b2c6f;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Declaration</span></td>
+        <td>Declaration re: Declaration of Bill Wafford in Support of Debtors&#x27; Chapter 11 Petitions and First Day Motions (Filed By QVC Group, Inc. ). (Brookner, Jason) (Entered: 04/17/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461083661/recapdocument/476166299/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">4</td>
+        <td style="white-space:nowrap;">Apr 17, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Declaration re: Declaration of Bill Wafford in Support of Debtors&#x27; Chapter 11 Petitions and First Day Motions (Filed By QVC Group, Inc. ). (Brookner, Jason) (Entered: 04/17/2026)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461083661/recapdocument/476166299/" target="_blank">Declaration</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">1</td>
+        <td style="white-space:nowrap;">Apr 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Chapter 11 Voluntary Petition Non-Individual Fee Amount $1738 Filed by QVC Group, Inc.. (Brookner, Jason) (Entered: 04/16/2026)</td>
+        <td><a href="https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.1.0.pdf" target="_blank">Voluntary Petition (Chapter 11) [system event</a></td>
+      </tr>      <tr>
+        <td style="white-space:nowrap;">0</td>
+        <td style="white-space:nowrap;">Apr 16, 2026</td>
+        <td><span style="display:inline-block;background:#8e1600;color:white;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;">Petition</span></td>
+        <td>Receipt of Voluntary Petition (Chapter 11)( 26-90447) [misc,volp11] (1738.00) Filing Fee. Receipt number A27103304. Fee amount $1738.00. (U.S. Treasury)</td>
+        <td><a href="https://www.courtlistener.com/docket-entry/461251292/recapdocument/476337881/" target="_blank">Document</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">
+  <p>Av's Tools &middot; Newsroom monitor &middot; Built with <a href="https://claude.ai">Claude</a> (Anthropic AI)</p>
+  <p style="margin-top:4px;">Source: <a href="https://www.courtlistener.com">CourtListener</a> / RECAP &middot; Docket entries last fetched 2026-06-03T14:31</p>
+</div>
+
+</div>
+</body>
+</html>

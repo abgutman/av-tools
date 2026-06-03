@@ -56,12 +56,14 @@ jobs:
             $CMD
           fi
           python build_bankruptcy_dashboard.py
+          python fetch_docket_entries.py
+          python build_case_details.py
 
       - name: Commit + push if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add bankruptcy_data/cases.json bankruptcy_data/scan_state.json bankruptcy_data/poll_bankruptcy_log.txt bankruptcy_dashboard.html 2>/dev/null || true
+          git add bankruptcy_data/cases.json bankruptcy_data/scan_state.json bankruptcy_data/poll_bankruptcy_log.txt bankruptcy_data/docket_entries/ bankruptcy_data/docket_fetch_state.json bankruptcy_dashboard.html bankruptcy_cases/ 2>/dev/null || true
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Auto: bankruptcy poll $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main

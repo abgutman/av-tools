@@ -1,0 +1,345 @@
+{
+ "docket_id": 73388469,
+ "last_fetched": "2026-06-03T14:33:07-04:00",
+ "last_entry_number": 190,
+ "total_entries": 197,
+ "classified_entries": [
+  {
+   "entry_number": 0,
+   "date_filed": "2026-05-26",
+   "description": "Receipt of Voluntary Petition (Chapter 11)( 26-90545) [misc,volp11] (1738.00) Filing Fee. Receipt number A27220554. Fee amount $1738.00. (U.S. Treasury)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465256439/recapdocument/480455855/",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "entry_number": 1,
+   "date_filed": "2026-05-26",
+   "description": "Chapter 11 Voluntary Petition Non-Individual Fee Amount $1738 Filed by Trinseo PLC. (Davidson, Timothy) (Entered: 05/26/2026)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465126623/recapdocument/480322991/",
+     "description": "Voluntary Petition (Chapter 11) [system event"
+    }
+   ]
+  },
+  {
+   "entry_number": 5,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion of Debtors for Entry of an Order (A) Authorizing Debtors to (I) Honor Their Prepetition Obligations to Customers and (II) Continue Their Customer Programs; and (B) Granting Related Re",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465127227/recapdocument/480323656/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 7,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion of Debtors for Entry of an Order (A) Authorizing Debtors to (I) Pay Prepetition Wages, Salaries, Employee Benefits, and Other Compensation, and (II) Maintain Employee Benefits Program",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465127491/recapdocument/480323933/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 8,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion of Debtors for Entry of an Order Authorizing Debtors to Pay Certain Prepetition Taxes and Fees, and Granting Related Relief Filed by Debtor Trinseo PLC Hearing scheduled for 5/27/2026",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465127437/recapdocument/480323879/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 9,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion of Debtors for Entry of an Order Authorizing the Debtors to Pay Prepetition Trade Claims in the Ordinary Course of Business, and Granting Related Relief Filed by Debtor Trinseo PLC He",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465127607/recapdocument/480324052/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 16,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: / Declaration of Alan Boyko in Support of Debtors' Chapter 11 Petitions and First Day Relief (Filed By Trinseo PLC ). (Davidson, Timothy) (Entered: 05/26/2026)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128573/recapdocument/480325153/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 16,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: / Declaration of Alan Boyko in Support of Debtors' Chapter 11 Petitions and First Day Relief (Filed By Trinseo PLC ). (Davidson, Timothy) (Entered: 05/26/2026)",
+   "category": "declaration",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128573/recapdocument/480325153/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 16,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: / Declaration of Alan Boyko in Support of Debtors' Chapter 11 Petitions and First Day Relief (Filed By Trinseo PLC ). (Davidson, Timothy) (Entered: 05/26/2026)",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128573/recapdocument/480325153/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 18,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion Emergency Motion of Debtors For Entry of Interim and Final Orders (A) Authorizing Debtors to (I) Obtain Postpetition Financing, and (II) Use Cash Collateral; (B) Granting Liens and Pr",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128566/recapdocument/480325147/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 18,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion Emergency Motion of Debtors For Entry of Interim and Final Orders (A) Authorizing Debtors to (I) Obtain Postpetition Financing, and (II) Use Cash Collateral; (B) Granting Liens and Pr",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128566/recapdocument/480325147/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 19,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: Declaration of Karn S. Chopra in Support of Debtors' Motions to (A) Obtain Postpetition Financing and (B) Enter into the Securitization Program (Filed By Trinseo PLC ).(Related documen",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128721/recapdocument/480325303/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 19,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: Declaration of Karn S. Chopra in Support of Debtors' Motions to (A) Obtain Postpetition Financing and (B) Enter into the Securitization Program (Filed By Trinseo PLC ).(Related documen",
+   "category": "declaration",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128721/recapdocument/480325303/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 19,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: Declaration of Karn S. Chopra in Support of Debtors' Motions to (A) Obtain Postpetition Financing and (B) Enter into the Securitization Program (Filed By Trinseo PLC ).(Related documen",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128721/recapdocument/480325303/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 20,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: Declaration of Alan Boyko in Support of Debtors' Motions to (A) Obtain Postpetition Financing and (B) Enter into the Securitization Program (Filed By Trinseo PLC ).(Related document(s)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128719/recapdocument/480325301/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 20,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: Declaration of Alan Boyko in Support of Debtors' Motions to (A) Obtain Postpetition Financing and (B) Enter into the Securitization Program (Filed By Trinseo PLC ).(Related document(s)",
+   "category": "declaration",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128719/recapdocument/480325301/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 20,
+   "date_filed": "2026-05-26",
+   "description": "Declaration re: Declaration of Alan Boyko in Support of Debtors' Motions to (A) Obtain Postpetition Financing and (B) Enter into the Securitization Program (Filed By Trinseo PLC ).(Related document(s)",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465128719/recapdocument/480325301/",
+     "description": "Declaration"
+    }
+   ]
+  },
+  {
+   "entry_number": 29,
+   "date_filed": "2026-05-26",
+   "description": "Chapter 11 Plan of Reorganization Filed by Trinseo PLC. (Davidson, Timothy) (Entered: 05/26/2026)",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465129140/recapdocument/480325777/",
+     "description": "Chapter 11 Plan"
+    }
+   ]
+  },
+  {
+   "entry_number": 30,
+   "date_filed": "2026-05-26",
+   "description": "Disclosure Statement Filed by Trinseo PLC. (Davidson, Timothy) (Entered: 05/26/2026)",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465129138/recapdocument/480325775/",
+     "description": "Disclosure Statement"
+    }
+   ]
+  },
+  {
+   "entry_number": 31,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion of Debtors for an Order (I) Scheduling Combined Hearing on (A) Adequacy of Disclosure Statement and (B) Confirmation of Plan; (II) Approving Solicitation Procedures and Notices of Non",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465129136/recapdocument/480325773/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 31,
+   "date_filed": "2026-05-26",
+   "description": "Emergency Motion of Debtors for an Order (I) Scheduling Combined Hearing on (A) Adequacy of Disclosure Statement and (B) Confirmation of Plan; (II) Approving Solicitation Procedures and Notices of Non",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465129136/recapdocument/480325773/",
+     "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 47,
+   "date_filed": "2026-05-26",
+   "description": "Notice of Appearance and Request for Notice Filed by Jacob Rhine Herz Filed by on behalf of Postpetition Securitization Program Lenders (Herz, Jacob) (Entered: 05/26/2026)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465234333/recapdocument/480433406/",
+     "description": "Notice of Appearance and Request for Notice"
+    }
+   ]
+  },
+  {
+   "entry_number": 48,
+   "date_filed": "2026-05-26",
+   "description": "MOTION to Appear Pro Hac Vice for Robert Trust (Fee Paid: $100, receipt number A27223873) Filed by Interested Party Postpetition Securitization Program Lenders (Herz, Jacob) (Entered: 05/26/2026)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465234247/recapdocument/480433321/",
+     "description": "Appear pro hac vice"
+    }
+   ]
+  },
+  {
+   "entry_number": 49,
+   "date_filed": "2026-05-26",
+   "description": "MOTION to Appear Pro Hac Vice for Nicholas J. Sabatino (Fee Paid: $100, receipt number A27223919) Filed by Interested Party Postpetition Securitization Program Lenders (Sabatino, Nicholas) (Entered: 0",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465234100/recapdocument/480433174/",
+     "description": "Appear pro hac vice"
+    }
+   ]
+  },
+  {
+   "entry_number": 59,
+   "date_filed": "2026-05-26",
+   "description": "Notice of Emergency Virtual Hearing on First Day Motions. Filed by Trinseo PLC (Davidson, Timothy) (Entered: 05/26/2026)",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465249883/recapdocument/480449240/",
+     "description": "Notice"
+    }
+   ]
+  }
+ ],
+ "key_dates": {
+  "petition_date": {
+   "date": "2026-05-26",
+   "status": "happened",
+   "source": "case filing"
+  },
+  "first_day_hearing": {
+   "date": "2026-05-26",
+   "status": "happened",
+   "source": "entry #16"
+  },
+  "341_meeting": {
+   "date": "2026-05-26",
+   "status": "happened",
+   "source": "entry #31"
+  },
+  "bar_date": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "plan_confirmation": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "sale_deadline": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  }
+ },
+ "flags": {
+  "has_examiner_or_trustee": false,
+  "has_dip_financing": true,
+  "has_sale_process": false
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "docket_id": 73154006,
+ "last_fetched": "2026-06-03T14:30:49-04:00",
+ "last_entry_number": 61,
+ "total_entries": 76,
+ "classified_entries": [
+  {
+   "entry_number": 0,
+   "date_filed": "2026-05-22",
+   "description": "Meeting of Creditors Held and Concluded on: 5/22/2026. (SCHANNE, JOHN)",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465422357/recapdocument/480626080/",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "entry_number": 0,
+   "date_filed": "2026-04-06",
+   "description": "Receipt of Voluntary Petition (Chapter 11)( 26-11440) [misc,volp11a] (1738.00) Filing Fee. Receipt number A32019021. Fee Amount $1738.00. (re: Doc# 1) (U.S. Treasury)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/460026682/recapdocument/475072589/",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "entry_number": 1,
+   "date_filed": "2026-04-06",
+   "description": "Chapter 11 Subchapter V Voluntary Petition for Non-individual. Fee Amount $1738 Filed by Erie Kash Out Properties, LLC. Chapter 11 Plan Small Business Subchapter V due by 07/6/2026. Corporate Resoluti",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://archive.org/download/gov.uscourts.paeb.522673/gov.uscourts.paeb.522673.1.0.pdf",
+     "description": "Voluntary Petition (Chapter 11)"
+    }
+   ]
+  },
+  {
+   "entry_number": 1,
+   "date_filed": "2026-04-06",
+   "description": "Chapter 11 Subchapter V Voluntary Petition for Non-individual. Fee Amount $1738 Filed by Erie Kash Out Properties, LLC. Chapter 11 Plan Small Business Subchapter V due by 07/6/2026. Corporate Resoluti",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://archive.org/download/gov.uscourts.paeb.522673/gov.uscourts.paeb.522673.1.0.pdf",
+     "description": "Voluntary Petition (Chapter 11)"
+    }
+   ]
+  },
+  {
+   "entry_number": 8,
+   "date_filed": "2026-04-07",
+   "description": "Order Entered the debtor having failed to file or submit with the petition all of the documents required by Fed. R. Bankr.P.1007, It is hereby ORDERED that this case MAY BE DISMISSED WITHOUT FURTHER N",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/459902531/recapdocument/474945909/",
+     "description": "Requiring documents for non-individual cases"
+    }
+   ]
+  },
+  {
+   "entry_number": 14,
+   "date_filed": "2026-04-09",
+   "description": "Meeting of Creditors. 341(a) meeting to be held on 5/15/2026 at 10:00 AM at ALTERNATE TELEPHONIC CONFERENCE (For Trustee Use Only). (Deininger, Hannah) (Entered: 04/09/2026)",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/460212626/recapdocument/475266925/",
+     "description": "Meeting of Creditors Chapter 11 (multi)"
+    }
+   ]
+  },
+  {
+   "entry_number": 15,
+   "date_filed": "2026-04-09",
+   "description": "The upcoming 341(a) meeting is scheduled to be held remotely..For participation by telephone, please call 888-330-1716 and use (access code/meeting id/passcode) 3684976 to join the meeting.. More info",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/460212518/recapdocument/475266818/",
+     "description": "Telephonic 341 Meeting Information"
+    }
+   ]
+  },
+  {
+   "entry_number": 17,
+   "date_filed": "2026-04-11",
+   "description": "BNC Certificate of Mailing - Meeting of Creditors. Number of Notices Mailed: (related document(s) (Related Doc # 14)). No. of Notices: 6. Notice Date 04/11/2026. (Admin.) (Entered: 04/12/2026)",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/460487148/recapdocument/475548974/",
+     "description": "BNC Certificate of Mailing - Meeting of Creditors"
+    }
+   ]
+  },
+  {
+   "entry_number": 24,
+   "date_filed": "2026-04-13",
+   "description": "Scheduling Order and Notice of Status Conference. Voluntary Petition (Chapter 11) filed by Debtor Erie Kash Out Properties, LLC (related document(s)1). Conference scheduled 5/27/2026 at 12:30 PM at Co",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/460604922/recapdocument/475670511/",
+     "description": "Scheduling Order and Notice of Status Conference"
+    }
+   ]
+  },
+  {
+   "entry_number": 48,
+   "date_filed": "2026-05-01",
+   "description": "Amended Interim Order Authorizing The Debtor In Possession To Use Cash Collateral And Granting Related Relief. 18 A final hearing on the motion will be held 7/22/2026 at 12:30 PM at Courtroom #4. (JG)",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/462669198/recapdocument/477789080/",
+     "description": "Scheduling Hearing"
+    }
+   ]
+  },
+  {
+   "entry_number": 53,
+   "date_filed": "2026-05-15",
+   "description": "Trustees Notice of Continued Meeting of Creditors. Reason for continuance: Debtor to file amended documents.. 341(a) meeting to be held on 5/22/2026 at 10:00 AM at Philadelphia Office. (SCHANNE, JOHN)",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/465422356/recapdocument/480626079/",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "entry_number": 58,
+   "date_filed": "2026-05-22",
+   "description": "Declaration Under Penalty of Perjury for Non-individual Debtors Filed by DEMETRIUS J. PARRISH on behalf of Erie Kash Out Properties, LLC. (PARRISH, DEMETRIUS) (Entered: 05/22/2026)",
+   "category": "declaration",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/464936560/recapdocument/480126897/",
+     "description": "Declaration Under Penalty of Perjury for Non-individual Debtors"
+    }
+   ]
+  }
+ ],
+ "key_dates": {
+  "petition_date": {
+   "date": "2026-04-06",
+   "status": "happened",
+   "source": "case filing"
+  },
+  "first_day_hearing": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "341_meeting": {
+   "date": "2026-04-09",
+   "status": "happened",
+   "source": "entry #14"
+  },
+  "bar_date": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "plan_confirmation": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "sale_deadline": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  }
+ },
+ "flags": {
+  "has_examiner_or_trustee": false,
+  "has_dip_financing": true,
+  "has_sale_process": false
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "docket_id": 73294617,
+ "last_fetched": "2026-06-03T14:31:58-04:00",
+ "last_entry_number": 13,
+ "total_entries": 19,
+ "classified_entries": [
+  {
+   "entry_number": 0,
+   "date_filed": "2026-05-05",
+   "description": "Receipt of Voluntary Petition (Chapter 11)( 26-11969) [misc,volp11a] (1738.00) Filing Fee. Receipt number A32450970. Fee Amount $1738.00. (re: Doc# 1) (U.S. Treasury)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/464127342/recapdocument/479291899/",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "entry_number": 1,
+   "date_filed": "2026-05-04",
+   "description": "Chapter 11 Voluntary Petition for Non-individual. Fee Amount $1738 Filed by ONE DOORKNOB AT A TIME, LLC. Chapter 11 Sm Business Plan due by 11/2/2026. Statement of Corporate Ownership due 05/18/2026. ",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/462951642/recapdocument/478084443/",
+     "description": "Voluntary Petition (Chapter 11)"
+    }
+   ]
+  },
+  {
+   "entry_number": 3,
+   "date_filed": "2026-05-05",
+   "description": "Clerks Notice of Fees Due. Notice of Fee Due $1738.00 Re: Voluntary Petition (Chapter 11) filed by Debtor ONE DOORKNOB AT A TIME, LLC (related document(s)1). Fee due by 5/12/2026. (SD) (Entered: 05/05",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/462959147/recapdocument/478092173/",
+     "description": "Clerk's Notice of Fees Due or Fee Due for corrected event"
+    }
+   ]
+  },
+  {
+   "entry_number": 4,
+   "date_filed": "2026-05-05",
+   "description": "Order Entered the debtor having failed to file or submit with the petition all of the documents required by Fed. R. Bankr.P.1007, It is hereby ORDERED that this case MAY BE DISMISSED WITHOUT FURTHER N",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket-entry/462959143/recapdocument/478092168/",
+     "description": "Requiring documents for non-individual cases"
+    }
+   ]
+  }
+ ],
+ "key_dates": {
+  "petition_date": {
+   "date": "2026-05-04",
+   "status": "happened",
+   "source": "case filing"
+  },
+  "first_day_hearing": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "341_meeting": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "bar_date": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "plan_confirmation": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  },
+  "sale_deadline": {
+   "date": null,
+   "status": "unknown",
+   "source": null
+  }
+ },
+ "flags": {
+  "has_examiner_or_trustee": false,
+  "has_dip_financing": false,
+  "has_sale_process": false
+ }
+}
