@@ -1,0 +1,49 @@
+[2026-06-03 11:11:10 ET] === Backfill start (from 2026-04-01 to 2026-05-01, live=False) ===
+[2026-06-03 11:11:10 ET]   fetching search page: ...iled_after=2026-04-01&order_by=dateFiled+asc&filed_before=2026-05-01&format=json
+[2026-06-03 11:11:27 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:11:43 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:12:33 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:12:50 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:13:03 ET]   + HIT: Erie Kash Out Properties, LLC | 26-11440 | paeb | zip=19120 (Philadelphia)
+[2026-06-03 11:13:05 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:13:32 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:13:47 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:14:04 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:14:16 ET]   + HIT: EEW AOS Paulsboro Urban Renewal, LLC | 26-13902 | njb | zip=08066 (South Jersey)
+[2026-06-03 11:14:18 ET]   + HIT: EEW American Offshore Structures Inc., et al | 26-13901 | njb | zip=08066 (South Jersey)
+[2026-06-03 11:14:21 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:14:41 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:15:00 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:15:20 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:15:42 ET]   + HIT: DILLING PA, LLC d/b/a DILLING HEATING AND COOLING | 26-11548 | paeb | zip=19020 (Pa suburbs)
+[2026-06-03 11:15:45 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:16:02 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:16:18 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:16:33 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:17:03 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:17:18 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:17:32 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:17:50 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:18:08 ET]   + HIT: QVC Group, Inc. | 26-90447 | txsb | zip=19380 (Pa suburbs)
+[2026-06-03 11:18:11 ET]   + HIT: PELCO BUILDERS, INC. | 26-11608 | paeb | zip=19320 (Pa suburbs)
+[2026-06-03 11:18:17 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:18:37 ET]   + HIT: RMG Erectors & Constructors of Montana, LLC | 26-14283 | njb | zip=08080 (South Jersey)
+[2026-06-03 11:18:38 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:18:57 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:19:14 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:19:32 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:19:49 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:20:06 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:20:38 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:20:55 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:21:19 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:21:37 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:21:52 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:22:30 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:22:45 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:23:01 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:23:17 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:23:36 ET]   fetching search page: ...filed_before=2026-05-01&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 11:23:46 ET]   checked 752 dockets, fetched 752 party records, 7 new local hits
+[2026-06-03 11:23:46 ET] === Backfill done. 7 local hits. ===
+
