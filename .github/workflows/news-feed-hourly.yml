@@ -43,4 +43,5 @@ jobs:
           git add earnings_data/news_feed.json news_feed.html earnings_data/news_feed_log.txt 2>/dev/null || true
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Auto: news feed $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push

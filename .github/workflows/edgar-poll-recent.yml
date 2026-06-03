@@ -64,4 +64,5 @@ jobs:
           git add earnings_data/cache.json earnings_data/submissions_cache recent_earnings.html upcoming_earnings.html earnings_data/simple_earnings_log.txt 2>/dev/null || true
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Auto: EDGAR poll $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push

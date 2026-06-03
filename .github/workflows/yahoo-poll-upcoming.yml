@@ -52,4 +52,5 @@ jobs:
           git add earnings_data/upcoming_dates.json earnings_data/yahoo_upcoming_state.json earnings_data/poll_upcoming_log.txt upcoming_earnings.html recent_earnings.html 2>/dev/null || true
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Auto: Yahoo upcoming poll $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push

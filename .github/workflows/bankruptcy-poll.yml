@@ -64,4 +64,5 @@ jobs:
           git add bankruptcy_data/cases.json bankruptcy_data/scan_state.json bankruptcy_data/poll_bankruptcy_log.txt bankruptcy_dashboard.html 2>/dev/null || true
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Auto: bankruptcy poll $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push

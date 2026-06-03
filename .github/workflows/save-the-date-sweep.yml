@@ -47,4 +47,5 @@ jobs:
           git add earnings_data/confirmed_dates.json earnings_data/save_the_date_log.txt 2>/dev/null || true
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Save-the-date sweep $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
