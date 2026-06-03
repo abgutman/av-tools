@@ -96,5 +96,33 @@
   "courtlistener_url": "https://www.courtlistener.com/docket/73209855/",
   "pacer_url": "https://ecf.njb.uscourts.gov/cgi-bin/DktRpt.pl?1140851",
   "captured_at": "2026-06-03T11:18:37-04:00"
+ },
+ "73294617": {
+  "docket_id": 73294617,
+  "case_name": "ONE DOORKNOB AT A TIME, LLC",
+  "debtor_name": "ONE DOORKNOB AT A TIME, LLC",
+  "docket_number": "26-11969",
+  "date_filed": "2026-05-04",
+  "court": "United States Bankruptcy Court, E.D. Pennsylvania",
+  "court_id": "paeb",
+  "debtor_zip": "19073",
+  "debtor_region": "Pa suburbs",
+  "courtlistener_url": "https://www.courtlistener.com/docket/73294617/",
+  "pacer_url": "https://ecf.paeb.uscourts.gov/cgi-bin/DktRpt.pl?523215",
+  "captured_at": "2026-06-03T11:53:17-04:00"
+ },
+ "73388469": {
+  "docket_id": 73388469,
+  "case_name": "Trinseo PLC",
+  "debtor_name": "Trinseo PLC",
+  "docket_number": "26-90545",
+  "date_filed": "2026-05-26",
+  "court": "United States Bankruptcy Court, S.D. Texas",
+  "court_id": "txsb",
+  "debtor_zip": "19088",
+  "debtor_region": "Pa suburbs",
+  "courtlistener_url": "https://www.courtlistener.com/docket/73388469/",
+  "pacer_url": "https://ecf.txsb.uscourts.gov/cgi-bin/DktRpt.pl?495876",
+  "captured_at": "2026-06-03T12:03:10-04:00"
  }
 }
