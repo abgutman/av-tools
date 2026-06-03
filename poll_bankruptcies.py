@@ -15,6 +15,7 @@ import json, os, re, subprocess, sys, time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from email_utils import send_email, subject_bankruptcy_alert, body_bankruptcy_alert
 
 HERE = Path(__file__).parent
@@ -71,6 +72,10 @@ def load_local_zips():
     return json.loads(ZIPS_FILE.read_text())
 
 ZIP_RE = re.compile(r"\b(\d{5})\b")
+SLUG_RE = re.compile(r"[^a-z0-9]+")
+
+def slugify(name):
+    return SLUG_RE.sub("-", name.lower()).strip("-")[:60]
 
 def extract_debtor_zip(extra_info, local_zips):
     """Extract a local zip from party_types[].extra_info text.
@@ -180,7 +185,7 @@ def scan_dockets(filed_after, filed_before=None, live=False):
             if not matched_zip:
                 continue
 
-            cl_url = f"https://www.courtlistener.com/docket/{docket_id}/"
+            cl_url = f"https://www.courtlistener.com/docket/{docket_id}/{slugify(case_name)}/"
             pacer_url = ""
             if pacer_case_id and court_id:
                 pacer_url = f"https://ecf.{court_id}.uscourts.gov/cgi-bin/DktRpt.pl?{pacer_case_id}"
@@ -210,6 +215,7 @@ def scan_dockets(filed_after, filed_before=None, live=False):
                             debtor_name, court, date_filed,
                             matched_zip, matched_region,
                             cl_url, pacer_url,
+                            docket_id=docket_id,
                         ),
                         log_fn=log,
                     )

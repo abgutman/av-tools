@@ -27,7 +27,7 @@ def _fmt_et(val, fallback="unknown"):
     except Exception:
         return str(val)
 
-def _html_email(header_bg, tag, title, company, blurb, rows, cta_url, cta_label, dashboard_url, source_note):
+def _html_email(header_bg, tag, title, company, blurb, rows, cta_url, cta_label, dashboard_url, source_note, dashboard_label="Earnings Dashboard", secondary_links=None):
     """Render a styled HTML email. rows = list of (label, value) tuples."""
     rows_html = "\n".join(
         f'      <tr>'
@@ -56,7 +56,8 @@ def _html_email(header_bg, tag, title, company, blurb, rows, cta_url, cta_label,
     <div style="margin:28px 0 22px;">
       <a href="{cta_url}" style="display:inline-block;background:{header_bg};color:white;padding:13px 26px;border-radius:7px;text-decoration:none;font-weight:700;font-size:14px;">{cta_label}</a>
     </div>
-    <p style="margin:0 0 10px;font-size:13px;color:#868e96;">Also on the <a href="{dashboard_url}" style="color:{header_bg};font-weight:500;text-decoration:none;">Earnings Dashboard ↗</a></p>
+    <p style="margin:0 0 10px;font-size:13px;color:#868e96;">Also on the <a href="{dashboard_url}" style="color:{header_bg};font-weight:500;text-decoration:none;">{dashboard_label} ↗</a></p>
+{"".join(f'    <p style="margin:0 0 10px;font-size:13px;color:#868e96;"><a href="{url}" style="color:{header_bg};font-weight:500;text-decoration:none;">{label} ↗</a></p>' for label, url in (secondary_links or []))}
     <p style="margin:0;font-size:13px;color:#868e96;">If you have any questions, comments, or concerns, reach out to Av.</p>
   </div>
 
@@ -167,13 +168,17 @@ def subject_bankruptcy_alert(debtor_name):
     return f"\U0001f4a5 New Chapter 11: {debtor_name}"   # 💥
 
 def body_bankruptcy_alert(debtor_name, court, date_filed, debtor_zip, region,
-                          courtlistener_url, pacer_url=None):
+                          courtlistener_url, pacer_url=None, docket_id=None):
     rows = [
         ("Date filed",  date_filed),
         ("Court",       court),
         ("Debtor zip",  f"{debtor_zip} ({region})"),
     ]
-    cta_url = courtlistener_url or pacer_url or "#"
+    detail_url = f"https://abgutman.github.io/av-tools/bankruptcy_cases/{docket_id}.html" if docket_id else None
+    cta_url = detail_url or courtlistener_url or "#"
+    secondary = []
+    if courtlistener_url:
+        secondary.append(("View on CourtListener", courtlistener_url))
     return _html_email(
         header_bg=BANKRUPTCY_COLOR,
         tag="\U0001f4a5 Bankruptcy Alert",
@@ -187,9 +192,11 @@ def body_bankruptcy_alert(debtor_name, court, date_filed, debtor_zip, region,
         ),
         rows=rows,
         cta_url=cta_url,
-        cta_label="View on CourtListener &rarr;",
+        cta_label="View case details &rarr;",
         dashboard_url="https://abgutman.github.io/av-tools/bankruptcy_dashboard.html",
+        dashboard_label="Bankruptcy Dashboard",
         source_note="Source: CourtListener / RECAP &mdash; <a href='https://www.courtlistener.com' style='color:#adb5bd;'>courtlistener.com</a>",
+        secondary_links=secondary,
     )
 
 
