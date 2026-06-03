@@ -6874,6 +6874,34 @@
       "has_plea": false,
       "plea_details": [],
       "plea_first_seen": null
+    },
+    "CP-51-CR-0005656-2025": {
+      "caption": "Comm. v. Smith, Anthony",
+      "charges": [
+        "Criminal Attempt - Murder",
+        "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indiffe",
+        "Aggravated Assault - Attempts to cause or causes BI with deadly weapon",
+        "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indiffe"
+      ],
+      "added": "2026-06-03",
+      "source": "calendar",
+      "last_checked": "2026-06-03",
+      "has_plea": false,
+      "plea_details": [],
+      "plea_first_seen": null
+    },
+    "CP-51-CR-0003692-2025": {
+      "caption": "Comm. v. Collins, Richard",
+      "charges": [
+        "Homicide By Vehicle",
+        "Involuntary Manslaughter"
+      ],
+      "added": "2026-06-03",
+      "source": "calendar",
+      "last_checked": "2026-06-03",
+      "has_plea": false,
+      "plea_details": [],
+      "plea_first_seen": null
     }
   },
   "history": [
@@ -7096,7 +7124,13 @@
       ],
       "total_watched": 393,
       "total_with_pleas": 116
+    },
+    {
+      "date": "2026-06-03 07:23",
+      "new_pleas": [],
+      "total_watched": 395,
+      "total_with_pleas": 116
     }
   ],
-  "last_updated": "2026-06-03T03:10:08.355530"
+  "last_updated": "2026-06-03T07:23:03.799127"
 }

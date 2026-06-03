@@ -99,18 +99,18 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Guilty Plea Watch</h1>
-    <div class="meta">Updated June 03, 2026 at 03:10 AM | Previous check: June 03 at 03:10 AM</div>
+    <div class="meta">Updated June 03, 2026 at 07:23 AM | Previous check: June 03 at 07:23 AM</div>
 </div>
 
 <div class="stats">
-    <div class="stat"><div class="number">1</div><div class="label">New Pleas This Run</div></div>
+    <div class="stat"><div class="number">0</div><div class="label">New Pleas This Run</div></div>
     <div class="stat"><div class="number">116</div><div class="label">Total with Pleas</div></div>
-    <div class="stat"><div class="number">277</div><div class="label">Still Open</div></div>
-    <div class="stat"><div class="number">393</div><div class="label">Cases Watched</div></div>
+    <div class="stat"><div class="number">279</div><div class="label">Still Open</div></div>
+    <div class="stat"><div class="number">395</div><div class="label">Cases Watched</div></div>
 </div>
 
 <div class="explainer">
-    <strong>What this page does:</strong> Tracks 393 open cases charged with murder, manslaughter,
+    <strong>What this page does:</strong> Tracks 395 open cases charged with murder, manslaughter,
     aggravated assault, strangulation, kidnapping, rape, IDSI, sexual assault, aggravated indecent assault,
     robbery with SBI, or child pornography in Philadelphia. Every day, each docket sheet is re-downloaded and parsed.
     When a guilty plea newly appears on a docket, it's flagged here.<br>
@@ -118,8 +118,8 @@ if (sessionStorage.getItem('court_auth')==='1') {
 </div>
 
 <div class="tab-bar">
-    <button class="tab active" onclick="switchTab('new')">New Pleas<span class="tab-count">1</span></button>
-    <button class="tab" onclick="switchTab('watchlist')">Full Watchlist<span class="tab-count">393</span></button>
+    <button class="tab active" onclick="switchTab('new')">New Pleas<span class="tab-count">0</span></button>
+    <button class="tab" onclick="switchTab('watchlist')">Full Watchlist<span class="tab-count">395</span></button>
     <button class="tab" onclick="switchTab('add')">+ Add Case</button>
 </div>
 <div id="panel-new" class="tab-panel active">
@@ -127,19 +127,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <input type="text" id="search-new" placeholder="Search name, docket..." oninput="filterPanel('new')">
 </div>
 <div class="content">
-<table>
-<thead><tr>
-    <th></th><th>Docket</th><th>Defendant</th><th>Charges</th><th>Plea Details</th>
-</tr></thead>
-<tbody>
-<tr>
-    <td><span class="new-badge">NEW</span></td>
-    <td><a href="dockets/CP-51-CR-0008879-2021.pdf" target="_blank">CP-51-CR-0008879-2021</a></td>
-    <td>Comm. v. Glover, Clarence</td>
-    <td><span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> </td>
-    <td><div><span class="plea-type">Guilty Plea</span> <span style="font-size:12px;color:#666;">(12/30/2024)</span></div><div><span class="plea-type">Guilty Plea</span> <span style="font-size:12px;color:#666;">(05/29/2026)</span></div><div><span class="plea-type">Guilty Plea</span> <span style="font-size:12px;color:#666;">(07/09/2024)</span></div></td>
-</tr>
-</tbody></table>
+<div class="no-events">No new guilty pleas detected since the last check.</div>
 </div>
 </div>
 <div id="panel-watchlist" class="tab-panel">
@@ -1441,6 +1429,15 @@ if (sessionStorage.getItem('court_auth')==='1') {
 </tr>
 <tr>
     <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0005656-2025.pdf" target="_blank">CP-51-CR-0005656-2025</a></td>
+    <td>Comm. v. Smith, Anthony</td>
+    <td><span class="charge-tag charge-murder">Criminal Attempt - Murder</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause or causes B</span> <span class="charge-tag charge-assault">Aggravated Assault - Attempts to cause SBI or caus</span> </td>
+    <td style="font-size:11px;">calendar</td>
+    <td style="font-size:11px;">2026-06-03</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
     <td><a href="dockets/CP-51-CR-0005218-2024.pdf" target="_blank">CP-51-CR-0005218-2024</a></td>
     <td>Comm. v. COLES, AARON</td>
     <td><span class="charge-tag charge-murder">Murder</span> </td>
@@ -1554,6 +1551,15 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <td><span class="charge-tag charge-murder">Homicide by Vehicle While DUI</span> <span class="charge-tag charge-murder">Homicide By Vehicle</span> <span class="charge-tag charge-murder">Involuntary Manslaughter</span> <span class="charge-tag charge-other">Recent entries made in the court filing offices ma</span> <span class="charge-tag charge-assault">Aggravated assault by vehicle</span> <span class="charge-tag charge-assault">Aggravated Assault By Vehicle While Dui</span> <span class="charge-tag charge-assault">Aggravated assault by vehicle</span> <span class="charge-tag charge-assault">Aggravated Assault By Vehicle While Dui</span> <span class="charge-tag charge-assault">Aggravated assault by vehicle</span> </td>
     <td style="font-size:11px;">calendar</td>
     <td style="font-size:11px;">2026-05-29</td>
+    <td><span style="color:#999;font-size:12px;">None detected</span></td>
+</tr>
+<tr>
+    <td><span class="status-open">OPEN</span></td>
+    <td><a href="dockets/CP-51-CR-0003692-2025.pdf" target="_blank">CP-51-CR-0003692-2025</a></td>
+    <td>Comm. v. Collins, Richard</td>
+    <td><span class="charge-tag charge-murder">Homicide By Vehicle</span> <span class="charge-tag charge-murder">Involuntary Manslaughter</span> </td>
+    <td style="font-size:11px;">calendar</td>
+    <td style="font-size:11px;">2026-06-03</td>
     <td><span style="color:#999;font-size:12px;">None detected</span></td>
 </tr>
 <tr>
