@@ -1,6 +1,6 @@
 {
  "docket_id": 73165305,
- "last_fetched": "2026-06-03T14:30:52-04:00",
+ "last_fetched": "2026-06-03T15:26:15-04:00",
  "last_entry_number": 17,
  "total_entries": 20,
  "classified_entries": [
@@ -9,12 +9,7 @@
    "date_filed": "2026-04-08",
    "description": "Receipt of filing fee for Voluntary Petition (Chapter 11)( 26-13902) [misc,volp11a] (1738.00) Filing Fee. Receipt number A49445727, fee amount $ 1738.00. (re: Doc#1) (U.S. Treasury)",
    "category": "petition",
-   "recap_documents": [
-    {
-     "url": "https://www.courtlistener.com/docket-entry/460205293/recapdocument/475259486/",
-     "description": ""
-    }
-   ]
+   "recap_documents": []
   },
   {
    "entry_number": 1,
@@ -23,7 +18,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.njb.1140458/gov.uscourts.njb.1140458.1.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73165305/1/eew-aos-paulsboro-urban-renewal-llc/",
      "description": "Voluntary Petition (Chapter 11)"
     }
    ]

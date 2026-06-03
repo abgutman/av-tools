@@ -1,6 +1,6 @@
 {
  "docket_id": 73204528,
- "last_fetched": "2026-06-03T14:31:44-04:00",
+ "last_fetched": "2026-06-03T15:27:33-04:00",
  "last_entry_number": 84,
  "total_entries": 93,
  "classified_entries": [
@@ -9,12 +9,7 @@
    "date_filed": "2026-04-16",
    "description": "Receipt of Voluntary Petition (Chapter 11)( 26-11608) [misc,volp11a] (1738.00) Filing Fee. Receipt number A32166961. Fee Amount $1738.00. (re: Doc# 1) (U.S. Treasury)",
    "category": "petition",
-   "recap_documents": [
-    {
-     "url": "https://www.courtlistener.com/docket-entry/462854864/recapdocument/477979720/",
-     "description": ""
-    }
-   ]
+   "recap_documents": []
   },
   {
    "entry_number": 1,
@@ -23,7 +18,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461043202/recapdocument/476125252/",
+     "url": "https://www.courtlistener.com/docket/73204528/1/pelco-builders-inc/",
      "description": "Voluntary Petition (Chapter 11)"
     }
    ]
@@ -35,7 +30,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461043202/recapdocument/476125252/",
+     "url": "https://www.courtlistener.com/docket/73204528/1/pelco-builders-inc/",
      "description": "Voluntary Petition (Chapter 11)"
     }
    ]
@@ -47,7 +42,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461096507/recapdocument/476179508/",
+     "url": "https://www.courtlistener.com/docket/73204528/6/pelco-builders-inc/",
      "description": "Requiring documents for non-individual cases"
     }
    ]
@@ -59,7 +54,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461096507/recapdocument/476179508/",
+     "url": "https://www.courtlistener.com/docket/73204528/6/pelco-builders-inc/",
      "description": "Requiring documents for non-individual cases"
     }
    ]
@@ -71,7 +66,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461306368/recapdocument/476394329/",
+     "url": "https://www.courtlistener.com/docket/73204528/9/pelco-builders-inc/",
      "description": "Meeting of Creditors Chapter 11 (multi)"
     }
    ]
@@ -83,7 +78,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461286734/recapdocument/476374404/",
+     "url": "https://www.courtlistener.com/docket/73204528/10/pelco-builders-inc/",
      "description": "Telephonic 341 Meeting Information"
     }
    ]
@@ -95,7 +90,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461447751/recapdocument/476539335/",
+     "url": "https://www.courtlistener.com/docket/73204528/13/pelco-builders-inc/",
      "description": "Employ"
     }
    ]
@@ -107,7 +102,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461695338/recapdocument/476793308/",
+     "url": "https://www.courtlistener.com/docket/73204528/20/pelco-builders-inc/",
      "description": "BNC Certificate of Mailing - Meeting of Creditors"
     }
    ]
@@ -119,7 +114,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461921469/recapdocument/477024391/",
+     "url": "https://www.courtlistener.com/docket/73204528/23/pelco-builders-inc/",
      "description": "Extend / Shorten Time"
     }
    ]
@@ -131,7 +126,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462047774/recapdocument/477154034/",
+     "url": "https://www.courtlistener.com/docket/73204528/25/pelco-builders-inc/",
      "description": "Declaration"
     }
    ]
@@ -143,7 +138,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462707793/recapdocument/477828543/",
+     "url": "https://www.courtlistener.com/docket/73204528/33/pelco-builders-inc/",
      "description": "Relief from Stay"
     }
    ]

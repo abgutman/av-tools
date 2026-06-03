@@ -1,6 +1,6 @@
 {
  "docket_id": 73294617,
- "last_fetched": "2026-06-03T14:31:58-04:00",
+ "last_fetched": "2026-06-03T15:27:46-04:00",
  "last_entry_number": 13,
  "total_entries": 19,
  "classified_entries": [
@@ -9,12 +9,7 @@
    "date_filed": "2026-05-05",
    "description": "Receipt of Voluntary Petition (Chapter 11)( 26-11969) [misc,volp11a] (1738.00) Filing Fee. Receipt number A32450970. Fee Amount $1738.00. (re: Doc# 1) (U.S. Treasury)",
    "category": "petition",
-   "recap_documents": [
-    {
-     "url": "https://www.courtlistener.com/docket-entry/464127342/recapdocument/479291899/",
-     "description": ""
-    }
-   ]
+   "recap_documents": []
   },
   {
    "entry_number": 1,
@@ -23,7 +18,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462951642/recapdocument/478084443/",
+     "url": "https://www.courtlistener.com/docket/73294617/1/one-doorknob-at-a-time-llc/",
      "description": "Voluntary Petition (Chapter 11)"
     }
    ]
@@ -35,7 +30,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462959147/recapdocument/478092173/",
+     "url": "https://www.courtlistener.com/docket/73294617/3/one-doorknob-at-a-time-llc/",
      "description": "Clerk's Notice of Fees Due or Fee Due for corrected event"
     }
    ]
@@ -47,8 +42,44 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462959143/recapdocument/478092168/",
+     "url": "https://www.courtlistener.com/docket/73294617/4/one-doorknob-at-a-time-llc/",
      "description": "Requiring documents for non-individual cases"
+    }
+   ]
+  },
+  {
+   "entry_number": 11,
+   "date_filed": "2026-05-20",
+   "description": "Meeting of Creditors. 341(a) meeting to be held on 6/12/2026 at 01:00 PM at Zoomgov.com - McCollum: Meeting ID 161 1489 1038, Passcode 9343375369, Phone 1 (646) 828-7666. (McCollum, Hannah) (Entered: ",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73294617/11/one-doorknob-at-a-time-llc/",
+     "description": "Meeting of Creditors Chapter 11 (multi)"
+    }
+   ]
+  },
+  {
+   "entry_number": 12,
+   "date_filed": "2026-05-20",
+   "description": "The upcoming 341(a) meeting is scheduled to be held remotely..For participation by telephone, please call and to join the meeting. Note: This meeting will be held by Zoom.. More information can be fou",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73294617/12/one-doorknob-at-a-time-llc/",
+     "description": "Telephonic 341 Meeting Information"
+    }
+   ]
+  },
+  {
+   "entry_number": 13,
+   "date_filed": "2026-05-22",
+   "description": "BNC Certificate of Mailing - Meeting of Creditors. Number of Notices Mailed: (related document(s) (Related Doc # 11)). No. of Notices: 10. Notice Date 05/22/2026. (Admin.) (Entered: 05/23/2026)",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73294617/13/one-doorknob-at-a-time-llc/",
+     "description": "BNC Certificate of Mailing - Meeting of Creditors"
     }
    ]
   }
@@ -65,9 +96,9 @@
    "source": null
   },
   "341_meeting": {
-   "date": null,
-   "status": "unknown",
-   "source": null
+   "date": "2026-05-20",
+   "status": "happened",
+   "source": "entry #11"
   },
   "bar_date": {
    "date": null,

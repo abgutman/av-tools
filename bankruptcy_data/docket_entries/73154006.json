@@ -1,6 +1,6 @@
 {
  "docket_id": 73154006,
- "last_fetched": "2026-06-03T14:30:49-04:00",
+ "last_fetched": "2026-06-03T15:26:13-04:00",
  "last_entry_number": 61,
  "total_entries": 76,
  "classified_entries": [
@@ -9,24 +9,14 @@
    "date_filed": "2026-05-22",
    "description": "Meeting of Creditors Held and Concluded on: 5/22/2026. (SCHANNE, JOHN)",
    "category": "341_meeting",
-   "recap_documents": [
-    {
-     "url": "https://www.courtlistener.com/docket-entry/465422357/recapdocument/480626080/",
-     "description": ""
-    }
-   ]
+   "recap_documents": []
   },
   {
    "entry_number": 0,
    "date_filed": "2026-04-06",
    "description": "Receipt of Voluntary Petition (Chapter 11)( 26-11440) [misc,volp11a] (1738.00) Filing Fee. Receipt number A32019021. Fee Amount $1738.00. (re: Doc# 1) (U.S. Treasury)",
    "category": "petition",
-   "recap_documents": [
-    {
-     "url": "https://www.courtlistener.com/docket-entry/460026682/recapdocument/475072589/",
-     "description": ""
-    }
-   ]
+   "recap_documents": []
   },
   {
    "entry_number": 1,
@@ -35,7 +25,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.paeb.522673/gov.uscourts.paeb.522673.1.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73154006/1/erie-kash-out-properties-llc/",
      "description": "Voluntary Petition (Chapter 11)"
     }
    ]
@@ -47,7 +37,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.paeb.522673/gov.uscourts.paeb.522673.1.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73154006/1/erie-kash-out-properties-llc/",
      "description": "Voluntary Petition (Chapter 11)"
     }
    ]
@@ -59,7 +49,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/459902531/recapdocument/474945909/",
+     "url": "https://www.courtlistener.com/docket/73154006/8/erie-kash-out-properties-llc/",
      "description": "Requiring documents for non-individual cases"
     }
    ]
@@ -71,7 +61,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/460212626/recapdocument/475266925/",
+     "url": "https://www.courtlistener.com/docket/73154006/14/erie-kash-out-properties-llc/",
      "description": "Meeting of Creditors Chapter 11 (multi)"
     }
    ]
@@ -83,7 +73,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/460212518/recapdocument/475266818/",
+     "url": "https://www.courtlistener.com/docket/73154006/15/erie-kash-out-properties-llc/",
      "description": "Telephonic 341 Meeting Information"
     }
    ]
@@ -95,7 +85,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/460487148/recapdocument/475548974/",
+     "url": "https://www.courtlistener.com/docket/73154006/17/erie-kash-out-properties-llc/",
      "description": "BNC Certificate of Mailing - Meeting of Creditors"
     }
    ]
@@ -107,7 +97,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/460604922/recapdocument/475670511/",
+     "url": "https://www.courtlistener.com/docket/73154006/24/erie-kash-out-properties-llc/",
      "description": "Scheduling Order and Notice of Status Conference"
     }
    ]
@@ -119,7 +109,7 @@
    "category": "dip_financing",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462669198/recapdocument/477789080/",
+     "url": "https://www.courtlistener.com/docket/73154006/48/erie-kash-out-properties-llc/",
      "description": "Scheduling Hearing"
     }
    ]
@@ -131,7 +121,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465422356/recapdocument/480626079/",
+     "url": "https://www.courtlistener.com/docket/73154006/53/erie-kash-out-properties-llc/",
      "description": ""
     }
    ]
@@ -143,7 +133,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464936560/recapdocument/480126897/",
+     "url": "https://www.courtlistener.com/docket/73154006/58/erie-kash-out-properties-llc/",
      "description": "Declaration Under Penalty of Perjury for Non-individual Debtors"
     }
    ]

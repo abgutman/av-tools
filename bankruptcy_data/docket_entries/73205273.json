@@ -1,20 +1,15 @@
 {
  "docket_id": 73205273,
- "last_fetched": "2026-06-03T14:31:29-04:00",
- "last_entry_number": 396,
- "total_entries": 436,
+ "last_fetched": "2026-06-03T15:27:25-04:00",
+ "last_entry_number": 397,
+ "total_entries": 437,
  "classified_entries": [
   {
    "entry_number": 0,
    "date_filed": "2026-04-16",
    "description": "Receipt of Voluntary Petition (Chapter 11)( 26-90447) [misc,volp11] (1738.00) Filing Fee. Receipt number A27103304. Fee amount $1738.00. (U.S. Treasury)",
    "category": "petition",
-   "recap_documents": [
-    {
-     "url": "https://www.courtlistener.com/docket-entry/461251292/recapdocument/476337881/",
-     "description": ""
-    }
-   ]
+   "recap_documents": []
   },
   {
    "entry_number": 1,
@@ -23,7 +18,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.1.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/1/qvc-group-inc/",
      "description": "Voluntary Petition (Chapter 11) [system event"
     }
    ]
@@ -35,7 +30,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461083661/recapdocument/476166299/",
+     "url": "https://www.courtlistener.com/docket/73205273/4/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -47,7 +42,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461083661/recapdocument/476166299/",
+     "url": "https://www.courtlistener.com/docket/73205273/4/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -59,7 +54,7 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461083661/recapdocument/476166299/",
+     "url": "https://www.courtlistener.com/docket/73205273/4/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -71,7 +66,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461083953/recapdocument/476166591/",
+     "url": "https://www.courtlistener.com/docket/73205273/5/qvc-group-inc/",
      "description": "Emergency Motion"
     }
    ]
@@ -83,7 +78,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461083971/recapdocument/476166609/",
+     "url": "https://www.courtlistener.com/docket/73205273/8/qvc-group-inc/",
      "description": "Emergency Motion"
     }
    ]
@@ -95,7 +90,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461084204/recapdocument/476166846/",
+     "url": "https://www.courtlistener.com/docket/73205273/10/qvc-group-inc/",
      "description": "Emergency Motion"
     }
    ]
@@ -107,7 +102,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461084387/recapdocument/476167033/",
+     "url": "https://www.courtlistener.com/docket/73205273/11/qvc-group-inc/",
      "description": "Emergency Motion"
     }
    ]
@@ -119,7 +114,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461084383/recapdocument/476167029/",
+     "url": "https://www.courtlistener.com/docket/73205273/12/qvc-group-inc/",
      "description": "Emergency Motion"
     }
    ]
@@ -131,7 +126,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461084637/recapdocument/476167328/",
+     "url": "https://www.courtlistener.com/docket/73205273/14/qvc-group-inc/",
      "description": "Disclosure Statement"
     }
    ]
@@ -143,7 +138,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.15.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/15/qvc-group-inc/",
      "description": "Chapter 11 Plan"
     }
    ]
@@ -155,7 +150,7 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.16.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/16/qvc-group-inc/",
      "description": "Notice"
     }
    ]
@@ -167,7 +162,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461097038/recapdocument/476180042/",
+     "url": "https://www.courtlistener.com/docket/73205273/21/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -179,7 +174,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461129664/recapdocument/476213401/",
+     "url": "https://www.courtlistener.com/docket/73205273/41/qvc-group-inc/",
      "description": "Emergency Motion"
     }
    ]
@@ -191,7 +186,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461129664/recapdocument/476213401/",
+     "url": "https://www.courtlistener.com/docket/73205273/41/qvc-group-inc/",
      "description": "Emergency Motion"
     }
    ]
@@ -203,7 +198,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461135280/recapdocument/476219068/",
+     "url": "https://www.courtlistener.com/docket/73205273/48/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -215,7 +210,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.54.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/54/qvc-group-inc/",
      "description": "Exhibit List AND Witness List"
     }
    ]
@@ -227,7 +222,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.54.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/54/qvc-group-inc/",
      "description": "Exhibit List AND Witness List"
     }
    ]
@@ -239,7 +234,7 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461251297/recapdocument/476337886/",
+     "url": "https://www.courtlistener.com/docket/73205273/59/qvc-group-inc/",
      "description": ""
     }
    ]
@@ -251,7 +246,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461159023/recapdocument/476243540/",
+     "url": "https://www.courtlistener.com/docket/73205273/62/qvc-group-inc/",
      "description": "Setting Hearing"
     }
    ]
@@ -263,7 +258,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461158931/recapdocument/476243448/",
+     "url": "https://www.courtlistener.com/docket/73205273/64/qvc-group-inc/",
      "description": "Emergency"
     }
    ]
@@ -275,7 +270,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461163031/recapdocument/476247608/",
+     "url": "https://www.courtlistener.com/docket/73205273/66/qvc-group-inc/",
      "description": "Emergency"
     }
    ]
@@ -287,7 +282,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461162910/recapdocument/476247487/",
+     "url": "https://www.courtlistener.com/docket/73205273/67/qvc-group-inc/",
      "description": "Emergency"
     }
    ]
@@ -299,7 +294,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.70.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/70/qvc-group-inc/",
      "description": "Setting Hearing"
     }
    ]
@@ -311,7 +306,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.70.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/70/qvc-group-inc/",
      "description": "Setting Hearing"
     }
    ]
@@ -323,7 +318,7 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461170866/recapdocument/476255539/",
+     "url": "https://www.courtlistener.com/docket/73205273/73/qvc-group-inc/",
      "description": "AO435 Transcript Request"
     }
    ]
@@ -335,7 +330,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.78.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/78/qvc-group-inc/",
      "description": "Setting Hearing"
     }
    ]
@@ -347,7 +342,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/",
+     "url": "https://www.courtlistener.com/docket/73205273/80/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -359,7 +354,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/",
+     "url": "https://www.courtlistener.com/docket/73205273/80/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -371,7 +366,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/",
+     "url": "https://www.courtlistener.com/docket/73205273/80/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -383,7 +378,7 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/",
+     "url": "https://www.courtlistener.com/docket/73205273/80/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -395,7 +390,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/",
+     "url": "https://www.courtlistener.com/docket/73205273/80/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -407,7 +402,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461204612/recapdocument/476290044/",
+     "url": "https://www.courtlistener.com/docket/73205273/80/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -419,7 +414,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/461808588/recapdocument/476908571/",
+     "url": "https://www.courtlistener.com/docket/73205273/127/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -431,7 +426,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462361778/recapdocument/477474556/",
+     "url": "https://www.courtlistener.com/docket/73205273/145/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -443,7 +438,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462361752/recapdocument/477474530/",
+     "url": "https://www.courtlistener.com/docket/73205273/146/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -455,7 +450,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462381215/recapdocument/477494525/",
+     "url": "https://www.courtlistener.com/docket/73205273/147/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -467,7 +462,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462384213/recapdocument/477497550/",
+     "url": "https://www.courtlistener.com/docket/73205273/148/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -479,7 +474,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462393795/recapdocument/477507290/",
+     "url": "https://www.courtlistener.com/docket/73205273/149/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -491,7 +486,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462410787/recapdocument/477524848/",
+     "url": "https://www.courtlistener.com/docket/73205273/150/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -503,7 +498,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462558654/recapdocument/477676366/",
+     "url": "https://www.courtlistener.com/docket/73205273/159/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -515,7 +510,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462558654/recapdocument/477676366/",
+     "url": "https://www.courtlistener.com/docket/73205273/159/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -527,7 +522,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462696229/recapdocument/477816557/",
+     "url": "https://www.courtlistener.com/docket/73205273/174/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -539,7 +534,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462696229/recapdocument/477816557/",
+     "url": "https://www.courtlistener.com/docket/73205273/174/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -551,7 +546,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462708357/recapdocument/477829107/",
+     "url": "https://www.courtlistener.com/docket/73205273/178/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -563,7 +558,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/",
+     "url": "https://www.courtlistener.com/docket/73205273/195/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -575,7 +570,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/",
+     "url": "https://www.courtlistener.com/docket/73205273/195/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -587,7 +582,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/",
+     "url": "https://www.courtlistener.com/docket/73205273/195/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -599,7 +594,7 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/",
+     "url": "https://www.courtlistener.com/docket/73205273/195/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -611,7 +606,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/",
+     "url": "https://www.courtlistener.com/docket/73205273/195/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -623,7 +618,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/462935638/recapdocument/478062105/",
+     "url": "https://www.courtlistener.com/docket/73205273/195/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -635,11 +630,11 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.196.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/196/qvc-group-inc/",
      "description": "Notice"
     },
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.196.1.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/196/1/qvc-group-inc/",
      "description": "Exhibit E - Valuation Analysis"
     }
    ]
@@ -651,7 +646,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/463439620/recapdocument/478585503/",
+     "url": "https://www.courtlistener.com/docket/73205273/202/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -663,7 +658,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/463497113/recapdocument/478644613/",
+     "url": "https://www.courtlistener.com/docket/73205273/203/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -675,7 +670,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/463497113/recapdocument/478644613/",
+     "url": "https://www.courtlistener.com/docket/73205273/203/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -687,7 +682,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464305408/recapdocument/479474553/",
+     "url": "https://www.courtlistener.com/docket/73205273/259/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -699,7 +694,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464305406/recapdocument/479474551/",
+     "url": "https://www.courtlistener.com/docket/73205273/260/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -711,7 +706,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464305590/recapdocument/479474765/",
+     "url": "https://www.courtlistener.com/docket/73205273/261/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -723,7 +718,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464305586/recapdocument/479474761/",
+     "url": "https://www.courtlistener.com/docket/73205273/262/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -735,7 +730,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464305582/recapdocument/479474757/",
+     "url": "https://www.courtlistener.com/docket/73205273/263/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -747,7 +742,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464306141/recapdocument/479475478/",
+     "url": "https://www.courtlistener.com/docket/73205273/266/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -759,7 +754,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464306139/recapdocument/479475476/",
+     "url": "https://www.courtlistener.com/docket/73205273/267/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -771,7 +766,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464306129/recapdocument/479475466/",
+     "url": "https://www.courtlistener.com/docket/73205273/268/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -783,7 +778,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464306126/recapdocument/479475463/",
+     "url": "https://www.courtlistener.com/docket/73205273/269/qvc-group-inc/",
      "description": "Generic Application"
     }
    ]
@@ -795,7 +790,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464333498/recapdocument/479503782/",
+     "url": "https://www.courtlistener.com/docket/73205273/270/qvc-group-inc/",
      "description": "Certificate of No Objection (Complex 11 ONLY)"
     }
    ]
@@ -807,7 +802,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464364387/recapdocument/479535802/",
+     "url": "https://www.courtlistener.com/docket/73205273/275/qvc-group-inc/",
      "description": "Emergency"
     }
    ]
@@ -819,7 +814,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464419926/recapdocument/479593005/",
+     "url": "https://www.courtlistener.com/docket/73205273/285/qvc-group-inc/",
      "description": "Courtroom Minutes"
     }
    ]
@@ -831,7 +826,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464551315/recapdocument/479728546/",
+     "url": "https://www.courtlistener.com/docket/73205273/288/qvc-group-inc/",
      "description": "Notice"
     }
    ]
@@ -843,7 +838,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464551138/recapdocument/479728369/",
+     "url": "https://www.courtlistener.com/docket/73205273/289/qvc-group-inc/",
      "description": "Amended Chapter 11 Plan"
     }
    ]
@@ -855,7 +850,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464598935/recapdocument/479777667/",
+     "url": "https://www.courtlistener.com/docket/73205273/291/qvc-group-inc/",
      "description": "Objection to Confirmation of Plan"
     }
    ]
@@ -867,7 +862,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464661390/recapdocument/479843812/",
+     "url": "https://www.courtlistener.com/docket/73205273/295/qvc-group-inc/",
      "description": "Objection to Confirmation of Plan"
     }
    ]
@@ -879,7 +874,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464669490/recapdocument/479852049/",
+     "url": "https://www.courtlistener.com/docket/73205273/296/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -891,7 +886,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464669490/recapdocument/479852049/",
+     "url": "https://www.courtlistener.com/docket/73205273/296/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -903,7 +898,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464740239/recapdocument/479925275/",
+     "url": "https://www.courtlistener.com/docket/73205273/299/qvc-group-inc/",
      "description": "Objection to Confirmation of Plan"
     }
    ]
@@ -915,7 +910,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464846410/recapdocument/480034829/",
+     "url": "https://www.courtlistener.com/docket/73205273/305/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -927,7 +922,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/464846410/recapdocument/480034829/",
+     "url": "https://www.courtlistener.com/docket/73205273/305/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -939,7 +934,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465265259/recapdocument/480464830/",
+     "url": "https://www.courtlistener.com/docket/73205273/316/qvc-group-inc/",
      "description": ""
     }
    ]
@@ -951,7 +946,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465125655/recapdocument/480321910/",
+     "url": "https://www.courtlistener.com/docket/73205273/317/qvc-group-inc/",
      "description": "Seal Document Motion or Other Pleading"
     }
    ]
@@ -963,7 +958,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465126417/recapdocument/480322775/",
+     "url": "https://www.courtlistener.com/docket/73205273/318/qvc-group-inc/",
      "description": "Objection to Confirmation of Plan"
     }
    ]
@@ -975,7 +970,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465190275/recapdocument/480387843/",
+     "url": "https://www.courtlistener.com/docket/73205273/321/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -987,7 +982,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465259015/recapdocument/480458470/",
+     "url": "https://www.courtlistener.com/docket/73205273/322/qvc-group-inc/",
      "description": "Response/Objection"
     }
    ]
@@ -999,7 +994,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465344844/recapdocument/480546725/",
+     "url": "https://www.courtlistener.com/docket/73205273/326/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1011,7 +1006,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465344844/recapdocument/480546725/",
+     "url": "https://www.courtlistener.com/docket/73205273/326/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1023,7 +1018,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://archive.org/download/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.327.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/327/qvc-group-inc/",
      "description": "Setting Hearing (FORM)"
     }
    ]
@@ -1035,7 +1030,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465380214/recapdocument/480583001/",
+     "url": "https://www.courtlistener.com/docket/73205273/328/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1047,7 +1042,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465454941/recapdocument/480659662/",
+     "url": "https://www.courtlistener.com/docket/73205273/332/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1059,7 +1054,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465454941/recapdocument/480659662/",
+     "url": "https://www.courtlistener.com/docket/73205273/332/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1071,7 +1066,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465461075/recapdocument/480665993/",
+     "url": "https://www.courtlistener.com/docket/73205273/333/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1083,7 +1078,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465552077/recapdocument/480759076/",
+     "url": "https://www.courtlistener.com/docket/73205273/336/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1095,7 +1090,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465552077/recapdocument/480759076/",
+     "url": "https://www.courtlistener.com/docket/73205273/336/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1107,7 +1102,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465620606/recapdocument/480829200/",
+     "url": "https://www.courtlistener.com/docket/73205273/338/qvc-group-inc/",
      "description": "Objection to Confirmation of Plan"
     }
    ]
@@ -1119,7 +1114,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465789082/recapdocument/481002280/",
+     "url": "https://www.courtlistener.com/docket/73205273/342/qvc-group-inc/",
      "description": "Notice"
     }
    ]
@@ -1131,7 +1126,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466001077/recapdocument/481220792/",
+     "url": "https://www.courtlistener.com/docket/73205273/344/qvc-group-inc/",
      "description": ""
     }
    ]
@@ -1143,7 +1138,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465945720/recapdocument/481163664/",
+     "url": "https://www.courtlistener.com/docket/73205273/355/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1155,7 +1150,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954335/recapdocument/481172733/",
+     "url": "https://www.courtlistener.com/docket/73205273/359/qvc-group-inc/",
      "description": "Notice"
     }
    ]
@@ -1167,7 +1162,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954325/recapdocument/481172723/",
+     "url": "https://www.courtlistener.com/docket/73205273/360/qvc-group-inc/",
      "description": "Notice"
     }
    ]
@@ -1179,7 +1174,7 @@
    "category": "affidavit",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954278/recapdocument/481172676/",
+     "url": "https://www.courtlistener.com/docket/73205273/361/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1191,7 +1186,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954278/recapdocument/481172676/",
+     "url": "https://www.courtlistener.com/docket/73205273/361/qvc-group-inc/",
      "description": "Affidavit"
     }
    ]
@@ -1203,7 +1198,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954738/recapdocument/481173176/",
+     "url": "https://www.courtlistener.com/docket/73205273/363/qvc-group-inc/",
      "description": "Reply"
     }
    ]
@@ -1215,7 +1210,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954735/recapdocument/481173173/",
+     "url": "https://www.courtlistener.com/docket/73205273/364/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -1227,7 +1222,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954735/recapdocument/481173173/",
+     "url": "https://www.courtlistener.com/docket/73205273/364/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -1239,7 +1234,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465954729/recapdocument/481173171/",
+     "url": "https://www.courtlistener.com/docket/73205273/365/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -1251,7 +1246,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465999295/recapdocument/481218932/",
+     "url": "https://www.courtlistener.com/docket/73205273/367/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -1263,7 +1258,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465999075/recapdocument/481218712/",
+     "url": "https://www.courtlistener.com/docket/73205273/368/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -1275,7 +1270,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466017873/recapdocument/481237936/",
+     "url": "https://www.courtlistener.com/docket/73205273/372/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -1287,7 +1282,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466035341/recapdocument/481257216/",
+     "url": "https://www.courtlistener.com/docket/73205273/374/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -1299,7 +1294,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466049169/recapdocument/481271332/",
+     "url": "https://www.courtlistener.com/docket/73205273/377/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -1311,7 +1306,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466049169/recapdocument/481271332/",
+     "url": "https://www.courtlistener.com/docket/73205273/377/qvc-group-inc/",
      "description": "Declaration"
     }
    ]
@@ -1323,7 +1318,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466057343/recapdocument/481279800/",
+     "url": "https://www.courtlistener.com/docket/73205273/378/qvc-group-inc/",
      "description": "Notice"
     }
    ]
@@ -1335,11 +1330,11 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "recap/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.379.0.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/379/qvc-group-inc/",
      "description": "Exhibit List AND Witness List"
     },
     {
-     "url": "recap/gov.uscourts.txsb.494450/gov.uscourts.txsb.494450.379.1_1.pdf",
+     "url": "https://www.courtlistener.com/docket/73205273/379/1/qvc-group-inc/",
      "description": "Exhibit 1"
     }
    ]
@@ -1351,7 +1346,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466058407/recapdocument/481280883/",
+     "url": "https://www.courtlistener.com/docket/73205273/380/qvc-group-inc/",
      "description": ""
     }
    ]
@@ -1363,7 +1358,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466079060/recapdocument/481302215/",
+     "url": "https://www.courtlistener.com/docket/73205273/389/qvc-group-inc/",
      "description": "Amended Chapter 11 Plan"
     }
    ]
@@ -1375,7 +1370,7 @@
    "category": "confirmation",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466084190/recapdocument/481307518/",
+     "url": "https://www.courtlistener.com/docket/73205273/390/qvc-group-inc/",
      "description": "Seal Document Motion or Other Pleading"
     }
    ]
@@ -1387,7 +1382,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466088208/recapdocument/481311606/",
+     "url": "https://www.courtlistener.com/docket/73205273/392/qvc-group-inc/",
      "description": "Statement"
     }
    ]
@@ -1399,7 +1394,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/466095693/recapdocument/481320230/",
+     "url": "https://www.courtlistener.com/docket/73205273/393/qvc-group-inc/",
      "description": "Notice"
     }
    ]

@@ -90,9 +90,15 @@ def classify(description):
 def extract_recap_docs(entry):
     docs = []
     for rd in entry.get("recap_documents", []):
-        url = rd.get("filepath_ia") or rd.get("filepath_local") or ""
-        if not url and rd.get("id"):
-            url = f"https://www.courtlistener.com/docket-entry/{entry.get('id')}/recapdocument/{rd['id']}/"
+        abs_url = rd.get("absolute_url", "")
+        if abs_url:
+            url = f"https://www.courtlistener.com{abs_url}"
+        else:
+            url = rd.get("filepath_ia") or ""
+            if not url:
+                local = rd.get("filepath_local", "")
+                if local:
+                    url = f"https://storage.courtlistener.com/{local}"
         if url:
             docs.append({
                 "url": url,

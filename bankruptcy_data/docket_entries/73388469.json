@@ -1,20 +1,15 @@
 {
  "docket_id": 73388469,
- "last_fetched": "2026-06-03T14:33:07-04:00",
+ "last_fetched": "2026-06-03T15:28:38-04:00",
  "last_entry_number": 190,
- "total_entries": 197,
+ "total_entries": 198,
  "classified_entries": [
   {
    "entry_number": 0,
    "date_filed": "2026-05-26",
    "description": "Receipt of Voluntary Petition (Chapter 11)( 26-90545) [misc,volp11] (1738.00) Filing Fee. Receipt number A27220554. Fee amount $1738.00. (U.S. Treasury)",
    "category": "petition",
-   "recap_documents": [
-    {
-     "url": "https://www.courtlistener.com/docket-entry/465256439/recapdocument/480455855/",
-     "description": ""
-    }
-   ]
+   "recap_documents": []
   },
   {
    "entry_number": 1,
@@ -23,7 +18,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465126623/recapdocument/480322991/",
+     "url": "https://www.courtlistener.com/docket/73388469/1/trinseo-plc/",
      "description": "Voluntary Petition (Chapter 11) [system event"
     }
    ]
@@ -35,7 +30,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465127227/recapdocument/480323656/",
+     "url": "https://www.courtlistener.com/docket/73388469/5/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -47,7 +42,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465127491/recapdocument/480323933/",
+     "url": "https://www.courtlistener.com/docket/73388469/7/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -59,7 +54,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465127437/recapdocument/480323879/",
+     "url": "https://www.courtlistener.com/docket/73388469/8/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -71,7 +66,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465127607/recapdocument/480324052/",
+     "url": "https://www.courtlistener.com/docket/73388469/9/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -83,7 +78,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128573/recapdocument/480325153/",
+     "url": "https://www.courtlistener.com/docket/73388469/16/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -95,7 +90,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128573/recapdocument/480325153/",
+     "url": "https://www.courtlistener.com/docket/73388469/16/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -107,7 +102,7 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128573/recapdocument/480325153/",
+     "url": "https://www.courtlistener.com/docket/73388469/16/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -119,7 +114,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128566/recapdocument/480325147/",
+     "url": "https://www.courtlistener.com/docket/73388469/18/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -131,7 +126,7 @@
    "category": "dip_financing",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128566/recapdocument/480325147/",
+     "url": "https://www.courtlistener.com/docket/73388469/18/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -143,7 +138,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128721/recapdocument/480325303/",
+     "url": "https://www.courtlistener.com/docket/73388469/19/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -155,7 +150,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128721/recapdocument/480325303/",
+     "url": "https://www.courtlistener.com/docket/73388469/19/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -167,7 +162,7 @@
    "category": "dip_financing",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128721/recapdocument/480325303/",
+     "url": "https://www.courtlistener.com/docket/73388469/19/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -179,7 +174,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128719/recapdocument/480325301/",
+     "url": "https://www.courtlistener.com/docket/73388469/20/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -191,7 +186,7 @@
    "category": "declaration",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128719/recapdocument/480325301/",
+     "url": "https://www.courtlistener.com/docket/73388469/20/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -203,7 +198,7 @@
    "category": "dip_financing",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465128719/recapdocument/480325301/",
+     "url": "https://www.courtlistener.com/docket/73388469/20/trinseo-plc/",
      "description": "Declaration"
     }
    ]
@@ -215,7 +210,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465129140/recapdocument/480325777/",
+     "url": "https://www.courtlistener.com/docket/73388469/29/trinseo-plc/",
      "description": "Chapter 11 Plan"
     }
    ]
@@ -227,7 +222,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465129138/recapdocument/480325775/",
+     "url": "https://www.courtlistener.com/docket/73388469/30/trinseo-plc/",
      "description": "Disclosure Statement"
     }
    ]
@@ -239,7 +234,7 @@
    "category": "plan",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465129136/recapdocument/480325773/",
+     "url": "https://www.courtlistener.com/docket/73388469/31/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -251,7 +246,7 @@
    "category": "341_meeting",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465129136/recapdocument/480325773/",
+     "url": "https://www.courtlistener.com/docket/73388469/31/trinseo-plc/",
      "description": "Emergency Motion (Hearing Date Obtained Prior to Filing)"
     }
    ]
@@ -263,7 +258,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465234333/recapdocument/480433406/",
+     "url": "https://www.courtlistener.com/docket/73388469/47/trinseo-plc/",
      "description": "Notice of Appearance and Request for Notice"
     }
    ]
@@ -275,7 +270,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465234247/recapdocument/480433321/",
+     "url": "https://www.courtlistener.com/docket/73388469/48/trinseo-plc/",
      "description": "Appear pro hac vice"
     }
    ]
@@ -287,7 +282,7 @@
    "category": "petition",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465234100/recapdocument/480433174/",
+     "url": "https://www.courtlistener.com/docket/73388469/49/trinseo-plc/",
      "description": "Appear pro hac vice"
     }
    ]
@@ -299,7 +294,475 @@
    "category": "first_day",
    "recap_documents": [
     {
-     "url": "https://www.courtlistener.com/docket-entry/465249883/recapdocument/480449240/",
+     "url": "https://www.courtlistener.com/docket/73388469/59/trinseo-plc/",
+     "description": "Notice"
+    }
+   ]
+  },
+  {
+   "entry_number": 76,
+   "date_filed": "2026-05-26",
+   "description": "Response/Objection Filed by Ad Hoc Group of Excluded OpCo Term Lenders. (Related document(s):30 Disclosure Statement) (Brookner, Jason) (Entered: 05/26/2026)",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/76/trinseo-plc/",
+     "description": "Response/Objection"
+    }
+   ]
+  },
+  {
+   "entry_number": 78,
+   "date_filed": "2026-05-26",
+   "description": "Notice of Filing of Prepetition Credit Documents. Filed by Trinseo PLC (Attachments: # 1 Exhibit 1 # 2 Exhibit 2 # 3 Exhibit 3 # 4 Exhibit 4 # 5 Exhibit 5 # 6 Exhibit 6 # 7 Exhibit 7) (Davidson, Timot",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/78/trinseo-plc/",
+     "description": "Notice"
+    }
+   ]
+  },
+  {
+   "entry_number": 79,
+   "date_filed": "2026-05-26",
+   "description": "Objection Excluded OpCo Term Lenders' Reservation of Rights with Respect to Debtors' Motion to Approve Debtor in Possession Financing (related document(s):18 Emergency Motion (with hearing date)). Fil",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/79/trinseo-plc/",
+     "description": "Objection"
+    }
+   ]
+  },
+  {
+   "entry_number": 109,
+   "date_filed": "2026-05-27",
+   "description": "Exhibit List, Witness List (Filed By Ad Hoc Group of Excluded OpCo Term Lenders ).(Related document(s):18 Emergency Motion (with hearing date), 30 Disclosure Statement) (Attachments: # 1 Exhibit 1 - P",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/109/trinseo-plc/",
+     "description": "Exhibit List AND Witness List"
+    }
+   ]
+  },
+  {
+   "entry_number": 124,
+   "date_filed": "2026-05-27",
+   "description": "Affidavit Re: of Herb Baer Regarding Notice of Designation as Complex Bankruptcy Case, Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructur",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/124/trinseo-plc/",
+     "description": "Affidavit"
+    }
+   ]
+  },
+  {
+   "entry_number": 124,
+   "date_filed": "2026-05-27",
+   "description": "Affidavit Re: of Herb Baer Regarding Notice of Designation as Complex Bankruptcy Case, Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructur",
+   "category": "declaration",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/124/trinseo-plc/",
+     "description": "Affidavit"
+    }
+   ]
+  },
+  {
+   "entry_number": 124,
+   "date_filed": "2026-05-27",
+   "description": "Affidavit Re: of Herb Baer Regarding Notice of Designation as Complex Bankruptcy Case, Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructur",
+   "category": "affidavit",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/124/trinseo-plc/",
+     "description": "Affidavit"
+    }
+   ]
+  },
+  {
+   "entry_number": 124,
+   "date_filed": "2026-05-27",
+   "description": "Affidavit Re: of Herb Baer Regarding Notice of Designation as Complex Bankruptcy Case, Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructur",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/124/trinseo-plc/",
+     "description": "Affidavit"
+    }
+   ]
+  },
+  {
+   "entry_number": 124,
+   "date_filed": "2026-05-27",
+   "description": "Affidavit Re: of Herb Baer Regarding Notice of Designation as Complex Bankruptcy Case, Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructur",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/124/trinseo-plc/",
+     "description": "Affidavit"
+    }
+   ]
+  },
+  {
+   "entry_number": 124,
+   "date_filed": "2026-05-27",
+   "description": "Affidavit Re: of Herb Baer Regarding Notice of Designation as Complex Bankruptcy Case, Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructur",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/124/trinseo-plc/",
+     "description": "Affidavit"
+    }
+   ]
+  },
+  {
+   "entry_number": 124,
+   "date_filed": "2026-05-27",
+   "description": "Affidavit Re: of Herb Baer Regarding Notice of Designation as Complex Bankruptcy Case, Emergency Ex Parte Application for Entry of an Order Authorizing the Employment and Retention of Kroll Restructur",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/124/trinseo-plc/",
+     "description": "Affidavit"
+    }
+   ]
+  },
+  {
+   "entry_number": 127,
+   "date_filed": "2026-05-27",
+   "description": "Notice of Filing of First Day Presentations. Filed by Trinseo PLC (Attachments: # 1 Exhibit A # 2 Exhibit B # 3 Exhibit C) (Davidson, Timothy) (Entered: 05/27/2026)",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/127/trinseo-plc/",
+     "description": "Notice"
+    }
+   ]
+  },
+  {
+   "entry_number": 128,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: nterim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superpr",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/128/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 128,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: nterim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superpr",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/128/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 130,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superp",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/130/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 130,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superp",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/130/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 131,
+   "date_filed": "2026-05-27",
+   "description": "Statement - The 2L 2029 Noteholder Group's Statement and Reservation of Rights with Respect to the Debtors' Requested First Day Relief (Filed By Ad Hoc Group of Certain Holders of 7.625% Second Lien S",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/131/trinseo-plc/",
+     "description": "Statement"
+    }
+   ]
+  },
+  {
+   "entry_number": 135,
+   "date_filed": "2026-05-27",
+   "description": "Order (A) Authorizing the Debtors to Pay Prepetition Trade Claims in the Ordinary Course of Business and (B) Granting Related Relief (Related Doc # 9). Signed on 5/27/2026. (rgs4) (Entered: 05/27/2026",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/135/trinseo-plc/",
+     "description": "Emergency (Hearing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 141,
+   "date_filed": "2026-05-27",
+   "description": "Order (A) Authorizing Debtors to (I) Pay Prepetition Wages, Salaries, Employee Benefits, and Other Compensation, and (II) Maintain Employee Benefits Programs and Pay Related Obligations; and (B) Grant",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/141/trinseo-plc/",
+     "description": "Emergency (Hearing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 142,
+   "date_filed": "2026-05-27",
+   "description": "Order (A) Authorizing Debtors to (I) Honor Their Prepetition Obligations to Customers and (II) Continue Their Customer Programs; and (B) Granting Related Relief (Related Doc # 5). Signed on 5/27/2026.",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/142/trinseo-plc/",
+     "description": "Emergency (Hearing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 145,
+   "date_filed": "2026-05-27",
+   "description": "Order Authorizing Debtors to Pay Certain Prepetition Taxes and Fees, and Granting Related Relief (Related Doc # 8). Signed on 5/27/2026. (rgs4) (Entered: 05/27/2026)",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/145/trinseo-plc/",
+     "description": "Emergency (Hearing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 146,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superp",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/146/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 146,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superp",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/146/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 148,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superp",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/148/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 148,
+   "date_filed": "2026-05-27",
+   "description": "Proposed Order RE: Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superp",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/148/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 151,
+   "date_filed": "2026-05-27",
+   "description": "Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing, and (II) Use Cash Collateral; (B) Granting Liens and Providing Superpriority Administra",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/151/trinseo-plc/",
+     "description": "Generic Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 151,
+   "date_filed": "2026-05-27",
+   "description": "Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing, and (II) Use Cash Collateral; (B) Granting Liens and Providing Superpriority Administra",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/151/trinseo-plc/",
+     "description": "Generic Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 152,
+   "date_filed": "2026-05-27",
+   "description": "Courtroom Minutes. Time Hearing Held: 1:00 PM. Appearances: PLEASE SEE ATTACHED. ERO\\Courtroom Deputy: Y. Lila. (Related document(s):5,6,7,8,9,11,12,13,14,15) Witness: Alan Boyko. Exhibits Admitted. H",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/152/trinseo-plc/",
+     "description": "Courtroom Minutes"
+    }
+   ]
+  },
+  {
+   "entry_number": 153,
+   "date_filed": "2026-05-27",
+   "description": "Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superpriority Administrat",
+   "category": "petition",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/153/trinseo-plc/",
+     "description": "Generic Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 153,
+   "date_filed": "2026-05-27",
+   "description": "Interim Order (A) Authorizing Debtors to (I) Obtain Senior Secured Superpriority Priming Postpetition Financing and (II) Use Cash Collateral; (B) Granting Liens and Providing Superpriority Administrat",
+   "category": "dip_financing",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/153/trinseo-plc/",
+     "description": "Generic Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 155,
+   "date_filed": "2026-05-27",
+   "description": "AO 435 TRANSCRIPT ORDER FORM (Daily (24 hours)) by Tom A. Howley. This is to order a transcript of 5/27/2026 First Day Hearing before Judge Christopher Lopez. Court Reporter/Transcriber: Veritext Lega",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/155/trinseo-plc/",
+     "description": "AO435 Transcript Request"
+    }
+   ]
+  },
+  {
+   "entry_number": 157,
+   "date_filed": "2026-05-28",
+   "description": "AO 435 TRANSCRIPT ORDER FORM (Daily (24 hours)) by McDermott Will & Schulte LLP as counsel for the Independent Directors. This is to order a transcript of the First Day Hearing held on May 27, 2026 be",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/157/trinseo-plc/",
+     "description": "AO435 Transcript Request"
+    }
+   ]
+  },
+  {
+   "entry_number": 162,
+   "date_filed": "2026-05-28",
+   "description": "Proposed Order RE: Order (I) Scheduling Combined Hearing on (A) Adequacy of Disclosure Statement and (B) Confirmation of Plan; (II) Approving Solicitation Procedures and Notices of Non-Voting Status a",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/162/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 162,
+   "date_filed": "2026-05-28",
+   "description": "Proposed Order RE: Order (I) Scheduling Combined Hearing on (A) Adequacy of Disclosure Statement and (B) Confirmation of Plan; (II) Approving Solicitation Procedures and Notices of Non-Voting Status a",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/162/trinseo-plc/",
+     "description": "Proposed Order"
+    }
+   ]
+  },
+  {
+   "entry_number": 166,
+   "date_filed": "2026-05-28",
+   "description": "AO 435 TRANSCRIPT ORDER FORM (Daily (24 hours)) by Ad Hoc Group of Excluded OpCo Term Lenders / Jason S. Brookner. This is to order a transcript of the First Day Hearing held on May 27, 2026 before Ju",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/166/trinseo-plc/",
+     "description": "AO435 Transcript Request"
+    }
+   ]
+  },
+  {
+   "entry_number": 168,
+   "date_filed": "2026-05-28",
+   "description": "AO 435 TRANSCRIPT ORDER FORM (Daily (24 hours)) by Trinseo PLC. This is to order a transcript of the First Day Hearing held on May 27, 2026 before Judge Christopher Lopez. Court Reporter/Transcriber: ",
+   "category": "first_day",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/168/trinseo-plc/",
+     "description": "AO435 Transcript Request"
+    }
+   ]
+  },
+  {
+   "entry_number": 178,
+   "date_filed": "2026-05-29",
+   "description": "Order (I) Scheduling Combined Hearing on (A) Adequacy of Disclosure Statement and (B) Confirmation of Plan; (II) Approving Solicitation Procedures and Notices of Non-Voting Status and Release Forms; (",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/178/trinseo-plc/",
+     "description": "Emergency (Hearing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 178,
+   "date_filed": "2026-05-29",
+   "description": "Order (I) Scheduling Combined Hearing on (A) Adequacy of Disclosure Statement and (B) Confirmation of Plan; (II) Approving Solicitation Procedures and Notices of Non-Voting Status and Release Forms; (",
+   "category": "341_meeting",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/178/trinseo-plc/",
+     "description": "Emergency (Hearing)"
+    }
+   ]
+  },
+  {
+   "entry_number": 180,
+   "date_filed": "2026-05-29",
+   "description": "Notice of (I) Commencement of Chapter 11 Cases, (II) Combined Hearing on Disclosure Statement, Joint Chapter 11 Plan of Reorganization for Trinseo PLC and Its Debtor Affiliates, and Related Matters, (",
+   "category": "plan",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73388469/180/trinseo-plc/",
      "description": "Notice"
     }
    ]
