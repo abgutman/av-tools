@@ -96,7 +96,7 @@ def build():
 <div style="position:fixed;right:0;top:50%;transform:translateY(-50%);background:#c0392b;color:white;padding:12px 8px;font-size:11px;font-weight:700;letter-spacing:1px;writing-mode:vertical-rl;text-orientation:mixed;z-index:9999;border-radius:4px 0 0 4px;box-shadow:-2px 0 8px rgba(0,0,0,0.2);">AI-BUILT DASHBOARD &mdash; NEVER CITE DIRECTLY &mdash; ALWAYS CHECK THE DOCKET</div>
 
 <div class="header">
-  <img src="https://media.giphy.com/media/8nM6YNtvjuezzD7DNh/giphy.gif" style="height:80px;border-radius:8px;margin-bottom:12px;">
+  <h1>Bankruptcy Tracker <img src="https://media.giphy.com/media/8nM6YNtvjuezzD7DNh/giphy.gif" style="height:36px;border-radius:6px;vertical-align:middle;margin-left:8px;"></h1>
   <p>Chapter 11 filings from the Philadelphia region &middot; All federal courts &middot; Updated {updated}</p>
 </div>
 
