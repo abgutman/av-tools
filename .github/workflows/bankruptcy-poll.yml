@@ -11,6 +11,14 @@ on:
         options:
           - poll
           - backfill
+      start_date:
+        description: 'Backfill start date (YYYY-MM-DD), default 2026-04-01'
+        required: false
+        default: '2026-04-01'
+      end_date:
+        description: 'Backfill end date (YYYY-MM-DD), default today'
+        required: false
+        default: ''
   schedule:
     - cron: '0 14 * * 1-5'   # 10:00 AM ET (weekdays)
 
@@ -41,7 +49,11 @@ jobs:
           if [ "$MODE" = "poll" ]; then
             python poll_bankruptcies.py poll --live
           else
-            python poll_bankruptcies.py backfill
+            START="${{ github.event.inputs.start_date || '2026-04-01' }}"
+            END="${{ github.event.inputs.end_date }}"
+            CMD="python poll_bankruptcies.py backfill --start=$START"
+            [ -n "$END" ] && CMD="$CMD --end=$END"
+            $CMD
           fi
           python build_bankruptcy_dashboard.py
 

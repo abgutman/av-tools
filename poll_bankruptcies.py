@@ -238,11 +238,14 @@ def main():
 
     if mode == "backfill":
         start = "2026-04-01"
+        end = None
         for a in args:
             if a.startswith("--start="):
                 start = a.split("=", 1)[1]
-        log(f"=== Backfill start (from {start}, live={live}) ===")
-        hits = scan_dockets(filed_after=start, live=live)
+            elif a.startswith("--end="):
+                end = a.split("=", 1)[1]
+        log(f"=== Backfill start (from {start} to {end or 'today'}, live={live}) ===")
+        hits = scan_dockets(filed_after=start, filed_before=end, live=live)
         state["backfill_done"] = True
         state["backfill_through"] = datetime.now(ET).strftime("%Y-%m-%d")
         save_state(state)
