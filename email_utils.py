@@ -56,7 +56,8 @@ def _html_email(header_bg, tag, title, company, blurb, rows, cta_url, cta_label,
     <div style="margin:28px 0 22px;">
       <a href="{cta_url}" style="display:inline-block;background:{header_bg};color:white;padding:13px 26px;border-radius:7px;text-decoration:none;font-weight:700;font-size:14px;">{cta_label}</a>
     </div>
-    <p style="margin:0;font-size:13px;color:#868e96;">Also on the <a href="{dashboard_url}" style="color:{header_bg};font-weight:500;text-decoration:none;">Earnings Dashboard ↗</a></p>
+    <p style="margin:0 0 10px;font-size:13px;color:#868e96;">Also on the <a href="{dashboard_url}" style="color:{header_bg};font-weight:500;text-decoration:none;">Earnings Dashboard ↗</a></p>
+    <p style="margin:0;font-size:13px;color:#868e96;">If you have any questions, comments, or concerns, reach out to Av.</p>
   </div>
 
   <div style="background:#f8f9fa;padding:16px 32px;border-top:1px solid #e9ecef;border-radius:0 0 10px 10px;">
@@ -97,7 +98,7 @@ def body_new_report_edgar(name, ticker, filing_date, url, accepted_at=None, dete
         blurb=(
             "This alert was generated automatically by <strong>Claude (Anthropic AI)</strong>, "
             "which monitors SEC EDGAR for 8-K filings from public companies headquartered in the "
-            "Philadelphia region. An <strong>8-K item&nbsp;2.02</strong> is the formal SEC submission "
+            "Philadelphia region at Av's request. An <strong>8-K item&nbsp;2.02</strong> is the formal SEC submission "
             "of a quarterly earnings press release &mdash; typically filed within minutes of the wire release."
         ),
         rows=rows,
@@ -120,8 +121,8 @@ def body_new_report_wire(name, ticker, published_unix, publisher, headline, url)
         company=f"{name} ({ticker})",
         blurb=(
             "This alert was generated automatically by <strong>Claude (Anthropic AI)</strong>, "
-            "monitoring Yahoo Finance for wire press releases from Philadelphia-region public companies. "
-            "This item matched our wire-publisher and earnings-keyword filters &mdash; it may be the "
+            "monitoring Yahoo Finance for wire press releases from Philadelphia-region public companies "
+            "at Av's request. This item matched our wire-publisher and earnings-keyword filters &mdash; it may be the "
             "actual results release, a save-the-date announcement, or a related filing. "
             "<strong>Read the headline to determine which.</strong>"
         ),
@@ -150,8 +151,8 @@ def body_save_the_date(name, ticker, release_date, call_date, call_time, source_
         blurb=(
             "This alert was generated automatically by <strong>Claude (Anthropic AI)</strong>, "
             "which scans wire press releases from Philadelphia-region public companies for earnings "
-            "date announcements. The dates below were extracted from a press release published on "
-            "the wire services."
+            "date announcements at Av's request. The dates below were extracted from a press release "
+            "published on the wire services."
         ),
         rows=rows,
         cta_url=source_url,
