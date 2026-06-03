@@ -38,7 +38,11 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
           MODE="${{ github.event.inputs.mode || 'poll' }}"
-          python poll_bankruptcies.py "$MODE" --live
+          if [ "$MODE" = "poll" ]; then
+            python poll_bankruptcies.py poll --live
+          else
+            python poll_bankruptcies.py backfill
+          fi
           python build_bankruptcy_dashboard.py
 
       - name: Commit + push if anything changed
