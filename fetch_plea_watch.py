@@ -28,7 +28,7 @@ import re
 import shutil
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from html import escape, unescape
 
 import PyPDF2
@@ -685,12 +685,15 @@ def scan_for_pleas(db):
                     "pleas": pleas,
                     "pdf_path": f"dockets/{docket}.pdf",
                     "is_brand_new": not previously_had_plea,
+                    "first_seen": info["plea_first_seen"],
                 }
         else:
             info["last_checked"] = today
 
     return new_pleas
 
+
+RECENT_PLEA_DAYS = 14
 
 def build_watch_html(new_pleas, db):
     now = datetime.now().strftime("%B %d, %Y at %I:%M %p")
@@ -702,6 +705,29 @@ def build_watch_html(new_pleas, db):
             pass
 
     watchlist = db["watchlist"]
+
+    cutoff_dt = datetime.now() - timedelta(days=RECENT_PLEA_DAYS)
+    recent_pleas = dict(new_pleas)
+    for docket, info in watchlist.items():
+        if docket in recent_pleas:
+            continue
+        if not info.get("has_plea") or not info.get("plea_details"):
+            continue
+        plea_dates = []
+        for p in info["plea_details"]:
+            try:
+                plea_dates.append(datetime.strptime(p["date"], "%m/%d/%Y"))
+            except (KeyError, ValueError):
+                pass
+        if plea_dates and max(plea_dates) >= cutoff_dt:
+            recent_pleas[docket] = {
+                "caption": info.get("caption", ""),
+                "charges": info.get("charges", []),
+                "pleas": info.get("plea_details", []),
+                "pdf_path": f"dockets/{docket}.pdf",
+                "is_brand_new": False,
+                "first_seen": info.get("plea_first_seen", ""),
+            }
     total_watched = len(watchlist)
     total_with_pleas = sum(1 for v in watchlist.values() if v.get("has_plea"))
     total_open = total_watched - total_with_pleas
@@ -778,7 +804,7 @@ def build_watch_html(new_pleas, db):
 </div>
 
 <div class="stats">
-    <div class="stat"><div class="number">{len(new_pleas)}</div><div class="label">New Pleas This Run</div></div>
+    <div class="stat"><div class="number">{len(recent_pleas)}</div><div class="label">New Pleas (Last {RECENT_PLEA_DAYS} Days)</div></div>
     <div class="stat"><div class="number">{total_with_pleas}</div><div class="label">Total with Pleas</div></div>
     <div class="stat"><div class="number">{total_open}</div><div class="label">Still Open</div></div>
     <div class="stat"><div class="number">{total_watched}</div><div class="label">Cases Watched</div></div>
@@ -793,7 +819,7 @@ def build_watch_html(new_pleas, db):
 </div>
 
 <div class="tab-bar">
-    <button class="tab active" onclick="switchTab('new')">New Pleas<span class="tab-count">{len(new_pleas)}</span></button>
+    <button class="tab active" onclick="switchTab('new')">New Pleas<span class="tab-count">{len(recent_pleas)}</span></button>
     <button class="tab" onclick="switchTab('watchlist')">Full Watchlist<span class="tab-count">{total_watched}</span></button>
     <button class="tab" onclick="switchTab('add')">+ Add Case</button>
 </div>
@@ -807,15 +833,15 @@ def build_watch_html(new_pleas, db):
 <div class="content">
 """
 
-    if new_pleas:
+    if recent_pleas:
         html += """<table>
 <thead><tr>
     <th></th><th>Docket</th><th>Defendant</th><th>Charges</th><th>Plea Details</th>
 </tr></thead>
 <tbody>
 """
-        for docket in sorted(new_pleas.keys()):
-            info = new_pleas[docket]
+        for docket in sorted(recent_pleas.keys(), key=lambda d: recent_pleas[d].get("first_seen", "") or "9999", reverse=True):
+            info = recent_pleas[docket]
             pdf_path = info.get("pdf_path", "")
             docket_cell = f'<a href="{escape(pdf_path)}" target="_blank">{escape(docket)}</a>' if pdf_path else escape(docket)
 
@@ -841,8 +867,16 @@ def build_watch_html(new_pleas, db):
                     plea_html += f' <span style="font-size:12px;color:#666;">({pl["date"]})</span>'
                 plea_html += "</div>"
 
+            first_seen = info.get("first_seen", "") or watchlist.get(docket, {}).get("plea_first_seen", "")
+            if docket in new_pleas:
+                badge = '<span class="new-badge">NEW</span>'
+            elif first_seen:
+                badge = f'<span class="new-badge" style="background:#e8590c;">Found {first_seen}</span>'
+            else:
+                badge = '<span class="new-badge">RECENT</span>'
+
             html += f"""<tr>
-    <td><span class="new-badge">NEW</span></td>
+    <td>{badge}</td>
     <td>{docket_cell}</td>
     <td>{escape(info.get('caption', ''))}</td>
     <td>{charges_html}</td>
@@ -851,7 +885,7 @@ def build_watch_html(new_pleas, db):
 """
         html += "</tbody></table>\n"
     else:
-        html += '<div class="no-events">No new guilty pleas detected since the last check.</div>\n'
+        html += f'<div class="no-events">No new guilty pleas in the last {RECENT_PLEA_DAYS} days.</div>\n'
 
     html += """</div>
 </div>
