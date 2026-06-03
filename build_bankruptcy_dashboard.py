@@ -4,6 +4,8 @@ import json, html as html_mod
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from auth_gate import inject_auth
 
 ET = timezone(timedelta(hours=-4))
@@ -92,7 +94,7 @@ def build():
 <body>
 
 <div class="header">
-  <h1>Bankruptcy Tracker</h1>
+  <img src="https://media.giphy.com/media/8nM6YNtvjuezzD7DNh/giphy.gif" style="height:80px;border-radius:8px;margin-bottom:12px;">
   <p>Chapter 11 filings from the Philadelphia region &middot; All federal courts &middot; Updated {updated}</p>
 </div>
 
