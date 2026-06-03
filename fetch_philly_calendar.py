@@ -619,7 +619,7 @@ def build_index_html():
 </div>
 
 <div class="footer">
-    The Philadelphia Inquirer
+    Av's Tools
 </div>
 
 </body>

@@ -130,7 +130,7 @@ def build():
 </table>
 
 <div class="footer">
-  <p>Av's Tools &middot; Philadelphia Inquirer newsroom monitor &middot; Built with <a href="https://claude.ai">Claude</a> (Anthropic AI)</p>
+  <p>Av's Tools &middot; Newsroom monitor &middot; Built with <a href="https://claude.ai">Claude</a> (Anthropic AI)</p>
   <p style="margin-top:4px;">Source: <a href="https://www.courtlistener.com">CourtListener</a> / RECAP</p>
 </div>
 

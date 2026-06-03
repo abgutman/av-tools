@@ -8,7 +8,7 @@ Modes:
   python poll_bankruptcies.py poll --live           # also send email alerts
 
 Data source: CourtListener/RECAP API (token via COURTLISTENER_TOKEN env var).
-Matches debtor zip codes against ~450 local zips covering the Inquirer's
+Matches debtor zip codes against ~450 local zips covering the
 8-county Philadelphia region (Philly + PA suburbs + South Jersey).
 """
 import json, os, re, subprocess, sys, time

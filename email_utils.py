@@ -62,7 +62,7 @@ def _html_email(header_bg, tag, title, company, blurb, rows, cta_url, cta_label,
 
   <div style="background:#f8f9fa;padding:16px 32px;border-top:1px solid #e9ecef;border-radius:0 0 10px 10px;">
     <p style="margin:0;font-size:12px;color:#adb5bd;line-height:1.6;">
-      Av&#8217;s Tools &middot; Philadelphia Inquirer newsroom monitor &middot; Built with <a href="https://claude.ai" style="color:#adb5bd;">Claude</a> (Anthropic AI)<br>
+      Av&#8217;s Tools &middot; Newsroom monitor &middot; Built with <a href="https://claude.ai" style="color:#adb5bd;">Claude</a> (Anthropic AI)<br>
       {source_note}
     </p>
   </div>
@@ -183,7 +183,7 @@ def body_bankruptcy_alert(debtor_name, court, date_filed, debtor_zip, region,
             "This alert was generated automatically by <strong>Claude (Anthropic AI)</strong>, "
             "which monitors federal bankruptcy courts nationwide for Chapter 11 filings from "
             "companies in the Philadelphia region at Av's request. The debtor's address in "
-            "court records matched a zip code in the Inquirer's 8-county coverage area."
+            "court records matched a zip code in the 8-county Philadelphia region."
         ),
         rows=rows,
         cta_url=cta_url,
