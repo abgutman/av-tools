@@ -189,7 +189,7 @@ def build_case_page(case, entries_data):
 
 <div class="container">
 
-<p class="back-link">&larr; <a href="bankruptcy_dashboard.html">Back to all filings</a></p>
+<p class="back-link">&larr; <a href="../bankruptcy_dashboard.html">Back to all filings</a></p>
 
 <div class="card">
   <h2>Case Summary</h2>
