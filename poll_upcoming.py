@@ -309,7 +309,8 @@ def main():
                         subject_save_the_date(name, ticker),
                         body_save_the_date(name, ticker,
                             extracted.get("release_date"), extracted.get("call_date"),
-                            extracted.get("call_time"), item.get("link",""), title),
+                            extracted.get("call_time"), item.get("link",""), title,
+                            published_unix=item.get("providerPublishTime")),
                         log_fn=log,
                     )
                     log(f"  ✉ alert sent for {ticker}")

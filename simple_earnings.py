@@ -279,7 +279,8 @@ def edgar_poll(live=False):
                 name = info.get('name', ticker)
                 send_email(
                     subject_new_report(name, ticker),
-                    body_new_report_edgar(name, ticker, latest['filing_date'], url),
+                    body_new_report_edgar(name, ticker, latest['filing_date'], url,
+                        accepted_at=latest['date'], detected_at=now),
                     log_fn=log,
                 )
                 log(f"    ✉ alert sent")
@@ -356,9 +357,9 @@ def poll_all(live=False):
 
         # Email alert
         name = info.get('name', ticker)
-        published_str = latest_dt.strftime('%A %B %d, %Y at %I:%M:%S %p ET')
         subj = subject_new_report(name, ticker)
-        body = body_new_report_wire(name, ticker, published_str, latest['title'], latest.get('link', ''))
+        body = body_new_report_wire(name, ticker, latest['providerPublishTime'],
+            latest.get('publisher', ''), latest['title'], latest.get('link', ''))
         if live:
             try:
                 send_email(subj, body, log_fn=log)
