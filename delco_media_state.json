@@ -579,7 +579,84 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-02T12:43:09.232063"
+    },
+    "CV-2026-005260": {
+      "case_id": "e1ff70bd831ac0c550bbb309f5cfae05415cbd88c67426bc1eb4d7d3475c4bff",
+      "case_number": "CV-2026-005260",
+      "title": "Gerban et al v. State Farm Insurance",
+      "case_type": "Tort",
+      "classification": "Civil - Tort - Motor Vehicle",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-03T13:18:59.727284"
+    },
+    "CV-2026-005268": {
+      "case_id": "89e5fb59028556c893fd9c5cd8363e7efa473386935d3cca8189a8800ec1f39f",
+      "case_number": "CV-2026-005268",
+      "title": "American Express National Bank v. DINTINO",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-03T13:19:00.113079"
+    },
+    "CV-2026-005267": {
+      "case_id": "49f03b9fd09c96483374ee23b12e9fe5fe0dfb08184c3dbb393de4fcb31c6567",
+      "case_number": "CV-2026-005267",
+      "title": "Nelson Cruz, LLC v. Pantaleone",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Quiet Title",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-03T13:19:00.498248"
+    },
+    "CV-2026-005270": {
+      "case_id": "899884a321a37f751cf7841dfc22a75b4fac517bd3c373a3c05c97078e9bcc02",
+      "case_number": "CV-2026-005270",
+      "title": "American Express National Bank v. Estes",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-03T13:19:00.884646"
+    },
+    "CV-2026-005266": {
+      "case_id": "ee60602f9d7de99dd5fac97cb756e9e66ab3fb93961ed790acddb8f1682060bf",
+      "case_number": "CV-2026-005266",
+      "title": "American Express National Bank v. Miller",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-03T13:19:01.284694"
+    },
+    "CV-2026-005272": {
+      "case_id": "02625515e7440bd1f778a5484437e0afcd3909c99c40eedf8ea30c92e49b5635",
+      "case_number": "CV-2026-005272",
+      "title": "American Express National Bank v. Miller",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-01",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-03T13:19:01.684576"
+    },
+    "CV-2026-005283": {
+      "case_id": "f53114a3cf166f283744eb04fc21bb9b2cee2c37b0a9741cb325e68d725ad97e",
+      "case_number": "CV-2026-005283",
+      "title": "Murrin et al v. DeMarco Real Estate Holdings, LLC",
+      "case_type": "Judgment",
+      "classification": "Civil NR - Judgment - MDJ Transfer",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-03T13:19:02.071099"
     }
   },
-  "last_run": "2026-06-02T12:43:09.532801"
+  "last_run": "2026-06-03T13:19:02.371688"
 }
