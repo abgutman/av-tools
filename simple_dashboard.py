@@ -14,6 +14,8 @@ import json, html
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
+ET = timezone(timedelta(hours=-4))  # EDT (UTC-4); shifts to UTC-5 in winter but close enough
+
 HERE = Path(__file__).parent
 ED = HERE / "earnings_data"
 CACHE_FILE = ED / "cache.json"
@@ -118,7 +120,7 @@ def build_recent_page():
 <head><meta charset="utf-8"><title>Recent earnings — Av's Tools</title>{COMMON_STYLES}</head>
 <body><div class="container">
   <h1>Recent earnings reports</h1>
-  <p class="meta">Each company's most recent SEC 8-K item 2.02 filing (the actual quarterly earnings release), if filed in the last 90 days. EDGAR source of truth. Newest first. Updated {datetime.now().strftime("%Y-%m-%d %H:%M")}.</p>
+  <p class="meta">Each company's most recent SEC 8-K item 2.02 filing (the actual quarterly earnings release), if filed in the last 90 days. EDGAR source of truth. Newest first. Updated {datetime.now(ET).strftime("%Y-%m-%d %H:%M ET")}.</p>
   {render_tabs(active="recent")}
   <div class="stats">
     <div class="stat"><b>{len(rows)}</b> companies filed in last 90 days</div>
@@ -212,7 +214,7 @@ def build_upcoming_page():
 <head><meta charset="utf-8"><title>Upcoming earnings — Av's Tools</title>{COMMON_STYLES}</head>
 <body><div class="container">
   <h1>Upcoming earnings reports</h1>
-  <p class="meta">Confirmed earnings releases and conference calls, sourced from save-the-date press releases and manual entries. Soonest first. Updated {datetime.now().strftime("%Y-%m-%d %H:%M")}.</p>
+  <p class="meta">Confirmed earnings releases and conference calls, sourced from save-the-date press releases and manual entries. Soonest first. Updated {datetime.now(ET).strftime("%Y-%m-%d %H:%M ET")}.</p>
   {render_tabs(active="upcoming")}
   <div class="stats"><div class="stat"><b>{len(rows)}</b> confirmed upcoming events</div></div>
   {table_html if rows else '<p class="empty">No confirmed upcoming earnings dates. Add entries to earnings_data/upcoming_dates.json as you learn them.</p>'}
