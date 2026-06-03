@@ -1,1 +1,2776 @@
-[]
+[
+  {
+    "docket": "CP-51-CR-0003579-2026",
+    "caption": "Comm. v. Turner, Kenneth",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Turner, Kenneth",
+    "dob": "09/01/1964",
+    "otn": "U3433010",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003579-2026&dnh=4MFkSBBWk1TeWqkbA3%2FGHQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6108",
+        "description": "Carry Firearms Public In Phila",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003579-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Kenneth  Turner Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $150,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/16/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003579-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003578-2026",
+    "caption": "Comm. v. Abughazalen, Omar",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Abughazalen, Omar",
+    "dob": "10/29/2006",
+    "otn": "U3574421",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003578-2026&dnh=WOLa2ISGtdBAN9KtoFza7A%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 901",
+        "description": "Criminal Attempt - Theft By Decep-False Impression",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 4117",
+        "description": "Fraud Document - Insurance Rate Determ",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003578-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003577-2026",
+    "caption": "Comm. v. Jones, Mahaaj T.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Jones, Mahaaj T.",
+    "dob": "07/05/2005",
+    "otn": "U3570781",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003577-2026&dnh=DiNxvkq81nJEDz2Lcxzu%2Fw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6108",
+        "description": "Carry Firearms Public In Phila",
+        "grade": "U",
+        "is_felony": true
+      }
+    ],
+    "bail": "Monetary $75,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003577-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003576-2026",
+    "caption": "Comm. v. Reed, Stephen",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Reed, Stephen",
+    "dob": "07/20/2007",
+    "otn": "U3557116",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003576-2026&dnh=sDJn795R2bbtTHOLj3GaWA%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $20,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003576-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003575-2026",
+    "caption": "Comm. v. Stanton, Rafiq",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Stanton, Rafiq",
+    "dob": "10/06/2003",
+    "otn": "U3556431",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003575-2026&dnh=b6Fg9Qhi0vRAFOmipgLg5A%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5104.2",
+        "description": "Evading Arrest or Detention on Foot",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $25,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003575-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003574-2026",
+    "caption": "Comm. v. HUA, LUAN",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "HUA, LUAN",
+    "dob": "12/06/1987",
+    "otn": "U3535243",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003574-2026&dnh=ymFhGV4Y7TpX5R5nA5fGjg%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $25,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003574-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003573-2026",
+    "caption": "Comm. v. Preston, Fred W.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Preston, Fred W.",
+    "dob": "09/15/1989",
+    "otn": "U3594964",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003573-2026&dnh=6mX3xl%2FxO11iJhIE%2F6Lr3g%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      }
+    ],
+    "bail": "Unsecured $250,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003573-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003572-2026",
+    "caption": "Comm. v. Domine, Deborah",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Domine, Deborah",
+    "dob": "08/13/1986",
+    "otn": "U3553900",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003572-2026&dnh=easX%2F25pt4FLNr1GzL7Vbw%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $20,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003572-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003571-2026",
+    "caption": "Comm. v. Alequin, Wilson A.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Alequin, Wilson A.",
+    "dob": "03/02/1996",
+    "otn": "U3573743",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003571-2026&dnh=nfGASm2f%2B7C1HrSmhyRmLA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3302",
+        "description": "Risking Catastrophe",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 6501",
+        "description": "Deposit Trash On Street",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003571-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003570-2026",
+    "caption": "Comm. v. Oquendo-Manso, Carlos",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Oquendo-Manso, Carlos",
+    "dob": "08/09/1990",
+    "otn": "U3558553",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003570-2026&dnh=p%2FRhDPXK1hp%2BYb2HDRiLwQ%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003570-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Carlos  Oquendo-Manso Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $5,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003570-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003569-2026",
+    "caption": "Comm. v. Collins, Raymond Q.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Collins, Raymond Q.",
+    "dob": "04/10/1986",
+    "otn": "U3594544",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003569-2026&dnh=4EZ12%2FE7gazqdmxuMHBVkA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6108",
+        "description": "Carry Firearms Public In Phila",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 5104",
+        "description": "Resist Arrest/Other Law Enforce",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $250,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003569-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003568-2026",
+    "caption": "Comm. v. Newby, Niron",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Newby, Niron",
+    "dob": "06/01/2007",
+    "otn": "U3593612",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003568-2026&dnh=BDC8ZohB%2FY7VO0FywNz0bA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 908",
+        "description": "Make Repairs/Sell/Etc Offens Weap",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $300,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003568-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003567-2026",
+    "caption": "Comm. v. Bembery-Thomas, Robert",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Bembery-Thomas, Robert",
+    "dob": "02/19/2005",
+    "otn": "U3593855",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003567-2026&dnh=njv7thqmBNIVL8kTtzNmmA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3701",
+        "description": "Robbery-Inflict Serious Bodily Injury",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause or causes BI with deadly weapon",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003567-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Robert  Bembery-Thomas Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003567-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003566-2026",
+    "caption": "Comm. v. PERRY, FRED",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "PERRY, FRED",
+    "dob": "11/07/1986",
+    "otn": "U3554460",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003566-2026&dnh=7nHKEaJRYIZ19nxCniFsnA%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 7512",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003566-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. FRED  PERRY Criminal Use Of Communication Facility",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $350,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003566-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003565-2026",
+    "caption": "Comm. v. DAVIS, KEVIN",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "DAVIS, KEVIN",
+    "dob": "05/18/1989",
+    "otn": "U3548300",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003565-2026&dnh=ygefmOBZVBFbLmko2xGLog%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003565-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. KEVIN  DAVIS Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6110.2",
+        "description": "Posses Firearm W/Manufacturer Number Altered, Etc",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 7512",
+        "description": "Criminal Use Of Communication Facility",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $750,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003565-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003564-2026",
+    "caption": "Comm. v. Scott, Henry",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Scott, Henry",
+    "dob": "12/27/1965",
+    "otn": "U3548322",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003564-2026&dnh=8rORePQHVB7jbzQwXFB69w%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003564-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Henry  Scott Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 7512",
+        "description": "Criminal Use Of Communication Facility",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $500,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003564-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003563-2026",
+    "caption": "Comm. v. Shaw, Rymir I.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Shaw, Rymir I.",
+    "dob": "06/07/2003",
+    "otn": "U3594894",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003563-2026&dnh=mTPakkC24ulddvatiZQlIw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6108",
+        "description": "Carry Firearms Public In Phila",
+        "grade": "U",
+        "is_felony": true
+      }
+    ],
+    "bail": "Unsecured $100,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003563-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003562-2026",
+    "caption": "Comm. v. McCall, Antonio",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "McCall, Antonio",
+    "dob": "01/19/1992",
+    "otn": "U3592805",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003562-2026&dnh=C3D%2FaQ3goGWSVcdUrpFyUA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $200,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003562-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003561-2026",
+    "caption": "Comm. v. Miller, Antoine",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Miller, Antoine",
+    "dob": "12/30/1992",
+    "otn": "U3593166",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003561-2026&dnh=%2BO4MeBE%2FzQS5vQ4jE8KleQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3701",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003561-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Antoine  Miller Robbery-Inflict Serious Bodily Injury",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2718",
+        "description": "Strangulation - Applying Pressure to Throat or Neck",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 4703",
+        "description": "Retaliation For Past Official Action",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "23 \u00a7 6114",
+        "description": "Contempt For Violation of Order or Agreement",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2902",
+        "description": "Unlawful Restraint/ Serious Bodily Injury",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2903",
+        "description": "False Imprisonment",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003561-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003560-2026",
+    "caption": "Comm. v. Garcia, Elijah",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Garcia, Elijah",
+    "dob": "03/23/2006",
+    "otn": "U3592783",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003560-2026&dnh=AGI5D9AOlWDSghdM%2FSk8ew%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003560-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Elijah  Garcia Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $15,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003560-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003559-2026",
+    "caption": "Comm. v. LAM, ANTHONY",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "LAM, ANTHONY",
+    "dob": "11/11/2006",
+    "otn": "U3553911",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003559-2026&dnh=dIhs7vYRzT5BXCiWUuJUrA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3928",
+        "description": "Unauth Use Motor/Other Vehicles",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "ROR $0.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003559-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003558-2026",
+    "caption": "Comm. v. Roberts, Michael",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Roberts, Michael",
+    "dob": "06/01/1987",
+    "otn": "U3588410",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003558-2026&dnh=sCA%2Bt5sJdl2eCzVNudqdVA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3929",
+        "description": "Retail Theft-Take Mdse",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $500.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003558-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003557-2026",
+    "caption": "Comm. v. Henderson, Ian",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Henderson, Ian",
+    "dob": "08/29/1989",
+    "otn": "U3531360",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003557-2026&dnh=Ktn%2Fr1XnjJvkODRTbnjXbA%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $35,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003557-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003556-2026",
+    "caption": "Comm. v. HEATH, SHANIA",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "HEATH, SHANIA",
+    "dob": "01/06/2000",
+    "otn": "U3516284",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003556-2026&dnh=IfYnbdBKASAjUibCxWLsSg%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3502",
+        "description": "Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Crim Tres-Break Into Structure",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $150,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003556-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003555-2026",
+    "caption": "Comm. v. Torres, Edwin",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Torres, Edwin",
+    "dob": "08/09/1991",
+    "otn": "U3397063",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003555-2026&dnh=ulWYLvqwImvh%2FD9v5eIoPw%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003555-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003554-2026",
+    "caption": "Comm. v. Bonanni, Nicholas",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Bonanni, Nicholas",
+    "dob": "04/14/2007",
+    "otn": "U3314065",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003554-2026&dnh=Kl7zNPU5ww89Wgly9JekNQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 901",
+        "description": "Criminal Attempt - Theft By Unlaw Taking -Movable Prop",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $10,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003554-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003553-2026",
+    "caption": "Comm. v. Sautner, Daniel",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Sautner, Daniel",
+    "dob": "11/24/1969",
+    "otn": "U3428784",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003553-2026&dnh=PZqkKzGPjUip88LrYfBg8w%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause or causes BI with deadly weapon",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $75,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003553-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003552-2026",
+    "caption": "Comm. v. Obayah, Ahed",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Obayah, Ahed",
+    "dob": "06/15/1996",
+    "otn": "U3559651",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003552-2026&dnh=BO5sC%2Bk40hCdm5f84Pch8g%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5111",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003552-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Ahed  Obayah Deal In Proc Unl Act/Intent To Promote",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $250,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003552-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003551-2026",
+    "caption": "Comm. v. Hasan, Ali E.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Hasan, Ali E.",
+    "dob": "10/12/1991",
+    "otn": "U3559636",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003551-2026&dnh=ULItMNznZsjlSjoGAL4xPw%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003551-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Ali E. Hasan Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5111",
+        "description": "Deal In Proc Unl Act/Intent To Promote",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $7,500.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003551-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003550-2026",
+    "caption": "Comm. v. Algazali, Tajaddin A.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Algazali, Tajaddin A.",
+    "dob": "06/30/1998",
+    "otn": "U3559640",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003550-2026&dnh=9FUaYfUxOPkj%2BnM98emVmQ%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003550-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Tajaddin A . Algazali Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5111",
+        "description": "Deal In Proc Unl Act/Intent To Promote",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $5,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003550-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003549-2026",
+    "caption": "Comm. v. Ali, Nabil M.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Ali, Nabil M.",
+    "dob": "09/19/1990",
+    "otn": "U3537833",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003549-2026&dnh=Zowx3LDI7%2BGynvsUN7%2Fjcw%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5111",
+        "description": "Deal In Proc Unl Act/Intent To Promote",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 7512",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003549-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Nabil M. Ali Criminal Use Of Communication Facility",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $5,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003549-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003548-2026",
+    "caption": "Comm. v. SENHUNI, AHMED",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "SENHUNI, AHMED",
+    "dob": "11/03/2005",
+    "otn": "U3537844",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003548-2026&dnh=s%2BhYw9NHa3MAT5V%2FCdnTyw%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5111",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003548-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. AHMED  SENHUNI Deal In Proc Unl Act/Intent To Promote",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 7512",
+        "description": "Criminal Use Of Communication Facility",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $5,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003548-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003547-2026",
+    "caption": "Comm. v. Khushafa, Zain A.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Khushafa, Zain A.",
+    "dob": "07/10/1997",
+    "otn": "U3537855",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003547-2026&dnh=0YYqOFfg9ji5HCV2M3c0uA%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5111",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003547-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Zain A . Khushafa Deal In Proc Unl Act/Intent To Promote",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 7512",
+        "description": "Criminal Use Of Communication Facility",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $15,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003547-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003546-2026",
+    "caption": "Comm. v. BAH, ADAMA",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "BAH, ADAMA",
+    "dob": "12/21/1999",
+    "otn": "U3537866",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003546-2026&dnh=xapHkoGsRJlVJa5NolFPFQ%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5111",
+        "description": "Deal In Proc Unl Act/Intent To Promote",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 7512",
+        "description": "Criminal Use Of Communication Facility",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Use/Poss Of Drug Paraph",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003546-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. ADAMA  BAH Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003546-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003545-2026",
+    "caption": "Comm. v. Freeman, Mark",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Freeman, Mark",
+    "dob": "05/14/1977",
+    "otn": "U3436521",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003545-2026&dnh=ZLeuVyuWfPyv1kEyfGwNrQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Crim Tres-Enter Structure",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "ROR $0.00",
+    "arresting_agency": "PSP - Philadelphia",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003545-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003544-2026",
+    "caption": "Comm. v. Gallo, Vita",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Gallo, Vita",
+    "dob": "05/20/1984",
+    "otn": "U3429344",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003544-2026&dnh=Oc2MTi%2FnBIqGP2CD8h1jRw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3502",
+        "description": "Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003544-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Vita  Gallo Crim Tres-Break Into Structure",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief - Damage Property",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $1,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003544-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003543-2026",
+    "caption": "Comm. v. Austin, Shahita N.",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Austin, Shahita N.",
+    "dob": "05/17/1978",
+    "otn": "U3573404",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003543-2026&dnh=X5MQrs3YvMWus8HMbzI32Q%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3302",
+        "description": "Risking Catastrophe",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003543-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Shahita N. Austin Criminal Mischief - Damage Property",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5104",
+        "description": "Resist Arrest/Other Law Enforce",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5104.2",
+        "description": "Evading Arrest or Detention on Foot",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "75 \u00a7 3733",
+        "description": "Fleeing or Attempting to Elude Officer",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3928",
+        "description": "Unauth Use Motor/Other Vehicles",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief - Damage Property",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $100,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003543-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003542-2026",
+    "caption": "Comm. v. Torres, Ramon",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Torres, Ramon",
+    "dob": "01/22/1998",
+    "otn": "U3594942",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003542-2026&dnh=OxWvxwG7rc4HMovzxCbdmA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003542-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Ramon  Torres Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      }
+    ],
+    "bail": "Monetary $250,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003542-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003541-2026",
+    "caption": "Comm. v. Moore, Daheem",
+    "status": "Active",
+    "filed": "06/02/2026",
+    "participant": "Moore, Daheem",
+    "dob": "03/07/1975",
+    "otn": "U3549766",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003541-2026&dnh=%2By6t7POVyP4HG9j8L%2BVsYQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause or causes BI with deadly weapon",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause or causes BI with deadly weapon",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3701",
+        "description": "Robbery-Threat Immed Ser Injury",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause or causes BI with deadly weapon",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003541-2026 Court CaseCRIMINAL DOCKET Page 3 of 5 Commonwealth of Pennsylvania v. Daheem  Moore Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause or causes BI with deadly weapon",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $150,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/15/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003541-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003540-2026",
+    "caption": "Comm. v. Agostini, Disla",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Agostini, Disla",
+    "dob": "11/24/1977",
+    "otn": "U3417864",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003540-2026&dnh=A4UK7Hkb%2FGk0fIbg0GUvww%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $300.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003540-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003539-2026",
+    "caption": "Comm. v. Thomas, Lateef",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Thomas, Lateef",
+    "dob": "04/30/1998",
+    "otn": "U3461931",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003539-2026&dnh=LNVIA%2FdbYciqtNaUg7ajyg%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $75,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003539-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003538-2026",
+    "caption": "Comm. v. GONZALEZ, KENNETH",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "GONZALEZ, KENNETH",
+    "dob": "03/20/2007",
+    "otn": "U3471473",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003538-2026&dnh=6KBmbm%2F1Wu4lpR8%2BJzcB%2FQ%3D%3D",
+    "charges": [
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Manufacture, Delivery, or Possession With Intent to Manufacture or Deliver",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "35 \u00a7 780",
+        "description": "Int Poss Contr Subst By Per Not Reg",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5104.2",
+        "description": "Evading Arrest or Detention on Foot",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $25,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003538-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003537-2026",
+    "caption": "Comm. v. Nicholas, Pete",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Nicholas, Pete",
+    "dob": "05/08/1962",
+    "otn": "U3492580",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003537-2026&dnh=CzbTGnUkf6Zab2cOG6ZpNQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 4106",
+        "description": "Access Device Used To Obt Or Att Obt Prop/Service",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 903",
+        "description": "Conspiracy",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003537-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Pete  Nicholas Criminal Mischief - Damage Property",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003537-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003536-2026",
+    "caption": "Comm. v. Benson, Aris",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Benson, Aris",
+    "dob": "11/23/1978",
+    "otn": "U3496662",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003536-2026&dnh=cc%2F%2Fi4IWb2tPYgC5hRsgWw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 4106",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003536-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Aris  Benson Access Device Used To Obt Or Att Obt Prop/Service",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief - Damage Property",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $100,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003536-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003535-2026",
+    "caption": "Comm. v. Benson, Aris",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Benson, Aris",
+    "dob": "11/23/1978",
+    "otn": "U3496662",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003535-2026&dnh=Jmq27LrJpzu7I6LNtsGe6g%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003535-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Aris  Benson Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 4106",
+        "description": "Access Device Used To Obt Or Att Obt Prop/Service",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $750,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003535-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003534-2026",
+    "caption": "Comm. v. Benson, Aris",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Benson, Aris",
+    "dob": "11/23/1978",
+    "otn": "U3496662",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003534-2026&dnh=FWYTNWFuLMiX5UDbAZUGBw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 4106",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003534-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Aris  Benson Access Device Used To Obt Or Att Obt Prop/Service",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $100,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003534-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003533-2026",
+    "caption": "Comm. v. Hardy, Terrance",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Hardy, Terrance",
+    "dob": "01/30/1977",
+    "otn": "U3572096",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003533-2026&dnh=4j9elMiE6h4YpVWtbr0%2Fdg%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003533-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003532-2026",
+    "caption": "Comm. v. Deshields, Marcel",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Deshields, Marcel",
+    "dob": "05/30/2002",
+    "otn": "U3573231",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003532-2026&dnh=nCBNrKSPmlWJ32Nj3W84Gw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause or causes BI to designated individuals",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3701",
+        "description": "Robbery-Inflict Serious Bodily Injury",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003532-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Marcel  Deshields Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5505",
+        "description": "Public Drunkenness And Similar Misconduct",
+        "grade": "",
+        "is_felony": false
+      }
+    ],
+    "bail": "Monetary $15,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003532-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003531-2026",
+    "caption": "Comm. v. Williams, Omar",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Williams, Omar",
+    "dob": "12/07/1974",
+    "otn": "U3580581",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003531-2026&dnh=Bcn07jPoGfTqQOUlK8w8uQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003531-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003530-2026",
+    "caption": "Comm. v. Dubrey, Kiream",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Dubrey, Kiream",
+    "dob": "07/11/1967",
+    "otn": "U3588491",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003530-2026&dnh=7r1IrHnHr%2Bk8YKO60Xa1Ng%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3929",
+        "description": "Retail Theft-Take Mdse",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "ROR $0.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003530-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003529-2026",
+    "caption": "Comm. v. Floyd, Quamire",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Floyd, Quamire",
+    "dob": "03/26/2008",
+    "otn": "U3588594",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003529-2026&dnh=Hqf13un%2BxZsGMbAW7D6RZA%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6108",
+        "description": "Carry Firearms Public In Phila",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 5104",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003529-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Quamire  Floyd Resist Arrest/Other Law Enforce",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $300,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003529-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003528-2026",
+    "caption": "Comm. v. Arango, Juan",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Arango, Juan",
+    "dob": "12/22/1988",
+    "otn": "U3588841",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003528-2026&dnh=JKFbJ4aEnhbio%2BquoRVElQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3502",
+        "description": "Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Crim Tres-Break Into Structure",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 907",
+        "description": "Poss Instrument Of Crime W/Int",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief - Damage Property",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $50,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003528-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003527-2026",
+    "caption": "Comm. v. Washington, Christopher",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Washington, Christopher",
+    "dob": "11/05/1987",
+    "otn": "U3588852",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003527-2026&dnh=ASozDvMJxSET6Bv3oRzRuw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3701",
+        "description": "Robbery-Inflict Threat Imm Bod Inj",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 901",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003527-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Christopher  Washington Criminal Attempt - Theft By Unlaw Taking -Movable Prop",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2705",
+        "description": "Recklessly Endangering Another Person",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2709",
+        "description": "Harassment - Subject Other to Physical Contact",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Attempts to cause SBI or causes injury with extreme indifference",
+        "grade": "",
+        "is_felony": true
+      }
+    ],
+    "bail": "Monetary $75,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003527-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003526-2026",
+    "caption": "Comm. v. Bankoff, Brett",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Bankoff, Brett",
+    "dob": "10/04/1988",
+    "otn": "U3588885",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003526-2026&dnh=no2zpwBnlr70MGX6URhLRQ%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3502",
+        "description": "Burglary - Overnight Accommodation , No Person Present",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Crim Tres-Break Into Structure",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003526-2026 Court CaseCRIMINAL DOCKET Page 2 of 2 Commonwealth of Pennsylvania v. Brett  Bankoff Criminal Mischief - Damage Property",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 5104.2",
+        "description": "Evading Arrest or Detention on Foot",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $5,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003526-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003525-2026",
+    "caption": "Comm. v. Ashmore, John",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Ashmore, John",
+    "dob": "05/14/1999",
+    "otn": "U3588981",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003525-2026&dnh=P7Ui9X4gvfHXSiJlNK1eWg%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 6105",
+        "description": "Possession Of Firearm Prohibited",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 6106",
+        "description": "Firearms Not To Be Carried W/O License",
+        "grade": "U",
+        "is_felony": true
+      }
+    ],
+    "bail": "Monetary $150,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003525-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003524-2026",
+    "caption": "Comm. v. Mondelli, Michael",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Mondelli, Michael",
+    "dob": "05/31/1981",
+    "otn": "U3592142",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003524-2026&dnh=EPKstFLXDp89usN8Cvehhg%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3502",
+        "description": "Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Crim Tres-Break Into Structure",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      }
+    ],
+    "bail": "Unsecured $10,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003524-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003523-2026",
+    "caption": "Comm. v. Mondelli, Michael",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Mondelli, Michael",
+    "dob": "05/31/1981",
+    "otn": "U3592142",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003523-2026&dnh=0m98Jb5osgk7qYT2IDgB2Q%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3502",
+        "description": "Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Crim Tres-Break Into Structure",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      }
+    ],
+    "bail": "Unsecured $10,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003523-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003522-2026",
+    "caption": "Comm. v. Mondelli, Michael",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Mondelli, Michael",
+    "dob": "05/31/1981",
+    "otn": "U3592142",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003522-2026&dnh=IOCcX18BDv4RfnpKacjOmg%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 3502",
+        "description": "Burglary - Overnight Accommodations ; Person Present, Bodily Injury Crime",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3503",
+        "description": "Crim Tres-Break Into Structure",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 3921",
+        "description": "Theft By Unlaw Taking-Movable Prop",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3925",
+        "description": "Receiving Stolen Property",
+        "grade": "U",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 3304",
+        "description": "Criminal Mischief",
+        "grade": "U",
+        "is_felony": false
+      }
+    ],
+    "bail": "Unsecured $10,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003522-2026.pdf"
+  },
+  {
+    "docket": "CP-51-CR-0003521-2026",
+    "caption": "Comm. v. Ogunlokun, Jesuferanmi",
+    "status": "Active",
+    "filed": "06/01/2026",
+    "participant": "Ogunlokun, Jesuferanmi",
+    "dob": "05/05/1991",
+    "otn": "U3503743",
+    "ds_link": "/Report/CpDocketSheet?docketNumber=CP-51-CR-0003521-2026&dnh=%2FOLt1mCeQC6umHDzm2EZBw%3D%3D",
+    "charges": [
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Recent entries made in the court filing offices may not be immediately reflected on these docket sheets . Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assume any liability for inaccurate or delayed data, errors or omissions on these reports.  Docket Sheet information should not be used in place of a criminal history background check which can only be provided by the Pennsylvania State Police.  Moreover an employer who does not comply with the provisions of the Criminal History Record Information Act may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.CPCMS 9082COURT OF COMMON PLEAS OF PHILADELPHIA COUNTY DOCKET Docket Number: CP-51-CR-0003521-2026 Court CaseCRIMINAL DOCKET Page 2 of 3 Commonwealth of Pennsylvania v. Jesuferanmi  Ogunlokun Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Fear of Imminent SBI designated individuals",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2709",
+        "description": "Harassment - Subject Other to Physical Contact",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2702",
+        "description": "Aggravated Assault - Fear of Imminent SBI designated individuals",
+        "grade": "",
+        "is_felony": true
+      },
+      {
+        "statute": "18 \u00a7 2706",
+        "description": "Terroristic Threats W / Int To Terrorize Another",
+        "grade": "",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2701",
+        "description": "Simple Assault",
+        "grade": "U",
+        "is_felony": false
+      },
+      {
+        "statute": "18 \u00a7 2709",
+        "description": "Harassment - Comm. Lewd, Threatening, Etc. Language",
+        "grade": "",
+        "is_felony": false
+      }
+    ],
+    "bail": "ror $100,000.00",
+    "arresting_agency": "Philadelphia Pd",
+    "next_event": "Formal Arraignment - 06/12/2026 11:00 am",
+    "pdf_path": "dockets/CP-51-CR-0003521-2026.pdf"
+  }
+]
