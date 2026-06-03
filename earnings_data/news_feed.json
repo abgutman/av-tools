@@ -1,6 +1,547 @@
 {
- "generated_at": "2026-06-03T04:59:09",
+ "generated_at": "2026-06-03T15:26:46",
  "items": [
+  {
+   "uuid": "851aa17e-d323-3e28-87f8-bc7a692d7801",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Fathom Nickel Down 11% On Commencement of Summer Drill Program at the Gochager Lake Project",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/fathom-nickel-down-11-commencement-151813197.html",
+   "published_unix": 1780499893,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "8c465efd-5c04-3e20-8125-a2585ee1e206",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Atlantic Potash Millstream Advances New Brunswick Potash Project",
+   "publisher": "CNW Group",
+   "link": "https://finance.yahoo.com/sectors/energy/articles/atlantic-potash-millstream-advances-brunswick-151700157.html",
+   "published_unix": 1780499820,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "2d1b230d-56b7-31a1-b748-a604a1230714",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "ThreatLocker Highlights Key Cyber Threat Activity and Research from May 2026",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/threatlocker-highlights-key-cyber-threat-151500281.html",
+   "published_unix": 1780499700,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "bc938cb2-7358-3e16-bac9-6f64dd9875fc",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Chewy Seen Heading Into Q1 With Cautious Setup, Oppenheimer Says",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/chewy-seen-heading-q1-cautious-151448360.html",
+   "published_unix": 1780499688,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "eb0e21d7-45a9-3968-aa4d-a0f43a15f855",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Nvidia CEO Jensen Huang: AI Job Losses Are \u2018Complete Nonsense,\u2019 AI Driving Hiring Surge Instead",
+   "publisher": "24/7 Wall St.",
+   "link": "https://finance.yahoo.com/m/eb0e21d7-45a9-3968-aa4d-a0f43a15f855/nvidia-ceo-jensen-huang%3A-ai.html",
+   "published_unix": 1780499646,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "56bf5301-542a-3eb0-bc18-8a120541612a",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Cognizant Technology Solutions Expands Collaboration With Snowflake",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/cognizant-technology-solutions-expands-collaboration-151327445.html",
+   "published_unix": 1780499607,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "259463ee-b6d8-311f-a29e-525ceb5f277a",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "This Magnificent 7 Stock Is the Ultimate \u201cSet-It-and-Forget-It\u201d Buy",
+   "publisher": "24/7 Wall St.",
+   "link": "https://finance.yahoo.com/m/259463ee-b6d8-311f-a29e-525ceb5f277a/this-magnificent-7-stock-is.html",
+   "published_unix": 1780499535,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "cf545409-5de3-3a6f-a330-83df2d049712",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "$5M gift means more women in Southern Alberta will have access to specialized cardiovascular caret",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/5m-gift-means-more-women-151200348.html",
+   "published_unix": 1780499520,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "ed250d0a-055a-36a6-8682-2337ea48ece3",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "KBRA Releases Research \u2013 Multilateral Finance Remains Meaningful to Sovereign Debtors",
+   "publisher": "Business Wire",
+   "link": "https://finance.yahoo.com/economy/policy/articles/kbra-releases-research-multilateral-finance-151200585.html",
+   "published_unix": 1780499520,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "3697ab13-a719-3476-b982-507fbccd64e2",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Deadly drone strike on Kuwait airport as Iran, US trade fire",
+   "publisher": "AFP",
+   "link": "https://finance.yahoo.com/m/3697ab13-a719-3476-b982-507fbccd64e2/deadly-drone-strike-on-kuwait.html",
+   "published_unix": 1780499502,
+   "captured_at": "2026-06-03T15:26:43"
+  },
+  {
+   "uuid": "e716ef1c-7642-37bb-a786-5eecf5b7d443",
+   "tickers": [
+    "AWK"
+   ],
+   "company": "American Water Works Company, Inc.",
+   "title": "American Water Continues Commitment to Advancing Utility Resilience; Achieves Utility Resilience Goal Five Years Early",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/energy/articles/american-water-continues-commitment-advancing-150100565.html",
+   "published_unix": 1780498860,
+   "captured_at": "2026-06-03T15:26:08"
+  },
+  {
+   "uuid": "1b084bf9-734a-39c7-8abf-2b9fe4493d71",
+   "tickers": [
+    "VSH"
+   ],
+   "company": "VISHAY INTERTECHNOLOGY INC",
+   "title": "Vishay Intertechnology 200 A Power Module Saves Space, Lowers Conduction Losses, and Increases Reliability in MHEVs and LEVs",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/vishay-intertechnology-200-power-module-150000684.html",
+   "published_unix": 1780498800,
+   "captured_at": "2026-06-03T15:26:02"
+  },
+  {
+   "uuid": "92911abe-9440-3451-97fc-b0f233c3cb60",
+   "tickers": [
+    "CMCSA"
+   ],
+   "company": "COMCAST CORP",
+   "title": "Comcast NBCUniversal to Break Ground on First Euro Theme Park Resort 'Soon' in UK",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/sectors/technology/articles/comcast-nbcuniversal-break-ground-first-141353786.html",
+   "published_unix": 1780496033,
+   "captured_at": "2026-06-03T15:25:58"
+  },
+  {
+   "uuid": "9143fb62-ca97-3032-863f-16d850388214",
+   "tickers": [
+    "JNJ",
+    "MRK"
+   ],
+   "company": "JOHNSON & JOHNSON",
+   "title": "Can AstraZeneca's Expanding Cancer Portfolio Sustain Momentum?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/astrazenecas-expanding-cancer-portfolio-sustain-140900834.html",
+   "published_unix": 1780495740,
+   "captured_at": "2026-06-03T15:26:45"
+  },
+  {
+   "uuid": "d9f376d7-4df5-3cee-b006-dd2ae37a0aa1",
+   "tickers": [
+    "MRK"
+   ],
+   "company": "Merck & Co., Inc.",
+   "title": "Pfizer vs Merck: Chasing High Yield vs Higher Returns",
+   "publisher": "24/7 Wall St.",
+   "link": "https://finance.yahoo.com/m/d9f376d7-4df5-3cee-b006-dd2ae37a0aa1/pfizer-vs-merck%3A-chasing-high.html",
+   "published_unix": 1780495573,
+   "captured_at": "2026-06-03T15:26:46"
+  },
+  {
+   "uuid": "e963a163-afd3-3c92-b7d4-0338c05e23da",
+   "tickers": [
+    "CPB"
+   ],
+   "company": "CAMPBELL'S Co",
+   "title": "Yum! Brands upgraded, Chipotle downgraded: Wall Street's top analyst calls",
+   "publisher": "The Fly",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/yum-brands-upgraded-chipotle-downgraded-135544251.html",
+   "published_unix": 1780494944,
+   "captured_at": "2026-06-03T15:26:07"
+  },
+  {
+   "uuid": "cdf2537a-5cb9-34f0-9496-bd9fc65a3c83",
+   "tickers": [
+    "BURL"
+   ],
+   "company": "Burlington Stores, Inc.",
+   "title": "Burlington Stores (BURL) is a Top-Ranked Growth Stock: Should You Buy?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/burlington-stores-burl-top-ranked-134503223.html",
+   "published_unix": 1780494303,
+   "captured_at": "2026-06-03T15:26:08"
+  },
+  {
+   "uuid": "5fd6e3f3-b2c3-3c3d-aaf0-040fae76f5ec",
+   "tickers": [
+    "CPB"
+   ],
+   "company": "CAMPBELL'S Co",
+   "title": "Exploring Analyst Estimates for Campbell (CPB) Q3 Earnings, Beyond Revenue and EPS",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/exploring-analyst-estimates-campbell-cpb-131501766.html",
+   "published_unix": 1780492501,
+   "captured_at": "2026-06-03T15:26:07"
+  },
+  {
+   "uuid": "5c86fddf-8a3b-33aa-8812-e0cf0d23dd52",
+   "tickers": [
+    "SEIC"
+   ],
+   "company": "SEI INVESTMENTS CO",
+   "title": "Affiliated Managers Gains 7.7% YTD: Should You Buy the Stock Now?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/affiliated-managers-gains-7-7-130900872.html",
+   "published_unix": 1780492140,
+   "captured_at": "2026-06-03T15:26:07"
+  },
+  {
+   "uuid": "89ce8be4-474e-3195-88de-73e7f914b20f",
+   "tickers": [
+    "JNJ"
+   ],
+   "company": "JOHNSON & JOHNSON",
+   "title": "Johnson & Johnson (JNJ) is Attracting Investor Attention: Here is What You Should Know",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-attracting-investor-130006917.html",
+   "published_unix": 1780491606,
+   "captured_at": "2026-06-03T15:26:45"
+  },
+  {
+   "uuid": "65419cf1-e7ac-363d-ba55-394f25f64161",
+   "tickers": [
+    "RCMT"
+   ],
+   "company": "RCM TECHNOLOGIES, INC.",
+   "title": "Is Trending Stock RCM Technologies, Inc. (RCMT) a Buy Now?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-rcm-technologies-inc-130002482.html",
+   "published_unix": 1780491602,
+   "captured_at": "2026-06-03T15:26:28"
+  },
+  {
+   "uuid": "a36e08dd-f2ea-3453-bd0f-afc592507871",
+   "tickers": [
+    "CPB"
+   ],
+   "company": "CAMPBELL'S Co",
+   "title": "Soup Just Got a Wingman: New Campbell's\u00ae Chunky\u00ae Buffalo Wild Wings\u00ae Parmesan Garlic Chicken Noodle Soup",
+   "publisher": "Business Wire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/soup-just-got-wingman-campbells-130000573.html",
+   "published_unix": 1780491600,
+   "captured_at": "2026-06-03T15:26:07"
+  },
+  {
+   "uuid": "9d5ec81c-28ad-37be-8975-8bd4a3dce03d",
+   "tickers": [
+    "MRK"
+   ],
+   "company": "Merck & Co., Inc.",
+   "title": "Apotex launches sitagliptin tablets and sitagliptin and metformin hydrochloride tablets, eligible for 180-day shared exclusivity",
+   "publisher": "CNW Group",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/apotex-launches-sitagliptin-tablets-sitagliptin-130000057.html",
+   "published_unix": 1780491600,
+   "captured_at": "2026-06-03T15:26:46"
+  },
+  {
+   "uuid": "4ee3ea58-e6e0-30d5-acc7-9895f12bb7dc",
+   "tickers": [
+    "VPG"
+   ],
+   "company": "Vishay Precision Group, Inc.",
+   "title": "Here's Why Momentum in Vishay (VPG) Should Keep going",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-momentum-vishay-vpg-125502646.html",
+   "published_unix": 1780491302,
+   "captured_at": "2026-06-03T15:26:18"
+  },
+  {
+   "uuid": "b2bed659-e94f-32cd-bbb8-6787f69b5908",
+   "tickers": [
+    "JNJ"
+   ],
+   "company": "JOHNSON & JOHNSON",
+   "title": "The Expanding Frontier of Chemical Engineering: ChemE Show 2026 Opens June 9-10 in Houston",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/sectors/energy/articles/expanding-frontier-chemical-engineering-cheme-124700547.html",
+   "published_unix": 1780490820,
+   "captured_at": "2026-06-03T15:26:45"
+  },
+  {
+   "uuid": "31195251-0a58-3fe0-b207-c4d1c3bcfe51",
+   "tickers": [
+    "CABA"
+   ],
+   "company": "Cabaletta Bio, Inc.",
+   "title": "Cabaletta Bio's Rese-cel Shows Potential in Treating Autoimmune Diseases",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/cabaletta-bio-apos-rese-cel-123149654.html",
+   "published_unix": 1780489909,
+   "captured_at": "2026-06-03T15:26:24"
+  },
+  {
+   "uuid": "4e615123-6b1d-3130-ba10-7f5420ce6839",
+   "tickers": [
+    "COHN"
+   ],
+   "company": "Cohen & Co Inc.",
+   "title": "Dot Ai Announces Engagement of Cohen & Company to Evaluate Strategic Alternatives",
+   "publisher": "ACCESS Newswire",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/dot-ai-announces-engagement-cohen-123100668.html",
+   "published_unix": 1780489860,
+   "captured_at": "2026-06-03T15:26:34"
+  },
+  {
+   "uuid": "4a04a3c4-e4b8-3583-a9f4-81b00fb594cf",
+   "tickers": [
+    "CMCSA"
+   ],
+   "company": "COMCAST CORP",
+   "title": "Comcast Corporation and Comcast Cable Communications, LLC Announce Results and Upsize of their Offers to Purchase for Cash Certain of their Outstanding Senior Debt Securities",
+   "publisher": "Business Wire",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/comcast-corporation-comcast-cable-communications-123000749.html",
+   "published_unix": 1780489800,
+   "captured_at": "2026-06-03T15:25:58"
+  },
+  {
+   "uuid": "d4b7dde5-fe99-3604-9920-ce1076b5f81f",
+   "tickers": [
+    "CRS"
+   ],
+   "company": "CARPENTER TECHNOLOGY CORP",
+   "title": "Reliance Stock Hits 52-Week High: What's Driving Its Performance?",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/reliance-stock-hits-52-week-122600338.html",
+   "published_unix": 1780489560,
+   "captured_at": "2026-06-03T15:26:12"
+  },
+  {
+   "uuid": "3eb0dd34-0ce0-3036-b4ce-f067467b6dbf",
+   "tickers": [
+    "PVLA"
+   ],
+   "company": "PALVELLA THERAPEUTICS, INC.",
+   "title": "Palvella Therapeutics Says No Additional Efficacy Study Planned for Qtorin Rapamycin",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/palvella-therapeutics-says-no-additional-121708814.html",
+   "published_unix": 1780489028,
+   "captured_at": "2026-06-03T15:26:17"
+  },
+  {
+   "uuid": "940147e9-7bb4-3574-ac96-d9344a96ffb3",
+   "tickers": [
+    "JNJ"
+   ],
+   "company": "JOHNSON & JOHNSON",
+   "title": "This Is What a $1 Million Dividend Portfolio Pays After Taxes",
+   "publisher": "24/7 Wall St.",
+   "link": "https://finance.yahoo.com/m/940147e9-7bb4-3574-ac96-d9344a96ffb3/this-is-what-a-%241-million.html",
+   "published_unix": 1780487127,
+   "captured_at": "2026-06-03T15:26:45"
+  },
+  {
+   "uuid": "c54661b3-9560-3313-96ef-dd2a54f7cbc7",
+   "tickers": [
+    "FIVE"
+   ],
+   "company": "FIVE BELOW, INC",
+   "title": "Stocks Mostly Down Pre-Bell as Traders Assess Latest Middle East Developments",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-down-pre-bell-113930391.html",
+   "published_unix": 1780486770,
+   "captured_at": "2026-06-03T15:25:59"
+  },
+  {
+   "uuid": "f486b082-1c8a-330a-be0c-dc7a502133de",
+   "tickers": [
+    "MRK"
+   ],
+   "company": "Merck & Co., Inc.",
+   "title": "3 Stocks That May Be Priced Below Their Estimated Worth In June 2026",
+   "publisher": "Simply Wall St.",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-may-priced-below-113808709.html",
+   "published_unix": 1780486688,
+   "captured_at": "2026-06-03T15:26:46"
+  },
+  {
+   "uuid": "ae6037cb-080a-355b-bbde-bf13cb4564c8",
+   "tickers": [
+    "MLYS"
+   ],
+   "company": "Mineralys Therapeutics, Inc.",
+   "title": "Mineralys Prices $150 Million Stock Offering, Repurchases Lorundrostat Royalty Obligations",
+   "publisher": "MT Newswires",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/mineralys-prices-150-million-stock-113527238.html",
+   "published_unix": 1780486527,
+   "captured_at": "2026-06-03T15:26:17"
+  },
+  {
+   "uuid": "9ce7d4bd-f239-3104-8ef2-cffdfd62241b",
+   "tickers": [
+    "PVLA"
+   ],
+   "company": "PALVELLA THERAPEUTICS, INC.",
+   "title": "Palvella Therapeutics Announces Completion of FDA Pre-NDA Meeting for QTORIN\u2122 Rapamycin in Microcystic Lymphatic Malformations",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/palvella-therapeutics-announces-completion-fda-113000899.html",
+   "published_unix": 1780486200,
+   "captured_at": "2026-06-03T15:26:17"
+  },
+  {
+   "uuid": "61576ad6-8774-3eb4-b570-16e04d698696",
+   "tickers": [
+    "CABA"
+   ],
+   "company": "Cabaletta Bio, Inc.",
+   "title": "Cabaletta Bio Announces New Rese-cel Data and Development Updates Across Autoimmune Portfolio, Including Encouraging Early PC-Free Lupus Findings, at EULAR 2026 Congress",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/cabaletta-bio-announces-rese-cel-110000904.html",
+   "published_unix": 1780484400,
+   "captured_at": "2026-06-03T15:26:24"
+  },
+  {
+   "uuid": "fb37eede-bf7b-3d7a-bdca-ad256c3ed0c3",
+   "tickers": [
+    "HSY"
+   ],
+   "company": "HERSHEY CO",
+   "title": "Women run a record 11.2% of Fortune 500 companies in 2026\u2014but the gain came in a year of high-profile exits",
+   "publisher": "Fortune",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/women-run-record-11-2-103000063.html",
+   "published_unix": 1780482600,
+   "captured_at": "2026-06-03T15:26:44"
+  },
+  {
+   "uuid": "af7a86a1-7cca-32ec-94ce-d13065a5f5b2",
+   "tickers": [
+    "MLYS"
+   ],
+   "company": "Mineralys Therapeutics, Inc.",
+   "title": "Mineralys Therapeutics Announces Pricing of $150 Million Underwritten Offering of Common Stock",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/mineralys-therapeutics-announces-pricing-150-100500921.html",
+   "published_unix": 1780481100,
+   "captured_at": "2026-06-03T15:26:17"
+  },
+  {
+   "uuid": "191d768d-9419-34de-9e3f-716d731acd4d",
+   "tickers": [
+    "MLYS"
+   ],
+   "company": "Mineralys Therapeutics, Inc.",
+   "title": "Mineralys Therapeutics Announces Repurchase of Royalty Obligations in Tanabe License Agreement and Concurrent Financing",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/mineralys-therapeutics-announces-repurchase-royalty-100000697.html",
+   "published_unix": 1780480800,
+   "captured_at": "2026-06-03T15:26:17"
+  },
+  {
+   "uuid": "2d167763-157f-319b-8299-04cd2edf0eb2",
+   "tickers": [
+    "MRK"
+   ],
+   "company": "Merck & Co., Inc.",
+   "title": "When the ISS comes down, will its drug R&D be lost in space?",
+   "publisher": "Pharma Voice",
+   "link": "https://finance.yahoo.com/m/2d167763-157f-319b-8299-04cd2edf0eb2/when-the-iss-comes-down%2C-will.html",
+   "published_unix": 1780478184,
+   "captured_at": "2026-06-03T15:26:46"
+  },
+  {
+   "uuid": "925d0753-5127-33f2-b01d-8e4db34ea5b0",
+   "tickers": [
+    "VSH"
+   ],
+   "company": "VISHAY INTERTECHNOLOGY INC",
+   "title": "Is Vishay (VSH) Quietly Rewriting Its Power-Electrification Story With New Inductors and Optocouplers?",
+   "publisher": "Simply Wall St.",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/vishay-vsh-quietly-rewriting-power-091017104.html",
+   "published_unix": 1780477817,
+   "captured_at": "2026-06-03T15:26:02"
+  },
+  {
+   "uuid": "85b72034-2e1f-3d5b-9761-d1eb314e7fb9",
+   "tickers": [
+    "FIVE"
+   ],
+   "company": "FIVE BELOW, INC",
+   "title": "Broadcom Earnings, Jobs Report: What to Watch for the Rest of the Week",
+   "publisher": "The Wall Street Journal",
+   "link": "https://finance.yahoo.com/m/85b72034-2e1f-3d5b-9761-d1eb314e7fb9/broadcom-earnings%2C-jobs.html",
+   "published_unix": 1780473366,
+   "captured_at": "2026-06-03T15:25:59"
+  },
+  {
+   "uuid": "2afab0e1-5a14-3413-b310-448a1e2fb6fd",
+   "tickers": [
+    "AXTA"
+   ],
+   "company": "Axalta Coating Systems Ltd.",
+   "title": "AkzoNobel Shares Plunge After Sherwin-Williams, Nippon Paint Drop $14.5 Billion Bid",
+   "publisher": "The Wall Street Journal",
+   "link": "https://finance.yahoo.com/m/2afab0e1-5a14-3413-b310-448a1e2fb6fd/akzonobel-shares-plunge-after.html",
+   "published_unix": 1780473120,
+   "captured_at": "2026-06-03T15:26:00"
+  },
+  {
+   "uuid": "8d45c303-f2cb-3605-9501-c889c3aef1b2",
+   "tickers": [
+    "MRK"
+   ],
+   "company": "Merck & Co., Inc.",
+   "title": "Meet the Biotech Stock That's Trouncing Lilly, Merck, and Pfizer in 2026",
+   "publisher": "Motley Fool",
+   "link": "https://finance.yahoo.com/m/8d45c303-f2cb-3605-9501-c889c3aef1b2/meet-the-biotech-stock-that%27s.html",
+   "published_unix": 1780470300,
+   "captured_at": "2026-06-03T15:26:46"
+  },
+  {
+   "uuid": "53c492bb-f5c8-3ea6-a981-938edb660862",
+   "tickers": [
+    "FIVE"
+   ],
+   "company": "FIVE BELOW, INC",
+   "title": "Too Close for Comfort: How Over-Expansion Is Hurting Major Retailers",
+   "publisher": "Barrons.com",
+   "link": "https://finance.yahoo.com/m/53c492bb-f5c8-3ea6-a981-938edb660862/too-close-for-comfort%3A-how.html",
+   "published_unix": 1780462800,
+   "captured_at": "2026-06-03T15:25:59"
+  },
   {
    "uuid": "7e650c73-a05d-31f4-a5a0-a6a3a51bccfe",
    "tickers": [
@@ -2091,535 +2632,6 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/mt-stock-hits-52-week-155900197.html",
    "published_unix": 1780329540,
    "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "957be3f1-93ca-323f-b147-06e091f930e2",
-   "tickers": [
-    "WST",
-    "GMED"
-   ],
-   "company": "WEST PHARMACEUTICAL SERVICES INC",
-   "title": "PacBio Expands HiFi Sequencing Reach With New SPRQ-Nx Technology",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/pacbio-expands-hifi-sequencing-reach-150900642.html",
-   "published_unix": 1780326540,
-   "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "0d135666-38c5-3c3d-8449-e9970320ecd1",
-   "tickers": [
-    "TFX"
-   ],
-   "company": "TELEFLEX INC",
-   "title": "TFX Stock Setup: Valuation, Leverage, and a Neutral Zacks Rank",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/tfx-stock-setup-valuation-leverage-141300352.html",
-   "published_unix": 1780323180,
-   "captured_at": "2026-06-02T06:48:56"
-  },
-  {
-   "uuid": "2c767eb4-b574-3784-bf1c-f7da11bb6247",
-   "tickers": [
-    "AVTR"
-   ],
-   "company": "Avantor, Inc.",
-   "title": "Is Avantor (AVTR) Elevating Quality To A Strategic Edge With Its New Regulatory Chief?",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/avantor-avtr-elevating-quality-strategic-140727884.html",
-   "published_unix": 1780322847,
-   "captured_at": "2026-06-02T06:48:56"
-  },
-  {
-   "uuid": "a6716f06-4d3a-3a72-8049-4a93b081282c",
-   "tickers": [
-    "GMED"
-   ],
-   "company": "GLOBUS MEDICAL INC",
-   "title": "Medical Devices & Supplies - Specialty Stocks Q1 Teardown: Globus Medical (NYSE:GMED) Vs The Rest",
-   "publisher": "StockStory",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/medical-devices-supplies-specialty-stocks-140051736.html",
-   "published_unix": 1780322451,
-   "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "0d36faeb-17d6-34eb-a7cc-381af8d4adb9",
-   "tickers": [
-    "CPB"
-   ],
-   "company": "CAMPBELL'S Co",
-   "title": "Earnings Preview: Campbell's (CPB) Q3 Earnings Expected to Decline",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-campbells-cpb-q3-140002592.html",
-   "published_unix": 1780322402,
-   "captured_at": "2026-06-02T06:48:51"
-  },
-  {
-   "uuid": "53a531db-6ba5-334b-a626-aa084dea23e9",
-   "tickers": [
-    "HSY"
-   ],
-   "company": "HERSHEY CO",
-   "title": "Hershey's and Patrick Renna Spark Nationwide Debate Over How to Make the Perfect S'more",
-   "publisher": "PR Newswire",
-   "link": "https://finance.yahoo.com/sectors/technology/articles/hersheys-patrick-renna-spark-nationwide-140000884.html",
-   "published_unix": 1780322400,
-   "captured_at": "2026-06-02T06:49:25"
-  },
-  {
-   "uuid": "53544c6d-bd4c-3c68-b765-e358ebc9951c",
-   "tickers": [
-    "MRK"
-   ],
-   "company": "Merck & Co., Inc.",
-   "title": "ASCO 2026: A quiet conference for European pharma, but AstraZeneca and Roche both have work to do",
-   "publisher": "Proactive",
-   "link": "https://finance.yahoo.com/m/53544c6d-bd4c-3c68-b765-e358ebc9951c/asco-2026%3A-a-quiet-conference.html",
-   "published_unix": 1780322220,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "b25d4dcf-fd2b-356a-94c7-e55999aa2b25",
-   "tickers": [
-    "GMED"
-   ],
-   "company": "GLOBUS MEDICAL INC",
-   "title": "Abbott's CE Mark Win for Libre Duo Systems May Lift Its Stock",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/abbotts-ce-mark-win-libre-135300718.html",
-   "published_unix": 1780321980,
-   "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "c915d7a5-6fd6-3c22-97c1-d866fe656e9e",
-   "tickers": [
-    "BURL"
-   ],
-   "company": "Burlington Stores, Inc.",
-   "title": "Here's Why Burlington Stores (BURL) is a Strong Momentum Stock",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-burlington-stores-burl-135004016.html",
-   "published_unix": 1780321804,
-   "captured_at": "2026-06-02T06:48:52"
-  },
-  {
-   "uuid": "3a26037a-90a2-38e4-8ffc-1dc70f858c5c",
-   "tickers": [
-    "MRK"
-   ],
-   "company": "Merck & Co., Inc.",
-   "title": "Merck (MRK) Strengthens Capital Structure With Notes Offering",
-   "publisher": "Insider Monkey",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/merck-mrk-strengthens-capital-structure-134333985.html",
-   "published_unix": 1780321413,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "75e41465-55b9-3c89-8c5e-97ee82f7dc61",
-   "tickers": [
-    "CPB"
-   ],
-   "company": "CAMPBELL'S Co",
-   "title": "Microsoft initiated, Dell upgraded: Wall Street's top analyst calls",
-   "publisher": "The Fly",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/best-buy-downgrade-dell-upgraded-134023510.html",
-   "published_unix": 1780321324,
-   "captured_at": "2026-06-02T06:48:51"
-  },
-  {
-   "uuid": "b4b5653a-2fe4-37d4-9032-7082dd6b664d",
-   "tickers": [
-    "GMED"
-   ],
-   "company": "GLOBUS MEDICAL INC",
-   "title": "Here's Why You Should Retain CONMED Stock in Your Portfolio Now",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-retain-conmed-stock-132300193.html",
-   "published_unix": 1780320180,
-   "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "47d68ac6-4197-34a7-877c-4b353aa5a555",
-   "tickers": [
-    "GMED"
-   ],
-   "company": "GLOBUS MEDICAL INC",
-   "title": "LH Expands Genetic Testing in CRC Through New Collab: Stock to Gain?",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/lh-expands-genetic-testing-crc-131100992.html",
-   "published_unix": 1780319460,
-   "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "473bc367-13db-3a07-bb7a-1d9b5ff0d8b6",
-   "tickers": [
-    "CMCSA"
-   ],
-   "company": "COMCAST CORP",
-   "title": "Comcast Corporation (CMCSA) is Attracting Investor Attention: Here is What You Should Know",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/comcast-corporation-cmcsa-attracting-investor-130004491.html",
-   "published_unix": 1780318804,
-   "captured_at": "2026-06-02T06:48:41"
-  },
-  {
-   "uuid": "c8914611-21ed-3fb0-bedf-7a224899326e",
-   "tickers": [
-    "LNC"
-   ],
-   "company": "LINCOLN NATIONAL CORP",
-   "title": "Lincoln Financial Announces Executive Leadership Transitions",
-   "publisher": "Business Wire",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/lincoln-financial-announces-executive-leadership-130000554.html",
-   "published_unix": 1780318800,
-   "captured_at": "2026-06-02T06:48:45"
-  },
-  {
-   "uuid": "b472872b-5570-3e6b-8fc5-f9683d40a6f9",
-   "tickers": [
-    "NVRI"
-   ],
-   "company": "ENVIRI Corp",
-   "title": "New Enviri Launches as Standalone Public Company; Sale of Clean Earth Completed",
-   "publisher": "GlobeNewswire",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/enviri-launches-standalone-public-company-130000404.html",
-   "published_unix": 1780318800,
-   "captured_at": "2026-06-02T06:49:00"
-  },
-  {
-   "uuid": "a059addc-1642-35c8-95f4-f0ef8ac0fbf8",
-   "tickers": [
-    "AVBP"
-   ],
-   "company": "ArriVent BioPharma, Inc.",
-   "title": "The Evolving EGFR NSCLC Market: 8 Emerging Late-stage Therapies to Watch | DelveInsight",
-   "publisher": "PR Newswire",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/evolving-egfr-nsclc-market-8-123100332.html",
-   "published_unix": 1780317060,
-   "captured_at": "2026-06-02T06:49:02"
-  },
-  {
-   "uuid": "0fd42a07-600d-36bc-9bd0-3ccd39957edd",
-   "tickers": [
-    "CRS"
-   ],
-   "company": "CARPENTER TECHNOLOGY CORP",
-   "title": "If You Invested $1000 in Carpenter Technology a Decade Ago, This is How Much It'd Be Worth Now",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-carpenter-technology-decade-123004947.html",
-   "published_unix": 1780317004,
-   "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "d5243ba7-2b44-358a-b549-d5296f2216c0",
-   "tickers": [
-    "JNJ"
-   ],
-   "company": "JOHNSON & JOHNSON",
-   "title": "No Rate Cuts Until 2027? Grab These High-Yielding Safe Dividend Kings Now",
-   "publisher": "24/7 Wall St.",
-   "link": "https://finance.yahoo.com/m/d5243ba7-2b44-358a-b549-d5296f2216c0/no-rate-cuts-until-2027%3F-grab.html",
-   "published_unix": 1780316404,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "a83f3aa0-5739-34c6-b96c-c32306bcc496",
-   "tickers": [
-    "CRS"
-   ],
-   "company": "CARPENTER TECHNOLOGY CORP",
-   "title": "Beat the Market Like Zacks: Oracle, Micron, Hudson Pacific in Focus",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/beat-market-zacks-oracle-micron-121900137.html",
-   "published_unix": 1780316340,
-   "captured_at": "2026-06-02T06:48:54"
-  },
-  {
-   "uuid": "09d2606f-cf38-3c10-a557-4095ad8417e0",
-   "tickers": [
-    "TFX"
-   ],
-   "company": "TELEFLEX INC",
-   "title": "Teleflex Begins Private Offering of $500 Million Senior Notes",
-   "publisher": "MT Newswires",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/teleflex-begins-private-offering-500-121555139.html",
-   "published_unix": 1780316155,
-   "captured_at": "2026-06-02T06:48:56"
-  },
-  {
-   "uuid": "921fd4b1-8685-38fc-aff4-9856bacd19c2",
-   "tickers": [
-    "CPB"
-   ],
-   "company": "CAMPBELL'S Co",
-   "title": "Here Are Monday\u2019s Top Wall Street Analyst Research Calls: Accenture, Caesars Entertainment, Carnival, Dell Technologies, IBM, Kohl\u2019s, Microsoft, Zscaler, and More",
-   "publisher": "24/7 Wall St.",
-   "link": "https://finance.yahoo.com/m/921fd4b1-8685-38fc-aff4-9856bacd19c2/here-are-monday%E2%80%99s-top-wall.html",
-   "published_unix": 1780315270,
-   "captured_at": "2026-06-02T06:48:51"
-  },
-  {
-   "uuid": "463507cb-eca9-39a1-9c10-4c9a01e32cc9",
-   "tickers": [
-    "VERX"
-   ],
-   "company": "Vertex, Inc.",
-   "title": "Vertex to Present at the 46th Annual William Blair Growth Stock Conference",
-   "publisher": "GlobeNewswire",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/vertex-present-46th-annual-william-120000009.html",
-   "published_unix": 1780315200,
-   "captured_at": "2026-06-02T06:48:59"
-  },
-  {
-   "uuid": "1cf56859-655a-3d4b-8ca5-2520bf062298",
-   "tickers": [
-    "APRE"
-   ],
-   "company": "Aprea Therapeutics, Inc.",
-   "title": "Aprea Therapeutics Presents Updated Phase 1 Data on WEE1 Inhibitor APR-1051 at ASCO 2026, Demonstrating Early Monotherapy Activity and Manageable Tolerability in Advanced Solid Tumors",
-   "publisher": "GlobeNewswire",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/aprea-therapeutics-presents-updated-phase-120000389.html",
-   "published_unix": 1780315200,
-   "captured_at": "2026-06-02T06:49:18"
-  },
-  {
-   "uuid": "de5385d8-a6c5-3ae9-9c32-2172e0332b53",
-   "tickers": [
-    "MRK"
-   ],
-   "company": "Merck & Co., Inc.",
-   "title": "Moderna and Merck Present 5-Year Data for Intismeran Autogene in Combination With KEYTRUDA (pembrolizumab) in Patients With High-Risk Stage III/IV Melanoma Following Complete Resection at the 2026 ASCO Annual Meeting",
-   "publisher": "ACCESS Newswire",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/moderna-merck-present-5-data-120000678.html",
-   "published_unix": 1780315200,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "f11083c7-cd7b-3396-bd98-8947297ef9f4",
-   "tickers": [
-    "JNJ"
-   ],
-   "company": "JOHNSON & JOHNSON",
-   "title": "Weekly Stock List",
-   "publisher": "Argus Research",
-   "link": "https://finance.yahoo.com/m/f11083c7-cd7b-3396-bd98-8947297ef9f4/weekly-stock-list.html",
-   "published_unix": 1780315198,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "ed49aab9-5064-3fa3-8e7c-b514c4e1cb30",
-   "tickers": [
-    "TFX"
-   ],
-   "company": "TELEFLEX INC",
-   "title": "Teleflex Incorporated Announces Private Offering of $500 Million of Senior Notes Due 2032",
-   "publisher": "Business Wire",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/teleflex-incorporated-announces-private-offering-114500858.html",
-   "published_unix": 1780314300,
-   "captured_at": "2026-06-02T06:48:56"
-  },
-  {
-   "uuid": "775e3e0f-b01f-32cf-bb8d-9cf809978a27",
-   "tickers": [
-    "BURL"
-   ],
-   "company": "Burlington Stores, Inc.",
-   "title": "Burlington Beat Earnings Estimates, But Not Investor Expectations",
-   "publisher": "MarketBeat",
-   "link": "https://finance.yahoo.com/m/775e3e0f-b01f-32cf-bb8d-9cf809978a27/burlington-beat-earnings.html",
-   "published_unix": 1780314300,
-   "captured_at": "2026-06-02T14:47:13"
-  },
-  {
-   "uuid": "993a2bc9-a674-3211-8d46-e5af10fa2f1e",
-   "tickers": [
-    "FMC"
-   ],
-   "company": "FMC CORP",
-   "title": "3 Undervalued Small Caps With Insider Buying Across Regions",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/3-undervalued-small-caps-insider-114010620.html",
-   "published_unix": 1780314010,
-   "captured_at": "2026-06-02T06:48:42"
-  },
-  {
-   "uuid": "63c35327-b1d6-3ee7-a353-7a50eef5299d",
-   "tickers": [
-    "MRK"
-   ],
-   "company": "Merck & Co., Inc.",
-   "title": "Natera And 2 Other Companies That May Be Trading Below Their Estimated Value",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/natera-2-other-companies-may-113842683.html",
-   "published_unix": 1780313922,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "6981f2c0-1816-320c-81be-f7fa4b3694d6",
-   "tickers": [
-    "AVTR"
-   ],
-   "company": "Avantor, Inc.",
-   "title": "Avantor (AVTR) Appoints Ludovic Brellier as EVP and Chief Transformation Officer",
-   "publisher": "Insider Monkey",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/avantor-avtr-appoints-ludovic-brellier-113710360.html",
-   "published_unix": 1780313830,
-   "captured_at": "2026-06-02T06:48:56"
-  },
-  {
-   "uuid": "fc1b152f-c108-3fa9-bb0d-dc03a1c02c63",
-   "tickers": [
-    "ARMK"
-   ],
-   "company": "Aramark",
-   "title": "Texas State University Selects Aramark as Its New Comprehensive Collegiate Hospitality Partner",
-   "publisher": "Business Wire",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/texas-state-university-selects-aramark-113000609.html",
-   "published_unix": 1780313400,
-   "captured_at": "2026-06-02T06:48:42"
-  },
-  {
-   "uuid": "8418334a-1475-3cd6-8928-03e7ffdbccd3",
-   "tickers": [
-    "HLNE"
-   ],
-   "company": "Hamilton Lane INC",
-   "title": "A Look At Hamilton Lane (HLNE) Valuation After Earnings Dividend Hike And Expanded Buyback",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/look-hamilton-lane-hlne-valuation-111224395.html",
-   "published_unix": 1780312344,
-   "captured_at": "2026-06-02T06:48:57"
-  },
-  {
-   "uuid": "3a95bbca-e8c6-3f4f-b102-c5fac5bdaf6c",
-   "tickers": [
-    "STIM"
-   ],
-   "company": "Neuronetics, Inc.",
-   "title": "Lungpacer Medical Appoints Steven Pfanstiel as Chief Financial Officer",
-   "publisher": "GlobeNewswire",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/lungpacer-medical-appoints-steven-pfanstiel-110000485.html",
-   "published_unix": 1780311600,
-   "captured_at": "2026-06-02T06:49:12"
-  },
-  {
-   "uuid": "5da56d92-421a-3765-a223-39799b420e07",
-   "tickers": [
-    "VSNT"
-   ],
-   "company": "Versant Media Group, Inc.",
-   "title": "Daily \u2013 Vickers Top Insider Picks for 06/01/2026",
-   "publisher": "Argus Research",
-   "link": "https://finance.yahoo.com/m/5da56d92-421a-3765-a223-39799b420e07/daily-%E2%80%93-vickers-top-insider.html",
-   "published_unix": 1780310156,
-   "captured_at": "2026-06-02T06:48:55"
-  },
-  {
-   "uuid": "5ba38c71-8a16-3073-890d-05ee6cdd5ae3",
-   "tickers": [
-    "CPB"
-   ],
-   "company": "CAMPBELL'S Co",
-   "title": "Correction: Stephens Downgrades Campbell's to Equalweight From Overweight, Adjusts PT to $21 From $28",
-   "publisher": "MT Newswires",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/correction-stephens-downgrades-campbell-apos-102738041.html",
-   "published_unix": 1780309658,
-   "captured_at": "2026-06-02T06:48:51"
-  },
-  {
-   "uuid": "631f9584-5bc3-32d5-9d3a-49a2f294a070",
-   "tickers": [
-    "CPB"
-   ],
-   "company": "CAMPBELL'S Co",
-   "title": "Stephens Upgrades Campbell's to Equalweight From Overweight, Adjusts PT to $21 From $28",
-   "publisher": "MT Newswires",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/stephens-upgrades-campbell-apos-equalweight-102001394.html",
-   "published_unix": 1780309201,
-   "captured_at": "2026-06-02T06:48:51"
-  },
-  {
-   "uuid": "d42d514c-44dd-3495-844f-59f9cefdcd6d",
-   "tickers": [
-    "BURL"
-   ],
-   "company": "Burlington Stores, Inc.",
-   "title": "BURL Q1 Deep Dive: Execution on New Stores, Productivity, and Off-Price Trends Drive Growth",
-   "publisher": "StockStory",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/burl-q1-deep-dive-execution-100051837.html",
-   "published_unix": 1780308051,
-   "captured_at": "2026-06-02T06:48:52"
-  },
-  {
-   "uuid": "1807cfc7-e32f-31e2-9cd4-56a2da912bde",
-   "tickers": [
-    "CPB"
-   ],
-   "company": "CAMPBELL'S Co",
-   "title": "Evercore ISI Adjusts Price Target on Campbell's to $24 From $26, Maintains In Line Rating",
-   "publisher": "MT Newswires",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-adjusts-price-target-095647135.html",
-   "published_unix": 1780307807,
-   "captured_at": "2026-06-02T06:48:51"
-  },
-  {
-   "uuid": "8d924cb6-7b06-3488-a1ea-1231f4292a8c",
-   "tickers": [
-    "DD"
-   ],
-   "company": "DuPont de Nemours, Inc.",
-   "title": "How DuPont\u2019s Reverse Stock Split Approval And Reaffirmed Guidance At DuPont de Nemours (DD) Has Changed Its Investment Story",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/dupont-reverse-stock-split-approval-091043479.html",
-   "published_unix": 1780305043,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "d9f8655e-705c-3ba2-b277-8de5f6572473",
-   "tickers": [
-    "JNJ"
-   ],
-   "company": "JOHNSON & JOHNSON",
-   "title": "Johnson & Johnson Reports 42% Response Rate for Advanced Head and Neck Cancer Therapy",
-   "publisher": "MT Newswires",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/johnson-johnson-reports-42-response-091009404.html",
-   "published_unix": 1780305009,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "37d662a7-6ff8-3f07-8ab5-44e0980d2902",
-   "tickers": [
-    "JNJ"
-   ],
-   "company": "JOHNSON & JOHNSON",
-   "title": "Is It Too Late To Consider Johnson & Johnson (JNJ) After Its 48% One-Year Surge?",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/too-consider-johnson-johnson-jnj-071130758.html",
-   "published_unix": 1780297890,
-   "captured_at": "2026-06-02T06:49:26"
-  },
-  {
-   "uuid": "97e0c0fe-8f48-359b-8a9c-84681e9d1d4c",
-   "tickers": [
-    "COR"
-   ],
-   "company": "Cencora, Inc.",
-   "title": "LUCENT Appoints Simon Doyle as CEO with Matthew Goodman Taking Chief Medical Officer Position",
-   "publisher": "PR Newswire",
-   "link": "https://finance.yahoo.com/sectors/healthcare/articles/lucent-appoints-simon-doyle-ceo-070000227.html",
-   "published_unix": 1780297200,
-   "captured_at": "2026-06-02T06:48:50"
-  },
-  {
-   "uuid": "85a07a55-61c4-320a-a130-debb8e56d8ba",
-   "tickers": [
-    "BURL"
-   ],
-   "company": "Burlington Stores, Inc.",
-   "title": "Burlington Q1 Earnings Call Points to More Margin-Led Growth",
-   "publisher": "Zacks",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/burlington-q1-earnings-call-points-065900339.html",
-   "published_unix": 1780297140,
-   "captured_at": "2026-06-02T06:48:52"
   }
  ]
 }
