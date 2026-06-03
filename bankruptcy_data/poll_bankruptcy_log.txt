@@ -94,3 +94,11 @@
 [2026-06-03 12:10:38 ET]   checked 817 dockets, fetched 817 party records, 2 new local hits
 [2026-06-03 12:10:38 ET] === Backfill done. 2 local hits. ===
 
+[2026-06-03 14:23:26 ET] === Poll start (since 2026-06-02, live=True) ===
+[2026-06-03 14:23:26 ET]   fetching search page: ...?q=chapter%3A11&type=d&filed_after=2026-06-02&order_by=dateFiled+asc&format=json
+[2026-06-03 14:23:53 ET]   fetching search page: ...&filed_after=2026-06-02&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 14:24:11 ET]   fetching search page: ...&filed_after=2026-06-02&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 14:24:27 ET]   fetching search page: ...&filed_after=2026-06-02&format=json&order_by=dateFiled+asc&q=chapter%3A11&type=d
+[2026-06-03 14:24:42 ET]   checked 80 dockets, fetched 80 party records, 0 new local hits
+[2026-06-03 14:24:42 ET] === Poll done. 0 new local hits. ===
+
