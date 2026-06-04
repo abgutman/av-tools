@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-04T00:27:13",
+ "generated_at": "2026-06-04T04:52:06",
  "items": [
   {
    "uuid": "a7b3d353-b521-354c-b13e-a417c1c900dc",
@@ -2908,30 +2908,6 @@
    "link": "https://finance.yahoo.com/markets/stocks/articles/expect-five-below-five-q1-052051433.html",
    "published_unix": 1780377651,
    "captured_at": "2026-06-02T06:48:43"
-  },
-  {
-   "uuid": "993133ef-b686-341d-9e09-74a986910b55",
-   "tickers": [
-    "AWK"
-   ],
-   "company": "American Water Works Company, Inc.",
-   "title": "Assessing American Water Works Company (AWK) Valuation After Recent Share Price Weakness",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/assessing-american-water-works-company-021051591.html",
-   "published_unix": 1780366251,
-   "captured_at": "2026-06-02T06:48:51"
-  },
-  {
-   "uuid": "84335573-6275-3f44-970d-2fb5e578fa27",
-   "tickers": [
-    "AME"
-   ],
-   "company": "AMETEK INC/",
-   "title": "Is Eaton Corporation Stock Underperforming the S&P 500?",
-   "publisher": "Barchart",
-   "link": "https://finance.yahoo.com/m/84335573-6275-3f44-970d-2fb5e578fa27/is-eaton-corporation-stock.html",
-   "published_unix": 1780365078,
-   "captured_at": "2026-06-02T14:47:07"
   }
  ]
 }
