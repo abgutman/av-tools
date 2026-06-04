@@ -1,6 +1,114 @@
 {
- "generated_at": "2026-06-03T22:26:04",
+ "generated_at": "2026-06-04T00:27:13",
  "items": [
+  {
+   "uuid": "a7b3d353-b521-354c-b13e-a417c1c900dc",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Why Is Halozyme Therapeutics (HALO) Stock Rocketing Higher Today",
+   "publisher": "StockStory",
+   "link": "https://finance.yahoo.com/sectors/healthcare/articles/why-halozyme-therapeutics-halo-stock-001533252.html",
+   "published_unix": 1780532133,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "89d110a3-cc5a-3e72-83aa-86d2f84a9cda",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Physical bitcoin worth $1.78M gets cracked open after 12 years",
+   "publisher": "TheStreet",
+   "link": "https://finance.yahoo.com/m/89d110a3-cc5a-3e72-83aa-86d2f84a9cda/physical-bitcoin-worth-%241.78m.html",
+   "published_unix": 1780532100,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "afce77c9-1673-35e1-8d20-f690ab21b931",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "B.C.-based mining company sanctioned for filing misleading technical report",
+   "publisher": "CNW Group",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/b-c-based-mining-company-001500116.html",
+   "published_unix": 1780532100,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "5319cb89-ccb4-397c-91dd-d13d4b686008",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Has Ferrari Lost Its Mind?",
+   "publisher": "Motley Fool",
+   "link": "https://finance.yahoo.com/m/5319cb89-ccb4-397c-91dd-d13d4b686008/has-ferrari-lost-its-mind%3F.html",
+   "published_unix": 1780531994,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "307abd43-385e-3169-835b-a05d0742b5da",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Bayeux Tapestry to be moved in secret to British Museum: minister",
+   "publisher": "AFP",
+   "link": "https://finance.yahoo.com/m/307abd43-385e-3169-835b-a05d0742b5da/bayeux-tapestry-to-be-moved.html",
+   "published_unix": 1780531812,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "145d3eb8-db28-322e-b9f2-f6ec7f088de7",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Quantinuum Announces Pricing of Upsized Initial Public Offering",
+   "publisher": "PR Newswire",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/quantinuum-announces-pricing-upsized-initial-000900292.html",
+   "published_unix": 1780531740,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "e627d63d-cffc-30f1-bfb5-c6645903d2f2",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Q2 Holdings, HubSpot, and Marqeta Shares Are Falling, What You Need To Know",
+   "publisher": "StockStory",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/q2-holdings-hubspot-marqeta-shares-000733610.html",
+   "published_unix": 1780531653,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "0d14dc73-7a26-3961-adf1-8a4662cf8dac",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Andrew Peller Ltd. Announces Timing of Q4 & Full-Year Fiscal 2026  Results & Conference Call",
+   "publisher": "GlobeNewswire",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/andrew-peller-ltd-announces-timing-000700918.html",
+   "published_unix": 1780531620,
+   "captured_at": "2026-06-04T00:27:10"
+  },
+  {
+   "uuid": "2f789851-1870-3def-9086-60c97579eb6c",
+   "tickers": [
+    "ESMR"
+   ],
+   "company": "E-Smart Corp.",
+   "title": "Meta lashes Australia's bid to make tech giants pay for news",
+   "publisher": "AFP",
+   "link": "https://finance.yahoo.com/economy/policy/articles/meta-lashes-australias-bid-tech-000610630.html",
+   "published_unix": 1780531570,
+   "captured_at": "2026-06-04T00:27:10"
+  },
   {
    "uuid": "d712321c-4529-3c49-8be4-5e0c181571e4",
    "tickers": [
@@ -36,6 +144,18 @@
    "link": "https://finance.yahoo.com/sectors/technology/articles/aspen-snowmass-summer-2026-bring-220900166.html",
    "published_unix": 1780524540,
    "captured_at": "2026-06-03T22:26:00"
+  },
+  {
+   "uuid": "123153e3-0988-313b-a9f6-4d35b69b522c",
+   "tickers": [
+    "FIVE"
+   ],
+   "company": "FIVE BELOW, INC",
+   "title": "After-Hours Stocks to Watch: CrowdStrike, Broadcom, Five Below",
+   "publisher": "The Wall Street Journal",
+   "link": "https://finance.yahoo.com/m/123153e3-0988-313b-a9f6-4d35b69b522c/after-hours-stocks-to-watch%3A.html",
+   "published_unix": 1780524531,
+   "captured_at": "2026-06-04T00:26:33"
   },
   {
    "uuid": "daec977e-5a93-356f-a2e4-bb9e9fada59c",
@@ -144,6 +264,18 @@
    "link": "https://finance.yahoo.com/m/903ace6a-b192-3716-8cc3-0ee6e7618178/five-below-q1-earnings-call.html",
    "published_unix": 1780524278,
    "captured_at": "2026-06-03T22:25:11"
+  },
+  {
+   "uuid": "9346e55c-acf2-34b3-a7fa-0b6aa3438186",
+   "tickers": [
+    "FIVE"
+   ],
+   "company": "FIVE BELOW, INC",
+   "title": "Five Below (FIVE) Q1 Earnings and Revenues Surpass Estimates",
+   "publisher": "Zacks",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/five-below-five-q1-earnings-211002302.html",
+   "published_unix": 1780521002,
+   "captured_at": "2026-06-04T00:26:33"
   },
   {
    "uuid": "b2602494-1fe2-3a29-99e6-f2bad8b7ac51",
@@ -2800,54 +2932,6 @@
    "link": "https://finance.yahoo.com/m/84335573-6275-3f44-970d-2fb5e578fa27/is-eaton-corporation-stock.html",
    "published_unix": 1780365078,
    "captured_at": "2026-06-02T14:47:07"
-  },
-  {
-   "uuid": "30d91dec-19b2-3854-8fc8-c004e4b773a5",
-   "tickers": [
-    "VERX"
-   ],
-   "company": "Vertex, Inc.",
-   "title": "Vertex (VERX) Is Up 11.3% After Brinta Deal And AI-Focused Cost Cuts Reshape Tax Strategy",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/vertex-verx-11-3-brinta-001943458.html",
-   "published_unix": 1780359583,
-   "captured_at": "2026-06-02T06:48:59"
-  },
-  {
-   "uuid": "7791f139-0af4-379b-b251-5ef81372dd78",
-   "tickers": [
-    "HLNE"
-   ],
-   "company": "Hamilton Lane INC",
-   "title": "RedStone exec explains how BlackRock and Apollo funds became DeFi collateral",
-   "publisher": "TheStreet",
-   "link": "https://finance.yahoo.com/m/7791f139-0af4-379b-b251-5ef81372dd78/redstone-exec-explains-how.html",
-   "published_unix": 1780355624,
-   "captured_at": "2026-06-02T06:48:57"
-  },
-  {
-   "uuid": "6c1bfe4e-5b52-3fd1-ac26-d78882600215",
-   "tickers": [
-    "COR"
-   ],
-   "company": "Cencora, Inc.",
-   "title": "Is Cencora\u2019s New CFO, $2 Billion Buyback, and Lawsuit Trio Altering The Investment Case For Cencora (COR)?",
-   "publisher": "Simply Wall St.",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/cencora-cfo-2-billion-buyback-231142338.html",
-   "published_unix": 1780355502,
-   "captured_at": "2026-06-02T06:48:50"
-  },
-  {
-   "uuid": "b487e2d5-53cd-39c4-a330-7a6a485984b2",
-   "tickers": [
-    "CMCSA"
-   ],
-   "company": "COMCAST CORP",
-   "title": "Here\u2019s what\u2019s worth streaming in June 2026 on Netflix, Hulu, HBO Max and more",
-   "publisher": "MarketWatch",
-   "link": "https://finance.yahoo.com/m/b487e2d5-53cd-39c4-a330-7a6a485984b2/here%E2%80%99s-what%E2%80%99s-worth-streaming.html",
-   "published_unix": 1780353600,
-   "captured_at": "2026-06-02T06:48:41"
   }
  ]
 }
