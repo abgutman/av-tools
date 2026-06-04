@@ -11,7 +11,7 @@ For each tracked company:
   3. Dedupe by UUID — keep the union of associated tickers per article
   4. Drop entries older than 48 hours so the feed stays focused on "today / yesterday"
 """
-import json, os, sys, subprocess, time
+import json, os, re, sys, subprocess, time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -22,6 +22,38 @@ FEED_FILE = ED / "news_feed.json"
 LOG_FILE = ED / "news_feed_log.txt"
 
 LOOKBACK_HOURS = 48
+
+STRIP_SUFFIXES = re.compile(
+    r"\b(Inc\.?|Corp\.?|Co\.?|Ltd\.?|LLC|L\.?P\.?|PLC|N\.?V\.?|S\.?A\.?|"
+    r"Holdings?|Group|Company|Technologies|Therapeutics|Biosciences|"
+    r"Pharmaceuticals|Systems|Solutions|Services|International|Enterprises|"
+    r"The)\b", re.I)
+
+EXCLUDED_PUBLISHERS = {
+    "StockStory", "Motley Fool", "GuruFocus.com", "Simply Wall St.",
+    "24/7 Wall St.", "Seeking Alpha", "InvestorPlace", "TipRanks",
+    "Insider Monkey", "Barchart", "Finbold", "MarketBeat", "Benzinga",
+    "Investing.com", "Stockopedia", "Schaeffer's", "Zacks",
+}
+
+def _name_keywords(name):
+    """Extract meaningful words from a company name for headline matching."""
+    cleaned = STRIP_SUFFIXES.sub("", name)
+    cleaned = re.sub(r"[,./&\-()]+", " ", cleaned)
+    words = [w for w in cleaned.split() if len(w) >= 2]
+    return words
+
+def headline_matches(title, ticker, company_name):
+    """Check if a headline is relevant: must mention the ticker or a key part of the company name."""
+    title_upper = title.upper()
+    if ticker.upper() in re.findall(r"[A-Z]{2,}", title_upper):
+        return True
+    title_lower = title.lower()
+    keywords = _name_keywords(company_name)
+    for word in keywords:
+        if word.lower() in title_lower:
+            return True
+    return False
 
 def log(msg):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -78,20 +110,24 @@ def main():
         for item in data.get("news", []):
             uuid = item.get("uuid")
             if not uuid: continue
+            title = item.get("title", "")
+            publisher = item.get("publisher", "")
+            if publisher in EXCLUDED_PUBLISHERS:
+                continue
+            if not headline_matches(title, ticker, name):
+                continue
             existing = by_uuid.get(uuid)
             if existing:
-                # Add this ticker to the article's tickers list if not already there
                 ts = existing.setdefault("tickers", [])
                 if ticker not in ts:
                     ts.append(ticker)
                 continue
-            # New article
             by_uuid[uuid] = {
                 "uuid": uuid,
                 "tickers": [ticker],
                 "company": name,
-                "title": item.get("title",""),
-                "publisher": item.get("publisher",""),
+                "title": title,
+                "publisher": publisher,
                 "link": item.get("link",""),
                 "published_unix": item.get("providerPublishTime", 0),
                 "captured_at": datetime.now().isoformat(timespec="seconds"),
