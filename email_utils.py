@@ -88,7 +88,7 @@ def subject_save_the_date(name, ticker):
 def body_new_report_edgar(name, ticker, filing_date, url, accepted_at=None, detected_at=None):
     rows = []
     if accepted_at:
-        rows.append(("Publicly available", _fmt_et(accepted_at)))
+        rows.append(("Submitted to SEC", _fmt_et(accepted_at)))
     if detected_at:
         rows.append(("Detected by monitor", _fmt_et(detected_at)))
     rows.append(("Filed with SEC", filing_date))
