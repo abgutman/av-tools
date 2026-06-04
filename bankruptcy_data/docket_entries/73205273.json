@@ -1,8 +1,8 @@
 {
  "docket_id": 73205273,
- "last_fetched": "2026-06-03T18:31:06-04:00",
- "last_entry_number": 400,
- "total_entries": 440,
+ "last_fetched": "2026-06-04T12:22:33-04:00",
+ "last_entry_number": 410,
+ "total_entries": 448,
  "classified_entries": [
   {
    "entry_number": 0,
@@ -1396,6 +1396,18 @@
     {
      "url": "https://www.courtlistener.com/docket/73205273/393/qvc-group-inc/",
      "description": "Notice"
+    }
+   ]
+  },
+  {
+   "entry_number": 401,
+   "date_filed": "2026-06-03",
+   "description": "Sealed Document Joint Notice of Designation of Deposition Testimony for Arif Gangat in Connection with the Confirmation Hearing Scheduled to Begin on June 4, 2026 (Filed By Official Committee of Unsec",
+   "category": "confirmation",
+   "recap_documents": [
+    {
+     "url": "https://www.courtlistener.com/docket/73205273/401/qvc-group-inc/",
+     "description": ""
     }
    ]
   }
