@@ -6947,7 +6947,1302 @@
       "defendant": "DURANT, ERICA",
       "lm_match": false,
       "first_seen": "2026-06-04T11:54:18.457066"
+    },
+    "2026-61610": {
+      "internal_id": "201474308",
+      "case_number": "2026-61610",
+      "commenced": "6/4/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "LASHES BY LINDSEY LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:41.167705"
+    },
+    "2026-14451": {
+      "internal_id": "201474477",
+      "case_number": "2026-14451",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "NEW JERSEY MANUFACTURERS INS CO ",
+      "defendant": "GLENN, JOSEPH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:41.499133"
+    },
+    "2026-14450": {
+      "internal_id": "201474476",
+      "case_number": "2026-14450",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "NOBLE, ROCCO",
+      "defendant": "VIVAS, ENRIQUE MONROY",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:41.837783"
+    },
+    "2026-14447": {
+      "internal_id": "201474437",
+      "case_number": "2026-14447",
+      "commenced": "6/4/2026",
+      "case_type": "Appeal from Suspension/Registration/Inspection Station",
+      "plaintiff": "RIDGELY, COLE W",
+      "defendant": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:42.198731"
+    },
+    "2026-14449": {
+      "internal_id": "201474479",
+      "case_number": "2026-14449",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "RED TARGET LLC ",
+      "defendant": "321 WAYS TO FUN LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:42.551492"
+    },
+    "2026-14448": {
+      "internal_id": "201474478",
+      "case_number": "2026-14448",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PAPPACHEN, MATHEW",
+      "defendant": "RECINOS JR, RAIBERT MANF",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:42.906288"
+    },
+    "2026-14445": {
+      "internal_id": "201474474",
+      "case_number": "2026-14445",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "ROCKET MORTGAGE LLC",
+      "defendant": "MAZZA, JOSEPH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:43.255984"
+    },
+    "2026-14438": {
+      "internal_id": "201474462",
+      "case_number": "2026-14438",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "FARLEMAN, JOSHUA J.",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:43.623548"
+    },
+    "2026-14437": {
+      "internal_id": "201474461",
+      "case_number": "2026-14437",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "TURNER, KEVON NYLES",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:43.969585"
+    },
+    "2026-14443": {
+      "internal_id": "201474473",
+      "case_number": "2026-14443",
+      "commenced": "6/4/2026",
+      "case_type": "Plaintiffs Appeal from District Justice",
+      "plaintiff": "LVNV FUNDING LLC ",
+      "defendant": "ADDESSO, BARBARA",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:44.311434"
+    },
+    "2026-14435": {
+      "internal_id": "201474469",
+      "case_number": "2026-14435",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint in Quiet Title",
+      "plaintiff": "NELSON, CHARLES C JR",
+      "defendant": "LEGACY PROPERTY BUYERS LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:44.660745"
+    },
+    "2026-14440": {
+      "internal_id": "201474465",
+      "case_number": "2026-14440",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint In Replevin",
+      "plaintiff": "BRIDGECREST CREDIT COMPANY LLC AS AGENT AND SERVICER FOR CARVANA LLC",
+      "defendant": "EPPS, JAMEAKWHA LASHEA",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:45.013198"
+    },
+    "2026-14439": {
+      "internal_id": "201474464",
+      "case_number": "2026-14439",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint in Ejectment",
+      "plaintiff": "JASKOT, GREGORY FRANCIS SR",
+      "defendant": "JASKOT, KAREN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:45.366380"
+    },
+    "2026-14442": {
+      "internal_id": "201474449",
+      "case_number": "2026-14442",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "DELY, MACKENDY",
+      "defendant": "CARLTON POOLS  INC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:45.722581"
+    },
+    "2026-14410": {
+      "internal_id": "201474463",
+      "case_number": "2026-14410",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "THE MEADOWS CONDOMINIUM ASSOCIATION",
+      "defendant": "OTTEY, THOMAS EDWARD",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:46.078248"
+    },
+    "2026-14408": {
+      "internal_id": "201474460",
+      "case_number": "2026-14408",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "HILL, DEBORAH LEE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:46.449180"
+    },
+    "2026-14406": {
+      "internal_id": "201474459",
+      "case_number": "2026-14406",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "AUGUSTINE, KIMBERLY ANN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:46.791216"
+    },
+    "2026-14405": {
+      "internal_id": "201474458",
+      "case_number": "2026-14405",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "GALLOWAY, DAVID",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:47.165060"
+    },
+    "2026-14436": {
+      "internal_id": "201474450",
+      "case_number": "2026-14436",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "FREEDOM MORTGAGE CORPORATION",
+      "defendant": "HALAS, RONALD J",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:47.499840"
+    },
+    "2026-14404": {
+      "internal_id": "201474457",
+      "case_number": "2026-14404",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "FOX, ELIZABETH MARIE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:47.851233"
+    },
+    "2026-14400": {
+      "internal_id": "201474454",
+      "case_number": "2026-14400",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "CURRUTH, PATRICK MAURICE ANTONIO",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:48.230538"
+    },
+    "2026-14434": {
+      "internal_id": "201474382",
+      "case_number": "2026-14434",
+      "commenced": "6/4/2026",
+      "case_type": "Indexed Writ of Execution with Garnishee",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "QUAILTY ONE ROOFING INC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:48.781619"
+    },
+    "2026-14399": {
+      "internal_id": "201474453",
+      "case_number": "2026-14399",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "WATTS, KIMBERLEY MARIE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:49.121826"
+    },
+    "2026-14397": {
+      "internal_id": "201474452",
+      "case_number": "2026-14397",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "JABLONSKI, IAN EDWARD",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:49.490548"
+    },
+    "2026-14396": {
+      "internal_id": "201474451",
+      "case_number": "2026-14396",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "KENNEDY, ISAIAH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:49.828984"
+    },
+    "2026-14411": {
+      "internal_id": "201474448",
+      "case_number": "2026-14411",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "DEUTSCHE BANK NATIONAL TRUST COMPANY",
+      "defendant": "COGGIN, GARY W",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:50.171839"
+    },
+    "2026-14431": {
+      "internal_id": "201474439",
+      "case_number": "2026-14431",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "ROCKLEDGE BOROUGH",
+      "defendant": "DECRISTOFARO, NANCY",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:50.549440"
+    },
+    "2026-14432": {
+      "internal_id": "201474445",
+      "case_number": "2026-14432",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "PAYNE, SALEEM",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:50.918088"
+    },
+    "2026-14433": {
+      "internal_id": "201474447",
+      "case_number": "2026-14433",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "GOLD, FRANCES G",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:51.267601"
+    },
+    "2026-14415": {
+      "internal_id": "201474407",
+      "case_number": "2026-14415",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "TUSCANO, JON",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:51.622123"
+    },
+    "2026-14416": {
+      "internal_id": "201474408",
+      "case_number": "2026-14416",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "YOUNG, KATHLEEN A",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:51.981109"
+    },
+    "2026-14417": {
+      "internal_id": "201474412",
+      "case_number": "2026-14417",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "ALSTON, NATHAN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:52.465173"
+    },
+    "2026-14418": {
+      "internal_id": "201474413",
+      "case_number": "2026-14418",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "TAYLOR, ELTON",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:52.845101"
+    },
+    "2026-14419": {
+      "internal_id": "201474414",
+      "case_number": "2026-14419",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "VAUGHN, DANIEL E",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:53.189400"
+    },
+    "2026-14420": {
+      "internal_id": "201474418",
+      "case_number": "2026-14420",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "DORNHEIM, EDMUND P",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:53.563014"
+    },
+    "2026-14421": {
+      "internal_id": "201474419",
+      "case_number": "2026-14421",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "BAUGH, WILFRETA G",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:53.932590"
+    },
+    "2026-14422": {
+      "internal_id": "201474420",
+      "case_number": "2026-14422",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "GEHYIGON, PASCALIAH OMIYA",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:54.286792"
+    },
+    "2026-14423": {
+      "internal_id": "201474421",
+      "case_number": "2026-14423",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "CLARKE, ROHAN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:54.651588"
+    },
+    "2026-14424": {
+      "internal_id": "201474423",
+      "case_number": "2026-14424",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "PARDOVANI, JOHN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:55.014015"
+    },
+    "2026-14425": {
+      "internal_id": "201474427",
+      "case_number": "2026-14425",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "PROWISOR, JESSE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:55.383522"
+    },
+    "2026-14426": {
+      "internal_id": "201474429",
+      "case_number": "2026-14426",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "NOBLE, SARAH JANE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:55.712732"
+    },
+    "2026-14427": {
+      "internal_id": "201474430",
+      "case_number": "2026-14427",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "TUSCANO, JON",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:56.051656"
+    },
+    "2026-14428": {
+      "internal_id": "201474432",
+      "case_number": "2026-14428",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "WILLIAMS, NANCY B",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:56.393744"
+    },
+    "2026-14429": {
+      "internal_id": "201474434",
+      "case_number": "2026-14429",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "LOWER MORELAND TOWNSHIP SCHOOL DISTRICT",
+      "defendant": "TRAURIG, JOSEPH J JR",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:56.761758"
+    },
+    "2026-14430": {
+      "internal_id": "201474435",
+      "case_number": "2026-14430",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "POTTSTOWN SCHOOL DISTRICT",
+      "defendant": "CCA LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:57.117386"
+    },
+    "2026-14412": {
+      "internal_id": "201474400",
+      "case_number": "2026-14412",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "ALSTON, NATHAN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:57.480540"
+    },
+    "2026-14413": {
+      "internal_id": "201474401",
+      "case_number": "2026-14413",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "GOLD, FRANCES G",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:57.845939"
+    },
+    "2026-14414": {
+      "internal_id": "201474402",
+      "case_number": "2026-14414",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "NOBLE, SARAH JANE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:58.232560"
+    },
+    "2026-14398": {
+      "internal_id": "201474444",
+      "case_number": "2026-14398",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "SIMONE, JOANNE C",
+      "defendant": "ONELL, GEORGE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:58.582676"
+    },
+    "2026-14407": {
+      "internal_id": "201474318",
+      "case_number": "2026-14407",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "WILMINGTON SAVINGS FUND SOCIETY FSB AS OWNER TRUSTEE OF THE RESIDENTIAL CREDIT OPPORTUNITIES TRUST IX-C",
+      "defendant": "AMOROSO, NICOLE EXECUTRIX OF THE ESTATE OF PALMA L LUTON",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:58.933840"
+    },
+    "2026-14409": {
+      "internal_id": "201474441",
+      "case_number": "2026-14409",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "ROCKET MORTGAGE LLC",
+      "defendant": "DINOLFI, ALEXANDER",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:59.300380"
+    },
+    "2026-14392": {
+      "internal_id": "201474375",
+      "case_number": "2026-14392",
+      "commenced": "6/4/2026",
+      "case_type": "Petition to Appeal Nunc Pro Tunc",
+      "plaintiff": "PLYMOUTH POINTE",
+      "defendant": "SINGLETON, KEITH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:59.640407"
+    },
+    "2026-14390": {
+      "internal_id": "201474387",
+      "case_number": "2026-14390",
+      "commenced": "6/4/2026",
+      "case_type": "Miscellaneous",
+      "plaintiff": "ESTATE OF ALICE A LINEMAN",
+      "defendant": "BATT, JAMES",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:08:59.991280"
+    },
+    "2026-14388": {
+      "internal_id": "201474415",
+      "case_number": "2026-14388",
+      "commenced": "6/4/2026",
+      "case_type": "Appeal from Suspension/Registration/Inspection Station",
+      "plaintiff": "CORBITT, ZAAHIRAH",
+      "defendant": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:00.326729"
+    },
+    "2026-14386": {
+      "internal_id": "201474405",
+      "case_number": "2026-14386",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "YESPY, JOSHUA MICHAEL",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:00.677660"
+    },
+    "2026-14387": {
+      "internal_id": "201474374",
+      "case_number": "2026-14387",
+      "commenced": "6/4/2026",
+      "case_type": "Defendants Appeal from District Justice",
+      "plaintiff": "MAVERICK MAIN LINE REALTY ASSOCIATES LP",
+      "defendant": "GLENN, FELICIA",
+      "parties": [
+        {
+          "name": "MAVERICK MAIN LINE REALTY ASSOCIATES LP",
+          "role": "Plaintiff",
+          "address": "636 OLD YORK ROAD, 2ND FLOOR, JENKINTOWN, PA 19046 UNITED STATES"
+        },
+        {
+          "name": "GLENN, FELICIA",
+          "role": "Defendant",
+          "address": "101 W CITY AVE, APT 111, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "GLENN, FELICIA",
+          "role": "Defendant",
+          "address": "101 W CITY AVE, APT 111, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_zips": [
+        "19004"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-05T12:09:01.011297",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474374"
+    },
+    "2026-14385": {
+      "internal_id": "201474404",
+      "case_number": "2026-14385",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "EVANGELIST, MICHAEL V.",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:01.368706"
+    },
+    "2026-14383": {
+      "internal_id": "201474403",
+      "case_number": "2026-14383",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "SANCHEZ, DEVIT EILAN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:01.732211"
+    },
+    "2026-14382": {
+      "internal_id": "201474399",
+      "case_number": "2026-14382",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "DIRADO-HARTE, ERIC A.",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:02.074961"
+    },
+    "2026-14389": {
+      "internal_id": "201474383",
+      "case_number": "2026-14389",
+      "commenced": "6/4/2026",
+      "case_type": "Defendants Appeal from District Justice",
+      "plaintiff": "CROWN ASSET MANAGEMENT LLC C/O PRESSLER AND PRESSLER LLP",
+      "defendant": "HILBERT, JAMES",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:02.506999"
+    },
+    "2026-14380": {
+      "internal_id": "201474398",
+      "case_number": "2026-14380",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "MORRISON, STEPHANIE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:02.894352"
+    },
+    "2026-14379": {
+      "internal_id": "201474397",
+      "case_number": "2026-14379",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "BATES, BRIAN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:03.242366"
+    },
+    "2026-14377": {
+      "internal_id": "201474390",
+      "case_number": "2026-14377",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "INGRAM, SANDRA GAIL",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:03.613520"
+    },
+    "2026-14375": {
+      "internal_id": "201474389",
+      "case_number": "2026-14375",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "CASILLAS, DAVID",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:03.992163"
+    },
+    "2026-14374": {
+      "internal_id": "201474388",
+      "case_number": "2026-14374",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "MENA, NOE VIDAL",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:04.345390"
+    },
+    "2026-14371": {
+      "internal_id": "201474381",
+      "case_number": "2026-14371",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "LONGO, LAWRENCE P.",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:04.712547"
+    },
+    "2026-14370": {
+      "internal_id": "201474380",
+      "case_number": "2026-14370",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "WILLIAMS, CANDY",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:05.084761"
+    },
+    "2026-14369": {
+      "internal_id": "201474379",
+      "case_number": "2026-14369",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "WILSON, JAMES",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:05.473146"
+    },
+    "2026-14368": {
+      "internal_id": "201474363",
+      "case_number": "2026-14368",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "COSTELLO, SUNNY JACOB",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:05.830219"
+    },
+    "2026-14366": {
+      "internal_id": "201474362",
+      "case_number": "2026-14366",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "GAMBINO, MICHAEL JAMES",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:06.182388"
+    },
+    "2026-14378": {
+      "internal_id": "201474349",
+      "case_number": "2026-14378",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "AUSTIN-GORDON, ADRIA",
+      "defendant": "SCHAFFER, MARTIN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:06.536612"
+    },
+    "2026-14376": {
+      "internal_id": "201474175",
+      "case_number": "2026-14376",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint In Replevin",
+      "plaintiff": "BMO BANK NA",
+      "defendant": "BELOTTI, MARITA",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:06.915037"
+    },
+    "2026-70338": {
+      "internal_id": "201474364",
+      "case_number": "2026-70338",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "IMKHAOUN, DAVID",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:07.267343"
+    },
+    "2026-14363": {
+      "internal_id": "201474361",
+      "case_number": "2026-14363",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "LUTZ, ASHLEY M.",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:07.618974"
+    },
+    "2026-70337": {
+      "internal_id": "201474360",
+      "case_number": "2026-70337",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "ROY, FELIX A",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:07.963306"
+    },
+    "2026-70336": {
+      "internal_id": "201474359",
+      "case_number": "2026-70336",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "RICKS AUTO CARE INC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:08.336490"
+    },
+    "2026-14372": {
+      "internal_id": "201474276",
+      "case_number": "2026-14372",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "UPPER PERKIOMEN SCHOOL DISTRICT",
+      "defendant": "RAMSEY, THOMAS WESLEY",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:08.693485"
+    },
+    "2026-14373": {
+      "internal_id": "201474280",
+      "case_number": "2026-14373",
+      "commenced": "6/4/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "SOUDERTON AREA SCHOOL DISTRICT",
+      "defendant": "CAMPISI PARTNERSHIP LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:09.100441"
+    },
+    "2026-70335": {
+      "internal_id": "201474358",
+      "case_number": "2026-70335",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "GILBERT, JAMES IV",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:09.432561"
+    },
+    "2026-14362": {
+      "internal_id": "201474354",
+      "case_number": "2026-14362",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "IRICK, KENNETH JR",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:09.782216"
+    },
+    "2026-70334": {
+      "internal_id": "201474357",
+      "case_number": "2026-70334",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "FLETCHER, GABRIEL",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:10.131643"
+    },
+    "2026-70333": {
+      "internal_id": "201474356",
+      "case_number": "2026-70333",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "SPANN, STEPHANIE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:10.478075"
+    },
+    "2026-14361": {
+      "internal_id": "201474353",
+      "case_number": "2026-14361",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "MOORE, JOHN RICHARD",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:10.856889"
+    },
+    "2026-70332": {
+      "internal_id": "201474355",
+      "case_number": "2026-70332",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "MV HOMES INC AN LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:11.204339"
+    },
+    "2026-14359": {
+      "internal_id": "201474352",
+      "case_number": "2026-14359",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "PATTON, CHRISTOPHER MICH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:11.559412"
+    },
+    "2026-70331": {
+      "internal_id": "201474348",
+      "case_number": "2026-70331",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "WASSERMAN, ROBERT A",
+      "parties": [
+        {
+          "name": "United States Internal Rev",
+          "role": "Plaintiff",
+          "address": ""
+        },
+        {
+          "name": "WASSERMAN, ROBERT A",
+          "role": "Defendant",
+          "address": "1101 TOWER LN E, PENN VALLEY, PA 19072-1131 UNITED STATES",
+          "lm_zip": "19072"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "WASSERMAN, ROBERT A",
+          "role": "Defendant",
+          "address": "1101 TOWER LN E, PENN VALLEY, PA 19072-1131 UNITED STATES",
+          "lm_zip": "19072"
+        }
+      ],
+      "lm_zips": [
+        "19072"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-05T12:09:11.926783",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474348"
+    },
+    "2026-14358": {
+      "internal_id": "201474342",
+      "case_number": "2026-14358",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "SHAH, SUKETU",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:12.263124"
+    },
+    "2026-70330": {
+      "internal_id": "201474347",
+      "case_number": "2026-70330",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "SAVOY, JONATHAN M",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:12.635536"
+    },
+    "2026-70329": {
+      "internal_id": "201474346",
+      "case_number": "2026-70329",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "TRAN, DAVIS V",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:12.998472"
+    },
+    "2026-14357": {
+      "internal_id": "201474341",
+      "case_number": "2026-14357",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "ROMAN, NICHOLAS PAUL",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:13.357667"
+    },
+    "2026-70328": {
+      "internal_id": "201474345",
+      "case_number": "2026-70328",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "NAV SERVICES LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:13.694397"
+    },
+    "2026-70327": {
+      "internal_id": "201474344",
+      "case_number": "2026-70327",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "DELUCA, JOSEPH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:14.061721"
+    },
+    "2026-70326": {
+      "internal_id": "201474343",
+      "case_number": "2026-70326",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "MASSEY, NANCY A",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:14.409192"
+    },
+    "2026-14356": {
+      "internal_id": "201474340",
+      "case_number": "2026-14356",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "JOHNSON, MICHAEL LANCE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:14.768077"
+    },
+    "2026-70325": {
+      "internal_id": "201474336",
+      "case_number": "2026-70325",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "HAMON, JOHN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:15.117136"
+    },
+    "2026-70324": {
+      "internal_id": "201474335",
+      "case_number": "2026-70324",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "ABINGTON MEMORIAL HOSPITAL",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:15.471491"
+    },
+    "2026-14355": {
+      "internal_id": "201474339",
+      "case_number": "2026-14355",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "ROBERTS, KYLE",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:15.815055"
+    },
+    "2026-14353": {
+      "internal_id": "201474338",
+      "case_number": "2026-14353",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "BROXMEYER, JOSEPH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:16.163407"
+    },
+    "2026-14352": {
+      "internal_id": "201474337",
+      "case_number": "2026-14352",
+      "commenced": "6/4/2026",
+      "case_type": "Judgment/Fines/Costs/Restitution & 236 Notice",
+      "plaintiff": "MONTGOMERY COUNTY",
+      "defendant": "WILSON, RAJESH",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:16.506843"
+    },
+    "2026-70323": {
+      "internal_id": "201474334",
+      "case_number": "2026-70323",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "FORAKER, MARK",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:16.874053"
+    },
+    "2026-70322": {
+      "internal_id": "201474333",
+      "case_number": "2026-70322",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "MCMAHON, COLLEEN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:17.217106"
+    },
+    "2026-70321": {
+      "internal_id": "201474332",
+      "case_number": "2026-70321",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "GLITTER, JEFREY S",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:17.568596"
+    },
+    "2026-70320": {
+      "internal_id": "201474331",
+      "case_number": "2026-70320",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "WILLIAMS, ANTHONY L",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:17.911602"
+    },
+    "2026-70319": {
+      "internal_id": "201474330",
+      "case_number": "2026-70319",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "WHITTENBERG, RODNEY L",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:18.278263"
+    },
+    "2026-70318": {
+      "internal_id": "201474329",
+      "case_number": "2026-70318",
+      "commenced": "6/4/2026",
+      "case_type": "IRS Federal Lien",
+      "plaintiff": "United States Internal Rev",
+      "defendant": "SUPPLEE, RYAN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:18.642442"
+    },
+    "2026-14354": {
+      "internal_id": "201474321",
+      "case_number": "2026-14354",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "HAMPSON, FRANK",
+      "defendant": "PEW, SANDRA",
+      "parties": [
+        {
+          "name": "HAMPSON, FRANK",
+          "role": "Plaintiff",
+          "address": "1006 PRINCETON PLACE, WARMINSTER, PA 18974 UNITED STATES"
+        },
+        {
+          "name": "HAMPSON, DAWN",
+          "role": "Plaintiff",
+          "address": "1006 PRINCETON PLACE, WARMINSTER, PA 18974 UNITED STATES"
+        },
+        {
+          "name": "PEW, SANDRA",
+          "role": "Defendant",
+          "address": "310 CAVERSHAM ROAD, BRYN MAWR, PA 19010 UNITED STATES",
+          "lm_zip": "19010"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "PEW, SANDRA",
+          "role": "Defendant",
+          "address": "310 CAVERSHAM ROAD, BRYN MAWR, PA 19010 UNITED STATES",
+          "lm_zip": "19010"
+        }
+      ],
+      "lm_zips": [
+        "19010"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-05T12:09:19.011867",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474321"
+    },
+    "2026-14351": {
+      "internal_id": "201474319",
+      "case_number": "2026-14351",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "MERRICK BANK CORPORATION",
+      "defendant": "SANDERS, JONATHAN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:19.356337"
+    },
+    "2026-14350": {
+      "internal_id": "201473911",
+      "case_number": "2026-14350",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "KAUFMAN, DAVID",
+      "defendant": "PROGRESSIVE ADVANCED INSURANCE COMPANY",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:19.724481"
+    },
+    "2026-14348": {
+      "internal_id": "201474316",
+      "case_number": "2026-14348",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "JPMORGAN CHASE BANK NA",
+      "defendant": "LAKY, JAMES R",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:20.085829"
+    },
+    "2026-14349": {
+      "internal_id": "201474315",
+      "case_number": "2026-14349",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "JPMORGAN CHASE BANK NA",
+      "defendant": "SMITH, KATHERINE M",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:20.445391"
+    },
+    "2026-14347": {
+      "internal_id": "201474314",
+      "case_number": "2026-14347",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "JPMORGAN CHASE BANK NA",
+      "defendant": "FRAELICH, JAMES A",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:20.799117"
+    },
+    "2026-14345": {
+      "internal_id": "201474313",
+      "case_number": "2026-14345",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "JPMORGAN CHASE BANK NA",
+      "defendant": "VERZOSA, ROGER",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:21.159605"
+    },
+    "2026-14346": {
+      "internal_id": "201474312",
+      "case_number": "2026-14346",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "JPMORGAN CHASE BANK NA",
+      "defendant": "GAMBINO, STEPHEN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:21.508128"
+    },
+    "2026-14344": {
+      "internal_id": "201474311",
+      "case_number": "2026-14344",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "JPMORGAN CHASE BANK NA",
+      "defendant": "PAGNOTTA, LAUREN",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:21.845934"
+    },
+    "2026-14343": {
+      "internal_id": "201474310",
+      "case_number": "2026-14343",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "TEMPLE ADATH ISRAEL OF THE MAIN LINE",
+      "defendant": "MORGAN STANLEY SMITH BARNEY LLC",
+      "parties": [
+        {
+          "name": "TEMPLE ADATH ISRAEL OF THE MAIN LINE (CONGREGATION BETH T'FILLAH OF OVERBROOK PARK )",
+          "role": "Plaintiff",
+          "address": "250 N HIGHLAND AVENUE, MERION STATION, PA 19066 UNITED STATES",
+          "lm_zip": "19066"
+        },
+        {
+          "name": "MORGAN STANLEY SMITH BARNEY LLC",
+          "role": "Defendant",
+          "address": "1585 BROADWAY, NEW YORK, NY 10036-0473 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "TEMPLE ADATH ISRAEL OF THE MAIN LINE (CONGREGATION BETH T'FILLAH OF OVERBROOK PARK )",
+          "role": "Plaintiff",
+          "address": "250 N HIGHLAND AVENUE, MERION STATION, PA 19066 UNITED STATES",
+          "lm_zip": "19066"
+        }
+      ],
+      "lm_zips": [
+        "19066"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-05T12:09:22.206205",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474310"
+    },
+    "2026-14342": {
+      "internal_id": "201474179",
+      "case_number": "2026-14342",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "CARPENTER, WILLIAM",
+      "defendant": "CARR HOME IMPROVEMENTS LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:22.578100"
+    },
+    "2026-14341": {
+      "internal_id": "201474306",
+      "case_number": "2026-14341",
+      "commenced": "6/3/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "FREEDOM MORTGAGE CORPORATION",
+      "defendant": "SIKORA, MARIANO J",
+      "lm_match": false,
+      "first_seen": "2026-06-05T12:09:22.934158"
     }
   },
-  "last_run": "2026-06-04T11:54:18.558040"
+  "last_run": "2026-06-05T12:09:23.035378"
 }

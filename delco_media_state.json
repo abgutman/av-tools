@@ -656,7 +656,84 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-03T13:19:02.071099"
+    },
+    "CV-2026-005294": {
+      "case_id": "8515eb8d224b8a93613635bafe3c7adc2aa468366f95c389ac18716d20a953f3",
+      "case_number": "CV-2026-005294",
+      "title": "DiSipio v. Rankine et al",
+      "case_type": "Tort",
+      "classification": "Civil - Tort - Motor Vehicle",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-05T12:10:08.070259"
+    },
+    "CV-2026-005295": {
+      "case_id": "0782cbc8b046ac9667a882ec0c5cdcb13aa8f0d940343829a30c25b8fbcd2f52",
+      "case_number": "CV-2026-005295",
+      "title": "PCA ACQUISITIONS V, LLC v. Haywood",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-05T12:10:08.720923"
+    },
+    "CV-2026-005281": {
+      "case_id": "8342443cfd382fff78c41353d6e5c67dfff1eb700a2d9a8325a58b6e3eb6fba6",
+      "case_number": "CV-2026-005281",
+      "title": "Dearry Sr. v. Shorts",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - No Fault Only",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-05T12:10:08.400564"
+    },
+    "CV-2026-005298": {
+      "case_id": "29cc109e1258626b054b5601acacf3df43b0876b60eeef446b14939795a7b834",
+      "case_number": "CV-2026-005298",
+      "title": "PCA ACQUISITIONS V, LLC v. Speaa",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-05T12:10:09.041324"
+    },
+    "CV-2026-005305": {
+      "case_id": "d4f4c35bf3ec7e2260473b11828bee6c2172a4a8a1061f3e7e25e74682c40ba7",
+      "case_number": "CV-2026-005305",
+      "title": "BANK OF AMERICA, N.A. v. Ferguson",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-05T12:10:09.361334"
+    },
+    "CV-2026-005307": {
+      "case_id": "bf105cc7ab05d2fb56d876aad7c187743e159fb0cde864c7dc7f192695a9e4cc",
+      "case_number": "CV-2026-005307",
+      "title": "Zickgraf v. Zickgraf",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - No Fault Only",
+      "filed_date": "2026-06-02",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-05T12:10:09.680259"
+    },
+    "CV-2026-005316": {
+      "case_id": "f65b109cb18ffbe182296b2e819bc4a54effd29dfcdb9b44b734e3ecc14e898c",
+      "case_number": "CV-2026-005316",
+      "title": "Al Hira, LLC v. Solo",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Landlord/Tenant Dispute",
+      "filed_date": "2026-06-03",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-05T12:10:09.999597"
     }
   },
-  "last_run": "2026-06-04T11:54:25.589296"
+  "last_run": "2026-06-05T12:10:10.300317"
 }
