@@ -8242,7 +8242,843 @@
       "defendant": "SIKORA, MARIANO J",
       "lm_match": false,
       "first_seen": "2026-06-05T12:09:22.934158"
+    },
+    "2026-61614": {
+      "internal_id": "201474582",
+      "case_number": "2026-61614",
+      "commenced": "6/5/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "CP WALFORD TRANSFER INC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:28.323711"
+    },
+    "2026-61613": {
+      "internal_id": "201474581",
+      "case_number": "2026-61613",
+      "commenced": "6/5/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "FAMILY COILS LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:28.752850"
+    },
+    "2026-61612": {
+      "internal_id": "201474580",
+      "case_number": "2026-61612",
+      "commenced": "6/5/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "KWB ENTERPRISES INC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:29.147252"
+    },
+    "2026-61611": {
+      "internal_id": "201474309",
+      "case_number": "2026-61611",
+      "commenced": "6/5/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "ALEXANDER ELECTRIC INC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:29.551490"
+    },
+    "2026-14516": {
+      "internal_id": "201474572",
+      "case_number": "2026-14516",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "CARDONA, YARITZA",
+      "defendant": "PROGRESSIVE ADVANCED INSRUANCE COMPANY ",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:29.957308"
+    },
+    "2026-14515": {
+      "internal_id": "201474571",
+      "case_number": "2026-14515",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "EGOLF, DAVID",
+      "defendant": "LASKOWSKI, CHRISTOPHER M JR",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:30.348278"
+    },
+    "2026-14514": {
+      "internal_id": "201474574",
+      "case_number": "2026-14514",
+      "commenced": "6/5/2026",
+      "case_type": "Petition to Appeal Nunc Pro Tunc",
+      "plaintiff": "LYNNEWOOD GARDENS ",
+      "defendant": "BEVERLY, MARLEYCIA",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:30.718787"
+    },
+    "2026-14512": {
+      "internal_id": "201474558",
+      "case_number": "2026-14512",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "MALONE, JOSEPH B.",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:31.124465"
+    },
+    "2026-14509": {
+      "internal_id": "201474557",
+      "case_number": "2026-14509",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "JABLONSKI, CHRISTINE J.",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:31.514178"
+    },
+    "2026-14513": {
+      "internal_id": "201474561",
+      "case_number": "2026-14513",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint in Quiet Title",
+      "plaintiff": "MARTINELLI PARK LLC",
+      "defendant": "GILLESPIE, PAUL F JR.",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:31.897144"
+    },
+    "2026-14504": {
+      "internal_id": "201474562",
+      "case_number": "2026-14504",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "REVIELLO, JAMES",
+      "defendant": "TORNETTA, MAURA ANN",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:32.265516"
+    },
+    "2026-14511": {
+      "internal_id": "201474560",
+      "case_number": "2026-14511",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "FORD MOTOR CREDIT COMPANY LLC",
+      "defendant": "FREEDOM FENCE LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:32.665948"
+    },
+    "2026-14503": {
+      "internal_id": "201474540",
+      "case_number": "2026-14503",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "WEATHERSPOON, BRIAN M",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:33.070166"
+    },
+    "2026-14510": {
+      "internal_id": "201474543",
+      "case_number": "2026-14510",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "HARRIS, HOWARD",
+      "defendant": "BOYLE, DIANE",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:33.431255"
+    },
+    "2026-14502": {
+      "internal_id": "201474539",
+      "case_number": "2026-14502",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "AVILES, JASMINE",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:33.824498"
+    },
+    "2026-14507": {
+      "internal_id": "201474552",
+      "case_number": "2026-14507",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PENNSYLVANIA MANUFACTURES ASSOCIATION INSURANCE COMPANY A/S/O RICHLAND TOWNSHIP",
+      "defendant": "REPUBLIC ENVIRONMENTAL SYSTEMS TRANSPORTATION GROUP LLC D/B/A CLEAN EARTH",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:34.221605"
+    },
+    "2026-14506": {
+      "internal_id": "201474559",
+      "case_number": "2026-14506",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "MACHKIR, ZOUHEIR",
+      "defendant": "ERIE INSURANCE EXCHANGE",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:34.597585"
+    },
+    "2026-14500": {
+      "internal_id": "201474556",
+      "case_number": "2026-14500",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BANK OF AMERICA NA",
+      "defendant": "ROY, BRYAN E",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:34.963976"
+    },
+    "2026-14499": {
+      "internal_id": "201474553",
+      "case_number": "2026-14499",
+      "commenced": "6/5/2026",
+      "case_type": "Petition for Change of Name",
+      "plaintiff": "HEUCKEROTH, OTTO ROBERT",
+      "defendant": "",
+      "parties": [
+        {
+          "name": "HEUCKEROTH, OTTO ROBERT",
+          "role": "Plaintiff",
+          "address": "38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        },
+        {
+          "name": "HEUCKEROTH, ROBERT OTTO",
+          "role": "Plaintiff",
+          "address": "38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "HEUCKEROTH, OTTO ROBERT",
+          "role": "Plaintiff",
+          "address": "38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        },
+        {
+          "name": "HEUCKEROTH, ROBERT OTTO",
+          "role": "Plaintiff",
+          "address": "38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_zips": [
+        "19004"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-06T10:53:35.310601",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474553"
+    },
+    "2026-14498": {
+      "internal_id": "201474549",
+      "case_number": "2026-14498",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BANK OF AMERICA NA",
+      "defendant": "THEAGENE, STEEVENS",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:35.676364"
+    },
+    "2026-14495": {
+      "internal_id": "201474548",
+      "case_number": "2026-14495",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BANK OF AMERICA NA",
+      "defendant": "PATLOLA, GEETIKA",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:36.057885"
+    },
+    "2026-14497": {
+      "internal_id": "201474544",
+      "case_number": "2026-14497",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "FIRST BANK",
+      "defendant": "15 KINGS GRANT PARTNERS LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:36.435229"
+    },
+    "2026-14494": {
+      "internal_id": "201474546",
+      "case_number": "2026-14494",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PNC BANK NATIONAL ASSOCIATION",
+      "defendant": "RJR LANDSCAPING LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:36.807222"
+    },
+    "2026-14493": {
+      "internal_id": "201474545",
+      "case_number": "2026-14493",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "CKS PRIME INVESTMENTS LLC",
+      "defendant": "ACREE, LUCAS W",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:37.209546"
+    },
+    "2026-14492": {
+      "internal_id": "201474547",
+      "case_number": "2026-14492",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BANK OF AMERICA NA",
+      "defendant": "MANLEY, FINK",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:37.583818"
+    },
+    "2026-14491": {
+      "internal_id": "201474507",
+      "case_number": "2026-14491",
+      "commenced": "6/5/2026",
+      "case_type": "Transfer Case from Another County",
+      "plaintiff": "HATCHIGIAN, DAVID",
+      "defendant": "GEICO INSURANCE",
+      "parties": [
+        {
+          "name": "HATCHIGIAN, DAVID",
+          "role": "Plaintiff",
+          "address": "2414 TOWNSHIP LINE ROAD, HAVERTOWN, PA 19083 UNITED STATES",
+          "lm_zip": "19083"
+        },
+        {
+          "name": "GEICO INSURANCE",
+          "role": "Defendant",
+          "address": "ONE FREDERICKSBURG BKVD, FREDRICKSBURG BLVD, FREDRICKSBURG, VA 22412 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "HATCHIGIAN, DAVID",
+          "role": "Plaintiff",
+          "address": "2414 TOWNSHIP LINE ROAD, HAVERTOWN, PA 19083 UNITED STATES",
+          "lm_zip": "19083"
+        }
+      ],
+      "lm_zips": [
+        "19083"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-06T10:53:37.967726",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474507"
+    },
+    "2026-14487": {
+      "internal_id": "201474538",
+      "case_number": "2026-14487",
+      "commenced": "6/5/2026",
+      "case_type": "Petition for Change of Name",
+      "plaintiff": "SUGALSKI, JENNIFER",
+      "defendant": "",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:38.320059"
+    },
+    "2026-14488": {
+      "internal_id": "201474494",
+      "case_number": "2026-14488",
+      "commenced": "6/5/2026",
+      "case_type": "Petition to Appeal Nunc Pro Tunc",
+      "plaintiff": "631 MAIN MANAGEMENT LLC",
+      "defendant": "GORDON, KIJANA D",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:38.674540"
+    },
+    "2026-14486": {
+      "internal_id": "201474530",
+      "case_number": "2026-14486",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "CALLOWAY, CARINA",
+      "defendant": "LOWNEY, ELIAS B",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:39.060948"
+    },
+    "2026-14484": {
+      "internal_id": "201474534",
+      "case_number": "2026-14484",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BANK OF AMERICA NA",
+      "defendant": "SMITH, MARQUETA M",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:39.448642"
+    },
+    "2026-14485": {
+      "internal_id": "201474535",
+      "case_number": "2026-14485",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint In Confession of Judgment",
+      "plaintiff": "FIRST BANK",
+      "defendant": "15 KINGS GRANT PARTNERS LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:39.875432"
+    },
+    "2026-14483": {
+      "internal_id": "201474533",
+      "case_number": "2026-14483",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BANK OF AMERICA NA",
+      "defendant": "BAKER, COELI A",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:40.270219"
+    },
+    "2026-14482": {
+      "internal_id": "201474513",
+      "case_number": "2026-14482",
+      "commenced": "6/5/2026",
+      "case_type": "Petition to Appeal Nunc Pro Tunc",
+      "plaintiff": "RENAISSANCE MANAGEMENT",
+      "defendant": "ENGLISH, ROBIN",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:40.628334"
+    },
+    "2026-14481": {
+      "internal_id": "201474532",
+      "case_number": "2026-14481",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "WOITE, DIANE C",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:41.023312"
+    },
+    "2026-14477": {
+      "internal_id": "201474522",
+      "case_number": "2026-14477",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "ROBERTO, JOSEPH",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:41.428157"
+    },
+    "2026-14479": {
+      "internal_id": "201474529",
+      "case_number": "2026-14479",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "KOLODZI, BRIAN R",
+      "defendant": "KAIN, SYDNEY M",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:41.786015"
+    },
+    "2026-14474": {
+      "internal_id": "201474521",
+      "case_number": "2026-14474",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "BALDWIN, DANIELLE",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:42.185251"
+    },
+    "2026-14478": {
+      "internal_id": "201474518",
+      "case_number": "2026-14478",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "ROGERS & ASSOCIATES LLC",
+      "defendant": "KONTOS, CHRIS",
+      "parties": [
+        {
+          "name": "ROGERS & ASSOCIATES LLC (ROGERS COUNSEL )",
+          "role": "Plaintiff",
+          "address": "26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES",
+          "lm_zip": "19003"
+        },
+        {
+          "name": "KONTOS, CHRIS",
+          "role": "Defendant",
+          "address": "197 BAY STREAM DRIVE, TOMS RIVER, NJ 08753 UNITED STATES"
+        },
+        {
+          "name": "140 WEST WEBSTER AVE URBAN  RENEWAL LLC",
+          "role": "Defendant",
+          "address": "40 OAKWOOD AVE, REAR OFFICE, WOODBRIDGE, NJ 07095 UNITED STATES"
+        },
+        {
+          "name": "140 WEST WEBSTER HOLDINGS LLC",
+          "role": "Defendant",
+          "address": "40 OAKWOOD AVE, REAR OFFICE, WOODBRIDGE, NJ 07095 UNITED STATES"
+        },
+        {
+          "name": "BREATHLESS INC",
+          "role": "Defendant",
+          "address": "876 HART STREET, RAHWAY, NJ 07065 UNITED STATES"
+        },
+        {
+          "name": "KONTOS CONSTRUCTION CO LTD",
+          "role": "Defendant",
+          "address": "40 OAKWOOD AVE, REAR OFFICE, WOODBRIDGE, NJ 07095 UNITED STATES"
+        },
+        {
+          "name": "KONTOS, VALENTINO",
+          "role": "Defendant",
+          "address": "4 SOUTHVIEW W, MIDDLETOWN, NJ 07748 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "ROGERS & ASSOCIATES LLC (ROGERS COUNSEL )",
+          "role": "Plaintiff",
+          "address": "26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES",
+          "lm_zip": "19003"
+        }
+      ],
+      "lm_zips": [
+        "19003"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-06T10:53:42.725691",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474518"
+    },
+    "2026-14471": {
+      "internal_id": "201474520",
+      "case_number": "2026-14471",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "REHR, JARED P",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:43.162317"
+    },
+    "2026-14476": {
+      "internal_id": "201474509",
+      "case_number": "2026-14476",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BRYAN, MARGARET",
+      "defendant": "JOHNSON, YUSEF",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:43.523864"
+    },
+    "2026-14472": {
+      "internal_id": "201474508",
+      "case_number": "2026-14472",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "FERGUSON ENTERPRISES LLC",
+      "defendant": "ABRAMS PLUMBING AND HEATING LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:43.913699"
+    },
+    "2026-14470": {
+      "internal_id": "201474516",
+      "case_number": "2026-14470",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "KRIEBEL, DANA",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:44.313115"
+    },
+    "2026-14469": {
+      "internal_id": "201474515",
+      "case_number": "2026-14469",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "FISHER, BRIANNA",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:44.733478"
+    },
+    "2026-14468": {
+      "internal_id": "201474514",
+      "case_number": "2026-14468",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "RAY, ANDREA T",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:45.134470"
+    },
+    "2026-14467": {
+      "internal_id": "201474504",
+      "case_number": "2026-14467",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "ROGERS & ASSOCIATES LLC",
+      "defendant": "ZATOS INVESTMENTS NJ LLC",
+      "parties": [
+        {
+          "name": "ROGERS & ASSOCIATES LLC (ROGERS COUNSEL )",
+          "role": "Plaintiff",
+          "address": "26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES",
+          "lm_zip": "19003"
+        },
+        {
+          "name": "ZATOS INVESTMENTS NJ LLC",
+          "role": "Defendant",
+          "address": "7309 CENTRAL AVE SOUTH, SEA ISLE CITY, NJ 08243 UNITED STATES"
+        },
+        {
+          "name": "BENINATO, NICK",
+          "role": "Defendant",
+          "address": "2539 GRAYS FERRY AVENUE, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "FAMILETTI, THOMAS",
+          "role": "Defendant",
+          "address": "7309 CENTRAL AVE SOUTH, SEA ISLE CITY, NJ 08243 UNITED STATES"
+        },
+        {
+          "name": "HAGAN, ALEXANDER",
+          "role": "Defendant",
+          "address": "2539 GRAYS FERRY AVENUE, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "LAUGHLIN, RYAN",
+          "role": "Defendant",
+          "address": "2539 GRAYS FERRY AVENUE, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZATOS CAPITAL LLC",
+          "role": "Defendant",
+          "address": "2539 GRAYS FERRY AVENUE, UNIT 1, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZATOS CONSTRUCTION LLC",
+          "role": "Defendant",
+          "address": "620 S. BROAD STREET, UNIT A, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZATOS HOLDINGS LLC",
+          "role": "Defendant",
+          "address": "2539 GRAYS FERRY AVENUE, UNIT 1, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZATOS INVESTMENTS LLC",
+          "role": "Defendant",
+          "address": "1828 CHRISTIAN STREET, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZATOS MANAGEMENT FL LLC",
+          "role": "Defendant",
+          "address": "2539 GRAYS FERRY AVENUE, UNIT 1, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZATOS MANAGEMENT LLC",
+          "role": "Defendant",
+          "address": "1828 CHRISTIAN STREET, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZATOS ZT LLC",
+          "role": "Defendant",
+          "address": "2539 GRAYS FERRY AVENUE, UNIT 1, PHILADELPHIA, PA 19146 UNITED STATES"
+        },
+        {
+          "name": "ZI 2150 KATER LLC",
+          "role": "Defendant",
+          "address": "1828 CHRISTIAN STREET, PHILADELPHIA, PA 19146 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "ROGERS & ASSOCIATES LLC (ROGERS COUNSEL )",
+          "role": "Plaintiff",
+          "address": "26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES",
+          "lm_zip": "19003"
+        }
+      ],
+      "lm_zips": [
+        "19003"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-06T10:53:45.547076",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474504"
+    },
+    "2026-14466": {
+      "internal_id": "201474505",
+      "case_number": "2026-14466",
+      "commenced": "6/5/2026",
+      "case_type": "Petition",
+      "plaintiff": "SCHEMPP, FRED M",
+      "defendant": "LUKATCH, THOMAS J",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:45.914285"
+    },
+    "2026-14465": {
+      "internal_id": "201474503",
+      "case_number": "2026-14465",
+      "commenced": "6/5/2026",
+      "case_type": "Summons Civil Action",
+      "plaintiff": "ALLSTATE INDEMNITY COMPANY",
+      "defendant": "TELLEZ, FERNANDO",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:46.314084"
+    },
+    "2026-14464": {
+      "internal_id": "201474501",
+      "case_number": "2026-14464",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "KIM, SATIMA",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:46.731682"
+    },
+    "2026-14463": {
+      "internal_id": "201474502",
+      "case_number": "2026-14463",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "AMGUARD INSURANCE COMPANY A/S/O BENNYS OF CLARKS SUMMIT LLC",
+      "defendant": "VA CONSTRUCTION INC",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:47.144582"
+    },
+    "2026-14462": {
+      "internal_id": "201474500",
+      "case_number": "2026-14462",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "TROTT, LAURA",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:47.536339"
+    },
+    "2026-14460": {
+      "internal_id": "201474499",
+      "case_number": "2026-14460",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "DEGRAFFENREIDT, BROOKE",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:48.062584"
+    },
+    "2026-14459": {
+      "internal_id": "201474498",
+      "case_number": "2026-14459",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "PACZOK, MICHAEL A",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:48.470271"
+    },
+    "2026-14458": {
+      "internal_id": "201474492",
+      "case_number": "2026-14458",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "BEJAR-MASSEY, RAQUEL",
+      "defendant": "KUNG, MEI PIN",
+      "parties": [
+        {
+          "name": "BEJAR-MASSEY, RAQUEL",
+          "role": "Plaintiff",
+          "address": "788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES",
+          "lm_zip": "19096"
+        },
+        {
+          "name": "MASSEY, RUSSELL",
+          "role": "Plaintiff",
+          "address": "788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES",
+          "lm_zip": "19096"
+        },
+        {
+          "name": "KUNG, MEI PIN",
+          "role": "Defendant",
+          "address": "525 FOXGLOVE LANE, WYNNEWOOD, PA 19096 UNITED STATES",
+          "lm_zip": "19096"
+        },
+        {
+          "name": "DOE, JOHN",
+          "role": "Defendant",
+          "address": "UNKNOWN, , UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "BEJAR-MASSEY, RAQUEL",
+          "role": "Plaintiff",
+          "address": "788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES",
+          "lm_zip": "19096"
+        },
+        {
+          "name": "MASSEY, RUSSELL",
+          "role": "Plaintiff",
+          "address": "788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES",
+          "lm_zip": "19096"
+        },
+        {
+          "name": "KUNG, MEI PIN",
+          "role": "Defendant",
+          "address": "525 FOXGLOVE LANE, WYNNEWOOD, PA 19096 UNITED STATES",
+          "lm_zip": "19096"
+        }
+      ],
+      "lm_zips": [
+        "19096"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-06T10:53:48.857600",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474492"
+    },
+    "2026-14456": {
+      "internal_id": "201474491",
+      "case_number": "2026-14456",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "MIDLAND CREDIT MANAGEMENT INC",
+      "defendant": "BOOKER, SHERRON",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:49.243561"
+    },
+    "2026-14455": {
+      "internal_id": "201474490",
+      "case_number": "2026-14455",
+      "commenced": "6/5/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "MIDLAND CREDIT MANAGEMENT INC",
+      "defendant": "COLEMAN, RANDY",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:49.667240"
+    },
+    "2026-14453": {
+      "internal_id": "201474487",
+      "case_number": "2026-14453",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PORTFOLIO RECOVERY ASSOCIATES LLC",
+      "defendant": "ADAMES, ISMAEL",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:50.049893"
+    },
+    "2026-14452": {
+      "internal_id": "201474485",
+      "case_number": "2026-14452",
+      "commenced": "6/4/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PADRO, MATHEW",
+      "defendant": "LEVKOVICH, ROMAN",
+      "lm_match": false,
+      "first_seen": "2026-06-06T10:53:50.430165"
     }
   },
-  "last_run": "2026-06-05T12:09:23.035378"
+  "last_run": "2026-06-06T10:53:50.531372"
 }

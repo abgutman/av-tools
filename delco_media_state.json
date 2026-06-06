@@ -733,7 +733,18 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-05T12:10:09.999597"
+    },
+    "CV-2026-005321": {
+      "case_id": "898fb36d12974bf788011c9543425c48f7341edef59f6ff85467da4122fde93e",
+      "case_number": "CV-2026-005321",
+      "title": "Velocity Investments, LLC v. Roberts",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-03",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-06T10:54:08.144767"
     }
   },
-  "last_run": "2026-06-05T12:10:10.300317"
+  "last_run": "2026-06-06T10:54:08.445392"
 }
