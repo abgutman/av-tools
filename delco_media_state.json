@@ -744,7 +744,84 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-06T10:54:08.144767"
+    },
+    "CV-2026-005363": {
+      "case_id": "53589e0759a2545ba4a5e8886a0a57bf564f19ec2ab572b584c0d24ec89cd2cf",
+      "case_number": "CV-2026-005363",
+      "title": "Midland Credit Management, Inc C/O Law Offices of Hayt, Hayt & Landau, LLC v. Latson",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-04",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-07T11:09:15.677107"
+    },
+    "CV-2026-005366": {
+      "case_id": "947c229e288b975548bf1601fc217518eccae7d64864075278b29e07be02b4c5",
+      "case_number": "CV-2026-005366",
+      "title": "Yancy v. Gaye",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-04",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-07T11:09:15.350815"
+    },
+    "CV-2026-005382": {
+      "case_id": "c4a20814b5d47939627d753a502fff8490ca41a74d04013c7889768d42818436",
+      "case_number": "CV-2026-005382",
+      "title": "MORTGAGE ASSETS MANAGEMENT, LLC v. Zlupko",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-06-04",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-07T11:09:16.649615"
+    },
+    "CV-2026-005381": {
+      "case_id": "17a9a20d29ad6bca4ac0be89c496bf725a9b900122809f57ca367c64eed10636",
+      "case_number": "CV-2026-005381",
+      "title": "Jones v. Atkinson",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - No Fault Only",
+      "filed_date": "2026-06-04",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-07T11:09:16.974545"
+    },
+    "CV-2026-005374": {
+      "case_id": "7305856bb47a53fd7fa48a75228c3495cb10c3071f974bfa37673d4bf0176929",
+      "case_number": "CV-2026-005374",
+      "title": "MERRICK BANK CORPORATION v. BAHAR",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Credit Card",
+      "filed_date": "2026-06-04",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-07T11:09:15.025667"
+    },
+    "CV-2026-005384": {
+      "case_id": "717ef8f8cc1b159fbef4f6da8a6740f8d9913e59a4d3ef4b54bdc2cc3222f61d",
+      "case_number": "CV-2026-005384",
+      "title": "American Credit Acceptance LLC v. Watt",
+      "case_type": "Miscellaneous",
+      "classification": "Civil - Miscellaneous - Replevin",
+      "filed_date": "2026-06-04",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-07T11:09:16.000944"
+    },
+    "CV-2026-005379": {
+      "case_id": "9aaa41640636bb0609abdd016155103abc163a381b5ab1133a719d153256b4d5",
+      "case_number": "CV-2026-005379",
+      "title": "ONEMAIN FINANCIAL GROUP, LLC v. Carter Davis",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-04",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-07T11:09:16.324900"
     }
   },
-  "last_run": "2026-06-06T10:54:08.445392"
+  "last_run": "2026-06-07T11:09:17.275212"
 }
