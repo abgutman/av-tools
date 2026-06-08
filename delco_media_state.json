@@ -821,7 +821,84 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-07T11:09:16.324900"
+    },
+    "CV-2026-005395": {
+      "case_id": "3a298cddd966a80c53ff2fa732050da01f4da53d458daa7b833cb8b64c3b1223",
+      "case_number": "CV-2026-005395",
+      "title": "Gloria Bailey- Phase 3 Unlimited v. Schuster et al",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Landlord/Tenant Dispute",
+      "filed_date": "2026-06-05",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-08T13:07:50.510258"
+    },
+    "CV-2026-005410": {
+      "case_id": "2cc799573dc37d9f67f03004e6b66c2f76b254f99f73a8ab156cff97ac75a529",
+      "case_number": "CV-2026-005410",
+      "title": "TD BANK, N.A. v. TALTON",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Residential",
+      "filed_date": "2026-06-05",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-08T13:07:50.848827"
+    },
+    "CV-2026-005412": {
+      "case_id": "5bec925d15ad7798714ec96984ff3509e054025ff4a102d3a1f2c202e66c704a",
+      "case_number": "CV-2026-005412",
+      "title": "Perry v. Frazier",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Partition of Real Property",
+      "filed_date": "2026-06-05",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-08T13:07:51.238793"
+    },
+    "CV-2026-005394": {
+      "case_id": "2809f1d258f7a659f80942f1167776f39074e68f3a5eb6b7dd6155895df61975",
+      "case_number": "CV-2026-005394",
+      "title": "Child et al v. {{Defendant}}",
+      "case_type": "Miscellaneous",
+      "classification": "Civil - Miscellaneous - Civil Miscellaneous: Other",
+      "filed_date": "2026-06-05",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-08T13:07:51.624407"
+    },
+    "CV-2026-005417": {
+      "case_id": "c6cef596295933da55ebb83661c2f7e07f8e7efc78fc73455d02fbe30f6d18fe",
+      "case_number": "CV-2026-005417",
+      "title": "Velocity Investments, LLC v. Rosa",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-05",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-08T13:07:52.031958"
+    },
+    "CV-2026-005413": {
+      "case_id": "ea683044cc033c2e17a74141b66a4a5c19ef63252af620af1a4d90667f46f8bb",
+      "case_number": "CV-2026-005413",
+      "title": "Kahle v. Doherty",
+      "case_type": "Divorce",
+      "classification": "Family - Divorce - No Fault Only",
+      "filed_date": "2026-06-05",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-08T13:07:49.834615"
+    },
+    "CV-2026-005421": {
+      "case_id": "3f2e2dd059cdfeabddea5720012cbcee2eccaa148b1ea2a08971b82df86d46c1",
+      "case_number": "CV-2026-005421",
+      "title": "Velocity Investments, LLC v. Robinson",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-05",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-08T13:07:50.173033"
     }
   },
-  "last_run": "2026-06-07T11:09:17.275212"
+  "last_run": "2026-06-08T13:07:52.332576"
 }

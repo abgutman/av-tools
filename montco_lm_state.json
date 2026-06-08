@@ -9078,7 +9078,37 @@
       "defendant": "LEVKOVICH, ROMAN",
       "lm_match": false,
       "first_seen": "2026-06-06T10:53:50.430165"
+    },
+    "2026-14520": {
+      "internal_id": "201474622",
+      "case_number": "2026-14520",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CAPITAL ONE NA",
+      "defendant": "ARDON, INOCENTE",
+      "lm_match": false,
+      "first_seen": "2026-06-08T13:07:33.581251"
+    },
+    "2026-14518": {
+      "internal_id": "201474589",
+      "case_number": "2026-14518",
+      "commenced": "6/6/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "APEX COMMERCIAL CAPITAL",
+      "defendant": "IRON HAULERS INCORPORATED ",
+      "lm_match": false,
+      "first_seen": "2026-06-08T13:07:33.963535"
+    },
+    "2026-14517": {
+      "internal_id": "201474578",
+      "case_number": "2026-14517",
+      "commenced": "6/5/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "TOYOTA MOTOR CREDIT CORPORATION",
+      "defendant": "CASTELLANO, LAYSHA",
+      "lm_match": false,
+      "first_seen": "2026-06-08T13:07:34.324236"
     }
   },
-  "last_run": "2026-06-07T11:08:56.575296"
+  "last_run": "2026-06-08T13:07:34.425486"
 }
