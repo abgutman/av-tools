@@ -27,6 +27,7 @@
     .card-plea-cal { border-top: 4px solid #d4a017; }
     .card-edpa { border-top: 4px solid #2e86c1; }
     .card-habeas { border-top: 4px solid #6c3483; }
+    .card-federal-rss { border-top: 4px solid #117a8b; }
     .card-appellate { border-top: 4px solid #1e8449; }
     .card-local { border-top: 4px solid #b9770e; }
     .card-business { border-top: 4px solid #566573; }
@@ -72,7 +73,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Av's Tools</h1>
-    <div class="meta">Last updated June 04, 2026 at 01:38 PM</div>
+    <div class="meta">Last updated June 08, 2026 at 12:53 PM</div>
 </div>
 
 <div class="section-header"><h2>Philadelphia Criminal Courts</h2></div>
@@ -106,8 +107,22 @@ if (sessionStorage.getItem('court_auth')==='1') {
     </div>
 </div>
 
-<div class="section-header"><h2>Federal &mdash; Eastern District of Pennsylvania</h2></div>
+<div class="section-header"><h2>Federal Courts</h2></div>
 <div class="cards">
+    <div class="card card-federal-rss">
+        <div class="icon">&#x1f4e1;</div>
+        <h2>EDPA Filings</h2>
+        <p>Live feed of notable filings in the Eastern District of Pennsylvania: indictments, criminal complaints, pleas, TROs, opinions, sanctions, and seal activity.</p>
+        <a href="https://abgutman.github.io/federal-filings/edpa.html">View Filings</a>
+    </div>
+
+    <div class="card card-federal-rss">
+        <div class="icon">&#x1f4e1;</div>
+        <h2>NJ-Camden Filings</h2>
+        <p>Live feed of notable filings in the Camden Division of the District of New Jersey: indictments, TROs, opinions, sanctions, and seal activity.</p>
+        <a href="https://abgutman.github.io/federal-filings/nj_camden.html">View Filings</a>
+    </div>
+
     <div class="card card-edpa">
         <div class="icon">&#x1f3db;</div>
         <h2>DOJ Civil Cases</h2>
