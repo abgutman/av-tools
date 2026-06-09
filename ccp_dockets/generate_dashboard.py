@@ -16,7 +16,7 @@ Run deploy_prep.py after this to produce the gated ccp_dockets_dashboard.html.
 import html as _h
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -306,6 +306,15 @@ _DASHBOARD_HTML = """\
 
 <div id="panel">
   <div class="controls" id="controls"></div>
+  <div id="exclusion-note" style="display:none;margin:0 18px;padding:8px 12px;
+       background:#f0f4f8;border:1px solid #c8d8e8;border-radius:5px;
+       font-size:.78rem;color:#3a4a5a;line-height:1.6;">
+    <strong>Excluded types:</strong>
+    anything containing "lien," "parking," "penndot," or "certified" &middot;
+    starts with "MC&nbsp;-" &middot; ends with "-MR" &middot;
+    exact: self assessed taxes, credit card collection, auction motor vehicle,
+    ejectment, quiet title
+  </div>
   <p class="count" id="count" aria-live="polite"></p>
   <div class="wrap">
     <table id="tbl" aria-label="Cases">
@@ -434,6 +443,8 @@ _DASHBOARD_HTML = """\
     document.querySelectorAll('.tab').forEach(function(b){
       b.setAttribute('aria-selected', b.getAttribute('data-tab')===tab?'true':'false');
     });
+    var note = document.getElementById('exclusion-note');
+    if (note) note.style.display = tab === 'complaints' ? 'block' : 'none';
     buildControls(tab); render();
   }
 
@@ -490,7 +501,8 @@ def main():
     # Build complaint summary rows
     complaint_rows = [_summary_row(c) for c in complaints]
 
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    ET = timezone(timedelta(hours=-4))  # EDT (UTC-4)
+    generated = datetime.now(ET).strftime("%Y-%m-%d %H:%M EDT")
 
     payload = {
         "complaints": complaint_rows,

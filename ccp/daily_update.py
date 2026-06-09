@@ -123,7 +123,7 @@ def main():
 
     payload = {
         "meta": {
-            "scraped_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "scraped_at": datetime.now(timezone(timedelta(hours=-4))).strftime("%Y-%m-%dT%H:%M:%S EDT"),
             "source_url": MENU,
             "programs": {
                 "CM": "Civil Motions (motion hearings, all judges)",
