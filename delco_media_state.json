@@ -898,7 +898,73 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-08T13:07:50.173033"
+    },
+    "CV-2026-005428": {
+      "case_id": "06c424a57aa669e758788e68a30b196941c9bfa059e3471689f9df2ec8effd11",
+      "case_number": "CV-2026-005428",
+      "title": "Csikos v. QCC Insurance Company",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Contract: Other",
+      "filed_date": "2026-06-06",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-09T12:06:01.210628"
+    },
+    "CV-2026-005442": {
+      "case_id": "88635b8e4fc789f79f20b0b4d5af7d4806c19762302f3d36593b26bff1d28917",
+      "case_number": "CV-2026-005442",
+      "title": "Romano v. Government Employees Insurance Company d/b/a Geico",
+      "case_type": "Tort",
+      "classification": "Civil - Tort - Motor Vehicle",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-09T12:06:01.593369"
+    },
+    "CV-2026-005440": {
+      "case_id": "f655efa1b902865e69420a4b4019dd582701d3929affec60446eb4a3a42839d7",
+      "case_number": "CV-2026-005440",
+      "title": "METROPOLITAN LIFE INSURANCE COMPANY v. POTTSTOWN HOMES LLC",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Mortgage Foreclosure: Commercial",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-09T12:06:01.969867"
+    },
+    "CV-2026-005433": {
+      "case_id": "54ba66e7b910199058fa9dc5c99554a0eb6c12e9af9d280f86935bbf7be75da8",
+      "case_number": "CV-2026-005433",
+      "title": "Laurel Manor Realty LLC v. Pennick",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Landlord/Tenant Dispute",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-09T12:06:02.344523"
+    },
+    "CV-2026-005437": {
+      "case_id": "e732470f8e979b0e9b3dcc2ddb03ce0ffa525e391905327ae4ac23af258336dd",
+      "case_number": "CV-2026-005437",
+      "title": "Hirankarn v. Unruean",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Contract: Other",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-09T12:06:02.721204"
+    },
+    "CV-2026-005443": {
+      "case_id": "655fa2811e186d902e4b08781b2f0d50a8346b5994e86878723fedfb6098af49",
+      "case_number": "CV-2026-005443",
+      "title": "Ung v. Chhun",
+      "case_type": "Custody",
+      "classification": "Family - Custody - Custody / Partial Custody / Shared Custody / Visitation",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-09T12:06:03.094677"
     }
   },
-  "last_run": "2026-06-08T13:07:52.332576"
+  "last_run": "2026-06-09T12:06:03.395289"
 }
