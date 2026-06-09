@@ -1,0 +1,63 @@
+name: CCP dockets daily
+
+on:
+  workflow_dispatch:        # manual trigger for testing
+  schedule:
+    - cron: '0 10 * * *'   # 06:00 America/New_York during EDT (UTC-4); 05:00 under EST
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r ccp_dockets/requirements.txt
+
+      - name: Scrape new complaints
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python ccp_dockets/scrape_new_complaints.py --live
+
+      - name: Scrape watchlist
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python ccp_dockets/scrape_watchlist.py --live
+
+      - name: Generate dashboard + docket replicas
+        run: python ccp_dockets/generate_dashboard.py
+
+      - name: Apply password gate
+        run: python ccp_dockets/deploy_prep.py
+
+      - name: Stage deploy files
+        run: |
+          cp ccp_dockets/ccp_dockets_dashboard.html ccp_dockets_dashboard.html
+          rm -rf civil_dockets
+          cp -r ccp_dockets/dockets civil_dockets
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ccp_dockets_dashboard.html \
+                  ccp_dockets/data/state_complaints.json \
+                  ccp_dockets/data/state_watchlist.json \
+                  ccp_dockets/data/complaints.json \
+                  ccp_dockets/data/watchlist_view.json
+          git add -A -- civil_dockets/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "CCP dockets daily update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

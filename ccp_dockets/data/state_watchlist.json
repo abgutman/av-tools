@@ -1,0 +1,345 @@
+{
+  "260303606": {
+    "sig": "40|08-JUN-2026|DISCOVERY MOTION DISMISSED",
+    "entry_count": 40,
+    "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
+    "docket": {
+      "case_id": "260303606",
+      "caption": "BOHM VS BOHM ETAL",
+      "filing_date": "2026-03-25",
+      "filing_date_raw": "Wednesday, March 25th, 2026",
+      "court": "COMMERCE - STANDARD, NON JURY",
+      "case_type": "FRAUD",
+      "jury": "NON JURY",
+      "status": "LISTED FOR CASE MGMT CONF",
+      "plaintiffs": [
+        "BOHM, ALEC"
+      ],
+      "defendants": [
+        "BOHM, DANIEL",
+        "BOHM, LISA"
+      ],
+      "parties": [
+        {
+          "seq": "1",
+          "type": "ATTORNEY FOR PLAINTIFF",
+          "name": "DELUCA, ANDREW",
+          "address": "2005 MARKET STREET 16TH FLOOR PHILADELPHIA PA 19103 (215)569-2800 adeluca@zarwin.com"
+        },
+        {
+          "seq": "2",
+          "type": "PLAINTIFF",
+          "name": "BOHM, ALEC",
+          "address": "1560 GULF BLVD UNIT 1404 CLEARWATER FL 33767"
+        },
+        {
+          "seq": "3",
+          "type": "DEFENDANT",
+          "name": "BOHM, DANIEL",
+          "address": "1560 GULF BLVD UNIT 1404 CLEARWATER FL 33767"
+        },
+        {
+          "seq": "4",
+          "type": "DEFENDANT",
+          "name": "BOHM, LISA",
+          "address": "1560 GULF BLVD UNIT 1404 CLEARWATER FL 33767"
+        },
+        {
+          "seq": "5",
+          "type": "ATTORNEY FOR PLAINTIFF",
+          "name": "DEVITO, GARY A",
+          "address": "ZARWIN BAUM DEVITO KAPLAN ONE COMMERCE SQUARE 2005 MARKET STREET, 16TH FLOOR PHILADELPHIA PA 19103-7042 (215)569-2800 gadevito@zarwin.com"
+        },
+        {
+          "seq": "6",
+          "type": "ATTORNEY FOR PLAINTIFF",
+          "name": "TWARDOWSKI, ANTHONY R",
+          "address": "ZARWIN BAUM DEVITO KAPLAN 2005  MARKET STREET 16TH FLOOR PHILADELPHIA PA 19103 (215)569-2800 artwardowski@zarwin.com"
+        },
+        {
+          "seq": "7",
+          "type": "TEAM LEADER",
+          "name": "ERDOS, MICHAEL",
+          "address": "532A CITY HALL PHILADELPHIA PA 19148"
+        },
+        {
+          "seq": "8",
+          "type": "ATTORNEY FOR DEFENDANT",
+          "name": "COLE ESQ, SIOBHAN K",
+          "address": "HOLLAND & KNIGHT LLP 1650 MARKET STREET ONE LIBERTY PLACE, SUITE 3300 PHILADELPHIA PA 19103 (215)252-9612 siobhan.cole@hklaw.com"
+        },
+        {
+          "seq": "9",
+          "type": "ATTORNEY FOR DEFENDANT",
+          "name": "KADOURA, JUSTIN M",
+          "address": "1650 MARKET STREET SUITE 3300 PHILADELPHIA PA 19103 (215)252-9552 justin.kadoura@hklaw.com"
+        }
+      ],
+      "events": [
+        {
+          "event": "CASE MANAGEMENT CONFERENCE",
+          "datetime": "22-JUN-2026 10:00 AM",
+          "room": "VIA ADVANCED COMMUN. TECH.",
+          "location": "REMOTE HEARING",
+          "judge": "COMMERCE CASE MANAGER"
+        },
+        {
+          "event": "HEARING",
+          "datetime": "03-SEP-2026 09:30 AM",
+          "room": "CITY HALL",
+          "location": "COURTROOM 646",
+          "judge": "ERDOS, MICHAEL"
+        }
+      ],
+      "entries": [
+        {
+          "date": "25-MAR-2026",
+          "time": "09:29 AM",
+          "type": "ACTIVE CASE",
+          "party": ""
+        },
+        {
+          "date": "25-MAR-2026",
+          "time": "09:29 AM",
+          "type": "COMMENCEMENT OF CIVIL ACTION",
+          "party": "DELUCA, ANDREW"
+        },
+        {
+          "date": "25-MAR-2026",
+          "time": "09:29 AM",
+          "type": "COMPLAINT FILED NOTICE GIVEN",
+          "party": "DELUCA, ANDREW"
+        },
+        {
+          "date": "25-MAR-2026",
+          "time": "09:29 AM",
+          "type": "WAITING TO LIST CASE MGMT CONF",
+          "party": "DELUCA, ANDREW"
+        },
+        {
+          "date": "07-APR-2026",
+          "time": "12:06 PM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "DELUCA, ANDREW"
+        },
+        {
+          "date": "07-APR-2026",
+          "time": "12:07 PM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "DELUCA, ANDREW"
+        },
+        {
+          "date": "09-APR-2026",
+          "time": "10:26 PM",
+          "type": "PRELIMINARY INJUNCTION",
+          "party": "DELUCA, ANDREW"
+        },
+        {
+          "date": "10-APR-2026",
+          "time": "09:17 AM",
+          "type": "MOTION ASSIGNED",
+          "party": ""
+        },
+        {
+          "date": "10-APR-2026",
+          "time": "01:08 PM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "DELUCA, ANDREW"
+        },
+        {
+          "date": "10-APR-2026",
+          "time": "01:56 PM",
+          "type": "ENTRY OF APPEARANCE",
+          "party": "COLE ESQ, SIOBHAN K"
+        },
+        {
+          "date": "13-APR-2026",
+          "time": "02:12 PM",
+          "type": "ORDER ENTERED/236 NOTICE GIVEN",
+          "party": "ERDOS, MICHAEL"
+        },
+        {
+          "date": "13-APR-2026",
+          "time": "02:12 PM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "13-APR-2026",
+          "time": "02:17 PM",
+          "type": "MOTION RESPONSE DATE UPDATED",
+          "party": ""
+        },
+        {
+          "date": "13-APR-2026",
+          "time": "02:18 PM",
+          "type": "ANSWER (MOTION/PETITION) FILED",
+          "party": "COLE ESQ, SIOBHAN K"
+        },
+        {
+          "date": "13-APR-2026",
+          "time": "05:37 PM",
+          "type": "ENTRY OF APPEARANCE-CO COUNSEL",
+          "party": "KADOURA, JUSTIN M"
+        },
+        {
+          "date": "14-APR-2026",
+          "time": "06:01 PM",
+          "type": "PRAECIPE TO SUPPL/ATTACH FILED",
+          "party": "COLE ESQ, SIOBHAN K"
+        },
+        {
+          "date": "20-APR-2026",
+          "time": "06:23 PM",
+          "type": "PRELIMINARY OBJECTIONS",
+          "party": "COLE ESQ, SIOBHAN K"
+        },
+        {
+          "date": "27-APR-2026",
+          "time": "09:18 AM",
+          "type": "MOTION ASSIGNED",
+          "party": ""
+        },
+        {
+          "date": "27-APR-2026",
+          "time": "10:52 AM",
+          "type": "ANSWER (MOTION/PETITION) FILED",
+          "party": "COLE ESQ, SIOBHAN K"
+        },
+        {
+          "date": "04-MAY-2026",
+          "time": "05:03 PM",
+          "type": "AMENDED COMPLAINT FILED",
+          "party": "DEVITO, GARY A"
+        },
+        {
+          "date": "04-MAY-2026",
+          "time": "05:34 PM",
+          "type": "MOTION/PETITION REPLY FILED",
+          "party": "DEVITO, GARY A"
+        },
+        {
+          "date": "05-MAY-2026",
+          "time": "10:33 AM",
+          "type": "LISTED FOR CASE MGMT CONF",
+          "party": ""
+        },
+        {
+          "date": "05-MAY-2026",
+          "time": "10:33 AM",
+          "type": "CONFERENCE DATE SET",
+          "party": ""
+        },
+        {
+          "date": "05-MAY-2026",
+          "time": "10:33 AM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "06-MAY-2026",
+          "time": "12:41 PM",
+          "type": "PRAECIPE-ATTACH VERIFICATION",
+          "party": "DEVITO, GARY A"
+        },
+        {
+          "date": "12-MAY-2026",
+          "time": "03:09 PM",
+          "type": "PRELIM OBJECTIONS-MARKED MOOT",
+          "party": ""
+        },
+        {
+          "date": "15-MAY-2026",
+          "time": "03:11 PM",
+          "type": "ORDER ENTERED/236 NOTICE GIVEN",
+          "party": "ERDOS, MICHAEL"
+        },
+        {
+          "date": "15-MAY-2026",
+          "time": "03:11 PM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "15-MAY-2026",
+          "time": "03:13 PM",
+          "type": "RULE FOR INJUNCTION HRG SCHED",
+          "party": ""
+        },
+        {
+          "date": "25-MAY-2026",
+          "time": "09:55 PM",
+          "type": "PRELIMINARY OBJECTIONS",
+          "party": "KADOURA, JUSTIN M"
+        },
+        {
+          "date": "25-MAY-2026",
+          "time": "10:00 PM",
+          "type": "OBJECTIONS FILED",
+          "party": "KADOURA, JUSTIN M"
+        },
+        {
+          "date": "26-MAY-2026",
+          "time": "10:54 AM",
+          "type": "PRAECIPE TO SUPPL/ATTACH FILED",
+          "party": "KADOURA, JUSTIN M"
+        },
+        {
+          "date": "26-MAY-2026",
+          "time": "11:24 AM",
+          "type": "DISCOVERY MOTION FILED",
+          "party": "KADOURA, JUSTIN M"
+        },
+        {
+          "date": "27-MAY-2026",
+          "time": "04:00 PM",
+          "type": "MOTION/PETITION REPLY FILED",
+          "party": "KADOURA, JUSTIN M"
+        },
+        {
+          "date": "29-MAY-2026",
+          "time": "10:15 AM",
+          "type": "ORDER ENTERED/236 NOTICE GIVEN",
+          "party": "ERDOS, MICHAEL"
+        },
+        {
+          "date": "29-MAY-2026",
+          "time": "10:15 AM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "29-MAY-2026",
+          "time": "10:23 AM",
+          "type": "LISTED FOR HEARING",
+          "party": ""
+        },
+        {
+          "date": "29-MAY-2026",
+          "time": "04:00 PM",
+          "type": "ORDER ENTERED/236 NOTICE GIVEN",
+          "party": "ERDOS, MICHAEL"
+        },
+        {
+          "date": "29-MAY-2026",
+          "time": "04:00 PM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "08-JUN-2026",
+          "time": "09:20 AM",
+          "type": "DISCOVERY MOTION DISMISSED",
+          "party": ""
+        }
+      ],
+      "last_entry": {
+        "date": "08-JUN-2026",
+        "time": "09:20 AM",
+        "type": "DISCOVERY MOTION DISMISSED",
+        "party": ""
+      },
+      "entry_count": 40
+    }
+  }
+}

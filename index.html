@@ -31,6 +31,7 @@
     .card-appellate { border-top: 4px solid #1e8449; }
     .card-local { border-top: 4px solid #b9770e; }
     .card-business { border-top: 4px solid #566573; }
+    .card-ccp { border-top: 4px solid #1a6b8e; }
     .footer { text-align: center; padding: 30px; color: #999; font-size: 12px; }
 </style>
 </head>
@@ -73,7 +74,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Av's Tools</h1>
-    <div class="meta">Last updated June 08, 2026 at 01:44 PM</div>
+    <div class="meta">Last updated June 09, 2026 at 03:40 PM</div>
 </div>
 
 <div class="section-header"><h2>Philadelphia Criminal Courts</h2></div>
@@ -104,6 +105,23 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <h2>Guilty Plea Watch</h2>
         <p>Daily scan of serious violent felony dockets. Flags cases where a guilty plea newly appeared since yesterday. Catches pleas from any hearing type.</p>
         <a href="philly_new_pleas.html">View Watch</a>
+    </div>
+</div>
+
+<div class="section-header"><h2>Philadelphia Civil Courts</h2></div>
+<div class="cards">
+    <div class="card card-ccp">
+        <div class="icon">&#x1f4cb;</div>
+        <h2>CCP Motion Hearings &amp; Trials</h2>
+        <p>Philadelphia Common Pleas civil motion hearings and trial dates certain. Rolling 120-day forward calendar from the FJD public e-filing system.</p>
+        <a href="ccp_civil_dashboard.html">View Calendar</a>
+    </div>
+
+    <div class="card card-ccp">
+        <div class="icon">&#x1f5c2;</div>
+        <h2>CCP Civil Dockets</h2>
+        <p>New civil complaints filed daily — filtered by case type. Plus a watchlist for tracking specific cases and getting alerts when dockets are updated.</p>
+        <a href="ccp_dockets_dashboard.html">View Dockets</a>
     </div>
 </div>
 
