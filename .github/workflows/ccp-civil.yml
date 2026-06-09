@@ -1,0 +1,43 @@
+name: CCP civil daily update
+
+on:
+  workflow_dispatch:        # manual trigger (used as the cloud-IP test)
+  schedule:
+    - cron: '0 7 * * *'     # 03:00 America/New_York during EDT (07:00 UTC); 02:00 under EST
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r ccp/requirements.txt
+
+      - name: Scrape FJD + build dashboard
+        run: python ccp/daily_update.py --window-days 120
+
+      - name: Apply password gate
+        run: python ccp/deploy_prep.py
+
+      - name: Stage deploy file
+        run: cp ccp/ccp_civil_dashboard.html ccp_civil_dashboard.html
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ccp_civil_dashboard.html ccp/data/dashboard_data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "CCP daily update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
