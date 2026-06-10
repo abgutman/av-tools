@@ -98,6 +98,13 @@ COURT_BADGE = {
     "delaware":     ("Delaware",     "#D55E00"),
 }
 
+# Courts where per-case deep links require an active session and break for
+# end-users. These get a "Search case number" button linking to the search page.
+SEARCH_URLS = {
+    "philadelphia": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer",
+    "montgomery":   "https://courtsapp.montcopa.org/psi/v/search/case",
+}
+
 FORECLOSURE_KEYWORDS = ("mortgage foreclosure", "foreclosure", "mortgage", "ejectment")
 
 
@@ -232,13 +239,14 @@ def case_card(rec, area):
                         f'{esc(p["name"])} {loc}</div>')
 
     url = rec.get("url", "")
-    if url:
+    search_url = SEARCH_URLS.get(rec.get("court", ""))
+    if url and not search_url:
         case_id_html = f'<a href="{esc(url)}" target="_blank" rel="noopener" class="case-number">{esc(rec["case_number"])}</a>'
         docket_btn = f'<a href="{esc(url)}" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>'
     else:
-        # Philadelphia: no stable public per-case docket URL.
         case_id_html = f'<span class="case-number">{esc(rec["case_number"])}</span>'
-        docket_btn = '<span class="docket-link nolink">FJD — search case no.</span>'
+        docket_btn = (f'<a href="{esc(search_url)}" target="_blank" rel="noopener" '
+                      f'class="docket-link">Search case number &rarr;</a>')
 
     case_type = esc(rec.get("case_type", "") or "—")
     status = rec.get("status", "")
