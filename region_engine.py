@@ -222,7 +222,7 @@ def municipality(party, area):
 def case_card(rec, area):
     label, color = COURT_BADGE.get(rec["court"], (rec["court"].title(), "#555"))
     badge = (f'<span class="court-badge" style="background:{color}">'
-             f'{esc(label)}</span>')
+             f'Filed in: {esc(label)} County</span>')
 
     party_lines = ""
     for p in local_parties(rec, area):
@@ -272,8 +272,12 @@ def build_dashboard(area_key, area, cases):
     cases = sorted(cases, key=lambda c: c.get("filing_date", ""), reverse=True)
 
     new_cutoff = (now - timedelta(days=NEW_DAYS)).date()
-    new_cases = [c for c in cases if (_date(c) or now.date()) >= new_cutoff]
+    # Three mutually exclusive tabs — no case appears in more than one.
     foreclosures = [c for c in cases if is_foreclosure(c)]
+    new_cases    = [c for c in cases
+                    if not is_foreclosure(c) and (_date(c) or now.date()) >= new_cutoff]
+    older_cases  = [c for c in cases
+                    if not is_foreclosure(c) and (_date(c) or now.date()) < new_cutoff]
 
     other_key = "greater_media" if area_key == "lower_merion" else "lower_merion"
     other = AREAS[other_key]
@@ -286,7 +290,7 @@ def build_dashboard(area_key, area, cases):
                            for k, v in sorted(tally.items())) or "none yet"
 
     legend = "".join(
-        f'<span class="court-badge" style="background:{color}">{label}</span>'
+        f'<span class="court-badge" style="background:{color}">Filed in: {label} County</span>'
         for _k, (label, color) in COURT_BADGE.items())
 
     html = f'''<!DOCTYPE html>
@@ -361,13 +365,13 @@ a.docket-link:hover {{ background: #33506b; }}
 <div class="tabs">
     <div class="tab active" onclick="showTab('new', this)">New Lawsuits ({len(new_cases)})</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures ({len(foreclosures)})</div>
-    <div class="tab" onclick="showTab('all', this)">All Cases ({len(cases)})</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases ({len(older_cases)})</div>
 </div>
 
 <div class="content">
     {section(f"New Lawsuits (last {NEW_DAYS} days)", "&#x1f4c4;", new_cases, "new", area)}
     {section("Foreclosures", "&#x1f3e0;", foreclosures, "foreclosures", area)}
-    {section(f"All {esc(area['name'])} Cases (last {RETENTION_DAYS} days)", "&#x1f4cb;", cases, "all", area)}
+    {section(f"Older Cases (days 4&ndash;{RETENTION_DAYS})", "&#x1f4cb;", older_cases, "older", area)}
 </div>
 
 <div class="footer">

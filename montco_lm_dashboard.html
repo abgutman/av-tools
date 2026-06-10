@@ -4,49 +4,46 @@
 <meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lower Merion Civil Cases — Montgomery County CCP</title>
+<meta name="robots" content="noindex, nofollow">
+<title>Lower Merion Civil Lawsuits — Regional Courts</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
-.header { background: #1b3a4b; color: white; padding: 30px; text-align: center; }
-.header h1 { font-size: 26px; margin-bottom: 6px; }
-.header .meta { color: #aaa; font-size: 13px; }
-.tabs { display: flex; justify-content: center; gap: 10px; padding: 20px; background: #fff; border-bottom: 1px solid #ddd; flex-wrap: wrap; }
+.header { background: #1b2a3a; color: white; padding: 28px 20px; text-align: center; }
+.header h1 { font-size: 25px; margin-bottom: 6px; }
+.header .meta { color: #9fb3c8; font-size: 13px; }
+.nav { display: flex; justify-content: center; gap: 12px; padding: 12px 20px; background: #e7ebef; border-bottom: 1px solid #d6dce2; flex-wrap: wrap; }
+.nav a { font-size: 14px; font-weight: 600; color: #1b2a3a; text-decoration: none; padding: 6px 16px; border-radius: 6px; }
+.nav a:hover { background: #d6dce2; }
+.nav a.current { background: #1b2a3a; color: white; }
+.blurb { max-width: 900px; margin: 18px auto 0; padding: 16px 20px; background: #fff; border-radius: 8px; font-size: 13px; color: #555; line-height: 1.6; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.blurb strong { color: #333; }
+.legend { max-width: 900px; margin: 10px auto 0; padding: 0 20px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font-size: 12px; color: #777; }
+.legend .lbl { margin-right: 2px; }
+.tabs { display: flex; justify-content: center; gap: 10px; padding: 18px 20px; background: #fff; border-bottom: 1px solid #ddd; flex-wrap: wrap; margin-top: 14px; }
 .tab { padding: 8px 18px; border-radius: 20px; cursor: pointer; font-size: 14px; font-weight: 600; border: 2px solid #ddd; background: white; }
-.tab.active { background: #1b3a4b; color: white; border-color: #1b3a4b; }
-.tab:hover { border-color: #1b3a4b; }
+.tab.active { background: #1b2a3a; color: white; border-color: #1b2a3a; }
+.tab:hover { border-color: #1b2a3a; }
 .content { max-width: 900px; margin: 0 auto; padding: 20px; }
 .section { display: none; }
 .section.active { display: block; }
-.section h2 { font-size: 20px; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #1b3a4b; }
-.count { color: #888; font-weight: normal; font-size: 16px; }
-.case-card { background: white; border-radius: 8px; padding: 18px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-left: 4px solid #1b3a4b; }
-.case-header { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
-.case-number { font-weight: 700; color: #1b3a4b; text-decoration: none; font-size: 15px; }
-.case-number:hover { text-decoration: underline; }
-.docket-link { margin-left: auto; font-size: 12px; color: white; background: #1b3a4b; padding: 4px 12px; border-radius: 4px; text-decoration: none; font-weight: 600; white-space: nowrap; }
-.docket-link:hover { background: #2c5f7a; }
+.section h2 { font-size: 19px; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid #1b2a3a; }
+.count { color: #888; font-weight: normal; font-size: 15px; }
+.case-card { background: white; border-radius: 8px; padding: 16px 18px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-left: 4px solid #1b2a3a; }
+.case-header { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+.court-badge { color: white; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; letter-spacing: .02em; white-space: nowrap; }
+.case-number { font-weight: 700; color: #1b2a3a; text-decoration: none; font-size: 15px; }
+a.case-number:hover { text-decoration: underline; }
+.docket-link { margin-left: auto; font-size: 12px; color: white; background: #1b2a3a; padding: 4px 12px; border-radius: 4px; text-decoration: none; font-weight: 600; white-space: nowrap; }
+a.docket-link:hover { background: #33506b; }
+.docket-link.nolink { background: #aeb6bf; cursor: default; }
 .case-type { background: #e8f0fe; color: #1a56db; padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
 .caption { font-size: 15px; margin-bottom: 4px; }
 .case-meta { font-size: 13px; color: #666; margin-bottom: 8px; }
-.zip-list { margin-bottom: 6px; }
-.zip-badge { display: inline-block; background: #27ae60; color: white; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; margin: 2px 2px; }
-.lm-party { font-size: 13px; margin: 3px 0; padding: 4px 8px; background: #f0fdf4; border-radius: 4px; }
-.addr { color: #666; }
-details { margin-top: 8px; }
-summary { cursor: pointer; font-size: 13px; color: #1b3a4b; font-weight: 600; }
-.docket-table { width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 12px; }
-.docket-table th { background: #f5f5f5; padding: 6px 8px; text-align: left; border-bottom: 1px solid #ddd; }
-.docket-table td { padding: 5px 8px; border-bottom: 1px solid #eee; }
-.docket-date { white-space: nowrap; color: #666; }
+.local-party { font-size: 13px; margin: 3px 0; padding: 4px 8px; background: #eef7f1; border-radius: 4px; }
+.locale { color: #2c7a4b; font-weight: 600; }
 .empty { color: #999; font-style: italic; padding: 20px; text-align: center; }
-.footer { text-align: center; padding: 30px; color: #999; font-size: 12px; }
-.nav { display: flex; justify-content: center; gap: 12px; padding: 12px 20px; background: #eee; border-bottom: 1px solid #ddd; }
-.nav a { font-size: 14px; font-weight: 600; color: #1b3a4b; text-decoration: none; padding: 6px 16px; border-radius: 6px; }
-.nav a:hover { background: #ddd; }
-.nav a.current { background: #1b3a4b; color: white; }
-.blurb { max-width: 900px; margin: 20px auto 0; padding: 16px 20px; background: #fff; border-radius: 8px; font-size: 13px; color: #555; line-height: 1.6; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
-.blurb strong { color: #333; }
+.footer { text-align: center; padding: 26px 20px; color: #999; font-size: 12px; line-height: 1.6; }
 </style>
 </head>
 <body>
@@ -86,8 +83,8 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;right:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
 
 <div class="header">
-    <h1>Lower Merion Civil Cases</h1>
-    <div class="meta">Montgomery County Court of Common Pleas | Updated June 10, 2026 at 12:24 PM</div>
+    <h1>Lower Merion Civil Lawsuits</h1>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated June 10, 2026 at 12:33 PM</div>
 </div>
 
 <div class="nav">
@@ -96,925 +93,207 @@ if (sessionStorage.getItem('court_auth')==='1') {
 </div>
 
 <div class="blurb">
-    <strong>What this shows:</strong> All civil cases filed in Montgomery County Court of Common Pleas in the past 7 days where at least one party has an address in a Lower Merion Township zip code (Ardmore, Bala Cynwyd, Bryn Mawr, Gladwyne, Haverford, Merion Station, Narberth, Havertown, Villanova, Wynnewood). Liens are excluded. Cases appear here for 7 days from their filing date, then drop off. Data is refreshed daily at 5 AM.
+    <strong>What this shows:</strong> Civil lawsuits filed in the past 14 days in
+    <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
+    Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
+    their attorney) has an address in Ardmore, Bala Cynwyd, Bryn Mawr, Gladwyne, Haverford, Merion Station, Narberth, Havertown, Villanova and Wynnewood. Each case is tagged with the court where it
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 1 · Montgomery 9 · Philadelphia 6.
 </div>
 
+<div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
+
 <div class="tabs">
-    <div class="tab active" onclick="showTab('filings')">New Lawsuits (35)</div>
-    <div class="tab" onclick="showTab('foreclosures')">Foreclosures (3)</div>
-    <div class="tab" onclick="showTab('judgments')">Judgments (0)</div>
-    <div class="tab" onclick="showTab('hearings')">Hearings (0)</div>
-    <div class="tab" onclick="showTab('all')">All Cases (35)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (11)</div>
+    <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (2)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (3)</div>
 </div>
 
 <div class="content">
-    <div class="section" id="filings">
-            <h2>&#x1f4c4; New Lawsuits Filed <span class="count">(35)</span></h2>
-            <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474820" target="_blank" class="case-number">2026-14654</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474820" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">PHILADELPHIA INDEMNITY INSURANCE COMPANY v. GARMENDIA, MILTON</div>
-            <div class="case-meta">Filed: 6/9/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> PHILADELPHIA INDEMNITY INSURANCE COMPANY (MERCEDES-BENZ FINANCIAL SERVICES USA LLC ) <span class="addr">ONE BALA PLAZA, SUITE 100, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
+    <div class="section" id="new">
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(11)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260601075</span>
+            <span class="case-type">CONTRACTS OTHER</span>
+            <span class="docket-link nolink">FJD — search case no.</span>
         </div>
+        <div class="caption">SIMPSON VS BLUMENFELD ETAL</div>
+        <div class="case-meta">Filed: 2026-06-09 &middot; ARBITRATION HEARING SCHEDULED</div>
+        <div class="local-party"><strong>DEFENDANT:</strong> BLUMENFELD, DAVID <span class="locale">Bala Cynwyd (19004)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" class="case-number">2026-14652</a>
-                <span class="case-type">Complaint In Mortgage Foreclosure</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">PHILADELPHIA FEDERAL CREDIT UNION v. DEBEASE, CELESTE F</div>
-            <div class="case-meta">Filed: 6/9/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> DEBEASE, CELESTE F <span class="addr">144 ASHLAND AVENUE, BALA-CYNWYD, PA 19004 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474820" target="_blank" rel="noopener" class="case-number">2026-14654</a>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474820" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">PHILADELPHIA INDEMNITY INSURANCE COMPANY v. GARMENDIA, MILTON</div>
+        <div class="case-meta">Filed: 2026-06-09 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> PHILADELPHIA INDEMNITY INSURANCE COMPANY <span class="locale">Bala Cynwyd (19004)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474680" target="_blank" class="case-number">2026-14580</a>
-                <span class="case-type">Complaint In Partition</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474680" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> GITLIN, AMY <span class="addr">811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6383312" target="_blank" rel="noopener" class="case-number">2026-51313</a>
+            <span class="case-type">ORDER FOR JUDGMENT ENTERED IN FAVOR OF BUCKS COUNTY CLERK OF COURTS PURSUANT TO 42 PA.C.S. SEC. 9728 IN THE AMOUNT OF $</span>
+            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6383312" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">Bucks County Clerk of Courts v. BELL, ANDREW</div>
+        <div class="case-meta">Filed: 2026-06-09</div>
+        <div class="local-party"><strong>Defendant:</strong> BELL, ANDREW <span class="locale">Havertown (19083)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474673" target="_blank" class="case-number">2026-14578</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474673" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> GITLIN, AMY (390 COMMERCE REALTY LLC ) <span class="addr">811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260600964</span>
+            <span class="case-type">CONFESSION OF JUDGMENT</span>
+            <span class="docket-link nolink">FJD — search case no.</span>
         </div>
+        <div class="caption">VV13451 LLC VS SB GLOBAL STAR LLC</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; ACTIVE CASE</div>
+        <div class="local-party"><strong>PLAINTIFF:</strong> VV13451 LLC <span class="locale">Bala Cynwyd (19004)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474674" target="_blank" class="case-number">2026-14579</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474674" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> GITLIN, AMY (270 COMMERCE DRIVE LP) <span class="addr">811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260601017</span>
+            <span class="case-type">EQUITY - NO REAL ESTATE</span>
+            <span class="docket-link nolink">FJD — search case no.</span>
         </div>
+        <div class="caption">GUO VS FRIEDBERG ETAL</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>DEFENDANT:</strong> FRIEDBERG, MICHAEL <span class="locale">Narberth (19072)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474659" target="_blank" class="case-number">2026-14571</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474659" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">CLARK, CURTIS v. LANKENAU MEDICAL CENTER</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LANKENAU MEDICAL CENTER <span class="addr">100 EAST LANCASTER AVENUE, PENN WYNNE, PA 19096 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474680" target="_blank" rel="noopener" class="case-number">2026-14580</a>
+            <span class="case-type">Complaint In Partition</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474680" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> GITLIN, AMY <span class="locale">Villanova (19085)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474667" target="_blank" class="case-number">2026-14569</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474667" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">PLYMOUTH INDUSTRIAL CENTER INC v. VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA <span class="addr">OFFICE OF THE GENERAL COUNSEL VILLANOVA UNIVERSITY, 206 TOLENTINE HALL 800 LANCASTER AVENUE, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474673" target="_blank" rel="noopener" class="case-number">2026-14578</a>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474673" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> GITLIN, AMY <span class="locale">Villanova (19085)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474531" target="_blank" class="case-number">2026-14557</a>
-                <span class="case-type">Foreign Subpoena</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474531" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HERSKOWITZ, KENNETH v. OBRA LONGEVUTY FUND LP</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Merion Station (19066)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HERSKOWITZ, KENNETH <span class="addr">PO BOX 212, MERION STATION, PA 19066 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474674" target="_blank" rel="noopener" class="case-number">2026-14579</a>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474674" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> GITLIN, AMY <span class="locale">Villanova (19085)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" class="case-number">2026-14536</a>
-                <span class="case-type">Complaint in Ejectment</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SULLIVAN, STEPHEN v. TRAMBLEY, KAROLYNE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Haverford (19041)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> SULLIVAN, STEPHEN <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> SULLIVAN, COLLEEN <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> TRAMBLEY, KAROLYNE <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474659" target="_blank" rel="noopener" class="case-number">2026-14571</a>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474659" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">CLARK, CURTIS v. LANKENAU MEDICAL CENTER</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> LANKENAU MEDICAL CENTER <span class="locale">Wynnewood (19096)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474601" target="_blank" class="case-number">2026-14522</a>
-                <span class="case-type">Judgment from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474601" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">DISCOVER BANK  v. SPIVEY, MARK A</div>
-            <div class="case-meta">Filed: 6/7/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> SPIVEY, MARK A <span class="addr">14 TRENT RD # 1, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474667" target="_blank" rel="noopener" class="case-number">2026-14569</a>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474667" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">PLYMOUTH INDUSTRIAL CENTER INC v. VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA <span class="locale">Villanova (19085)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474553" target="_blank" class="case-number">2026-14499</a>
-                <span class="case-type">Petition for Change of Name</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474553" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HEUCKEROTH, OTTO ROBERT v. </div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HEUCKEROTH, OTTO ROBERT <span class="addr">38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> HEUCKEROTH, ROBERT OTTO <span class="addr">38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474531" target="_blank" rel="noopener" class="case-number">2026-14557</a>
+            <span class="case-type">Foreign Subpoena</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474531" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474507" target="_blank" class="case-number">2026-14491</a>
-                <span class="case-type">Transfer Case from Another County</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474507" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HATCHIGIAN, DAVID v. GEICO INSURANCE</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Havertown (19083)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HATCHIGIAN, DAVID <span class="addr">2414 TOWNSHIP LINE ROAD, HAVERTOWN, PA 19083 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474518" target="_blank" class="case-number">2026-14478</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474518" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ROGERS &amp; ASSOCIATES LLC v. KONTOS, CHRIS</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> ROGERS &amp; ASSOCIATES LLC (ROGERS COUNSEL ) <span class="addr">26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474504" target="_blank" class="case-number">2026-14467</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474504" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ROGERS &amp; ASSOCIATES LLC v. ZATOS INVESTMENTS NJ LLC</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> ROGERS &amp; ASSOCIATES LLC (ROGERS COUNSEL ) <span class="addr">26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474492" target="_blank" class="case-number">2026-14458</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474492" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">BEJAR-MASSEY, RAQUEL v. KUNG, MEI PIN</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> BEJAR-MASSEY, RAQUEL <span class="addr">788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> MASSEY, RUSSELL <span class="addr">788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> KUNG, MEI PIN <span class="addr">525 FOXGLOVE LANE, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474374" target="_blank" class="case-number">2026-14387</a>
-                <span class="case-type">Defendants Appeal from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474374" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">MAVERICK MAIN LINE REALTY ASSOCIATES LP v. GLENN, FELICIA</div>
-            <div class="case-meta">Filed: 6/4/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> GLENN, FELICIA <span class="addr">101 W CITY AVE, APT 111, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474348" target="_blank" class="case-number">2026-70331</a>
-                <span class="case-type">IRS Federal Lien</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474348" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">United States Internal Rev v. WASSERMAN, ROBERT A</div>
-            <div class="case-meta">Filed: 6/4/2026</div>
-            <div class="zip-list"><span class="zip-badge">Narberth (19072)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> WASSERMAN, ROBERT A <span class="addr">1101 TOWER LN E, PENN VALLEY, PA 19072-1131 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474321" target="_blank" class="case-number">2026-14354</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474321" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HAMPSON, FRANK v. PEW, SANDRA</div>
-            <div class="case-meta">Filed: 6/4/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bryn Mawr (19010)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> PEW, SANDRA <span class="addr">310 CAVERSHAM ROAD, BRYN MAWR, PA 19010 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474271" target="_blank" class="case-number">2026-14330</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474271" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SMITH, CARLTON v. MCGLADE, CATHERINE</div>
-            <div class="case-meta">Filed: 6/3/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> MCGLADE, CATHERINE <span class="addr">345 INWOOD ROAD, ARDMORE, PA 19003 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> MCGLADE, FRANCIS <span class="addr">345 INWOOD ROAD, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474310" target="_blank" class="case-number">2026-14343</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474310" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">TEMPLE ADATH ISRAEL OF THE MAIN LINE v. MORGAN STANLEY SMITH BARNEY LLC</div>
-            <div class="case-meta">Filed: 6/3/2026</div>
-            <div class="zip-list"><span class="zip-badge">Merion Station (19066)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> TEMPLE ADATH ISRAEL OF THE MAIN LINE (CONGREGATION BETH T'FILLAH OF OVERBROOK PARK ) <span class="addr">250 N HIGHLAND AVENUE, MERION STATION, PA 19066 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474091" target="_blank" class="case-number">2026-14224</a>
-                <span class="case-type">Petition for Change of Name</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474091" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ESKANDARIA, MOHAMMADHOSSEIN v. </div>
-            <div class="case-meta">Filed: 6/2/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> ESKANDARIA, MOHAMMADHOSSEIN <span class="addr">36 CRICKET AVE, APT #B, ARDMORE, PA 19003 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> ESKANDARIA, BENJAMIN <span class="addr">36 CRICKET AVE, APT #B, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473969" target="_blank" class="case-number">2026-14182</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473969" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HAYE, MARVA LESHER v. CRESPO, MELISSA</div>
-            <div class="case-meta">Filed: 6/1/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HAYE, MARVA LESHER <span class="addr">1001 CITY AVENUE, UNIT EC209, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473965" target="_blank" class="case-number">2026-14177</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473965" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">AMERICAN EXPRESS NATIONAL BANK v. LUMOYA, JANINE MELODY</div>
-            <div class="case-meta">Filed: 6/1/2026</div>
-            <div class="zip-list"><span class="zip-badge">Narberth (19072)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LUMOYA, JANINE MELODY <span class="addr">1637 OAKWOOD DRIVE, APT S304, PENN VALLEY, PA 19072 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473836" target="_blank" class="case-number">2026-14115</a>
-                <span class="case-type">Transfer Case from Another County</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473836" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SPAZIANI, DAVID M v. MAIN LINE HOSPITALS INC</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bryn Mawr (19010)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> MAIN LINE HOSPITALS INC (BRYN MAWR HOSPITAL) <span class="addr">130 SOUTH BRYN MAWR AVENUE, BRYN MAWR, PA 19010 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473794" target="_blank" class="case-number">2026-14080</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473794" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">VELOCITY INVESTMENTS LLC v. DOW, TYLINA</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> DOW, TYLINA <span class="addr">350 VILLAGE DR 1172, BALA CYNWID, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473773" target="_blank" class="case-number">2026-14066</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473773" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">M&amp;G MAYBROOK OWNER LLC v. NACHMAN, PAMELA</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> M&amp;G MAYBROOK OWNER LLC (MAYBROOK APARTMENTS) <span class="addr">325 PENN ROAD, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> NACHMAN, PAMELA <span class="addr">325 PENN ROAD, APT 329, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473770" target="_blank" class="case-number">2026-14058</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473770" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">VELOCITY INVESTMENTS LLC v. GILL, ROBERT</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> GILL, ROBERT <span class="addr">147 SPRINGFIELD AV, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473709" target="_blank" class="case-number">2026-14029</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473709" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">CITIBANK NA v. LAMBERT, AYENDA M</div>
-            <div class="case-meta">Filed: 5/28/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LAMBERT, AYENDA M <span class="addr">1 UNION AVE UNIT 2609, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473662" target="_blank" class="case-number">2026-13987</a>
-                <span class="case-type">Defendants Appeal from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473662" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">MASTER, STEVEN B v. SHEVCHENKO, YULIA</div>
-            <div class="case-meta">Filed: 5/28/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> SHEVCHENKO, YULIA <span class="addr">159 FAIRVIEW AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473620" target="_blank" class="case-number">2026-13968</a>
-                <span class="case-type">Summons Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473620" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SMITH, KENT v. JIANG, COLY</div>
-            <div class="case-meta">Filed: 5/27/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> JIANG, COLY <span class="addr">1101 MORRIS ROAD, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> JIANG, XIAOSHAN <span class="addr">381 MONTGOMERY AVENUE, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473582" target="_blank" class="case-number">2026-13937</a>
-                <span class="case-type">Defendants Appeal from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473582" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">EQUITY TRUST CO CUST FBO BARRY KATZ IRA AND BARRY KATZ v. PITTS, BRETT</div>
-            <div class="case-meta">Filed: 5/27/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bryn Mawr (19010)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> EQUITY TRUST CO CUST FBO BARRY KATZ IRA AND BARRY KATZ <span class="addr">325 THORNBROOK AVE, ROSEMONT, PA 19010 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473337" target="_blank" class="case-number">2026-13906</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473337" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">AMERICAN EXPRESS NATIONAL BANK v. SPATACCO, FRANK</div>
-            <div class="case-meta">Filed: 5/27/2026</div>
-            <div class="zip-list"><span class="zip-badge">Haverford (19041)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> SPATACCO, FRANK (SPATACCO, FRANK M) <span class="addr">17 MEADOWS LN, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> MESA EQUITY &amp; INVESTMENTS CORP <span class="addr">17 MEADOWS LN, HAVERFORD, PA 19041 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473417" target="_blank" class="case-number">2026-13862</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473417" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ODK CAPITAL LLC v. ELDER CARE ALTERNATIVES INC</div>
-            <div class="case-meta">Filed: 5/26/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> ELDER CARE ALTERNATIVES INC <span class="addr">326 W LANCASTER AVE, FL 1, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473240" target="_blank" class="case-number">2026-13836</a>
-                <span class="case-type">Complaint In Mortgage Foreclosure</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473240" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">NEWREZ LLC DBA SHELLPOINT MORTGAGE SERVICING v. LEONARD, HERBERT</div>
-            <div class="case-meta">Filed: 5/26/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LEONARD, HERBERT <span class="addr">1109 BRYN MAWR AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> MOORE, JAMILLAH <span class="addr">1109 BRYN MAWR AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473370" target="_blank" class="case-number">2026-13819</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473370" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ARDENT CREDIT UNION v. DOUGLAS, SEAN A</div>
-            <div class="case-meta">Filed: 5/26/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> DOUGLAS, SEAN A <span class="addr">142 WALNUT AVENUE, ARDMORE, PA 19003-2138 UNITED STATES</span></div>
-            
-        </div>
-        </div>
+        <div class="caption">HERSKOWITZ, KENNETH v. OBRA LONGEVUTY FUND LP</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> HERSKOWITZ, KENNETH <span class="locale">Merion Station (19066)</span></div>
+    </div>
+    </div>
     <div class="section" id="foreclosures">
-            <h2>&#x1f3e0; Foreclosures <span class="count">(3)</span></h2>
-            <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" class="case-number">2026-14652</a>
-                <span class="case-type">Complaint In Mortgage Foreclosure</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">PHILADELPHIA FEDERAL CREDIT UNION v. DEBEASE, CELESTE F</div>
-            <div class="case-meta">Filed: 6/9/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> DEBEASE, CELESTE F <span class="addr">144 ASHLAND AVENUE, BALA-CYNWYD, PA 19004 UNITED STATES</span></div>
-            
+        <h2>&#x1f3e0; Foreclosures <span class="count">(2)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" rel="noopener" class="case-number">2026-14652</a>
+            <span class="case-type">Complaint In Mortgage Foreclosure</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">PHILADELPHIA FEDERAL CREDIT UNION v. DEBEASE, CELESTE F</div>
+        <div class="case-meta">Filed: 2026-06-09 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> DEBEASE, CELESTE F <span class="locale">Bala Cynwyd (19004)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" class="case-number">2026-14536</a>
-                <span class="case-type">Complaint in Ejectment</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SULLIVAN, STEPHEN v. TRAMBLEY, KAROLYNE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Haverford (19041)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> SULLIVAN, STEPHEN <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> SULLIVAN, COLLEEN <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> TRAMBLEY, KAROLYNE <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" rel="noopener" class="case-number">2026-14536</a>
+            <span class="case-type">Complaint in Ejectment</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
         </div>
+        <div class="caption">SULLIVAN, STEPHEN v. TRAMBLEY, KAROLYNE</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> SULLIVAN, STEPHEN <span class="locale">Haverford (19041)</span></div><div class="local-party"><strong>Plaintiff:</strong> SULLIVAN, COLLEEN <span class="locale">Haverford (19041)</span></div><div class="local-party"><strong>Defendant:</strong> TRAMBLEY, KAROLYNE <span class="locale">Haverford (19041)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(3)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260600786</span>
+            <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
+            <span class="docket-link nolink">FJD — search case no.</span>
+        </div>
+        <div class="caption">ANDON VS THE QUADRANGLE ETAL</div>
+        <div class="case-meta">Filed: 2026-06-05 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>PLAINTIFF:</strong> ANDON, FELICE <span class="locale">Haverford (19041)</span></div><div class="local-party"><strong>DEFENDANT:</strong> QUADRANGLE <span class="locale">Haverford (19041)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473240" target="_blank" class="case-number">2026-13836</a>
-                <span class="case-type">Complaint In Mortgage Foreclosure</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473240" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">NEWREZ LLC DBA SHELLPOINT MORTGAGE SERVICING v. LEONARD, HERBERT</div>
-            <div class="case-meta">Filed: 5/26/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LEONARD, HERBERT <span class="addr">1109 BRYN MAWR AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> MOORE, JAMILLAH <span class="addr">1109 BRYN MAWR AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260600787</span>
+            <span class="case-type">CONTRACTS OTHER</span>
+            <span class="docket-link nolink">FJD — search case no.</span>
         </div>
-        </div>
-    <div class="section" id="judgments">
-            <h2>&#x2696;&#xfe0f; Judgments <span class="count">(0)</span></h2>
-            <div class="empty">No cases found in this category.</div>
-        </div>
-    <div class="section" id="hearings">
-            <h2>&#x1f4c5; Hearings &amp; Scheduled Events <span class="count">(0)</span></h2>
-            <div class="empty">No cases found in this category.</div>
-        </div>
-    <div class="section" id="all">
-            <h2>&#x1f4cb; All Lower Merion Cases <span class="count">(35)</span></h2>
-            <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474820" target="_blank" class="case-number">2026-14654</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474820" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">PHILADELPHIA INDEMNITY INSURANCE COMPANY v. GARMENDIA, MILTON</div>
-            <div class="case-meta">Filed: 6/9/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> PHILADELPHIA INDEMNITY INSURANCE COMPANY (MERCEDES-BENZ FINANCIAL SERVICES USA LLC ) <span class="addr">ONE BALA PLAZA, SUITE 100, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
+        <div class="caption">NEMEROFF VS JMAC HOSPITALITY, LLC ETAL</div>
+        <div class="case-meta">Filed: 2026-06-05 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>DEFENDANT:</strong> WASSERMAN, ROBERT A <span class="locale">Narberth (19072)</span></div>
+    </div>
 <div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" class="case-number">2026-14652</a>
-                <span class="case-type">Complaint In Mortgage Foreclosure</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474825" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">PHILADELPHIA FEDERAL CREDIT UNION v. DEBEASE, CELESTE F</div>
-            <div class="case-meta">Filed: 6/9/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> DEBEASE, CELESTE F <span class="addr">144 ASHLAND AVENUE, BALA-CYNWYD, PA 19004 UNITED STATES</span></div>
-            
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260601008</span>
+            <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
+            <span class="docket-link nolink">FJD — search case no.</span>
         </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474680" target="_blank" class="case-number">2026-14580</a>
-                <span class="case-type">Complaint In Partition</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474680" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> GITLIN, AMY <span class="addr">811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474673" target="_blank" class="case-number">2026-14578</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474673" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> GITLIN, AMY (390 COMMERCE REALTY LLC ) <span class="addr">811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474674" target="_blank" class="case-number">2026-14579</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474674" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> GITLIN, AMY (270 COMMERCE DRIVE LP) <span class="addr">811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473836" target="_blank" class="case-number">2026-14115</a>
-                <span class="case-type">Transfer Case from Another County</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473836" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SPAZIANI, DAVID M v. MAIN LINE HOSPITALS INC</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bryn Mawr (19010)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> MAIN LINE HOSPITALS INC (BRYN MAWR HOSPITAL) <span class="addr">130 SOUTH BRYN MAWR AVENUE, BRYN MAWR, PA 19010 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473794" target="_blank" class="case-number">2026-14080</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473794" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">VELOCITY INVESTMENTS LLC v. DOW, TYLINA</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> DOW, TYLINA <span class="addr">350 VILLAGE DR 1172, BALA CYNWID, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473773" target="_blank" class="case-number">2026-14066</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473773" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">M&amp;G MAYBROOK OWNER LLC v. NACHMAN, PAMELA</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> M&amp;G MAYBROOK OWNER LLC (MAYBROOK APARTMENTS) <span class="addr">325 PENN ROAD, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> NACHMAN, PAMELA <span class="addr">325 PENN ROAD, APT 329, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473770" target="_blank" class="case-number">2026-14058</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473770" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">VELOCITY INVESTMENTS LLC v. GILL, ROBERT</div>
-            <div class="case-meta">Filed: 5/29/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> GILL, ROBERT <span class="addr">147 SPRINGFIELD AV, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473709" target="_blank" class="case-number">2026-14029</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473709" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">CITIBANK NA v. LAMBERT, AYENDA M</div>
-            <div class="case-meta">Filed: 5/28/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LAMBERT, AYENDA M <span class="addr">1 UNION AVE UNIT 2609, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473662" target="_blank" class="case-number">2026-13987</a>
-                <span class="case-type">Defendants Appeal from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473662" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">MASTER, STEVEN B v. SHEVCHENKO, YULIA</div>
-            <div class="case-meta">Filed: 5/28/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> SHEVCHENKO, YULIA <span class="addr">159 FAIRVIEW AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473620" target="_blank" class="case-number">2026-13968</a>
-                <span class="case-type">Summons Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473620" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SMITH, KENT v. JIANG, COLY</div>
-            <div class="case-meta">Filed: 5/27/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> JIANG, COLY <span class="addr">1101 MORRIS ROAD, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> JIANG, XIAOSHAN <span class="addr">381 MONTGOMERY AVENUE, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473582" target="_blank" class="case-number">2026-13937</a>
-                <span class="case-type">Defendants Appeal from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473582" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">EQUITY TRUST CO CUST FBO BARRY KATZ IRA AND BARRY KATZ v. PITTS, BRETT</div>
-            <div class="case-meta">Filed: 5/27/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bryn Mawr (19010)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> EQUITY TRUST CO CUST FBO BARRY KATZ IRA AND BARRY KATZ <span class="addr">325 THORNBROOK AVE, ROSEMONT, PA 19010 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473337" target="_blank" class="case-number">2026-13906</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473337" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">AMERICAN EXPRESS NATIONAL BANK v. SPATACCO, FRANK</div>
-            <div class="case-meta">Filed: 5/27/2026</div>
-            <div class="zip-list"><span class="zip-badge">Haverford (19041)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> SPATACCO, FRANK (SPATACCO, FRANK M) <span class="addr">17 MEADOWS LN, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> MESA EQUITY &amp; INVESTMENTS CORP <span class="addr">17 MEADOWS LN, HAVERFORD, PA 19041 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473417" target="_blank" class="case-number">2026-13862</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473417" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ODK CAPITAL LLC v. ELDER CARE ALTERNATIVES INC</div>
-            <div class="case-meta">Filed: 5/26/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> ELDER CARE ALTERNATIVES INC <span class="addr">326 W LANCASTER AVE, FL 1, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473240" target="_blank" class="case-number">2026-13836</a>
-                <span class="case-type">Complaint In Mortgage Foreclosure</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473240" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">NEWREZ LLC DBA SHELLPOINT MORTGAGE SERVICING v. LEONARD, HERBERT</div>
-            <div class="case-meta">Filed: 5/26/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LEONARD, HERBERT <span class="addr">1109 BRYN MAWR AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> MOORE, JAMILLAH <span class="addr">1109 BRYN MAWR AVENUE, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473370" target="_blank" class="case-number">2026-13819</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473370" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ARDENT CREDIT UNION v. DOUGLAS, SEAN A</div>
-            <div class="case-meta">Filed: 5/26/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> DOUGLAS, SEAN A <span class="addr">142 WALNUT AVENUE, ARDMORE, PA 19003-2138 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473969" target="_blank" class="case-number">2026-14182</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473969" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HAYE, MARVA LESHER v. CRESPO, MELISSA</div>
-            <div class="case-meta">Filed: 6/1/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HAYE, MARVA LESHER <span class="addr">1001 CITY AVENUE, UNIT EC209, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473965" target="_blank" class="case-number">2026-14177</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201473965" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">AMERICAN EXPRESS NATIONAL BANK v. LUMOYA, JANINE MELODY</div>
-            <div class="case-meta">Filed: 6/1/2026</div>
-            <div class="zip-list"><span class="zip-badge">Narberth (19072)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LUMOYA, JANINE MELODY <span class="addr">1637 OAKWOOD DRIVE, APT S304, PENN VALLEY, PA 19072 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474091" target="_blank" class="case-number">2026-14224</a>
-                <span class="case-type">Petition for Change of Name</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474091" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ESKANDARIA, MOHAMMADHOSSEIN v. </div>
-            <div class="case-meta">Filed: 6/2/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> ESKANDARIA, MOHAMMADHOSSEIN <span class="addr">36 CRICKET AVE, APT #B, ARDMORE, PA 19003 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> ESKANDARIA, BENJAMIN <span class="addr">36 CRICKET AVE, APT #B, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474271" target="_blank" class="case-number">2026-14330</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474271" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SMITH, CARLTON v. MCGLADE, CATHERINE</div>
-            <div class="case-meta">Filed: 6/3/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> MCGLADE, CATHERINE <span class="addr">345 INWOOD ROAD, ARDMORE, PA 19003 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> MCGLADE, FRANCIS <span class="addr">345 INWOOD ROAD, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474374" target="_blank" class="case-number">2026-14387</a>
-                <span class="case-type">Defendants Appeal from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474374" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">MAVERICK MAIN LINE REALTY ASSOCIATES LP v. GLENN, FELICIA</div>
-            <div class="case-meta">Filed: 6/4/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> GLENN, FELICIA <span class="addr">101 W CITY AVE, APT 111, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474348" target="_blank" class="case-number">2026-70331</a>
-                <span class="case-type">IRS Federal Lien</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474348" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">United States Internal Rev v. WASSERMAN, ROBERT A</div>
-            <div class="case-meta">Filed: 6/4/2026</div>
-            <div class="zip-list"><span class="zip-badge">Narberth (19072)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> WASSERMAN, ROBERT A <span class="addr">1101 TOWER LN E, PENN VALLEY, PA 19072-1131 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474321" target="_blank" class="case-number">2026-14354</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474321" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HAMPSON, FRANK v. PEW, SANDRA</div>
-            <div class="case-meta">Filed: 6/4/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bryn Mawr (19010)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> PEW, SANDRA <span class="addr">310 CAVERSHAM ROAD, BRYN MAWR, PA 19010 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474310" target="_blank" class="case-number">2026-14343</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474310" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">TEMPLE ADATH ISRAEL OF THE MAIN LINE v. MORGAN STANLEY SMITH BARNEY LLC</div>
-            <div class="case-meta">Filed: 6/3/2026</div>
-            <div class="zip-list"><span class="zip-badge">Merion Station (19066)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> TEMPLE ADATH ISRAEL OF THE MAIN LINE (CONGREGATION BETH T'FILLAH OF OVERBROOK PARK ) <span class="addr">250 N HIGHLAND AVENUE, MERION STATION, PA 19066 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474553" target="_blank" class="case-number">2026-14499</a>
-                <span class="case-type">Petition for Change of Name</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474553" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HEUCKEROTH, OTTO ROBERT v. </div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Bala Cynwyd (19004)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HEUCKEROTH, OTTO ROBERT <span class="addr">38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> HEUCKEROTH, ROBERT OTTO <span class="addr">38 LLANBERRIS ROAD, BALA CYNWYD, PA 19004 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474507" target="_blank" class="case-number">2026-14491</a>
-                <span class="case-type">Transfer Case from Another County</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474507" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HATCHIGIAN, DAVID v. GEICO INSURANCE</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Havertown (19083)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HATCHIGIAN, DAVID <span class="addr">2414 TOWNSHIP LINE ROAD, HAVERTOWN, PA 19083 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474518" target="_blank" class="case-number">2026-14478</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474518" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ROGERS &amp; ASSOCIATES LLC v. KONTOS, CHRIS</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> ROGERS &amp; ASSOCIATES LLC (ROGERS COUNSEL ) <span class="addr">26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474504" target="_blank" class="case-number">2026-14467</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474504" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">ROGERS &amp; ASSOCIATES LLC v. ZATOS INVESTMENTS NJ LLC</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Ardmore (19003)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> ROGERS &amp; ASSOCIATES LLC (ROGERS COUNSEL ) <span class="addr">26 E ATHENS AVE, ARDMORE, PA 19003 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474492" target="_blank" class="case-number">2026-14458</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474492" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">BEJAR-MASSEY, RAQUEL v. KUNG, MEI PIN</div>
-            <div class="case-meta">Filed: 6/5/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> BEJAR-MASSEY, RAQUEL <span class="addr">788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> MASSEY, RUSSELL <span class="addr">788 PERIWINKLE LANE, WYNNEWOOD, PA 19096 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> KUNG, MEI PIN <span class="addr">525 FOXGLOVE LANE, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474659" target="_blank" class="case-number">2026-14571</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474659" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">CLARK, CURTIS v. LANKENAU MEDICAL CENTER</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> LANKENAU MEDICAL CENTER <span class="addr">100 EAST LANCASTER AVENUE, PENN WYNNE, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474667" target="_blank" class="case-number">2026-14569</a>
-                <span class="case-type">Complaint Civil Action</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474667" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">PLYMOUTH INDUSTRIAL CENTER INC v. VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Villanova (19085)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA <span class="addr">OFFICE OF THE GENERAL COUNSEL VILLANOVA UNIVERSITY, 206 TOLENTINE HALL 800 LANCASTER AVENUE, VILLANOVA, PA 19085 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474531" target="_blank" class="case-number">2026-14557</a>
-                <span class="case-type">Foreign Subpoena</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474531" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">HERSKOWITZ, KENNETH v. OBRA LONGEVUTY FUND LP</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Merion Station (19066)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> HERSKOWITZ, KENNETH <span class="addr">PO BOX 212, MERION STATION, PA 19066 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" class="case-number">2026-14536</a>
-                <span class="case-type">Complaint in Ejectment</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474628" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">SULLIVAN, STEPHEN v. TRAMBLEY, KAROLYNE</div>
-            <div class="case-meta">Filed: 6/8/2026</div>
-            <div class="zip-list"><span class="zip-badge">Haverford (19041)</span> </div>
-            <div class="lm-party"><strong>Plaintiff:</strong> SULLIVAN, STEPHEN <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Plaintiff:</strong> SULLIVAN, COLLEEN <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div><div class="lm-party"><strong>Defendant:</strong> TRAMBLEY, KAROLYNE <span class="addr">512 MONTGOMERY AVE, HAVERFORD, PA 19041 UNITED STATES</span></div>
-            
-        </div>
-<div class="case-card">
-            <div class="case-header">
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474601" target="_blank" class="case-number">2026-14522</a>
-                <span class="case-type">Judgment from District Justice</span>
-                <a href="https://courtsapp.montcopa.org/psi/v/detail/Case/201474601" target="_blank" class="docket-link">View Docket &rarr;</a>
-            </div>
-            <div class="caption">DISCOVER BANK  v. SPIVEY, MARK A</div>
-            <div class="case-meta">Filed: 6/7/2026</div>
-            <div class="zip-list"><span class="zip-badge">Wynnewood (19096)</span> </div>
-            <div class="lm-party"><strong>Defendant:</strong> SPIVEY, MARK A <span class="addr">14 TRENT RD # 1, WYNNEWOOD, PA 19096 UNITED STATES</span></div>
-            
-        </div>
-        </div>
+        <div class="caption">KLEIN ETAL VS U-HAUL OF UNIVERSITY CITY ETAL</div>
+        <div class="case-meta">Filed: 2026-06-05 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>PLAINTIFF:</strong> KLEIN, LUCAS <span class="locale">Wynnewood (19096)</span></div>
+    </div>
+    </div>
 </div>
 
 <div class="footer">
-    Data from Montgomery County Prothonotary | Filtered for Lower Merion Township zip codes
+    Source: public dockets of the Philadelphia (First Judicial District), Montgomery, Bucks and
+    Delaware County Courts of Common Pleas.<br>
+    Always confirm every case against the official court docket before relying on or publishing this information.
 </div>
 
 <script>
-function showTab(id) {
+function showTab(id, el) {
     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     document.getElementById(id).classList.add('active');
-    event.target.classList.add('active');
+    el.classList.add('active');
 }
-document.getElementById('filings').classList.add('active');
+document.getElementById('new').classList.add('active');
 </script>
 
 </body>
