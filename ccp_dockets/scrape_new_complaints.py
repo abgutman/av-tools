@@ -14,7 +14,7 @@ import argparse
 import json
 import logging
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -29,6 +29,11 @@ log = logging.getLogger("complaints")
 DATA = HERE / "data"
 STATE_FILE = DATA / "state_complaints.json"
 OUTPUT_FILE = DATA / "complaints.json"
+
+# Dashboard shows a rolling window, not just the latest scan, so a barren scan
+# (e.g. one that runs before the day's docket numbers are issued) never blanks
+# the page. Cases drop off once their filing_date is older than this.
+WINDOW_DAYS = 30
 
 RECIPIENT = ["agutman@inquirer.com"]
 DASHBOARD_URL = "https://abgutman.github.io/av-tools/ccp_dockets_dashboard.html"
@@ -175,8 +180,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true",
                     help="Send email and advance state pointer")
-    ap.add_argument("--max-misses", type=int, default=8,
-                    help="Stop after N consecutive missing case_ids")
+    ap.add_argument("--max-misses", type=int, default=20,
+                    help="Stop after N consecutive missing case_ids. Must exceed "
+                         "the largest gap of reserved-but-unfiled sequence numbers, "
+                         "or the scan stops short of the real frontier.")
     args = ap.parse_args()
 
     state = load_state()
@@ -215,9 +222,30 @@ def main():
 
     log.info("Scan done. %d included / max_seq=%d", len(results), max_seq_seen)
 
+    # Merge this run's new cases into a rolling window rather than overwriting,
+    # so the dashboard never goes blank on a scan that finds nothing. Dedup by
+    # case_id (a fresh parse wins), then drop anything filed before the cutoff.
     DATA.mkdir(exist_ok=True)
-    OUTPUT_FILE.write_text(json.dumps(results, indent=2))
-    log.info("Wrote %s (%d cases)", OUTPUT_FILE, len(results))
+    existing = []
+    if OUTPUT_FILE.exists():
+        try:
+            existing = json.loads(OUTPUT_FILE.read_text())
+        except (json.JSONDecodeError, OSError):
+            existing = []
+    merged = {c["case_id"]: c for c in existing}
+    for c in results:
+        merged[c["case_id"]] = c
+    cutoff = (datetime.now(timezone.utc).date()
+              - timedelta(days=WINDOW_DAYS)).isoformat()
+    # Keep cases newer than the cutoff; keep undated cases rather than silently
+    # dropping them (sentinel sorts last so they don't crowd the top).
+    window = [c for c in merged.values()
+              if (c.get("filing_date") or "9999-99-99") >= cutoff]
+    window.sort(key=lambda c: (c.get("filing_date") or "", c.get("case_id", "")),
+                reverse=True)
+    OUTPUT_FILE.write_text(json.dumps(window, indent=2))
+    log.info("Wrote %s (%d new this scan, %d in %d-day window)",
+             OUTPUT_FILE, len(results), len(window), WINDOW_DAYS)
 
     if args.live:
         state["last_seq_by_month"][yymm] = max_seq_seen

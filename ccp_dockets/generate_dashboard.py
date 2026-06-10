@@ -286,7 +286,7 @@ _DASHBOARD_HTML = """\
 <body>
 <header>
   <h1>Philadelphia Common Pleas — Civil Dockets</h1>
-  <p class="sub">New complaints (last scan) and watchlist. Generated __GENERATED__.</p>
+  <p class="sub">New complaints (rolling 30-day window) and watchlist. Generated __GENERATED__.</p>
 </header>
 
 <div class="notice" role="note">
