@@ -97,28 +97,42 @@ def _entry_str(entry):
 
 def build_email(cases, run_date):
     import html as _h
-    rows_html = ""
+    from collections import defaultdict
+
+    # Group by case_type, order types by count (desc) then alpha
+    grouped = defaultdict(list)
     for c in cases:
-        ps, ds = _party_str(c.get("plaintiffs", []), c.get("defendants", []))
-        last = _entry_str(c.get("last_entry"))
-        cid = _h.escape(c["case_id"])
-        caption = _h.escape(c.get("caption", ""))
-        filed = _h.escape(c.get("filing_date", ""))
-        ct = _h.escape(c.get("case_type", ""))
-        rows_html += f"""
+        grouped[c.get("case_type", "UNKNOWN")].append(c)
+    sorted_types = sorted(grouped.keys(), key=lambda t: (-len(grouped[t]), t))
+
+    TD = ("padding:8px 10px;font-size:12px;border-bottom:1px solid #eee;vertical-align:top;")
+    sections_html = ""
+    for ct in sorted_types:
+        group_cases = grouped[ct]
+        rows_html = ""
+        for c in group_cases:
+            ps, ds = _party_str(c.get("plaintiffs", []), c.get("defendants", []))
+            last = _entry_str(c.get("last_entry"))
+            cid = _h.escape(c["case_id"])
+            caption = _h.escape(c.get("caption", ""))
+            filed = _h.escape(c.get("filing_date", ""))
+            rows_html += f"""
         <tr>
-          <td style="padding:8px 10px;font-family:monospace;font-size:12px;color:#555;
-              white-space:nowrap;border-bottom:1px solid #eee;">{cid}</td>
-          <td style="padding:8px 10px;font-weight:600;font-size:13px;
-              border-bottom:1px solid #eee;">{caption}</td>
-          <td style="padding:8px 10px;font-size:12px;white-space:nowrap;
-              border-bottom:1px solid #eee;">{filed}</td>
-          <td style="padding:8px 10px;font-size:12px;border-bottom:1px solid #eee;">{ct}</td>
-          <td style="padding:8px 10px;font-size:12px;border-bottom:1px solid #eee;">{_h.escape(ps)}</td>
-          <td style="padding:8px 10px;font-size:12px;border-bottom:1px solid #eee;">{_h.escape(ds)}</td>
-          <td style="padding:8px 10px;font-size:12px;color:#555;
-              border-bottom:1px solid #eee;">{_h.escape(last)}</td>
+          <td style="{TD}font-family:monospace;color:#555;white-space:nowrap;">{cid}</td>
+          <td style="{TD}font-weight:600;">{caption}</td>
+          <td style="{TD}white-space:nowrap;">{filed}</td>
+          <td style="{TD}">{_h.escape(ps)}</td>
+          <td style="{TD}">{_h.escape(ds)}</td>
+          <td style="{TD}color:#555;">{_h.escape(last)}</td>
         </tr>"""
+        sections_html += f"""
+        <tr>
+          <td colspan="6" style="padding:10px 10px 7px;background:#e8edf2;
+              font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
+              color:#1a1a2e;border-top:2px solid #b8c8d8;border-bottom:1px solid #d0dce8;">
+            {_h.escape(ct)}<span style="font-weight:400;color:#666;"> ({len(group_cases)})</span>
+          </td>
+        </tr>{rows_html}"""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -128,14 +142,14 @@ def build_email(cases, run_date):
 
   <div style="background:#1a1a2e;padding:24px 28px;border-radius:10px 10px 0 0;">
     <p style="margin:0 0 6px;color:rgba(255,255,255,0.6);font-size:11px;text-transform:uppercase;letter-spacing:1.5px;">CCP Dockets Monitor</p>
-    <h1 style="margin:0 0 4px;color:white;font-size:22px;font-weight:700;">New Civil Complaints</h1>
-    <p style="margin:0;color:rgba(255,255,255,0.85);font-size:16px;">{len(cases)} case{"s" if len(cases) != 1 else ""} — {run_date}</p>
+    <h1 style="margin:0 0 4px;color:white;font-size:22px;font-weight:700;">New Civil Cases</h1>
+    <p style="margin:0;color:rgba(255,255,255,0.85);font-size:16px;">{len(cases)} case{"s" if len(cases) != 1 else ""} across {len(sorted_types)} type{"s" if len(sorted_types) != 1 else ""} — {run_date}</p>
   </div>
 
   <div style="background:white;padding:24px 28px;">
     <p style="margin:0 0 18px;font-size:13px;color:#666;background:#f8f9fa;padding:12px 16px;
         border-left:4px solid #1a1a2e;border-radius:0 6px 6px 0;">
-      New complaints filed since the last scan. Excludes liens, parking, MC appeals, and other filtered types.
+      New cases filed since the last scan. Excludes liens, parking, MC appeals, and other filtered types.
       Verify all details against the official FJD docket before relying on or publishing.
     </p>
 
@@ -146,13 +160,12 @@ def build_email(cases, run_date):
           <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #ddd;white-space:nowrap;">Case ID</th>
           <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #ddd;">Caption</th>
           <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #ddd;white-space:nowrap;">Filed</th>
-          <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #ddd;">Type</th>
           <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #ddd;">Plaintiff(s)</th>
           <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #ddd;">Defendant(s)</th>
           <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #ddd;">Last entry</th>
         </tr>
       </thead>
-      <tbody>{rows_html}
+      <tbody>{sections_html}
       </tbody>
     </table>
     </div>
@@ -254,7 +267,7 @@ def main():
 
         if results:
             run_date = datetime.now(timezone.utc).strftime("%B %-d, %Y")
-            subject = f"CCP New Complaints — {run_date} ({len(results)} cases)"
+            subject = f"CCP New Cases — {run_date} ({len(results)} cases)"
             body = build_email(results, run_date)
             sent = send_email(subject, body, log_fn=log.info, to=RECIPIENT)
             log.info("Email %s", "sent" if sent else "skipped (no creds)")

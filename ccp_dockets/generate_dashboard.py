@@ -221,7 +221,7 @@ _DASHBOARD_HTML = """\
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>CCP Civil Dockets — New Complaints &amp; Watchlist</title>
+<title>CCP Civil Dockets — New Cases &amp; Watchlist</title>
 <style>
   :root {
     --complaints: #1a1a2e; --watchlist: #2c5f2e;
@@ -255,6 +255,12 @@ _DASHBOARD_HTML = """\
                  min-height: 34px; }
   .count { padding: 6px 18px; font-size: .83rem; color: var(--muted); }
   .count b { color: var(--ink); }
+  .type-hdr td { background: #e8edf2; padding: 10px 10px 7px; font-size: .71rem;
+                 font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+                 color: #1a1a2e; border-top: 2px solid #b8c8d8;
+                 border-bottom: 1px solid #d0dce8; cursor: default; }
+  .type-hdr td .tc { font-weight: 400; color: #777; }
+  .type-hdr:hover td { background: #e8edf2 !important; }
   .wrap { padding: 0 18px 60px; }
   table { width: 100%; border-collapse: collapse; background: var(--card); font-size: .85rem; }
   thead th { background: #efefec; text-align: left; padding: 8px 10px;
@@ -286,7 +292,7 @@ _DASHBOARD_HTML = """\
 <body>
 <header>
   <h1>Philadelphia Common Pleas — Civil Dockets</h1>
-  <p class="sub">New complaints (rolling 30-day window) and watchlist. Generated __GENERATED__.</p>
+  <p class="sub">New cases (rolling 30-day window) and watchlist. Generated __GENERATED__.</p>
 </header>
 
 <div class="notice" role="note">
@@ -297,7 +303,7 @@ _DASHBOARD_HTML = """\
 
 <div class="tabs" role="tablist">
   <button class="tab complaints" role="tab" data-tab="complaints" aria-selected="true">
-    New Complaints (<span id="cnt-complaints">0</span>)
+    New Cases (<span id="cnt-complaints">0</span>)
   </button>
   <button class="tab watchlist" role="tab" data-tab="watchlist" aria-selected="false">
     Watchlist (<span id="cnt-watchlist">0</span>)
@@ -337,15 +343,14 @@ _DASHBOARD_HTML = """\
   var TABS = {
     complaints: {
       data: P.complaints,
-      label: 'complaint',
+      label: 'new case',
       cols: [
-        {k:'case_id',    label:'Case ID',      cell:function(r){ return '<span class="cid">'+r.case_id+'</span>'; }},
-        {k:'caption',    label:'Caption',      cell:function(r){ return '<span class="caption">'+r.caption+'</span>'; }},
-        {k:'filing_date',label:'Filed',        cell:function(r){ return r.filing_date||'—'; }},
-        {k:'case_type',  label:'Type',         cell:function(r){ return '<span class="badge">'+r.case_type+'</span>'; }},
-        {k:'plaintiffs', label:'Plaintiffs',   cell:function(r){ return esc(r.plaintiffs_str); }},
-        {k:'defendants', label:'Defendants',   cell:function(r){ return esc(r.defendants_str); }},
-        {k:'last_entry', label:'Last entry',   cell:function(r){
+        {k:'case_id',    label:'Case ID',    cell:function(r){ return '<span class="cid">'+r.case_id+'</span>'; }},
+        {k:'caption',    label:'Caption',    cell:function(r){ return '<span class="caption">'+r.caption+'</span>'; }},
+        {k:'filing_date',label:'Filed',      cell:function(r){ return r.filing_date||'—'; }},
+        {k:'plaintiffs', label:'Plaintiffs', cell:function(r){ return esc(r.plaintiffs_str); }},
+        {k:'defendants', label:'Defendants', cell:function(r){ return esc(r.defendants_str); }},
+        {k:'last_entry', label:'Last entry', cell:function(r){
           return '<span class="last-entry">'+(r.last_entry_date?r.last_entry_date+' — ':'')+r.last_entry_type+'</span>';
         }}
       ]
@@ -393,14 +398,34 @@ _DASHBOARD_HTML = """\
     var tr = document.getElementById('thead-row'); tr.innerHTML = '';
     TABS[tab].cols.forEach(function(col){
       var th = document.createElement('th'); th.textContent = col.label;
-      th.setAttribute('data-k', col.k);
-      if (col.k === ss.k) th.setAttribute('aria-sort', ss.d===1?'ascending':'descending');
-      th.addEventListener('click', function(){
-        if (ss.k===col.k) ss.d=-ss.d; else {ss.k=col.k; ss.d=1;}
-        render();
-      });
+      if (tab === 'watchlist') {
+        th.setAttribute('data-k', col.k);
+        if (col.k === ss.k) th.setAttribute('aria-sort', ss.d===1?'ascending':'descending');
+        th.addEventListener('click', function(){
+          if (ss.k===col.k) ss.d=-ss.d; else {ss.k=col.k; ss.d=1;}
+          render();
+        });
+      }
       tr.appendChild(th);
     });
+  }
+
+  // type ordering: sorted by count in the FULL dataset (stable as user types)
+  var _typeOrder = (function(){
+    var counts = {};
+    P.complaints.forEach(function(r){ counts[r.case_type]=(counts[r.case_type]||0)+1; });
+    return Object.keys(counts).sort(function(a,b){ return counts[b]-counts[a]||a<b?-1:a>b?1:0; });
+  })();
+
+  function renderRow(r, tab){
+    var tr = document.createElement('tr');
+    tr.innerHTML = TABS[tab].cols.map(function(col){
+      return '<td data-label="'+col.label+'">'+col.cell(r)+'</td>';
+    }).join('');
+    tr.addEventListener('click', function(){
+      window.open('civil_dockets/'+r.case_id+'.html', '_blank');
+    });
+    return tr;
   }
 
   function render(){
@@ -408,20 +433,37 @@ _DASHBOARD_HTML = """\
     buildHead(tab);
     var rows = filtered(tab);
     var tb = document.getElementById('tbody'); tb.innerHTML = '';
-    rows.forEach(function(r){
-      var tr = document.createElement('tr');
-      tr.innerHTML = TABS[tab].cols.map(function(col){
-        return '<td data-label="'+col.label+'">'+col.cell(r)+'</td>';
-      }).join('');
-      tr.addEventListener('click', function(){
-        window.open('civil_dockets/'+r.case_id+'.html', '_blank');
+
+    if (tab === 'complaints') {
+      // group by case_type in stable type order
+      var grouped = {};
+      rows.forEach(function(r){
+        if (!grouped[r.case_type]) grouped[r.case_type] = [];
+        grouped[r.case_type].push(r);
       });
-      tb.appendChild(tr);
-    });
-    var total = TABS[tab].data.length;
-    var lbl = TABS[tab].label;
-    document.getElementById('count').innerHTML =
-      'Showing <b>'+rows.length+'</b>'+(rows.length!==total?' of '+total:'')+' '+lbl+(total!==1?'s':'.')+'.';
+      var ncols = TABS[tab].cols.length;
+      _typeOrder.forEach(function(ct){
+        var group = grouped[ct];
+        if (!group || !group.length) return;
+        var htr = document.createElement('tr');
+        htr.className = 'type-hdr';
+        htr.innerHTML = '<td colspan="'+ncols+'">'+esc(ct)+
+          ' <span class="tc">('+group.length+')</span></td>';
+        tb.appendChild(htr);
+        group.forEach(function(r){ tb.appendChild(renderRow(r, tab)); });
+      });
+      var total = P.complaints.length;
+      document.getElementById('count').innerHTML =
+        'Showing <b>'+rows.length+'</b>'+(rows.length!==total?' of '+total:'')+
+        ' new case'+(rows.length!==1?'s':'')+(rows.length!==total?'':'.') +
+        (rows.length!==total ? ' matching.' : '');
+    } else {
+      rows.forEach(function(r){ tb.appendChild(renderRow(r, tab)); });
+      var total = TABS[tab].data.length;
+      var lbl = TABS[tab].label;
+      document.getElementById('count').innerHTML =
+        'Showing <b>'+rows.length+'</b>'+(rows.length!==total?' of '+total:'')+' '+lbl+(total!==1?'s':'.')+'.';
+    }
   }
 
   function buildControls(tab){
