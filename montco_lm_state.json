@@ -10199,7 +10199,1119 @@
       "defendant": "DEAN-SMITH, CAROLINE",
       "lm_match": false,
       "first_seen": "2026-06-09T12:05:46.161544"
+    },
+    "2026-61671": {
+      "internal_id": "201474849",
+      "case_number": "2026-61671",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "WISNESKI, SAMANTHA M",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:14.057629"
+    },
+    "2026-61670": {
+      "internal_id": "201474848",
+      "case_number": "2026-61670",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "SINGH, HARMANJIT",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:14.621577"
+    },
+    "2026-61669": {
+      "internal_id": "201474847",
+      "case_number": "2026-61669",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "WETTER, ROBERT A",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:15.187611"
+    },
+    "2026-61668": {
+      "internal_id": "201474846",
+      "case_number": "2026-61668",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "JOHNSON JR, MARK A",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:16.081814"
+    },
+    "2026-61667": {
+      "internal_id": "201474845",
+      "case_number": "2026-61667",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "ARDMORE ONE MANAGEMENT LLC",
+      "parties": [
+        {
+          "name": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+          "role": "Plaintiff",
+          "address": "DEPT 280948, HARRISBURG, PA 17128 UNITED STATES"
+        },
+        {
+          "name": "ARDMORE ONE MANAGEMENT LLC",
+          "role": "Defendant",
+          "address": "10 RITTENHOUSE PL, ARDMORE, PA 19003-2210 USA",
+          "lm_zip": "19003"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "ARDMORE ONE MANAGEMENT LLC",
+          "role": "Defendant",
+          "address": "10 RITTENHOUSE PL, ARDMORE, PA 19003-2210 USA",
+          "lm_zip": "19003"
+        }
+      ],
+      "lm_zips": [
+        "19003"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:21:17.416411",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474845"
+    },
+    "2026-61666": {
+      "internal_id": "201474844",
+      "case_number": "2026-61666",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "BRAGG, LENNY DAVID",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:18.442775"
+    },
+    "2026-61665": {
+      "internal_id": "201474843",
+      "case_number": "2026-61665",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "LUDDECKE, RACHAEL A",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:20.384274"
+    },
+    "2026-61664": {
+      "internal_id": "201474842",
+      "case_number": "2026-61664",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "COMSTAR SUPPLY INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:22.225999"
+    },
+    "2026-61663": {
+      "internal_id": "201474841",
+      "case_number": "2026-61663",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "BENGAL CONVERTING SERVICES INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:25.118915"
+    },
+    "2026-61662": {
+      "internal_id": "201474840",
+      "case_number": "2026-61662",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "LALL, ANNA G",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:27.165244"
+    },
+    "2026-61661": {
+      "internal_id": "201474839",
+      "case_number": "2026-61661",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "NUTRISYSTEM INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:30.069606"
+    },
+    "2026-61660": {
+      "internal_id": "201474838",
+      "case_number": "2026-61660",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+      "defendant": "FEINSTEIN, MARNI",
+      "parties": [
+        {
+          "name": "PENNSYLVANIA DEPARTMENT OF REVENUE",
+          "role": "Plaintiff",
+          "address": "DEPT 280948, HARRISBURG, PA 17128 UNITED STATES"
+        },
+        {
+          "name": "FEINSTEIN, MARNI",
+          "role": "Defendant",
+          "address": "919 LAFAYETTE RD, BRYN MAWR, PA 19010-1915 USA",
+          "lm_zip": "19010"
+        },
+        {
+          "name": "FEINSTEIN, ANDREW",
+          "role": "Defendant",
+          "address": "919 LAFAYETTE RD, BRYN MAWR, PA 19010-1915 USA",
+          "lm_zip": "19010"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "FEINSTEIN, MARNI",
+          "role": "Defendant",
+          "address": "919 LAFAYETTE RD, BRYN MAWR, PA 19010-1915 USA",
+          "lm_zip": "19010"
+        },
+        {
+          "name": "FEINSTEIN, ANDREW",
+          "role": "Defendant",
+          "address": "919 LAFAYETTE RD, BRYN MAWR, PA 19010-1915 USA",
+          "lm_zip": "19010"
+        }
+      ],
+      "lm_zips": [
+        "19010"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:21:32.809497",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474838"
+    },
+    "2026-61659": {
+      "internal_id": "201474831",
+      "case_number": "2026-61659",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "A1 PREP PAINTING LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:35.256584"
+    },
+    "2026-61658": {
+      "internal_id": "201474830",
+      "case_number": "2026-61658",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "FINANCIAL RESEARCH ASSOCS",
+      "parties": [
+        {
+          "name": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+          "role": "Plaintiff",
+          "address": "OFFICE OF CHIEF COUNSEL DEPARTMENT OF LABOR & INDUSTRY, 444 NORTH THIRD STREEET ST 200, HARRISBURG, PA 17106 UNITED STATES"
+        },
+        {
+          "name": "FINANCIAL RESEARCH ASSOCS",
+          "role": "Defendant",
+          "address": "10 PRESIDENTIAL BLVD STE 250, BALA CYNWYD, PA 19004 USA",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "FINANCIAL RESEARCH ASSOCS",
+          "role": "Defendant",
+          "address": "10 PRESIDENTIAL BLVD STE 250, BALA CYNWYD, PA 19004 USA",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_zips": [
+        "19004"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:21:38.820701",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474830"
+    },
+    "2026-61657": {
+      "internal_id": "201474829",
+      "case_number": "2026-61657",
+      "commenced": "6/9/2026",
+      "case_type": "Lien Commonwealth of PA Volume",
+      "plaintiff": "PENNSYLVANIA UNEMPLOYMENT COMPENSATION FUND",
+      "defendant": "PC REAL ESTATE SERVICES LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:42.464174"
+    },
+    "2026-14655": {
+      "internal_id": "201474826",
+      "case_number": "2026-14655",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "TAMMARO, MEGGAN",
+      "defendant": "BOWLES, PAULA",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:45.165234"
+    },
+    "2026-14654": {
+      "internal_id": "201474820",
+      "case_number": "2026-14654",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PHILADELPHIA INDEMNITY INSURANCE COMPANY",
+      "defendant": "GARMENDIA, MILTON",
+      "parties": [
+        {
+          "name": "PHILADELPHIA INDEMNITY INSURANCE COMPANY (MERCEDES-BENZ FINANCIAL SERVICES USA LLC )",
+          "role": "Plaintiff",
+          "address": "ONE BALA PLAZA, SUITE 100, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        },
+        {
+          "name": "GARMENDIA, MILTON",
+          "role": "Defendant",
+          "address": "70 LIBRARY STREET, APT 9, CHELSEA, MA 02150 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "PHILADELPHIA INDEMNITY INSURANCE COMPANY (MERCEDES-BENZ FINANCIAL SERVICES USA LLC )",
+          "role": "Plaintiff",
+          "address": "ONE BALA PLAZA, SUITE 100, BALA CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_zips": [
+        "19004"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:21:47.630937",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474820"
+    },
+    "2026-14653": {
+      "internal_id": "201474808",
+      "case_number": "2026-14653",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "YEN CARE INC",
+      "defendant": "LEVY, THOMAS",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:50.665278"
+    },
+    "2026-14652": {
+      "internal_id": "201474825",
+      "case_number": "2026-14652",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "PHILADELPHIA FEDERAL CREDIT UNION",
+      "defendant": "DEBEASE, CELESTE F",
+      "parties": [
+        {
+          "name": "PHILADELPHIA FEDERAL CREDIT UNION",
+          "role": "Plaintiff",
+          "address": "12800 TOWNSEND ROAD, PHILADELPHIA, PA 19154 UNITED STATES"
+        },
+        {
+          "name": "DEBEASE, CELESTE F",
+          "role": "Defendant",
+          "address": "144 ASHLAND AVENUE, BALA-CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "DEBEASE, CELESTE F",
+          "role": "Defendant",
+          "address": "144 ASHLAND AVENUE, BALA-CYNWYD, PA 19004 UNITED STATES",
+          "lm_zip": "19004"
+        }
+      ],
+      "lm_zips": [
+        "19004"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:21:54.259181",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474825"
+    },
+    "2026-14651": {
+      "internal_id": "201474816",
+      "case_number": "2026-14651",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "PROVIDENT FUNDING ASSOCIATES L P",
+      "defendant": "OLDHAM, WILLIAM EDWARD III",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:57.309771"
+    },
+    "2026-14650": {
+      "internal_id": "201474817",
+      "case_number": "2026-14650",
+      "commenced": "6/9/2026",
+      "case_type": "Transfer Case from Another County",
+      "plaintiff": "GILBERT, YVETTE",
+      "defendant": "KHALILOV, SHUHRAT",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:21:58.913876"
+    },
+    "2026-14649": {
+      "internal_id": "201474812",
+      "case_number": "2026-14649",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "EGAN, GERARD P",
+      "defendant": "MARKLEY, CHRISTINE BURKE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:00.230228"
+    },
+    "2026-14648": {
+      "internal_id": "201474815",
+      "case_number": "2026-14648",
+      "commenced": "6/9/2026",
+      "case_type": "Defendants Appeal from District Justice",
+      "plaintiff": "MIDLAND CREDIT MANAGEMENT INC",
+      "defendant": "LEHMAN, MIKE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:02.671778"
+    },
+    "2026-14647": {
+      "internal_id": "201474814",
+      "case_number": "2026-14647",
+      "commenced": "6/9/2026",
+      "case_type": "Waiver of Liens",
+      "plaintiff": "",
+      "defendant": "CONSHOHOCKEN CONSTRUCTION INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:04.786943"
+    },
+    "2026-14646": {
+      "internal_id": "201474811",
+      "case_number": "2026-14646",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PNC BANK NA",
+      "defendant": "JFS4 ENTERPRISES LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:07.827848"
+    },
+    "2026-14645": {
+      "internal_id": "201474810",
+      "case_number": "2026-14645",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "US BANK TRUST NATIONAL ASSOCIATION NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS OWNER TRUSTEE FOR RCAF ACQUISITION TRUST",
+      "defendant": "LEVENTHAL, LISA",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:10.364313"
+    },
+    "2026-14644": {
+      "internal_id": "201474804",
+      "case_number": "2026-14644",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "SUB BOX ONE INVESTMENTS LLC",
+      "defendant": "VAHORA, ALFAZ",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:12.534483"
+    },
+    "2026-14642": {
+      "internal_id": "201474809",
+      "case_number": "2026-14642",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "FORD MOTOR CREDIT COMPANY LLC",
+      "defendant": "DARWISH, IHAB",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:13.531628"
+    },
+    "2026-14643": {
+      "internal_id": "201474803",
+      "case_number": "2026-14643",
+      "commenced": "6/9/2026",
+      "case_type": "Appeal from Suspension/Registration/Inspection Station",
+      "plaintiff": "HINDS, DANIEL JOHN",
+      "defendant": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:15.279860"
+    },
+    "2026-14640": {
+      "internal_id": "201474805",
+      "case_number": "2026-14640",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint In Confession of Judgment",
+      "plaintiff": "VV9 LLC",
+      "defendant": "TRIPLE D ACQUISITION LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:17.315547"
+    },
+    "2026-14641": {
+      "internal_id": "201474802",
+      "case_number": "2026-14641",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PNC BANK NA",
+      "defendant": "THREE SPRUCE LANDSCAPE CONTRACTORS INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:19.144234"
+    },
+    "2026-14639": {
+      "internal_id": "201474800",
+      "case_number": "2026-14639",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PNC BANK NA",
+      "defendant": "VETERAN PLUMBING SERVICES INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:21.728252"
+    },
+    "2026-14638": {
+      "internal_id": "201474795",
+      "case_number": "2026-14638",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "CARROLL, YASMINE",
+      "defendant": "CORDARO, CHRISTI",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:24.518525"
+    },
+    "2026-14620": {
+      "internal_id": "201474765",
+      "case_number": "2026-14620",
+      "commenced": "6/9/2026",
+      "case_type": "Defendants Appeal from District Justice",
+      "plaintiff": "CLARK, RICKY T.",
+      "defendant": "FLETCHER, ANDRE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:27.055729"
+    },
+    "2026-14636": {
+      "internal_id": "201474687",
+      "case_number": "2026-14636",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "TORRES, RUMARI",
+      "defendant": "ALLIED UNIVERSAL JANITORIAL SERVICE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:29.147242"
+    },
+    "2026-14637": {
+      "internal_id": "201474793",
+      "case_number": "2026-14637",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "RONDON, ROQUE",
+      "defendant": "WOMACK, JACOB",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:32.004978"
+    },
+    "2026-14622": {
+      "internal_id": "201474790",
+      "case_number": "2026-14622",
+      "commenced": "6/9/2026",
+      "case_type": "Summons Civil Action",
+      "plaintiff": "WALSH, BARRY",
+      "defendant": "TRAVELERS PERSONAL INSURANCE COMPANY",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:33.545965"
+    },
+    "2026-14619": {
+      "internal_id": "201474792",
+      "case_number": "2026-14619",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "LOWER MORELAND TOWNSHIP ",
+      "defendant": "VALENTINO, ALICIA",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:35.673997"
+    },
+    "2026-14635": {
+      "internal_id": "201474791",
+      "case_number": "2026-14635",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "HURST, ANDREW J",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:38.227566"
+    },
+    "2026-14623": {
+      "internal_id": "201474664",
+      "case_number": "2026-14623",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "PERKIOMEN VALLEY SCHOOL DISTRICT",
+      "defendant": "ULRICH, THERESA J",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:41.760427"
+    },
+    "2026-14625": {
+      "internal_id": "201474769",
+      "case_number": "2026-14625",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "JOHNSON, BONNIE B",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:44.361361"
+    },
+    "2026-14626": {
+      "internal_id": "201474770",
+      "case_number": "2026-14626",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "PROWISOR, JESSE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:47.302401"
+    },
+    "2026-14627": {
+      "internal_id": "201474771",
+      "case_number": "2026-14627",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "WILLIAMS, NANCY B",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:49.462255"
+    },
+    "2026-14628": {
+      "internal_id": "201474772",
+      "case_number": "2026-14628",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "MCNERNEY, FRANCIS J III",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:51.588942"
+    },
+    "2026-14629": {
+      "internal_id": "201474773",
+      "case_number": "2026-14629",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "JONATHAN, DONNA MARIE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:54.301915"
+    },
+    "2026-14630": {
+      "internal_id": "201474774",
+      "case_number": "2026-14630",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "EDWARDS, LYNDON V",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:22:57.128976"
+    },
+    "2026-14624": {
+      "internal_id": "201474753",
+      "case_number": "2026-14624",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "TOWNSHIP OF CHELTENHAM",
+      "defendant": "MEADOWS, PATTILYNNE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:00.743410"
+    },
+    "2026-14631": {
+      "internal_id": "201474777",
+      "case_number": "2026-14631",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "WESTPHAL, STUART W",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:04.220438"
+    },
+    "2026-14632": {
+      "internal_id": "201474778",
+      "case_number": "2026-14632",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "CHELTENHAM SCHOOL DISTRICT",
+      "defendant": "MCNERNEY, FRANCIS J III",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:08.490481"
+    },
+    "2026-14633": {
+      "internal_id": "201474779",
+      "case_number": "2026-14633",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "PERKIOMEN VALLEY SCHOOL DISTRICT",
+      "defendant": "TULIO, VINCE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:12.486192"
+    },
+    "2026-14634": {
+      "internal_id": "201474781",
+      "case_number": "2026-14634",
+      "commenced": "6/9/2026",
+      "case_type": "Municipal Lien Govt",
+      "plaintiff": "PERKIOMEN VALLEY SCHOOL DISTRICT",
+      "defendant": "REDS PIZZA 2 LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:16.672729"
+    },
+    "2026-14616": {
+      "internal_id": "201474782",
+      "case_number": "2026-14616",
+      "commenced": "6/9/2026",
+      "case_type": "Appeal from Suspension/Registration/Inspection Station",
+      "plaintiff": "FLORES, LORENSON B",
+      "defendant": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:21.942788"
+    },
+    "2026-14617": {
+      "internal_id": "201474785",
+      "case_number": "2026-14617",
+      "commenced": "6/9/2026",
+      "case_type": "Certification of Judgment",
+      "plaintiff": "LENNOX INDUSTRIES INC",
+      "defendant": "ENERGY STAR SERVICES INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:25.426421"
+    },
+    "2026-14614": {
+      "internal_id": "201474784",
+      "case_number": "2026-14614",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint In Replevin",
+      "plaintiff": "THE HUNTINGTON NATIONAL BANK",
+      "defendant": "HEADED NOW TRANSPORT LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:28.642077"
+    },
+    "2026-14613": {
+      "internal_id": "201474775",
+      "case_number": "2026-14613",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "LATOUCHE, MERLINEDA",
+      "defendant": "CLOUSE, NOAH",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:31.765110"
+    },
+    "2026-14604": {
+      "internal_id": "201474763",
+      "case_number": "2026-14604",
+      "commenced": "6/9/2026",
+      "case_type": "Petition to Appeal Nunc Pro Tunc",
+      "plaintiff": "TOP EAGLE LLC",
+      "defendant": "BECHT, FRANCIS",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:32.640597"
+    },
+    "2026-14605": {
+      "internal_id": "201474760",
+      "case_number": "2026-14605",
+      "commenced": "6/9/2026",
+      "case_type": "Miscellaneous",
+      "plaintiff": "MALONEY, JONATHAN P",
+      "defendant": "MCGUIGAN, KRISTIN",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:33.468987"
+    },
+    "2026-14603": {
+      "internal_id": "201474751",
+      "case_number": "2026-14603",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "POWELL, JEANNINE",
+      "defendant": "LEDERACH CORNER STORE INC DBA LEDERACH CORNER STORE PIANO BAR",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:34.074318"
+    },
+    "2026-14600": {
+      "internal_id": "201474681",
+      "case_number": "2026-14600",
+      "commenced": "6/9/2026",
+      "case_type": "Summons Civil Action",
+      "plaintiff": "WADE, DERRICK A",
+      "defendant": "PROUT, KATHRYN GRACE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:34.540778"
+    },
+    "2026-14581": {
+      "internal_id": "201474748",
+      "case_number": "2026-14581",
+      "commenced": "6/9/2026",
+      "case_type": "Foreign Judgment",
+      "plaintiff": "MINORS, KIM MARIE",
+      "defendant": "DELUXE BLACKTOP PAVING INC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:35.680563"
+    },
+    "2026-14577": {
+      "internal_id": "201474747",
+      "case_number": "2026-14577",
+      "commenced": "6/9/2026",
+      "case_type": "Foreign Subpoena",
+      "plaintiff": "LIVINGSTON TOWNSHIP NEW JERSEY",
+      "defendant": "THE DOW CHEMICAL COMPANY",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:37.026510"
+    },
+    "2026-14576": {
+      "internal_id": "201474746",
+      "case_number": "2026-14576",
+      "commenced": "6/9/2026",
+      "case_type": "Foreign Subpoena",
+      "plaintiff": "THE CITY OF GARFIELD NEW JERSEY",
+      "defendant": "THE DOW CHEMICAL COMPANY",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:40.175389"
+    },
+    "2026-14574": {
+      "internal_id": "201474745",
+      "case_number": "2026-14574",
+      "commenced": "6/9/2026",
+      "case_type": "Foreign Subpoena",
+      "plaintiff": "THE CITY OF CAMDEN NEW JERSEY",
+      "defendant": "THE DOW CHEMICAL COMPANY",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:42.916378"
+    },
+    "2026-14598": {
+      "internal_id": "201474742",
+      "case_number": "2026-14598",
+      "commenced": "6/9/2026",
+      "case_type": "Complaint In Mortgage Foreclosure",
+      "plaintiff": "WELLS FARGO BANK NA",
+      "defendant": "LOZINAK, MARY E",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:44.431178"
+    },
+    "2026-14596": {
+      "internal_id": "201474702",
+      "case_number": "2026-14596",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "DISCOVER BANK ",
+      "defendant": "GARRAWAY, JUNE H",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:46.063141"
+    },
+    "2026-14595": {
+      "internal_id": "201474696",
+      "case_number": "2026-14595",
+      "commenced": "6/8/2026",
+      "case_type": "Mechanics Lien Claim",
+      "plaintiff": "BEAVER BUILDING AND REMODELING LLC",
+      "defendant": "MILLER, FAYE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:49.582058"
+    },
+    "2026-14593": {
+      "internal_id": "201474701",
+      "case_number": "2026-14593",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "DISCOVER BANK ",
+      "defendant": "CLEARY, JOSEPH F",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:53.819170"
+    },
+    "2026-14594": {
+      "internal_id": "201474700",
+      "case_number": "2026-14594",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "DISCOVER BANK ",
+      "defendant": "KALAPARAMBATH, JEGIL",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:23:57.268722"
+    },
+    "2026-14592": {
+      "internal_id": "201474699",
+      "case_number": "2026-14592",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "DISCOVER BANK ",
+      "defendant": "SARANDOS, SAMANTHA J",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:00.512459"
+    },
+    "2026-14591": {
+      "internal_id": "201474698",
+      "case_number": "2026-14591",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "DISCOVER BANK ",
+      "defendant": "CHIDDICK, DEVON W",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:03.527686"
+    },
+    "2026-14590": {
+      "internal_id": "201474695",
+      "case_number": "2026-14590",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "DIAMOND CREDIT UNION ",
+      "defendant": "SHISLER, BRANDON",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:06.441803"
+    },
+    "2026-14597": {
+      "internal_id": "201474694",
+      "case_number": "2026-14597",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "POLICE AND FIRE FEDERAL CREDIT UNION ",
+      "defendant": "CONSOLO, GENEVIEVE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:10.784771"
+    },
+    "2026-14588": {
+      "internal_id": "201474692",
+      "case_number": "2026-14588",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "CITIZENS BANK N A ",
+      "defendant": "MAJOR, JOSEPH",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:13.928853"
+    },
+    "2026-14586": {
+      "internal_id": "201474691",
+      "case_number": "2026-14586",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "UHG I LLC ",
+      "defendant": "MCFARLANE, EDWARD",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:17.234362"
+    },
+    "2026-14587": {
+      "internal_id": "201474689",
+      "case_number": "2026-14587",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "TD BANK USA NA",
+      "defendant": "KRUKOWSKI, BRANDI",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:19.905097"
+    },
+    "2026-14585": {
+      "internal_id": "201474688",
+      "case_number": "2026-14585",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "PORTFOLIO RECOVERY ASSOCIATES LLC ",
+      "defendant": "DIESINGER, REBECCA",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:23.229822"
+    },
+    "2026-14589": {
+      "internal_id": "201474686",
+      "case_number": "2026-14589",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "TD BANK USA NA",
+      "defendant": "WARNER, LESLEY A",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:26.561158"
+    },
+    "2026-14584": {
+      "internal_id": "201474685",
+      "case_number": "2026-14584",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "PORTFOLIO RECOVERY ASSOCIATES LLC ",
+      "defendant": "LAMARRE, JOSEPH",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:30.474729"
+    },
+    "2026-14583": {
+      "internal_id": "201474684",
+      "case_number": "2026-14583",
+      "commenced": "6/8/2026",
+      "case_type": "Judgment from District Justice",
+      "plaintiff": "PORTFOLIO RECOVERY ASSOCIATES LLC ",
+      "defendant": "CULP, CHRISTINE",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:33.285872"
+    },
+    "2026-14582": {
+      "internal_id": "201474683",
+      "case_number": "2026-14582",
+      "commenced": "6/8/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "PACK, SHERALENE",
+      "defendant": "EL LIMON",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:35.997834"
+    },
+    "2026-14580": {
+      "internal_id": "201474680",
+      "case_number": "2026-14580",
+      "commenced": "6/8/2026",
+      "case_type": "Complaint In Partition",
+      "plaintiff": "GITLIN, AMY",
+      "defendant": "GITLIN GOLDSTEIN, MICHELLE",
+      "parties": [
+        {
+          "name": "GITLIN, AMY",
+          "role": "Plaintiff",
+          "address": "811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES",
+          "lm_zip": "19085"
+        },
+        {
+          "name": "GITLIN GOLDSTEIN, MICHELLE",
+          "role": "Defendant",
+          "address": "850 SOUTH PENN OAKS DRIVE, AMBLER, PA 19002 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "GITLIN, AMY",
+          "role": "Plaintiff",
+          "address": "811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES",
+          "lm_zip": "19085"
+        }
+      ],
+      "lm_zips": [
+        "19085"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:24:37.928475",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474680"
+    },
+    "2026-14578": {
+      "internal_id": "201474673",
+      "case_number": "2026-14578",
+      "commenced": "6/8/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "GITLIN, AMY",
+      "defendant": "GITLIN GOLDSTEIN, MICHELLE",
+      "parties": [
+        {
+          "name": "GITLIN, AMY (390 COMMERCE REALTY LLC )",
+          "role": "Plaintiff",
+          "address": "811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES",
+          "lm_zip": "19085"
+        },
+        {
+          "name": "GITLIN GOLDSTEIN, MICHELLE (390 COMMERCE REALTY LLC )",
+          "role": "Defendant",
+          "address": "850 SOUTH PENN OAKS DRIVE, AMBLER, PA 19002 UNITED STATES"
+        },
+        {
+          "name": "390 COMMERCE REALTY LLC",
+          "role": "Defendant",
+          "address": "270 COMMERCE DRIVE, FORT WASHINGTON, PA 19034 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "GITLIN, AMY (390 COMMERCE REALTY LLC )",
+          "role": "Plaintiff",
+          "address": "811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES",
+          "lm_zip": "19085"
+        }
+      ],
+      "lm_zips": [
+        "19085"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:24:41.386134",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474673"
+    },
+    "2026-14579": {
+      "internal_id": "201474674",
+      "case_number": "2026-14579",
+      "commenced": "6/8/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "GITLIN, AMY",
+      "defendant": "GITLIN GOLDSTEIN, MICHELLE",
+      "parties": [
+        {
+          "name": "GITLIN, AMY (270 COMMERCE DRIVE LP)",
+          "role": "Plaintiff",
+          "address": "811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES",
+          "lm_zip": "19085"
+        },
+        {
+          "name": "GITLIN GOLDSTEIN, MICHELLE (270 COMMERCE DRIVE LP )",
+          "role": "Defendant",
+          "address": "850 SOUTH PENN OAKS DRIVE, AMBLER, PA 19002 UNITED STATES"
+        },
+        {
+          "name": "270 COMMERCE DRIVE LP",
+          "role": "Defendant",
+          "address": "270 COMMERCE DRIVE, FORT WASHINGTON, PA 19034 UNITED STATES"
+        }
+      ],
+      "lm_parties": [
+        {
+          "name": "GITLIN, AMY (270 COMMERCE DRIVE LP)",
+          "role": "Plaintiff",
+          "address": "811 N SPRING MILL ROAD, VILLANOVA, PA 19085 UNITED STATES",
+          "lm_zip": "19085"
+        }
+      ],
+      "lm_zips": [
+        "19085"
+      ],
+      "docket_entries": [],
+      "judge": "",
+      "status": "",
+      "events": [
+        "filing"
+      ],
+      "first_seen": "2026-06-10T12:24:44.544756",
+      "detail_url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474674"
+    },
+    "2026-14575": {
+      "internal_id": "201474675",
+      "case_number": "2026-14575",
+      "commenced": "6/8/2026",
+      "case_type": "Certification of Judgment",
+      "plaintiff": "INSURISE CAPITAL INC",
+      "defendant": "STARWAY LOGISTIC LLC",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:49.229574"
+    },
+    "2026-14573": {
+      "internal_id": "201474671",
+      "case_number": "2026-14573",
+      "commenced": "6/8/2026",
+      "case_type": "Complaint Civil Action",
+      "plaintiff": "LEE, JOSEPH R",
+      "defendant": "MARCHIANO, LISA",
+      "lm_match": false,
+      "first_seen": "2026-06-10T12:24:52.437588"
     }
   },
-  "last_run": "2026-06-09T12:05:46.262679"
+  "last_run": "2026-06-10T12:24:52.538933"
 }

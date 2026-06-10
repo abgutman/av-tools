@@ -964,7 +964,56 @@
       "closed": false,
       "media_match": false,
       "first_seen": "2026-06-09T12:06:03.094677"
+    },
+    "CV-2026-005458": {
+      "case_id": "d68a3593aea0da37dc81b4008cdae869509a13a9d9d53a20b5acc5f103013d66",
+      "case_number": "CV-2026-005458",
+      "title": "Velocity Investments, LLC v. Pittman",
+      "case_type": "Contract",
+      "classification": "Civil - Contract - Debt Collection: Other",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-10T12:25:08.359474"
+    },
+    "CV-2026-005448": {
+      "case_id": "556653e88cf09891008af5cdb571dceb4e18b96846a4e1d1f27f99ebf3f34f1a",
+      "case_number": "CV-2026-005448",
+      "title": "iDrive Auto Services v. Prestige Financial",
+      "case_type": "Real Property",
+      "classification": "Civil - Real Property - Real Property: Other",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_match": false,
+      "first_seen": "2026-06-10T12:25:08.728894"
+    },
+    "CV-2026-005464": {
+      "case_id": "3c10928fc4758cf37f8bc37a08e7fb2cfbed80826947d7da12b6597558e35d76",
+      "case_number": "CV-2026-005464",
+      "title": "GILL et al v. BOLA et al",
+      "case_type": "Tort",
+      "classification": "Civil - Tort - Slander/Libel/Defamation",
+      "filed_date": "2026-06-08",
+      "closed": false,
+      "media_parties": [
+        {
+          "name": "GURPREET SINGH",
+          "role": "Plaintiff",
+          "address": "28 Cedar Meadow Lane, Media PA 19063",
+          "zip": "19063"
+        },
+        {
+          "name": "INDERJIT OTHIE",
+          "role": "Plaintiff",
+          "address": "62 Cedar Hill Lane, Media PA 19063",
+          "zip": "19063"
+        }
+      ],
+      "judge": "",
+      "status": null,
+      "first_seen": "2026-06-10T12:25:07.990225",
+      "detail_url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/3c10928fc4758cf37f8bc37a08e7fb2cfbed80826947d7da12b6597558e35d76"
     }
   },
-  "last_run": "2026-06-09T12:06:03.395289"
+  "last_run": "2026-06-10T12:25:09.029755"
 }
