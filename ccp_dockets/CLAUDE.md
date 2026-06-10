@@ -33,7 +33,13 @@ Scripts live in `ccp_dockets/` in the av-tools repo. Outputs at repo root:
 - `dockets/<case_id>.html` — gated docket replicas
 
 Workflow: `ccp-dockets.yml` -> `.github/workflows/` in av-tools repo.
-Cron: `0 10 * * *` UTC (6am EDT / 5am EST — cron is UTC-fixed).
+Cron: `0 0 * * *` UTC = 8pm EDT / 7pm EST (cron is UTC-fixed). Runs in the
+evening because FJD issues the day's sequence numbers through business hours; a
+6am scan hit the "does not exist" frontier wall and returned 0.
+
+`complaints.json` is a **rolling 30-day window** (merge + dedup by case_id, drop
+stale), not just the latest scan — so a barren scan never blanks the dashboard.
+`--max-misses` default is 20 to survive gaps of reserved-but-unfiled seqs.
 
 ## PII
 
