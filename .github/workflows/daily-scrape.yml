@@ -25,11 +25,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Lower Merion cases (Montco)
-        run: python fetch_montco_lm.py --daily
-
-      - name: Fetch Media cases (Delco)
-        run: python fetch_delco_media.py --daily
+      - name: Build regional civil dashboards (all 4 courts, zip-filtered)
+        run: python region_engine.py --daily
 
       - name: Send weekly digest (Monday only)
         if: github.event.schedule == '0 9 * * *' && contains('Mon', steps.date.outputs.day) || github.event_name == 'workflow_dispatch'
@@ -49,7 +46,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add montco_lm_dashboard.html delco_media_dashboard.html region_state.json \
+              court_fetchers.py region_engine.py send_local_digest.py 2>/dev/null || true
+          git add -u
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Daily scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main
