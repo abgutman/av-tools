@@ -7195,15 +7195,39 @@
         "time": "09:03 AM",
         "type": "ARBITRATION HEARING SCHEDULED",
         "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "11:46 PM",
+        "type": "AFFIDAVIT OF SERVICE FILED",
+        "party": ""
+      },
+      {
+        "date": "10-JUN-2026",
+        "time": "12:34 AM",
+        "type": "AFFIDAVIT OF SERVICE FILED",
+        "party": ""
+      },
+      {
+        "date": "10-JUN-2026",
+        "time": "12:43 AM",
+        "type": "AFFIDAVIT OF SERVICE FILED",
+        "party": ""
+      },
+      {
+        "date": "10-JUN-2026",
+        "time": "12:52 AM",
+        "type": "ATTEMPTED SERVICE - NOT FOUND",
+        "party": ""
       }
     ],
     "last_entry": {
-      "date": "08-JUN-2026",
-      "time": "09:03 AM",
-      "type": "ARBITRATION HEARING SCHEDULED",
+      "date": "10-JUN-2026",
+      "time": "12:52 AM",
+      "type": "ATTEMPTED SERVICE - NOT FOUND",
       "party": ""
     },
-    "entry_count": 5
+    "entry_count": 9
   },
   {
     "case_id": "260600895",
@@ -18397,15 +18421,21 @@
         "time": "10:06 PM",
         "type": "CASE MANAGEMENT ORDER ISSUED",
         "party": "GREENES, CODY M"
+      },
+      {
+        "date": "10-JUN-2026",
+        "time": "07:32 AM",
+        "type": "NOTICE GIVEN",
+        "party": ""
       }
     ],
     "last_entry": {
-      "date": "08-JUN-2026",
-      "time": "10:06 PM",
-      "type": "CASE MANAGEMENT ORDER ISSUED",
-      "party": "GREENES, CODY M"
+      "date": "10-JUN-2026",
+      "time": "07:32 AM",
+      "type": "NOTICE GIVEN",
+      "party": ""
     },
-    "entry_count": 6
+    "entry_count": 7
   },
   {
     "case_id": "260601045",
@@ -26191,15 +26221,21 @@
         "time": "01:32 PM",
         "type": "CASE MANAGEMENT ORDER ISSUED",
         "party": "HALPERN, DAVID B"
+      },
+      {
+        "date": "10-JUN-2026",
+        "time": "07:32 AM",
+        "type": "NOTICE GIVEN",
+        "party": ""
       }
     ],
     "last_entry": {
-      "date": "09-JUN-2026",
-      "time": "01:32 PM",
-      "type": "CASE MANAGEMENT ORDER ISSUED",
-      "party": "HALPERN, DAVID B"
+      "date": "10-JUN-2026",
+      "time": "07:32 AM",
+      "type": "NOTICE GIVEN",
+      "party": ""
     },
-    "entry_count": 6
+    "entry_count": 7
   },
   {
     "case_id": "260601165",
@@ -27289,6 +27325,1262 @@
       "time": "02:17 PM",
       "type": "WAITING TO LIST CASE MGMT CONF",
       "party": "DEVIRGILIS, JOHN"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260601188",
+    "caption": "IN RE: DESTOUET, CHARLES",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "PETITIONS",
+    "case_type": "MISCELLANEOUS PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PETITIONER",
+        "name": "DESTOUET, CHARLES",
+        "address": "748 NORTH 48TH STREET PHILADELPHIA PA 19139 (215)609-5755"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "03:18 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:24 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:24 PM",
+        "type": "MOTION FOR TITLE OF VEHICLE",
+        "party": "DESTOUET, CHARLES"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "03:24 PM",
+      "type": "MOTION FOR TITLE OF VEHICLE",
+      "party": "DESTOUET, CHARLES"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260601195",
+    "caption": "DURRICKS VS TRUCK INSURANCE EXCHANGE",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "DURRICKS, LOTTIE"
+    ],
+    "defendants": [
+      "TRUCK INSURANCE EXCHANGE"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "DURKIN, MARTIN A",
+        "address": "DURKIN LAW OFFICE PC 1760 MARKET ST SUITE 601 PHILADELPHIA PA 19103 (215)569-9090 mdurkin@durkinpc.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "DURRICKS, LOTTIE",
+        "address": "313 WOLFENDEN AVENUE DARBY PA 19023"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "TRUCK INSURANCE EXCHANGE",
+        "address": "6301 OWENSMOUTH AVENUE WOODLAND HILLS PA 91367"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "02:38 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:38 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "DURKIN, MARTIN A"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:38 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "DURKIN, MARTIN A"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:38 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "DURKIN, MARTIN A"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "02:38 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "DURKIN, MARTIN A"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260601200",
+    "caption": "BROOME ETAL VS DJIBO ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "BROOME, JAMILLE",
+      "ANTONIO BROOME, JAMILE",
+      "BROOME, CAROLYN"
+    ],
+    "defendants": [
+      "DJIBO, DJAMILATOU",
+      "ABDOU KARIM, ZONGA",
+      "DOE, JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GRANDINETTI ESQ, DANIEL P",
+        "address": "1617 JFK BLVD. SUITE#355 PHILADELPHIA PA 19103 (215)563-6333 dgrandinetti@clearfieldlawyers.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "BROOME, JAMILLE",
+        "address": "6163 GRAYS AVENUE PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "ANTONIO BROOME, JAMILE",
+        "address": "1142 S. 60TH STREET PHILADELPHIA PA 19143"
+      },
+      {
+        "seq": "4",
+        "type": "PLAINTIFF",
+        "name": "BROOME, CAROLYN",
+        "address": "6163 GRAYS AVENUE PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "DJIBO, DJAMILATOU",
+        "address": "6242 HARLEY AVENUE PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "ABDOU KARIM, ZONGA",
+        "address": "6242 HARLEY AVENUE PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "DOE, JOHN",
+        "address": "ANY STREET ANY CITY PA 19103"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "09-MAR-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "02:53 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:53 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "GRANDINETTI ESQ, DANIEL P"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:53 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GRANDINETTI ESQ, DANIEL P"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:53 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "GRANDINETTI ESQ, DANIEL P"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:29 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "03:29 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260601202",
+    "caption": "AMERICAN CREDIT ACCEPTANCE, LLC VS WASHINGTON",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "REPLEVIN",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "AMERICAN CREDIT ACCEPTANCE, LLC"
+    ],
+    "defendants": [
+      "WASHINGTON, HASSAN A"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "WILLIAMS, ROBERT W",
+        "address": "HLADIK, ONORATO, & FEDERMAN, 298 WISSAHICKON AVE. NORTH WALES PA 19454 (215)855-9521 rwilliams@hoflawgroup.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "AMERICAN CREDIT ACCEPTANCE, LLC",
+        "address": "P.O. BOX 4419 WILMINGTON OH 45177"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WASHINGTON, HASSAN A",
+        "address": "839 SOUTH 56TH STREET PHILADELPHIA PA 19143"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "02:56 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:56 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "WILLIAMS, ROBERT W"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:56 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "WILLIAMS, ROBERT W"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:56 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "WILLIAMS, ROBERT W"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "02:56 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "WILLIAMS, ROBERT W"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260601204",
+    "caption": "FORD VS EQUIFAX",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "FORD, BESSIE"
+    ],
+    "defendants": [
+      "EQUIFAX"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PLAINTIFF",
+        "name": "FORD, BESSIE",
+        "address": "7140 DOREL ST PHILADELPHIA PA 19153 (215)407-8728"
+      },
+      {
+        "seq": "2",
+        "type": "DEFENDANT",
+        "name": "EQUIFAX",
+        "address": "1550 PEACHTREE ST N.W. ATLANTA GA 30309"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "15-MAR-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "04:15 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:25 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "FORD, BESSIE"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:28 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:29 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "FORD, BESSIE"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:29 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "FORD, BESSIE"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "04:29 PM",
+      "type": "CASE MANAGEMENT ORDER ISSUED",
+      "party": "FORD, BESSIE"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260601205",
+    "caption": "KONRAD, JR. ETAL VS BURKE ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "KONRAD, JR., LOU",
+      "KONRAD, MARIA"
+    ],
+    "defendants": [
+      "BURKE, JOSEPH",
+      "MCFEETERS, MARY",
+      "GOVERNMENT EMPLOYEES INSURANCE COMPANY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "PALAZZO, NICHOLAS L",
+        "address": "2541 SOUTH BROAD ST PHILADELPHIA PA 19148 (215)551-9099 npalazzo@definolawyers.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "KONRAD, JR., LOU",
+        "address": "9610 DITTMAN STREET PHILADELPHIA PA 19114"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "KONRAD, MARIA",
+        "address": "9610 DITTMAN STREET PHILADELPHIA PA 19114"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "BURKE, JOSEPH",
+        "address": "1526 SNYDER AVENUE PHILADELPHIA PA 19145"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "MCFEETERS, MARY",
+        "address": "3172 DENFIELD PLACE PHILADELPHIA PA 19145"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "GOVERNMENT EMPLOYEES INSURANCE COMPANY",
+        "address": "1 GEICO BOULEVARD FREDERICKSBURG VA 22412"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "02:59 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:59 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "PALAZZO, NICHOLAS L"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:59 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "PALAZZO, NICHOLAS L"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "02:59 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "PALAZZO, NICHOLAS L"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "02:59 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "PALAZZO, NICHOLAS L"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260601206",
+    "caption": "LEVY VS LUNDY LAW, LLP ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "COMMERCE",
+    "case_type": "DISPUTE RE: BUSINESS TORT",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "LEVY, STEVEN M"
+    ],
+    "defendants": [
+      "LUNDY LAW, LLP",
+      "LUNDY, L. LEONARD",
+      "SOCHANCHAK, PAUL",
+      "LUNDY, JORDAN",
+      "SOSKA, MICHAEL J",
+      "TARNOWSKI, RAYMOND",
+      "THE LUNDY LAW FOUNDATION"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "SIEGEL, DANIEL J",
+        "address": "66 W EAGLE RD STE 1 HAVERTOWN PA 19083 (610)446-3457 dan@danieljsiegel.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "LEVY, STEVEN M",
+        "address": "1650 MARKET STREET, SUITE 3600 PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "LUNDY LAW, LLP",
+        "address": "1818 MARKET STREET, 24TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "LUNDY, L. LEONARD",
+        "address": "1818 MARKET STREET, 24TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "SOCHANCHAK, PAUL",
+        "address": "1818 MARKET STREET, 24TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "LUNDY, JORDAN",
+        "address": "1818 MARKET STREET, 24TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "SOSKA, MICHAEL J",
+        "address": "1818 MARKET STREET, 24TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "8",
+        "type": "DEFENDANT",
+        "name": "TARNOWSKI, RAYMOND",
+        "address": "1818 MARKET STREET, 24TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "9",
+        "type": "DEFENDANT",
+        "name": "THE LUNDY LAW FOUNDATION",
+        "address": "1818 MARKET STREET, 24TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "10",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "HIGH, CHRISTA F",
+        "address": "LAW OFC OF DANIEL J SIEGEL 66 W EAGLE RD SUITE 1 HAVERTOWN PA 19083 (610)446-3457 chigh@danieljsiegel.com"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "03:00 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:00 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "SIEGEL, DANIEL J"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:00 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "SIEGEL, DANIEL J"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:00 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "SIEGEL, DANIEL J"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:00 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "SIEGEL, DANIEL J"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "03:00 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "SIEGEL, DANIEL J"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260601207",
+    "caption": "AHMAD-HARGROVE ETAL VS SHERIFF ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "AHMAD-HARGROVE, CALISA",
+      "THROUGH HER P/N/G CALISA AHMAD-HARGROVE, C.L.1. [MINOR]",
+      "THROUGH HER P/N/G CALISA AHMAD-HARGROVE, C.L.2. [MINOR]",
+      "THROUGH HIS P/N/G CALISA AHMAD-HARGROVE, Q.H. [MINOR]"
+    ],
+    "defendants": [
+      "SHERIFF, BENTOU",
+      "REAL MCKOY AUTO SALES LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "LONDON, MICHAEL E",
+        "address": "1101 MARKET STREET SUITE 2500 PHILADELPHIA PA 19107 (215)922-6073 MLONDON@MSBGLAW.COM"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "AHMAD-HARGROVE, CALISA",
+        "address": "2640 S. 67TH STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "THROUGH HER P/N/G CALISA AHMAD-HARGROVE, C.L.1. [MINOR]",
+        "address": "2640 S. 67TH STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "4",
+        "type": "PLAINTIFF",
+        "name": "THROUGH HER P/N/G CALISA AHMAD-HARGROVE, C.L.2. [MINOR]",
+        "address": "2640 S. 67TH STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "5",
+        "type": "PLAINTIFF",
+        "name": "THROUGH HIS P/N/G CALISA AHMAD-HARGROVE, Q.H. [MINOR]",
+        "address": "2640 S. 67TH STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "SHERIFF, BENTOU",
+        "address": "222 WILDWOOD AVENUE LANSDOWNE PA 19050"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "REAL MCKOY AUTO SALES LLC",
+        "address": "6530 BALTIMORE AVENUE LANSDOWNE PA 19050"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "09-MAR-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "03:06 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:06 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "LONDON, MICHAEL E"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:06 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "LONDON, MICHAEL E"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:06 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "LONDON, MICHAEL E"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:26 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "04:26 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260601208",
+    "caption": "ANTOIAN VS MONSANTO COMPANY ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "MASS TORT",
+    "case_type": "MT - ROUNDUP PRODUCTS",
+    "jury": "JURY",
+    "status": "WAITING FOR LISTING MASS TORT",
+    "plaintiffs": [
+      "ANTOIAN, EDWARD"
+    ],
+    "defendants": [
+      "MONSANTO COMPANY",
+      "NOURYON SURFACE CHEMISTRY LLC",
+      "NOURYON CHEMICALS LLC",
+      "NOURYON USA LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "DIPRINZIO, KATHLEEN M",
+        "address": "1845 WALNUT STREET 18TH FLOOR PHILADELPHIA PA 19103 (215)545-8800 kdiprinzio@mceldrewpurtell.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "ANTOIAN, EDWARD",
+        "address": "415 LANTERN LN. BERWYN PA 19312"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "MONSANTO COMPANY",
+        "address": "C/O REGISTERED AGENT CSC OF ST. LOUIS COUNTY, INC. 221 BOLIVAR STREET JEFFERSON CITY MO 65101"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "NOURYON SURFACE CHEMISTRY LLC",
+        "address": "100 MATSONFORD ROAD, BLDG 5 SUITE 550 RADNOR PA 19087"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "NOURYON CHEMICALS LLC",
+        "address": "100 MATSONFORD ROAD, BLDG 5 SUITE 550 RADNOR PA 19087"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "NOURYON USA LLC",
+        "address": "100 MATSONFORD ROAD, BLDG 5 SUITE 550 RADNOR PA 19807"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "03:07 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:07 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "DIPRINZIO, KATHLEEN M"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:07 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "DIPRINZIO, KATHLEEN M"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:07 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "DIPRINZIO, KATHLEEN M"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:07 PM",
+        "type": "WAITING FOR LISTING MASS TORT",
+        "party": "DIPRINZIO, KATHLEEN M"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:07 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "DIPRINZIO, KATHLEEN M"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "03:07 PM",
+      "type": "CASE MANAGEMENT ORDER ISSUED",
+      "party": "DIPRINZIO, KATHLEEN M"
+    },
+    "entry_count": 6
+  },
+  {
+    "case_id": "260601209",
+    "caption": "VAH VS CONDE ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "VAH, GEORGETTA"
+    ],
+    "defendants": [
+      "CONDE, MAMDOU",
+      "DOE [DRIVER OF VEHICLE], JANE / JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "LONDON, MICHAEL E",
+        "address": "1101 MARKET STREET SUITE 2500 PHILADELPHIA PA 19107 (215)922-6073 MLONDON@MSBGLAW.COM"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "VAH, GEORGETTA",
+        "address": "2404 ALFRED STREET APARTMENT B PHILADELPHIA PA 19139"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CONDE, MAMDOU",
+        "address": "2632 S. MASSEY STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "DOE [DRIVER OF VEHICLE], JANE / JOHN",
+        "address": "UNKNOWN ADDRESS UNKNOWN PA 00000"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "09-MAR-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "03:20 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:20 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "LONDON, MICHAEL E"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:20 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "LONDON, MICHAEL E"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:20 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "LONDON, MICHAEL E"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:28 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "04:28 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260601212",
+    "caption": "STILL VS GRAHAM III ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "STILL, MONTEZ"
+    ],
+    "defendants": [
+      "GRAHAM III, THOMAS",
+      "DONAHUE, JOSEPH",
+      "CITY OF PHILADELPHIA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GREENFIELD, MARC F",
+        "address": "SPEAR GREENFIELD RICHMAN WEITZ 1801 MARKET STREET SUITE 700 PHILADELPHIA PA 19103 (215)985-2424 efile@injuryline.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "STILL, MONTEZ",
+        "address": "2136 FITZWATER STREET PHILADELPHIA PA 19146"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "GRAHAM III, THOMAS",
+        "address": "435 MADDOCK ROAD SPRINGFIELD PA 19064"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "DONAHUE, JOSEPH",
+        "address": "37 FINLEY COURT LANSDALE PA 19446"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "1515 ARCH STREET 14TH FLOOR PHILADELPHIA PA 19102"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "09-MAR-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "03:30 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:30 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "GREENFIELD, MARC F"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:30 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GREENFIELD, MARC F"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:30 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "GREENFIELD, MARC F"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:32 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "04:32 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260601213",
+    "caption": "GILMORE VS NIX ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "GILMORE, ASHLEY"
+    ],
+    "defendants": [
+      "NIX, JULIAN",
+      "TRACY JANEEN ENTERPRISES, INC., T/A A GREEN THING",
+      "JOHN DOE DRIVER NO. 1-10 (FICTITIOUSLY NAMED DEFENDANTS)",
+      "ABC CORPORATIONS 1-10"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "URBAN, JOSEPH J",
+        "address": "5709 WESTFIELD AVENUE P.O. BOX #560 PENNSAUKEN NJ 08110 (856)665-5709 jurban@ciecka.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "GILMORE, ASHLEY",
+        "address": "823 PINE STREET APT 206 CAMDEN NJ 08103"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "NIX, JULIAN",
+        "address": "5729 RACE STREET PHILADELPHIA PA 19139"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "TRACY JANEEN ENTERPRISES, INC., T/A A GREEN THING",
+        "address": "3901 MARKET STREET, SUITE 1933 PHILADELPHIA  PA 19114"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "JOHN DOE DRIVER NO. 1-10 (FICTITIOUSLY NAMED DEFENDANTS)",
+        "address": "00000 0000 PA 0000"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "ABC CORPORATIONS 1-10",
+        "address": "0000 0000 PA 00000"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "09-MAR-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "03:41 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:41 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "URBAN, JOSEPH J"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:41 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "URBAN, JOSEPH J"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "03:41 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "URBAN, JOSEPH J"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "04:33 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "04:33 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260601215",
+    "caption": "MCGAHEY ETAL VS KENNEDY",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "PARTITION",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "MCGAHEY, VICTORIA",
+      "MCGAHEY, RYAN"
+    ],
+    "defendants": [
+      "KENNEDY, JUSTINE"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "KNAPP, CARL M",
+        "address": "809 N. BETHLEHEM PIKE BUILDING F AMBLER PA 19002 (215)268-6333 carl@cknapplaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "MCGAHEY, VICTORIA",
+        "address": "417 EAST SKIPPACK PIKE FORT WASHINGTON PA 19034"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "MCGAHEY, RYAN",
+        "address": "6433 LAWNTON STREET PHILADELPHIA PA 19123"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "KENNEDY, JUSTINE",
+        "address": "2000 GRAND AVENUE, UNIT 302 PALM COAST PA 32137-3691"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "01:29 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "01:29 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "KNAPP, CARL M"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "01:29 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "KNAPP, CARL M"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "01:29 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "KNAPP, CARL M"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "01:29 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "KNAPP, CARL M"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260601216",
+    "caption": "KROFAH VS GBEE ETAL",
+    "filing_date": "2026-06-09",
+    "filing_date_raw": "Tuesday , June 09th, 2026",
+    "court": "COMMERCE",
+    "case_type": "PARTNERSHIP DISPUTE",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "KROFAH, WINIFRED"
+    ],
+    "defendants": [
+      "GBEE, PRINCE",
+      "LYNUP CORPORATION"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "LADOV, JOSHUA B",
+        "address": "1101 MARKET STREET SUITE 2820 PHILADELPHIA PA 19107 (267)687-8855 jladov@ladovlaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "KROFAH, WINIFRED",
+        "address": "1400 SUNDROP CT WILLIAMSTOWN NJ 08094"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "GBEE, PRINCE",
+        "address": "121 W CUMBERLAND ST #104 PHILADELPHIA PA 19133"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "LYNUP CORPORATION",
+        "address": "7803 FRANKFORD AVE PHILADELPHIA PA 19133"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "09-JUN-2026",
+        "time": "10:57 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "10:57 AM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "LADOV, JOSHUA B"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "10:57 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "LADOV, JOSHUA B"
+      },
+      {
+        "date": "09-JUN-2026",
+        "time": "10:57 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "LADOV, JOSHUA B"
+      }
+    ],
+    "last_entry": {
+      "date": "09-JUN-2026",
+      "time": "10:57 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "LADOV, JOSHUA B"
     },
     "entry_count": 4
   }
