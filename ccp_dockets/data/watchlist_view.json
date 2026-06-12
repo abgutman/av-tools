@@ -5,7 +5,7 @@
     "case_type": "FRAUD",
     "caption": "BOHM VS BOHM ETAL",
     "filing_date": "2026-03-25",
-    "status": "LISTED FOR CASE MGMT CONF",
+    "status": "LISTED FOR STATUS CONFERENCE",
     "plaintiffs": [
       "BOHM, ALEC"
     ],
@@ -13,8 +13,8 @@
       "BOHM, DANIEL",
       "BOHM, LISA"
     ],
-    "entry_count": 40,
-    "last_entry_type": "DISCOVERY MOTION DISMISSED",
-    "last_entry_date": "08-JUN-2026"
+    "entry_count": 43,
+    "last_entry_type": "LISTED FOR STATUS CONFERENCE",
+    "last_entry_date": "11-JUN-2026"
   }
 ]

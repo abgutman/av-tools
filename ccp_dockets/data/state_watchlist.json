@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "40|08-JUN-2026|DISCOVERY MOTION DISMISSED",
-    "entry_count": 40,
+    "sig": "43|11-JUN-2026|LISTED FOR STATUS CONFERENCE",
+    "entry_count": 43,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -11,7 +11,7 @@
       "court": "COMMERCE - STANDARD, NON JURY",
       "case_type": "FRAUD",
       "jury": "NON JURY",
-      "status": "LISTED FOR CASE MGMT CONF",
+      "status": "LISTED FOR STATUS CONFERENCE",
       "plaintiffs": [
         "BOHM, ALEC"
       ],
@@ -76,6 +76,13 @@
         }
       ],
       "events": [
+        {
+          "event": "STATUS CONFERENCE",
+          "datetime": "12-JUN-2026 10:30 AM",
+          "room": "CITY HALL",
+          "location": "COURTROOM 646",
+          "judge": "ERDOS, MICHAEL"
+        },
         {
           "event": "CASE MANAGEMENT CONFERENCE",
           "datetime": "22-JUN-2026 10:00 AM",
@@ -331,15 +338,33 @@
           "time": "09:20 AM",
           "type": "DISCOVERY MOTION DISMISSED",
           "party": ""
+        },
+        {
+          "date": "11-JUN-2026",
+          "time": "08:46 AM",
+          "type": "ORDER ENTERED/236 NOTICE GIVEN",
+          "party": "ERDOS, MICHAEL"
+        },
+        {
+          "date": "11-JUN-2026",
+          "time": "08:46 AM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "11-JUN-2026",
+          "time": "08:47 AM",
+          "type": "LISTED FOR STATUS CONFERENCE",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "08-JUN-2026",
-        "time": "09:20 AM",
-        "type": "DISCOVERY MOTION DISMISSED",
+        "date": "11-JUN-2026",
+        "time": "08:47 AM",
+        "type": "LISTED FOR STATUS CONFERENCE",
         "party": ""
       },
-      "entry_count": 40
+      "entry_count": 43
     }
   }
 }
