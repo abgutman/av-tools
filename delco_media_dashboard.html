@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Greater Media Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated June 11, 2026 at 12:48 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated June 12, 2026 at 12:20 PM</div>
 </div>
 
 <div class="nav">
@@ -97,7 +97,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
     Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
     their attorney) has an address in Media (19063, 19065, 19091), Swarthmore (19081) and Wallingford (19086). Each case is tagged with the court where it
-    was filed. Tax and municipal liens are excluded. In this window: Delaware 1 · Philadelphia 2.
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 1 · Delaware 1 · Philadelphia 2.
 </div>
 
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
@@ -105,12 +105,29 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="tabs">
     <div class="tab active" onclick="showTab('new', this)">New Lawsuits (1)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (0)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (2)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (3)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
         <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(1)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6383637" target="_blank" rel="noopener" class="case-number">2026-51368</a>
+            <span class="case-type">ORDER FOR JUDGMENT ENTERED IN FAVOR OF BUCKS COUNTY CLERK OF COURTS PURSUANT TO 42 PA.C.S. SEC. 9728 IN THE AMOUNT OF $</span>
+            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6383637" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">Bucks County Clerk of Courts v. CLARK, MARYLOU</div>
+        <div class="case-meta">Filed: 2026-06-11</div>
+        <div class="local-party"><strong>Defendant:</strong> CLARK, MARYLOU <span class="locale">Media (19063)</span></div>
+    </div>
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
+        <div class="empty">No cases in this category.</div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(3)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/3c10928fc4758cf37f8bc37a08e7fb2cfbed80826947d7da12b6597558e35d76" target="_blank" rel="noopener" class="case-number">CV-2026-005464</a>
@@ -121,14 +138,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-06-08</div>
         <div class="local-party"><strong>Plaintiff:</strong> GURPREET SINGH <span class="locale">Media (19063)</span></div><div class="local-party"><strong>Plaintiff:</strong> INDERJIT OTHIE <span class="locale">Media (19063)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
-        <div class="empty">No cases in this category.</div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(2)</span></h2>
-        <div class="case-card">
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260600806</span>
             <span class="case-type">NURSING HOME LITIGATION</span>
