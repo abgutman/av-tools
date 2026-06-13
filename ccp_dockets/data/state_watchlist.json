@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "43|11-JUN-2026|LISTED FOR STATUS CONFERENCE",
-    "entry_count": 43,
+    "sig": "44|12-JUN-2026|DISCOVERY MOTION FILED",
+    "entry_count": 44,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -11,7 +11,7 @@
       "court": "COMMERCE - STANDARD, NON JURY",
       "case_type": "FRAUD",
       "jury": "NON JURY",
-      "status": "LISTED FOR STATUS CONFERENCE",
+      "status": "LISTED FOR CASE MGMT CONF",
       "plaintiffs": [
         "BOHM, ALEC"
       ],
@@ -356,15 +356,21 @@
           "time": "08:47 AM",
           "type": "LISTED FOR STATUS CONFERENCE",
           "party": ""
+        },
+        {
+          "date": "12-JUN-2026",
+          "time": "12:49 PM",
+          "type": "DISCOVERY MOTION FILED",
+          "party": "KADOURA, JUSTIN M"
         }
       ],
       "last_entry": {
-        "date": "11-JUN-2026",
-        "time": "08:47 AM",
-        "type": "LISTED FOR STATUS CONFERENCE",
-        "party": ""
+        "date": "12-JUN-2026",
+        "time": "12:49 PM",
+        "type": "DISCOVERY MOTION FILED",
+        "party": "KADOURA, JUSTIN M"
       },
-      "entry_count": 43
+      "entry_count": 44
     }
   }
 }
