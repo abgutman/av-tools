@@ -1455,7 +1455,11 @@
     "delaware:CV-2026-005550": "2026-06-13T11:14:12.237994",
     "delaware:CV-2026-005543": "2026-06-13T11:14:12.237994",
     "delaware:CV-2026-005552": "2026-06-13T11:14:12.237994",
-    "delaware:CV-2026-005559": "2026-06-13T11:14:12.237994"
+    "delaware:CV-2026-005559": "2026-06-13T11:14:12.237994",
+    "delaware:CV-2026-005599": "2026-06-14T11:30:26.435541",
+    "delaware:CV-2026-005600": "2026-06-14T11:30:26.435541",
+    "delaware:CV-2026-005601": "2026-06-14T11:30:26.435541",
+    "delaware:CV-2026-005604": "2026-06-14T11:30:26.435541"
   },
   "matches": {
     "philadelphia:260600786": {
@@ -3023,7 +3027,31 @@
         }
       ],
       "first_seen": "2026-06-13T11:14:12.237994"
+    },
+    "delaware:CV-2026-005601": {
+      "court": "delaware",
+      "case_number": "CV-2026-005601",
+      "caption": "DISCOVER BANK v. CASTELLOTTI",
+      "case_type": "Civil NR - Judgment - MDJ Transfer",
+      "filing_date": "2026-06-11",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/8ab781d50533a20b23aa47c077ff2622f32b8945c653f10f9af643a4002a1c67",
+      "parties": [
+        {
+          "name": "DISCOVER BANK",
+          "role": "Plaintiff",
+          "city": "",
+          "zip": ""
+        },
+        {
+          "name": "DANA CASTELLOTTI",
+          "role": "Defendant",
+          "city": "MEDIA",
+          "zip": "19063"
+        }
+      ],
+      "first_seen": "2026-06-14T11:30:26.435541"
     }
   },
-  "last_run": "2026-06-13T11:14:56.545661"
+  "last_run": "2026-06-14T11:30:37.438835"
 }
