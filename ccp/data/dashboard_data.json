@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-06-14T06:26:39 EDT",
+    "scraped_at": "2026-06-15T09:17:28 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-06-14",
-      "end": "2026-10-12"
+      "start": "2026-06-15",
+      "end": "2026-10-13"
     },
     "counts": {
-      "CM": 301,
+      "CM": 303,
       "MJ": 117,
-      "total": 418
+      "total": 420
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -730,23 +730,6 @@
       "court_type": "RENT, LEASE & EJECTMENT",
       "case_type": "EJECTMENT",
       "attorneys": "MARK D. COPOULOS (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "251103310",
-      "caption": "IN RE: APPEAL OF SELECTIVE REAL ESTATE GROUP LLC E",
-      "raw_date": "16-JUN-2026",
-      "iso_date": "2026-06-16",
-      "time": "09:30 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "ORAL ARGUMENT",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "AGENCY APPEAL",
-      "case_type": "TAX REVIEW BOARD",
-      "attorneys": "MELISSA C. ANDRE (Attorney - Agency); JEFFREY D. COHEN (Attorney For Appellee); WALTER S. ZIMOLONG (Attorney For Appellant)",
       "trial_days": ""
     },
     {
@@ -3283,6 +3266,23 @@
       "trial_days": ""
     },
     {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "251103310",
+      "caption": "IN RE: APPEAL OF SELECTIVE REAL ESTATE GROUP LLC E",
+      "raw_date": "30-JUN-2026",
+      "iso_date": "2026-06-30",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "ORAL ARGUMENT",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "AGENCY APPEAL",
+      "case_type": "TAX REVIEW BOARD",
+      "attorneys": "MELISSA C. ANDRE (Attorney - Agency); JEFFREY D. COHEN (Attorney For Appellee); WALTER S. ZIMOLONG (Attorney For Appellant)",
+      "trial_days": ""
+    },
+    {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
       "case_id": "240201401",
@@ -3315,23 +3315,6 @@
       "case_type": "CONTRACTS (GOODS), ENFORCE",
       "attorneys": "",
       "trial_days": "1"
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "250901434",
-      "caption": "IN RE: APPEAL OF PATHFINDER HOMES LLC",
-      "raw_date": "01-JUL-2026",
-      "iso_date": "2026-07-01",
-      "time": "09:30 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "ORAL ARGUMENT",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "AGENCY APPEAL",
-      "case_type": "ZONING BOARD OF ADJUSTMENT",
-      "attorneys": "JOHN O. WIECZOREK (Attorney For Appellee); WILLIAM J. OBRIEN II (Attorney For Appellant)",
-      "trial_days": ""
     },
     {
       "program": "CM",
@@ -5036,6 +5019,40 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "200401638",
+      "caption": "PRIEUR VS OSB MANAGEMENT, LLC ETAL",
+      "raw_date": "17-JUL-2026",
+      "iso_date": "2026-07-17",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "REAL PROPERTY - OTHER",
+      "attorneys": "GLEN D. KIMBALL (Attorney For Defendant); PETER R. BRYANT (Attorney For Defendant); THOMAS D. KENNY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260303055",
+      "caption": "PEREZ VS MANZANO",
+      "raw_date": "17-JUL-2026",
+      "iso_date": "2026-07-17",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+      "attorneys": "BART E. LEVY (Attorney For Defendant); CARTER AYERS (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "240401510",
       "caption": "COBBS VS 3845 NORTH BROAD LLC ETAL",
       "raw_date": "17-JUL-2026",
@@ -6051,6 +6068,23 @@
       "court_type": "AGENCY APPEAL",
       "case_type": "PA LIQUOR CONTROL BOARD",
       "attorneys": "VALERIE MONTANO (Attorney - Agency); CHRISTOPHER J. ROBINSON (Attorney For Appellee); JOSEPH B. SILVERSTEIN (Attorney For Appellant)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250901434",
+      "caption": "IN RE: APPEAL OF PATHFINDER HOMES LLC",
+      "raw_date": "29-JUL-2026",
+      "iso_date": "2026-07-29",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "ORAL ARGUMENT",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "AGENCY APPEAL",
+      "case_type": "ZONING BOARD OF ADJUSTMENT",
+      "attorneys": "JOHN O. WIECZOREK (Attorney For Appellee); WILLIAM J. OBRIEN II (Attorney For Appellant)",
       "trial_days": ""
     },
     {
