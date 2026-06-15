@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated June 14, 2026 at 11:30 AM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated June 15, 2026 at 03:15 PM</div>
 </div>
 
 <div class="nav">
@@ -103,14 +103,14 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (12)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (5)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (4)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (22)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (29)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(12)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(5)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260601844</span>
@@ -161,7 +161,53 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-06-12</div>
         <div class="local-party"><strong>Plaintiff:</strong> LOPEZ, HOLLY <span class="locale">Narberth (19072)</span></div>
     </div>
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(4)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260601439</span>
+            <span class="case-type">FORECLOSURE</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">WILMINGTON TRUST, N.A. AS TRUSTEE VS DAG INVESTMEN</div>
+        <div class="case-meta">Filed: 2026-06-10 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>DEFENDANT:</strong> DAG INVESTMENT AND DEVELOPMENT LLC <span class="locale">Bala Cynwyd (19004)</span></div>
+    </div>
 <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-14753</span>
+            <span class="case-type">Complaint In Mortgage Foreclosure</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">EVERETT FINANCIAL INC v. GRILL, ERICA</div>
+        <div class="case-meta">Filed: 2026-06-10 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> GRILL, ERICA <span class="locale">Wynnewood (19096)</span></div><div class="local-party"><strong>Defendant:</strong> SOVIN, MATTHEW <span class="locale">Wynnewood (19096)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-14652</span>
+            <span class="case-type">Complaint In Mortgage Foreclosure</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">PHILADELPHIA FEDERAL CREDIT UNION v. DEBEASE, CELESTE F</div>
+        <div class="case-meta">Filed: 2026-06-09 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> DEBEASE, CELESTE F <span class="locale">Bala Cynwyd (19004)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-14536</span>
+            <span class="case-type">Complaint in Ejectment</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">SULLIVAN, STEPHEN v. TRAMBLEY, KAROLYNE</div>
+        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> SULLIVAN, STEPHEN <span class="locale">Haverford (19041)</span></div><div class="local-party"><strong>Plaintiff:</strong> SULLIVAN, COLLEEN <span class="locale">Haverford (19041)</span></div><div class="local-party"><strong>Defendant:</strong> TRAMBLEY, KAROLYNE <span class="locale">Haverford (19041)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(29)</span></h2>
+        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260601646</span>
             <span class="case-type">CONSTRUCTION CONTRACT</span>
@@ -231,53 +277,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-06-11 &middot; 2 - OPEN</div>
         <div class="local-party"><strong>Plaintiff:</strong> KIM, NARI <span class="locale">Merion Station (19066)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(4)</span></h2>
-        <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260601439</span>
-            <span class="case-type">FORECLOSURE</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">WILMINGTON TRUST, N.A. AS TRUSTEE VS DAG INVESTMEN</div>
-        <div class="case-meta">Filed: 2026-06-10 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> DAG INVESTMENT AND DEVELOPMENT LLC <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
 <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-14753</span>
-            <span class="case-type">Complaint In Mortgage Foreclosure</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">EVERETT FINANCIAL INC v. GRILL, ERICA</div>
-        <div class="case-meta">Filed: 2026-06-10 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Defendant:</strong> GRILL, ERICA <span class="locale">Wynnewood (19096)</span></div><div class="local-party"><strong>Defendant:</strong> SOVIN, MATTHEW <span class="locale">Wynnewood (19096)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-14652</span>
-            <span class="case-type">Complaint In Mortgage Foreclosure</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">PHILADELPHIA FEDERAL CREDIT UNION v. DEBEASE, CELESTE F</div>
-        <div class="case-meta">Filed: 2026-06-09 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Defendant:</strong> DEBEASE, CELESTE F <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-14536</span>
-            <span class="case-type">Complaint in Ejectment</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">SULLIVAN, STEPHEN v. TRAMBLEY, KAROLYNE</div>
-        <div class="case-meta">Filed: 2026-06-08 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Plaintiff:</strong> SULLIVAN, STEPHEN <span class="locale">Haverford (19041)</span></div><div class="local-party"><strong>Plaintiff:</strong> SULLIVAN, COLLEEN <span class="locale">Haverford (19041)</span></div><div class="local-party"><strong>Defendant:</strong> TRAMBLEY, KAROLYNE <span class="locale">Haverford (19041)</span></div>
-    </div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(22)</span></h2>
-        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-14743</span>
             <span class="case-type">Complaint Civil Action</span>
