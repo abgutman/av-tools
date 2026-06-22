@@ -2490,7 +2490,53 @@
     "delaware:CV-2026-005794": "2026-06-21T11:45:42.375896",
     "delaware:CV-2026-005778": "2026-06-21T11:45:42.375896",
     "delaware:CV-2026-005779": "2026-06-21T11:45:42.375896",
-    "delaware:CV-2026-005792": "2026-06-21T11:45:42.375896"
+    "delaware:CV-2026-005792": "2026-06-21T11:45:42.375896",
+    "montgomery:2026-15325": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15330": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15328": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15326": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15327": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15319": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15321": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15316": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15323": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15318": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15317": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15314": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15313": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15315": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15311": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15310": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15309": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15308": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15307": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15306": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15305": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15303": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15304": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15302": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15301": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15300": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15299": "2026-06-22T14:40:33.150804",
+    "montgomery:2026-15298": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04104": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04106": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04103": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04102": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04108": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04107": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04101": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04105": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04090": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04092": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04116": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04089": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04118": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04117": "2026-06-22T14:40:33.150804",
+    "bucks:2026-04091": "2026-06-22T14:40:33.150804",
+    "delaware:CV-2026-005813": "2026-06-22T14:40:33.150804",
+    "delaware:CV-2026-005814": "2026-06-22T14:40:33.150804",
+    "delaware:CV-2026-005803": "2026-06-22T14:40:33.150804"
   },
   "matches": {
     "philadelphia:260600786": {
@@ -5180,7 +5226,127 @@
         }
       ],
       "first_seen": "2026-06-19T12:45:40.886246"
+    },
+    "montgomery:2026-15330": {
+      "court": "montgomery",
+      "case_number": "2026-15330",
+      "caption": "W, M S A MINOR BY AND THROUGH PNG SHANIKA DEAN-STEWART v. BRADSHAW, THOMAS SR.",
+      "case_type": "Complaint Civil Action",
+      "filing_date": "2026-06-22",
+      "status": "2 - OPEN",
+      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201475865",
+      "parties": [
+        {
+          "name": "W, M S A MINOR BY AND THROUGH PNG SHANIKA DEAN-STEWART",
+          "role": "Plaintiff",
+          "city": "Bala Cynwyd",
+          "zip": "19004"
+        },
+        {
+          "name": "DEAN-STEWART, SHANIKA",
+          "role": "Plaintiff",
+          "city": "King Of Prussia",
+          "zip": "19406"
+        },
+        {
+          "name": "BRADSHAW, THOMAS SR.",
+          "role": "Defendant",
+          "city": "Ambler",
+          "zip": "19002"
+        }
+      ],
+      "first_seen": "2026-06-22T14:40:33.150804"
+    },
+    "montgomery:2026-15328": {
+      "court": "montgomery",
+      "case_number": "2026-15328",
+      "caption": "BIESECKER, FREDERICK N II v. BIESECKER, KELLY",
+      "case_type": "Complaint Civil Action",
+      "filing_date": "2026-06-22",
+      "status": "2 - OPEN",
+      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201475855",
+      "parties": [
+        {
+          "name": "BIESECKER, FREDERICK N II",
+          "role": "Plaintiff",
+          "city": "Wayne",
+          "zip": "19087"
+        },
+        {
+          "name": "BIESECKER, KELLY",
+          "role": "Defendant",
+          "city": "Villanova",
+          "zip": "19085"
+        }
+      ],
+      "first_seen": "2026-06-22T14:40:33.150804"
+    },
+    "montgomery:2026-15308": {
+      "court": "montgomery",
+      "case_number": "2026-15308",
+      "caption": "BARBARA GISEL DESIGN LTD v. CORNERSTONE BISTRO COCKTAILS OYSTERS ARTISANAL MARKET CHEESE CHARCUTERIE BYOB BAR & BRASSERIE LLC",
+      "case_type": "Summons Civil Action",
+      "filing_date": "2026-06-19",
+      "status": "2 - OPEN",
+      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201475940",
+      "parties": [
+        {
+          "name": "BARBARA GISEL DESIGN LTD",
+          "role": "Plaintiff",
+          "city": "Haverford",
+          "zip": "19041"
+        },
+        {
+          "name": "CORNERSTONE BISTRO COCKTAILS OYSTERS ARTISANAL MARKET CHEESE CHARCUTERIE BYOB BAR & BRASSERIE LLC",
+          "role": "Defendant",
+          "city": "Wayne",
+          "zip": "19087"
+        },
+        {
+          "name": "KONDRA, CHRISTINE M",
+          "role": "Defendant",
+          "city": "Wayne",
+          "zip": "19087"
+        },
+        {
+          "name": "KONDRA, NICHOLAS J",
+          "role": "Defendant",
+          "city": "Wayne",
+          "zip": "19087"
+        }
+      ],
+      "first_seen": "2026-06-22T14:40:33.150804"
+    },
+    "delaware:CV-2026-005803": {
+      "court": "delaware",
+      "case_number": "CV-2026-005803",
+      "caption": "HAWK & SON ENTERPRISES LLC v. VAN HORN et al",
+      "case_type": "Civil NR - Judgment - MDJ Transfer",
+      "filing_date": "2026-06-22",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/6f4a93a37e5c35af683c24a278508ff6adadbde5aa2a7788acf336b2fea8307e",
+      "parties": [
+        {
+          "name": "VANHORN'S",
+          "role": "Defendant",
+          "city": "PHOENIXVILLE",
+          "zip": "19460"
+        },
+        {
+          "name": "MARK VAN HORN",
+          "role": "Defendant",
+          "city": "MEDIA",
+          "zip": "19063"
+        },
+        {
+          "name": "HAWK & SON ENTERPRISES LLC",
+          "role": "Plaintiff",
+          "city": "",
+          "zip": ""
+        }
+      ],
+      "first_seen": "2026-06-22T14:40:33.150804"
     }
   },
-  "last_run": "2026-06-21T11:45:47.296304"
+  "last_run": "2026-06-22T14:40:48.516210"
 }
