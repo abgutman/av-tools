@@ -3681,75 +3681,358 @@
     "bucks:2026-04202": "2026-06-25T11:40:13.629608",
     "bucks:2026-04198": "2026-06-25T11:40:13.629608",
     "bucks:2026-04197": "2026-06-25T11:40:13.629608",
-    "bucks:2026-04242": "2026-06-25T11:40:13.629608"
+    "bucks:2026-04242": "2026-06-25T11:40:13.629608",
+    "philadelphia:260603527": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603526": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603524": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603523": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603522": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603520": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603519": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603517": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603515": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603514": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603513": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603512": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603511": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603507": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603504": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603503": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603501": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603500": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603499": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603498": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603497": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603496": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603494": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603493": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603492": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603491": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603490": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603489": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603488": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603487": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603485": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603483": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603481": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603479": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603478": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603477": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603476": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603475": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603474": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603473": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603468": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603467": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603465": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603464": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603463": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603462": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603461": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603460": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603459": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603458": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603457": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603456": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603455": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603454": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603452": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603451": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603432": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603471": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603448": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603447": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603446": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603443": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603442": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603441": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603436": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603433": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603430": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603428": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603426": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603425": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603421": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603420": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603419": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603417": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603412": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603411": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603410": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603409": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603408": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603407": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603406": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603405": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603404": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603403": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603402": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603398": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603397": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603393": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603390": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603389": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603388": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603387": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603376": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603374": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603372": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603365": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603363": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603362": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603361": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603359": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603357": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603355": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603349": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603348": "2026-06-26T11:44:36.584834",
+    "philadelphia:260603347": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16018": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16016": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16015": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16013": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16012": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16009": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16008": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16007": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16006": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16005": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16004": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16002": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15998": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16000": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15997": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15999": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15996": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-16001": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15995": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15982": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15969": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15970": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15971": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15972": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15973": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15974": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15975": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15976": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15977": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15978": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15979": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15980": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15981": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15968": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15989": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15990": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15991": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15992": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15993": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15994": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15983": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15984": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15985": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15986": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15987": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15988": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15967": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15966": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15965": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15964": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15962": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15959": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15958": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15961": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15957": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15960": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15956": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15954": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15953": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15951": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15950": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15949": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15947": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15946": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15945": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15944": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15943": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15941": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15892": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15942": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15891": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15890": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15887": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15888": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15885": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15886": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15926": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15927": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15928": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15929": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15930": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15931": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15939": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15940": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15932": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15933": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15934": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15935": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15936": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15937": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15938": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15910": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15911": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15912": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15913": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15914": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15915": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15916": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15917": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15918": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15919": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15920": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15921": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15922": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15923": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15924": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15925": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15900": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15901": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15902": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15903": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15904": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15905": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15906": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15907": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15908": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15909": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15893": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15894": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15895": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15896": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15897": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15898": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15899": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15884": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15883": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15882": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15880": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15879": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15881": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15878": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15877": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15876": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15875": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15874": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15873": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15872": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15871": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15870": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15868": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15869": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15867": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15866": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15865": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15863": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15864": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15862": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15861": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15860": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15859": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15858": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15856": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15857": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15854": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15853": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15841": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15842": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15843": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15844": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15845": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15846": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15847": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15848": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15849": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15850": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15851": "2026-06-26T11:44:36.584834",
+    "montgomery:2026-15852": "2026-06-26T11:44:36.584834",
+    "bucks:2026-72597": "2026-06-26T11:44:36.584834",
+    "bucks:2026-72596": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04287": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04292": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04288": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04286": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04289": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04290": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04291": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04285": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04284": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04282": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04281": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04283": "2026-06-26T11:44:36.584834",
+    "bucks:2026-80073": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04280": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04279": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04278": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04272": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04271": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04270": "2026-06-26T11:44:36.584834",
+    "bucks:2026-72585": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04268": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04269": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04266": "2026-06-26T11:44:36.584834",
+    "bucks:2026-72584": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51494": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04267": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51493": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04265": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51492": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51490": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04264": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04262": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51489": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51488": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04261": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51487": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51485": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51486": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51491": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51484": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04263": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51483": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51482": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51481": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51480": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51479": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51478": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51476": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51477": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51474": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51475": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51473": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51472": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51471": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51470": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51469": "2026-06-26T11:44:36.584834",
+    "bucks:2026-51468": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04260": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04259": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04258": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04253": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04273": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04274": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04275": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04276": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04277": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04251": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04252": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04255": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04254": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04257": "2026-06-26T11:44:36.584834",
+    "bucks:2026-04256": "2026-06-26T11:44:36.584834",
+    "bucks:2026-72595": "2026-06-26T11:44:36.584834",
+    "bucks:2026-72594": "2026-06-26T11:44:36.584834",
+    "bucks:2026-72593": "2026-06-26T11:44:36.584834"
   },
   "matches": {
-    "philadelphia:260600964": {
-      "court": "philadelphia",
-      "case_number": "260600964",
-      "caption": "VV13451 LLC VS SB GLOBAL STAR LLC",
-      "case_type": "CONFESSION OF JUDGMENT",
-      "filing_date": "2026-06-08",
-      "status": "ACTIVE CASE",
-      "url": "",
-      "parties": [
-        {
-          "name": "VV13451 LLC",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19004"
-        },
-        {
-          "name": "SB GLOBAL STAR LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19116"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "philadelphia:260601017": {
-      "court": "philadelphia",
-      "case_number": "260601017",
-      "caption": "GUO VS FRIEDBERG ETAL",
-      "case_type": "EQUITY - NO REAL ESTATE",
-      "filing_date": "2026-06-08",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "GUO, DI",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "22066"
-        },
-        {
-          "name": "FRIEDBERG, MICHAEL",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "FRIEDBERG, RIMONA YELLIN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19335"
-        },
-        {
-          "name": "MISSION BUSINESS ENTERPRISES LLC D/B/A BRIGHTER DAY HOMECARE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19335"
-        },
-        {
-          "name": "MDA CARE LLC D/B/A AFFECTIONATE RELIABLE CARE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19121"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
     "philadelphia:260601075": {
       "court": "philadelphia",
       "case_number": "260601075",
@@ -3828,204 +4111,6 @@
       ],
       "first_seen": "2026-06-10T11:12:23.022533"
     },
-    "montgomery:2026-14580": {
-      "court": "montgomery",
-      "case_number": "2026-14580",
-      "caption": "GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE",
-      "case_type": "Complaint In Partition",
-      "filing_date": "2026-06-08",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474680",
-      "parties": [
-        {
-          "name": "GITLIN, AMY",
-          "role": "Plaintiff",
-          "city": "Villanova",
-          "zip": "19085"
-        },
-        {
-          "name": "GITLIN GOLDSTEIN, MICHELLE",
-          "role": "Defendant",
-          "city": "Ambler",
-          "zip": "19002"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "montgomery:2026-14578": {
-      "court": "montgomery",
-      "case_number": "2026-14578",
-      "caption": "GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE",
-      "case_type": "Complaint Civil Action",
-      "filing_date": "2026-06-08",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474673",
-      "parties": [
-        {
-          "name": "GITLIN, AMY",
-          "role": "Plaintiff",
-          "city": "Villanova",
-          "zip": "19085"
-        },
-        {
-          "name": "GITLIN GOLDSTEIN, MICHELLE",
-          "role": "Defendant",
-          "city": "Ambler",
-          "zip": "19002"
-        },
-        {
-          "name": "390 COMMERCE REALTY LLC",
-          "role": "Defendant",
-          "city": "Fort Washington",
-          "zip": "19034"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "montgomery:2026-14579": {
-      "court": "montgomery",
-      "case_number": "2026-14579",
-      "caption": "GITLIN, AMY v. GITLIN GOLDSTEIN, MICHELLE",
-      "case_type": "Complaint Civil Action",
-      "filing_date": "2026-06-08",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474674",
-      "parties": [
-        {
-          "name": "GITLIN, AMY",
-          "role": "Plaintiff",
-          "city": "Villanova",
-          "zip": "19085"
-        },
-        {
-          "name": "GITLIN GOLDSTEIN, MICHELLE",
-          "role": "Defendant",
-          "city": "Ambler",
-          "zip": "19002"
-        },
-        {
-          "name": "270 COMMERCE DRIVE LP",
-          "role": "Defendant",
-          "city": "Fort Washington",
-          "zip": "19034"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "montgomery:2026-14571": {
-      "court": "montgomery",
-      "case_number": "2026-14571",
-      "caption": "CLARK, CURTIS v. LANKENAU MEDICAL CENTER",
-      "case_type": "Complaint Civil Action",
-      "filing_date": "2026-06-08",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474659",
-      "parties": [
-        {
-          "name": "CLARK, CURTIS",
-          "role": "Plaintiff",
-          "city": "Holmes",
-          "zip": "19043"
-        },
-        {
-          "name": "LANKENAU MEDICAL CENTER",
-          "role": "Defendant",
-          "city": "Penn Wynne",
-          "zip": "19096"
-        },
-        {
-          "name": "ABC COMPANIES 1-5 INC",
-          "role": "Defendant",
-          "city": "Nowhere",
-          "zip": "12345"
-        },
-        {
-          "name": "MAIN LINE HEALTH INC",
-          "role": "Defendant",
-          "city": "Radnor",
-          "zip": "19087"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "montgomery:2026-14569": {
-      "court": "montgomery",
-      "case_number": "2026-14569",
-      "caption": "PLYMOUTH INDUSTRIAL CENTER INC v. VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
-      "case_type": "Complaint Civil Action",
-      "filing_date": "2026-06-08",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474667",
-      "parties": [
-        {
-          "name": "PLYMOUTH INDUSTRIAL CENTER INC",
-          "role": "Plaintiff",
-          "city": "Conshohocken",
-          "zip": "19428"
-        },
-        {
-          "name": "VILLANOVA UNIVERSITY IN THE STATE OF PENNSYLVANIA",
-          "role": "Defendant",
-          "city": "Villanova",
-          "zip": "19085"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "montgomery:2026-14557": {
-      "court": "montgomery",
-      "case_number": "2026-14557",
-      "caption": "HERSKOWITZ, KENNETH v. OBRA LONGEVUTY FUND LP",
-      "case_type": "Foreign Subpoena",
-      "filing_date": "2026-06-08",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474531",
-      "parties": [
-        {
-          "name": "HERSKOWITZ, KENNETH",
-          "role": "Plaintiff",
-          "city": "Merion Station",
-          "zip": "19066"
-        },
-        {
-          "name": "OBRA LONGEVUTY FUND LP",
-          "role": "Defendant",
-          "city": "Miami",
-          "zip": "33133"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "montgomery:2026-14536": {
-      "court": "montgomery",
-      "case_number": "2026-14536",
-      "caption": "SULLIVAN, STEPHEN v. TRAMBLEY, KAROLYNE",
-      "case_type": "Complaint in Ejectment",
-      "filing_date": "2026-06-08",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201474628",
-      "parties": [
-        {
-          "name": "SULLIVAN, STEPHEN",
-          "role": "Plaintiff",
-          "city": "Haverford",
-          "zip": "19041"
-        },
-        {
-          "name": "SULLIVAN, COLLEEN",
-          "role": "Plaintiff",
-          "city": "Haverford",
-          "zip": "19041"
-        },
-        {
-          "name": "TRAMBLEY, KAROLYNE",
-          "role": "Defendant",
-          "city": "Haverford",
-          "zip": "19041"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
     "bucks:2026-51313": {
       "court": "bucks",
       "case_number": "2026-51313",
@@ -4046,48 +4131,6 @@
           "role": "Defendant",
           "city": "Havertown",
           "zip": "19083"
-        }
-      ],
-      "first_seen": "2026-06-10T11:12:23.022533"
-    },
-    "delaware:CV-2026-005464": {
-      "court": "delaware",
-      "case_number": "CV-2026-005464",
-      "caption": "GILL et al v. BOLA et al",
-      "case_type": "Civil - Tort - Slander/Libel/Defamation",
-      "filing_date": "2026-06-08",
-      "status": "",
-      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/3c10928fc4758cf37f8bc37a08e7fb2cfbed80826947d7da12b6597558e35d76",
-      "parties": [
-        {
-          "name": "GURPREET SINGH",
-          "role": "Plaintiff",
-          "city": "Media",
-          "zip": "19063"
-        },
-        {
-          "name": "JASBIR SINGH BOLA",
-          "role": "Defendant",
-          "city": "BROOMALL",
-          "zip": "19008"
-        },
-        {
-          "name": "SABZI MANDI, INC.",
-          "role": "Defendant",
-          "city": "UPPER DARBY",
-          "zip": "19082"
-        },
-        {
-          "name": "SURINDERPAL SINGH GILL",
-          "role": "Plaintiff",
-          "city": "Me",
-          "zip": ""
-        },
-        {
-          "name": "INDERJIT OTHIE",
-          "role": "Plaintiff",
-          "city": "Media",
-          "zip": "19063"
         }
       ],
       "first_seen": "2026-06-10T11:12:23.022533"
@@ -7403,7 +7446,133 @@
         }
       ],
       "first_seen": "2026-06-25T11:40:13.629608"
+    },
+    "philadelphia:260603491": {
+      "court": "philadelphia",
+      "case_number": "260603491",
+      "caption": "TATE VS WAWA, INC. ETAL",
+      "case_type": "PRODUCT LIABILITY",
+      "filing_date": "2026-06-25",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "url": "",
+      "parties": [
+        {
+          "name": "TATE JR., RICHARD E",
+          "role": "PLAINTIFF",
+          "city": "State College",
+          "zip": "16803"
+        },
+        {
+          "name": "WAWA, INC.",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19063"
+        },
+        {
+          "name": "R.J. REYNOLDS TOBACCO COMPANY",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "27101"
+        },
+        {
+          "name": "PHILIP MORRIS USA INC.",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "23230"
+        },
+        {
+          "name": "LIGGETT GROUP, LLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "27302"
+        }
+      ],
+      "first_seen": "2026-06-26T11:44:36.584834"
+    },
+    "philadelphia:260603447": {
+      "court": "philadelphia",
+      "case_number": "260603447",
+      "caption": "REIMER VS WAWA, INC",
+      "case_type": "PREMISES LIABILITY, SLIP/FALL",
+      "filing_date": "2026-06-24",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "url": "",
+      "parties": [
+        {
+          "name": "REIMER, DANIELLE",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "18104"
+        },
+        {
+          "name": "WAWA, INC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19063"
+        }
+      ],
+      "first_seen": "2026-06-26T11:44:36.584834"
+    },
+    "philadelphia:260603389": {
+      "court": "philadelphia",
+      "case_number": "260603389",
+      "caption": "HUANG ETAL VS STATE FARM FIRE AND CASUALTY COMPANY",
+      "case_type": "CONTRACTS OTHER",
+      "filing_date": "2026-06-24",
+      "status": "ARBITRATION HEARING SCHEDULED",
+      "url": "",
+      "parties": [
+        {
+          "name": "HUANG, JYHYANG",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19010"
+        },
+        {
+          "name": "CHIANG, PEI",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19010"
+        },
+        {
+          "name": "STATE FARM FIRE AND CASUALTY COMPANY",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "61710"
+        }
+      ],
+      "first_seen": "2026-06-26T11:44:36.584834"
+    },
+    "montgomery:2026-15886": {
+      "court": "montgomery",
+      "case_number": "2026-15886",
+      "caption": "SIMINS, RICHARD v. ZONING HEARING BOARD OF LOWER MERION TOWNSHIP",
+      "case_type": "Appeal from Zoning Board Non Govt",
+      "filing_date": "2026-06-25",
+      "status": "2 - OPEN",
+      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201476655",
+      "parties": [
+        {
+          "name": "SIMINS, RICHARD",
+          "role": "Plaintiff",
+          "city": "Bala Cynwyd",
+          "zip": "19004"
+        },
+        {
+          "name": "SIMINS, ALMUT",
+          "role": "Plaintiff",
+          "city": "Bala Cynwyd",
+          "zip": "19004"
+        },
+        {
+          "name": "ZONING HEARING BOARD OF LOWER MERION TOWNSHIP",
+          "role": "Defendant",
+          "city": "Ardmore",
+          "zip": "19003"
+        }
+      ],
+      "first_seen": "2026-06-26T11:44:36.584834"
     }
   },
-  "last_run": "2026-06-25T11:41:43.252031"
+  "last_run": "2026-06-26T11:46:04.042324"
 }
