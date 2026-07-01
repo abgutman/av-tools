@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "45|17-JUN-2026|PRELIM OBJECTIONS ASSIGNED",
-    "entry_count": 45,
+    "sig": "46|30-JUN-2026|DISCOVERY MOTION DISMISSED",
+    "entry_count": 46,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -368,15 +368,21 @@
           "time": "10:31 AM",
           "type": "PRELIM OBJECTIONS ASSIGNED",
           "party": ""
+        },
+        {
+          "date": "30-JUN-2026",
+          "time": "09:29 AM",
+          "type": "DISCOVERY MOTION DISMISSED",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "17-JUN-2026",
-        "time": "10:31 AM",
-        "type": "PRELIM OBJECTIONS ASSIGNED",
+        "date": "30-JUN-2026",
+        "time": "09:29 AM",
+        "type": "DISCOVERY MOTION DISMISSED",
         "party": ""
       },
-      "entry_count": 45
+      "entry_count": 46
     }
   }
 }
