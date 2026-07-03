@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "46|30-JUN-2026|DISCOVERY MOTION DISMISSED",
-    "entry_count": 46,
+    "sig": "48|02-JUL-2026|WAITING TO LIST CASE MGMT CONF",
+    "entry_count": 48,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -11,7 +11,7 @@
       "court": "COMMERCE - STANDARD, NON JURY",
       "case_type": "FRAUD",
       "jury": "NON JURY",
-      "status": "LISTED FOR CASE MGMT CONF",
+      "status": "LISTED FOR HEARING",
       "plaintiffs": [
         "BOHM, ALEC"
       ],
@@ -76,20 +76,6 @@
         }
       ],
       "events": [
-        {
-          "event": "STATUS CONFERENCE",
-          "datetime": "12-JUN-2026 10:30 AM",
-          "room": "CITY HALL",
-          "location": "COURTROOM 646",
-          "judge": "ERDOS, MICHAEL"
-        },
-        {
-          "event": "CASE MANAGEMENT CONFERENCE",
-          "datetime": "22-JUN-2026 10:00 AM",
-          "room": "VIA ADVANCED COMMUN. TECH.",
-          "location": "REMOTE HEARING",
-          "judge": "COMMERCE CASE MANAGER"
-        },
         {
           "event": "HEARING",
           "datetime": "03-SEP-2026 09:30 AM",
@@ -374,15 +360,27 @@
           "time": "09:29 AM",
           "type": "DISCOVERY MOTION DISMISSED",
           "party": ""
+        },
+        {
+          "date": "02-JUL-2026",
+          "time": "03:15 PM",
+          "type": "OTHER EVENT CANCELLED",
+          "party": ""
+        },
+        {
+          "date": "02-JUL-2026",
+          "time": "03:15 PM",
+          "type": "WAITING TO LIST CASE MGMT CONF",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "30-JUN-2026",
-        "time": "09:29 AM",
-        "type": "DISCOVERY MOTION DISMISSED",
+        "date": "02-JUL-2026",
+        "time": "03:15 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
         "party": ""
       },
-      "entry_count": 46
+      "entry_count": 48
     }
   }
 }
