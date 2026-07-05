@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 04, 2026 at 10:54 AM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 05, 2026 at 11:03 AM</div>
 </div>
 
 <div class="nav">
@@ -103,14 +103,14 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (10)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (2)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (2)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (37)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (45)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(10)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(2)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260700357</span>
@@ -131,7 +131,33 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-07-02 &middot; 2 - OPEN</div>
         <div class="local-party"><strong>Defendant:</strong> GARDINER, ANTOINE <span class="locale">Villanova (19085)</span></div>
     </div>
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(2)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16400</span>
+            <span class="case-type">Complaint In Mortgage Foreclosure</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">CITIZENS BANK NA v. DEVINE, JAMES I</div>
+        <div class="case-meta">Filed: 2026-07-01 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> DEVINE, JAMES I <span class="locale">Wynnewood (19096)</span></div>
+    </div>
 <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16023</span>
+            <span class="case-type">Complaint In Mortgage Foreclosure</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">ROCKET MORTGAGE LLC v. HICKS, HOWARD</div>
+        <div class="case-meta">Filed: 2026-06-25 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> HICKS, HOWARD <span class="locale">Ardmore (19003)</span></div><div class="local-party"><strong>Defendant:</strong> GREEN, UNK HEIRS OF MONICA <span class="locale">Ardmore (19003)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(45)</span></h2>
+        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16393</span>
             <span class="case-type">Summons Civil Action</span>
@@ -211,33 +237,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-07-01 &middot; 2 - OPEN</div>
         <div class="local-party"><strong>Defendant:</strong> BASKIN, JEFF <span class="locale">Narberth (19072)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(2)</span></h2>
-        <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16400</span>
-            <span class="case-type">Complaint In Mortgage Foreclosure</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">CITIZENS BANK NA v. DEVINE, JAMES I</div>
-        <div class="case-meta">Filed: 2026-07-01 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Defendant:</strong> DEVINE, JAMES I <span class="locale">Wynnewood (19096)</span></div>
-    </div>
 <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16023</span>
-            <span class="case-type">Complaint In Mortgage Foreclosure</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">ROCKET MORTGAGE LLC v. HICKS, HOWARD</div>
-        <div class="case-meta">Filed: 2026-06-25 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Defendant:</strong> HICKS, HOWARD <span class="locale">Ardmore (19003)</span></div><div class="local-party"><strong>Defendant:</strong> GREEN, UNK HEIRS OF MONICA <span class="locale">Ardmore (19003)</span></div>
-    </div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(37)</span></h2>
-        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16254</span>
             <span class="case-type">Petition for Change of Name</span>
