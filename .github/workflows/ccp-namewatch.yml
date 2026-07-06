@@ -1,0 +1,64 @@
+name: CCP party watch (15 min)
+
+on:
+  workflow_dispatch:          # manual trigger for testing
+  schedule:
+    # Cadence is time-of-day aware. GitHub cron is fixed UTC and can't follow DST,
+    # so these map Eastern time using EDT (UTC-4); under EST they drift 1 hour earlier
+    # (same convention as ccp-dockets.yml).
+    - cron: '*/15 0,11-23 * * *'  # every 15 min, daytime — ET 07:00–20:59 (EDT)
+    - cron: '0 1-10 * * *'         # hourly, overnight — ET 21:00–06:59 (EDT)
+
+# Prevent overlapping runs of this workflow (a run should finish in well under a minute).
+concurrency:
+  group: ccp-namewatch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  namewatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r ccp_dockets/requirements.txt
+
+      - name: Scrape party-name watch
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python ccp_dockets/scrape_name_watch.py --live
+
+      - name: Regenerate dashboard + apply gate
+        run: |
+          python ccp_dockets/generate_dashboard.py
+          python ccp_dockets/deploy_prep.py
+          cp ccp_dockets/ccp_dockets_dashboard.html ccp_dockets_dashboard.html
+
+      - name: Commit & push (only on real data change)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ccp_dockets_dashboard.html \
+                  ccp_dockets/data/name_watch_view.json \
+                  ccp_dockets/data/state_name_watch.json
+          # Ignore pure-timestamp churn so an idle run (no new/changed cases) does
+          # not create a commit every 15 minutes. -I drops lines that only differ
+          # by the generated-at timestamp; real row changes still trigger a commit.
+          if git diff --cached --quiet -I 'generated_at' -I 'Generated '; then
+            echo "No meaningful change — skipping commit"
+          else
+            git commit -m "CCP party watch update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # Rebase on any concurrent daily-job push before pushing.
+            for i in 1 2 3; do
+              git pull --rebase --autostash && git push && break
+              echo "push attempt $i failed — retrying"; sleep 5
+            done
+          fi

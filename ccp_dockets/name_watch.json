@@ -1,0 +1,12 @@
+[
+  {
+    "label": "PECO",
+    "queries": ["PECO"],
+    "pattern": "\\bpeco\\b"
+  },
+  {
+    "label": "Philadelphia Sheriff",
+    "queries": ["SHERIFF", "PHILADELPHIA SH"],
+    "must_contain_all": ["sheriff", "philadelphia"]
+  }
+]

@@ -1,6 +1,23 @@
 # ccp_dockets — CLAUDE.md
 
-CCP civil docket monitor. Two tabs: daily new-complaint digest + watchlist alerter.
+CCP civil docket monitor. Three tabs: daily new-complaint digest + watchlist alerter +
+party-name watch.
+
+## Party watch (Tab 3)
+
+`fjd_party_search.py` + `scrape_name_watch.py` + `name_watch.json`. Monitors new cases
+filed **by or against** named entities via the FJD participant-name index
+(`zk_fjd_public_qry_01`), NOT case-id enumeration. Same CAPTCHA-free tricks as the docket
+engine: blank `hash_code`, results in the **302 body** (`allow_redirects=False`). Search
+is a **case-insensitive full-string prefix** match **capped at 50 rows**; `scrape_name_watch`
+subdivides the date window on truncation. Each `name_watch.json` entry has `queries`
+(prefixes POSTed) + a filter (`pattern` regex / `must_contain` any / `must_contain_all`).
+Do NOT modify `fjd_party_search.py` without re-verifying live (undocumented FJD quirks).
+
+Workflow `ccp-namewatch.yml`: every 15 min daytime, hourly overnight. Commits only
+`ccp_dockets_dashboard.html` + `data/name_watch_view.json` + `data/state_name_watch.json`
+(NOT the replica tree), and uses `git diff -I generated_at` so idle runs don't commit
+pure-timestamp churn. Reuses the `GMAIL_USER`/`GMAIL_APP_PASSWORD` secrets. Email to Av only.
 
 ## Engine
 

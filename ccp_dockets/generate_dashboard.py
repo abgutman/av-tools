@@ -224,7 +224,7 @@ _DASHBOARD_HTML = """\
 <title>CCP Civil Dockets — New Cases &amp; Watchlist</title>
 <style>
   :root {
-    --complaints: #1a1a2e; --watchlist: #2c5f2e;
+    --complaints: #1a1a2e; --watchlist: #2c5f2e; --partywatch: #5a2c6e;
     --ink: #1a1a1a; --muted: #5a5a5a; --line: #d8d8d8; --bg: #f7f7f5; --card: #fff;
   }
   * { box-sizing: border-box; }
@@ -242,6 +242,9 @@ _DASHBOARD_HTML = """\
   .tab[aria-selected="true"] { background: var(--card); color: var(--ink); }
   .tab.complaints[aria-selected="true"] { box-shadow: inset 0 3px 0 var(--complaints); }
   .tab.watchlist[aria-selected="true"] { box-shadow: inset 0 3px 0 var(--watchlist); }
+  .tab.partywatch[aria-selected="true"] { box-shadow: inset 0 3px 0 var(--partywatch); }
+  .role { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: .74rem;
+          font-weight: 600; background: #efe4f5; color: #5a2c6e; }
   .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: end;
               padding: 12px 18px; background: var(--card); border-bottom: 1px solid var(--line);
               border-top: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
@@ -308,6 +311,9 @@ _DASHBOARD_HTML = """\
   <button class="tab watchlist" role="tab" data-tab="watchlist" aria-selected="false">
     Watchlist (<span id="cnt-watchlist">0</span>)
   </button>
+  <button class="tab partywatch" role="tab" data-tab="partywatch" aria-selected="false">
+    Party Watch (<span id="cnt-partywatch">0</span>)
+  </button>
 </div>
 
 <div id="panel">
@@ -320,6 +326,13 @@ _DASHBOARD_HTML = """\
     starts with "MC&nbsp;-" &middot; ends with "-MR" &middot;
     exact: self assessed taxes, credit card collection, auction motor vehicle,
     ejectment, quiet title
+  </div>
+  <div id="partywatch-note" style="display:none;margin:0 18px;padding:8px 12px;
+       background:#f4eef8;border:1px solid #d8c8e4;border-radius:5px;
+       font-size:.78rem;color:#4a3a5a;line-height:1.6;">
+    New civil cases where a <strong>watched entity</strong> appears as a party
+    (plaintiff <em>or</em> defendant), found via the FJD participant-name index over a
+    rolling window. Edit <code>name_watch.json</code> to add names.
   </div>
   <p class="count" id="count" aria-live="polite"></p>
   <div class="wrap">
@@ -369,12 +382,28 @@ _DASHBOARD_HTML = """\
           return '<span class="last-entry">'+(r.last_entry_date?r.last_entry_date+' — ':'')+r.last_entry_type+'</span>';
         }}
       ]
+    },
+    partywatch: {
+      data: [],   // flattened below; rendered grouped by watched label
+      label: 'match',
+      cols: [
+        {k:'matched_name',label:'Matched name',cell:function(r){ return '<strong>'+esc(r.matched_name)+'</strong>'; }},
+        {k:'case_id',     label:'Case ID',     cell:function(r){ return '<span class="cid">'+esc(r.case_id)+'</span>'; }},
+        {k:'caption',     label:'Caption',     cell:function(r){ return '<span class="caption">'+esc(r.caption)+'</span>'; }},
+        {k:'roles',       label:'Role',        cell:function(r){ return '<span class="role">'+esc(r.roles)+'</span>'; }},
+        {k:'filing_date', label:'Filed',       cell:function(r){ return esc(r.filing_date)||'—'; }}
+      ]
     }
   };
 
+  // Party Watch payload: [{label, rows:[...]}]. Flatten for search/count, keep
+  // groups for grouped rendering.
+  var PW_GROUPS = (P.partywatch && P.partywatch.labels) ? P.partywatch.labels : [];
+  PW_GROUPS.forEach(function(g){ (g.rows||[]).forEach(function(r){ r._label = g.label; TABS.partywatch.data.push(r); }); });
+
   var activeTab = 'complaints';
-  var sortState = {complaints:{k:'filing_date',d:-1}, watchlist:{k:'case_id',d:-1}};
-  var searchQ = {complaints:'', watchlist:''};
+  var sortState = {complaints:{k:'filing_date',d:-1}, watchlist:{k:'case_id',d:-1}, partywatch:{k:'filing_date',d:-1}};
+  var searchQ = {complaints:'', watchlist:'', partywatch:''};
 
   function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,function(m){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]; }); }
@@ -383,7 +412,8 @@ _DASHBOARD_HTML = """\
     var q = searchQ[tab].toLowerCase().trim();
     var rows = TABS[tab].data.slice();
     if (q) rows = rows.filter(function(r){
-      return (r.caption+' '+r.case_id+' '+(r.note||'')+' '+r.case_type).toLowerCase().indexOf(q) !== -1;
+      return (r.caption+' '+r.case_id+' '+(r.note||'')+' '+(r.case_type||'')+' '+
+              (r.matched_name||'')+' '+(r.roles||'')+' '+(r._label||'')).toLowerCase().indexOf(q) !== -1;
     });
     var ss = sortState[tab];
     rows.sort(function(a,b){
@@ -422,9 +452,15 @@ _DASHBOARD_HTML = """\
     tr.innerHTML = TABS[tab].cols.map(function(col){
       return '<td data-label="'+col.label+'">'+col.cell(r)+'</td>';
     }).join('');
-    tr.addEventListener('click', function(){
-      window.open('civil_dockets/'+r.case_id+'.html', '_blank');
-    });
+    // Party Watch rows come from the party-name index (no docket replica), so
+    // they are informational only; complaints/watchlist rows open their replica.
+    if (tab !== 'partywatch') {
+      tr.addEventListener('click', function(){
+        window.open('civil_dockets/'+r.case_id+'.html', '_blank');
+      });
+    } else {
+      tr.style.cursor = 'default';
+    }
     return tr;
   }
 
@@ -457,6 +493,25 @@ _DASHBOARD_HTML = """\
         'Showing <b>'+rows.length+'</b>'+(rows.length!==total?' of '+total:'')+
         ' new case'+(rows.length!==1?'s':'')+(rows.length!==total?'':'.') +
         (rows.length!==total ? ' matching.' : '');
+    } else if (tab === 'partywatch') {
+      // group by watched label, in config order
+      var ncols = TABS[tab].cols.length;
+      var byLabel = {};
+      rows.forEach(function(r){ (byLabel[r._label]=byLabel[r._label]||[]).push(r); });
+      PW_GROUPS.forEach(function(g){
+        var group = byLabel[g.label];
+        if (!group || !group.length) return;
+        var htr = document.createElement('tr');
+        htr.className = 'type-hdr';
+        htr.innerHTML = '<td colspan="'+ncols+'">'+esc(g.label)+
+          ' <span class="tc">('+group.length+')</span></td>';
+        tb.appendChild(htr);
+        group.forEach(function(r){ tb.appendChild(renderRow(r, tab)); });
+      });
+      var total = TABS[tab].data.length;
+      document.getElementById('count').innerHTML =
+        'Showing <b>'+rows.length+'</b>'+(rows.length!==total?' of '+total:'')+
+        ' match'+(rows.length!==1?'es':'')+(rows.length!==total?' matching.':'.');
     } else {
       rows.forEach(function(r){ tb.appendChild(renderRow(r, tab)); });
       var total = TABS[tab].data.length;
@@ -487,12 +542,15 @@ _DASHBOARD_HTML = """\
     });
     var note = document.getElementById('exclusion-note');
     if (note) note.style.display = tab === 'complaints' ? 'block' : 'none';
+    var pwnote = document.getElementById('partywatch-note');
+    if (pwnote) pwnote.style.display = tab === 'partywatch' ? 'block' : 'none';
     buildControls(tab); render();
   }
 
   // set tab counts in buttons
   document.getElementById('cnt-complaints').textContent = P.complaints.length;
   document.getElementById('cnt-watchlist').textContent  = P.watchlist.length;
+  document.getElementById('cnt-partywatch').textContent = TABS.partywatch.data.length;
 
   document.querySelectorAll('.tab').forEach(function(b){
     b.addEventListener('click', function(){ switchTab(b.getAttribute('data-tab')); });
@@ -529,6 +587,7 @@ def main():
     complaints = load_json(DATA / "complaints.json", [])
     state_watchlist = load_json(DATA / "state_watchlist.json", {})
     watchlist_order = load_json(HERE / "watchlist.json", [])
+    partywatch = load_json(DATA / "name_watch_view.json", {"labels": []})
 
     # Build watchlist rows in watchlist.json order
     watchlist_rows = []
@@ -549,10 +608,13 @@ def main():
     payload = {
         "complaints": complaint_rows,
         "watchlist": watchlist_rows,
+        "partywatch": partywatch,
         "meta": {
             "generated_at": generated,
             "complaint_count": len(complaint_rows),
             "watchlist_count": len(watchlist_rows),
+            "partywatch_count": sum(len(g.get("rows", []))
+                                    for g in partywatch.get("labels", [])),
         },
     }
 
