@@ -11,6 +11,13 @@
           "roles": "DEFENDANT"
         },
         {
+          "case_id": "260700419",
+          "caption": "PECO ENERGY COMPANY VS CITY OF PHILADELPHIA ETAL",
+          "filing_date": "2026-07-02",
+          "matched_name": "PECO ENERGY COMPANY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "260700230",
           "caption": "JOYNER VS STELLA-JONES CORPORATION ETAL",
           "filing_date": "2026-07-01",
@@ -81,6 +88,6 @@
       ]
     }
   ],
-  "generated_at": "2026-07-05 20:07 EDT",
+  "generated_at": "2026-07-06 10:28 EDT",
   "window_days": 14
 }
