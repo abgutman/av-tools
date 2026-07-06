@@ -4,6 +4,13 @@
       "label": "PECO",
       "rows": [
         {
+          "case_id": "260700563",
+          "caption": "PECO ENERGY COMPANY VS ACCENTURE INFRASTRUCTURE AN",
+          "filing_date": "2026-07-06",
+          "matched_name": "PECO ENERGY COMPANY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "2607W26001357",
           "caption": "CITY OF PHILADELPHIA VS. PECO",
           "filing_date": "2026-07-02",
@@ -88,6 +95,6 @@
       ]
     }
   ],
-  "generated_at": "2026-07-06 10:28 EDT",
+  "generated_at": "2026-07-06 17:11 EDT",
   "window_days": 14
 }
