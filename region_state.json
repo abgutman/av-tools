@@ -1,9 +1,5 @@
 {
   "evaluated": {
-    "delaware:CV-2026-005599": "2026-06-14T11:30:26.435541",
-    "delaware:CV-2026-005600": "2026-06-14T11:30:26.435541",
-    "delaware:CV-2026-005601": "2026-06-14T11:30:26.435541",
-    "delaware:CV-2026-005604": "2026-06-14T11:30:26.435541",
     "montgomery:2026-15011": "2026-06-15T15:15:07.714575",
     "montgomery:2026-15009": "2026-06-15T15:15:07.714575",
     "montgomery:2026-15006": "2026-06-15T15:15:07.714575",
@@ -3976,225 +3972,122 @@
     "philadelphia:260601455": "2026-07-05T11:03:46.938507",
     "philadelphia:260601454": "2026-07-05T11:03:46.938507",
     "philadelphia:260601453": "2026-07-05T11:03:46.938507",
-    "philadelphia:260601452": "2026-07-05T11:03:46.938507"
+    "philadelphia:260601452": "2026-07-05T11:03:46.938507",
+    "philadelphia:260601850": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601844": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601843": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601842": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601841": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601839": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601838": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601836": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601835": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601834": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601833": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601832": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601831": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601830": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601829": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601828": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601827": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601824": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601823": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601822": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601821": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601820": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601819": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601818": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601816": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601815": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601813": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601810": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601809": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601808": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601807": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601806": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601805": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601804": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601802": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601801": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601799": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601798": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601796": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601795": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601794": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601793": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601792": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601790": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601788": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601785": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601784": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601783": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601778": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601776": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601775": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601771": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601770": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601766": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601765": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601764": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601763": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601760": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601759": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601758": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601757": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601756": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601754": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601753": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601752": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601751": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601749": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601748": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601747": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601745": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601743": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601742": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601739": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601738": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601737": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601736": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601735": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601733": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601731": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601729": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601746": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601741": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601740": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601734": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601732": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601730": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601728": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601727": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601726": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601725": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601724": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601723": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601722": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601721": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601720": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601719": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601718": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601717": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601716": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601703": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601691": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601680": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601679": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601677": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601676": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601672": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601671": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601669": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601668": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601664": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601662": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601661": "2026-07-06T12:46:49.753366",
+    "philadelphia:260601845": "2026-07-06T12:46:49.753366"
   },
   "matches": {
-    "philadelphia:260602586": {
-      "court": "philadelphia",
-      "case_number": "260602586",
-      "caption": "ERIE INSURANCE EXCHANGE ETAL VS BLUE TRUCK ENTERPR",
-      "case_type": "INSURANCE, DECLARATORY JUDGMNT",
-      "filing_date": "2026-06-18",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "ERIE INSURANCE EXCHANGE",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "16530"
-        },
-        {
-          "name": "LARSON, JODIE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "GITLITZ, JASON",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "KILIAN, JOSHUA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "WALSH, BRENDAN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "BOGGS-WALSH, KRISTINA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "WALLACE JR., JAMES A",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "LOUGHSON, CAITLIN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "LOUGHSON, TAYLOR",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "ERIE INSURANCE COMPANY",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "16530"
-        },
-        {
-          "name": "BLUE TRUCK ENTERPRISES LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "RYAN, JACQUELINE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "KELLY JR., TIMOTHY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "LAUGHEAD, SCOTT",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "POWERS LAUGHEAD, LAURA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "JONES, CEREZA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        },
-        {
-          "name": "SOBHY, AMANDA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19125"
-        }
-      ],
-      "first_seen": "2026-06-19T12:45:40.886246"
-    },
-    "philadelphia:260602553": {
-      "court": "philadelphia",
-      "case_number": "260602553",
-      "caption": "HAMPSON VS SOTIRCHOS ETAL",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "filing_date": "2026-06-18",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "HAMPSON, BRIDGET",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19154"
-        },
-        {
-          "name": "SOTIRCHOS, JOE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19066"
-        },
-        {
-          "name": "SOTIRCHOS, STAMATIS",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19066"
-        }
-      ],
-      "first_seen": "2026-06-19T12:45:40.886246"
-    },
-    "philadelphia:260602548": {
-      "court": "philadelphia",
-      "case_number": "260602548",
-      "caption": "DAMORE VS MEZROW",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "filing_date": "2026-06-18",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "DAMORE, MICHAEL",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19148"
-        },
-        {
-          "name": "MEZROW, STEVEN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19041"
-        }
-      ],
-      "first_seen": "2026-06-19T12:45:40.886246"
-    },
-    "montgomery:2026-15273": {
-      "court": "montgomery",
-      "case_number": "2026-15273",
-      "caption": "STEINBERG FAMILY TRUST v. WILSON, STEVE",
-      "case_type": "Complaint Civil Action",
-      "filing_date": "2026-06-18",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201475818",
-      "parties": [
-        {
-          "name": "STEINBERG FAMILY TRUST",
-          "role": "Plaintiff",
-          "city": "Narberth",
-          "zip": "19072"
-        },
-        {
-          "name": "WILSON, STEVE",
-          "role": "Defendant",
-          "city": "College Grove",
-          "zip": "37046"
-        }
-      ],
-      "first_seen": "2026-06-19T12:45:40.886246"
-    },
-    "montgomery:2026-15271": {
-      "court": "montgomery",
-      "case_number": "2026-15271",
-      "caption": "MERION COURT INVESTORS LP v. MAYFIELD, SAAHIDAA",
-      "case_type": "Complaint Civil Action",
-      "filing_date": "2026-06-18",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201475821",
-      "parties": [
-        {
-          "name": "MERION COURT INVESTORS LP",
-          "role": "Plaintiff",
-          "city": "Bala Cynwyd",
-          "zip": "19004"
-        },
-        {
-          "name": "MAYFIELD, SAAHIDAA",
-          "role": "Defendant",
-          "city": "Bala Cynwyd",
-          "zip": "19004"
-        }
-      ],
-      "first_seen": "2026-06-19T12:45:40.886246"
-    },
     "montgomery:2026-15330": {
       "court": "montgomery",
       "case_number": "2026-15330",
@@ -4605,72 +4498,6 @@
           "role": "DEFENDANT",
           "city": "Xxxx Xxxxx",
           "zip": "00000"
-        }
-      ],
-      "first_seen": "2026-06-23T12:07:50.597081"
-    },
-    "philadelphia:260602651": {
-      "court": "philadelphia",
-      "case_number": "260602651",
-      "caption": "EWIDEH ETAL VS HOMESITE INSURANCE COMPANY OF THE M",
-      "case_type": "BAD FAITH",
-      "filing_date": "2026-06-18",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "EWIDEH, OMAR",
-          "role": "PRO SE FILER",
-          "city": "",
-          "zip": "17408"
-        },
-        {
-          "name": "EWIDEH, OMAR",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "17408"
-        },
-        {
-          "name": "GEAITH, NIVERTITI",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "17408"
-        },
-        {
-          "name": "HOMESITE INSURANCE COMPANY OF THE MIDWEST",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "02110"
-        },
-        {
-          "name": "FISHER, SUZANNE R",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19096"
-        },
-        {
-          "name": "AMERICAN FAMILY MUTUAL INSURANCE COMPANY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "53783"
-        },
-        {
-          "name": "WALSH, JAMES J",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19422"
-        },
-        {
-          "name": "JOSEPHINE, GEE M",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "53217"
-        },
-        {
-          "name": "CIPRIANI & WERNER, P.C",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19422"
         }
       ],
       "first_seen": "2026-06-23T12:07:50.597081"
@@ -6818,5 +6645,5 @@
       "first_seen": "2026-07-03T11:32:00.005416"
     }
   },
-  "last_run": "2026-07-05T11:03:49.932612"
+  "last_run": "2026-07-06T12:46:54.992595"
 }
