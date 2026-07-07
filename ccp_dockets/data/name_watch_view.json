@@ -4,6 +4,13 @@
       "label": "PECO",
       "rows": [
         {
+          "case_id": "260700716",
+          "caption": "PECO ENERGY COMPANY VS CHILDS",
+          "filing_date": "2026-07-07",
+          "matched_name": "PECO ENERGY COMPANY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "260700563",
           "caption": "PECO ENERGY COMPANY VS ACCENTURE INFRASTRUCTURE AN",
           "filing_date": "2026-07-06",
@@ -74,6 +81,6 @@
       ]
     }
   ],
-  "generated_at": "2026-07-07 14:21 EDT",
+  "generated_at": "2026-07-07 16:26 EDT",
   "window_days": 14
 }
