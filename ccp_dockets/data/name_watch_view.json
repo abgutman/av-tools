@@ -65,13 +65,6 @@
           "filing_date": "2026-06-23",
           "matched_name": "PECO",
           "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260602838",
-          "caption": "PECO ENERGY COMPANY VS SPRING VALLEY REAL ESTATE D",
-          "filing_date": "2026-06-22",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "PLAINTIFF"
         }
       ]
     },
@@ -84,17 +77,10 @@
           "filing_date": "2026-06-23",
           "matched_name": "SHERIFF OF PHILADELPHIA",
           "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260602787",
-          "caption": "JOHNSON VS WELLS FARGO BANK, N.A. ETAL",
-          "filing_date": "2026-06-22",
-          "matched_name": "SHERIFF OF PHILADELPHIA",
-          "roles": "DEFENDANT"
         }
       ]
     }
   ],
-  "generated_at": "2026-07-06 17:11 EDT",
+  "generated_at": "2026-07-06 23:41 EDT",
   "window_days": 14
 }
