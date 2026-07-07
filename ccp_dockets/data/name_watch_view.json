@@ -11,13 +11,6 @@
           "roles": "PLAINTIFF"
         },
         {
-          "case_id": "2607W26001357",
-          "caption": "CITY OF PHILADELPHIA VS. PECO",
-          "filing_date": "2026-07-02",
-          "matched_name": "PECO",
-          "roles": "DEFENDANT"
-        },
-        {
           "case_id": "260700419",
           "caption": "PECO ENERGY COMPANY VS CITY OF PHILADELPHIA ETAL",
           "filing_date": "2026-07-02",
@@ -81,6 +74,6 @@
       ]
     }
   ],
-  "generated_at": "2026-07-06 23:41 EDT",
+  "generated_at": "2026-07-07 14:21 EDT",
   "window_days": 14
 }
