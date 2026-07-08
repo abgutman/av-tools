@@ -477,6 +477,14 @@ def build_sources(complaints_path=None):
     ]
 
 
+def philly_last_updated(path=None):
+    """Return the mtime of complaints.json as a datetime, or None if absent."""
+    p = path or _find_complaints_json()
+    if not p or not os.path.exists(p):
+        return None
+    return datetime.fromtimestamp(os.path.getmtime(p))
+
+
 def new_session():
     s = requests.Session()
     s.headers.update({

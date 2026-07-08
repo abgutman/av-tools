@@ -5,6 +5,9 @@ Weekly Local Court Digest
 Reads region_state.json (the unified multi-court regional state), filters for
 cases from the past 7 days, and emails a styled HTML digest to Denali Sagner.
 
+Only regions with in_digest=True in regions.py are included. Abington is
+currently excluded (in_digest=False); that routing decision is deferred.
+
 Requires env vars: GMAIL_USER, GMAIL_APP_PASSWORD
 Optional: ALERT_TO (default dsagner@inquirer.com), ALERT_CC (default agutman@inquirer.com)
 """
@@ -16,6 +19,8 @@ import smtplib
 import sys
 from datetime import datetime, timedelta
 from email.message import EmailMessage
+
+import regions
 
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "region_state.json")
 LOOKBACK_DAYS = 7
@@ -33,30 +38,6 @@ COURT_LABELS = {
     "delaware":     "Delaware",
 }
 
-AREA_ZIPS = {
-    "lower_merion": {
-        "19003", "19004", "19010", "19035", "19041",
-        "19066", "19072", "19083", "19085", "19096",
-    },
-    "greater_media": {"19063", "19065", "19081", "19086", "19091"},
-}
-AREA_CITIES = {
-    "lower_merion": set(),
-    "greater_media": {"media", "swarthmore", "wallingford"},
-}
-AREA_ZIP_NAMES = {
-    "lower_merion": {
-        "19003": "Ardmore", "19004": "Bala Cynwyd", "19010": "Bryn Mawr",
-        "19035": "Gladwyne", "19041": "Haverford", "19066": "Merion Station",
-        "19072": "Narberth", "19083": "Havertown", "19085": "Villanova",
-        "19096": "Wynnewood",
-    },
-    "greater_media": {
-        "19063": "Media", "19065": "Media", "19081": "Swarthmore",
-        "19086": "Wallingford", "19091": "Media",
-    },
-}
-
 
 def e(text):
     return html.escape(str(text)) if text else ""
@@ -71,30 +52,27 @@ def load_region_state():
 
 
 def party_in_area(party, area_key):
-    zips = AREA_ZIPS[area_key]
-    cities = AREA_CITIES[area_key]
-    if party.get("zip") in zips:
-        return True
-    return bool(cities and party.get("city", "").strip().lower() in cities)
+    a = regions.AREAS[area_key]
+    return regions.party_in(party, a["zips"], a["cities"])
 
 
 def split_by_area(matches):
-    """Return (lm_cases, media_cases) each sorted by filing_date desc."""
-    lm, media = [], []
+    """Return dict {area_key: [cases]} for digest regions, each sorted filing_date desc."""
+    digest_keys = [k for k, a in regions.AREAS.items() if a["in_digest"]]
+    result = {k: [] for k in digest_keys}
     cutoff = (datetime.now() - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     for rec in matches.values():
         filed = (rec.get("filing_date") or rec.get("first_seen", ""))[:10]
         if filed < cutoff:
             continue
-        in_lm = any(party_in_area(p, "lower_merion") for p in rec.get("parties", []))
-        in_media = any(party_in_area(p, "greater_media") for p in rec.get("parties", []))
-        if in_lm:
-            lm.append(rec)
-        if in_media:
-            media.append(rec)
-    lm.sort(key=lambda c: c.get("filing_date", ""), reverse=True)
-    media.sort(key=lambda c: c.get("filing_date", ""), reverse=True)
-    return lm, media
+        for k in digest_keys:
+            a = regions.AREAS[k]
+            if any(regions.party_in(p, a["zips"], a["cities"])
+                   for p in rec.get("parties", [])):
+                result[k].append(rec)
+    for k in digest_keys:
+        result[k].sort(key=lambda c: c.get("filing_date", ""), reverse=True)
+    return result
 
 
 def local_parties_for(rec, area_key):
@@ -102,7 +80,7 @@ def local_parties_for(rec, area_key):
 
 
 def municipality(party, area_key):
-    return (AREA_ZIP_NAMES[area_key].get(party.get("zip", ""))
+    return (regions.AREAS[area_key]["zip_names"].get(party.get("zip", ""))
             or party.get("city") or party.get("zip") or "")
 
 
@@ -161,16 +139,37 @@ def case_text(rec, area_key):
     return "\n".join(lines)
 
 
-def build_email_html(lm_cases, media_cases):
+def build_email_html(area_cases):
+    """area_cases: dict {area_key: [cases]} for digest regions in insertion order."""
     now = datetime.now().strftime("%B %d, %Y")
     week_start = (datetime.now() - timedelta(days=7)).strftime("%B %d")
 
-    lm_cards = ("\n".join(case_html(c, "lower_merion", "#1b3a4b") for c in lm_cases)
-                if lm_cases else
-                '<div style="color:#999;font-style:italic;padding:12px;">No Lower Merion cases this week.</div>')
-    media_cards = ("\n".join(case_html(c, "greater_media", "#2c3e50") for c in media_cases)
-                   if media_cases else
-                   '<div style="color:#999;font-style:italic;padding:12px;">No Greater Media cases this week.</div>')
+    sections_html = ""
+    first = True
+    for area_key, cases in area_cases.items():
+        area = regions.AREAS[area_key]
+        name = area["name"]
+        accent = area["accent"]
+        margin_top = "0" if first else "24px"
+        first = False
+
+        if cases:
+            cards = "\n".join(case_html(c, area_key, accent) for c in cases)
+        else:
+            cards = f'<div style="color:#999;font-style:italic;padding:12px;">No {e(name)} cases this week.</div>'
+
+        sections_html += f'''
+        <h2 style="font-size:18px;color:{accent};border-bottom:2px solid {accent};padding-bottom:6px;margin:{margin_top} 0 14px;">{e(name)} <span style="color:#888;font-weight:normal;font-size:14px;">({len(cases)})</span></h2>
+        {cards}'''
+
+    buttons_html = ""
+    for area_key, cases in area_cases.items():
+        area = regions.AREAS[area_key]
+        url = f"https://abgutman.github.io/av-tools/{area['output_html']}"
+        buttons_html += (f'<a href="{url}" style="display:inline-block;padding:10px 20px;'
+                         f'background:{area["accent"]};color:white;border-radius:6px;'
+                         f'text-decoration:none;font-weight:600;font-size:13px;margin:4px;">'
+                         f'{e(area["name"])} Dashboard</a>\n            ')
 
     return f'''<!DOCTYPE html>
 <html>
@@ -184,16 +183,10 @@ def build_email_html(lm_cases, media_cases):
     </div>
 
     <div style="background:#f9f9f9;padding:24px;border-radius:0 0 8px 8px;">
-
-        <h2 style="font-size:18px;color:#1b3a4b;border-bottom:2px solid #1b3a4b;padding-bottom:6px;margin-bottom:14px;">Lower Merion <span style="color:#888;font-weight:normal;font-size:14px;">({len(lm_cases)})</span></h2>
-        {lm_cards}
-
-        <h2 style="font-size:18px;color:#2c3e50;border-bottom:2px solid #2c3e50;padding-bottom:6px;margin:24px 0 14px;">Greater Media <span style="color:#888;font-weight:normal;font-size:14px;">({len(media_cases)})</span></h2>
-        {media_cards}
+        {sections_html}
 
         <div style="text-align:center;margin-top:24px;">
-            <a href="https://abgutman.github.io/av-tools/montco_lm_dashboard.html" style="display:inline-block;padding:10px 20px;background:#1b3a4b;color:white;border-radius:6px;text-decoration:none;font-weight:600;font-size:13px;margin:4px;">Lower Merion Dashboard</a>
-            <a href="https://abgutman.github.io/av-tools/delco_media_dashboard.html" style="display:inline-block;padding:10px 20px;background:#2c3e50;color:white;border-radius:6px;text-decoration:none;font-weight:600;font-size:13px;margin:4px;">Greater Media Dashboard</a>
+            {buttons_html}
         </div>
 
     </div>
@@ -208,33 +201,29 @@ def build_email_html(lm_cases, media_cases):
 </html>'''
 
 
-def build_plaintext(lm_cases, media_cases):
+def build_plaintext(area_cases):
     now = datetime.now().strftime("%B %d, %Y")
     week_start = (datetime.now() - timedelta(days=7)).strftime("%B %d")
     lines = [f"LOCAL COURT DIGEST — Week of {week_start} - {now}", ""]
-    lines.append(f"LOWER MERION ({len(lm_cases)} cases)")
-    lines.append("-" * 50)
-    for c in lm_cases:
-        lines.append(case_text(c, "lower_merion"))
-        lines.append("")
-    if not lm_cases:
-        lines += ["  No Lower Merion cases this week.", ""]
-    lines.append(f"GREATER MEDIA ({len(media_cases)} cases)")
-    lines.append("-" * 50)
-    for c in media_cases:
-        lines.append(case_text(c, "greater_media"))
-        lines.append("")
-    if not media_cases:
-        lines += ["  No Greater Media cases this week.", ""]
+    for area_key, cases in area_cases.items():
+        name = regions.AREAS[area_key]["name"]
+        lines.append(f"{name.upper()} ({len(cases)} cases)")
+        lines.append("-" * 50)
+        for c in cases:
+            lines.append(case_text(c, area_key))
+            lines.append("")
+        if not cases:
+            lines += [f"  No {name} cases this week.", ""]
     return "\n".join(lines)
 
 
 def send_digest():
     state = load_region_state()
-    lm_cases, media_cases = split_by_area(state.get("matches", {}))
+    area_cases = split_by_area(state.get("matches", {}))
 
-    print(f"Lower Merion cases: {len(lm_cases)}")
-    print(f"Greater Media cases: {len(media_cases)}")
+    digest_keys = list(area_cases.keys())
+    for k in digest_keys:
+        print(f"{regions.AREAS[k]['name']} cases: {len(area_cases[k])}")
 
     user = os.environ["GMAIL_USER"]
     pwd = os.environ["GMAIL_APP_PASSWORD"]
@@ -242,13 +231,16 @@ def send_digest():
     cc = os.environ.get("ALERT_CC") or "agutman@inquirer.com"
 
     now_str = datetime.now().strftime("%b %d")
+    names = [regions.AREAS[k]["name"] for k in digest_keys]
+    subject = f"{', '.join(names)} court tracker — {now_str}"
+
     msg = EmailMessage()
-    msg["Subject"] = f"Lower Merion and Greater Media court tracker — {now_str}"
+    msg["Subject"] = subject
     msg["From"] = user
     msg["To"] = to
     msg["Cc"] = cc
-    msg.set_content(build_plaintext(lm_cases, media_cases))
-    msg.add_alternative(build_email_html(lm_cases, media_cases), subtype="html")
+    msg.set_content(build_plaintext(area_cases))
+    msg.add_alternative(build_email_html(area_cases), subtype="html")
 
     with smtplib.SMTP("smtp.gmail.com", 587) as s:
         s.starttls()

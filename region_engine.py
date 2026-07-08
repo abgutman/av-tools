@@ -4,7 +4,7 @@ region_engine.py — Cross-court, zip-filtered regional civil-lawsuit dashboards
 
 Each morning, pull newly-filed civil lawsuits from ALL FOUR area courts —
 Philadelphia (FJD), Montgomery (PSI), Bucks (PSI), Delaware (C-Track) — and keep
-any case where a LITIGANT'S zip code falls in an area's set. Two areas, each its
+any case where a LITIGANT'S zip code falls in an area's set. Each area gets its
 own dashboard; every lawsuit carries a badge naming its court of origin.
 
 This replaces the single-county fetch_montco_lm.py / fetch_delco_media.py
@@ -16,7 +16,7 @@ Pipeline
 1. For each court, list recently-commenced civil cases (cheap).
 2. For each case not already evaluated, fetch its litigants' addresses (the
    network cost), reduce to city+zip, and cache the verdict so we never re-fetch.
-   Cases matching EITHER area's zip set are stored in full; the rest are recorded
+   Cases matching ANY area's zip set are stored in full; the rest are recorded
    as "evaluated" only (so they're skipped next run).
 3. Each area dashboard is the slice of stored matches whose litigants fall in
    that area's zips, within a rolling 14-day window.
@@ -36,9 +36,11 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timedelta
 
 import court_fetchers as cf
+import regions
 
 try:
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -52,43 +54,6 @@ STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "region_st
 RETENTION_DAYS = 14        # how long a matched case stays on the dashboards
 NEW_DAYS = 3               # "New lawsuits" tab = filed within this many days
 EVAL_KEEP_DAYS = 21        # prune the evaluated/seen cache beyond this
-
-# ── Areas ────────────────────────────────────────────────────────────────────
-
-AREAS = {
-    "lower_merion": {
-        "name": "Lower Merion",
-        "output_html": "montco_lm_dashboard.html",
-        "zips": {
-            "19003", "19004", "19010", "19035", "19041",
-            "19066", "19072", "19083", "19085", "19096",
-        },
-        "zip_names": {
-            "19003": "Ardmore", "19004": "Bala Cynwyd", "19010": "Bryn Mawr",
-            "19035": "Gladwyne", "19041": "Haverford", "19066": "Merion Station",
-            "19072": "Narberth", "19083": "Havertown", "19085": "Villanova",
-            "19096": "Wynnewood",
-        },
-        "cities": set(),
-        "blurb": ("Ardmore, Bala Cynwyd, Bryn Mawr, Gladwyne, Haverford, Merion "
-                  "Station, Narberth, Havertown, Villanova and Wynnewood"),
-    },
-    "greater_media": {
-        "name": "Greater Media",
-        "output_html": "delco_media_dashboard.html",
-        "zips": {"19063", "19065", "19081", "19086", "19091"},
-        "zip_names": {
-            "19063": "Media", "19065": "Media", "19081": "Swarthmore",
-            "19086": "Wallingford", "19091": "Media",
-        },
-        "cities": {"media", "swarthmore", "wallingford"},
-        "blurb": ("Media (19063, 19065, 19091), Swarthmore (19081) and "
-                  "Wallingford (19086)"),
-    },
-}
-
-UNION_ZIPS = set().union(*(a["zips"] for a in AREAS.values()))
-UNION_CITIES = set().union(*(a["cities"] for a in AREAS.values()))
 
 # Colorblind-safe court badge palette (Okabe-Ito), white text.
 COURT_BADGE = {
@@ -104,8 +69,6 @@ SEARCH_URLS = {
     "philadelphia": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer",
     "montgomery":   "https://courtsapp.montcopa.org/psi/v/search/case",
 }
-
-FORECLOSURE_KEYWORDS = ("mortgage foreclosure", "foreclosure", "mortgage", "ejectment")
 
 
 # ── State ────────────────────────────────────────────────────────────────────
@@ -127,24 +90,13 @@ def save_state(state):
 
 # ── Matching ─────────────────────────────────────────────────────────────────
 
-def party_in(party, zips, cities):
-    if party.get("zip") in zips:
-        return True
-    return cities and party.get("city", "").strip().lower() in cities
-
-
 def case_matches(record, zips, cities):
-    return any(party_in(p, zips, cities) for p in record.get("parties", []))
+    return any(regions.party_in(p, zips, cities) for p in record.get("parties", []))
 
 
 def local_parties(record, area):
     return [p for p in record.get("parties", [])
-            if party_in(p, area["zips"], area["cities"])]
-
-
-def is_foreclosure(record):
-    ct = (record.get("case_type") or "").lower()
-    return any(kw in ct for kw in FORECLOSURE_KEYWORDS)
+            if regions.party_in(p, area["zips"], area["cities"])]
 
 
 def _date(record):
@@ -169,11 +121,20 @@ def run_fetch(state, fetch_days):
     now_iso = end.isoformat()
 
     for src in cf.build_sources():
-        try:
-            stubs = src.list_recent(session, start, end)
-        except Exception as e:
-            print(f"  [{src.court}] list_recent failed: {e} — skipping court.")
+        stubs = None
+        for attempt in range(2):
+            try:
+                stubs = src.list_recent(session, start, end)
+                break
+            except Exception as e:
+                if attempt == 0:
+                    print(f"  [{src.court}] list_recent failed: {e} — retrying in 30s")
+                    time.sleep(30)
+                else:
+                    print(f"  [{src.court}] list_recent failed again: {e} — skipping court.")
+        if stubs is None:
             continue
+
         new_count = matched_count = 0
         for stub in stubs:
             key = f"{src.court}:{stub['case_number']}"
@@ -189,7 +150,7 @@ def run_fetch(state, fetch_days):
             new_count += 1
             if cf.is_excluded_type(record.get("case_type", "")):
                 continue
-            if case_matches(record, UNION_ZIPS, UNION_CITIES):
+            if case_matches(record, regions.UNION_ZIPS, regions.UNION_CITIES):
                 record["first_seen"] = now_iso
                 matches[key] = record
                 matched_count += 1
@@ -275,20 +236,23 @@ def section(title, icon, cases, section_id, area):
     </div>'''
 
 
-def build_dashboard(area_key, area, cases):
+def build_dashboard(area_key, area, cases, stale_note=""):
     now = datetime.now()
     cases = sorted(cases, key=lambda c: c.get("filing_date", ""), reverse=True)
 
     new_cutoff = (now - timedelta(days=NEW_DAYS)).date()
     # Three mutually exclusive tabs — no case appears in more than one.
-    foreclosures = [c for c in cases if is_foreclosure(c)]
+    foreclosures = [c for c in cases if regions.is_foreclosure(c)]
     new_cases    = [c for c in cases
-                    if not is_foreclosure(c) and (_date(c) or now.date()) >= new_cutoff]
+                    if not regions.is_foreclosure(c) and (_date(c) or now.date()) >= new_cutoff]
     older_cases  = [c for c in cases
-                    if not is_foreclosure(c) and (_date(c) or now.date()) < new_cutoff]
+                    if not regions.is_foreclosure(c) and (_date(c) or now.date()) < new_cutoff]
 
-    other_key = "greater_media" if area_key == "lower_merion" else "lower_merion"
-    other = AREAS[other_key]
+    # Nav links — one per region; current gets .current class.
+    nav_links = ""
+    for k, a in regions.AREAS.items():
+        cls = ' class="current"' if k == area_key else ''
+        nav_links += f'    <a href="{esc(a["output_html"])}"{cls}>{esc(a["name"])}</a>\n'
 
     # Per-court tally for the blurb.
     tally = {}
@@ -300,6 +264,9 @@ def build_dashboard(area_key, area, cases):
     legend = "".join(
         f'<span class="court-badge" style="background:{color}">Filed in: {label} County</span>'
         for _k, (label, color) in COURT_BADGE.items())
+
+    stale_html = (f'<div style="color:#b35c00;margin-top:6px;">'
+                  f'&#9888; {esc(stale_note)}</div>') if stale_note else ""
 
     html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -356,9 +323,7 @@ a.docket-link:hover {{ background: #33506b; }}
 </div>
 
 <div class="nav">
-    <a href="{esc(area["output_html"])}" class="current">{esc(area["name"])}</a>
-    <a href="{esc(other["output_html"])}">{esc(other["name"])}</a>
-</div>
+{nav_links}</div>
 
 <div class="blurb">
     <strong>What this shows:</strong> Civil lawsuits filed in the past {RETENTION_DAYS} days in
@@ -386,6 +351,7 @@ a.docket-link:hover {{ background: #33506b; }}
     Source: public dockets of the Philadelphia (First Judicial District), Montgomery, Bucks and
     Delaware County Courts of Common Pleas.<br>
     Always confirm every case against the official court docket before relying on or publishing this information.
+    {stale_html}
 </div>
 
 <script>
@@ -411,7 +377,7 @@ def main():
                     help="Incremental 3-day fetch window (for the daily cron).")
     ap.add_argument("--lookback", type=int, default=RETENTION_DAYS,
                     help="Fetch window in days for a full run (default 14).")
-    ap.add_argument("--area", choices=list(AREAS.keys()),
+    ap.add_argument("--area", choices=list(regions.AREAS.keys()),
                     help="Build only this area's dashboard.")
     ap.add_argument("--dry-run", action="store_true",
                     help="Fetch and report; write no state or HTML.")
@@ -421,6 +387,17 @@ def main():
     print(f"Regional fetch: window={fetch_days}d  retention={RETENTION_DAYS}d  "
           f"dry_run={args.dry_run}")
 
+    # Check Philly data freshness once before fetching.
+    stale_note = ""
+    last_updated = cf.philly_last_updated()
+    if last_updated is not None:
+        age_hours = (datetime.now() - last_updated).total_seconds() / 3600
+        if age_hours > 24:
+            stale_note = (f"Philadelphia data last updated "
+                          f"{last_updated.strftime('%B %d at %I:%M %p')} — "
+                          f"other courts are current.")
+            print(f"WARNING: complaints.json is {age_hours:.1f}h old — {stale_note}")
+
     state = load_state()
     run_fetch(state, fetch_days)
 
@@ -429,7 +406,7 @@ def main():
         print(f"State saved: {len(state['matches'])} matches, "
               f"{len(state['evaluated'])} evaluated.")
 
-    for area_key, area in AREAS.items():
+    for area_key, area in regions.AREAS.items():
         if args.area and area_key != args.area:
             continue
         cases = [r for r in state["matches"].values()
@@ -439,7 +416,7 @@ def main():
         print(f"  {area['name']}: {len(cases)} cases in the {RETENTION_DAYS}-day window")
         if args.dry_run:
             continue
-        html = inject_auth(build_dashboard(area_key, area, cases))
+        html = inject_auth(build_dashboard(area_key, area, cases, stale_note=stale_note))
         with open(os.path.join(os.path.dirname(STATE_FILE), area["output_html"]), "w") as f:
             f.write(html)
         print(f"    wrote {area['output_html']}")

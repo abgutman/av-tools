@@ -46,7 +46,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add montco_lm_dashboard.html delco_media_dashboard.html region_state.json \
+          git add montco_lm_dashboard.html delco_media_dashboard.html montco_abington_dashboard.html \
+              region_state.json regions.py \
               court_fetchers.py region_engine.py send_local_digest.py 2>/dev/null || true
           git add -u
           git diff --cached --quiet && echo "No changes to commit" && exit 0
