@@ -58,29 +58,14 @@
           "filing_date": "2026-06-25",
           "matched_name": "PECO ENERGY COMPANY",
           "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260603233",
-          "caption": "HUDGINS ETAL VS PECO ETAL",
-          "filing_date": "2026-06-23",
-          "matched_name": "PECO",
-          "roles": "DEFENDANT"
         }
       ]
     },
     {
       "label": "Philadelphia Sheriff",
-      "rows": [
-        {
-          "case_id": "260602929",
-          "caption": "JACOBS VS THE SHERIFF OF PHILADELPHIA",
-          "filing_date": "2026-06-23",
-          "matched_name": "SHERIFF OF PHILADELPHIA",
-          "roles": "DEFENDANT"
-        }
-      ]
+      "rows": []
     }
   ],
-  "generated_at": "2026-07-07 16:26 EDT",
+  "generated_at": "2026-07-07 20:12 EDT",
   "window_days": 14
 }
