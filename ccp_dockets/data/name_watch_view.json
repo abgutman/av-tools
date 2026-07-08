@@ -4,6 +4,13 @@
       "label": "PECO",
       "rows": [
         {
+          "case_id": "260700811",
+          "caption": "COYLE VS CITY OF PHILADELPHIA ETAL",
+          "filing_date": "2026-07-08",
+          "matched_name": "PECO ENERGY COMPANY",
+          "roles": "DEFENDANT"
+        },
+        {
           "case_id": "260700716",
           "caption": "PECO ENERGY COMPANY VS CHILDS",
           "filing_date": "2026-07-07",
@@ -66,6 +73,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-07-07 20:12 EDT",
+  "generated_at": "2026-07-08 10:56 EDT",
   "window_days": 14
 }
