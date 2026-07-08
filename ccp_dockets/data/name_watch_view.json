@@ -4,6 +4,13 @@
       "label": "PECO",
       "rows": [
         {
+          "case_id": "260700840",
+          "caption": "PECO ENERGY COMPANY VS FRENCHMAN ASSOCIATES LLC",
+          "filing_date": "2026-07-08",
+          "matched_name": "PECO ENERGY COMPANY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "260700811",
           "caption": "COYLE VS CITY OF PHILADELPHIA ETAL",
           "filing_date": "2026-07-08",
@@ -73,6 +80,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-07-08 10:56 EDT",
+  "generated_at": "2026-07-08 14:09 EDT",
   "window_days": 14
 }
