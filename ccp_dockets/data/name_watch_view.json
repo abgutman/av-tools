@@ -4,6 +4,13 @@
       "label": "PECO",
       "rows": [
         {
+          "case_id": "260700874",
+          "caption": "PALAC VS VERIZON PENNSYLVANIA LLC ETAL",
+          "filing_date": "2026-07-08",
+          "matched_name": "PECO ENERGY COMPANY",
+          "roles": "DEFENDANT"
+        },
+        {
           "case_id": "260700840",
           "caption": "PECO ENERGY COMPANY VS FRENCHMAN ASSOCIATES LLC",
           "filing_date": "2026-07-08",
@@ -80,6 +87,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-07-08 14:09 EDT",
+  "generated_at": "2026-07-08 15:56 EDT",
   "window_days": 14
 }
