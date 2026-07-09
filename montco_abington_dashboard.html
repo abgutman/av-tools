@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
@@ -47,9 +48,43 @@ a.docket-link:hover { background: #33506b; }
 </head>
 <body>
 
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;right:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
+
 <div class="header">
     <h1>Abington Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 08, 2026 at 07:26 AM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 09, 2026 at 12:03 PM</div>
 </div>
 
 <div class="nav">
@@ -63,25 +98,133 @@ a.docket-link:hover { background: #33506b; }
     <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
     Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
     their attorney) has an address in Abington, Huntingdon Valley, Elkins Park, Glenside, Jenkintown and Willow Grove. Each case is tagged with the court where it
-    was filed. Tax and municipal liens are excluded. In this window: none yet.
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 2 · Montgomery 7 · Philadelphia 2.
 </div>
 
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (0)</div>
-    <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (0)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (10)</div>
+    <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (1)</div>
     <div class="tab" onclick="showTab('older', this)">Older Cases (0)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(0)</span></h2>
-        <div class="empty">No cases in this category.</div>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(10)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260700808</span>
+            <span class="case-type">CONTRACTS OTHER</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">SONO RED LION LLC VS ROOSEVELT BLVD HOT CHICKEN LL</div>
+        <div class="case-meta">Filed: 2026-07-08 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>PLAINTIFF:</strong> SONO RED LION LLC <span class="locale">Elkins Park (19027)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16754</span>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">FIRST NATIONAL BANK OF OMAHA v. SANTMIER, MICHAEL R</div>
+        <div class="case-meta">Filed: 2026-07-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> SANTMIER, MICHAEL R <span class="locale">Willow Grove (19090)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16724</span>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">ABSOLUTE RESOLUTIONS INVESTMENTS LLC v. PARKER, MICHAEL L</div>
+        <div class="case-meta">Filed: 2026-07-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> PARKER, MICHAEL L <span class="locale">Elkins Park (19027)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16708</span>
+            <span class="case-type">Judgment/Fines/Costs/Restitution &amp; 236 Notice</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">MONTGOMERY COUNTY v. CURRY, VON IAN</div>
+        <div class="case-meta">Filed: 2026-07-08 &middot; 1 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> CURRY, VON IAN <span class="locale">Glenside (19038)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16714</span>
+            <span class="case-type">Complaint In Confession of Judgment</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">CITIZENS &amp; NORTHERN BANK v. HUNTER, MARK A</div>
+        <div class="case-meta">Filed: 2026-07-08 &middot; 1 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> GMF INVESTMENTS INC <span class="locale">Abington (19001)</span></div><div class="local-party"><strong>Defendant:</strong> INFINITY HEALTHCARE SERVICES LLC <span class="locale">Abington (19001)</span></div><div class="local-party"><strong>Defendant:</strong> ROYAL PCH LLC <span class="locale">Abington (19001)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16692</span>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">CHEROKEE CONSTRUCTION II LLC v. BIESECKER, FREDERICK N</div>
+        <div class="case-meta">Filed: 2026-07-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> CHEROKEE CONSTRUCTION II LLC <span class="locale">Glenside (19038)</span></div><div class="local-party"><strong>Defendant:</strong> BIESECKER, JENNIFER L <span class="locale">Glenside (19038)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6386315" target="_blank" rel="noopener" class="case-number">2026-04583</a>
+            <span class="case-type">COMPLAINT</span>
+            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6386315" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">HS FINANCIAL GROUP LLC v. IVINS, JAVIN C</div>
+        <div class="case-meta">Filed: 2026-07-08</div>
+        <div class="local-party"><strong>Defendant:</strong> IVINS, DAVID <span class="locale">Huntingdon Valley (19006)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16686</span>
+            <span class="case-type">Complaint Civil Action</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">MARINO, MICHELINO v. FILHO, ALADIM</div>
+        <div class="case-meta">Filed: 2026-07-07 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Plaintiff:</strong> MARINO, MICHELINO <span class="locale">Huntingdon Valley (19006)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6386274" target="_blank" rel="noopener" class="case-number">2026-04559</a>
+            <span class="case-type">COMPLAINT</span>
+            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6386274" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">TRUSTLY INC v. LEUNG, DAVID</div>
+        <div class="case-meta">Filed: 2026-07-07</div>
+        <div class="local-party"><strong>Defendant:</strong> LEUNG, DAVID <span class="locale">Huntingdon Valley (19006)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260700608</span>
+            <span class="case-type">PERSONAL PROPERTY DAMAGE-OTHER</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">WRIGHT VS LINDY COMMUNITIES ETAL</div>
+        <div class="case-meta">Filed: 2026-07-06 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>DEFENDANT:</strong> LINDY COMMUNITIES <span class="locale">Jenkintown (19046)</span></div>
+    </div>
     </div>
     <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
-        <div class="empty">No cases in this category.</div>
+        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-16742</span>
+            <span class="case-type">Complaint In Mortgage Foreclosure</span>
+            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">ROCKET MORTGAGE LLC v. GITTELMACHER, ANDREW</div>
+        <div class="case-meta">Filed: 2026-07-08 &middot; 2 - OPEN</div>
+        <div class="local-party"><strong>Defendant:</strong> GITTELMACHER, ANDREW <span class="locale">Huntingdon Valley (19006)</span></div>
+    </div>
     </div>
     <div class="section" id="older">
         <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(0)</span></h2>
