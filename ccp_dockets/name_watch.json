@@ -1,8 +1,13 @@
 [
   {
-    "label": "PECO",
-    "queries": ["PECO"],
-    "pattern": "\\bpeco\\b"
+    "label": "DraftKings",
+    "queries": ["DRAFTKINGS", "DRAFT KINGS"],
+    "pattern": "\\bdraft\\s?kings?\\b"
+  },
+  {
+    "label": "FanDuel",
+    "queries": ["FANDUEL", "FAN DUEL"],
+    "pattern": "\\bfan\\s?duel\\b"
   },
   {
     "label": "Philadelphia Sheriff",
