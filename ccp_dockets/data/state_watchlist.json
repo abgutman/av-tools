@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "50|07-JUL-2026|MOTION ASSIGNED",
-    "entry_count": 50,
+    "sig": "51|08-JUL-2026|MOTION ASSIGNED",
+    "entry_count": 51,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -384,15 +384,21 @@
           "time": "11:31 AM",
           "type": "MOTION ASSIGNED",
           "party": ""
+        },
+        {
+          "date": "08-JUL-2026",
+          "time": "03:00 PM",
+          "type": "MOTION ASSIGNED",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "07-JUL-2026",
-        "time": "11:31 AM",
+        "date": "08-JUL-2026",
+        "time": "03:00 PM",
         "type": "MOTION ASSIGNED",
         "party": ""
       },
-      "entry_count": 50
+      "entry_count": 51
     }
   }
 }
