@@ -1,92 +1,18 @@
 {
   "labels": [
     {
-      "label": "PECO",
-      "rows": [
-        {
-          "case_id": "260700874",
-          "caption": "PALAC VS VERIZON PENNSYLVANIA LLC ETAL",
-          "filing_date": "2026-07-08",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260700840",
-          "caption": "PECO ENERGY COMPANY VS FRENCHMAN ASSOCIATES LLC",
-          "filing_date": "2026-07-08",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "PLAINTIFF"
-        },
-        {
-          "case_id": "260700811",
-          "caption": "COYLE VS CITY OF PHILADELPHIA ETAL",
-          "filing_date": "2026-07-08",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260700716",
-          "caption": "PECO ENERGY COMPANY VS CHILDS",
-          "filing_date": "2026-07-07",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "PLAINTIFF"
-        },
-        {
-          "case_id": "260700563",
-          "caption": "PECO ENERGY COMPANY VS ACCENTURE INFRASTRUCTURE AN",
-          "filing_date": "2026-07-06",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "PLAINTIFF"
-        },
-        {
-          "case_id": "260700419",
-          "caption": "PECO ENERGY COMPANY VS CITY OF PHILADELPHIA ETAL",
-          "filing_date": "2026-07-02",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "PLAINTIFF"
-        },
-        {
-          "case_id": "260700230",
-          "caption": "JOYNER VS STELLA-JONES CORPORATION ETAL",
-          "filing_date": "2026-07-01",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260603942",
-          "caption": "IYASSU VS MILESTONE EQUIPMENT HOLDINGS LLC ETAL",
-          "filing_date": "2026-06-30",
-          "matched_name": "PECO",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260603847",
-          "caption": "WATSON VS KIELY FAMILY OF COMPANIES, LLC ETAL",
-          "filing_date": "2026-06-29",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260603709",
-          "caption": "PECO ENERGY COMPANY VS L&M TURNER COURT LLC ETAL",
-          "filing_date": "2026-06-26",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "PLAINTIFF"
-        },
-        {
-          "case_id": "260603526",
-          "caption": "THE INSURANCE PLACEMENT FACILITY OF PENNSYLVANIA V",
-          "filing_date": "2026-06-25",
-          "matched_name": "PECO ENERGY COMPANY",
-          "roles": "DEFENDANT"
-        }
-      ]
+      "label": "DraftKings",
+      "rows": []
+    },
+    {
+      "label": "FanDuel",
+      "rows": []
     },
     {
       "label": "Philadelphia Sheriff",
       "rows": []
     }
   ],
-  "generated_at": "2026-07-08 15:56 EDT",
+  "generated_at": "2026-07-09 21:10 EDT",
   "window_days": 14
 }
