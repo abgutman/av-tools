@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-07-11T04:49:12 EDT",
+    "scraped_at": "2026-07-12T05:03:15 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-07-11",
-      "end": "2026-11-08"
+      "start": "2026-07-12",
+      "end": "2026-11-09"
     },
     "counts": {
       "CM": 365,
-      "MJ": 124,
-      "total": 489
+      "MJ": 125,
+      "total": 490
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -8330,6 +8330,23 @@
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
       "attorneys": "WILLIAM E. MILLER (Attorney For Plaintiff); HEATHER S. RILOFF (Attorney For Plaintiff)",
       "trial_days": ""
+    },
+    {
+      "program": "MJ",
+      "program_label": "Trial Dates Certain",
+      "case_id": "240802252",
+      "caption": "FREEDOM MORTGAGE CORP VS TRAN",
+      "raw_date": "09-NOV-2026",
+      "iso_date": "2026-11-09",
+      "time": "09:30 AM",
+      "room": "Complex Litigation Ctr Rm 622",
+      "location": "City Hall",
+      "event_type": "",
+      "judge": "",
+      "court_type": "Mortgage Foreclosure",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "EUGENE D. FRANK (Attorney For Plaintiff); CAROLYN TREGLIA (Attorney For Plaintiff); KARIN SCHWEIGER (Attorney For Plaintiff)",
+      "trial_days": "1"
     }
   ]
 }
