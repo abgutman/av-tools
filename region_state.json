@@ -1,11 +1,5 @@
 {
   "evaluated": {
-    "delaware:CV-2026-005788": "2026-06-21T11:45:42.375896",
-    "delaware:CV-2026-005797": "2026-06-21T11:45:42.375896",
-    "delaware:CV-2026-005794": "2026-06-21T11:45:42.375896",
-    "delaware:CV-2026-005778": "2026-06-21T11:45:42.375896",
-    "delaware:CV-2026-005779": "2026-06-21T11:45:42.375896",
-    "delaware:CV-2026-005792": "2026-06-21T11:45:42.375896",
     "montgomery:2026-15325": "2026-06-22T14:40:33.150804",
     "montgomery:2026-15330": "2026-06-22T14:40:33.150804",
     "montgomery:2026-15328": "2026-06-22T14:40:33.150804",
@@ -4835,81 +4829,13 @@
     "delaware:CV-2026-006217": "2026-07-12T10:27:30.928208",
     "delaware:CV-2026-006198": "2026-07-12T10:27:30.928208",
     "delaware:CV-2026-006235": "2026-07-12T10:27:30.928208",
-    "delaware:CV-2026-006270": "2026-07-12T10:27:30.928208"
+    "delaware:CV-2026-006270": "2026-07-12T10:27:30.928208",
+    "bucks:2026-04654": "2026-07-13T12:05:29.534864",
+    "delaware:CV-2026-006228": "2026-07-13T12:05:29.534864",
+    "delaware:CV-2026-006231": "2026-07-13T12:05:29.534864",
+    "delaware:CV-2026-006262": "2026-07-13T12:05:29.534864"
   },
   "matches": {
-    "philadelphia:260603491": {
-      "court": "philadelphia",
-      "case_number": "260603491",
-      "caption": "TATE VS WAWA, INC. ETAL",
-      "case_type": "PRODUCT LIABILITY",
-      "filing_date": "2026-06-25",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "TATE JR., RICHARD E",
-          "role": "PLAINTIFF",
-          "city": "State College",
-          "zip": "16803"
-        },
-        {
-          "name": "WAWA, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19063"
-        },
-        {
-          "name": "R.J. REYNOLDS TOBACCO COMPANY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "27101"
-        },
-        {
-          "name": "PHILIP MORRIS USA INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "23230"
-        },
-        {
-          "name": "LIGGETT GROUP, LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "27302"
-        }
-      ],
-      "first_seen": "2026-06-26T11:44:36.584834"
-    },
-    "montgomery:2026-15886": {
-      "court": "montgomery",
-      "case_number": "2026-15886",
-      "caption": "SIMINS, RICHARD v. ZONING HEARING BOARD OF LOWER MERION TOWNSHIP",
-      "case_type": "Appeal from Zoning Board Non Govt",
-      "filing_date": "2026-06-25",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201476655",
-      "parties": [
-        {
-          "name": "SIMINS, RICHARD",
-          "role": "Plaintiff",
-          "city": "Bala Cynwyd",
-          "zip": "19004"
-        },
-        {
-          "name": "SIMINS, ALMUT",
-          "role": "Plaintiff",
-          "city": "Bala Cynwyd",
-          "zip": "19004"
-        },
-        {
-          "name": "ZONING HEARING BOARD OF LOWER MERION TOWNSHIP",
-          "role": "Defendant",
-          "city": "Ardmore",
-          "zip": "19003"
-        }
-      ],
-      "first_seen": "2026-06-26T11:44:36.584834"
-    },
     "philadelphia:260603674": {
       "court": "philadelphia",
       "case_number": "260603674",
@@ -4948,102 +4874,6 @@
           "role": "PLAINTIFF",
           "city": "",
           "zip": "19151"
-        }
-      ],
-      "first_seen": "2026-06-27T10:57:24.187359"
-    },
-    "philadelphia:260603589": {
-      "court": "philadelphia",
-      "case_number": "260603589",
-      "caption": "KLINEYOUNG VS BRENTWOOD HOME SERVICES, LLC ETAL",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "filing_date": "2026-06-25",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "KLINEYOUNG, RUSSELL",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19146"
-        },
-        {
-          "name": "BRENTWOOD HOME SERVICES LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19004"
-        },
-        {
-          "name": "DOE, JOHN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19004"
-        }
-      ],
-      "first_seen": "2026-06-27T10:57:24.187359"
-    },
-    "philadelphia:260603573": {
-      "court": "philadelphia",
-      "case_number": "260603573",
-      "caption": "DERRY VS HARRAH'S PHILADELPHIA CASINO AND RACETRAC",
-      "case_type": "PREMISES LIABILITY, SLIP/FALL",
-      "filing_date": "2026-06-25",
-      "status": "ARBITRATION HEARING SCHEDULED",
-      "url": "",
-      "parties": [
-        {
-          "name": "DERRY, PATRICIA",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19063"
-        },
-        {
-          "name": "HARRAHS PHILADELPHIA CASINO AND RACETRACK",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19013"
-        },
-        {
-          "name": "CAESARS ENTERTAINMENT INC",
-          "role": "DEFENDANT",
-          "city": "12Th Floor Reno",
-          "zip": "89501"
-        },
-        {
-          "name": "VICI PROPERTIES",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "10022"
-        }
-      ],
-      "first_seen": "2026-06-27T10:57:24.187359"
-    },
-    "montgomery:2026-16023": {
-      "court": "montgomery",
-      "case_number": "2026-16023",
-      "caption": "ROCKET MORTGAGE LLC v. HICKS, HOWARD",
-      "case_type": "Complaint In Mortgage Foreclosure",
-      "filing_date": "2026-06-25",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201476864",
-      "parties": [
-        {
-          "name": "ROCKET MORTGAGE LLC",
-          "role": "Plaintiff",
-          "city": "Coppell",
-          "zip": "75019"
-        },
-        {
-          "name": "HICKS, HOWARD",
-          "role": "Defendant",
-          "city": "Ardmore",
-          "zip": "19003"
-        },
-        {
-          "name": "GREEN, UNK HEIRS OF MONICA",
-          "role": "Defendant",
-          "city": "Ardmore",
-          "zip": "19003"
         }
       ],
       "first_seen": "2026-06-27T10:57:24.187359"
@@ -8727,5 +8557,5 @@
       "first_seen": "2026-07-12T10:27:30.928208"
     }
   },
-  "last_run": "2026-07-12T10:28:38.372357"
+  "last_run": "2026-07-13T12:05:34.122522"
 }
