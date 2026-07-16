@@ -10,9 +10,17 @@
     },
     {
       "label": "Philadelphia Sheriff",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "260701740",
+          "caption": "WILSON VS UNITED STATES ETAL",
+          "filing_date": "2026-07-16",
+          "matched_name": "SHERIFF'S OFFICE OF THE CITY AND COUNTY OF PHILADELPHIA",
+          "roles": "DEFENDANT"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-07-09 21:10 EDT",
+  "generated_at": "2026-07-16 10:33 EDT",
   "window_days": 14
 }
