@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DAVIS ETAL VS 3M COMPANY ETAL — CCP Docket</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: #1a1a1a; background: #f5f5f3; }
+.back { display: inline-block; margin: 14px 20px 6px;
+        font-size: .82rem; color: #1a1a2e; text-decoration: none;
+        font-weight: 600; }
+.back:hover { text-decoration: underline; }
+header { background: #1a1a2e; color: white; padding: 20px 24px 22px; }
+header h1 { margin: 0 0 6px; font-size: 1.25rem; line-height: 1.3; }
+.meta-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.pill { background: rgba(255,255,255,0.12); padding: 4px 10px; border-radius: 4px;
+        font-size: .78rem; white-space: nowrap; }
+.pill span { opacity: .7; margin-right: 4px; }
+section { background: white; margin: 14px 16px; border-radius: 8px;
+          box-shadow: 0 1px 4px rgba(0,0,0,.07); overflow: hidden; }
+section h2 { margin: 0; padding: 12px 16px; background: #f0f0f0;
+             font-size: .85rem; text-transform: uppercase; letter-spacing: .04em;
+             color: #444; border-bottom: 1px solid #ddd; }
+table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+th { padding: 8px 12px; text-align: left; background: #fafafa; border-bottom: 1px solid #e8e8e8;
+     font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; color: #777;
+     white-space: nowrap; }
+td { padding: 9px 12px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #f8f8f8; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: .75rem;
+         background: #e8f0f8; color: #1a4a8a; font-weight: 600; }
+.mono { font-family: ui-monospace, Menlo, monospace; font-size: .82rem; }
+.addr { color: #555; font-size: .8rem; }
+.notice { margin: 14px 16px; padding: 10px 14px; background: #fff8e6;
+          border: 1px solid #e6c34d; border-radius: 6px;
+          font-size: .82rem; color: #5a4a10; }
+footer { margin: 14px 16px 30px; font-size: .78rem; color: #888; line-height: 1.6; }
+@media (max-width: 600px) {
+  table, thead, tbody, tr, th, td { display: block; }
+  thead { display: none; }
+  td { padding: 5px 12px; }
+  td::before { content: attr(data-label); display: block; font-size: .68rem;
+               text-transform: uppercase; color: #999; letter-spacing: .04em; }
+}
+</style>
+</head>
+<body>
+
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;right:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
+<a class="back" href="../ccp_dockets_dashboard.html" style="display:inline-block;margin:14px 20px 6px;font-size:.82rem;color:#1a1a2e;text-decoration:none;font-weight:600;">← Back to dashboard</a>
+
+<header>
+  <h1>DAVIS ETAL VS 3M COMPANY ETAL</h1>
+  <div class="meta-pills">
+    <div class="pill"><span>Case ID</span>260701782</div>
+    <div class="pill"><span>Filed</span>2026-07-16</div>
+    <div class="pill"><span>Type</span>MASS TORT - ASBESTOS</div>
+    <div class="pill"><span>Court</span>MASS TORT</div>
+    <div class="pill"><span>Jury</span>JURY</div>
+    <div class="pill"><span>Status</span>WAITING FOR LISTING MASS TORT</div>
+  </div>
+</header>
+
+
+
+<section>
+  <h2>Parties (58)</h2>
+  <table>
+    <thead><tr><th>Seq</th><th>Type</th><th>Name / Address</th></tr></thead>
+    <tbody><tr><td class="mono" data-label="Seq">1</td><td data-label="Type"><span class="badge">ATTORNEY FOR PLAINTIFF</span></td><td data-label="Name"><strong>YAMPOLSKY, JASON P</strong><br><span class="addr">1800 JOHN F KENNEDY BLVD. SUITE 1401 PHILADELPHIA PA 19103 (212)897-1988 PA-ASB@mwinjurylaw.com</span></td></tr><tr><td class="mono" data-label="Seq">2</td><td data-label="Type"><span class="badge">PLAINTIFF</span></td><td data-label="Name"><strong>DAVIS, ROBERT</strong><br><span class="addr">303 NORTH VAN BUREN AVE SCRANTON PA 18504</span></td></tr><tr><td class="mono" data-label="Seq">3</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>CUMMINS, INC.</strong><br><span class="addr">CORPORATION SERVICE COMPANY 80 STATE STREET ALBANY NY 12207-2543</span></td></tr><tr><td class="mono" data-label="Seq">4</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>DAP, INC., N/K/A LA MIRADA PRODUCTS, CO., INC.</strong><br><span class="addr">CORPORATION SERVICE COMPANY 80 STATE STREET ALBANY NY 12207</span></td></tr><tr><td class="mono" data-label="Seq">5</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>DCO LLC F/K/A DANA COMPANIES, LLC, INDIVIDUALLY AND</strong><br><span class="addr">C/O CT CORPORATION SYSTEM 4701 COX ROAD, SUITE 285 GLEN ALLEN VA 23060</span></td></tr><tr><td class="mono" data-label="Seq">6</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>EATON CORPORATION</strong><br><span class="addr">C/O CT CORPORATION SYSTEM 28 LIBERTY STREET NEW YORK NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">7</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>FEDERAL CARBIDE COMPANY</strong><br><span class="addr">1 S EAGLE VALLEY RD TYRONE PA 16686</span></td></tr><tr><td class="mono" data-label="Seq">8</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>FEDERAL MOGUL ASBESTOS PERSONAL INJURY TRUST</strong><br><span class="addr">C/O WILMINGTON TRUST SP SRV IN 1100 N. MARKET STREET SUITE 1300 WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">9</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>FIVES GIDDINGS &amp; LEWIS, LLC</strong><br><span class="addr">CT CORPORATION SYSTEM 301 S. BEDFORD ST., SUITE 1 MADISON WI 53703</span></td></tr><tr><td class="mono" data-label="Seq">10</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>FIVES MACHINING SYSTEMS, INC.</strong><br><span class="addr">THE CORPORATION TRUST COMPANY 1209 NORTH ORANGE STREET WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">11</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>FLOWSERVE US INC., SOLELY AS SUCCESSOR TO ROCKWELL MFG.; CO.</strong><br><span class="addr">CT CORPORATION 28 LIBERTY STREET NEW YORK NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">12</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>FMC CORPORATION, ON BEHALF OF ITS FORMER CONSTRUCTION</strong><br><span class="addr">CT CORPORATION SYSTEM 155 FEDERAL STREET, SUITE 700 BOSTON MA 02110</span></td></tr><tr><td class="mono" data-label="Seq">13</td><td data-label="Type"><span class="badge">PLAINTIFF</span></td><td data-label="Name"><strong>DAVIS, ELIZABETH</strong><br><span class="addr">303 NORTH VAN BUREN AVE SCRANTON PA 18504</span></td></tr><tr><td class="mono" data-label="Seq">14</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>FOSTER  WHEELER L.L.C.</strong><br><span class="addr">C/O UNITED AGENT GROUP INC. 3411 SILVERSIDE ROAD TATNALL BUILDING 104 WILMINGTON DE 19810</span></td></tr><tr><td class="mono" data-label="Seq">15</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>GENERAL CARBIDE CORPORATION</strong><br><span class="addr">1181 GARDEN STREET GREENSBURG PA 15601</span></td></tr><tr><td class="mono" data-label="Seq">16</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>GENERAL ELECTRIC COMPANY, OPERATING AS GE AEROSPACE</strong><br><span class="addr">C/O CT CORPORATION SYSTEM 600 NORTH SECOND STREET SUITE 401 HARRISBURG PA 17101</span></td></tr><tr><td class="mono" data-label="Seq">17</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>GENUINE PARTS COMPANY</strong><br><span class="addr">CT CORPORATION 28 LIBERTY STREET NEW YORK NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">18</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>GRINNELL LLC</strong><br><span class="addr">CT CORPORATION 28 LIBERTY STREET, 42ND FLOOR NEW YORK NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">19</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>IMO INDUSTRIES, LLC F/K/A IMO INDUSTRIES, INC.</strong><br><span class="addr">THE CORPORATION TRUST COMPANY 1209 NORTH ORANGE STREET WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">20</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>INDUSTRIAL HOLDINGS CORPORATION F/K/A THE CARBORUNDUM CO.</strong><br><span class="addr">PRENTICE-HALL CORPORATION 5235 N. FRONT STREET HARRISBURG PA 17110</span></td></tr><tr><td class="mono" data-label="Seq">21</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>INTERNATIONAL MOTORS LLC</strong><br><span class="addr">C/O THE CORPORATION TRUST CO. 820 BEAR TAVERN ROAD WEST TRENTON NJ 08628</span></td></tr><tr><td class="mono" data-label="Seq">22</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>ITT LLC, F/K/A ITT CORP., AND ITT INDUSTRIES, INC.,</strong><br><span class="addr">CT CORPORATION SYSTEM 28 LIBERTY STREET, 42ND FLOOR NEW YORK NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">23</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>JOHNSON CONTROLS, INC.</strong><br><span class="addr">CT CORPORATION SYSTEM 28 LIBERTY STREET, 42ND FLOOR NEW YORK NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">24</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>3M COMPANY</strong><br><span class="addr">CORPORATION SERVICE COMPANY 801 ADLAI STEVENSON DRIVE SPRINGFIELD IL 62703</span></td></tr><tr><td class="mono" data-label="Seq">25</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>KAISER GYPSUM COMPANY, INC.</strong><br><span class="addr">CORPORATION SERVICE CO. (NC) 2626 GLENWOOD AVENUE, STE 550 RALEIGH NC 27608</span></td></tr><tr><td class="mono" data-label="Seq">26</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>KARNAK CORPORATION</strong><br><span class="addr">330 CENTRAL AVENUE CLARK NJ 07066</span></td></tr><tr><td class="mono" data-label="Seq">27</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>KEELER/DORR-OLIVER BOILER COMPANY</strong><br><span class="addr">WAYNE A. MARVEL, ESQ MARON &amp; MARVEL 1201 N. MARKET ST., #900 WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">28</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>LEBLOND LTD</strong><br><span class="addr">3976 BACH BUXTON ROAD AMELIA OH 45102</span></td></tr><tr><td class="mono" data-label="Seq">29</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>LIPE-AUTOMATION CORPORATION</strong><br><span class="addr">C/O JOHN P. ROCCO; VON BRIESEN &amp; ROPER, S.C. 411 EAST WISCONSIN AVE, STE700 MILWAUKEE WI 53202</span></td></tr><tr><td class="mono" data-label="Seq">30</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>MACK TRUCKS, INC.</strong><br><span class="addr">C/O THE CORPORATION TRUST CO. 820 BEAR TAVERN ROAD WEST TRENTON NJ 08628</span></td></tr><tr><td class="mono" data-label="Seq">31</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>MERITOR, INC., F/K/A ARVINMERITOR INC.</strong><br><span class="addr">CORPORATION SERVICE COMPANY 135 NORTH PENNSYLVANIA STREET SUITE 1610 INDIANAPOLIS IN 46204</span></td></tr><tr><td class="mono" data-label="Seq">32</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>MORSE TEC LLC, F/K/A BORGWARNER MORSE TEC LLC,</strong><br><span class="addr">C/O THE CORPORATION TRUST CO. 1209 NORTH ORANGE STREET WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">33</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PARAMOUNT GLOBAL, F/K/A VIACOMCBS INC., F/K/A CBS CORP., A</strong><br><span class="addr">CORPORATION SERVICE COMPANY 80 STATE STREET ALBANY NY 12207-2543</span></td></tr><tr><td class="mono" data-label="Seq">34</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PECORA CORPORATION</strong><br><span class="addr">165 WAMBOLD ROAD HARLEYSVILLE PA 19438</span></td></tr><tr><td class="mono" data-label="Seq">35</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>AM GENERAL LLC</strong><br><span class="addr">THE CORPORATION TRUST COMPANY 1209 NORTH ORANGE STREET WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">36</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PECW HOLDING COMPANY, F/K/A PLASTICS ENGINEERING COMPANY</strong><br><span class="addr">REGISTERED AGENT SOLUTIONS INC 100 WILBURN RD, SUITE 100 SUN PRAIRIE WI 53590</span></td></tr><tr><td class="mono" data-label="Seq">37</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PFIZER INC.</strong><br><span class="addr">C/O CT CORPORATION SYSTEM 28 LIBERTY STREET, 42ND FLOOR NEW YORK NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">38</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PNEUMO ABEX LLC, SUCCESSOR IN INTEREST TO ABEX CORPORATION</strong><br><span class="addr">CORPORATION SERVICE COMPANY 251 LITTLE FALLS DRIVE WILMINGTON DE 19808</span></td></tr><tr><td class="mono" data-label="Seq">39</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>RED DEVIL, INC</strong><br><span class="addr">1437 S BOULDER, SUITE 759 TULSA OK 74119</span></td></tr><tr><td class="mono" data-label="Seq">40</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>REDCO CORPORATION, F/K/A CRANE CO.</strong><br><span class="addr">CORPORATION TRUST CENTER 1209 ORANGE STREET WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">41</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>RENTAVLA LLC</strong><br><span class="addr">CORPORATION TRUST COMPANY 1209 ORANGE STREET WILMINGTON DE 19801</span></td></tr><tr><td class="mono" data-label="Seq">42</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>RHEEM MANUFACTURING COMPANY, INC.</strong><br><span class="addr">CORPORATION SERVICE COMPANY 2 SUN COURT, SUITE 400 PEACHTREE CORNERS GA 30092</span></td></tr><tr><td class="mono" data-label="Seq">43</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>SAINT-GOBAIN ABRASIVES, INC., INDIVIDUALLY AND AS SUCCESSOR</strong><br><span class="addr">C/O CT CORPORATION SYSTEM 28 LIBERTY STREET, 42ND FLOOR NEW YORK  NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">44</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>SCHNEIDER ELECTRIC SYSTEMS USA, INC. AS SUCCESSOR TO</strong><br><span class="addr">CORPORATION SERVICE COMPANY 84 STATE STREET BOSTON MA 02109</span></td></tr><tr><td class="mono" data-label="Seq">45</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>STANDARD MOTOR PRODUCTS, INC.</strong><br><span class="addr">37-18 NORTHERN BOULEVARD LONG ISLAND CITY NY 11101</span></td></tr><tr><td class="mono" data-label="Seq">46</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>AMERICAN BILTRITE INC., INDIVIDUALLY AND AS SUCCESSOR TO</strong><br><span class="addr">THE PRENTICE-HALL CORPORATION SYSTEM, INC. 251 LITTLE FALLS DRIVE WILMINGTON DE 19808</span></td></tr><tr><td class="mono" data-label="Seq">47</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>TENNECO AUTOMOTIVE OPERATING COMPANY, INC.</strong><br><span class="addr">CORPORATION CREATIONS NETWORK, INC. 1320 TOWER ROAD SCHAUMBURG IL 60173</span></td></tr><tr><td class="mono" data-label="Seq">48</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>TEXTRON, INC., INDIVIDUALLY AND AS SUCCESSOR IN INTEREST TO</strong><br><span class="addr">CT CORPORATION SYSTEM 155 FEDERAL STREET SUITE 700 BOSTON MA 02110</span></td></tr><tr><td class="mono" data-label="Seq">49</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>THE SHERWIN-WILLIAMS COMPANY</strong><br><span class="addr">CORPORATION SERVICE COMPANY 80 STATE STREET ALBANY NY 12207</span></td></tr><tr><td class="mono" data-label="Seq">50</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>UNION CARBIDE CORPORATION</strong><br><span class="addr">CT CORPORATION 28 LIBERTY STREET, 42ND FLOOR NEW YORK  NY 10005</span></td></tr><tr><td class="mono" data-label="Seq">51</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>VAN SICKLE PAINT MANUFACTURING COMPANY</strong><br><span class="addr">1110 ALBANY PLACE SE ORANGE CITY IA 51041</span></td></tr><tr><td class="mono" data-label="Seq">52</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>VELVET V CORPORATION, F/K/A VELAN VALVE CORP.</strong><br><span class="addr">94 AVENUE C WILLISTON VT 05495</span></td></tr><tr><td class="mono" data-label="Seq">53</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>WALWORTH COMPANY (THE)</strong><br><span class="addr">8383 COMMERCE PARK DRIVE SUITE 608 HOUSTON TX 77036</span></td></tr><tr><td class="mono" data-label="Seq">54</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>ZF ACTIVE SAFETY US, INC. F/K/A KELSEY-HAYES COMPANY</strong><br><span class="addr">CORPORATION SERVICE COMPANY 251 LITTLE FALLS DRIVE WILMINGTON DE 19808</span></td></tr><tr><td class="mono" data-label="Seq">55</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>AP EMISSIONS TECHNOLOGIES, LLC</strong><br><span class="addr">CORPORATION SERVICE COMPANY 251 LITTLE FALLS DRIVE WILMINGTON DE 19808</span></td></tr><tr><td class="mono" data-label="Seq">56</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>BEAZER EAST, INC., INDIVIDUALLY AND F/K/A KOPPERS COMPANY IN</strong><br><span class="addr">CORPORATION SERVICE COMPANY 251 LITTLE FALLS DRIVE WILMINGTON DE 19808</span></td></tr><tr><td class="mono" data-label="Seq">57</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>CARLISLE INDUSTRIAL BRAKE &amp; FRICTION, INC.</strong><br><span class="addr">CORPORATION SERVICE COMPANY 251 LITTLE FALLS ROAD WILMINGTON DE 19808</span></td></tr><tr><td class="mono" data-label="Seq">58</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>CATERPILLAR, INC.</strong><br><span class="addr">C/O CORPORATION SERVICE CO. 80 STATE STREET ALBANY NY 12207</span></td></tr></tbody>
+  </table>
+</section>
+
+
+
+<section>
+  <h2>Docket Entries (6)</h2>
+  <table>
+    <thead><tr><th>Date</th><th>Time</th><th>Type</th><th>Party</th></tr></thead>
+    <tbody><tr><td class="mono" data-label="Date" style="white-space:nowrap;">16-JUL-2026</td><td data-label="Time" style="white-space:nowrap;">11:16 AM</td><td data-label="Type">ACTIVE CASE</td><td data-label="Party"></td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">16-JUL-2026</td><td data-label="Time" style="white-space:nowrap;">11:16 AM</td><td data-label="Type">COMMENCEMENT CIVIL ACTION JURY</td><td data-label="Party">YAMPOLSKY, JASON P</td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">16-JUL-2026</td><td data-label="Time" style="white-space:nowrap;">11:16 AM</td><td data-label="Type">COMPLAINT FILED NOTICE GIVEN</td><td data-label="Party">YAMPOLSKY, JASON P</td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">16-JUL-2026</td><td data-label="Time" style="white-space:nowrap;">11:16 AM</td><td data-label="Type">JURY TRIAL PERFECTED</td><td data-label="Party">YAMPOLSKY, JASON P</td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">16-JUL-2026</td><td data-label="Time" style="white-space:nowrap;">11:16 AM</td><td data-label="Type">WAITING FOR LISTING MASS TORT</td><td data-label="Party">YAMPOLSKY, JASON P</td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">16-JUL-2026</td><td data-label="Time" style="white-space:nowrap;">11:16 AM</td><td data-label="Type">CASE MANAGEMENT ORDER ISSUED</td><td data-label="Party">YAMPOLSKY, JASON P</td></tr></tbody>
+  </table>
+</section>
+
+<footer>
+  Source: First Judicial District of Pennsylvania (<a href="https://fjdefile.phila.gov/efsfjd/" style="color:#888;">fjdefile.phila.gov</a>).
+  This is an automated extract for journalistic reference. Documents shown in the docket entries
+  are available on the official FJD docket (paid download) — not here.
+  <strong>Always confirm this information against the official docket before relying on or publishing it.</strong>
+</footer>
+</body>
+</html>
