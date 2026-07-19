@@ -60,9 +60,9 @@ AREAS = {
                   "Jenkintown, Willow Grove and Wyncote"),
         "in_digest": True,
         "accent": "#6a4c93",
-        # Routed separately from the dsagner digest.
-        # TEST PHASE: agutman only. Add "jrohan@inquirer.com" once the live run is verified.
-        "recipients": {"to": ["agutman@inquirer.com"], "cc": []},
+        # Routed separately from the dsagner digest: agutman + jrohan (2026-07-18,
+        # after Av approved the test email). Does not go to the dsagner group.
+        "recipients": {"to": ["agutman@inquirer.com", "jrohan@inquirer.com"], "cc": []},
     },
 }
 
