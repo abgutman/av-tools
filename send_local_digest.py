@@ -3,10 +3,15 @@
 Weekly Local Court Digest
 
 Reads region_state.json (the unified multi-court regional state), filters for
-cases from the past 7 days, and emails a styled HTML digest to Denali Sagner.
+cases from the past 7 days, and emails a styled HTML digest.
 
-Only regions with in_digest=True in regions.py are included. Abington is
-currently excluded (in_digest=False); that routing decision is deferred.
+Only regions with in_digest=True in regions.py are included. Regions are grouped
+by recipient set: a region may carry its own "recipients" dict in regions.py
+({"to": [...], "cc": [...]}); regions without one fall back to the default
+(ALERT_TO / ALERT_CC). One email is sent per distinct recipient group.
+
+  - Lower Merion + Greater Media -> default (dsagner, cc agutman)
+  - Abington and Cheltenham       -> agutman + jrohan
 
 Requires env vars: GMAIL_USER, GMAIL_APP_PASSWORD
 Optional: ALERT_TO (default dsagner@inquirer.com), ALERT_CC (default agutman@inquirer.com)
@@ -217,37 +222,61 @@ def build_plaintext(area_cases):
     return "\n".join(lines)
 
 
+def recipients_for(area_key, default_to, default_cc):
+    """(to_tuple, cc_tuple) for a region — its own recipients or the default."""
+    r = regions.AREAS[area_key].get("recipients")
+    if r:
+        to = tuple(r.get("to") or [default_to])
+        cc = tuple(r.get("cc") or [])
+    else:
+        to = (default_to,)
+        cc = (default_cc,) if default_cc else ()
+    return to, cc
+
+
+def group_by_recipients(area_cases, default_to, default_cc):
+    """Return dict {(to_tuple, cc_tuple): {area_key: cases}} preserving order."""
+    groups = {}
+    for area_key, cases in area_cases.items():
+        key = recipients_for(area_key, default_to, default_cc)
+        groups.setdefault(key, {})[area_key] = cases
+    return groups
+
+
 def send_digest():
     state = load_region_state()
     area_cases = split_by_area(state.get("matches", {}))
 
-    digest_keys = list(area_cases.keys())
-    for k in digest_keys:
+    for k in area_cases:
         print(f"{regions.AREAS[k]['name']} cases: {len(area_cases[k])}")
 
     user = os.environ["GMAIL_USER"]
     pwd = os.environ["GMAIL_APP_PASSWORD"]
-    to = os.environ.get("ALERT_TO") or "dsagner@inquirer.com"
-    cc = os.environ.get("ALERT_CC") or "agutman@inquirer.com"
+    default_to = os.environ.get("ALERT_TO") or "dsagner@inquirer.com"
+    default_cc = os.environ.get("ALERT_CC") or "agutman@inquirer.com"
 
+    groups = group_by_recipients(area_cases, default_to, default_cc)
     now_str = datetime.now().strftime("%b %d")
-    names = [regions.AREAS[k]["name"] for k in digest_keys]
-    subject = f"{', '.join(names)} court tracker — {now_str}"
-
-    msg = EmailMessage()
-    msg["Subject"] = subject
-    msg["From"] = user
-    msg["To"] = to
-    msg["Cc"] = cc
-    msg.set_content(build_plaintext(area_cases))
-    msg.add_alternative(build_email_html(area_cases), subtype="html")
 
     with smtplib.SMTP("smtp.gmail.com", 587) as s:
         s.starttls()
         s.login(user, pwd)
-        s.send_message(msg)
+        for (to, cc), group_cases in groups.items():
+            names = [regions.AREAS[k]["name"] for k in group_cases]
+            subject = f"{', '.join(names)} court tracker — {now_str}"
 
-    print(f"Digest sent to {to} (cc: {cc})")
+            msg = EmailMessage()
+            msg["Subject"] = subject
+            msg["From"] = user
+            msg["To"] = ", ".join(to)
+            if cc:
+                msg["Cc"] = ", ".join(cc)
+            msg.set_content(build_plaintext(group_cases))
+            msg.add_alternative(build_email_html(group_cases), subtype="html")
+            s.send_message(msg)
+
+            cc_note = f" (cc: {', '.join(cc)})" if cc else ""
+            print(f"Digest sent to {', '.join(to)}{cc_note} — {', '.join(names)}")
 
 
 def main():

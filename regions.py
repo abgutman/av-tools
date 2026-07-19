@@ -46,19 +46,23 @@ AREAS = {
         "accent": "#2c3e50",
     },
     "abington": {
-        "name": "Abington",
+        "name": "Abington and Cheltenham",
         "output_html": "montco_abington_dashboard.html",
-        "zips": {"19001", "19006", "19027", "19038", "19046", "19090"},
+        "zips": {"19001", "19006", "19012", "19027", "19038", "19046", "19090", "19095"},
         "zip_names": {
             "19001": "Abington",          "19006": "Huntingdon Valley",
-            "19027": "Elkins Park",       "19038": "Glenside",
-            "19046": "Jenkintown",        "19090": "Willow Grove",
+            "19012": "Cheltenham",        "19027": "Elkins Park",
+            "19038": "Glenside",          "19046": "Jenkintown",
+            "19090": "Willow Grove",      "19095": "Wyncote",
         },
         "cities": set(),
-        "blurb": ("Abington, Huntingdon Valley, Elkins Park, Glenside, "
-                  "Jenkintown and Willow Grove"),
-        "in_digest": False,
+        "blurb": ("Abington, Cheltenham, Huntingdon Valley, Elkins Park, Glenside, "
+                  "Jenkintown, Willow Grove and Wyncote"),
+        "in_digest": True,
         "accent": "#6a4c93",
+        # Routed separately from the dsagner digest.
+        # TEST PHASE: agutman only. Add "jrohan@inquirer.com" once the live run is verified.
+        "recipients": {"to": ["agutman@inquirer.com"], "cc": []},
     },
 }
 
