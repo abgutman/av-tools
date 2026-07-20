@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 19, 2026 at 10:27 AM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 20, 2026 at 11:44 AM</div>
 </div>
 
 <div class="nav">
@@ -98,20 +98,20 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
     Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
     their attorney) has an address in Ardmore, Bala Cynwyd, Broomall, Bryn Mawr, Gladwyne, Haverford, Havertown, Merion Station, Narberth, Newtown Square, Villanova, Wayne and Wynnewood. Each case is tagged with the court where it
-    was filed. Tax and municipal liens are excluded. In this window: Bucks 3 · Delaware 14 · Montgomery 31 · Philadelphia 41.
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 3 · Delaware 15 · Montgomery 31 · Philadelphia 41.
 </div>
 
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (16)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (8)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (1)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (72)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (81)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(16)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(8)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260701983</span>
@@ -183,6 +183,32 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="local-party"><strong>Plaintiff:</strong> David Pepino <span class="locale">Havertown (19083)</span></div>
     </div>
 <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f93414be5af98bfb8b8402c2f3aff5d9bee9d88c8e8270b446fc7b6204505892" target="_blank" rel="noopener" class="case-number">CV-2026-006498</a>
+            <span class="case-type">Civil - Tort - Motor Vehicle</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f93414be5af98bfb8b8402c2f3aff5d9bee9d88c8e8270b446fc7b6204505892" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">Aouimeur et al v. Morrow et al</div>
+        <div class="case-meta">Filed: 2026-07-17</div>
+        <div class="local-party"><strong>Defendant:</strong> Kevin Morrow <span class="locale">Broomall (19008)</span></div><div class="local-party"><strong>Defendant:</strong> John Doe I <span class="locale">Broomall (19008)</span></div><div class="local-party"><strong>Defendant:</strong> John Doe II <span class="locale">Broomall (19008)</span></div>
+    </div>
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/8087b71c0d631a5b4759b66d346828871f14d80ef36f30e0a33b8f06be9b58e4" target="_blank" rel="noopener" class="case-number">CV-2026-006150</a>
+            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Commercial</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/8087b71c0d631a5b4759b66d346828871f14d80ef36f30e0a33b8f06be9b58e4" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">RJ2 TCC JH FUNDING, LLC v. TRAINER CUSTOM CHEMICAL, LLC</div>
+        <div class="case-meta">Filed: 2026-07-08</div>
+        <div class="local-party"><strong>Plaintiff:</strong> RJ2 TCC JH FUNDING, LLC <span class="locale">Narberth (19072)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(81)</span></h2>
+        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260701777</span>
             <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
@@ -272,23 +298,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-07-16</div>
         <div class="local-party"><strong>Plaintiff:</strong> Valley Forge Military Academy Foundation d/b/a Valley Forge Military Academy <span class="locale">Wayne (19087)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
-        <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/8087b71c0d631a5b4759b66d346828871f14d80ef36f30e0a33b8f06be9b58e4" target="_blank" rel="noopener" class="case-number">CV-2026-006150</a>
-            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Commercial</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/8087b71c0d631a5b4759b66d346828871f14d80ef36f30e0a33b8f06be9b58e4" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">RJ2 TCC JH FUNDING, LLC v. TRAINER CUSTOM CHEMICAL, LLC</div>
-        <div class="case-meta">Filed: 2026-07-08</div>
-        <div class="local-party"><strong>Plaintiff:</strong> RJ2 TCC JH FUNDING, LLC <span class="locale">Narberth (19072)</span></div>
-    </div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(72)</span></h2>
-        <div class="case-card">
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260701572</span>
             <span class="case-type">MALPRACTICE - MEDICAL</span>

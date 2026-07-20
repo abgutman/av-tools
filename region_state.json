@@ -1,7 +1,5 @@
 {
   "evaluated": {
-    "delaware:CV-2026-005938": "2026-06-28T11:06:55.064748",
-    "delaware:CV-2026-005955": "2026-06-28T11:06:55.064748",
     "montgomery:2026-16091": "2026-06-29T13:06:46.363828",
     "montgomery:2026-16093": "2026-06-29T13:06:46.363828",
     "montgomery:2026-16092": "2026-06-29T13:06:46.363828",
@@ -4723,75 +4721,160 @@
     "delaware:CV-2026-006420": "2026-07-19T10:27:25.756099",
     "delaware:CV-2026-006429": "2026-07-19T10:27:25.756099",
     "delaware:CV-2026-006432": "2026-07-19T10:27:25.756099",
-    "delaware:CV-2026-006443": "2026-07-19T10:27:25.756099"
+    "delaware:CV-2026-006443": "2026-07-19T10:27:25.756099",
+    "philadelphia:260603721": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603720": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603719": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603718": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603717": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603716": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603713": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603712": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603711": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603709": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603708": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603707": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603705": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603704": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603702": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603701": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603700": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603699": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603698": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603691": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603690": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603689": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603688": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603687": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603686": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603683": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603682": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603681": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603676": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603675": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603674": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603673": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603672": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603669": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603668": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603667": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603666": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603665": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603663": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603662": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603661": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603660": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603659": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603658": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603657": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603656": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603655": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603653": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603652": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603651": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603650": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603649": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603645": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603644": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603641": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603640": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603639": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603635": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603634": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603633": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603630": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603629": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603628": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603627": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603625": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603624": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603623": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603622": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603621": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603619": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603618": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603615": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603613": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603607": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603606": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603604": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603602": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603599": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603569": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603646": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603643": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603642": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603638": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603620": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603617": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603616": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603614": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603612": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603611": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603610": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603605": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603603": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603600": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603598": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603596": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603595": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603592": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603590": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603589": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603588": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603587": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603586": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603585": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603584": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603583": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603582": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603579": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603577": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603576": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603574": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603573": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603572": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603571": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603570": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603568": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603567": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603566": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603565": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603564": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603562": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603561": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603560": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603559": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603558": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603557": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603555": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603553": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603550": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603549": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603545": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603544": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603542": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603541": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603540": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603538": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603537": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603534": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603531": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603530": "2026-07-20T11:44:28.014443",
+    "philadelphia:260603529": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006478": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006486": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006493": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006506": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006494": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006495": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006498": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006482": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006500": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006505": "2026-07-20T11:44:28.014443",
+    "delaware:CV-2026-006507": "2026-07-20T11:44:28.014443"
   },
   "matches": {
-    "philadelphia:260700357": {
-      "court": "philadelphia",
-      "case_number": "260700357",
-      "caption": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA VS CATA",
-      "case_type": "CONTRACTS OTHER",
-      "filing_date": "2026-07-02",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19004"
-        },
-        {
-          "name": "CATALDI, THOMAS A",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "16125"
-        },
-        {
-          "name": "CATALDI, SHEYNA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "16125"
-        }
-      ],
-      "first_seen": "2026-07-03T11:32:00.005416"
-    },
-    "montgomery:2026-16419": {
-      "court": "montgomery",
-      "case_number": "2026-16419",
-      "caption": "MAZER, KAREN v. GARDINER, ANTOINE",
-      "case_type": "Complaint Civil Action",
-      "filing_date": "2026-07-02",
-      "status": "2 - OPEN",
-      "url": "https://courtsapp.montcopa.org/psi/v/detail/Case/201477615",
-      "parties": [
-        {
-          "name": "MAZER, KAREN",
-          "role": "Plaintiff",
-          "city": "Philadelphia",
-          "zip": "19150"
-        },
-        {
-          "name": "KRAMER, SHARON",
-          "role": "Plaintiff",
-          "city": "Philadelphia",
-          "zip": "19150"
-        },
-        {
-          "name": "MAZER, EDYTHE",
-          "role": "Plaintiff",
-          "city": "Philadelphia",
-          "zip": "19150"
-        },
-        {
-          "name": "GARDINER, ANTOINE",
-          "role": "Defendant",
-          "city": "Villanova",
-          "zip": "19085"
-        }
-      ],
-      "first_seen": "2026-07-03T11:32:00.005416"
-    },
     "philadelphia:260700578": {
       "court": "philadelphia",
       "case_number": "260700578",
@@ -4944,48 +5027,6 @@
           "role": "DEFENDANT",
           "city": "Unknown Unknown",
           "zip": "19103"
-        }
-      ],
-      "first_seen": "2026-07-07T11:49:49.216453"
-    },
-    "philadelphia:260700452": {
-      "court": "philadelphia",
-      "case_number": "260700452",
-      "caption": "NARED VS BRADY ETAL",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "filing_date": "2026-07-02",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "NARED, MLE",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19004"
-        },
-        {
-          "name": "BRADY, BRANTE",
-          "role": "DEFENDANT",
-          "city": "D303 Philadelphia",
-          "zip": "19126"
-        },
-        {
-          "name": "TRAN, TIMOTHY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "08088"
-        },
-        {
-          "name": "BRADY, HOMA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "08012"
-        },
-        {
-          "name": "DOE, JOHN",
-          "role": "DEFENDANT",
-          "city": "Unknown Unknown",
-          "zip": "00000"
         }
       ],
       "first_seen": "2026-07-07T11:49:49.216453"
@@ -11541,7 +11582,73 @@
         }
       ],
       "first_seen": "2026-07-19T10:27:25.756099"
+    },
+    "delaware:CV-2026-006498": {
+      "court": "delaware",
+      "case_number": "CV-2026-006498",
+      "caption": "Aouimeur et al v. Morrow et al",
+      "case_type": "Civil - Tort - Motor Vehicle",
+      "filing_date": "2026-07-17",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/f93414be5af98bfb8b8402c2f3aff5d9bee9d88c8e8270b446fc7b6204505892",
+      "parties": [
+        {
+          "name": "Kevin Morrow",
+          "role": "Defendant",
+          "city": "Broomall",
+          "zip": "19008"
+        },
+        {
+          "name": "Khaled Tatem",
+          "role": "Plaintiff",
+          "city": "Glenolden",
+          "zip": "19036"
+        },
+        {
+          "name": "Sihem Aouimeur",
+          "role": "Plaintiff",
+          "city": "Glenolden",
+          "zip": "19036"
+        },
+        {
+          "name": "John Doe I",
+          "role": "Defendant",
+          "city": "Broomall",
+          "zip": "19008"
+        },
+        {
+          "name": "John Doe II",
+          "role": "Defendant",
+          "city": "Broomall",
+          "zip": "19008"
+        }
+      ],
+      "first_seen": "2026-07-20T11:44:28.014443"
+    },
+    "delaware:CV-2026-006507": {
+      "court": "delaware",
+      "case_number": "CV-2026-006507",
+      "caption": "Powell v. Alvarado",
+      "case_type": "Civil - Tort - Motor Vehicle",
+      "filing_date": "2026-07-17",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/169b7405592b8ba9c0ebb13d6d5303076e74ff00d787dfccd9f775721af70139",
+      "parties": [
+        {
+          "name": "Chlouie Alvarado",
+          "role": "Defendant",
+          "city": "Wallingford",
+          "zip": "19086"
+        },
+        {
+          "name": "Sharlette Powell",
+          "role": "Plaintiff",
+          "city": "Wilmington",
+          "zip": "19809"
+        }
+      ],
+      "first_seen": "2026-07-20T11:44:28.014443"
     }
   },
-  "last_run": "2026-07-19T10:27:31.028895"
+  "last_run": "2026-07-20T11:44:32.062051"
 }
