@@ -19,6 +19,53 @@ Workflow `ccp-namewatch.yml`: every 15 min daytime, hourly overnight. Commits on
 (NOT the replica tree), and uses `git diff -I generated_at` so idle runs don't commit
 pure-timestamp churn. Reuses the `GMAIL_USER`/`GMAIL_APP_PASSWORD` secrets. Email to Av only.
 
+## Trial dispositions (daily email)
+
+`scrape_trial_dispositions.py` — adds a **Trial Dispositions** section to the daily
+`scrape_new_complaints.py` email: how trial-listed cases concluded (verdict/finding,
+settlement, discontinuance, judgment, non pros, default). No case-id guessing — the source
+is the **Trial Dates Certain (MJ)** calendar, whose every row carries a real `case_id`.
+
+- **Tracked pool** (`data/state_trial_dispositions.json`): when a case first appears on the
+  MJ calendar it's recorded (as its non-terminal `LISTED FOR TRIAL` status); we poll its
+  docket daily once the trial date arrives, until the case-level **Status** field turns
+  terminal — reported once, then retired. Cases that never resolve age out after
+  `AGING_DAYS` (45). A case that is ALREADY terminal the first time we poll it is baselined
+  **silently** (can't attribute it to "today") — same rule as the watchlist "no alert on
+  first add".
+- **Signal = case Status field, not entry types.** A concluded docket's Status reads e.g.
+  `SETTLED PRIOR TO ASSGN TRL JUD` / `FINDING FOR PLAINTIFF` / `JUDGMENT ENTERED`, while its
+  newest *entry* is usually a procedural `NOTICE GIVEN UNDER RULE 236`. `STATUS_MAP` +
+  `NONTERMINAL_EXACT` were built from a **live sweep of all ~134 then-current trial-listed
+  dockets (July 2026)**. Unknown statuses hit a conservative keyword fallback; anything
+  truly unrecognized is kept + logged, and surfaced as "Unclassified — verify" if it ages
+  out, so nothing is dropped silently. Extend `STATUS_MAP` from run logs when new strings
+  appear.
+- **Reused, not duplicated:** `run_scan(session, live)` takes the SAME `FjdSession` the
+  complaints scan already minted (no second token). Called from `scrape_new_complaints.py`.
+  The daily email now sends when there are new complaints **OR** new dispositions.
+- **Order wording — EMAIL ONLY:** `extract_order_text()` pulls the disposition's order
+  language from the docket's single-cell entry rows (e.g. "IT IS HEREBY ORDERED THAT
+  JUDGMENT OF POSSESSION …", or "AWARDS PLTFS DAMAGES IN THE TOTAL AMOUNT OF $75,803.76") —
+  the wording on the docket, NOT the sealed/purchasable PDF. Scheduling/case-management
+  orders ("ASSIGNED TO THE … POOL") are filtered out; the newest category-matching order
+  wins. It is shown **only in the (private, Av-only) email**. `append_to_log()`
+  DELIBERATELY STRIPS `order_text` before writing `data/dispositions_log.json`, because the
+  order text can carry addresses / lockout terms / party detail we keep out of the
+  committed, dashboard-facing record. **If you ever build the Dispositions dashboard tab,
+  read it from `dispositions_log.json` — which has no order text by design.**
+- **Layout:** the email section is grouped by **case type** (EJECTMENT, MED MAL, CONTRACTS,
+  …), not by outcome; each row shows the category label + raw status, with the order text
+  as an italic sub-row beneath.
+- **Integrity:** every row shows the raw FJD status + our category label + (email only) the
+  order text; a trial *listing* is never presented as a trial that was held.
+  `disposition_date` and the order excerpt are best-effort — verify against the docket
+  before publishing.
+
+State file `data/state_trial_dispositions.json` (the pool) and `data/dispositions_log.json`
+(the rolling record — metadata only, order text excluded) are both committed by
+`ccp-dockets.yml` (added to the `git add` list) so Actions persists them across runs.
+
 ## Engine
 
 `fjd_docket.py` — DO NOT modify without re-verifying live. Critical quirks:

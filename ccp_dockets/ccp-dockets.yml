@@ -3,7 +3,9 @@ name: CCP dockets daily
 on:
   workflow_dispatch:        # manual trigger for testing
   schedule:
-    - cron: '0 10 * * *'   # 06:00 America/New_York during EDT (UTC-4); 05:00 under EST
+    - cron: '0 0 * * *'    # 20:00 America/New_York during EDT (UTC-4); 19:00 under EST.
+                           # Runs in the evening so the day's docket numbers are issued
+                           # before the scan — a 6am scan hit the frontier wall and returned 0.
 
 permissions:
   contents: write
@@ -52,6 +54,8 @@ jobs:
           git add ccp_dockets_dashboard.html \
                   ccp_dockets/data/state_complaints.json \
                   ccp_dockets/data/state_watchlist.json \
+                  ccp_dockets/data/state_trial_dispositions.json \
+                  ccp_dockets/data/dispositions_log.json \
                   ccp_dockets/data/complaints.json \
                   ccp_dockets/data/watchlist_view.json
           git add -A -- civil_dockets/

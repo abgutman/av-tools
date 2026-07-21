@@ -22,6 +22,9 @@ sys.path.insert(0, str(HERE.parent))
 
 from fjd_docket import FjdSession, parse_docket, current_yymm, make_case_id, OK, MISSING
 from email_utils import send_email
+from scrape_trial_dispositions import (
+    run_scan as run_disposition_scan, build_dispositions_section,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("complaints")
@@ -95,9 +98,12 @@ def _entry_str(entry):
     return f"{entry.get('date', '')} — {entry.get('type', '')}"
 
 
-def build_email(cases, run_date):
+def build_email(cases, run_date, dispos=None):
     import html as _h
     from collections import defaultdict
+
+    dispos = dispos or []
+    dispositions_html = build_dispositions_section(dispos)
 
     # Group by case_type, order types by count (desc) then alpha
     grouped = defaultdict(list)
@@ -134,19 +140,10 @@ def build_email(cases, run_date):
           </td>
         </tr>{rows_html}"""
 
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head><meta charset="utf-8"></head>
-<body style="margin:0;padding:24px 16px;background:#eef0f3;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;">
-<div style="max-width:860px;margin:0 auto;">
-
-  <div style="background:#1a1a2e;padding:24px 28px;border-radius:10px 10px 0 0;">
-    <p style="margin:0 0 6px;color:rgba(255,255,255,0.6);font-size:11px;text-transform:uppercase;letter-spacing:1.5px;">CCP Dockets Monitor</p>
-    <h1 style="margin:0 0 4px;color:white;font-size:22px;font-weight:700;">New Civil Cases</h1>
-    <p style="margin:0;color:rgba(255,255,255,0.85);font-size:16px;">{len(cases)} case{"s" if len(cases) != 1 else ""} across {len(sorted_types)} type{"s" if len(sorted_types) != 1 else ""} — {run_date}</p>
-  </div>
-
-  <div style="background:white;padding:24px 28px;">
+    # New-cases card body: the table when there are cases, else a short note so the
+    # email still renders on a dispositions-only day.
+    if cases:
+        newcases_body = f"""
     <p style="margin:0 0 18px;font-size:13px;color:#666;background:#f8f9fa;padding:12px 16px;
         border-left:4px solid #1a1a2e;border-radius:0 6px 6px 0;">
       New cases filed since the last scan. Excludes liens, parking, MC appeals, and other filtered types.
@@ -168,14 +165,41 @@ def build_email(cases, run_date):
       <tbody>{sections_html}
       </tbody>
     </table>
-    </div>
+    </div>"""
+    else:
+        newcases_body = """
+    <p style="margin:0 0 4px;font-size:13px;color:#666;background:#f8f9fa;padding:12px 16px;
+        border-left:4px solid #1a1a2e;border-radius:0 6px 6px 0;">
+      No new complaints since the last scan.
+    </p>"""
+
+    # Header subtitle summarizes both sections.
+    n_disp = len(dispos)
+    subtitle = (f'{len(cases)} new case{"s" if len(cases) != 1 else ""}'
+                f' · {n_disp} disposition{"s" if n_disp != 1 else ""} — {run_date}')
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"></head>
+<body style="margin:0;padding:24px 16px;background:#eef0f3;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;">
+<div style="max-width:860px;margin:0 auto;">
+
+  <div style="background:#1a1a2e;padding:24px 28px;border-radius:10px 10px 0 0;">
+    <p style="margin:0 0 6px;color:rgba(255,255,255,0.6);font-size:11px;text-transform:uppercase;letter-spacing:1.5px;">CCP Dockets Monitor</p>
+    <h1 style="margin:0 0 4px;color:white;font-size:22px;font-weight:700;">CCP Civil Daily</h1>
+    <p style="margin:0;color:rgba(255,255,255,0.85);font-size:16px;">{subtitle}</p>
+  </div>
+
+  <div style="background:white;padding:24px 28px;">
+    <h2 style="margin:0 0 4px;font-size:18px;font-weight:700;color:#1a1a2e;">New Civil Cases</h2>
+    {newcases_body}
 
     <div style="margin-top:24px;">
       <a href="{DASHBOARD_URL}" style="display:inline-block;background:#1a1a2e;color:white;padding:11px 22px;
           border-radius:7px;text-decoration:none;font-weight:700;font-size:13px;">View Dashboard →</a>
     </div>
   </div>
-
+{dispositions_html}
   <div style="background:#f8f9fa;padding:14px 28px;border-top:1px solid #e9ecef;border-radius:0 0 10px 10px;">
     <p style="margin:0;font-size:12px;color:#aaa;line-height:1.6;">
       Source: First Judicial District of Pennsylvania — fjdefile.phila.gov.<br>
@@ -235,6 +259,10 @@ def main():
 
     log.info("Scan done. %d included / max_seq=%d", len(results), max_seq_seen)
 
+    # Trial dispositions — reuse the same FJD session (no second token mint).
+    # Persists its own pool state only when --live (mirrors this scan's behavior).
+    dispositions = run_disposition_scan(sess, args.live)
+
     # Merge this run's new cases into a rolling window rather than overwriting,
     # so the dashboard never goes blank on a scan that finds nothing. Dedup by
     # case_id (a fresh parse wins), then drop anything filed before the cutoff.
@@ -265,14 +293,16 @@ def main():
         save_state(state)
         log.info("State saved: [%s]=%d", yymm, max_seq_seen)
 
-        if results:
+        # Send when there are new cases OR new dispositions (either fills the email).
+        if results or dispositions:
             run_date = datetime.now(timezone.utc).strftime("%B %-d, %Y")
-            subject = f"CCP New Cases — {run_date} ({len(results)} cases)"
-            body = build_email(results, run_date)
+            subject = (f"CCP Civil Daily — {run_date} "
+                       f"({len(results)} new, {len(dispositions)} disposed)")
+            body = build_email(results, run_date, dispositions)
             sent = send_email(subject, body, log_fn=log.info, to=RECIPIENT)
             log.info("Email %s", "sent" if sent else "skipped (no creds)")
         else:
-            log.info("No new cases — email skipped")
+            log.info("No new cases or dispositions — email skipped")
     else:
         log.info("Dry run — state not advanced, email not sent. Pass --live to activate.")
 

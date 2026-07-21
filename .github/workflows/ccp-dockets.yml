@@ -54,6 +54,8 @@ jobs:
           git add ccp_dockets_dashboard.html \
                   ccp_dockets/data/state_complaints.json \
                   ccp_dockets/data/state_watchlist.json \
+                  ccp_dockets/data/state_trial_dispositions.json \
+                  ccp_dockets/data/dispositions_log.json \
                   ccp_dockets/data/complaints.json \
                   ccp_dockets/data/watchlist_view.json
           git add -A -- civil_dockets/
