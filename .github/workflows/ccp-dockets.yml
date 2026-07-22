@@ -35,6 +35,12 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python ccp_dockets/scrape_watchlist.py --live
 
+      - name: Scrape trial dispositions
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python ccp_dockets/scrape_trial_dispositions.py --live
+
       - name: Generate dashboard + docket replicas
         run: python ccp_dockets/generate_dashboard.py
 
