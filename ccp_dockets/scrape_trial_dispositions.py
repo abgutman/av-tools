@@ -401,6 +401,15 @@ def append_to_log(dispositions, today_iso):
     return len(window)
 
 
+def ensure_files_exist(state, today_iso):
+    """Guarantee both data files exist on disk (state pool + rolling log) so the
+    nightly workflow's `git add` never aborts — even when we skip the scan
+    because the calendar fetch failed or returned 0 rows. Writes the current
+    (unchanged) pool and a merged/pruned log; identical content is a no-op diff."""
+    save_state(state)
+    append_to_log([], today_iso)
+
+
 # --------------------------------------------------------------------------- #
 # Scan
 # --------------------------------------------------------------------------- #
@@ -419,10 +428,14 @@ def run_scan(session, live, window_days=WINDOW_DAYS, aging_days=AGING_DAYS):
         cal = fetch_mj_calendar(window_days)
     except requests.RequestException as e:
         log.error("MJ calendar fetch failed (%s) — skipping disposition scan", e)
+        if live:
+            ensure_files_exist(state, today_iso)
         return []
     if not cal:
         log.warning("MJ calendar returned 0 rows — possible IP block/site change; "
                     "skipping disposition scan (pool untouched)")
+        if live:
+            ensure_files_exist(state, today_iso)
         return []
     added = 0
     for c in cal:
@@ -525,10 +538,14 @@ def run_scan(session, live, window_days=WINDOW_DAYS, aging_days=AGING_DAYS):
     if live:
         save_state(state)
         log.info("Pool state saved (%d cases).", len(state))
-        if dispositions:
-            total = append_to_log(dispositions, today_iso)
-            log.info("Logged %d disposition(s) to %s (%d in %d-day window).",
-                     len(dispositions), LOG_FILE.name, total, LOG_WINDOW_DAYS)
+        # ALWAYS (re)write the rolling log — even with 0 new dispositions — so the
+        # file always exists on disk. A zero-disposition night used to leave
+        # dispositions_log.json absent, which made the nightly workflow's
+        # `git add ... dispositions_log.json` abort (exit 128 under
+        # `bash -eo pipefail`) and drop the entire ccp_dockets/data commit.
+        total = append_to_log(dispositions, today_iso)
+        log.info("Logged %d new disposition(s) to %s (%d in %d-day window).",
+                 len(dispositions), LOG_FILE.name, total, LOG_WINDOW_DAYS)
     else:
         log.info("Dry run — pool state/log NOT saved. Pass --live to persist.")
     return dispositions

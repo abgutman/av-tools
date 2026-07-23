@@ -57,13 +57,19 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ccp_dockets_dashboard.html \
-                  ccp_dockets/data/state_complaints.json \
-                  ccp_dockets/data/state_watchlist.json \
-                  ccp_dockets/data/state_trial_dispositions.json \
-                  ccp_dockets/data/dispositions_log.json \
-                  ccp_dockets/data/complaints.json \
-                  ccp_dockets/data/watchlist_view.json
+          # Add each path only if it exists, so a run that legitimately produced
+          # no file (e.g. a zero-disposition night) can never abort the commit
+          # with "pathspec did not match" (exit 128 under `bash -eo pipefail`),
+          # which previously dropped the ENTIRE ccp_dockets/data commit.
+          for f in ccp_dockets_dashboard.html \
+                   ccp_dockets/data/state_complaints.json \
+                   ccp_dockets/data/state_watchlist.json \
+                   ccp_dockets/data/state_trial_dispositions.json \
+                   ccp_dockets/data/dispositions_log.json \
+                   ccp_dockets/data/complaints.json \
+                   ccp_dockets/data/watchlist_view.json; do
+            [ -e "$f" ] && git add "$f"
+          done
           git add -A -- civil_dockets/
           if git diff --cached --quiet; then
             echo "No changes to commit"
