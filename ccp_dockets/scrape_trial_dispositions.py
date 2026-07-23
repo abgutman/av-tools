@@ -289,6 +289,45 @@ def extract_order_text(html, category):
 
 
 # --------------------------------------------------------------------------- #
+# Monetary award (clean $ figure extracted from the order wording)
+# --------------------------------------------------------------------------- #
+# A dollar amount is public record (routinely published) and NOT PII, so unlike
+# the free-text order it is safe to keep in the committed log + digest. We pull it
+# from the disposition order text and only for PLAINTIFF-favorable outcomes, so a
+# defense verdict's incidental figure is never mislabeled as an award.
+_AWARD_MONEY = re.compile(r"\$[\d,]+(?:\.\d{2})?")
+_AWARD_PHRASE = re.compile(
+    r"(?:TOTAL AWARD OF|AWARD OF|IN THE (?:TOTAL )?AMOUNT OF|AWARDED[^$]{0,40}?"
+    r"|DAMAGES[^$]{0,40}?)(\$[\d,]+(?:\.\d{2})?)", re.I)
+
+
+def _plaintiff_favorable(status, category):
+    s = _norm(status)
+    return ("FOR PLAINTIFF" in s or "FOR PLTF" in s
+            or category in ("Damages assessed", "Default judgment", "Judgment"))
+
+
+def extract_award(order_text, status, category):
+    """Return the plaintiff's monetary award as a clean '$N,NNN.NN' string, or None.
+
+    Prefers an amount that follows an award phrase ('IN THE AMOUNT OF $…', 'TOTAL
+    AWARD OF $…'); else the largest dollar figure in the order (drops the $5 filing
+    boilerplate). Only for plaintiff-favorable dispositions — ejectment possession
+    findings and defense verdicts return None (no monetary award). Best-effort: the
+    trial-court figure; verify the molded/final judgment against the docket.
+    """
+    if not order_text or not _plaintiff_favorable(status, category):
+        return None
+    ph = _AWARD_PHRASE.findall(order_text)
+    if ph:
+        return ph[0]
+    allm = [m for m in _AWARD_MONEY.findall(order_text) if m not in ("$5", "$5.00")]
+    if allm:
+        return max(allm, key=lambda x: float(x.replace("$", "").replace(",", "")))
+    return None
+
+
+# --------------------------------------------------------------------------- #
 # Trial-calendar (MJ) harvest — self-contained, no cross-project imports
 # --------------------------------------------------------------------------- #
 def _mj_categories(menu_html):
@@ -488,6 +527,7 @@ def run_scan(session, live, window_days=WINDOW_DAYS, aging_days=AGING_DAYS):
                 log.info("  %s baselined (already %s on first sight)", cid, _norm(status))
                 continue
             disp_date = disposition_date(parsed.get("entries", []), category)
+            order_text = extract_order_text(dhtml, category)
             d = {
                 "case_id": cid,
                 "caption": parsed.get("caption") or rec.get("caption", ""),
@@ -497,7 +537,11 @@ def run_scan(session, live, window_days=WINDOW_DAYS, aging_days=AGING_DAYS):
                 "status": status.strip(),
                 "known": known,
                 "disposition_date": disp_date or today_iso,
-                "order_text": extract_order_text(dhtml, category),
+                # award: a clean dollar figure only (public record, NOT PII — unlike the
+                # full order_text, which is stripped from the committed log). Carried into
+                # dispositions_log.json and the digest so a money verdict shows its amount.
+                "award": extract_award(order_text, status, category),
+                "order_text": order_text,
                 "plaintiffs": parsed.get("plaintiffs", []),
                 "defendants": parsed.get("defendants", []),
             }

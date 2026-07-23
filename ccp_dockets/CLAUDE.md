@@ -52,8 +52,11 @@ is the **Trial Dates Certain (MJ)** calendar, whose every row carries a real `ca
   wins. It is shown **only in the (private, Av-only) email**. `append_to_log()`
   DELIBERATELY STRIPS `order_text` before writing `data/dispositions_log.json`, because the
   order text can carry addresses / lockout terms / party detail we keep out of the
-  committed, dashboard-facing record. **If you ever build the Dispositions dashboard tab,
-  read it from `dispositions_log.json` — which has no order text by design.**
+  committed, dashboard-facing record. **The clean `award` dollar figure IS retained** in the
+  log (via `extract_award()`, plaintiff-favorable outcomes only) — a verdict amount is public
+  record, not PII, and the Inky digest surfaces it in its Trial Dispositions section. **If you
+  ever build the Dispositions dashboard tab, read it from `dispositions_log.json` — which has
+  the `award` figure but no order text by design.**
 - **Layout:** the email section is grouped by **case type** (EJECTMENT, MED MAL, CONTRACTS,
   …), not by outcome; each row shows the category label + raw status, with the order text
   as an italic sub-row beneath.
