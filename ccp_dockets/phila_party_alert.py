@@ -305,7 +305,7 @@ SECTION_ORDER = [
 ]
 
 
-def build_email(records, run_date, total):
+def build_email(records, run_date, total, window_days=WINDOW_DAYS):
     TD = "padding:8px 10px;font-size:12px;border-bottom:1px solid #eee;vertical-align:top;"
 
     def row_html(c):
@@ -370,7 +370,7 @@ def build_email(records, run_date, total):
     <p style="margin:0 0 18px;font-size:13px;color:#666;background:#f8f9fa;padding:12px 16px;
         border-left:4px solid #5a2c6e;border-radius:0 6px 6px 0;">
       New <strong>Philadelphia Common Pleas</strong> and <strong>E.D. Pa. federal</strong> <strong>civil</strong> cases
-      from the last {WINDOW_DAYS} days where a party is a Philadelphia government/public body (name contains
+      from the last {window_days} days where a party is a Philadelphia government/public body (name contains
       &ldquo;Philadelphia&rdquo;) or a Philadelphia elected/top-cabinet official.
       Officials are matched by <strong>full name</strong>; a match is <strong>possible, not confirmed</strong> —
       the party could be a namesake, so verify identity against the docket before relying on it.
@@ -406,6 +406,9 @@ def main():
     ap.add_argument("--skip-edpa", action="store_true", help="PCCP only (e.g. no CL token)")
     ap.add_argument("--include-tax-liens", action="store_true",
                     help="Keep routine T-division tax liens (excluded by default)")
+    ap.add_argument("--test-email", action="store_true",
+                    help="Send a one-off TEST digest of ALL current-window matches to the "
+                         "recipients, ignoring and NOT advancing state. For demos only.")
     args = ap.parse_args()
 
     gov, officials = load_watchlists()
@@ -416,21 +419,33 @@ def main():
     begin = today - timedelta(days=args.window_days)
     now_iso = datetime.now(timezone.utc).isoformat()
 
-    new_records = []
-
-    # PCCP
+    # Scans (run once; used by both the test digest and the normal diff)
     pccp = scan_pccp(gov + officials, begin, today, exclude_tax=not args.include_tax_liens)
-    new_records += diff_new("pccp", pccp, state, args.live, now_iso)
-
-    # EDPA
+    edpa = {}
     if args.skip_edpa:
         log.info("EDPA scan skipped (--skip-edpa)")
-    elif not CL_TOKEN:
-        log.warning("COURTLISTENER_TOKEN not set — EDPA scan runs unauthenticated (lower rate limit)")
-        edpa = scan_edpa(gov, officials, begin)
-        new_records += diff_new("edpa", edpa, state, args.live, now_iso)
     else:
+        if not CL_TOKEN:
+            log.warning("COURTLISTENER_TOKEN not set — EDPA scan runs unauthenticated (lower rate limit)")
         edpa = scan_edpa(gov, officials, begin)
+
+    # ── TEST mode: email every current match, don't touch state ──
+    if args.test_email:
+        records = [r for recs in pccp.values() for r in recs.values()]
+        records += [r for recs in edpa.values() for r in recs.values()]
+        enrich_pccp_case_types(records)
+        run_date = datetime.now(ET).strftime("%B %-d, %Y")
+        subject = (f"[TEST] Philadelphia in Court — sample digest "
+                   f"({len(records)} cases, last {args.window_days} days)")
+        body = build_email(records, f"TEST / sample — {run_date}", len(records),
+                           window_days=args.window_days)
+        sent = send_email(subject, body, log_fn=log.info, to=RECIPIENT)
+        log.info("TEST email %s (%d cases) — state untouched",
+                 "sent" if sent else "skipped (no creds)", len(records))
+        return
+
+    new_records = diff_new("pccp", pccp, state, args.live, now_iso)
+    if edpa:
         new_records += diff_new("edpa", edpa, state, args.live, now_iso)
 
     total = len(new_records)

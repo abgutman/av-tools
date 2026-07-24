@@ -9,6 +9,15 @@ name: Philadelphia-in-court alert (daily)
 
 on:
   workflow_dispatch:            # manual trigger for testing / baseline seed
+    inputs:
+      mode:
+        description: 'live = normal alert; test-email = one-off sample digest to recipients (state untouched)'
+        type: choice
+        options: [live, test-email]
+        default: live
+      window_days:
+        description: 'Lookback window in days (test-email only; live uses 7)'
+        default: '2'
   schedule:
     # GitHub cron is fixed UTC and can't follow DST; these map Eastern via EDT
     # (UTC-4) and drift 1h earlier under EST — same convention as sibling ccp jobs.
@@ -45,7 +54,12 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
-        run: python ccp_dockets/phila_party_alert.py --live
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "test-email" ]; then
+            python ccp_dockets/phila_party_alert.py --test-email --window-days "${{ github.event.inputs.window_days }}"
+          else
+            python ccp_dockets/phila_party_alert.py --live
+          fi
 
       - name: Commit & push state
         run: |

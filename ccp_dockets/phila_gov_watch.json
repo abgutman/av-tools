@@ -54,8 +54,9 @@
   },
   {
     "label": "Philadelphia Municipal Authority",
-    "queries": ["PHILADELPHIA MUNICIPAL"],
-    "must_contain": ["philadelphia municipal"]
+    "queries": ["PHILADELPHIA MUNICIPAL AUTHORITY"],
+    "must_contain_all": ["philadelphia", "municipal authority"],
+    "note": "Guard requires 'authority' to avoid matching PHILADELPHIA MUNICIPAL COURT (which appears as a nominal party in MC appeals)."
   },
   {
     "label": "Philadelphia Land Bank",
