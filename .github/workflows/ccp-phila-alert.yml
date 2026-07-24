@@ -1,0 +1,69 @@
+name: Philadelphia-in-court alert (daily)
+
+# Daily morning email to Av + Sean Walsh: new PCCP + EDPA CIVIL cases from the
+# last 7 days where a party is a Philadelphia government/public body or a
+# Philadelphia elected/top-cabinet official. Watchlists:
+#   ccp_dockets/phila_gov_watch.json   (public entities)
+#   ccp_dockets/phila_officials.json   (officials — full-name match, flagged)
+# The FIRST run seeds state silently (no email); alerts begin on the next run.
+
+on:
+  workflow_dispatch:            # manual trigger for testing / baseline seed
+  schedule:
+    # GitHub cron is fixed UTC and can't follow DST; these map Eastern via EDT
+    # (UTC-4) and drift 1h earlier under EST — same convention as sibling ccp jobs.
+    # Three catch-up fires: GitHub silently drops low-frequency crons under load
+    # (see tracker playbook pattern 12). Extra fires are free — state dedup means
+    # only the first run with new cases emails; the rest find nothing new.
+    - cron: '30 11 * * *'   # ~7:30 AM ET (EDT)
+    - cron: '50 11 * * *'   # ~7:50 AM ET (EDT) — catch-up
+    - cron: '10 12 * * *'   # ~8:10 AM ET (EDT) — catch-up
+
+concurrency:
+  group: ccp-phila-alert
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r ccp_dockets/requirements.txt
+
+      - name: Run Philadelphia-in-court alert
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python ccp_dockets/phila_party_alert.py --live
+
+      - name: Commit & push state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No state change — nothing to commit"
+            exit 0
+          fi
+          git commit -m "Philadelphia-in-court alert state $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Abort-safe rebase/retry: av-tools has several daily writers; a conflict
+          # must not wedge the loop (tracker playbook pattern 13).
+          ok=0
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main
+            if git rebase --autostash origin/main && git push; then ok=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          if [ "$ok" != "1" ]; then echo "push failed after 5 attempts" >&2; exit 1; fi

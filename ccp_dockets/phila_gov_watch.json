@@ -1,0 +1,70 @@
+[
+  {
+    "label": "City of Philadelphia",
+    "queries": ["CITY OF PHILA"],
+    "must_contain": ["city of phila"],
+    "note": "Includes all City departments (L&I, Revenue, Law Dept, etc.). High volume — many are tax/L&I liens and tax appeals."
+  },
+  {
+    "label": "School District of Philadelphia / Board of Education",
+    "queries": ["SCHOOL DISTRICT OF PHIL", "PHILADELPHIA BOARD OF EDUCATION"],
+    "must_contain": ["school district of phil", "philadelphia board of education"],
+    "note": "The District litigates under both names; Board of Education is its governing body."
+  },
+  {
+    "label": "Philadelphia Housing Authority",
+    "queries": ["PHILADELPHIA HOUSING AUTH", "HOUSING AUTHORITY OF PHIL"],
+    "must_contain": ["philadelphia housing auth", "housing authority of phil"]
+  },
+  {
+    "label": "Philadelphia Gas Works (PGW)",
+    "queries": ["PHILADELPHIA GAS"],
+    "must_contain": ["philadelphia gas"]
+  },
+  {
+    "label": "Philadelphia Parking Authority (PPA)",
+    "queries": ["PHILADELPHIA PARKING"],
+    "must_contain": ["philadelphia parking"]
+  },
+  {
+    "label": "Philadelphia Water Department",
+    "queries": ["PHILADELPHIA WATER"],
+    "must_contain": ["philadelphia water"]
+  },
+  {
+    "label": "Philadelphia Sheriff",
+    "queries": ["SHERIFF", "PHILADELPHIA SH"],
+    "must_contain_all": ["sheriff", "philadelphia"]
+  },
+  {
+    "label": "Philadelphia District Attorney's Office",
+    "queries": ["PHILADELPHIA DISTRICT ATTORNEY", "DISTRICT ATTORNEY"],
+    "must_contain": ["district attorney"],
+    "note": "The office is often stored without 'Philadelphia' (e.g. 'DISTRICT ATTORNEY OFFICE'); included as a Philadelphia public office. Low volume."
+  },
+  {
+    "label": "Philadelphia Redevelopment Authority",
+    "queries": ["PHILADELPHIA REDEVELOPMENT", "REDEVELOPMENT AUTHORITY OF"],
+    "must_contain": ["redevelopment authority"]
+  },
+  {
+    "label": "Philadelphia Authority for Industrial Development (PAID)",
+    "queries": ["PHILADELPHIA AUTHORITY FOR IND"],
+    "must_contain": ["authority for industrial"]
+  },
+  {
+    "label": "Philadelphia Municipal Authority",
+    "queries": ["PHILADELPHIA MUNICIPAL"],
+    "must_contain": ["philadelphia municipal"]
+  },
+  {
+    "label": "Philadelphia Land Bank",
+    "queries": ["PHILADELPHIA LAND BANK"],
+    "must_contain": ["land bank"]
+  },
+  {
+    "label": "Community College of Philadelphia",
+    "queries": ["COMMUNITY COLLEGE OF PHIL"],
+    "must_contain": ["community college of phil"]
+  }
+]

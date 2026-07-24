@@ -1,0 +1,53 @@
+[
+  {"label": "Cherelle Parker — Mayor", "queries": ["PARKER"], "must_contain_all": ["parker", "cherelle"], "common_name": true, "branch": "elected", "source": "phila.gov/departments/mayor"},
+
+  {"label": "Kenyatta Johnson — City Council President (Dist. 2)", "queries": ["JOHNSON"], "must_contain_all": ["johnson", "kenyatta"], "common_name": true, "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Mark Squilla — City Council (Dist. 1)", "queries": ["SQUILLA"], "must_contain_all": ["squilla", "mark"], "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Jamie Gauthier — City Council (Dist. 3)", "queries": ["GAUTHIER"], "must_contain_all": ["gauthier", "jamie"], "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Curtis Jones Jr. — City Council (Dist. 4)", "queries": ["JONES"], "must_contain_all": ["jones", "curtis"], "common_name": true, "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Jeffery Young Jr. — City Council (Dist. 5)", "queries": ["YOUNG"], "must_contain_all": ["young", "jeff"], "common_name": true, "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Michael Driscoll — City Council (Dist. 6)", "queries": ["DRISCOLL"], "must_contain_all": ["driscoll", "michael"], "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Quetcy Lozada — City Council (Dist. 7)", "queries": ["LOZADA"], "must_contain_all": ["lozada", "quetcy"], "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Cindy Bass — City Council (Dist. 8)", "queries": ["BASS"], "must_contain_all": ["bass", "cindy"], "common_name": true, "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Anthony Phillips — City Council (Dist. 9)", "queries": ["PHILLIPS"], "must_contain_all": ["phillips", "anthony"], "common_name": true, "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Brian O'Neill — City Council (Dist. 10)", "queries": ["O'NEILL", "ONEILL", "O NEILL"], "must_contain_all": ["neill", "brian"], "branch": "elected", "source": "phlcouncil.com"},
+
+  {"label": "Katherine Gilmore Richardson — City Council (At-Large)", "queries": ["GILMORE RICHARDSON", "RICHARDSON"], "must_contain_all": ["gilmore", "richardson"], "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Isaiah Thomas — City Council (At-Large)", "queries": ["THOMAS"], "must_contain_all": ["thomas", "isaiah"], "common_name": true, "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Jim Harrity — City Council (At-Large)", "queries": ["HARRITY"], "must_contain_all": ["harrity"], "branch": "elected", "source": "phlcouncil.com", "note": "Surname-only match (Jim/James ambiguity); Harrity is distinctive."},
+  {"label": "Nina Ahmad — City Council (At-Large)", "queries": ["AHMAD"], "must_contain_all": ["ahmad", "nina"], "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Rue Landau — City Council (At-Large)", "queries": ["LANDAU"], "must_contain_all": ["landau", "rue"], "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Kendra Brooks — City Council (At-Large, WFP)", "queries": ["BROOKS"], "must_contain_all": ["brooks", "kendra"], "common_name": true, "branch": "elected", "source": "phlcouncil.com"},
+  {"label": "Nicolas O'Rourke — City Council (At-Large, WFP)", "queries": ["O'ROURKE", "OROURKE", "O ROURKE"], "must_contain_all": ["rourke", "nicolas"], "branch": "elected", "source": "phlcouncil.com"},
+
+  {"label": "Larry Krasner — District Attorney", "queries": ["KRASNER"], "must_contain_all": ["krasner"], "branch": "elected", "source": "phila.gov / 2025 election results", "note": "Surname-only (Larry/Lawrence); Krasner distinctive."},
+  {"label": "Christy Brady — City Controller", "queries": ["BRADY"], "must_contain_all": ["brady", "christy"], "common_name": true, "branch": "elected", "source": "controller.phila.gov"},
+  {"label": "Rochelle Bilal — Sheriff", "queries": ["BILAL"], "must_contain_all": ["bilal", "rochelle"], "branch": "elected", "source": "phillysheriff.com"},
+  {"label": "John Sabatina Sr. — Register of Wills", "queries": ["SABATINA"], "must_contain_all": ["sabatina"], "branch": "elected", "source": "phila.gov/register-of-wills", "note": "Surname-only; John common but Sabatina distinctive. Seat changed hands in 2023."},
+  {"label": "Omar Sabir — City Commissioner (Chair)", "queries": ["SABIR"], "must_contain_all": ["sabir", "omar"], "branch": "elected", "source": "vote.phila.gov"},
+  {"label": "Lisa Deeley — City Commissioner (Vice-Chair)", "queries": ["DEELEY"], "must_contain_all": ["deeley", "lisa"], "branch": "elected", "source": "vote.phila.gov"},
+  {"label": "Seth Bluestein — City Commissioner", "queries": ["BLUESTEIN"], "must_contain_all": ["bluestein"], "branch": "elected", "source": "vote.phila.gov", "note": "Surname distinctive."},
+
+  {"label": "Adam Thiel — Managing Director", "queries": ["THIEL"], "must_contain_all": ["thiel", "adam"], "branch": "appointed", "source": "phila.gov/managing-directors-office"},
+  {"label": "Renee Garcia — City Solicitor", "queries": ["GARCIA"], "must_contain_all": ["garcia", "renee"], "common_name": true, "branch": "appointed", "source": "phila.gov/law-department"},
+  {"label": "Rob Dubow — Director of Finance", "queries": ["DUBOW"], "must_contain_all": ["dubow"], "branch": "appointed", "source": "phila.gov/office-of-the-director-of-finance", "note": "Surname-only (Rob/Robert); Dubow distinctive."},
+  {"label": "Kevin Bethel — Police Commissioner", "queries": ["BETHEL"], "must_contain_all": ["bethel", "kevin"], "common_name": true, "branch": "appointed", "source": "phila.gov/philadelphia-police-department"},
+  {"label": "Jeffrey Thompson — Fire Commissioner", "queries": ["THOMPSON"], "must_contain_all": ["thompson", "jeff"], "common_name": true, "branch": "appointed", "source": "phila.gov (June 2024 appointment)"},
+  {"label": "Michael Resnick — Prisons Commissioner", "queries": ["RESNICK"], "must_contain_all": ["resnick", "michael"], "branch": "appointed", "source": "phila.gov/philadelphia-department-of-prisons"},
+  {"label": "Palak Raval-Nelson — Health Commissioner", "queries": ["RAVAL-NELSON", "RAVAL NELSON", "RAVAL"], "must_contain_all": ["raval", "palak"], "branch": "appointed", "source": "phila.gov/public-health"},
+  {"label": "Susan Slawson — Commissioner, Parks & Recreation", "queries": ["SLAWSON"], "must_contain_all": ["slawson", "susan"], "branch": "appointed", "source": "phila.gov/parks-recreation"},
+  {"label": "Kimberly Ali — Commissioner, Human Services", "queries": ["ALI"], "must_contain_all": ["ali", "kimberly"], "common_name": true, "branch": "appointed", "source": "phila.gov/human-services"},
+  {"label": "Benjamin Jewell — Water Commissioner", "queries": ["JEWELL"], "must_contain_all": ["jewell", "benjamin"], "branch": "appointed", "source": "water.phila.gov (Oct 2025 appointment)"},
+
+  {"label": "Kathleen McColgan — Revenue Commissioner", "queries": ["MCCOLGAN"], "must_contain_all": ["mccolgan"], "branch": "appointed", "source": "phila.gov/department-of-revenue", "review": "Title named in Feb 2026 city release; confirm on senior-staff page."},
+  {"label": "Kristin Del Rossi — Streets Commissioner", "queries": ["DEL ROSSI", "DELROSSI"], "must_contain_all": ["rossi", "kristin"], "branch": "appointed", "source": "FY27 budget testimony (Apr 2026)", "review": "Streets dept was split; confirm current title."},
+  {"label": "Karen Fegely — Acting Commerce Director", "queries": ["FEGELY"], "must_contain_all": ["fegely"], "branch": "appointed", "source": "phila.gov/department-of-commerce", "review": "Acting title; permanent director may be appointed."},
+  {"label": "John Mondlak — Interim Director, Planning & Development", "queries": ["MONDLAK"], "must_contain_all": ["mondlak"], "branch": "appointed", "source": "phila.gov/planning-and-development", "review": "Interim; permanent director may be pending."},
+  {"label": "Tiffany Thurman — Chief of Staff to the Mayor", "queries": ["THURMAN"], "must_contain_all": ["thurman", "tiffany"], "branch": "appointed", "source": "Dec 2023 appointment reporting", "review": "Verified from appointment-era reporting only; confirm still serving."},
+  {"label": "Tara Mohr — First Deputy Managing Director", "queries": ["MOHR"], "must_contain_all": ["mohr", "tara"], "branch": "appointed", "source": "phila.gov/managing-directors-office"},
+  {"label": "Sinceré Harris — Deputy Mayor", "queries": ["HARRIS"], "must_contain_all": ["harris", "sincer"], "common_name": true, "branch": "appointed", "source": "Dec 2023 appointment reporting", "review": "Named Dec 2023; confirm still serving."},
+  {"label": "Aren Platt — Deputy Mayor", "queries": ["PLATT"], "must_contain_all": ["platt", "aren"], "branch": "appointed", "source": "Dec 2023 appointment reporting", "review": "Named Dec 2023; confirm still serving."},
+
+  {"label": "Bridget Collins-Greenwald — L&I (quality-of-life division)", "queries": ["COLLINS-GREENWALD", "COLLINS GREENWALD", "GREENWALD"], "must_contain_all": ["greenwald", "bridget"], "branch": "appointed", "source": "2024 reporting", "review": "L&I leadership unsettled — verify before use."},
+  {"label": "Ralph DiPietro — L&I (construction/inspections division)", "queries": ["DIPIETRO", "DI PIETRO"], "must_contain_all": ["dipietro"], "branch": "appointed", "source": "2026 reporting (unconfirmed)", "review": "L&I leadership unsettled; DiPietro reported as replacement for departed Basil Merenda — NOT confirmed on phila.gov."}
+]
