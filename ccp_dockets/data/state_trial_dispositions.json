@@ -1141,5 +1141,41 @@
     "last_status": "",
     "reported": false,
     "retired": false
+  },
+  "240902308": {
+    "caption": "FULLEN ETAL VS EPPIHIMER",
+    "trial_date": "2026-08-04",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-07-24",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240901808": {
+    "caption": "SAVAGE VS HILL",
+    "trial_date": "2026-08-12",
+    "case_type": "MC - SMALL CLAIMS APPEALS",
+    "first_seen": "2026-07-24",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240701023": {
+    "caption": "HARRELL VS ZAHOUR ETAL",
+    "trial_date": "2026-08-17",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "first_seen": "2026-07-24",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240702486": {
+    "caption": "HALL VS BAYNES ETAL",
+    "trial_date": "2026-08-19",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-07-24",
+    "last_status": "",
+    "reported": false,
+    "retired": false
   }
 }
