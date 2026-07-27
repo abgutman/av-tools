@@ -61,6 +61,11 @@ RECIPIENT = ["agutman@inquirer.com", "swalsh@inquirer.com"]
 
 CL_TOKEN = __import__("os").environ.get("COURTLISTENER_TOKEN", "")
 CL_SEARCH = "https://www.courtlistener.com/api/rest/v4/search/"
+
+# Public human-facing CCP civil docket search. Hitting the bare URL 302-redirects
+# to a fresh-token copy of the "Civil Dockets Search" form, where a reader can paste
+# a Case ID (e.g. 260600784) to pull the full docket (a reCAPTCHA guards the search).
+CCP_SEARCH_URL = "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_03.zp_dktrpt_setup_idx"
 ET = timezone(timedelta(hours=-4))   # EDT (UTC-4)
 
 CV_RE = re.compile(r"\bcv\b", re.I)   # EDPA civil docket-number token, e.g. 2:26-cv-01234
@@ -340,7 +345,7 @@ SECTION_ORDER = [
 ]
 
 
-def build_email(records, run_date, total, window_days=WINDOW_DAYS):
+def build_email(records, run_date, total, officials=None, window_days=WINDOW_DAYS):
     TD = "padding:8px 10px;font-size:12px;border-bottom:1px solid #eee;vertical-align:top;"
 
     def row_html(c):
@@ -389,6 +394,14 @@ def build_email(records, run_date, total, window_days=WINDOW_DAYS):
           <th style="padding:6px 10px;text-align:left;font-size:10px;color:#888;">Matched party / watch</th>
         </tr>{rows}"""
 
+    # Bottom-of-email reference blocks: what's filtered out + who is tracked.
+    excl_items = "".join(f"<li>{_h.escape(x)}</li>" for x in EXCLUDE_CASE_TYPES)
+    officials = officials or []
+    off_items = "".join(
+        f'<li style="margin:2px 0;padding:0;">{_h.escape(o.get("label",""))}</li>'
+        for o in officials
+    )
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -412,11 +425,45 @@ def build_email(records, run_date, total, window_days=WINDOW_DAYS):
       Confirm every detail against the official docket before publishing.
     </p>
 
+    <p style="margin:0 0 18px;font-size:13px;color:#1a1a2e;background:#eef5ee;padding:12px 16px;
+        border-left:4px solid #2e7d32;border-radius:0 6px 6px 0;">
+      🔎 <strong>Look up any case:</strong>
+      <a href="{CCP_SEARCH_URL}" style="color:#2e7d32;font-weight:600;">Philadelphia Common Pleas — Civil Docket Search</a>.
+      Paste a <strong>Case ID</strong> from the table below (e.g. <span style="font-family:monospace;">260600784</span>)
+      into the search box to pull the full docket. (Federal E.D.&nbsp;Pa. rows link straight to CourtListener.)
+    </p>
+
     <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;font-size:13px;">
       <tbody>{sections_html}
       </tbody>
     </table>
+    </div>
+
+    <div style="margin-top:26px;padding-top:18px;border-top:1px solid #e9ecef;">
+      <p style="margin:0 0 8px;font-size:11px;font-weight:700;text-transform:uppercase;
+          letter-spacing:.06em;color:#5a2c6e;">What this digest leaves out</p>
+      <p style="margin:0 0 6px;font-size:12px;color:#555;">
+        To keep the digest to newsworthy litigation, these routine matters are filtered out:
+      </p>
+      <ul style="margin:0;padding-left:20px;font-size:12px;color:#555;line-height:1.7;">
+        {excl_items}
+        <li>Revenue Dept. tax liens (Common Pleas &ldquo;T&rdquo;-division case IDs, e.g. <span style="font-family:monospace;">2607T0149</span>)</li>
+        <li>Criminal and other non-civil matters (this digest is civil only)</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:22px;padding-top:18px;border-top:1px solid #e9ecef;">
+      <p style="margin:0 0 8px;font-size:11px;font-weight:700;text-transform:uppercase;
+          letter-spacing:.06em;color:#5a2c6e;">Officials tracked ({len(officials)})</p>
+      <p style="margin:0 0 10px;font-size:12px;color:#555;">
+        Every elected official and top-cabinet administrator watched by this alert.
+        <strong>To add, remove or correct anyone on this list, Slack Av.</strong>
+      </p>
+      <ul style="margin:0;padding-left:20px;font-size:12px;color:#444;line-height:1.6;
+          columns:2;-webkit-columns:2;column-gap:28px;list-style:disc;">
+        {off_items}
+      </ul>
     </div>
   </div>
 
@@ -474,7 +521,7 @@ def main():
         subject = (f"[TEST] Philadelphia in Court — sample digest "
                    f"({len(records)} cases, last {args.window_days} days)")
         body = build_email(records, f"TEST / sample — {run_date}", len(records),
-                           window_days=args.window_days)
+                           officials=officials, window_days=args.window_days)
         sent = send_email(subject, body, log_fn=log.info, to=RECIPIENT)
         log.info("TEST email %s (%d cases) — state untouched",
                  "sent" if sent else "skipped (no creds)", len(records))
@@ -500,7 +547,7 @@ def main():
     if total:
         run_date = datetime.now(ET).strftime("%B %-d, %Y %-I:%M %p ET")
         subject = f"Philadelphia in Court — {total} new civil case{'s' if total != 1 else ''}"
-        body = build_email(new_records, run_date, total)
+        body = build_email(new_records, run_date, total, officials=officials)
         sent = send_email(subject, body, log_fn=log.info, to=RECIPIENT)
         log.info("Email %s", "sent" if sent else "skipped (no creds)")
     else:
