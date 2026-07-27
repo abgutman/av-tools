@@ -73,6 +73,41 @@ HTML_RE = re.compile(r"<[^>]+>")
 # --include-tax-liens to keep them.
 TAX_LIEN_RE = re.compile(r"^\d{4}T", re.I)
 
+# Routine, non-newsworthy PCCP case types dropped AFTER case-type enrichment.
+# These are automated collection / disposal matters, not litigation worth a morning
+# alert. Matched case-insensitively on a normalized (alphanumeric-only) substring so
+# punctuation and spacing variants ("AUCTION - MOTOR VEHICLE", "REAL ESTATE TAX
+# CLAIM/LIEN") still match. Tax-LIEN case IDs (T-division) are already dropped earlier
+# by TAX_LIEN_RE; this catches the tax/auction matters that carry a normal case ID.
+EXCLUDE_CASE_TYPES = [
+    "self assessed taxes",
+    "real estate tax claim lien",
+    "auction motor vehicle",
+]
+
+
+def _norm_ct(s):
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+
+
+_EXCLUDE_CT_NORM = [_norm_ct(x) for x in EXCLUDE_CASE_TYPES]
+
+
+def drop_excluded_case_types(records):
+    """Remove records whose (enriched) case type is a routine excluded type.
+    Call only AFTER enrich_pccp_case_types so PCCP case types are populated."""
+    kept, dropped = [], 0
+    for r in records:
+        n = _norm_ct(r.get("case_type"))
+        if any(x and x in n for x in _EXCLUDE_CT_NORM):
+            dropped += 1
+        else:
+            kept.append(r)
+    if dropped:
+        log.info("Excluded %d routine case-type filing(s) (%s)",
+                 dropped, "; ".join(EXCLUDE_CASE_TYPES))
+    return kept
+
 
 # ── Config ────────────────────────────────────────────────────────────────────
 def load_watchlists():
@@ -434,6 +469,7 @@ def main():
         records = [r for recs in pccp.values() for r in recs.values()]
         records += [r for recs in edpa.values() for r in recs.values()]
         enrich_pccp_case_types(records)
+        records = drop_excluded_case_types(records)
         run_date = datetime.now(ET).strftime("%B %-d, %Y")
         subject = (f"[TEST] Philadelphia in Court — sample digest "
                    f"({len(records)} cases, last {args.window_days} days)")
@@ -459,13 +495,16 @@ def main():
     log.info("State saved")
     if total:
         enrich_pccp_case_types(new_records)     # pull Case Type from each new PCCP docket
+        new_records = drop_excluded_case_types(new_records)   # drop routine tax/auction matters
+        total = len(new_records)
+    if total:
         run_date = datetime.now(ET).strftime("%B %-d, %Y %-I:%M %p ET")
         subject = f"Philadelphia in Court — {total} new civil case{'s' if total != 1 else ''}"
         body = build_email(new_records, run_date, total)
         sent = send_email(subject, body, log_fn=log.info, to=RECIPIENT)
         log.info("Email %s", "sent" if sent else "skipped (no creds)")
     else:
-        log.info("No new cases — email skipped")
+        log.info("No new cases (after case-type filtering) — email skipped")
 
 
 if __name__ == "__main__":
