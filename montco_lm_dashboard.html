@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 26, 2026 at 10:44 AM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 27, 2026 at 12:23 PM</div>
 </div>
 
 <div class="nav">
@@ -104,14 +104,22 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (22)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (0)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (0)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (76)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (98)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(22)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(0)</span></h2>
+        <div class="empty">No cases in this category.</div>
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
+        <div class="empty">No cases in this category.</div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(98)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260702775</span>
@@ -332,14 +340,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-07-23 &middot; WAITING TO LIST CASE MGMT CONF</div>
         <div class="local-party"><strong>PLAINTIFF:</strong> NP, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> MM, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> FS, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> AS3, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> ZE, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> KP1, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> NB2, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> TA, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> MP1, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> JG, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> KF, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> LH, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> TH1, <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> EW2, <span class="locale">Bala Cynwyd (19004)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
-        <div class="empty">No cases in this category.</div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(76)</span></h2>
-        <div class="case-card">
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6387798" target="_blank" rel="noopener" class="case-number">2026-04921</a>
             <span class="case-type">COMPLAINT</span>
