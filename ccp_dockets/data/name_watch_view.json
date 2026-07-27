@@ -4,6 +4,20 @@
       "label": "DraftKings",
       "rows": [
         {
+          "case_id": "260702992",
+          "caption": "WOODSON VS DRAFTKINGS INC. ETAL",
+          "filing_date": "2026-07-24",
+          "matched_name": "DRAFTKINGS INC.",
+          "roles": "DEFENDANT"
+        },
+        {
+          "case_id": "260702988",
+          "caption": "RIVERA VS DRAFTKINGS INC. ETAL",
+          "filing_date": "2026-07-24",
+          "matched_name": "DRAFTKINGS INC.",
+          "roles": "DEFENDANT"
+        },
+        {
           "case_id": "260702927",
           "caption": "EVANS VS DRAFTKINGS INC. ETAL",
           "filing_date": "2026-07-24",
@@ -15,6 +29,20 @@
     {
       "label": "FanDuel",
       "rows": [
+        {
+          "case_id": "260702992",
+          "caption": "WOODSON VS DRAFTKINGS INC. ETAL",
+          "filing_date": "2026-07-24",
+          "matched_name": "FANDUEL GROUP PARENT LLC",
+          "roles": "DEFENDANT"
+        },
+        {
+          "case_id": "260702988",
+          "caption": "RIVERA VS DRAFTKINGS INC. ETAL",
+          "filing_date": "2026-07-24",
+          "matched_name": "FANDUEL GROUP PARENT LLC",
+          "roles": "DEFENDANT"
+        },
         {
           "case_id": "260702946",
           "caption": "HILL VS FLUTTER ENTERTAINMENT, PLC ETAL",
@@ -44,6 +72,6 @@
       ]
     }
   ],
-  "generated_at": "2026-07-27 12:03 EDT",
+  "generated_at": "2026-07-27 15:43 EDT",
   "window_days": 14
 }
