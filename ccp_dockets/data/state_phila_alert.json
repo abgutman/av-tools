@@ -129,7 +129,11 @@
         "260702917": "2026-07-27T13:54:45.298208+00:00",
         "260702898": "2026-07-27T13:54:45.298208+00:00",
         "260702937": "2026-07-27T15:10:23.695818+00:00",
-        "260702933": "2026-07-27T15:10:23.695818+00:00"
+        "260702933": "2026-07-27T15:10:23.695818+00:00",
+        "260702953": "2026-07-28T13:10:32.953497+00:00",
+        "260703059": "2026-07-28T13:10:32.953497+00:00",
+        "260703014": "2026-07-28T13:10:32.953497+00:00",
+        "260702969": "2026-07-28T13:10:32.953497+00:00"
       },
       "School District of Philadelphia / Board of Education": {
         "260702214": "2026-07-24T20:47:03.759926+00:00",
@@ -185,7 +189,8 @@
         "260702410": "2026-07-24T20:47:03.759926+00:00",
         "260702409": "2026-07-24T20:47:03.759926+00:00",
         "260702590": "2026-07-24T20:47:03.759926+00:00",
-        "260702835": "2026-07-24T20:47:03.759926+00:00"
+        "260702835": "2026-07-24T20:47:03.759926+00:00",
+        "260702968": "2026-07-28T13:10:32.953497+00:00"
       },
       "Philadelphia Housing Authority": {
         "260702737": "2026-07-24T20:47:03.759926+00:00",
@@ -221,7 +226,9 @@
       "Philadelphia Municipal Authority": {
         "260702803": "2026-07-24T20:47:03.759926+00:00"
       },
-      "Philadelphia Land Bank": {},
+      "Philadelphia Land Bank": {
+        "260703059": "2026-07-28T13:10:32.953497+00:00"
+      },
       "Community College of Philadelphia": {},
       "Cherelle Parker \u2014 Mayor": {},
       "Kenyatta Johnson \u2014 City Council President (Dist. 2)": {},
@@ -273,7 +280,8 @@
       "City of Philadelphia": {
         "73659549": "2026-07-24T20:47:03.759926+00:00",
         "73653095": "2026-07-24T20:47:03.759926+00:00",
-        "73673158": "2026-07-27T13:54:45.298208+00:00"
+        "73673158": "2026-07-27T13:54:45.298208+00:00",
+        "73678082": "2026-07-28T13:10:32.953497+00:00"
       },
       "School District of Philadelphia / Board of Education": {
         "73648091": "2026-07-24T20:47:03.759926+00:00"
@@ -283,13 +291,17 @@
       "Philadelphia Parking Authority (PPA)": {},
       "Philadelphia Water Department": {},
       "Philadelphia Sheriff": {},
-      "Philadelphia District Attorney's Office": {},
+      "Philadelphia District Attorney's Office": {
+        "73674594": "2026-07-28T13:10:32.953497+00:00"
+      },
       "Philadelphia Redevelopment Authority": {},
       "Philadelphia Authority for Industrial Development (PAID)": {},
       "Philadelphia Municipal Authority": {},
       "Philadelphia Land Bank": {},
       "Community College of Philadelphia": {},
-      "Cherelle Parker \u2014 Mayor": {},
+      "Cherelle Parker \u2014 Mayor": {
+        "73678082": "2026-07-28T13:10:32.953497+00:00"
+      },
       "Kenyatta Johnson \u2014 City Council President (Dist. 2)": {},
       "Mark Squilla \u2014 City Council (Dist. 1)": {},
       "Jamie Gauthier \u2014 City Council (Dist. 3)": {},
