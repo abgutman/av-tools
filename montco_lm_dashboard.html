@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 27, 2026 at 12:23 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated July 28, 2026 at 11:16 AM</div>
 </div>
 
 <div class="nav">
@@ -98,29 +98,58 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
     Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
     their attorney) has an address in Ardmore, Bala Cynwyd, Broomall, Bryn Mawr, Gladwyne, Haverford, Havertown, Merion Station, Narberth, Newtown Square, Villanova, Wayne and Wynnewood. Each case is tagged with the court where it
-    was filed. Tax and municipal liens are excluded. In this window: Bucks 3 · Delaware 19 · Montgomery 23 · Philadelphia 53.
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 2 · Delaware 19 · Montgomery 18 · Philadelphia 51.
 </div>
 
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (0)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (2)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (0)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (98)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (88)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(0)</span></h2>
-        <div class="empty">No cases in this category.</div>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(2)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260703014</span>
+            <span class="case-type">BOARD OF REVISION OF TAXES-NPT</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">IN RE: APPEAL OF CINI, PHILIPPE</div>
+        <div class="case-meta">Filed: 2026-07-27 &middot; ACTIVE CASE</div>
+        <div class="local-party"><strong>PETITIONER:</strong> CINI, PHILIPPE <span class="locale">Merion Station (19066)</span></div><div class="local-party"><strong>APPELLANT:</strong> CINI, PHILIPPE <span class="locale">Merion Station (19066)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d2e8168ef3fa9110b80cc26c847e86e58b36736274441ec0d69ae04cf6e115ed" target="_blank" rel="noopener" class="case-number">CV-2026-006770</a>
+            <span class="case-type">Civil - Real Property - Landlord/Tenant Dispute</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d2e8168ef3fa9110b80cc26c847e86e58b36736274441ec0d69ae04cf6e115ed" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">Rocketman Properties LLC v. Skeete et al</div>
+        <div class="case-meta">Filed: 2026-07-27</div>
+        <div class="local-party"><strong>Plaintiff:</strong> Rocketman Properties LLC <span class="locale">Broomall (19008)</span></div>
+    </div>
     </div>
     <div class="section" id="foreclosures">
         <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
         <div class="empty">No cases in this category.</div>
     </div>
     <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(98)</span></h2>
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(88)</span></h2>
         <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260702977</span>
+            <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">PHILLIPS VS MCDONALD'S USA, LLC ETAL</div>
+        <div class="case-meta">Filed: 2026-07-24 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>DEFENDANT:</strong> DOANE FAMILY ENTERPRISES, LP <span class="locale">Newtown Square (19073)</span></div>
+    </div>
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260702775</span>
             <span class="case-type">MISC SUMMONS</span>
@@ -989,116 +1018,6 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="caption">Faizmamadova v. Yusupov</div>
         <div class="case-meta">Filed: 2026-07-14</div>
         <div class="local-party"><strong>Plaintiff:</strong> Sakina Faizmamadova <span class="locale">Havertown (19083)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260701386</span>
-            <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">PRANDESKI VS THE GIANT COMPANY, LLC ETAL</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>PLAINTIFF:</strong> PRANDESKI, QUINTIN <span class="locale">Broomall (19008)</span></div><div class="local-party"><strong>DEFENDANT:</strong> PESKIN REALTY MANAGEMENT COMPANY <span class="locale">Wynnewood (19096)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260701294</span>
-            <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">KING VS KONE</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> KONE, BALAKISSA <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260701274</span>
-            <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">LOGRIPPO VS SPRING MOUNTAIN ADVENTURES, INC. ETAL</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> ANTHONY BAKER ENTERTAINMENT LLC <span class="locale">Broomall (19008)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-17084</span>
-            <span class="case-type">Complaint Civil Action</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">PENDLETON, LORA v. CARROLL, VINCENT P</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Defendant:</strong> CARROLL, VINCENT P <span class="locale">Narberth (19072)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-17077</span>
-            <span class="case-type">Complaint In Confession of Judgment</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">VV2750 LLC v. JILLAMY INC</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; 1 - OPEN</div>
-        <div class="local-party"><strong>Plaintiff:</strong> VV2750 LLC <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-17064</span>
-            <span class="case-type">Complaint Civil Action</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">SNAXSATIONAL BRANDS LLC v. GROVARA LLC</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Defendant:</strong> GROVARA LLC <span class="locale">Gladwyne (19035)</span></div><div class="local-party"><strong>Defendant:</strong> GROVARA INC <span class="locale">Gladwyne (19035)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-17043</span>
-            <span class="case-type">Complaint Civil Action</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">AVENTURA AT PROSPECT v. HOLMES, LINDA</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Defendant:</strong> HOLMES, LINDA <span class="locale">Wynnewood (19096)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6386737" target="_blank" rel="noopener" class="case-number">2026-04663</a>
-            <span class="case-type">COMPLAINT</span>
-            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6386737" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">APS ASSOCIATES LLC v. VV RICHALAND INVESTORS LLC</div>
-        <div class="case-meta">Filed: 2026-07-13</div>
-        <div class="local-party"><strong>Defendant:</strong> VV RICHALAND INVESTORS LLC <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260701398</span>
-            <span class="case-type">PERSONAL INJURY - OTHER</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">SZUKICS VS DEVEREUX FOUNDATION</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> DEVEREUX FOUNDATION <span class="locale">Villanova (19085)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="case-number">2026-17104</span>
-            <span class="case-type">Summons Civil Action</span>
-            <a href="https://courtsapp.montcopa.org/psi/v/search/case" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">SCHOENLEIN, ANDREW J v. HOUSE, BARBARA A</div>
-        <div class="case-meta">Filed: 2026-07-13 &middot; 2 - OPEN</div>
-        <div class="local-party"><strong>Plaintiff:</strong> SCHOENLEIN, ANDREW J <span class="locale">Wayne (19087)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/888a4295377e90239534ae57be2f56aeb7bab4f5e1a1b8d215f213e65e79f374" target="_blank" rel="noopener" class="case-number">CV-2026-006375</a>
-            <span class="case-type">Civil - Contract - Contract: Other</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/888a4295377e90239534ae57be2f56aeb7bab4f5e1a1b8d215f213e65e79f374" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">Llanos v. Toni's House LLC et al</div>
-        <div class="case-meta">Filed: 2026-07-13</div>
-        <div class="local-party"><strong>Defendant:</strong> Toni's House LLC <span class="locale">Havertown (19083)</span></div>
     </div>
     </div>
 </div>
