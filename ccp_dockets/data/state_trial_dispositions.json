@@ -4,9 +4,10 @@
     "trial_date": "2026-07-27",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241003338": {
     "caption": "HERRERA VS BURGOS ETAL",
@@ -238,9 +239,10 @@
     "trial_date": "2026-07-27",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240501181": {
     "caption": "GUILLERMO VS WOOTEN ETAL",

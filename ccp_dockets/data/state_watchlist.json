@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "51|08-JUL-2026|MOTION ASSIGNED",
-    "entry_count": 51,
+    "sig": "52|27-JUL-2026|DISCOVERY MOTION FILED",
+    "entry_count": 52,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -390,15 +390,21 @@
           "time": "03:00 PM",
           "type": "MOTION ASSIGNED",
           "party": ""
+        },
+        {
+          "date": "27-JUL-2026",
+          "time": "10:06 AM",
+          "type": "DISCOVERY MOTION FILED",
+          "party": "COLE ESQ, SIOBHAN K"
         }
       ],
       "last_entry": {
-        "date": "08-JUL-2026",
-        "time": "03:00 PM",
-        "type": "MOTION ASSIGNED",
-        "party": ""
+        "date": "27-JUL-2026",
+        "time": "10:06 AM",
+        "type": "DISCOVERY MOTION FILED",
+        "party": "COLE ESQ, SIOBHAN K"
       },
-      "entry_count": 51
+      "entry_count": 52
     }
   }
 }
