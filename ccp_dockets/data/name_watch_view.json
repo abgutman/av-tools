@@ -7,21 +7,21 @@
           "case_id": "260702992",
           "caption": "WOODSON VS DRAFTKINGS INC. ETAL",
           "filing_date": "2026-07-24",
-          "matched_name": "DRAFTKINGS INC.",
+          "matched_name": "DRAFTKINGS INC",
           "roles": "DEFENDANT"
         },
         {
           "case_id": "260702988",
           "caption": "RIVERA VS DRAFTKINGS INC. ETAL",
           "filing_date": "2026-07-24",
-          "matched_name": "DRAFTKINGS INC.",
+          "matched_name": "DRAFTKINGS INC",
           "roles": "DEFENDANT"
         },
         {
           "case_id": "260702927",
           "caption": "EVANS VS DRAFTKINGS INC. ETAL",
           "filing_date": "2026-07-24",
-          "matched_name": "DRAFTKINGS INC.",
+          "matched_name": "DRAFTKINGS INC",
           "roles": "DEFENDANT"
         }
       ]
@@ -72,6 +72,6 @@
       ]
     }
   ],
-  "generated_at": "2026-07-27 15:43 EDT",
+  "generated_at": "2026-07-29 14:09 EDT",
   "window_days": 14
 }
