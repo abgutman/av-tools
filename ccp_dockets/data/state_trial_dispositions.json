@@ -249,9 +249,10 @@
     "trial_date": "2026-07-28",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "231102401": {
     "caption": "JIN VS ABDULLAH ETAL",
@@ -663,18 +664,20 @@
     "trial_date": "2026-07-28",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250601022": {
     "caption": "JPMORGAN CHASE BANK N.A. VS NORTON ET AL",
     "trial_date": "2026-07-28",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250601452": {
     "caption": "Y.A.H. PROFIT SHARING PLAN VS NU GNR8NS REAL ESTAT",
@@ -852,9 +855,10 @@
     "trial_date": "2026-07-28",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "251203550": {
     "caption": "HALL VS ALL UNKNOWN OCCUPANTS",

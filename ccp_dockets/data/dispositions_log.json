@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "case_id": "250601022",
+    "caption": "JPMORGAN CHASE BANK N.A. VS NORTON ET AL",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "trial_date": "2026-07-28",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-07-28",
+    "award": null,
+    "plaintiffs": [
+      "JPMORGAN CHASE BANK NA AS SBM",
+      "US BANK TRUST COMPANY NA"
+    ],
+    "defendants": [
+      "NORTON, MICHAEL",
+      "ST GERMAIN, JEANNE M"
+    ],
+    "logged_at": "2026-07-28"
+  },
+  {
+    "case_id": "241101348",
+    "caption": "SPILLER, JR. VS DOE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-07-28",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-07-28",
+    "award": null,
+    "plaintiffs": [
+      "SPILLER JR, TYRONE"
+    ],
+    "defendants": [
+      "DOE, JANE",
+      "DOE, JOHN",
+      "ALL UNKNOWN OCCUPANTS",
+      "BROWN\t, CLAUDETTE",
+      "AUTREY, MARCELLUS"
+    ],
+    "logged_at": "2026-07-28"
+  }
+]

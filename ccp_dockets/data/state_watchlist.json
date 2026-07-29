@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "52|27-JUL-2026|DISCOVERY MOTION FILED",
-    "entry_count": 52,
+    "sig": "53|28-JUL-2026|ANSWER (MOTION/PETITION) FILED",
+    "entry_count": 53,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -396,15 +396,21 @@
           "time": "10:06 AM",
           "type": "DISCOVERY MOTION FILED",
           "party": "COLE ESQ, SIOBHAN K"
+        },
+        {
+          "date": "28-JUL-2026",
+          "time": "03:54 PM",
+          "type": "ANSWER (MOTION/PETITION) FILED",
+          "party": "TWARDOWSKI, ANTHONY R"
         }
       ],
       "last_entry": {
-        "date": "27-JUL-2026",
-        "time": "10:06 AM",
-        "type": "DISCOVERY MOTION FILED",
-        "party": "COLE ESQ, SIOBHAN K"
+        "date": "28-JUL-2026",
+        "time": "03:54 PM",
+        "type": "ANSWER (MOTION/PETITION) FILED",
+        "party": "TWARDOWSKI, ANTHONY R"
       },
-      "entry_count": 52
+      "entry_count": 53
     }
   }
 }
