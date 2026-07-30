@@ -4,9 +4,9 @@
     "trial_date": "2026-07-27",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241003338": {
@@ -14,18 +14,20 @@
     "trial_date": "2026-07-29",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250100723": {
     "caption": "STUDENT LOAN SOLUTIONS, LLC VS HEAN ET AL",
     "trial_date": "2026-07-29",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAECIPE TO DISCONTINUE",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250102621": {
     "caption": "COFFEE VS PAFRACP ET AL",
@@ -259,9 +261,10 @@
     "trial_date": "2026-07-29",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "231102013": {
     "caption": "DELCODUDES LLC VS 24/7 DESIGN GROUP LLC",
@@ -664,9 +667,9 @@
     "trial_date": "2026-07-28",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT ENTERED BY AGREEMENT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250601022": {
@@ -865,36 +868,40 @@
     "trial_date": "2026-07-29",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260101381": {
     "caption": "QUARLES VS FLOYD",
     "trial_date": "2026-07-29",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT OF NON PROS ENTERED",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260101565": {
     "caption": "LEE VS HARRIS ETAL",
     "trial_date": "2026-07-29",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260103320": {
     "caption": "LAWRENCE COTTRELL, ADMINISTRATOR VS MANN",
     "trial_date": "2026-07-29",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250902092": {
     "caption": "UZUH VS UNKNOWN OCCUPANTS",
@@ -1180,6 +1187,15 @@
     "trial_date": "2026-08-19",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-24",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241001293": {
+    "caption": "LAWTON ETAL VS LAWTON ETAL",
+    "trial_date": "2026-08-05",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-07-29",
     "last_status": "",
     "reported": false,
     "retired": false

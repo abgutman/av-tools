@@ -1,5 +1,122 @@
 [
   {
+    "case_id": "260103320",
+    "caption": "LAWRENCE COTTRELL, ADMINISTRATOR VS MANN",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-07-29",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-07-29",
+    "award": null,
+    "plaintiffs": [
+      "LAWRENCE COTTRELL ADMINISTRATOR",
+      "WILLIAMSON, RICHARD J"
+    ],
+    "defendants": [
+      "MANN, ANYANESHA"
+    ],
+    "logged_at": "2026-07-29"
+  },
+  {
+    "case_id": "260101565",
+    "caption": "LEE VS HARRIS ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-07-29",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-07-29",
+    "award": null,
+    "plaintiffs": [
+      "LEE, JUSTIN W"
+    ],
+    "defendants": [
+      "HARRIS, DWAYNE",
+      "WALKER, CHENNELL"
+    ],
+    "logged_at": "2026-07-29"
+  },
+  {
+    "case_id": "260101381",
+    "caption": "QUARLES VS FLOYD",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-07-29",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-07-29",
+    "award": null,
+    "plaintiffs": [
+      "QUARLES, ROMANOFF"
+    ],
+    "defendants": [
+      "FLOYD, TAMEIKA SHANTELL"
+    ],
+    "logged_at": "2026-07-29"
+  },
+  {
+    "case_id": "251203550",
+    "caption": "HALL VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-07-29",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-07-29",
+    "award": null,
+    "plaintiffs": [
+      "HALL, MICHAEL"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS",
+      "BURGAS, JOHN"
+    ],
+    "logged_at": "2026-07-29"
+  },
+  {
+    "case_id": "241203146",
+    "caption": "PAGE VS YATES ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-07-27",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-07-29",
+    "award": null,
+    "plaintiffs": [
+      "PAGE, HERBERT"
+    ],
+    "defendants": [
+      "YATES, MARY",
+      "DOES #1-10, JOHN",
+      "DOES #1-10, JANE"
+    ],
+    "logged_at": "2026-07-29"
+  },
+  {
+    "case_id": "230100907",
+    "caption": "MORTGAGE ASSETS MANAGEMENT VS LOGAN ETAL",
+    "case_type": "RESIDENTIAL REVERSE MORT-MR",
+    "trial_date": "2026-07-28",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMENT",
+    "known": true,
+    "disposition_date": "2026-07-29",
+    "award": "$177,036.83",
+    "plaintiffs": [
+      "MORTGAGE ASSETS MANAGEMENT LLC",
+      "WILMINGTON SAVINGS FUND FSB AS TRUSTEE FOR OCWEN 2024 HB1"
+    ],
+    "defendants": [
+      "LOGAN, GWENDOLYN W",
+      "LOGAN JR., ROBERT H",
+      "LOGAN SOLELY IN HER CAPACITY AS HEIR, MARCIA",
+      "UNKNOWN HEIRS OF GWENDOLYN W LOGAN DECEASED"
+    ],
+    "logged_at": "2026-07-29"
+  },
+  {
     "case_id": "250601022",
     "caption": "JPMORGAN CHASE BANK N.A. VS NORTON ET AL",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
@@ -18,6 +135,25 @@
       "ST GERMAIN, JEANNE M"
     ],
     "logged_at": "2026-07-28"
+  },
+  {
+    "case_id": "250100723",
+    "caption": "STUDENT LOAN SOLUTIONS, LLC VS HEAN ET AL",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-07-29",
+    "category": "Discontinuance",
+    "status": "PRAECIPE TO DISCONTINUE",
+    "known": true,
+    "disposition_date": "2026-07-28",
+    "award": null,
+    "plaintiffs": [
+      "STUDENT LOAN SOLUTIONS LLC AS ASSIGNEE OF SALLIE MAE BANK"
+    ],
+    "defendants": [
+      "HEAN, TIDA",
+      "TANG, PHUONG"
+    ],
+    "logged_at": "2026-07-29"
   },
   {
     "case_id": "241101348",
