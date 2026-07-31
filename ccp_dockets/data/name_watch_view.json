@@ -54,24 +54,9 @@
     },
     {
       "label": "Philadelphia Sheriff",
-      "rows": [
-        {
-          "case_id": "260701845",
-          "caption": "SPRING GARDEN LENDING GROUP LLC VS SHERIFF OF PHIL",
-          "filing_date": "2026-07-16",
-          "matched_name": "SHERIFF OF PHILADELPHIA ROCHELLE BILAL",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260701740",
-          "caption": "WILSON VS UNITED STATES ETAL",
-          "filing_date": "2026-07-16",
-          "matched_name": "SHERIFFS OFFICE OF THE CITY AND COUNTY OF PHILADELPHIA",
-          "roles": "DEFENDANT"
-        }
-      ]
+      "rows": []
     }
   ],
-  "generated_at": "2026-07-29 14:09 EDT",
+  "generated_at": "2026-07-30 20:04 EDT",
   "window_days": 14
 }
