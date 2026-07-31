@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "55|29-JUL-2026|ORDER ENTERED/236 NOTICE GIVEN",
-    "entry_count": 55,
+    "sig": "56|29-JUL-2026|NOTICE GIVEN UNDER RULE 236",
+    "entry_count": 56,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -414,15 +414,21 @@
           "time": "03:42 PM",
           "type": "ORDER ENTERED/236 NOTICE GIVEN",
           "party": "ERDOS, MICHAEL"
+        },
+        {
+          "date": "29-JUL-2026",
+          "time": "03:42 PM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
         }
       ],
       "last_entry": {
         "date": "29-JUL-2026",
         "time": "03:42 PM",
-        "type": "ORDER ENTERED/236 NOTICE GIVEN",
-        "party": "ERDOS, MICHAEL"
+        "type": "NOTICE GIVEN UNDER RULE 236",
+        "party": ""
       },
-      "entry_count": 55
+      "entry_count": 56
     }
   }
 }

@@ -34,9 +34,10 @@
     "trial_date": "2026-07-30",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241100376": {
     "caption": "CONNELLY VS SOUTHEASTERN PENNSYLVANIA TRANSPORTATI",
