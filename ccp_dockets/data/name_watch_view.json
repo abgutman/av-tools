@@ -2,61 +2,17 @@
   "labels": [
     {
       "label": "DraftKings",
-      "rows": [
-        {
-          "case_id": "260702992",
-          "caption": "WOODSON VS DRAFTKINGS INC. ETAL",
-          "filing_date": "2026-07-24",
-          "matched_name": "DRAFTKINGS INC",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260702988",
-          "caption": "RIVERA VS DRAFTKINGS INC. ETAL",
-          "filing_date": "2026-07-24",
-          "matched_name": "DRAFTKINGS INC",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260702927",
-          "caption": "EVANS VS DRAFTKINGS INC. ETAL",
-          "filing_date": "2026-07-24",
-          "matched_name": "DRAFTKINGS INC",
-          "roles": "DEFENDANT"
-        }
-      ]
+      "rows": []
     },
     {
       "label": "FanDuel",
-      "rows": [
-        {
-          "case_id": "260702992",
-          "caption": "WOODSON VS DRAFTKINGS INC. ETAL",
-          "filing_date": "2026-07-24",
-          "matched_name": "FANDUEL GROUP PARENT LLC",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260702988",
-          "caption": "RIVERA VS DRAFTKINGS INC. ETAL",
-          "filing_date": "2026-07-24",
-          "matched_name": "FANDUEL GROUP PARENT LLC",
-          "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260702946",
-          "caption": "HILL VS FLUTTER ENTERTAINMENT, PLC ETAL",
-          "filing_date": "2026-07-24",
-          "matched_name": "FANDUEL GROUP PARENT LLC",
-          "roles": "DEFENDANT"
-        }
-      ]
+      "rows": []
     },
     {
       "label": "Philadelphia Sheriff",
       "rows": []
     }
   ],
-  "generated_at": "2026-07-30 20:04 EDT",
+  "generated_at": "2026-08-01 13:21 EDT",
   "window_days": 14
 }
