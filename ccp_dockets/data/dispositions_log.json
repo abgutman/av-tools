@@ -1,5 +1,43 @@
 [
   {
+    "case_id": "250102621",
+    "caption": "COFFEE VS PAFRACP ET AL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-07-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-07-31",
+    "award": "$20,000.00",
+    "plaintiffs": [
+      "COFFEE, TYRONE"
+    ],
+    "defendants": [
+      "PENNSYLVANIA FINANCIAL RESPONSIBILITY ASSIGNED CLAIMS PLAN",
+      "HICKS, FREDERICK"
+    ],
+    "logged_at": "2026-07-31"
+  },
+  {
+    "case_id": "241100376",
+    "caption": "CONNELLY VS SOUTHEASTERN PENNSYLVANIA TRANSPORTATI",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-07-31",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-07-31",
+    "award": null,
+    "plaintiffs": [
+      "CONNELLY, LEOLA"
+    ],
+    "defendants": [
+      "SOUTHEASTERN PENNSYLVANIA TRANSPORTATION AUTHORITY",
+      "CORCORAN, JOSEPH"
+    ],
+    "logged_at": "2026-07-31"
+  },
+  {
     "case_id": "260103320",
     "caption": "LAWRENCE COTTRELL, ADMINISTRATOR VS MANN",
     "case_type": "EJECTMENT",

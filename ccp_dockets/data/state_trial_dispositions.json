@@ -34,9 +34,9 @@
     "trial_date": "2026-07-30",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241100376": {
@@ -44,9 +44,10 @@
     "trial_date": "2026-07-31",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250201007": {
     "caption": "SWEET VS ADENS ETAL",
@@ -242,7 +243,7 @@
     "trial_date": "2026-07-27",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "HELD UNDER ADVISEMENT",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -688,9 +689,10 @@
     "trial_date": "2026-07-31",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "DEFERRED - BANKRUPTCY",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240402500": {
     "caption": "EF MORTGAGE, LLC VS NORTH HILL PROPERTIES, LLC ETA",
