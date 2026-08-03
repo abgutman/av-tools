@@ -1,14 +1,14 @@
 {
   "meta": {
-    "scraped_at": "2026-08-02T05:09:35 EDT",
+    "scraped_at": "2026-08-03T06:43:45 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-08-02",
-      "end": "2026-11-30"
+      "start": "2026-08-03",
+      "end": "2026-12-01"
     },
     "counts": {
       "CM": 367,
