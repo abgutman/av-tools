@@ -1,5 +1,25 @@
 [
   {
+    "case_id": "241003338",
+    "caption": "HERRERA VS BURGOS ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-07-29",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-08-03",
+    "award": null,
+    "plaintiffs": [
+      "HERRERA, CARMEN"
+    ],
+    "defendants": [
+      "BURGOS, DAVID",
+      "DOE 1-3, JOHN",
+      "JOHN DOE CORPORATION 1-3"
+    ],
+    "logged_at": "2026-08-03"
+  },
+  {
     "case_id": "250102621",
     "caption": "COFFEE VS PAFRACP ET AL",
     "case_type": "MOTOR VEHICLE ACCIDENT",
