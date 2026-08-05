@@ -54,9 +54,9 @@
     "trial_date": "2026-08-03",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241100261": {
@@ -64,9 +64,9 @@
     "trial_date": "2026-08-03",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250101414": {
@@ -74,9 +74,10 @@
     "trial_date": "2026-08-04",
     "case_type": "FRAUD",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240300715": {
     "caption": "SCHMIDT CONTRACTING, INC. VS POST 4701 PINE STREET",
@@ -275,18 +276,20 @@
     "trial_date": "2026-08-04",
     "case_type": "MALPRACTICE - MISCELLANEOUS",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250600422": {
     "caption": "MITCHELL VS MCCARTER",
     "trial_date": "2026-08-04",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250303640": {
     "caption": "CCPA AUTO LEASE LTD VS SUPERIOR AUTOMOTIVE OF PHI",
@@ -701,9 +704,10 @@
     "trial_date": "2026-08-04",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240403196": {
     "caption": "REAL TIME RESOLUTIONS, INC. VS BARRIE ETAL",
@@ -1165,9 +1169,10 @@
     "trial_date": "2026-08-04",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-24",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "240901808": {
     "caption": "SAVAGE VS HILL",
