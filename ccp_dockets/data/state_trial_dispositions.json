@@ -74,9 +74,9 @@
     "trial_date": "2026-08-04",
     "case_type": "FRAUD",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240300715": {
@@ -286,9 +286,9 @@
     "trial_date": "2026-08-04",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250303640": {
@@ -296,9 +296,10 @@
     "trial_date": "2026-08-05",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "200701885": {
     "caption": "COMM LAND TITLE INS CO VS MARCELUS, ETAL",
@@ -704,9 +705,9 @@
     "trial_date": "2026-08-04",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240403196": {
@@ -917,81 +918,90 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251000037": {
     "caption": "MILLAN REAL ESTATE LLC VS UNKNOWN",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251001004": {
     "caption": "SEC., HOUSING & URBAN DEVELOPMENT VS DOE",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251002290": {
     "caption": "BENDZIUS VS FELDER ETAL",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251002602": {
     "caption": "TERRERO VS COTTON ETAL",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251103098": {
     "caption": "KAMARA VS ALL UNKNOWN OCCUPANTS",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251203345": {
     "caption": "HARPER VS KEMP",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260101084": {
     "caption": "WILLIAMS VS BARNES",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260102945": {
     "caption": "US BANK N.A. VS 99 SOLUTIONS LLC",
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250700101": {
     "caption": "GOODING VS LEE ETAL",
@@ -1206,8 +1216,9 @@
     "trial_date": "2026-08-05",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-29",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   }
 }

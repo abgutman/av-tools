@@ -1,5 +1,61 @@
 [
   {
+    "case_id": "250600422",
+    "caption": "MITCHELL VS MCCARTER",
+    "case_type": "EQUITY - REAL ESTATE",
+    "trial_date": "2026-08-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-05",
+    "award": null,
+    "plaintiffs": [
+      "MITCHELL, DAVID T"
+    ],
+    "defendants": [
+      "MCCARTER, LATIA D"
+    ],
+    "logged_at": "2026-08-05"
+  },
+  {
+    "case_id": "250101414",
+    "caption": "BROOKS VS COLEMAN",
+    "case_type": "FRAUD",
+    "trial_date": "2026-08-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-05",
+    "award": null,
+    "plaintiffs": [
+      "BROOKS, ANGELA"
+    ],
+    "defendants": [
+      "COLEMAN, SHARELL"
+    ],
+    "logged_at": "2026-08-05"
+  },
+  {
+    "case_id": "240402500",
+    "caption": "EF MORTGAGE, LLC VS NORTH HILL PROPERTIES, LLC ETA",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-08-04",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-08-05",
+    "award": "$0",
+    "plaintiffs": [
+      "EF MORTGAGE LLC"
+    ],
+    "defendants": [
+      "NORTHHILL PROPERTIES LLC",
+      "HANEY, BENJAMIN THOMAS",
+      "DONATUCCI, RONALD ROCCO"
+    ],
+    "logged_at": "2026-08-05"
+  },
+  {
     "case_id": "250201007",
     "caption": "SWEET VS ADENS ETAL",
     "case_type": "MOTOR VEHICLE ACCIDENT",
