@@ -84,9 +84,10 @@
     "trial_date": "2026-08-07",
     "case_type": "CONTRACTS (GOODS), ENFORCE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250102394": {
     "caption": "AMERICAN EXPRESS VS BEARD ETAL",
@@ -306,9 +307,10 @@
     "trial_date": "2026-08-07",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240700492": {
     "caption": "DUKES VS MILITARY SERVICES LLC ETAL",
