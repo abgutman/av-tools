@@ -13,5 +13,17 @@
     "label": "Philadelphia Sheriff",
     "queries": ["SHERIFF", "PHILADELPHIA SH"],
     "must_contain_all": ["sheriff", "philadelphia"]
+  },
+  {
+    "label": "Philadelphia Fire Department",
+    "queries": ["PHILADELPHIA FIRE", "FIRE DEPARTMENT"],
+    "must_contain_all": ["philadelphia", "fire department"],
+    "note": "Guard requires both 'philadelphia' and 'fire department' to drop PHILADELPHIA FIRE PROS LLC and PHILADELPHIA FIREFIGHTERS ... HEALTH PLAN, which the 'PHILADELPHIA FIRE' prefix also returns. Catches the dept under either name ordering."
+  },
+  {
+    "label": "Anthony Hudgins",
+    "queries": ["HUDGINS, ANTHONY", "HUDGINS,ANTHONY", "HUDGINS ANTHONY"],
+    "pattern": "\\bhudgins,?\\s+anthony\\b",
+    "note": "Individual — verify identity before publishing (possible namesake). No CCP civil match in the trailing 180 days at time of add (2026-08-10)."
   }
 ]
