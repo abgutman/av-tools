@@ -11,8 +11,16 @@
     {
       "label": "Philadelphia Sheriff",
       "rows": []
+    },
+    {
+      "label": "Philadelphia Fire Department",
+      "rows": []
+    },
+    {
+      "label": "Anthony Hudgins",
+      "rows": []
     }
   ],
-  "generated_at": "2026-08-08 07:37 EDT",
+  "generated_at": "2026-08-10 16:56 EDT",
   "window_days": 14
 }
