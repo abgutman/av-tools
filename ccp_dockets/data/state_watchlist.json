@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "57|03-AUG-2026|WAITING TO LIST CASE MGMT CONF",
-    "entry_count": 57,
+    "sig": "58|10-AUG-2026|LISTED FOR DISCOVERY HEARING",
+    "entry_count": 58,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -73,9 +73,22 @@
           "type": "ATTORNEY FOR DEFENDANT",
           "name": "KADOURA, JUSTIN M",
           "address": "1650 MARKET STREET SUITE 3300 PHILADELPHIA PA 19103 (215)252-9552 justin.kadoura@hklaw.com"
+        },
+        {
+          "seq": "10",
+          "type": "JUDGE",
+          "name": "ERDOS, MICHAEL",
+          "address": "532A CITY HALL PHILADELPHIA PA 19107"
         }
       ],
       "events": [
+        {
+          "event": "DISCOVERY HEARING",
+          "datetime": "03-SEP-2026 09:30 AM",
+          "room": "CITY HALL",
+          "location": "COURTROOM 646",
+          "judge": "ERDOS, MICHAEL"
+        },
         {
           "event": "HEARING",
           "datetime": "03-SEP-2026 09:30 AM",
@@ -426,15 +439,167 @@
           "time": "01:09 PM",
           "type": "WAITING TO LIST CASE MGMT CONF",
           "party": ""
+        },
+        {
+          "date": "10-AUG-2026",
+          "time": "11:35 AM",
+          "type": "LISTED FOR DISCOVERY HEARING",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "03-AUG-2026",
-        "time": "01:09 PM",
-        "type": "WAITING TO LIST CASE MGMT CONF",
+        "date": "10-AUG-2026",
+        "time": "11:35 AM",
+        "type": "LISTED FOR DISCOVERY HEARING",
         "party": ""
       },
-      "entry_count": 57
+      "entry_count": 58
+    }
+  },
+  "260800873": {
+    "sig": "7|07-AUG-2026|MOTION ASSIGNED",
+    "entry_count": 7,
+    "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
+    "docket": {
+      "case_id": "260800873",
+      "caption": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. VS BAR X",
+      "filing_date": "2026-08-06",
+      "filing_date_raw": "Thursday , August 06th, 2026",
+      "court": "COMMERCE - STANDARD, JURY",
+      "case_type": "REAL PROPERTY - OTHER",
+      "jury": "JURY",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "plaintiffs": [
+        "SAVE OUR NEIGHBORHOOD FOR TOMORROW INC"
+      ],
+      "defendants": [
+        "BAR X",
+        "TSANG, TONY",
+        "KINGLY ENTERPRISES LLC",
+        "CITY OF PHILADELPHIA",
+        "COLLINS-GREENWALD, BRIDGET",
+        "CAMAC 255 CORPORATION"
+      ],
+      "parties": [
+        {
+          "seq": "1",
+          "type": "ATTORNEY FOR PLAINTIFF",
+          "name": "BOCHETTO, GEORGE",
+          "address": "BOCHETTO & LENTZ, P.C. 1524 LOCUST STREET PHILADELPHIA PA 19102 (215)735-3900 gbochetto@bochettoandlentz.com"
+        },
+        {
+          "seq": "2",
+          "type": "PLAINTIFF",
+          "name": "SAVE OUR NEIGHBORHOOD FOR TOMORROW INC",
+          "address": "1600 LOCUST STREET PHILADELPHIA PA 19103"
+        },
+        {
+          "seq": "3",
+          "type": "DEFENDANT",
+          "name": "BAR X",
+          "address": "255 S. CAMAC STREET PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "4",
+          "type": "DEFENDANT",
+          "name": "TSANG, TONY",
+          "address": "255 S. CAMAC STREET PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "5",
+          "type": "DEFENDANT",
+          "name": "KINGLY ENTERPRISES LLC",
+          "address": "913 SPRING STREET PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "6",
+          "type": "DEFENDANT",
+          "name": "CITY OF PHILADELPHIA",
+          "address": "1515 ARCH STREET, 14TH FLOOR PHILADELPHIA PA 19102"
+        },
+        {
+          "seq": "7",
+          "type": "DEFENDANT",
+          "name": "COLLINS-GREENWALD, BRIDGET",
+          "address": "CITY OF PHILADELPHIA LICENSES AND INSPECTIONS 1515ARCH STREET, 14TH FLOOR PHILADELPHIA PA 19102"
+        },
+        {
+          "seq": "8",
+          "type": "ATTORNEY FOR PLAINTIFF",
+          "name": "STANDER, BRETT E",
+          "address": "1524 LOCUST STREET PHILADELPHIA PA 19102 (215)735-3900 BSTANDER@BOCHETTOANDLENTZ.COM"
+        },
+        {
+          "seq": "9",
+          "type": "JUDGE",
+          "name": "HALL, CHRISTOPHER",
+          "address": "STOUT CENTER PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "10",
+          "type": "DEFENDANT",
+          "name": "CAMAC 255 CORPORATION",
+          "address": "255 S CAMAC ST PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "11",
+          "type": "TEAM LEADER",
+          "name": "ERDOS, MICHAEL",
+          "address": "532A CITY HALL PHILADELPHIA PA 19148"
+        }
+      ],
+      "events": [],
+      "entries": [
+        {
+          "date": "06-AUG-2026",
+          "time": "02:36 PM",
+          "type": "ACTIVE CASE",
+          "party": ""
+        },
+        {
+          "date": "06-AUG-2026",
+          "time": "02:36 PM",
+          "type": "COMMENCEMENT CIVIL ACTION JURY",
+          "party": "BOCHETTO, GEORGE"
+        },
+        {
+          "date": "06-AUG-2026",
+          "time": "02:36 PM",
+          "type": "COMPLAINT FILED NOTICE GIVEN",
+          "party": "BOCHETTO, GEORGE"
+        },
+        {
+          "date": "06-AUG-2026",
+          "time": "02:36 PM",
+          "type": "JURY TRIAL PERFECTED",
+          "party": "BOCHETTO, GEORGE"
+        },
+        {
+          "date": "06-AUG-2026",
+          "time": "02:36 PM",
+          "type": "WAITING TO LIST CASE MGMT CONF",
+          "party": "BOCHETTO, GEORGE"
+        },
+        {
+          "date": "07-AUG-2026",
+          "time": "09:16 AM",
+          "type": "PRELIMINARY INJUNCTION",
+          "party": "BOCHETTO, GEORGE"
+        },
+        {
+          "date": "07-AUG-2026",
+          "time": "11:46 AM",
+          "type": "MOTION ASSIGNED",
+          "party": ""
+        }
+      ],
+      "last_entry": {
+        "date": "07-AUG-2026",
+        "time": "11:46 AM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      },
+      "entry_count": 7
     }
   }
 }

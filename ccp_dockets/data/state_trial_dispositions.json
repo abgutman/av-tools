@@ -84,7 +84,7 @@
     "trial_date": "2026-08-07",
     "case_type": "CONTRACTS (GOODS), ENFORCE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -317,9 +317,10 @@
     "trial_date": "2026-08-10",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "DISCONTINUANCE ORDERED",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "240500301": {
     "caption": "STROMAN VS JL-SHABAZZ LLC ETAL",
@@ -727,9 +728,10 @@
     "trial_date": "2026-08-10",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241100894": {
     "caption": "COMMUNITY LOAN SERVICING VS STRONG ARM PROPERTIES",
@@ -1490,6 +1492,15 @@
     "trial_date": "2026-12-07",
     "case_type": "EQUITY - NO REAL ESTATE",
     "first_seen": "2026-08-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250902036": {
+    "caption": "YOUNIS VS YOUNG",
+    "trial_date": "2026-10-27",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-08-10",
     "last_status": "",
     "reported": false,
     "retired": false

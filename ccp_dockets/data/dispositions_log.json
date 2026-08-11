@@ -1,5 +1,24 @@
 [
   {
+    "case_id": "240700492",
+    "caption": "DUKES VS MILITARY SERVICES LLC ETAL",
+    "case_type": "EQUITY - REAL ESTATE",
+    "trial_date": "2026-08-10",
+    "category": "Discontinuance",
+    "status": "DISCONTINUANCE ORDERED",
+    "known": false,
+    "disposition_date": "2026-08-10",
+    "award": null,
+    "plaintiffs": [
+      "DUKES, NORMAN"
+    ],
+    "defendants": [
+      "MILITARY SERVICES LLC",
+      "MILBOURNE, VICTOR"
+    ],
+    "logged_at": "2026-08-10"
+  },
+  {
     "case_id": "250600422",
     "caption": "MITCHELL VS MCCARTER",
     "case_type": "EQUITY - REAL ESTATE",
