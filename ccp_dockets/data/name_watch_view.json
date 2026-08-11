@@ -14,13 +14,21 @@
     },
     {
       "label": "Philadelphia Fire Department",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "260801230",
+          "caption": "RIVERA ETAL VS CITY OF PHILADELPHIA ETAL",
+          "filing_date": "2026-08-10",
+          "matched_name": "PHILADELPHIA FIRE DEPARTMENT",
+          "roles": "DEFENDANT"
+        }
+      ]
     },
     {
       "label": "Anthony Hudgins",
       "rows": []
     }
   ],
-  "generated_at": "2026-08-10 16:56 EDT",
+  "generated_at": "2026-08-11 11:11 EDT",
   "window_days": 14
 }
