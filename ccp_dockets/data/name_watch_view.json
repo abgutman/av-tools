@@ -10,7 +10,15 @@
     },
     {
       "label": "Philadelphia Sheriff",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "260801533",
+          "caption": "1725 NEWKIRK LLC VS PHILADELPHIA SHERIFF'S OFFICE",
+          "filing_date": "2026-08-12",
+          "matched_name": "PHILADELPHIA SHERIFF'S OFFICE",
+          "roles": "RESPONDENT"
+        }
+      ]
     },
     {
       "label": "Philadelphia Fire Department",
@@ -29,6 +37,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-08-11 11:11 EDT",
+  "generated_at": "2026-08-12 15:15 EDT",
   "window_days": 14
 }
