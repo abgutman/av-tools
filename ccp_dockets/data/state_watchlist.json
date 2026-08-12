@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "58|10-AUG-2026|LISTED FOR DISCOVERY HEARING",
-    "entry_count": 58,
+    "sig": "59|11-AUG-2026|NOTICE GIVEN-DISCOVERY HEARING",
+    "entry_count": 59,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -445,20 +445,26 @@
           "time": "11:35 AM",
           "type": "LISTED FOR DISCOVERY HEARING",
           "party": ""
+        },
+        {
+          "date": "11-AUG-2026",
+          "time": "07:35 AM",
+          "type": "NOTICE GIVEN-DISCOVERY HEARING",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "10-AUG-2026",
-        "time": "11:35 AM",
-        "type": "LISTED FOR DISCOVERY HEARING",
+        "date": "11-AUG-2026",
+        "time": "07:35 AM",
+        "type": "NOTICE GIVEN-DISCOVERY HEARING",
         "party": ""
       },
-      "entry_count": 58
+      "entry_count": 59
     }
   },
   "260800873": {
-    "sig": "7|07-AUG-2026|MOTION ASSIGNED",
-    "entry_count": 7,
+    "sig": "9|11-AUG-2026|CITY CHARGE SUBSEQUENT FILINGS",
+    "entry_count": 9,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -546,6 +552,12 @@
           "type": "TEAM LEADER",
           "name": "ERDOS, MICHAEL",
           "address": "532A CITY HALL PHILADELPHIA PA 19148"
+        },
+        {
+          "seq": "12",
+          "type": "ATTORNEY FOR DEFENDANT",
+          "name": "MCDERMOTT, ANNE",
+          "address": "1515 ARCH STREET 15TH FL PHILADELPHIA PA 19102 (215)685-6706 anne.mcdermott@phila.gov"
         }
       ],
       "events": [],
@@ -591,15 +603,27 @@
           "time": "11:46 AM",
           "type": "MOTION ASSIGNED",
           "party": ""
+        },
+        {
+          "date": "11-AUG-2026",
+          "time": "12:26 PM",
+          "type": "ENTRY OF APPEARANCE",
+          "party": "MCDERMOTT, ANNE"
+        },
+        {
+          "date": "11-AUG-2026",
+          "time": "12:26 PM",
+          "type": "CITY CHARGE SUBSEQUENT FILINGS",
+          "party": "MCDERMOTT, ANNE"
         }
       ],
       "last_entry": {
-        "date": "07-AUG-2026",
-        "time": "11:46 AM",
-        "type": "MOTION ASSIGNED",
-        "party": ""
+        "date": "11-AUG-2026",
+        "time": "12:26 PM",
+        "type": "CITY CHARGE SUBSEQUENT FILINGS",
+        "party": "MCDERMOTT, ANNE"
       },
-      "entry_count": 7
+      "entry_count": 9
     }
   }
 }

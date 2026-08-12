@@ -327,18 +327,20 @@
     "trial_date": "2026-08-11",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "HELD UNDER ADVISEMENT",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250503682": {
     "caption": "OWENS VS CROSBY ET AL",
     "trial_date": "2026-08-11",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250701825": {
     "caption": "JAMES VS. GERMANTOWN MASJID INC",
@@ -738,18 +740,20 @@
     "trial_date": "2026-08-11",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250600199": {
     "caption": "COMMUNITY LOAN SERVICING VS INDIGO APARTMENTS",
     "trial_date": "2026-08-11",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240302043": {
     "caption": "TOWD POINT MORTGAGE TRUST VS CHEN ET AL",
