@@ -337,9 +337,9 @@
     "trial_date": "2026-08-11",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "ORDER ENTERED - FINAL DISPOS",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250701825": {
@@ -760,9 +760,10 @@
     "trial_date": "2026-08-12",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT ENTERED BY AGREEMNT",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "220600228": {
     "caption": "M&T BANK VS ROBERTSON ETAL",
@@ -1017,90 +1018,100 @@
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260102972": {
     "caption": "CHEN VS DIRIENZO JR ET AL",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260103349": {
     "caption": "TWYMAN VS DOE ETAL",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260103698": {
     "caption": "LITCHFIELD FUNDING REO, LLC VS EDWARDS ETAL",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "CASE RESCHEDULED BY COURT",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260103811": {
     "caption": "TORRES VS ALL UNKNOWN OCCUPANTS",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260200062": {
     "caption": "WILLIAMS VS GRAHAM ETAL",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260200538": {
     "caption": "TEJADA VS SUAREZ",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260200562": {
     "caption": "EF MORTGAGE LLC VS JENKINS ETAL",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260201007": {
     "caption": "CITIMORTGAGE, INC. VS DOE ETAL",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT ENTERED BY AGREEMNT",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260201150": {
     "caption": "US BANK TRUST N.A. VS J2B HOLDINGS",
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "ORDER ENTERED - FINAL DISPOS",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260201248": {
     "caption": "DEUTSCHE BANK NATIONAL TRUST CO VS HUNT ET AL",
@@ -1198,9 +1209,10 @@
     "trial_date": "2026-08-12",
     "case_type": "MC - SMALL CLAIMS APPEALS",
     "first_seen": "2026-07-24",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240701023": {
     "caption": "HARRELL VS ZAHOUR ETAL",

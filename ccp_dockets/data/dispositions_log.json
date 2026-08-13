@@ -1,5 +1,120 @@
 [
   {
+    "case_id": "260201150",
+    "caption": "US BANK TRUST N.A. VS J2B HOLDINGS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-12",
+    "category": "Judgment",
+    "status": "ORDER ENTERED - FINAL DISPOS",
+    "known": true,
+    "disposition_date": "2026-08-12",
+    "award": null,
+    "plaintiffs": [
+      "US BANK TRUST NA"
+    ],
+    "defendants": [
+      "J2B HOLDINGS LLC"
+    ],
+    "logged_at": "2026-08-12"
+  },
+  {
+    "case_id": "260200062",
+    "caption": "WILLIAMS VS GRAHAM ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-12",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-12",
+    "award": null,
+    "plaintiffs": [
+      "WILLIAMS, MALCOLM"
+    ],
+    "defendants": [
+      "GRAHAM, TAMYRA",
+      "LEE, JANAE"
+    ],
+    "logged_at": "2026-08-12"
+  },
+  {
+    "case_id": "260103349",
+    "caption": "TWYMAN VS DOE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-12",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-12",
+    "award": null,
+    "plaintiffs": [
+      "TWYMAN, HANA"
+    ],
+    "defendants": [
+      "DOE, JANE",
+      "DOE, JOHN",
+      "ANY AND ALL OCCUPANTS OF 165 NORTH YEWDALL STREET"
+    ],
+    "logged_at": "2026-08-12"
+  },
+  {
+    "case_id": "250503682",
+    "caption": "OWENS VS CROSBY ET AL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-08-11",
+    "category": "Judgment",
+    "status": "ORDER ENTERED - FINAL DISPOS",
+    "known": true,
+    "disposition_date": "2026-08-12",
+    "award": null,
+    "plaintiffs": [
+      "OWENS, GWENDOLYN"
+    ],
+    "defendants": [
+      "CROSBY, EARNESTINE",
+      "HART, DIVANTE"
+    ],
+    "logged_at": "2026-08-12"
+  },
+  {
+    "case_id": "260201007",
+    "caption": "CITIMORTGAGE, INC. VS DOE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-12",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMNT",
+    "known": false,
+    "disposition_date": "2026-08-11",
+    "award": null,
+    "plaintiffs": [
+      "CITIMORTGAGE INC"
+    ],
+    "defendants": [
+      "DOE, JOHN",
+      "TENANTS/OCCUPANTS",
+      "WEINSTEIN, RICHARD F"
+    ],
+    "logged_at": "2026-08-12"
+  },
+  {
+    "case_id": "250700101",
+    "caption": "GOODING VS LEE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-12",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-08-10",
+    "award": null,
+    "plaintiffs": [
+      "GOODING, FRANCES"
+    ],
+    "defendants": [
+      "LEE, NAIRAH",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-08-12"
+  },
+  {
     "case_id": "240700492",
     "caption": "DUKES VS MILITARY SERVICES LLC ETAL",
     "case_type": "EQUITY - REAL ESTATE",
@@ -17,6 +132,26 @@
       "MILBOURNE, VICTOR"
     ],
     "logged_at": "2026-08-10"
+  },
+  {
+    "case_id": "240302043",
+    "caption": "TOWD POINT MORTGAGE TRUST VS CHEN ET AL",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-08-12",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMNT",
+    "known": false,
+    "disposition_date": "2026-08-10",
+    "award": "$153,929.69",
+    "plaintiffs": [
+      "TOWD POINT MORTGAGE TRUST 2020-3 US BANK NATIONAL"
+    ],
+    "defendants": [
+      "CHEN, XIAOFENG",
+      "UNKNOWN HEIRS SUCCESSORS ASSIGNS AND ALL PERSONS FIRMS OR",
+      "VUONG, ROSEN"
+    ],
+    "logged_at": "2026-08-12"
   },
   {
     "case_id": "250600422",
