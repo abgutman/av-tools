@@ -247,9 +247,9 @@
     "trial_date": "2026-07-27",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "HELD UNDER ADVISEMENT",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240501181": {
@@ -347,18 +347,20 @@
     "trial_date": "2026-08-13",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250703446": {
     "caption": "GERMANTOWN MASJID INC VS JAMES",
     "trial_date": "2026-08-13",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241203252": {
     "caption": "HIGHER LINK LEARNING CHRISTIAN ACADEMY VS NEW BETH",
@@ -1517,6 +1519,33 @@
     "trial_date": "2026-10-27",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-10",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240800150": {
+    "caption": "WINT VS DIALLO ETAL",
+    "trial_date": "2026-09-11",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-08-13",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240203248": {
+    "caption": "BROWN VS DUPPINS ETAL",
+    "trial_date": "2026-09-21",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-08-13",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250200899": {
+    "caption": "D'ALFONSO VS KAUR-JOSAN",
+    "trial_date": "2026-10-05",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-08-13",
     "last_status": "",
     "reported": false,
     "retired": false

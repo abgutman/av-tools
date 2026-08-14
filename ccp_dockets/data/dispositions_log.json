@@ -1,5 +1,26 @@
 [
   {
+    "case_id": "231100914",
+    "caption": "HALKIDIS ETAL VS NORTH AMERICAN STREET DEVELOPMENT",
+    "case_type": "EQUITY - REAL ESTATE",
+    "trial_date": "2026-07-27",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-13",
+    "award": "$7,154.68",
+    "plaintiffs": [
+      "HALKIDIS, THEODOROS",
+      "HALKIDIS, VIRGINIA"
+    ],
+    "defendants": [
+      "NORTH AMERICAN STREET DEVELOPMENT LLC",
+      "GATOR IRONWORKS LLC",
+      "DORNELAS CONSTRUCTION INC"
+    ],
+    "logged_at": "2026-08-13"
+  },
+  {
     "case_id": "260201150",
     "caption": "US BANK TRUST N.A. VS J2B HOLDINGS",
     "case_type": "EJECTMENT",
