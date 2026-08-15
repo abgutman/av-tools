@@ -257,9 +257,9 @@
     "trial_date": "2026-07-28",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "231102401": {
@@ -267,9 +267,9 @@
     "trial_date": "2026-07-29",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "231102013": {
@@ -297,9 +297,9 @@
     "trial_date": "2026-08-05",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "200701885": {
@@ -307,9 +307,9 @@
     "trial_date": "2026-08-07",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240700492": {
@@ -347,9 +347,9 @@
     "trial_date": "2026-08-13",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250703446": {
@@ -357,9 +357,9 @@
     "trial_date": "2026-08-13",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241203252": {
@@ -367,9 +367,10 @@
     "trial_date": "2026-08-14",
     "case_type": "EQUITY - NO REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240701071": {
     "caption": "KHAN VS FARMERS INSURANCE EXCHANGE ETAL",
@@ -1060,9 +1061,9 @@
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260200062": {
@@ -1546,6 +1547,15 @@
     "trial_date": "2026-10-05",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-08-13",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250101140": {
+    "caption": "BLUEBIRD LENDING I, LLC VS IM-UL ETAL",
+    "trial_date": "2026-09-29",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-08-14",
     "last_status": "",
     "reported": false,
     "retired": false

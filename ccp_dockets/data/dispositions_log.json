@@ -1,5 +1,137 @@
 [
   {
+    "case_id": "260103811",
+    "caption": "TORRES VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-12",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-14",
+    "award": null,
+    "plaintiffs": [
+      "TORRES, MAXIMO"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-08-14"
+  },
+  {
+    "case_id": "250703446",
+    "caption": "GERMANTOWN MASJID INC VS JAMES",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-08-13",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-14",
+    "award": null,
+    "plaintiffs": [
+      "GERMANTOWN MASJID INC"
+    ],
+    "defendants": [
+      "JAMES, AARON JAMES"
+    ],
+    "logged_at": "2026-08-14"
+  },
+  {
+    "case_id": "250701825",
+    "caption": "JAMES VS. GERMANTOWN MASJID INC",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-08-13",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-14",
+    "award": null,
+    "plaintiffs": [
+      "JAMES, AARON"
+    ],
+    "defendants": [
+      "GERMANTOWN MASJID INC"
+    ],
+    "logged_at": "2026-08-14"
+  },
+  {
+    "case_id": "250303640",
+    "caption": "CCPA AUTO LEASE LTD VS SUPERIOR AUTOMOTIVE OF PHI",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-08-05",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-14",
+    "award": null,
+    "plaintiffs": [
+      "CCPA AUTO LEASE LTD"
+    ],
+    "defendants": [
+      "SUPERIOR AUTOMOTIVE OF PHILADELPHIA"
+    ],
+    "logged_at": "2026-08-14"
+  },
+  {
+    "case_id": "240501181",
+    "caption": "GUILLERMO VS WOOTEN ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-07-28",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-14",
+    "award": null,
+    "plaintiffs": [
+      "GUILLERMO, ROSA B"
+    ],
+    "defendants": [
+      "WOOTEN, MICHAEL",
+      "ALL OCCUPANTS"
+    ],
+    "logged_at": "2026-08-14"
+  },
+  {
+    "case_id": "231102401",
+    "caption": "JIN VS ABDULLAH ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-07-29",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-14",
+    "award": null,
+    "plaintiffs": [
+      "JIN, JIZHE"
+    ],
+    "defendants": [
+      "ABDULLAH, AISHA",
+      "IMMEKIDS C/O AISHA ABDULLAH",
+      "DALONZO, CATHLEEN",
+      "COLE, ELAINE ANNEMARIE"
+    ],
+    "logged_at": "2026-08-14"
+  },
+  {
+    "case_id": "200701885",
+    "caption": "COMM LAND TITLE INS CO VS MARCELUS, ETAL",
+    "case_type": "REAL PROPERTY - OTHER",
+    "trial_date": "2026-08-07",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-08-14",
+    "award": "$66,229.25",
+    "plaintiffs": [
+      "COMMONWEALTH LAND TITLE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "REDEFINED DEVELOPMENT LLC",
+      "MARCELUS, JACLAIN",
+      "FLEURIDOR, JEAN"
+    ],
+    "logged_at": "2026-08-14"
+  },
+  {
     "case_id": "231100914",
     "caption": "HALKIDIS ETAL VS NORTH AMERICAN STREET DEVELOPMENT",
     "case_type": "EQUITY - REAL ESTATE",
