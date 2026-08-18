@@ -1,74 +1,23 @@
 {
   "meta": {
-    "scraped_at": "2026-08-17T03:54:12 EDT",
+    "scraped_at": "2026-08-18T03:38:56 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-08-17",
-      "end": "2026-12-15"
+      "start": "2026-08-18",
+      "end": "2026-12-16"
     },
     "counts": {
-      "CM": 383,
-      "MJ": 107,
-      "total": 490
+      "CM": 387,
+      "MJ": 104,
+      "total": 491
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "240701023",
-      "caption": "HARRELL VS ZAHOUR ETAL",
-      "raw_date": "17-AUG-2026",
-      "iso_date": "2026-08-17",
-      "time": "09:00 AM",
-      "room": "Courtroom 650",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "PREMISES LIABILITY, SLIP/FALL",
-      "attorneys": "ROBERT JONES (Attorney For Defendant); LOUIS B. HIMMELSTEIN (Attorney For Plaintiff); MARK C. WESOSKI (Attorney For Plaintiff); JONATHAN M. KAMINSKY (Judge Pro Tempore)",
-      "trial_days": "2"
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "260601978",
-      "caption": "SIEGER VS TREGEA",
-      "raw_date": "17-AUG-2026",
-      "iso_date": "2026-08-17",
-      "time": "10:00 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "MUNICIPAL COURT APPEAL",
-      "case_type": "MC - SUPPLEMENTAL ORDER",
-      "attorneys": "",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "260801524",
-      "caption": "WRIGHT VS DVIR 48 LLC",
-      "raw_date": "17-AUG-2026",
-      "iso_date": "2026-08-17",
-      "time": "10:00 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "MAJOR NON JURY",
-      "case_type": "EQUITY - REAL ESTATE",
-      "attorneys": "",
-      "trial_days": ""
-    },
     {
       "program": "CM",
       "program_label": "Civil Motions",
@@ -463,8 +412,8 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
-      "case_id": "2511T0019",
-      "caption": "CITY OF PHILADELPHIA VS SCHEXNAYDER ETAL",
+      "case_id": "2511T0101",
+      "caption": "CITY OF PHILADELPHIA VS ONAS (QUILLIN) ETAL",
       "raw_date": "18-AUG-2026",
       "iso_date": "2026-08-18",
       "time": "09:30 AM",
@@ -474,7 +423,7 @@
       "judge": "CHRISTOPHER HALL",
       "court_type": "REAL ESTATE TAX LIEN PETITION",
       "case_type": "REAL ESTATE TAX LIEN PETITION",
-      "attorneys": "SHOBA BABU (Attorney For Petitioner); JAMES J. ZWOLAK (Attorney For Plaintiff)",
+      "attorneys": "JAMES J. ZWOLAK (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -570,7 +519,7 @@
       "raw_date": "18-AUG-2026",
       "iso_date": "2026-08-18",
       "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
+      "room": "Courtroom 483",
       "location": "City Hall",
       "event_type": "",
       "judge": "",
@@ -587,30 +536,13 @@
       "raw_date": "18-AUG-2026",
       "iso_date": "2026-08-18",
       "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
+      "room": "Courtroom 453",
       "location": "City Hall",
       "event_type": "",
       "judge": "",
       "court_type": "Major Non-Jury",
       "case_type": "WRONGFUL USE OF CIVIL PROCESS",
       "attorneys": "GLEN MORRIS (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "220600228",
-      "caption": "M&T BANK VS ROBERTSON ETAL",
-      "raw_date": "18-AUG-2026",
-      "iso_date": "2026-08-18",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Mortgage Foreclosure",
-      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
-      "attorneys": "ALAN R. ZIBELMAN (Attorney For Defendant); GERALDINE M. LINN (Attorney For Plaintiff); STEPHANIE A. WALCZAK (Attorney For Plaintiff); TYLER J. SMITH (Attorney For Plaintiff)",
       "trial_days": "1"
     },
     {
@@ -1039,23 +971,6 @@
       "trial_days": ""
     },
     {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "240702486",
-      "caption": "HALL VS BAYNES ETAL",
-      "raw_date": "19-AUG-2026",
-      "iso_date": "2026-08-19",
-      "time": "09:00 AM",
-      "room": "Courtroom Unassigned",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "THOMAS J. GIARDINA (Attorney For Defendant); FRANK MILILLO (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
-    {
       "program": "CM",
       "program_label": "Civil Motions",
       "case_id": "250400247",
@@ -1258,6 +1173,23 @@
       "case_type": "EJECTMENT",
       "attorneys": "",
       "trial_days": "1"
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260501364",
+      "caption": "MD SHARIFUL ISLAM VS LEWIS",
+      "raw_date": "19-AUG-2026",
+      "iso_date": "2026-08-19",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - LANDLORD/TENANT",
+      "attorneys": "",
+      "trial_days": ""
     },
     {
       "program": "CM",
@@ -1545,6 +1477,23 @@
       "judge": "CHRISTOPHER HALL",
       "court_type": "PETITIONS",
       "case_type": "MISCELLANEOUS PETITION",
+      "attorneys": "JOSEPH D. RUTALA (Attorney For Petitioner)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260701313",
+      "caption": "MERITIS GROUP LLC VS YANBORISOB",
+      "raw_date": "20-AUG-2026",
+      "iso_date": "2026-08-20",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
       "attorneys": "",
       "trial_days": ""
     },
@@ -1682,23 +1631,6 @@
       "court_type": "AGENCY APPEAL",
       "case_type": "MISC ADMINISTRATIVE AGENCY",
       "attorneys": "KYLE APPLEGATE (Attorney - Agency); MARGOT B. SMITH (Attorney For Appellee); OMAR J. RABADY (Attorney For Appellee)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "260103541",
-      "caption": "IN RE: APPEAL OF SEIBERLING, MARK",
-      "raw_date": "20-AUG-2026",
-      "iso_date": "2026-08-20",
-      "time": "09:30 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "ORAL ARGUMENT",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "AGENCY APPEAL",
-      "case_type": "MISC ADMINISTRATIVE AGENCY",
-      "attorneys": "KYLE APPLEGATE (Attorney - Agency); SARAH MARTINEZ (Attorney For Appellee); BETHANY ONEILL (Attorney For Appellee); FRANCIS G. NOTARIANNI (Attorney For Appellant)",
       "trial_days": ""
     },
     {
@@ -2293,7 +2225,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MAJOR NON JURY STANDARD",
       "case_type": "QUIET TITLE",
-      "attorneys": "SCOTT T. EARLE (Attorney For Petitioner); LOPEZ T. THOMPSON (Attorney For Plaintiff)",
+      "attorneys": "MARC W. BROWN (Attorney For Defendant); SCOTT T. EARLE (Attorney For Petitioner); LOPEZ T. THOMPSON (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -2707,6 +2639,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "251101609",
+      "caption": "CASCADE FUNDING MORTGAGE TRUST HB7 VS AND/OR ANY A",
+      "raw_date": "26-AUG-2026",
+      "iso_date": "2026-08-26",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "DANIELLE M. DILEVA (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "260501923",
       "caption": "PHILA HOUSING AUTHORITY VS LEE ETAL",
       "raw_date": "26-AUG-2026",
@@ -2726,6 +2675,23 @@
       "program_label": "Civil Motions",
       "case_id": "260801267",
       "caption": "ST MARY SWEET HOME LLC VS SHORTER",
+      "raw_date": "26-AUG-2026",
+      "iso_date": "2026-08-26",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260802169",
+      "caption": "NIKAN VS JACKSON SR. ETAL",
       "raw_date": "26-AUG-2026",
       "iso_date": "2026-08-26",
       "time": "01:30 PM",
@@ -3421,6 +3387,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "230301008",
+      "caption": "NATIONSTAR MORTGAGE LLC VS THORNTON ETAL",
+      "raw_date": "28-AUG-2026",
+      "iso_date": "2026-08-28",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "ROBERT FLACCO (Attorney For Plaintiff); JOHN G. SIMOLIKE (Attorney For Plaintiff); KAYLEIGH ZERON (Attorney For Plaintiff); NICOLE RIZZO (Attorney For Plaintiff); LEAH D. ZAWASKY (Attorney For Plaintiff); DANIELLE DREIER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "251100162",
       "caption": "COMMONWEALTH OF PA OFFICE OF ATTORNEY GENERAL VS A",
       "raw_date": "28-AUG-2026",
@@ -4045,6 +4028,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
       "attorneys": "LOUIS S. SCHWARTZ (Attorney For Defendant); GREGORY JAVARDIAN (Attorney For Plaintiff); BRIAN H. SMITH (Attorney For Plaintiff); MICHAEL A. PELLEGRINO (Attorney For Plaintiff); BROOKE WOODWARD. BUCHAN (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "240800681",
+      "caption": "THE BANK OF NEW YORK MELLON VS UNKNOWN HEIRS OF GR",
+      "raw_date": "28-AUG-2026",
+      "iso_date": "2026-08-28",
+      "time": "12:00 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "HEATHER S. RILOFF (Attorney For Plaintiff); ROGER FAY (Attorney For Plaintiff); MEHMET BASOGLU (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -5319,7 +5319,7 @@
       "judge": "",
       "court_type": "Major Non-Jury",
       "case_type": "QUIET TITLE",
-      "attorneys": "SCOTT T. EARLE (Attorney For Petitioner); LOPEZ T. THOMPSON (Attorney For Plaintiff)",
+      "attorneys": "MARC W. BROWN (Attorney For Defendant); SCOTT T. EARLE (Attorney For Petitioner); LOPEZ T. THOMPSON (Attorney For Plaintiff)",
       "trial_days": "1"
     },
     {
@@ -5867,6 +5867,23 @@
       "trial_days": ""
     },
     {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260103541",
+      "caption": "IN RE: APPEAL OF SEIBERLING, MARK",
+      "raw_date": "16-SEP-2026",
+      "iso_date": "2026-09-16",
+      "time": "09:30 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "ORAL ARGUMENT",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "AGENCY APPEAL",
+      "case_type": "MISC ADMINISTRATIVE AGENCY",
+      "attorneys": "KYLE APPLEGATE (Attorney - Agency); SARAH MARTINEZ (Attorney For Appellee); BETHANY ONEILL (Attorney For Appellee); FRANCIS G. NOTARIANNI (Attorney For Appellant)",
+      "trial_days": ""
+    },
+    {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
       "case_id": "241102748",
@@ -6052,23 +6069,6 @@
       "case_type": "CONTRACTS OTHER",
       "attorneys": "NICOLE E. COLLINS (Attorney For Plaintiff); KIRSTEN R. ARMSTRONG (Attorney For Plaintiff); ERIN R. GRADY (Attorney For Plaintiff); SETH J. HOJNACKI (Attorney For Plaintiff); SEAN T. RIEGER (Attorney For Plaintiff)",
       "trial_days": ""
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "240203248",
-      "caption": "BROWN VS DUPPINS ETAL",
-      "raw_date": "21-SEP-2026",
-      "iso_date": "2026-09-21",
-      "time": "09:00 AM",
-      "room": "Courtroom Unassigned",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "THERESA M. MULLANEY (Attorney For Defendant); MATTHEW J. NOBLE (Attorney For Defendant); CAROLYN M. SCHWEIZER (Attorney For Defendant); CHRISTIAN A. WEIMANN (Attorney For Defendant); NICOLA F. SERIANNI (Attorney For Plaintiff)",
-      "trial_days": "3"
     },
     {
       "program": "MJ",
@@ -6850,6 +6850,23 @@
       "court_type": "PETITIONS",
       "case_type": "MISCELLANEOUS PETITION",
       "attorneys": "ROBERT M. SAKOVICH (Attorney For Petitioner); MATTHEW PERKS (Attorney For Respondent)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "240503574",
+      "caption": "SHELTON VS CARIDAD ORTEGA GONZALEZ",
+      "raw_date": "02-OCT-2026",
+      "iso_date": "2026-10-02",
+      "time": "12:00 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "JUDGMENTS",
+      "case_type": "CERTIFIED/EXEMPLIFIED JUDGMENT",
+      "attorneys": "ANDREW ROMAN. PERRONG (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -7960,23 +7977,6 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
-      "case_id": "241001550",
-      "caption": "U.S. BANK NATIONAL ASSOCIATION, ET. AL. VS SHY SUC",
-      "raw_date": "19-OCT-2026",
-      "iso_date": "2026-10-19",
-      "time": "09:30 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "MORTGAGE FORECLOSURE",
-      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
-      "attorneys": "STEVEN P. KELLY (Attorney For Plaintiff); JESSICA N. MANIS (Attorney For Plaintiff); MATTHEW C. FALLINGS (Attorney For Plaintiff); CAROLINE P. HELTON (Attorney For Plaintiff); PAMELA HARRIS-WILLIAMS (Attorney For Respondent)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
       "case_id": "251102456",
       "caption": "MIDFIRST BANK VS GILLARD ETAL",
       "raw_date": "19-OCT-2026",
@@ -8160,6 +8160,23 @@
       "case_type": "EQUITY - REAL ESTATE",
       "attorneys": "MATTHEW S. OLESH (Attorney For Plaintiff)",
       "trial_days": ""
+    },
+    {
+      "program": "MJ",
+      "program_label": "Trial Dates Certain",
+      "case_id": "231102013",
+      "caption": "DELCODUDES LLC VS 24/7 DESIGN GROUP LLC",
+      "raw_date": "27-OCT-2026",
+      "iso_date": "2026-10-27",
+      "time": "09:30 AM",
+      "room": "Complex Litigation Ctr Rm 622",
+      "location": "City Hall",
+      "event_type": "",
+      "judge": "",
+      "court_type": "Major Non-Jury",
+      "case_type": "MALPRACTICE - MISCELLANEOUS",
+      "attorneys": "JOSEPH F. BOUVIER (Attorney For Defendant); JAMES L. PEARL (Attorney For Defendant); ALAN NOCHUMSON (Attorney For Defendant); NATALIE KLYASHTORNY (Attorney For Defendant); AMANDA J. DOUGHERTY (Attorney For Defendant); JOHN ALEXANDER. HAMILTON (Attorney For Defendant); DYLAN C. BELTRAMI (Attorney For Defendant); JASON L. RABINOVICH (Attorney For Plaintiff); ERIK E. TASKIN (Attorney For Plaintiff)",
+      "trial_days": "2"
     },
     {
       "program": "MJ",
