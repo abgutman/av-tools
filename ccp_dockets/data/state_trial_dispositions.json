@@ -277,7 +277,7 @@
     "trial_date": "2026-08-04",
     "case_type": "MALPRACTICE - MISCELLANEOUS",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR PRE-TRIAL CONF",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -367,9 +367,9 @@
     "trial_date": "2026-08-14",
     "case_type": "EQUITY - NO REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240701071": {
@@ -1222,9 +1222,10 @@
     "trial_date": "2026-08-17",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-07-24",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240702486": {
     "caption": "HALL VS BAYNES ETAL",

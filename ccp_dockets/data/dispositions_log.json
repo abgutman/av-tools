@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "241203252",
+    "caption": "HIGHER LINK LEARNING CHRISTIAN ACADEMY VS NEW BETH",
+    "case_type": "EQUITY - NO REAL ESTATE",
+    "trial_date": "2026-08-14",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-08-17",
+    "award": "$7,861.22",
+    "plaintiffs": [
+      "HIGHER LINK LEARNING CHRISTIAN ACADEMY"
+    ],
+    "defendants": [
+      "NEW BETHLEHEM TEMPLE APOSTOLIC FAIRTH CHURCH INC"
+    ],
+    "logged_at": "2026-08-17"
+  },
+  {
     "case_id": "260103811",
     "caption": "TORRES VS ALL UNKNOWN OCCUPANTS",
     "case_type": "EJECTMENT",
