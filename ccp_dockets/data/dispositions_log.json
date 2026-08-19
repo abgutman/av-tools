@@ -1,5 +1,99 @@
 [
   {
+    "case_id": "260101084",
+    "caption": "WILLIAMS VS BARNES",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-05",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-08-18",
+    "award": null,
+    "plaintiffs": [
+      "WILLIAMS, DARRYL"
+    ],
+    "defendants": [
+      "BARNES, SHAWN"
+    ],
+    "logged_at": "2026-08-18"
+  },
+  {
+    "case_id": "251203345",
+    "caption": "HARPER VS KEMP",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-05",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-18",
+    "award": null,
+    "plaintiffs": [
+      "HARPER, MARQUIS"
+    ],
+    "defendants": [
+      "KEMP, RODNEY",
+      "PROCTOR, CILICIA",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-08-18"
+  },
+  {
+    "case_id": "251103098",
+    "caption": "KAMARA VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-05",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-18",
+    "award": null,
+    "plaintiffs": [
+      "KAMARA, LANSANA"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-08-18"
+  },
+  {
+    "case_id": "251001004",
+    "caption": "SEC., HOUSING & URBAN DEVELOPMENT VS DOE",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-05",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-08-18",
+    "award": null,
+    "plaintiffs": [
+      "SECRETARY OF HOUSING AND URBAN DEVELOPMENT"
+    ],
+    "defendants": [
+      "DOE, JOHN",
+      "AND/OR ANY AND ALL CURRENT OCCUPANTS",
+      "SMITH, JEFFREY"
+    ],
+    "logged_at": "2026-08-18"
+  },
+  {
+    "case_id": "251000037",
+    "caption": "MILLAN REAL ESTATE LLC VS UNKNOWN",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-05",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-08-18",
+    "award": null,
+    "plaintiffs": [
+      "MILLAN REAL ESTATE LLC"
+    ],
+    "defendants": [
+      "UNKNOWN, UNKNOWN"
+    ],
+    "logged_at": "2026-08-18"
+  },
+  {
     "case_id": "241203252",
     "caption": "HIGHER LINK LEARNING CHRISTIAN ACADEMY VS NEW BETH",
     "case_type": "EQUITY - NO REAL ESTATE",
@@ -128,6 +222,25 @@
       "COLE, ELAINE ANNEMARIE"
     ],
     "logged_at": "2026-08-14"
+  },
+  {
+    "case_id": "220600228",
+    "caption": "M&T BANK VS ROBERTSON ETAL",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-08-18",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMNT",
+    "known": false,
+    "disposition_date": "2026-08-14",
+    "award": "$458,683.65",
+    "plaintiffs": [
+      "M&T BANK"
+    ],
+    "defendants": [
+      "ROBERTSON, TIMOTHY",
+      "WELLS, ANTOINISHA"
+    ],
+    "logged_at": "2026-08-18"
   },
   {
     "case_id": "200701885",

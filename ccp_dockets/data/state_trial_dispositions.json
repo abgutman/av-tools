@@ -94,9 +94,10 @@
     "trial_date": "2026-08-18",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241202625": {
     "caption": "PNC BANK, NATIONAL ASSOCIATION VS MARSHALL",
@@ -377,18 +378,20 @@
     "trial_date": "2026-08-18",
     "case_type": "BAD FAITH",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250701642": {
     "caption": "MORRIS VS TRINH ETAL",
     "trial_date": "2026-08-18",
     "case_type": "WRONGFUL USE OF CIVIL PROCESS",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250303413": {
     "caption": "KINNIBREW VS BIGELOW ETAL",
@@ -773,9 +776,10 @@
     "trial_date": "2026-08-18",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT ENTERED BY AGREEMNT",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "240601627": {
     "caption": "NATIONSTAR MORTGAGE LLC VS TRAN",
@@ -931,7 +935,7 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED RULE RETURNABLE DATE",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -941,9 +945,9 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT OF NON PROS ENTERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251001004": {
@@ -951,9 +955,9 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251002290": {
@@ -961,7 +965,7 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED RULE RETURNABLE DATE",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -981,9 +985,9 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251203345": {
@@ -991,9 +995,9 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260101084": {
@@ -1001,9 +1005,9 @@
     "trial_date": "2026-08-05",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT OF NON PROS ENTERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260102945": {
@@ -1051,7 +1055,7 @@
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "CASE RESCHEDULED BY COURT",
+    "last_status": "LISTED-PROJ. SETTLEMENT CONF.",
     "reported": false,
     "retired": false,
     "_polled_before": true
