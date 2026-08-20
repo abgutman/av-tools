@@ -786,9 +786,10 @@
     "trial_date": "2026-08-19",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240202566": {
     "caption": "MIDFIRST BANK VS RYBIN ETAL",
@@ -1125,81 +1126,90 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260201558": {
     "caption": "DEININGER VS GONZALEZ ETAL",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAECIPE TO DISCONTINUE",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260202066": {
     "caption": "BEY, ADMIN ESTATE JOS. HOLDER VS UNKNOWN OCCUPANTS",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260202073": {
     "caption": "BEY, ADMIN ESTATE JOS. HOLDER VS THOMAS ET AL",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260202075": {
     "caption": "BEY, ADMIN ESTATE JOS. HOLDER VS LEAKE ET AL",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260202090": {
     "caption": "BEY, ADMIN ESTATE JOS. HOLDER VS LEAKE ET AL",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260202152": {
     "caption": "MAHADI VS ANDREWS",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260202248": {
     "caption": "CASCADE FUNDING MORTGAGE VS MILLER ETAL",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260203089": {
     "caption": "HUFF VS OUTLAW ETAL",
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240902308": {
     "caption": "FULLEN ETAL VS EPPIHIMER",
@@ -1226,9 +1236,9 @@
     "trial_date": "2026-08-17",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-07-24",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240702486": {
@@ -1236,9 +1246,10 @@
     "trial_date": "2026-08-19",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-24",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "241001293": {
     "caption": "LAWTON ETAL VS LAWTON ETAL",
@@ -1561,6 +1572,15 @@
     "trial_date": "2026-09-29",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-08-14",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "170104504": {
+    "caption": "MOORE ETAL VS JOHNSON & JOHNSON ETAL",
+    "trial_date": "2026-11-02",
+    "case_type": "MT - J&J TALC POWDER (OVARIAN)",
+    "first_seen": "2026-08-19",
     "last_status": "",
     "reported": false,
     "retired": false

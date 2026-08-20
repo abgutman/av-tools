@@ -1,5 +1,25 @@
 [
   {
+    "case_id": "240701023",
+    "caption": "HARRELL VS ZAHOUR ETAL",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "trial_date": "2026-08-17",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-08-19",
+    "award": null,
+    "plaintiffs": [
+      "HARRELL, JAMEELAH"
+    ],
+    "defendants": [
+      "ZAHOUR, HAJIBA",
+      "CITY OF PHILADELPHIA",
+      "DOE, JOHN"
+    ],
+    "logged_at": "2026-08-19"
+  },
+  {
     "case_id": "260101084",
     "caption": "WILLIAMS VS BARNES",
     "case_type": "EJECTMENT",
@@ -110,6 +130,26 @@
       "NEW BETHLEHEM TEMPLE APOSTOLIC FAIRTH CHURCH INC"
     ],
     "logged_at": "2026-08-17"
+  },
+  {
+    "case_id": "240702486",
+    "caption": "HALL VS BAYNES ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-08-19",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-08-17",
+    "award": null,
+    "plaintiffs": [
+      "HALL, RON"
+    ],
+    "defendants": [
+      "BAYNES, RILAJAH",
+      "DOE I, JOHN",
+      "DOE II, JOHN"
+    ],
+    "logged_at": "2026-08-19"
   },
   {
     "case_id": "260103811",
@@ -573,6 +613,25 @@
     "logged_at": "2026-08-03"
   },
   {
+    "case_id": "260202248",
+    "caption": "CASCADE FUNDING MORTGAGE VS MILLER ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-07-31",
+    "award": null,
+    "plaintiffs": [
+      "CASCADE FUNDING MORTGAGE TRUST HB15"
+    ],
+    "defendants": [
+      "MILLER, ALLISON M",
+      "OCCUPANT, TENANT"
+    ],
+    "logged_at": "2026-08-19"
+  },
+  {
     "case_id": "250102621",
     "caption": "COFFEE VS PAFRACP ET AL",
     "case_type": "MOTOR VEHICLE ACCIDENT",
@@ -787,5 +846,25 @@
       "AUTREY, MARCELLUS"
     ],
     "logged_at": "2026-07-28"
+  },
+  {
+    "case_id": "260201558",
+    "caption": "DEININGER VS GONZALEZ ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Discontinuance",
+    "status": "PRAECIPE TO DISCONTINUE",
+    "known": true,
+    "disposition_date": "2026-07-24",
+    "award": null,
+    "plaintiffs": [
+      "DEININGER, KAYLA SOPHIA"
+    ],
+    "defendants": [
+      "GONZALEZ, VICTOR",
+      "ARZOLA, JAVIER",
+      "GONZALEZ, SONIA E"
+    ],
+    "logged_at": "2026-08-19"
   }
 ]
