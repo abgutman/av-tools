@@ -12,6 +12,13 @@
       "label": "Philadelphia Sheriff",
       "rows": [
         {
+          "case_id": "260802892",
+          "caption": "DHEER VS PHILADELPHIA SHERIFF?S OFFICE ETAL",
+          "filing_date": "2026-08-21",
+          "matched_name": "PHILADELPHIA SHERIFF?S OFFICE",
+          "roles": "DEFENDANT"
+        },
+        {
           "case_id": "260802793",
           "caption": "ADAMS VS PHILADELPHIA SHERIFF?S OFFICE ETAL",
           "filing_date": "2026-08-20",
@@ -44,6 +51,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-08-21 09:56 EDT",
+  "generated_at": "2026-08-21 10:48 EDT",
   "window_days": 14
 }
