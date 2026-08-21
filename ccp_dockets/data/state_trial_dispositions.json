@@ -388,9 +388,9 @@
     "trial_date": "2026-08-18",
     "case_type": "WRONGFUL USE OF CIVIL PROCESS",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250303413": {
@@ -786,9 +786,9 @@
     "trial_date": "2026-08-19",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT ENTERED BY AGREEMENT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240202566": {
@@ -796,9 +796,10 @@
     "trial_date": "2026-08-20",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "WAITING TO ENTER WORKSHEET",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250300854": {
     "caption": "WILLARD STREET CAPITAL VS STARVEST REALTY LLC",
@@ -1206,7 +1207,7 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1581,6 +1582,15 @@
     "trial_date": "2026-11-02",
     "case_type": "MT - J&J TALC POWDER (OVARIAN)",
     "first_seen": "2026-08-19",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "220300429": {
+    "caption": "PARKER ETAL VS SYNGENTA CROP PROTECTION, LLC ETAL",
+    "trial_date": "2026-11-02",
+    "case_type": "MT - PARAQUAT PRODUCTS",
+    "first_seen": "2026-08-20",
     "last_status": "",
     "reported": false,
     "retired": false

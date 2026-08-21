@@ -1,5 +1,43 @@
 [
   {
+    "case_id": "250701642",
+    "caption": "MORRIS VS TRINH ETAL",
+    "case_type": "WRONGFUL USE OF CIVIL PROCESS",
+    "trial_date": "2026-08-18",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-20",
+    "award": "$96,300.00",
+    "plaintiffs": [
+      "MORRIS, GLEN R"
+    ],
+    "defendants": [
+      "TRINH, LAN TU",
+      "HO, THANH"
+    ],
+    "logged_at": "2026-08-20"
+  },
+  {
+    "case_id": "240601627",
+    "caption": "NATIONSTAR MORTGAGE LLC VS TRAN",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-08-19",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMENT",
+    "known": true,
+    "disposition_date": "2026-08-20",
+    "award": "$518,584.82",
+    "plaintiffs": [
+      "NATIONSTAR MORTGAGE LLC",
+      "US BANK TRUST NA SOLELY OWNER TEE RCAF ACQUISITION TRUST"
+    ],
+    "defendants": [
+      "TRAN, RAY"
+    ],
+    "logged_at": "2026-08-20"
+  },
+  {
     "case_id": "240701023",
     "caption": "HARRELL VS ZAHOUR ETAL",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
