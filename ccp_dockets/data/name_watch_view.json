@@ -15,7 +15,7 @@
           "case_id": "260802793",
           "caption": "ADAMS VS PHILADELPHIA SHERIFF?S OFFICE ETAL",
           "filing_date": "2026-08-20",
-          "matched_name": "PHILADELPHIA SHERIFF?S OFFICE",
+          "matched_name": "PHILADELPHIA SHERIFFS OFFICE",
           "roles": "DEFENDANT"
         },
         {
@@ -44,6 +44,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-08-21 09:05 EDT",
+  "generated_at": "2026-08-21 09:56 EDT",
   "window_days": 14
 }
