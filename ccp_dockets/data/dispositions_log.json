@@ -1,5 +1,24 @@
 [
   {
+    "case_id": "250300854",
+    "caption": "WILLARD STREET CAPITAL VS STARVEST REALTY LLC",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "trial_date": "2026-08-21",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMENT",
+    "known": true,
+    "disposition_date": "2026-08-21",
+    "award": "$230,885.03",
+    "plaintiffs": [
+      "WILLARD STREET CAPITAL LLC"
+    ],
+    "defendants": [
+      "STARVEST REALTY LLC",
+      "HUNT, TYLER"
+    ],
+    "logged_at": "2026-08-21"
+  },
+  {
     "case_id": "250701642",
     "caption": "MORRIS VS TRINH ETAL",
     "case_type": "WRONGFUL USE OF CIVIL PROCESS",
