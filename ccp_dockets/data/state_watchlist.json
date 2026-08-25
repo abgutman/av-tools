@@ -463,8 +463,8 @@
     }
   },
   "260800873": {
-    "sig": "9|11-AUG-2026|CITY CHARGE SUBSEQUENT FILINGS",
-    "entry_count": 9,
+    "sig": "13|24-AUG-2026|AFFIDAVIT OF SERVICE FILED",
+    "entry_count": 13,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -615,15 +615,39 @@
           "time": "12:26 PM",
           "type": "CITY CHARGE SUBSEQUENT FILINGS",
           "party": "MCDERMOTT, ANNE"
+        },
+        {
+          "date": "24-AUG-2026",
+          "time": "10:09 AM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "STANDER, BRETT E"
+        },
+        {
+          "date": "24-AUG-2026",
+          "time": "10:18 AM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "STANDER, BRETT E"
+        },
+        {
+          "date": "24-AUG-2026",
+          "time": "10:20 AM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "STANDER, BRETT E"
+        },
+        {
+          "date": "24-AUG-2026",
+          "time": "10:22 AM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "STANDER, BRETT E"
         }
       ],
       "last_entry": {
-        "date": "11-AUG-2026",
-        "time": "12:26 PM",
-        "type": "CITY CHARGE SUBSEQUENT FILINGS",
-        "party": "MCDERMOTT, ANNE"
+        "date": "24-AUG-2026",
+        "time": "10:22 AM",
+        "type": "AFFIDAVIT OF SERVICE FILED",
+        "party": "STANDER, BRETT E"
       },
-      "entry_count": 9
+      "entry_count": 13
     }
   }
 }
