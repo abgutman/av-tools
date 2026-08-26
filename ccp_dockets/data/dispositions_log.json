@@ -1,5 +1,24 @@
 [
   {
+    "case_id": "250102399",
+    "caption": "AMERICAN EXPRESS NATIONAL BANK VS THOMAS ETAL",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-08-25",
+    "category": "Default judgment",
+    "status": "JUDGMENT BY DEFAULT/FINAL DISP",
+    "known": false,
+    "disposition_date": "2026-08-24",
+    "award": "$10,078.02",
+    "plaintiffs": [
+      "AMERICAN EXPRESS NATIONAL BANK"
+    ],
+    "defendants": [
+      "THOMAS, BEVERLY",
+      "ANOINTED FLAVORS LEARNING CENTER LLC"
+    ],
+    "logged_at": "2026-08-25"
+  },
+  {
     "case_id": "250300854",
     "caption": "WILLARD STREET CAPITAL VS STARVEST REALTY LLC",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",

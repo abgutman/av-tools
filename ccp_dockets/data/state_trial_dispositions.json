@@ -84,7 +84,7 @@
     "trial_date": "2026-08-07",
     "case_type": "CONTRACTS (GOODS), ENFORCE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -104,18 +104,20 @@
     "trial_date": "2026-08-25",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250102399": {
     "caption": "AMERICAN EXPRESS NATIONAL BANK VS THOMAS ETAL",
     "trial_date": "2026-08-25",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT BY DEFAULT/FINAL DISP",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "241100999": {
     "caption": "WILLIAMS VS FERNANDEZ ETAL",
@@ -398,27 +400,30 @@
     "trial_date": "2026-08-25",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250602108": {
     "caption": "ESTATE OF JAMES JOHNSON ETAL VS JOHNSON",
     "trial_date": "2026-08-25",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250602715": {
     "caption": "LA TORRE VS BONILLA",
     "trial_date": "2026-08-25",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250401694": {
     "caption": "CBS SUPPLY, LLC VS TUAN ETAL",
@@ -816,18 +821,20 @@
     "trial_date": "2026-08-25",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "220202382": {
     "caption": "MORTGAGE ASSETS MANAGEMENT VS RAGIN, ET AL",
     "trial_date": "2026-08-25",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "220701999": {
     "caption": "MORTGAGE ASSETS MANAGEMENT, LLC VS THOMAS ETAL",
@@ -1871,6 +1878,132 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250101143": {
+    "caption": "OGUNDOJU VS PHAIR",
+    "trial_date": "2026-09-08",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240803233": {
+    "caption": "IN RE: APPEAL OF ECOM GRANT EMERALD LLC",
+    "trial_date": "2026-09-08",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250102996": {
+    "caption": "IN RE: APPEAL OF RAILROAD RECOVERY INC",
+    "trial_date": "2026-09-29",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250102998": {
+    "caption": "IN RE: APPEAL OF RAILROAD RECOVERY INC",
+    "trial_date": "2026-09-29",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240200923": {
+    "caption": "IRA DEVELOPMENT ETAL VS GF UNIVERSITY PROPERTIES",
+    "trial_date": "2026-09-08",
+    "case_type": "EQUITY - REAL ESTATE (TRO)",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250702895": {
+    "caption": "NAZARETH HOSPITAL VS STARLING",
+    "trial_date": "2026-09-16",
+    "case_type": "EQUITY - NO REAL ESTATE",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250802339": {
+    "caption": "ALLEN ETAL VS DELAROSA ETAL",
+    "trial_date": "2026-09-16",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260403931": {
+    "caption": "MARTINEZ VS H WILSON GROUP, LLC ETAL",
+    "trial_date": "2026-09-16",
+    "case_type": "FRAUD",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241100787": {
+    "caption": "HUTTON ETAL VS 2319 DELANCEY PL LLC ETAL",
+    "trial_date": "2026-09-21",
+    "case_type": "REAL PROPERTY - OTHER",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250500463": {
+    "caption": "PAPPAS-SFEDU VS FOX",
+    "trial_date": "2026-09-22",
+    "case_type": "LIBEL, SLANDER, MISREPRESENT",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251001961": {
+    "caption": "STATE FARM MUTUAL AUTO INS CO VS GOOD HANDZ TOWING",
+    "trial_date": "2026-10-01",
+    "case_type": "REPLEVIN",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260300648": {
+    "caption": "EL-AMIN ETAL VS ZARA RENTAL INC ETAL",
+    "trial_date": "2026-10-01",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260403936": {
+    "caption": "RAMOS ETAL VS WINN",
+    "trial_date": "2026-10-01",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250703516": {
+    "caption": "ZHAO ETAL VS CARRIE TURNER NEHEMIAH HOMEOWNERS ASS",
+    "trial_date": "2026-10-02",
+    "case_type": "REAL PROPERTY - OTHER",
+    "first_seen": "2026-08-25",
     "last_status": "",
     "reported": false,
     "retired": false
