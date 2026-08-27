@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated August 26, 2026 at 09:40 AM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated August 27, 2026 at 07:26 PM</div>
 </div>
 
 <div class="nav">
@@ -98,21 +98,31 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
     Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
     their attorney) has an address in Ardmore, Bala Cynwyd, Broomall, Bryn Mawr, Gladwyne, Haverford, Havertown, Merion Station, Narberth, Newtown Square, Villanova, Wayne and Wynnewood. Each case is tagged with the court where it
-    was filed. Tax and municipal liens are excluded. In this window: Bucks 5 · Delaware 6 · Philadelphia 35.
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 4 · Delaware 7 · Philadelphia 32.
 </div>
 
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (10)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (12)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (1)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (35)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (30)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(10)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(12)</span></h2>
         <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260803568</span>
+            <span class="case-type">PERSONAL INJURY - OTHER</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">LESLIE ETAL VS MAGGIANOS HOLDING CORPORATION FORME</div>
+        <div class="case-meta">Filed: 2026-08-26 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>PLAINTIFF:</strong> LESLIE, DIANE <span class="locale">Wayne (19087)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> WULK, THOMAS <span class="locale">Wayne (19087)</span></div>
+    </div>
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260803359</span>
             <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
@@ -212,6 +222,16 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-08-24 &middot; WAITING TO LIST CASE MGMT CONF</div>
         <div class="local-party"><strong>PLAINTIFF:</strong> ARCHER, AMBER <span class="locale">Merion Station (19066)</span></div>
     </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/cae0deca4f79906f0ecc9c1a0f2f0541621d191d83f1cd48f415bcc7434d1315" target="_blank" rel="noopener" class="case-number">CV-2026-007689</a>
+            <span class="case-type">Civil - Professional Liability Action - Professional Liability Action: Other</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/cae0deca4f79906f0ecc9c1a0f2f0541621d191d83f1cd48f415bcc7434d1315" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">T-Toe v. Pine View Healthcare LLC d/b/a Pine View Healthcare &amp; Rehabilitation Center a/k/a and/or f/k/a Broomall Rehabilitation and Nursing Center a/k/a Broomall Rehabilitation &amp; Nursing Center et al</div>
+        <div class="case-meta">Filed: 2026-08-24</div>
+        <div class="local-party"><strong>Defendant:</strong> Pine View Healthcare LLC d/b/a Pine View Healthcare &amp; Rehabilitation Center a/k/a and/or f/k/a Broomall Rehabilitation and Nursing Center a/k/a Broomall Rehabilitation &amp; Nursing Center <span class="locale">Broomall (19008)</span></div><div class="local-party"><strong>Defendant:</strong> IHS of Broomall <span class="locale">Broomall (19008)</span></div>
+    </div>
     </div>
     <div class="section" id="foreclosures">
         <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
@@ -227,7 +247,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
     </div>
     </div>
     <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(35)</span></h2>
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(30)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260802943</span>
@@ -527,56 +547,6 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="caption">SMB PRIVATE EDUCATION LOAN GRANTOR TRUST 2024-E v. Herman</div>
         <div class="case-meta">Filed: 2026-08-13</div>
         <div class="local-party"><strong>Defendant:</strong> Carly L Herman <span class="locale">Bryn Mawr (19010)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260801541</span>
-            <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">HELLER VS FULTON ETAL</div>
-        <div class="case-meta">Filed: 2026-08-12 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> FULTON, CHRISTOPHER <span class="locale">Havertown (19083)</span></div><div class="local-party"><strong>DEFENDANT:</strong> FULTON REMODELING, LLC <span class="locale">Havertown (19083)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260801460</span>
-            <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">RICHARDSON VS ORTIZ</div>
-        <div class="case-meta">Filed: 2026-08-12 &middot; ARBITRATION HEARING SCHEDULED</div>
-        <div class="local-party"><strong>PLAINTIFF:</strong> RICHARDSON, LISA J <span class="locale">Havertown (19083)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6390126" target="_blank" rel="noopener" class="case-number">2026-05424</a>
-            <span class="case-type">COMPLAINT</span>
-            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6390126" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">ENCOMPASS INSURANCE COMPANY AS SUBROGEE OF JOHANNA CORDISCO v. APEX HOME IMPROVEMENT LLC</div>
-        <div class="case-meta">Filed: 2026-08-12</div>
-        <div class="local-party"><strong>Defendant:</strong> 24/7 ROOFING OWNERS HOLDING INC <span class="locale">Newtown Square (19073)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260801644</span>
-            <span class="case-type">CONTRACTS OTHER</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">REED VS PEP BOYS- MANNY, MOE &amp; JACK, LLC</div>
-        <div class="case-meta">Filed: 2026-08-12 &middot; ARBITRATION HEARING SCHEDULED</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> PEP BOYS- MANNY, MOE &amp; JACK, LLC <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260802687</span>
-            <span class="case-type">WHISTLEBLOWER PROTECTION ACT</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">MALHOTRA VS PENN MEDICINE ETAL</div>
-        <div class="case-meta">Filed: 2026-08-12 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>PLAINTIFF:</strong> MALHOTRA MD, NEIL <span class="locale">Bala Cynwyd (19004)</span></div>
     </div>
     </div>
 </div>
