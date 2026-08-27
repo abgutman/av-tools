@@ -94,9 +94,9 @@
     "trial_date": "2026-08-18",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241202625": {
@@ -124,18 +124,20 @@
     "trial_date": "2026-08-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241102400": {
     "caption": "US BANK NATIONAL ASSOC VS DIXON ETAL",
     "trial_date": "2026-08-26",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT VACATED",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "230400697": {
     "caption": "GONZALEZ VS 2301 E. ALLEGHENY AVE, LLC. ETAL",
@@ -410,9 +412,9 @@
     "trial_date": "2026-08-25",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250602715": {
@@ -430,27 +432,30 @@
     "trial_date": "2026-08-26",
     "case_type": "CONTRACTS (GOODS), ENFORCE",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT BY DEFAULT/FINAL DISP",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250700337": {
     "caption": "HARRIS VS TYLER",
     "trial_date": "2026-08-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240802422": {
     "caption": "KNECHT ETAL VS PHILA CONTRIBUTIONSHIP INS CO",
     "trial_date": "2026-08-27",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250202669": {
     "caption": "JOHNSON VS BAUL ETAL",
@@ -731,9 +736,9 @@
     "trial_date": "2026-08-06",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "211102423": {
@@ -841,18 +846,20 @@
     "trial_date": "2026-08-26",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240300392": {
     "caption": "CITIMORTGAGE INC. VS SALAZAR ETAL",
     "trial_date": "2026-08-26",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "DEFERRED - BANKRUPTCY",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250102935": {
     "caption": "U.S. BANK TRUST VS RYAN INVESTMENT",
@@ -1135,9 +1142,9 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT OF NON PROS ENTERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260201558": {
@@ -1155,9 +1162,9 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260202073": {
@@ -1165,9 +1172,9 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260202075": {
@@ -1185,9 +1192,9 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260202152": {
@@ -1195,9 +1202,9 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260202248": {

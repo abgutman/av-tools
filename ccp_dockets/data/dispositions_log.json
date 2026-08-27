@@ -1,5 +1,178 @@
 [
   {
+    "case_id": "260202152",
+    "caption": "MAHADI VS ANDREWS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": null,
+    "plaintiffs": [
+      "MAHADI, MUSTAFAA"
+    ],
+    "defendants": [
+      "ANDREWS, LASHON"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "260202090",
+    "caption": "BEY, ADMIN ESTATE JOS. HOLDER VS LEAKE ET AL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": null,
+    "plaintiffs": [
+      "BEY ADMINISTRATOR OF THE ESTATE OF JOSEPH HOLDER BEY, FELICIA"
+    ],
+    "defendants": [
+      "LEAKE, KAREN",
+      "BEY, KACIM",
+      "ALL UNKNOWN OCCUPANTS,"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "260202073",
+    "caption": "BEY, ADMIN ESTATE JOS. HOLDER VS THOMAS ET AL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": null,
+    "plaintiffs": [
+      "BEY ADMINISTRATOR OF THE ESTATE OF JOSEPH HOLDER BEY, FELICIA"
+    ],
+    "defendants": [
+      "THOMAS, LASHANANNA",
+      "BEY, KACIM",
+      "ALL UNKNOWN OCCUPANTS,"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "260202066",
+    "caption": "BEY, ADMIN ESTATE JOS. HOLDER VS UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": null,
+    "plaintiffs": [
+      "BEY ADMINISTRATOR OF THE ESTATE OF JOSEPH HOLDER BEY, FELICIA"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS,"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "260201248",
+    "caption": "DEUTSCHE BANK NATIONAL TRUST CO VS HUNT ET AL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": null,
+    "plaintiffs": [
+      "DEUTSCHE BANK NATIONAL TRUST COMPANY TRUSTEE"
+    ],
+    "defendants": [
+      "HUNT, APRIL MAY",
+      "OCCUPANTS",
+      "WILLINGHAM, TYLER"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "250602108",
+    "caption": "ESTATE OF JAMES JOHNSON ETAL VS JOHNSON",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-08-25",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": null,
+    "plaintiffs": [
+      "HARVEY, MARCUS",
+      "JOHNSON ESTATE OF DECEASED, JAMES"
+    ],
+    "defendants": [
+      "JOHNSON, MARIAN",
+      "ALL UNKNOWN HEIRS TO THE ESTATE OF MARIAN JOHNSON DECEASED"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "250102394",
+    "caption": "AMERICAN EXPRESS VS BEARD ETAL",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-08-18",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": "$8,780.09",
+    "plaintiffs": [
+      "AMERICAN EXPRESS NATIONAL BANK"
+    ],
+    "defendants": [
+      "BEARD, BRIAN",
+      "COASTLINE INVESTMENT GROUP LLC"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "240403196",
+    "caption": "REAL TIME RESOLUTIONS, INC. VS BARRIE ETAL",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-08-06",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-08-26",
+    "award": "$202,786.40",
+    "plaintiffs": [
+      "REAL TIME RESOLUTIONS INC"
+    ],
+    "defendants": [
+      "BARRIE, BIRTA",
+      "MEIKLE, DENNIS"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
+    "case_id": "241102400",
+    "caption": "US BANK NATIONAL ASSOC VS DIXON ETAL",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-08-26",
+    "category": "Judgment",
+    "status": "JUDGMENT VACATED",
+    "known": false,
+    "disposition_date": "2026-08-25",
+    "award": "$28,397.72",
+    "plaintiffs": [
+      "US BANK NA"
+    ],
+    "defendants": [
+      "DIXON, DUANDA MARY",
+      "DIXONS WAY OF LIVING LLC"
+    ],
+    "logged_at": "2026-08-27"
+  },
+  {
     "case_id": "250102399",
     "caption": "AMERICAN EXPRESS NATIONAL BANK VS THOMAS ETAL",
     "case_type": "CREDIT CARD COLLECTION",
@@ -55,6 +228,26 @@
       "HO, THANH"
     ],
     "logged_at": "2026-08-20"
+  },
+  {
+    "case_id": "250401694",
+    "caption": "CBS SUPPLY, LLC VS TUAN ETAL",
+    "case_type": "CONTRACTS (GOODS), ENFORCE",
+    "trial_date": "2026-08-26",
+    "category": "Default judgment",
+    "status": "JUDGMENT BY DEFAULT/FINAL DISP",
+    "known": false,
+    "disposition_date": "2026-08-20",
+    "award": "$82,423.37",
+    "plaintiffs": [
+      "CBS SUPPLY LLC"
+    ],
+    "defendants": [
+      "TUAN, CHANG C",
+      "FUNG, CHENG",
+      "J&M HOUSE SERVICES LLC"
+    ],
+    "logged_at": "2026-08-27"
   },
   {
     "case_id": "240601627",
