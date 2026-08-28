@@ -1,5 +1,49 @@
 [
   {
+    "case_id": "241100999",
+    "caption": "WILLIAMS VS FERNANDEZ ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-08-26",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-27",
+    "award": null,
+    "plaintiffs": [
+      "WILLIAMS, ALICIA"
+    ],
+    "defendants": [
+      "FERNANDEZ, DERRICK",
+      "MUKHMASY LLC",
+      "WILLIAMS, RAYIANA P",
+      "HARLEY, DWIGHT",
+      "DOES 1-5, JOHN",
+      "DOES 1-5, JANE",
+      "XYZ COMPANIES 1-5"
+    ],
+    "logged_at": "2026-08-28"
+  },
+  {
+    "case_id": "220701999",
+    "caption": "MORTGAGE ASSETS MANAGEMENT, LLC VS THOMAS ETAL",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-08-26",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-08-27",
+    "award": null,
+    "plaintiffs": [
+      "MORTGAGE ASSETS MANAGEMENT LLC",
+      "PHH MORTGAGE CORPORATION"
+    ],
+    "defendants": [
+      "THOMAS, AMY REARDEN",
+      "SUCCESSORS AND ASSIGNS AND ALL PERSONS CLAIMING RIGHT, UNKNOWN HEIRS"
+    ],
+    "logged_at": "2026-08-28"
+  },
+  {
     "case_id": "260202152",
     "caption": "MAHADI VS ANDREWS",
     "case_type": "EJECTMENT",

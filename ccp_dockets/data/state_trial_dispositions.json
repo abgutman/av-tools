@@ -124,9 +124,9 @@
     "trial_date": "2026-08-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241102400": {
@@ -846,9 +846,9 @@
     "trial_date": "2026-08-26",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240300392": {
