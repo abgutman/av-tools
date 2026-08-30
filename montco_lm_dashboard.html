@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated August 29, 2026 at 02:10 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated August 30, 2026 at 02:17 PM</div>
 </div>
 
 <div class="nav">
@@ -104,14 +104,14 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (10)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (6)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (1)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (32)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (36)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(10)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(6)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260803854</span>
@@ -172,7 +172,23 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-08-27 &middot; WAITING TO LIST CASE MGMT CONF</div>
         <div class="local-party"><strong>DEFENDANT:</strong> LE INVESTMENT GROUP, LLC <span class="locale">Havertown (19083)</span></div>
     </div>
-<div class="case-card">
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6390871" target="_blank" rel="noopener" class="case-number">2026-05643</a>
+            <span class="case-type">COMPLAINT IN MORTGAGE FORECLOSURE</span>
+            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6390871" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">COMMONWEALTH CAPITAL LLC v. WISMER, THOMAS SCOTT</div>
+        <div class="case-meta">Filed: 2026-08-19</div>
+        <div class="local-party"><strong>Plaintiff:</strong> COMMONWEALTH CAPITAL LLC <span class="locale">Haverford (19041)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(36)</span></h2>
+        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260803568</span>
             <span class="case-type">PERSONAL INJURY - OTHER</span>
@@ -212,23 +228,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-08-26</div>
         <div class="local-party"><strong>Defendant:</strong> SHEILA PEASCHECK <span class="locale">Havertown (19083)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
-        <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6390871" target="_blank" rel="noopener" class="case-number">2026-05643</a>
-            <span class="case-type">COMPLAINT IN MORTGAGE FORECLOSURE</span>
-            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6390871" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">COMMONWEALTH CAPITAL LLC v. WISMER, THOMAS SCOTT</div>
-        <div class="case-meta">Filed: 2026-08-19</div>
-        <div class="local-party"><strong>Plaintiff:</strong> COMMONWEALTH CAPITAL LLC <span class="locale">Haverford (19041)</span></div>
-    </div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(32)</span></h2>
-        <div class="case-card">
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260803359</span>
             <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
