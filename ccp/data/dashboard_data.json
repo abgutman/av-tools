@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-08-30T08:39:17 EDT",
+    "scraped_at": "2026-08-31T10:54:13 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-08-30",
-      "end": "2026-12-28"
+      "start": "2026-08-31",
+      "end": "2026-12-29"
     },
     "counts": {
-      "CM": 328,
+      "CM": 335,
       "MJ": 122,
-      "total": 450
+      "total": 457
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -33,6 +33,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
       "attorneys": "MICHAEL S. BLOOM (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "210602546",
+      "caption": "DALIN FUNDING, LP VS GARDINER",
+      "raw_date": "31-AUG-2026",
+      "iso_date": "2026-08-31",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "SUSAN M. VERBONITZ (Attorney For Defendant); PATRICK T. KRENICKY (Attorney For Defendant); DANIEL D. HAGGERTY (Attorney For Plaintiff); ROSS M. WOLFE (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -72,6 +89,57 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "240200287",
+      "caption": "DLJ MORTGAGE CAPITAL, INC. VS HAWKINS",
+      "raw_date": "31-AUG-2026",
+      "iso_date": "2026-08-31",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "WILLIAM E. MILLER (Attorney For Plaintiff); HEATHER S. RILOFF (Attorney For Plaintiff); SAMANTHA GABLE (Attorney For Plaintiff); KEVIN T. TONCZYCZYN (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "240200960",
+      "caption": "U.S. BANK NATIONAL ASSOCIATION, AS TRUSTEE FOR STR",
+      "raw_date": "31-AUG-2026",
+      "iso_date": "2026-08-31",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "DEMETRIUS J. PARRISH (Attorney For Defendant); DANIELLE A. COLEMAN (Attorney For Plaintiff); ADRIENNA HUNSBERGER (Attorney For Plaintiff); LAVANDA KIARA. HARRIS (Attorney For Plaintiff); CIERRA-ZADIYAH MENDEZ (Attorney For Plaintiff); KEVIN CORDERO (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "240903130",
+      "caption": "EF MORTGAGE LLC VS 1424 E PALMER ST LLC",
+      "raw_date": "31-AUG-2026",
+      "iso_date": "2026-08-31",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "JASON L. RABINOVICH (Attorney For Defendant); MICHAEL J. SHAVEL (Attorney For Plaintiff); MICHAEL F. SCHLEIGH (Attorney For Plaintiff); JILL M. FEIN (Attorney For Plaintiff); KAITLIN D. SHIRE (Attorney For Plaintiff); JAMES N. ROONEY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "241200874",
       "caption": "SANTANDER BANK, N.A. VS SANTIAGO PEGUERO ETAL",
       "raw_date": "31-AUG-2026",
@@ -84,6 +152,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
       "attorneys": "NIXON KANNAH (Attorney For Defendant); ROSEMARIE DIAMOND (Attorney For Plaintiff); CAROLYN TREGLIA (Attorney For Plaintiff); KARIN SCHWEIGER (Attorney For Plaintiff); PAIGE ZIRRITH (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250102678",
+      "caption": "EF MORTGAGE LLC VS BULLARD",
+      "raw_date": "31-AUG-2026",
+      "iso_date": "2026-08-31",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "DANIEL J. DUGAN (Attorney For Defendant); JASON L. RABINOVICH (Attorney For Defendant); ADAM A. FILBERT (Attorney For Defendant); STEPHEN M. HLADIK (Attorney For Plaintiff); ROBERT W. WILLIAMS (Attorney For Plaintiff); THOMAS C. DYER (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -135,6 +220,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
       "attorneys": "JOSEPH P. HOWARD (Attorney For Defendant); CHRISTOPHER W. DEAN (Attorney For Defendant); MEREDITH WOOTERS (Attorney For Plaintiff); CRISTINA LYNN. CONNOR (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250901464",
+      "caption": "SELENE FINANCE LP VS SCOTT",
+      "raw_date": "31-AUG-2026",
+      "iso_date": "2026-08-31",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "JERMAINE HARRIS (Attorney For Intervenor); KAYLEIGH ZERON (Attorney For Plaintiff); LAVANDA KIARA. HARRIS (Attorney For Plaintiff); DANIELLE DREIER (Attorney For Plaintiff); QUEEN N. STEWART (Attorney For Plaintiff); KEVIN CORDERO (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -7224,6 +7326,23 @@
       "court_type": "MUNICIPAL COURT APPEAL",
       "case_type": "MC - SUPPLEMENTAL ORDER",
       "attorneys": "KEVIN C. MOYER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "170102350",
+      "caption": "LSF9 MASTER PARTICIPATION TRUST VS MUHAMMAD",
+      "raw_date": "04-NOV-2026",
+      "iso_date": "2026-11-04",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "EDWARD D. CONWAY (Attorney For Plaintiff); MARGARET GAIRO (Attorney For Plaintiff); JEROME BLANK (Attorney For Plaintiff); TERRENCE J. MCCABE (Attorney For Plaintiff); JOSEPH F. RIGA (Attorney For Plaintiff); ANDREW L. MARKOWITZ (Attorney For Plaintiff); MARISA COHEN (Attorney For Plaintiff); KENYA BATES (Attorney For Plaintiff); CHRISTINE L. GRAHAM (Attorney For Plaintiff); BRIAN T. LAMANNA (Attorney For Plaintiff); JOSEPH I. FOLEY (Attorney For Plaintiff); NATHALIE PAUL (Attorney For Plaintiff); LAUREN M. MOYER (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
