@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Abington and Cheltenham Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated August 30, 2026 at 02:17 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated August 31, 2026 at 04:44 PM</div>
 </div>
 
 <div class="nav">
@@ -104,14 +104,14 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (15)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (8)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (0)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (21)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (28)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(15)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(8)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6391900" target="_blank" rel="noopener" class="case-number">2026-05876</a>
@@ -192,7 +192,14 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-08-28 &middot; WAITING TO LIST CASE MGMT CONF</div>
         <div class="local-party"><strong>PLAINTIFF:</strong> BOYD, COREY <span class="locale">Elkins Park (19027)</span></div>
     </div>
-<div class="case-card">
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
+        <div class="empty">No cases in this category.</div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(28)</span></h2>
+        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260803721</span>
             <span class="case-type">FRAUD</span>
@@ -262,14 +269,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-08-27 &middot; WAITING/ISSUE SCHEDULING ORDER</div>
         <div class="local-party"><strong>APPELLANT:</strong> ST.VIL, CASSANDRA <span class="locale">Glenside (19038)</span></div><div class="local-party"><strong>APPELLANT:</strong> PHILADELPHIA CHARTERS FOR EXCELLENCE <span class="locale">Glenside (19038)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
-        <div class="empty">No cases in this category.</div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(21)</span></h2>
-        <div class="case-card">
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260803617</span>
             <span class="case-type">CONTRACTS OTHER</span>
