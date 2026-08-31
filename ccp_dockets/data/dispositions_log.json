@@ -1161,6 +1161,32 @@
     "logged_at": "2026-07-28"
   },
   {
+    "case_id": "230400697",
+    "caption": "GONZALEZ VS 2301 E. ALLEGHENY AVE, LLC. ETAL",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "trial_date": "2026-08-31",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-07-27",
+    "award": null,
+    "plaintiffs": [
+      "GONZALEZ, MARIA"
+    ],
+    "defendants": [
+      "2301 E ALLEGHENY AVENUE LLC",
+      "TEMPLE UNIVERSITY HOSPITAL NORTHEASTERN CAMPUS",
+      "TEMPLE UNIVERSITY HEALTH SYSTEM",
+      "CITY OF PHILADELPHIA",
+      "JOHN DOES (1-99)",
+      "ABC CORPORATIONS (1-99)",
+      "COMMONWEALTH CAMPUS FUNDING COMPANY LLC",
+      "AC HSS OFFICE VENTURES I LLC",
+      "GOVBERG MANAGEMENT LLC"
+    ],
+    "logged_at": "2026-08-31"
+  },
+  {
     "case_id": "260201558",
     "caption": "DEININGER VS GONZALEZ ETAL",
     "case_type": "EJECTMENT",

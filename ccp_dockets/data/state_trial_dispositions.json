@@ -144,9 +144,10 @@
     "trial_date": "2026-08-31",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "230501581": {
     "caption": "FANTE VS CAMERON ETAL",
@@ -866,9 +867,10 @@
     "trial_date": "2026-08-31",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "171000971": {
     "caption": "NATIONSTAR MORTGAGE LLC VS WLSON ETAL",
