@@ -463,8 +463,8 @@
     }
   },
   "260800873": {
-    "sig": "17|28-AUG-2026|MOTION HEARING SCHEDULED",
-    "entry_count": 17,
+    "sig": "19|31-AUG-2026|ENTRY OF APPEARANCE",
+    "entry_count": 19,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -558,6 +558,12 @@
           "type": "ATTORNEY FOR DEFENDANT",
           "name": "MCDERMOTT, ANNE",
           "address": "1515 ARCH STREET 15TH FL PHILADELPHIA PA 19102 (215)685-6706 anne.mcdermott@phila.gov"
+        },
+        {
+          "seq": "13",
+          "type": "ATTORNEY FOR DEFENDANT",
+          "name": "HOLLY, DOMINIQUE M",
+          "address": "1515 ARCH STREET PHILADELPHIA PA 19102 (215)686-5044 dominique.holly@phila.gov"
         }
       ],
       "events": [
@@ -668,18 +674,30 @@
         },
         {
           "date": "28-AUG-2026",
+          "time": "03:46 PM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "28-AUG-2026",
           "time": "03:53 PM",
           "type": "MOTION HEARING SCHEDULED",
           "party": ""
+        },
+        {
+          "date": "31-AUG-2026",
+          "time": "01:59 PM",
+          "type": "ENTRY OF APPEARANCE",
+          "party": "HOLLY, DOMINIQUE M"
         }
       ],
       "last_entry": {
-        "date": "28-AUG-2026",
-        "time": "03:53 PM",
-        "type": "MOTION HEARING SCHEDULED",
-        "party": ""
+        "date": "31-AUG-2026",
+        "time": "01:59 PM",
+        "type": "ENTRY OF APPEARANCE",
+        "party": "HOLLY, DOMINIQUE M"
       },
-      "entry_count": 17
+      "entry_count": 19
     }
   }
 }
