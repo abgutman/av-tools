@@ -104,9 +104,9 @@
     "trial_date": "2026-08-25",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250102399": {
@@ -423,9 +423,9 @@
     "trial_date": "2026-08-25",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250401694": {
@@ -1274,9 +1274,9 @@
     "trial_date": "2026-08-05",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-29",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DISCONTINUANCE ORDERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "231002687": {
@@ -2013,6 +2013,24 @@
     "trial_date": "2026-10-02",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-08-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240100683": {
+    "caption": "FIALCO PROPERTIES, INC. VS CHILDREN PLANET, INC. E",
+    "trial_date": "2026-09-16",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-09-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250403619": {
+    "caption": "ROSARIO VS JOSEPH",
+    "trial_date": "2026-09-21",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-09-01",
     "last_status": "",
     "reported": false,
     "retired": false

@@ -1,5 +1,65 @@
 [
   {
+    "case_id": "250602715",
+    "caption": "LA TORRE VS BONILLA",
+    "case_type": "REAL PROPERTY - OTHER",
+    "trial_date": "2026-08-25",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-01",
+    "award": null,
+    "plaintiffs": [
+      "LATORRE, DARLENE"
+    ],
+    "defendants": [
+      "BONILLA, MERY LUZ"
+    ],
+    "logged_at": "2026-09-01"
+  },
+  {
+    "case_id": "241202625",
+    "caption": "PNC BANK, NATIONAL ASSOCIATION VS MARSHALL",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-08-25",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-01",
+    "award": "$15,742.51",
+    "plaintiffs": [
+      "PNC BANK NA"
+    ],
+    "defendants": [
+      "MARSHALL, ALLAN"
+    ],
+    "logged_at": "2026-09-01"
+  },
+  {
+    "case_id": "241001293",
+    "caption": "LAWTON ETAL VS LAWTON ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-08-05",
+    "category": "Discontinuance",
+    "status": "DISCONTINUANCE ORDERED",
+    "known": false,
+    "disposition_date": "2026-09-01",
+    "award": null,
+    "plaintiffs": [
+      "LAWTON, LARRY",
+      "LAWTON, GERALDINE",
+      "LAWTON, WILBUR"
+    ],
+    "defendants": [
+      "LAWTON, DWAYNE",
+      "JENKINS, GERALDINE",
+      "LAWTON, WILBUR",
+      "LG REAL ESTATE GROUP LLC",
+      "PHILADELPHIA FEDERAL CREDIT UNION"
+    ],
+    "logged_at": "2026-09-01"
+  },
+  {
     "case_id": "241100999",
     "caption": "WILLIAMS VS FERNANDEZ ETAL",
     "case_type": "MOTOR VEHICLE ACCIDENT",
