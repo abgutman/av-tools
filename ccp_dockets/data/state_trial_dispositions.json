@@ -463,27 +463,30 @@
     "trial_date": "2026-09-02",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250402085": {
     "caption": "CBH MEDICAL LLC VS MILITANA",
     "trial_date": "2026-09-02",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260203272": {
     "caption": "MAZER VS DIAKITE",
     "trial_date": "2026-09-02",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240200812": {
     "caption": "MARTIN VS USA REMODELING CONSTRUCTION, INC.",
@@ -2031,6 +2034,24 @@
     "trial_date": "2026-09-21",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240102638": {
+    "caption": "COPELAND VS GAILLARD, JR. ETAL",
+    "trial_date": "2026-09-14",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-09-02",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240901720": {
+    "caption": "ADAMS VS THE PHILLIES, LP ETAL",
+    "trial_date": "2026-09-14",
+    "case_type": "ASSAULT, BATTERY",
+    "first_seen": "2026-09-02",
     "last_status": "",
     "reported": false,
     "retired": false
