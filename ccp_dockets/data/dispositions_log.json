@@ -1,5 +1,27 @@
 [
   {
+    "case_id": "250303413",
+    "caption": "KINNIBREW VS BIGELOW ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-08-25",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-03",
+    "award": null,
+    "plaintiffs": [
+      "KINNIBREW, EDWARD"
+    ],
+    "defendants": [
+      "BIGELOW ESTATE OF, GEORGIA",
+      "BIGELOW, ERIC",
+      "BIGELOW, GLORIA",
+      "HARRISON, JACQUELINE",
+      "BIGELOW, JULIUS"
+    ],
+    "logged_at": "2026-09-03"
+  },
+  {
     "case_id": "250602715",
     "caption": "LA TORRE VS BONILLA",
     "case_type": "REAL PROPERTY - OTHER",

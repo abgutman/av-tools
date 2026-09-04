@@ -383,7 +383,7 @@
     "trial_date": "2026-08-18",
     "case_type": "BAD FAITH",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "SUMMARY JUDG/DISP MOT GRANTED",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -403,9 +403,9 @@
     "trial_date": "2026-08-25",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250602108": {
@@ -453,7 +453,7 @@
     "trial_date": "2026-08-27",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "HELD UNDER ADVISEMENT",
     "reported": false,
     "retired": false,
     "_polled_before": true
