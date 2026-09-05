@@ -463,8 +463,8 @@
     }
   },
   "260800873": {
-    "sig": "19|31-AUG-2026|ENTRY OF APPEARANCE",
-    "entry_count": 19,
+    "sig": "21|04-SEP-2026|MOTION ASSIGNED",
+    "entry_count": 21,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -689,15 +689,27 @@
           "time": "01:59 PM",
           "type": "ENTRY OF APPEARANCE",
           "party": "HOLLY, DOMINIQUE M"
+        },
+        {
+          "date": "03-SEP-2026",
+          "time": "03:41 PM",
+          "type": "MOTION FOR CONTINUANCE",
+          "party": "BOCHETTO, GEORGE"
+        },
+        {
+          "date": "04-SEP-2026",
+          "time": "02:14 PM",
+          "type": "MOTION ASSIGNED",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "31-AUG-2026",
-        "time": "01:59 PM",
-        "type": "ENTRY OF APPEARANCE",
-        "party": "HOLLY, DOMINIQUE M"
+        "date": "04-SEP-2026",
+        "time": "02:14 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
       },
-      "entry_count": 19
+      "entry_count": 21
     }
   }
 }
