@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "59|11-AUG-2026|NOTICE GIVEN-DISCOVERY HEARING",
-    "entry_count": 59,
+    "sig": "62|09-SEP-2026|NOTICE GIVEN UNDER RULE 236",
+    "entry_count": 62,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -11,7 +11,7 @@
       "court": "COMMERCE - STANDARD, NON JURY",
       "case_type": "FRAUD",
       "jury": "NON JURY",
-      "status": "LISTED FOR HEARING",
+      "status": "LISTED FOR CASE MGMT CONF",
       "plaintiffs": [
         "BOHM, ALEC"
       ],
@@ -95,6 +95,13 @@
           "room": "CITY HALL",
           "location": "COURTROOM 646",
           "judge": "ERDOS, MICHAEL"
+        },
+        {
+          "event": "CASE MANAGEMENT CONFERENCE",
+          "datetime": "22-OCT-2026 02:15 PM",
+          "room": "VIA ADVANCED COMMUN. TECH.",
+          "location": "REMOTE HEARING",
+          "judge": "COMMERCE CASE MANAGER"
         }
       ],
       "entries": [
@@ -451,15 +458,33 @@
           "time": "07:35 AM",
           "type": "NOTICE GIVEN-DISCOVERY HEARING",
           "party": ""
+        },
+        {
+          "date": "09-SEP-2026",
+          "time": "10:24 AM",
+          "type": "LISTED FOR CASE MGMT CONF",
+          "party": ""
+        },
+        {
+          "date": "09-SEP-2026",
+          "time": "10:24 AM",
+          "type": "CONFERENCE DATE SET",
+          "party": ""
+        },
+        {
+          "date": "09-SEP-2026",
+          "time": "10:24 AM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "11-AUG-2026",
-        "time": "07:35 AM",
-        "type": "NOTICE GIVEN-DISCOVERY HEARING",
+        "date": "09-SEP-2026",
+        "time": "10:24 AM",
+        "type": "NOTICE GIVEN UNDER RULE 236",
         "party": ""
       },
-      "entry_count": 59
+      "entry_count": 62
     }
   },
   "260800873": {

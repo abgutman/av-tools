@@ -1,5 +1,58 @@
 [
   {
+    "case_id": "260201352",
+    "caption": "DAVIS-DRAIN VS LANE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-09-09",
+    "award": null,
+    "plaintiffs": [
+      "DAVIS-DRAIN, BEVERLY"
+    ],
+    "defendants": [
+      "LANE, TIFFANY",
+      "FOUNTAIN, NAKIA",
+      "CARTER, JEROME"
+    ],
+    "logged_at": "2026-09-09"
+  },
+  {
+    "case_id": "250402741",
+    "caption": "IN RE: APPEAL OF FAGAN, TREVOR",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "trial_date": "2026-09-08",
+    "category": "Finding / verdict",
+    "status": "COURT FINDING",
+    "known": true,
+    "disposition_date": "2026-09-09",
+    "award": null,
+    "plaintiffs": [],
+    "defendants": [],
+    "logged_at": "2026-09-09"
+  },
+  {
+    "case_id": "250803402",
+    "caption": "JONES ETAL VS JONES",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Discontinuance",
+    "status": "PRAECIPE TO DISCONTINUE",
+    "known": true,
+    "disposition_date": "2026-09-08",
+    "award": null,
+    "plaintiffs": [
+      "JONES, SHAKIMA M",
+      "JONES, SHAQUITA M"
+    ],
+    "defendants": [
+      "JONES, SHAKIYA L"
+    ],
+    "logged_at": "2026-09-09"
+  },
+  {
     "case_id": "240200812",
     "caption": "MARTIN VS USA REMODELING CONSTRUCTION, INC.",
     "case_type": "CONTRACTS OTHER",
@@ -16,6 +69,26 @@
       "USA REMODELING CONSTRUCTION INC"
     ],
     "logged_at": "2026-09-08"
+  },
+  {
+    "case_id": "251003540",
+    "caption": "PHH MORTGAGE CORPORATION VS JENKINS ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-09-04",
+    "award": null,
+    "plaintiffs": [
+      "PHH MORTGAGE CORPORATION"
+    ],
+    "defendants": [
+      "JENKINS, RITA",
+      "JENKINS, BRYANT",
+      "OCCUPANT, TENANT/"
+    ],
+    "logged_at": "2026-09-09"
   },
   {
     "case_id": "250303413",
