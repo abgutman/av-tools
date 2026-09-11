@@ -164,9 +164,10 @@
     "trial_date": "2026-09-10",
     "case_type": "MC - SMALL CLAIMS APPEALS",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241200613": {
     "caption": "GARDYASZ VS CAYDEN FINANCIAL GROUP ETAL",
@@ -1394,9 +1395,9 @@
     "trial_date": "2026-09-09",
     "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250803555": {
@@ -1679,9 +1680,9 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260100219": {

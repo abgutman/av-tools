@@ -1,5 +1,44 @@
 [
   {
+    "case_id": "251203195",
+    "caption": "BELL VS BELL ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-10",
+    "award": null,
+    "plaintiffs": [
+      "BELL, THOMAS"
+    ],
+    "defendants": [
+      "BELL, MICHAEL",
+      "UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-09-10"
+  },
+  {
+    "case_id": "240201508",
+    "caption": "BARTOLOMEO ETAL VS CUMMING ETAL",
+    "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
+    "trial_date": "2026-09-09",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-10",
+    "award": "$140,556.39",
+    "plaintiffs": [
+      "BARTOLOMEO, JOHN PAUL",
+      "BARTOLOMEO, KIMBERLY J"
+    ],
+    "defendants": [
+      "CUMMING, JONATHAN",
+      "CUMMING CONSTRUCTION LLC"
+    ],
+    "logged_at": "2026-09-10"
+  },
+  {
     "case_id": "260201352",
     "caption": "DAVIS-DRAIN VS LANE ETAL",
     "case_type": "EJECTMENT",

@@ -488,18 +488,18 @@
     }
   },
   "260800873": {
-    "sig": "25|08-SEP-2026|MOTION ASSIGNMENT UPDATED",
-    "entry_count": 25,
+    "sig": "27|10-SEP-2026|TRANSFERRED TO MAJOR NON-JURY",
+    "entry_count": 27,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
       "caption": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. VS BAR X",
       "filing_date": "2026-08-06",
       "filing_date_raw": "Thursday , August 06th, 2026",
-      "court": "COMMERCE - STANDARD, JURY",
+      "court": "MAJOR NON JURY",
       "case_type": "REAL PROPERTY - OTHER",
       "jury": "JURY",
-      "status": "WAITING TO LIST CASE MGMT CONF",
+      "status": "TRANSFERRED TO MAJOR NON-JURY",
       "plaintiffs": [
         "SAVE OUR NEIGHBORHOOD FOR TOMORROW INC"
       ],
@@ -742,15 +742,27 @@
           "time": "03:11 PM",
           "type": "MOTION ASSIGNMENT UPDATED",
           "party": ""
+        },
+        {
+          "date": "10-SEP-2026",
+          "time": "04:06 PM",
+          "type": "ORDER ENTERED/236 NOTICE GIVEN",
+          "party": "PATRICK, PAULA"
+        },
+        {
+          "date": "10-SEP-2026",
+          "time": "04:08 PM",
+          "type": "TRANSFERRED TO MAJOR NON-JURY",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "08-SEP-2026",
-        "time": "03:11 PM",
-        "type": "MOTION ASSIGNMENT UPDATED",
+        "date": "10-SEP-2026",
+        "time": "04:08 PM",
+        "type": "TRANSFERRED TO MAJOR NON-JURY",
         "party": ""
       },
-      "entry_count": 25
+      "entry_count": 27
     }
   }
 }
