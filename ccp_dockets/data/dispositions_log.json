@@ -1,5 +1,37 @@
 [
   {
+    "case_id": "250600614",
+    "caption": "IN RE: APPEAL OF SCOTT, JOHN",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "trial_date": "2026-09-08",
+    "category": "Settlement",
+    "status": "SETTLED BY STIPULATION",
+    "known": true,
+    "disposition_date": "2026-09-11",
+    "award": null,
+    "plaintiffs": [],
+    "defendants": [],
+    "logged_at": "2026-09-11"
+  },
+  {
+    "case_id": "250300474",
+    "caption": "HAIRSTON VS AAMCO TRANSMISSIONS INC",
+    "case_type": "MC - SMALL CLAIMS APPEALS",
+    "trial_date": "2026-09-10",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-09-11",
+    "award": null,
+    "plaintiffs": [
+      "HAIRSTON, GREGORY"
+    ],
+    "defendants": [
+      "AAMCO TRANSMISSIONS INC"
+    ],
+    "logged_at": "2026-09-11"
+  },
+  {
     "case_id": "251203195",
     "caption": "BELL VS BELL ETAL",
     "case_type": "EJECTMENT",

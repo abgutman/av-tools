@@ -164,9 +164,9 @@
     "trial_date": "2026-09-10",
     "case_type": "MC - SMALL CLAIMS APPEALS",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241200613": {
@@ -239,9 +239,9 @@
     "trial_date": "2026-09-08",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED BY STIPULATION",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250802269": {
@@ -1576,9 +1576,10 @@
     "trial_date": "2026-09-11",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-08-13",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240203248": {
     "caption": "BROWN VS DUPPINS ETAL",

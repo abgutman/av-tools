@@ -488,8 +488,8 @@
     }
   },
   "260800873": {
-    "sig": "27|10-SEP-2026|TRANSFERRED TO MAJOR NON-JURY",
-    "entry_count": 27,
+    "sig": "28|10-SEP-2026|TRANSFERRED TO MAJOR NON-JURY",
+    "entry_count": 28,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -589,6 +589,12 @@
           "type": "ATTORNEY FOR DEFENDANT",
           "name": "HOLLY, DOMINIQUE M",
           "address": "1515 ARCH STREET PHILADELPHIA PA 19102 (215)686-5044 dominique.holly@phila.gov"
+        },
+        {
+          "seq": "14",
+          "type": "MOTION ASSIGNMENT JUDGE",
+          "name": "YU, KAY",
+          "address": "RM 606, CITY HALL BROAD AND MARKET ST. PHILADELPHIA PA 19107"
         }
       ],
       "events": [],
@@ -751,6 +757,12 @@
         },
         {
           "date": "10-SEP-2026",
+          "time": "04:06 PM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
+        },
+        {
+          "date": "10-SEP-2026",
           "time": "04:08 PM",
           "type": "TRANSFERRED TO MAJOR NON-JURY",
           "party": ""
@@ -762,7 +774,7 @@
         "type": "TRANSFERRED TO MAJOR NON-JURY",
         "party": ""
       },
-      "entry_count": 27
+      "entry_count": 28
     }
   }
 }
