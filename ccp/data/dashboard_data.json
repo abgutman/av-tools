@@ -1,40 +1,23 @@
 {
   "meta": {
-    "scraped_at": "2026-09-11T08:04:07 EDT",
+    "scraped_at": "2026-09-12T07:30:46 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-09-11",
-      "end": "2027-01-09"
+      "start": "2026-09-12",
+      "end": "2027-01-10"
     },
     "counts": {
-      "CM": 319,
-      "MJ": 104,
-      "total": 423
+      "CM": 326,
+      "MJ": 102,
+      "total": 428
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "240800150",
-      "caption": "WINT VS DIALLO ETAL",
-      "raw_date": "11-SEP-2026",
-      "iso_date": "2026-09-11",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "JAY L. SOLNICK (Attorney For Defendant); DAVID A. AVEDISSIAN (Attorney For Defendant); ALEXANDRA BARSLEY (Attorney For Defendant); MICHAEL BERKOWITZ (Attorney For Defendant); CORY A. TROBMAN (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
     {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
@@ -582,6 +565,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "260901225",
+      "caption": "BARRY VS TRUSTEES OF THE UNIVERSITY OF PENNSYLVANI",
+      "raw_date": "15-SEP-2026",
+      "iso_date": "2026-09-15",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY",
+      "case_type": "EQUITY - NO REAL ESTATE",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "260400965",
       "caption": "SPARTAN PROPERTY MANAGER LLC VS MUJAHID ETAL",
       "raw_date": "16-SEP-2026",
@@ -716,21 +716,38 @@
       "trial_days": ""
     },
     {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "240100683",
-      "caption": "FIALCO PROPERTIES, INC. VS CHILDREN PLANET, INC. E",
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260901347",
+      "caption": "CREASE DYER HOUSING DEV CORP VS PICKETT",
       "raw_date": "16-SEP-2026",
       "iso_date": "2026-09-16",
-      "time": "09:00 AM",
-      "room": "Courtroom Unassigned",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
       "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "CONTRACTS OTHER",
-      "attorneys": "JEFFREY J. GOLDIN (Attorney For Defendant); DANIEL ROSS (Attorney For Defendant); STEPHAN J. TULL (Attorney For Plaintiff); MICHAEL C. CORTESE (Attorney For Plaintiff)",
-      "trial_days": "2"
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260901375",
+      "caption": "AMOS VS CANALES",
+      "raw_date": "16-SEP-2026",
+      "iso_date": "2026-09-16",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
     },
     {
       "program": "CM",
@@ -1512,6 +1529,23 @@
       "court_type": "Arbitration Appeals",
       "case_type": "CONTRACTS OTHER",
       "attorneys": "NICOLE E. COLLINS (Attorney For Plaintiff); MICHAEL F. MCGUIGAN (Attorney For Plaintiff); JASON E. STRAND (Attorney For Plaintiff); KIRSTEN R. ARMSTRONG (Attorney For Plaintiff); ERIN R. GRADY (Attorney For Plaintiff); SETH J. HOJNACKI (Attorney For Plaintiff); SEAN T. RIEGER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260900836",
+      "caption": "SIMPSON ETAL VS NATIONAL COLLEGIATE ATHLETIC ASSOC",
+      "raw_date": "18-SEP-2026",
+      "iso_date": "2026-09-18",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+      "attorneys": "SIOBHAN K. COLE (Attorney For Defendant); KATE ROGGIO BUCK (Attorney For Plaintiff); FRANCIS BOVIO (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -2433,6 +2467,23 @@
       "trial_days": "1"
     },
     {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "2207T0019",
+      "caption": "CITY OF PHILADELPHIA VS KLOSE ETAL",
+      "raw_date": "29-SEP-2026",
+      "iso_date": "2026-09-29",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "DAVID H. DENENBERG (Attorney For Intervenor); JAMES J. ZWOLAK (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
       "case_id": "250703098",
@@ -2652,6 +2703,23 @@
       "case_type": "EJECTMENT",
       "attorneys": "",
       "trial_days": "1"
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "210801968",
+      "caption": "WRIGHT-BROWN ETAL VS NEW LIFE AFFORDABLE HOUSING P",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "PREMISES LIABILITY, SLIP/FALL",
+      "attorneys": "MARK S. DANEK (Attorney For Defendant); KENNETH S. SAFFREN (Attorney For Plaintiff); DREW SALAMAN (Attorney For Plaintiff)",
+      "trial_days": ""
     },
     {
       "program": "CM",
@@ -5540,7 +5608,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "ARBITRATION",
       "case_type": "MC - SMALL CLAIMS APPEALS",
-      "attorneys": "AIMEE HARMON (Attorney For Garnishee); DEMETRIUS J. PARRISH (Attorney For Plaintiff)",
+      "attorneys": "DEMETRIUS J. PARRISH (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -6001,6 +6069,23 @@
       "case_type": "MOTOR VEHICLE ACCIDENT",
       "attorneys": "RICHARD A. STEIGER (Attorney For Defendant); JOHN A. DOUGHERTY (Attorney For Defendant); TIMERA W. BULLOCK (Attorney For Defendant); ANDREW J. SCHNEIDER (Attorney For Plaintiff)",
       "trial_days": "1"
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "2512T0055",
+      "caption": "CITY OF PHILADELPHIA VS LEGANCY REAL STATE DEVELOP",
+      "raw_date": "27-OCT-2026",
+      "iso_date": "2026-10-27",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "RULE RETURNABLE DATE",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "LAUREN BURGESS (Attorney For Plaintiff); LEE M. SHLAMOWITZ (Attorney For Respondent)",
+      "trial_days": ""
     },
     {
       "program": "CM",
@@ -7036,7 +7121,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
-      "attorneys": "CHRISTOPHER B. CASERIO (Attorney For Defendant); ANDREW T. KRAVITZ (Attorney For Plaintiff); JACQUELINE F. MCNALLY (Attorney For Plaintiff); QUENTEN GILLIAM (Attorney For Plaintiff); CATHERINE APONTE  (Attorney For Plaintiff)",
+      "attorneys": "CHRISTOPHER B. CASERIO (Attorney For Defendant); ANDREW T. KRAVITZ (Attorney For Plaintiff); JACQUELINE F. MCNALLY (Attorney For Plaintiff); ROBERT FLACCO (Attorney For Plaintiff); QUENTEN GILLIAM (Attorney For Plaintiff); CATHERINE APONTE  (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
