@@ -2107,5 +2107,32 @@
     "last_status": "",
     "reported": false,
     "retired": false
+  },
+  "250303111": {
+    "caption": "PARK PLAZA CONDOMINIUM ASSOCIATION VS BAILEY",
+    "trial_date": "2027-01-11",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-09-12",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240700017": {
+    "caption": "BAILEY VS PARK PLAZA ASSOCIATION",
+    "trial_date": "2027-01-11",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-09-12",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250202508": {
+    "caption": "BAILEY VS PARK PLAZA CONDOMINIUM ETAL",
+    "trial_date": "2027-01-11",
+    "case_type": "FRAUD",
+    "first_seen": "2026-09-12",
+    "last_status": "",
+    "reported": false,
+    "retired": false
   }
 }
