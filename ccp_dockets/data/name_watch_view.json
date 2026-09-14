@@ -10,7 +10,15 @@
     },
     {
       "label": "Philadelphia Sheriff",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "260900871",
+          "caption": "OKYNE VS THE SHERIFF OF PHILADELPHIA C/O ROCHELLE",
+          "filing_date": "2026-09-05",
+          "matched_name": "SHERIFF OF PHILADELPHIA C/O ROCHELLE BILAL",
+          "roles": "DEFENDANT"
+        }
+      ]
     },
     {
       "label": "Philadelphia Fire Department",
@@ -21,6 +29,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-09-05 09:50 EDT",
+  "generated_at": "2026-09-14 12:55 EDT",
   "window_days": 14
 }
