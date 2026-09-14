@@ -518,18 +518,20 @@
     "trial_date": "2026-09-14",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "241103317": {
     "caption": "REAL PROPERTY RECOVERY, LLC VS MULDOON ETAL",
     "trial_date": "2026-09-14",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250400697": {
     "caption": "SANTIAGO-REGUSTERS VS SEPTA",
@@ -2068,18 +2070,20 @@
     "trial_date": "2026-09-14",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-02",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240901720": {
     "caption": "ADAMS VS THE PHILLIES, LP ETAL",
     "trial_date": "2026-09-14",
     "case_type": "ASSAULT, BATTERY",
     "first_seen": "2026-09-02",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250400529": {
     "caption": "JPMORGAN CHASE BANK N.A. VS TORRES",
