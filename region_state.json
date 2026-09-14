@@ -1,34 +1,5 @@
 {
   "evaluated": {
-    "bucks:2026-73375": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73374": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73373": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73372": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73371": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73370": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73369": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73368": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73367": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73366": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73365": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73364": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73363": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73362": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73361": "2026-08-24T09:46:21.800151",
-    "bucks:2026-73360": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007649": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007643": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007624": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007631": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007632": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007634": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007636": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007639": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007638": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007641": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007642": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007623": "2026-08-24T09:46:21.800151",
-    "delaware:CV-2026-007637": "2026-08-24T09:46:21.800151",
     "philadelphia:260803202": "2026-08-25T09:33:43.244254",
     "philadelphia:260803198": "2026-08-25T09:33:43.244254",
     "philadelphia:260803185": "2026-08-25T09:33:43.244254",
@@ -3668,165 +3639,25 @@
     "delaware:CV-2026-008331": "2026-09-13T13:40:47.769357",
     "delaware:CV-2026-008338": "2026-09-13T13:40:47.769357",
     "delaware:CV-2026-008339": "2026-09-13T13:40:47.769357",
-    "delaware:CV-2026-008352": "2026-09-13T13:40:47.769357"
+    "delaware:CV-2026-008352": "2026-09-13T13:40:47.769357",
+    "bucks:2026-06156": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06153": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06155": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06154": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06151": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06149": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06148": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06150": "2026-09-14T15:40:57.417230",
+    "bucks:2026-06152": "2026-09-14T15:40:57.417230",
+    "delaware:CV-2026-008335": "2026-09-14T15:40:57.417230",
+    "delaware:CV-2026-008358": "2026-09-14T15:40:57.417230",
+    "delaware:CV-2026-008366": "2026-09-14T15:40:57.417230",
+    "delaware:CV-2026-008350": "2026-09-14T15:40:57.417230",
+    "delaware:CV-2026-008362": "2026-09-14T15:40:57.417230",
+    "delaware:CV-2026-008356": "2026-09-14T15:40:57.417230",
+    "delaware:CV-2026-008368": "2026-09-14T15:40:57.417230"
   },
   "matches": {
-    "philadelphia:260803721": {
-      "court": "philadelphia",
-      "case_number": "260803721",
-      "caption": "CAMPBELL VS PFCU BANK",
-      "case_type": "FRAUD",
-      "filing_date": "2026-08-27",
-      "status": "ARBITRATION HEARING SCHEDULED",
-      "url": "",
-      "parties": [
-        {
-          "name": "CAMPBELL, GERALDINE",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19046"
-        },
-        {
-          "name": "PFCU BANK",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19119"
-        }
-      ],
-      "first_seen": "2026-08-28T20:42:45.421151"
-    },
-    "philadelphia:260803715": {
-      "court": "philadelphia",
-      "case_number": "260803715",
-      "caption": "JOHNSON VS JARVIS",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "filing_date": "2026-08-27",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "JOHNSON, CHRISTOPHER",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19006"
-        },
-        {
-          "name": "JARVIS, JOHN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19144"
-        }
-      ],
-      "first_seen": "2026-08-28T20:42:45.421151"
-    },
-    "philadelphia:260803694": {
-      "court": "philadelphia",
-      "case_number": "260803694",
-      "caption": "DELRAN BUILDERS COMPANY, INC. VS CHESTNUT HILL COM",
-      "case_type": "CONSTRUCTION CONTRACT",
-      "filing_date": "2026-08-27",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "DELRAN BUILDERS COMPANY INC",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19038"
-        },
-        {
-          "name": "CHESTNUT HILL COMMUNITY CENTRE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19118"
-        }
-      ],
-      "first_seen": "2026-08-28T20:42:45.421151"
-    },
-    "philadelphia:260803678": {
-      "court": "philadelphia",
-      "case_number": "260803678",
-      "caption": "J&P VISION INVESTMENT, LLC VS WEI ETAL",
-      "case_type": "CONTRACTS OTHER",
-      "filing_date": "2026-08-27",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "J&P VISION INVESTMENT LLC",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19027"
-        },
-        {
-          "name": "WEI, JOHN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19107"
-        },
-        {
-          "name": "WWX REALTY LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19123"
-        }
-      ],
-      "first_seen": "2026-08-28T20:42:45.421151"
-    },
-    "philadelphia:260803649": {
-      "court": "philadelphia",
-      "case_number": "260803649",
-      "caption": "RAHNAMA ETAL VS SOUTHER INSURANCE COMPANY OF VIRGI",
-      "case_type": "CONTRACTS OTHER",
-      "filing_date": "2026-08-27",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "RAHNAMA, HOOSHANG",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19006"
-        },
-        {
-          "name": "SHAHRIARI, JALEH",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19006"
-        },
-        {
-          "name": "SOUTHER INSURANCE COMPANY OF VIRGINIA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "23060"
-        }
-      ],
-      "first_seen": "2026-08-28T20:42:45.421151"
-    },
-    "philadelphia:260803638": {
-      "court": "philadelphia",
-      "case_number": "260803638",
-      "caption": "4260 TACK LLC VS TERRELL",
-      "case_type": "CONTRACTS OTHER",
-      "filing_date": "2026-08-27",
-      "status": "ARBITRATION HEARING SCHEDULED",
-      "url": "",
-      "parties": [
-        {
-          "name": "4260 TACK LLC",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19137"
-        },
-        {
-          "name": "TERRELL, SAFIYA A",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19027"
-        }
-      ],
-      "first_seen": "2026-08-28T20:42:45.421151"
-    },
     "bucks:2026-05876": {
       "court": "bucks",
       "case_number": "2026-05876",
@@ -4315,102 +4146,6 @@
           "role": "DEFENDANT",
           "city": "",
           "zip": "19355"
-        }
-      ],
-      "first_seen": "2026-08-29T14:10:18.940482"
-    },
-    "philadelphia:260803738": {
-      "court": "philadelphia",
-      "case_number": "260803738",
-      "caption": "RIVAS RODRIGUEZ VS BACK 2 NEW 2 RECYCLING, INC. ET",
-      "case_type": "PERSONAL INJURY - OTHER",
-      "filing_date": "2026-08-27",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "RIVAS RODRIGUEZ, DOMINGO",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19131"
-        },
-        {
-          "name": "BACK 2 NEW 2 RECYCLING, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        },
-        {
-          "name": "LUCAS, SALEEM",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        },
-        {
-          "name": "METAL HEAVEN LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19153"
-        },
-        {
-          "name": "LE INVESTMENT GROUP, LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19083"
-        },
-        {
-          "name": "HOFFMAN EQUIPMENT, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "08854"
-        },
-        {
-          "name": "DOE 1-10, JOHN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19101"
-        },
-        {
-          "name": "ABC CORPORATIONS 1-10",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19101"
-        }
-      ],
-      "first_seen": "2026-08-29T14:10:18.940482"
-    },
-    "philadelphia:260803729": {
-      "court": "philadelphia",
-      "case_number": "260803729",
-      "caption": "IN RE: APPEAL OF ST.VIL, CASSANDRA",
-      "case_type": "SCHOOL DISTRICT PHILA",
-      "filing_date": "2026-08-27",
-      "status": "WAITING/ISSUE SCHEDULING ORDER",
-      "url": "",
-      "parties": [
-        {
-          "name": "ST.VIL, CASSANDRA",
-          "role": "APPELLANT",
-          "city": "",
-          "zip": "19038"
-        },
-        {
-          "name": "PHILADELPHIA CHARTERS FOR EXCELLENCE",
-          "role": "APPELLANT",
-          "city": "",
-          "zip": "19038"
-        },
-        {
-          "name": "SCHOOL DISTRICT OF PHILADELPHIA",
-          "role": "APPELLEE",
-          "city": "5Th Fl Philadelphia",
-          "zip": "19130"
-        },
-        {
-          "name": "OFFICE OF OPEN RECORDS",
-          "role": "AGENCY",
-          "city": "",
-          "zip": "17101"
         }
       ],
       "first_seen": "2026-08-29T14:10:18.940482"
@@ -8392,7 +8127,85 @@
         }
       ],
       "first_seen": "2026-09-13T13:40:47.769357"
+    },
+    "bucks:2026-06152": {
+      "court": "bucks",
+      "case_number": "2026-06152",
+      "caption": "STREET & PHILMONT GP LLC v. R&R DEVELOPMENT HOLDINGS LLC",
+      "case_type": "COMPLAINT IN CONFESSION OF JUDGMENT FOR MONEY",
+      "filing_date": "2026-09-11",
+      "status": "",
+      "url": "https://propublic.buckscountyonline.org/psi/v/detail/Case/6393150",
+      "parties": [
+        {
+          "name": "STREET & PHILMONT GP LLC",
+          "role": "Plaintiff",
+          "city": "Warminster",
+          "zip": "18974"
+        },
+        {
+          "name": "R&R DEVELOPMENT HOLDINGS LLC",
+          "role": "Defendant",
+          "city": "Bryn Mawr",
+          "zip": "19010"
+        }
+      ],
+      "first_seen": "2026-09-14T15:40:57.417230"
+    },
+    "delaware:CV-2026-008358": {
+      "court": "delaware",
+      "case_number": "CV-2026-008358",
+      "caption": "Castillo-Sandoval v. Gambardella",
+      "case_type": "Family - Divorce - No Fault Only",
+      "filing_date": "2026-09-11",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/2bdba09c13095e27c4198edc6d2141f45b0d10a8c05d2ef20f47afbcfe144fc5",
+      "parties": [
+        {
+          "name": "Silvana Gambardella",
+          "role": "Defendant",
+          "city": "Haverford",
+          "zip": "19041"
+        },
+        {
+          "name": "Roberto Castillo-Sandoval",
+          "role": "Plaintiff",
+          "city": "Ardmore",
+          "zip": "19003"
+        }
+      ],
+      "first_seen": "2026-09-14T15:40:57.417230"
+    },
+    "delaware:CV-2026-008356": {
+      "court": "delaware",
+      "case_number": "CV-2026-008356",
+      "caption": "Lewis v. Jones Jr",
+      "case_type": "Family - Custody - Grandparent/Third Party Complaint for Custody/Partial Custody/Shared Custody/Visitation",
+      "filing_date": "2026-09-11",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/2332a8a445a02664d5079ab4aa7c70a26700ccf49674ecd1e20477caf9768775",
+      "parties": [
+        {
+          "name": "Maat A. Lewis",
+          "role": "Plaintiff",
+          "city": "Media",
+          "zip": "19063"
+        },
+        {
+          "name": "Darriel Jones Jr",
+          "role": "Defendant",
+          "city": "Waymart",
+          "zip": "18472"
+        },
+        {
+          "name": "Doreen Shaw",
+          "role": "Deceased",
+          "city": "",
+          "zip": ""
+        }
+      ],
+      "first_seen": "2026-09-14T15:40:57.417230"
     }
   },
-  "last_run": "2026-09-13T13:40:54.087212"
+  "last_run": "2026-09-14T15:41:03.747177"
 }
