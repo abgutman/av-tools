@@ -1,5 +1,49 @@
 [
   {
+    "case_id": "251100253",
+    "caption": "OKOLO VS DOE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-14",
+    "award": null,
+    "plaintiffs": [
+      "OKOLO, EFEDUA"
+    ],
+    "defendants": [
+      "DOE, JANE",
+      "DOE, JOHN",
+      "OCCUPANTS, ALL UNKNOWN",
+      "KENNEDY, JOIAL",
+      "KENNEDY, ROYSALL"
+    ],
+    "logged_at": "2026-09-15"
+  },
+  {
+    "case_id": "250703222",
+    "caption": "PHELPS VS LONE EAGLE REALTY (PA) LLC ETAL",
+    "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-09-14",
+    "award": null,
+    "plaintiffs": [
+      "PHELPS, MICHAEL K"
+    ],
+    "defendants": [
+      "LONE EAGLE REALTY (PA) LLC",
+      "2402 N 5TH STREET LLC",
+      "DEBIASSE JR., RON",
+      "UNNAMED COMPANY",
+      "DOES 1-5, JOHN"
+    ],
+    "logged_at": "2026-09-15"
+  },
+  {
     "case_id": "250600614",
     "caption": "IN RE: APPEAL OF SCOTT, JOHN",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",

@@ -538,90 +538,100 @@
     "trial_date": "2026-09-15",
     "case_type": "EMPLOYMENT, WRONGFUL DISCHARGE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500265": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500273": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500275": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500277": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500284": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500285": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500293": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500294": {
     "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
     "trial_date": "2026-09-15",
     "case_type": "REPLEVIN",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250703222": {
     "caption": "PHELPS VS LONE EAGLE REALTY (PA) LLC ETAL",
     "trial_date": "2026-09-15",
     "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "241102748": {
     "caption": "STERN ETAL VS WOODEN KEYS CONDO ASSOC",
@@ -731,7 +741,7 @@
     "first_seen": "2026-07-23",
     "last_status": "DEFERRED - BANKRUPTCY",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "240402500": {
@@ -1296,18 +1306,20 @@
     "trial_date": "2026-09-15",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240802625": {
     "caption": "U.S. BANK NATIONAL ASSOCIATION VS ROCK ETAL",
     "trial_date": "2026-09-15",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250301023": {
     "caption": "ODK CAPITAL LLC VS TRANZITIONS HAIR AND BODY, LLC",
@@ -1653,9 +1665,9 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251102456": {
@@ -2135,6 +2147,231 @@
     "trial_date": "2027-01-11",
     "case_type": "FRAUD",
     "first_seen": "2026-09-12",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250401475": {
+    "caption": "FIGUEROA VS RIVERA",
+    "trial_date": "2026-10-06",
+    "case_type": "MOTOR VEHICLE PROPERTY DAMAGE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250302473": {
+    "caption": "DISCOVER BANK VS SCHER",
+    "trial_date": "2026-10-13",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250403296": {
+    "caption": "DISCOVER BANK VS THOMAS",
+    "trial_date": "2026-10-13",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250202247": {
+    "caption": "POLLINI VS BOYLE ETAL",
+    "trial_date": "2026-10-14",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241000972": {
+    "caption": "SWAIN VS LOPEZ AYALA",
+    "trial_date": "2026-10-20",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250401637": {
+    "caption": "DISCOVER BANK VS DIXON",
+    "trial_date": "2026-10-20",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250304138": {
+    "caption": "RENOLD VS SEAY",
+    "trial_date": "2026-11-02",
+    "case_type": "MALPRACTICE - LEGAL",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250303356": {
+    "caption": "HEADWAY CAPITAL LLC VS HILL ENTERPRISE LLC ETAL",
+    "trial_date": "2026-11-10",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250401878": {
+    "caption": "BEAUX ARTS LOFTS CONDO ASSOC VS KUJDYCH",
+    "trial_date": "2026-12-08",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250903069": {
+    "caption": "PALACIO VS WILLARD",
+    "trial_date": "2026-10-09",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250300414": {
+    "caption": "JACKSON VS MACKEY",
+    "trial_date": "2026-10-22",
+    "case_type": "LIBEL, SLANDER, MISREPRESENT",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250900787": {
+    "caption": "ESCOTO DE LOS SANTOS VS CITY OF PHILADELPHIA",
+    "trial_date": "2026-10-26",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "230600622": {
+    "caption": "BROWN VS ESTATE OF GENEVIEVE BOULDEN ETAL",
+    "trial_date": "2026-10-27",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250901430": {
+    "caption": "CHESTNUT ETAL VS JONES",
+    "trial_date": "2026-10-27",
+    "case_type": "FRAUD",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250902211": {
+    "caption": "CHANG ETAL VS CHEN ETAL",
+    "trial_date": "2026-10-29",
+    "case_type": "FRAUD",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250902522": {
+    "caption": "BULK BOY, LLC VS ALL UNKNOWN OCCUPANTS",
+    "trial_date": "2026-10-29",
+    "case_type": "LANDLORD/TENANT - COMPLAINT",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250900372": {
+    "caption": "UDDIN VS CANAZZI & ASSOCIATES LLC ETAL",
+    "trial_date": "2026-11-02",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250303508": {
+    "caption": "DIXON VS ESTATE OF MILDRED DIXON",
+    "trial_date": "2026-11-03",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250902031": {
+    "caption": "CARRINGTON MORTGAGE SERVICES VS CACERES ETAL",
+    "trial_date": "2026-11-20",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241101770": {
+    "caption": "FULTON VS CAMPOVERDE ETAL",
+    "trial_date": "2026-11-30",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241201608": {
+    "caption": "RITCHIE VS SEREPCA-RICE ETAL",
+    "trial_date": "2026-11-30",
+    "case_type": "REAL PROPERTY - OTHER",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250301664": {
+    "caption": "GREBERMAN VS GROSS ETAL",
+    "trial_date": "2026-11-30",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250900861": {
+    "caption": "WILMINGTON SAVINGS FUND VS REGEIS REALTY LLC",
+    "trial_date": "2026-11-19",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250901925": {
+    "caption": "PHILA HOUSING AUTHORITY VS COOKS",
+    "trial_date": "2026-10-13",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241200904": {
+    "caption": "MOODY ETAL VS PRIESTER ETAL",
+    "trial_date": "2026-11-17",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-15",
     "last_status": "",
     "reported": false,
     "retired": false

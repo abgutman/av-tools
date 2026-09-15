@@ -488,8 +488,8 @@
     }
   },
   "260800873": {
-    "sig": "28|10-SEP-2026|TRANSFERRED TO MAJOR NON-JURY",
-    "entry_count": 28,
+    "sig": "30|14-SEP-2026|ENTRY OF APPEARANCE",
+    "entry_count": 30,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -595,6 +595,18 @@
           "type": "MOTION ASSIGNMENT JUDGE",
           "name": "YU, KAY",
           "address": "RM 606, CITY HALL BROAD AND MARKET ST. PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "15",
+          "type": "ATTORNEY FOR DEFENDANT",
+          "name": "ROACH, MARIROSE",
+          "address": "ROACH LAW LLC 6950 CASTOR AVE PHILADELPHIA PA 19149 (267)343-5818 marirose@roachjustice.com"
+        },
+        {
+          "seq": "16",
+          "type": "MOTION ASSIGNMENT JUDGE",
+          "name": "HALL, CHRISTOPHER",
+          "address": "STOUT CENTER PHILADELPHIA PA 19107"
         }
       ],
       "events": [],
@@ -766,15 +778,27 @@
           "time": "04:08 PM",
           "type": "TRANSFERRED TO MAJOR NON-JURY",
           "party": ""
+        },
+        {
+          "date": "14-SEP-2026",
+          "time": "10:52 AM",
+          "type": "MOTION ASSIGNMENT UPDATED",
+          "party": ""
+        },
+        {
+          "date": "14-SEP-2026",
+          "time": "11:59 AM",
+          "type": "ENTRY OF APPEARANCE",
+          "party": "ROACH, MARIROSE"
         }
       ],
       "last_entry": {
-        "date": "10-SEP-2026",
-        "time": "04:08 PM",
-        "type": "TRANSFERRED TO MAJOR NON-JURY",
-        "party": ""
+        "date": "14-SEP-2026",
+        "time": "11:59 AM",
+        "type": "ENTRY OF APPEARANCE",
+        "party": "ROACH, MARIROSE"
       },
-      "entry_count": 28
+      "entry_count": 30
     }
   }
 }
