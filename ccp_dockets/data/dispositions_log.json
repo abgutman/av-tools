@@ -1,5 +1,190 @@
 [
   {
+    "case_id": "260203272",
+    "caption": "MAZER VS DIAKITE",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-09-02",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": "$90,000.00",
+    "plaintiffs": [
+      "MAZER, STEPHANIE"
+    ],
+    "defendants": [
+      "DIAKITE, MAMADOU"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500294",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500293",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500285",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500284",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500277",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500275",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500273",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "250500265",
+    "caption": "STATE FARM MUTUAL VS MVA STORAGE & TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-09-15",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "MVA STORAGE AND TOWING"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
+    "case_id": "241103317",
+    "caption": "REAL PROPERTY RECOVERY, LLC VS MULDOON ETAL",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-14",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-15",
+    "award": null,
+    "plaintiffs": [
+      "REAL PROPERTY RECOVERY LLC"
+    ],
+    "defendants": [
+      "MULDOON, TINA M",
+      "TRINKLE JR, LOUIS F",
+      "MARO, NANCY C",
+      "DOST, GAYLE P",
+      "MULDOON ADMX OF THE EST OF SAMUEL W TRINKLE, TINA M",
+      "TRINKLE, SAMUEL W"
+    ],
+    "logged_at": "2026-09-16"
+  },
+  {
     "case_id": "251100253",
     "caption": "OKOLO VS DOE ETAL",
     "case_type": "EJECTMENT",

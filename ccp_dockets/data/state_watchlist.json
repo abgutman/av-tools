@@ -488,8 +488,8 @@
     }
   },
   "260800873": {
-    "sig": "30|14-SEP-2026|ENTRY OF APPEARANCE",
-    "entry_count": 30,
+    "sig": "31|14-SEP-2026|AFFIDAVIT OF SERVICE FILED",
+    "entry_count": 31,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -790,15 +790,21 @@
           "time": "11:59 AM",
           "type": "ENTRY OF APPEARANCE",
           "party": "ROACH, MARIROSE"
+        },
+        {
+          "date": "14-SEP-2026",
+          "time": "05:01 PM",
+          "type": "AFFIDAVIT OF SERVICE FILED",
+          "party": "STANDER, BRETT E"
         }
       ],
       "last_entry": {
         "date": "14-SEP-2026",
-        "time": "11:59 AM",
-        "type": "ENTRY OF APPEARANCE",
-        "party": "ROACH, MARIROSE"
+        "time": "05:01 PM",
+        "type": "AFFIDAVIT OF SERVICE FILED",
+        "party": "STANDER, BRETT E"
       },
-      "entry_count": 30
+      "entry_count": 31
     }
   }
 }
