@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated September 16, 2026 at 02:03 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated September 17, 2026 at 02:07 PM</div>
 </div>
 
 <div class="nav">
@@ -98,21 +98,31 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
     Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
     their attorney) has an address in Ardmore, Bala Cynwyd, Broomall, Bryn Mawr, Gladwyne, Haverford, Havertown, Merion Station, Narberth, Newtown Square, Villanova, Wayne and Wynnewood. Each case is tagged with the court where it
-    was filed. Tax and municipal liens are excluded. In this window: Bucks 5 · Delaware 10 · Philadelphia 41.
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 4 · Delaware 9 · Philadelphia 39.
 </div>
 
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (6)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (8)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (0)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (50)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (44)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(6)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(8)</span></h2>
         <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260901973</span>
+            <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">PARSONS VS HYATT HOTELS CORPORATION ETAL</div>
+        <div class="case-meta">Filed: 2026-09-16 &middot; ARBITRATION HEARING SCHEDULED</div>
+        <div class="local-party"><strong>DEFENDANT:</strong> APPLE LEISURE GROUP <span class="locale">Newtown Square (19073)</span></div><div class="local-party"><strong>DEFENDANT:</strong> APPLE LEISURE GROUP <span class="locale">Newtown Square (19073)</span></div>
+    </div>
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260901739</span>
             <span class="case-type">PERSONAL INJURY - OTHER</span>
@@ -172,13 +182,23 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-09-14 &middot; WAITING TO LIST CASE MGMT CONF</div>
         <div class="local-party"><strong>PLAINTIFF:</strong> MIRRORS IN EDUCATION <span class="locale">Havertown (19083)</span></div>
     </div>
+<div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260901951</span>
+            <span class="case-type">MISC SUMMONS</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">SOLTANI ETAL VS NTP MARBLE, INC. D/B/A COLONIAL GE</div>
+        <div class="case-meta">Filed: 2026-09-14 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>PRO SE FILER:</strong> SOLTANI, LILA <span class="locale">Gladwyne (19035)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> SOLTANI, LILA <span class="locale">Gladwyne (19035)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> ALLEN, KYLE <span class="locale">Gladwyne (19035)</span></div><div class="local-party"><strong>PLAINTIFF:</strong> SOLTANI, MOHAMMAD <span class="locale">Narberth (19072)</span></div>
+    </div>
     </div>
     <div class="section" id="foreclosures">
         <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
         <div class="empty">No cases in this category.</div>
     </div>
     <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(50)</span></h2>
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(44)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/79e9b3416d2ceb7ffb2e99ce3a75debb9f5ca6e5359f584bb0ec61be6870d5a2" target="_blank" rel="noopener" class="case-number">CV-2026-008339</a>
@@ -618,66 +638,6 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="caption">Midland Credit Management, Inc. v. Marone</div>
         <div class="case-meta">Filed: 2026-09-03</div>
         <div class="local-party"><strong>Defendant:</strong> Andrew Marone <span class="locale">Newtown Square (19073)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260900398</span>
-            <span class="case-type">PERSONAL INJURY - OTHER</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">JANE DOE, K.G. VS THE DEVEREUX FOUNDATION ETAL</div>
-        <div class="case-meta">Filed: 2026-09-02 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> THE DEVEREUX FOUNDATION <span class="locale">Villanova (19085)</span></div><div class="local-party"><strong>DEFENDANT:</strong> THE HELENA DEVEREUX FOUNDATION <span class="locale">Villanova (19085)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260900368</span>
-            <span class="case-type">MASS TORT - ASBESTOS</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">BATES ETAL VS 84 LUMBER COMPANY ETAL</div>
-        <div class="case-meta">Filed: 2026-09-02 &middot; WAITING FOR LISTING MASS TORT</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> PEPBOYS <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6392379" target="_blank" rel="noopener" class="case-number">2026-05987</a>
-            <span class="case-type">COMPLAINT IN CONFESSION OF JUDGMENT FOR MONEY</span>
-            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6392379" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">STREET &amp; PHILMONT GP LLC  T/A P&amp;M PROPERTY MANAGEMENT INVESTMENT LP v. ZDC FEASTERVILE LLC</div>
-        <div class="case-meta">Filed: 2026-09-02</div>
-        <div class="local-party"><strong>Defendant:</strong> ZDC FEASTERVILE LLC <span class="locale">Bryn Mawr (19010)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260900543</span>
-            <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">LIM VS NGUYEN ETAL</div>
-        <div class="case-meta">Filed: 2026-09-02 &middot; ARBITRATION HEARING SCHEDULED</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> NGUYEN, JOSEPH <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260900521</span>
-            <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">MCLAUGHLIN VS JOE RITCHIE, INC. ETAL</div>
-        <div class="case-meta">Filed: 2026-09-02 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> DELAIRE LANDING ASSOCIATES <span class="locale">Bryn Mawr (19010)</span></div><div class="local-party"><strong>DEFENDANT:</strong> DELAIRE LANDING ASSOCIATES GP LLC <span class="locale">Bryn Mawr (19010)</span></div><div class="local-party"><strong>DEFENDANT:</strong> KARP, MICHAEL <span class="locale">Bryn Mawr (19010)</span></div><div class="local-party"><strong>DEFENDANT:</strong> UNIVERSITY CITY HOUSING COMPANY <span class="locale">Bryn Mawr (19010)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d3ac3250133b275a203da3a2a03e0fc9ebd656cddc8659f6075ac90f822ef4e2" target="_blank" rel="noopener" class="case-number">CV-2026-008086</a>
-            <span class="case-type">Civil NR - Judgment - MDJ Transfer</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d3ac3250133b275a203da3a2a03e0fc9ebd656cddc8659f6075ac90f822ef4e2" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">Jefferson Capital Systems, LLC v. Tascone</div>
-        <div class="case-meta">Filed: 2026-09-02</div>
-        <div class="local-party"><strong>Defendant:</strong> Peter Tascone <span class="locale">Broomall (19008)</span></div>
     </div>
     </div>
 </div>
