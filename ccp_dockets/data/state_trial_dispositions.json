@@ -638,7 +638,7 @@
     "trial_date": "2026-09-16",
     "case_type": "CONSTRUCTION CONTRACT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
+    "last_status": "LISTED RULE RETURNABLE DATE",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -648,9 +648,10 @@
     "trial_date": "2026-09-17",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250700468": {
     "caption": "MELCHIORRE VS CAPONE",
@@ -830,9 +831,9 @@
     "trial_date": "2026-08-20",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "WAITING TO ENTER WORKSHEET",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250300854": {
@@ -1307,9 +1308,9 @@
     "trial_date": "2026-09-15",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240802625": {
@@ -1317,9 +1318,9 @@
     "trial_date": "2026-09-15",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-08-06",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250301023": {
@@ -1706,9 +1707,9 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "WAITING TO ENTER WORKSHEET",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260101560": {
@@ -1993,9 +1994,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EQUITY - NO REAL ESTATE",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250802339": {
@@ -2003,9 +2004,9 @@
     "trial_date": "2026-09-16",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260403931": {
@@ -2013,9 +2014,9 @@
     "trial_date": "2026-09-16",
     "case_type": "FRAUD",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241100787": {

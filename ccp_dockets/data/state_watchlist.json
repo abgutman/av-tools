@@ -488,18 +488,18 @@
     }
   },
   "260800873": {
-    "sig": "31|14-SEP-2026|AFFIDAVIT OF SERVICE FILED",
-    "entry_count": 31,
+    "sig": "34|16-SEP-2026|ENTRY OF APPEARANCE",
+    "entry_count": 34,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
       "caption": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. VS BAR X",
       "filing_date": "2026-08-06",
       "filing_date_raw": "Thursday , August 06th, 2026",
-      "court": "MAJOR NON JURY",
+      "court": "MAJOR NON JURY EXPEDITED",
       "case_type": "REAL PROPERTY - OTHER",
       "jury": "JURY",
-      "status": "TRANSFERRED TO MAJOR NON-JURY",
+      "status": "WAITING TO LIST CASE MGMT CONF",
       "plaintiffs": [
         "SAVE OUR NEIGHBORHOOD FOR TOMORROW INC"
       ],
@@ -607,6 +607,18 @@
           "type": "MOTION ASSIGNMENT JUDGE",
           "name": "HALL, CHRISTOPHER",
           "address": "STOUT CENTER PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "17",
+          "type": "TEAM LEADER",
+          "name": "ROBERTS, JOSHUA",
+          "address": "538 CITY HALL PHILADELPHIA PA 19107"
+        },
+        {
+          "seq": "18",
+          "type": "ATTORNEY FOR DEFENDANT",
+          "name": "HERRON ESQ, PAUL L",
+          "address": "1500 MARKET STREET CENTRE SQUARE, WEST TOWER SUITE W-3110 PHILADELPHIA PA 19102 (215)972-1500 pherron@kellyherronlaw.com"
         }
       ],
       "events": [],
@@ -796,15 +808,33 @@
           "time": "05:01 PM",
           "type": "AFFIDAVIT OF SERVICE FILED",
           "party": "STANDER, BRETT E"
+        },
+        {
+          "date": "15-SEP-2026",
+          "time": "04:13 PM",
+          "type": "AMENDED COMPLAINT FILED",
+          "party": "BOCHETTO, GEORGE"
+        },
+        {
+          "date": "16-SEP-2026",
+          "time": "11:04 AM",
+          "type": "WAITING TO LIST CASE MGMT CONF",
+          "party": ""
+        },
+        {
+          "date": "16-SEP-2026",
+          "time": "02:30 PM",
+          "type": "ENTRY OF APPEARANCE",
+          "party": "HERRON ESQ, PAUL L"
         }
       ],
       "last_entry": {
-        "date": "14-SEP-2026",
-        "time": "05:01 PM",
-        "type": "AFFIDAVIT OF SERVICE FILED",
-        "party": "STANDER, BRETT E"
+        "date": "16-SEP-2026",
+        "time": "02:30 PM",
+        "type": "ENTRY OF APPEARANCE",
+        "party": "HERRON ESQ, PAUL L"
       },
-      "entry_count": 31
+      "entry_count": 34
     }
   }
 }

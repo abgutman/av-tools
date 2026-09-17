@@ -1,5 +1,139 @@
 [
   {
+    "case_id": "260403931",
+    "caption": "MARTINEZ VS H WILSON GROUP, LLC ETAL",
+    "case_type": "FRAUD",
+    "trial_date": "2026-09-16",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-09-16",
+    "award": "$52,000.00",
+    "plaintiffs": [
+      "MARTINEZ, ROGELIO"
+    ],
+    "defendants": [
+      "H WILSON GROUP LLC",
+      "HILL, STEVEN"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260100219",
+    "caption": "GOODWINE VS HILL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-09-16",
+    "award": null,
+    "plaintiffs": [
+      "GOODWINE, IDA"
+    ],
+    "defendants": [
+      "HILL, ALEXIS"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "250802339",
+    "caption": "ALLEN ETAL VS DELAROSA ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-09-16",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-09-16",
+    "award": "$12,500.00",
+    "plaintiffs": [
+      "ALLEN, KAREEM",
+      "JONES, RAZIYAH"
+    ],
+    "defendants": [
+      "DELAROSA, LAWRENCE D",
+      "LOPEZ, ASHLEY CHRISTINE",
+      "DOE DRIVER, JOHN",
+      "DOE OWNER, JOHN/JANE",
+      "PENNSYLVANIA FINANCIAL RESPONSIBILITY ASSIGNED CLAIMS PLAN"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "250702895",
+    "caption": "NAZARETH HOSPITAL VS STARLING",
+    "case_type": "EQUITY - NO REAL ESTATE",
+    "trial_date": "2026-09-16",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-09-16",
+    "award": "$289,110.20",
+    "plaintiffs": [
+      "NAZARETH HOSPITAL"
+    ],
+    "defendants": [
+      "STARLING, KENNETH"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "240802625",
+    "caption": "U.S. BANK NATIONAL ASSOCIATION VS ROCK ETAL",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-09-15",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-16",
+    "award": "$12,565.68",
+    "plaintiffs": [
+      "US BANK NA"
+    ],
+    "defendants": [
+      "ROCK, CHRISTNA",
+      "E R CARS LLC"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "240202566",
+    "caption": "MIDFIRST BANK VS RYBIN ETAL",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-08-20",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-09-16",
+    "award": null,
+    "plaintiffs": [
+      "MIDFIRST BANK"
+    ],
+    "defendants": [
+      "RYBIN, OLEKSANDR",
+      "VINNITSKY, JULIA"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "231002687",
+    "caption": "HUSSAIN VS PENA NUNEZ",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-15",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-16",
+    "award": "$18,587.99",
+    "plaintiffs": [
+      "HUSSAIN, ZAFAR"
+    ],
+    "defendants": [
+      "PENA NUNEZ, IVAN DE JESUS"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
     "case_id": "260203272",
     "caption": "MAZER VS DIAKITE",
     "case_type": "MOTOR VEHICLE ACCIDENT",
