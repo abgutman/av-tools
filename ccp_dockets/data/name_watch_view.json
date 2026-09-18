@@ -12,6 +12,13 @@
       "label": "Philadelphia Sheriff",
       "rows": [
         {
+          "case_id": "260901977",
+          "caption": "FOUR PARTNERS, INC. VS THE SHERIFF OF PHILADELPHIA",
+          "filing_date": "2026-09-15",
+          "matched_name": "SHERIFF OF PHILADELPHIA",
+          "roles": "DEFENDANT"
+        },
+        {
           "case_id": "260900871",
           "caption": "OKYNE VS THE SHERIFF OF PHILADELPHIA C/O ROCHELLE",
           "filing_date": "2026-09-05",
@@ -29,6 +36,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-09-14 12:55 EDT",
+  "generated_at": "2026-09-18 10:55 EDT",
   "window_days": 14
 }
