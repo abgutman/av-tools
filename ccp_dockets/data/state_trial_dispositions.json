@@ -1248,9 +1248,9 @@
     "trial_date": "2026-08-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT OF NON PROS ENTERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240902308": {
@@ -1687,9 +1687,9 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251203195": {
@@ -1717,9 +1717,9 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260201352": {
@@ -1747,9 +1747,9 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260202667": {
@@ -1787,9 +1787,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260300360": {
@@ -1797,9 +1797,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT OF NON PROS ENTERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260300735": {
@@ -1807,9 +1807,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260301044": {
@@ -1827,9 +1827,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260301311": {
@@ -1837,9 +1837,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260301857": {
@@ -2107,9 +2107,9 @@
     "trial_date": "2026-09-14",
     "case_type": "ASSAULT, BATTERY",
     "first_seen": "2026-09-02",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250400529": {

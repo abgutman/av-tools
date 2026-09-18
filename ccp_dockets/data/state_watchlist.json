@@ -1,7 +1,7 @@
 {
   "260303606": {
-    "sig": "62|09-SEP-2026|NOTICE GIVEN UNDER RULE 236",
-    "entry_count": 62,
+    "sig": "63|16-SEP-2026|PRAEC/SETTLE DISCONTINUE END",
+    "entry_count": 63,
     "note": "BOHM v. BOHM \u2014 alleged fraud, Commerce Program",
     "docket": {
       "case_id": "260303606",
@@ -11,7 +11,7 @@
       "court": "COMMERCE - STANDARD, NON JURY",
       "case_type": "FRAUD",
       "jury": "NON JURY",
-      "status": "LISTED FOR CASE MGMT CONF",
+      "status": "PRAEC/SETTLE DISCONTINUE END",
       "plaintiffs": [
         "BOHM, ALEC"
       ],
@@ -81,29 +81,7 @@
           "address": "532A CITY HALL PHILADELPHIA PA 19107"
         }
       ],
-      "events": [
-        {
-          "event": "DISCOVERY HEARING",
-          "datetime": "03-SEP-2026 09:30 AM",
-          "room": "CITY HALL",
-          "location": "COURTROOM 646",
-          "judge": "ERDOS, MICHAEL"
-        },
-        {
-          "event": "HEARING",
-          "datetime": "03-SEP-2026 09:30 AM",
-          "room": "CITY HALL",
-          "location": "COURTROOM 646",
-          "judge": "ERDOS, MICHAEL"
-        },
-        {
-          "event": "CASE MANAGEMENT CONFERENCE",
-          "datetime": "22-OCT-2026 02:15 PM",
-          "room": "VIA ADVANCED COMMUN. TECH.",
-          "location": "REMOTE HEARING",
-          "judge": "COMMERCE CASE MANAGER"
-        }
-      ],
+      "events": [],
       "entries": [
         {
           "date": "25-MAR-2026",
@@ -476,20 +454,26 @@
           "time": "10:24 AM",
           "type": "NOTICE GIVEN UNDER RULE 236",
           "party": ""
+        },
+        {
+          "date": "16-SEP-2026",
+          "time": "03:49 PM",
+          "type": "PRAEC/SETTLE DISCONTINUE END",
+          "party": "DEVITO, GARY A"
         }
       ],
       "last_entry": {
-        "date": "09-SEP-2026",
-        "time": "10:24 AM",
-        "type": "NOTICE GIVEN UNDER RULE 236",
-        "party": ""
+        "date": "16-SEP-2026",
+        "time": "03:49 PM",
+        "type": "PRAEC/SETTLE DISCONTINUE END",
+        "party": "DEVITO, GARY A"
       },
-      "entry_count": 62
+      "entry_count": 63
     }
   },
   "260800873": {
-    "sig": "34|16-SEP-2026|ENTRY OF APPEARANCE",
-    "entry_count": 34,
+    "sig": "35|17-SEP-2026|PRELIM OBJECTIONS-MARKED MOOT",
+    "entry_count": 35,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -826,15 +810,21 @@
           "time": "02:30 PM",
           "type": "ENTRY OF APPEARANCE",
           "party": "HERRON ESQ, PAUL L"
+        },
+        {
+          "date": "17-SEP-2026",
+          "time": "09:18 AM",
+          "type": "PRELIM OBJECTIONS-MARKED MOOT",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "16-SEP-2026",
-        "time": "02:30 PM",
-        "type": "ENTRY OF APPEARANCE",
-        "party": "HERRON ESQ, PAUL L"
+        "date": "17-SEP-2026",
+        "time": "09:18 AM",
+        "type": "PRELIM OBJECTIONS-MARKED MOOT",
+        "party": ""
       },
-      "entry_count": 34
+      "entry_count": 35
     }
   }
 }

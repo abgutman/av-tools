@@ -5,7 +5,7 @@
     "case_type": "FRAUD",
     "caption": "BOHM VS BOHM ETAL",
     "filing_date": "2026-03-25",
-    "status": "LISTED FOR CASE MGMT CONF",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
     "plaintiffs": [
       "BOHM, ALEC"
     ],
@@ -13,9 +13,9 @@
       "BOHM, DANIEL",
       "BOHM, LISA"
     ],
-    "entry_count": 62,
-    "last_entry_type": "NOTICE GIVEN UNDER RULE 236",
-    "last_entry_date": "09-SEP-2026"
+    "entry_count": 63,
+    "last_entry_type": "PRAEC/SETTLE DISCONTINUE END",
+    "last_entry_date": "16-SEP-2026"
   },
   {
     "case_id": "260800873",
@@ -35,8 +35,8 @@
       "COLLINS-GREENWALD, BRIDGET",
       "CAMAC 255 CORPORATION"
     ],
-    "entry_count": 34,
-    "last_entry_type": "ENTRY OF APPEARANCE",
-    "last_entry_date": "16-SEP-2026"
+    "entry_count": 35,
+    "last_entry_type": "PRELIM OBJECTIONS-MARKED MOOT",
+    "last_entry_date": "17-SEP-2026"
   }
 ]

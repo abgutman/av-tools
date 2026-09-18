@@ -1,5 +1,191 @@
 [
   {
+    "case_id": "260301311",
+    "caption": "GARCIA ROSALES VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-16",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "GARCIA ROSALES, JOSE"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260301306",
+    "caption": "TYLER VS MARTIN",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-16",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "TYLER, RODNEY"
+    ],
+    "defendants": [
+      "MARTIN, JEFFREY L"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260300735",
+    "caption": "PENNYPACK WOODS HOME OWNERSHIP ASSOC VS HERRING",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-16",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": "$21,497.00",
+    "plaintiffs": [
+      "PENNYPACK WOODS HOME OWNERSHIP ASSOCIATION"
+    ],
+    "defendants": [
+      "HERRING, JACLYN"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260300540",
+    "caption": "BERNTSEN VS BERNTSEN",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "BERNTSEN, CHRISTINE"
+    ],
+    "defendants": [
+      "BERNTSEN, NICHOLE RENEE"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260300360",
+    "caption": "CASTRO VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-16",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "CASTRO, LUISA"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS",
+      "HERBERT, JENNIFER"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260300353",
+    "caption": "LILLEY VS WILLIAMS-SHEFFIELD",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-16",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "LILLEY, ERIC"
+    ],
+    "defendants": [
+      "WILLIAMS-SHEFFIELD, JENDAYA"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260203089",
+    "caption": "HUFF VS OUTLAW ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-08-19",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "HUFF, MICHAEL"
+    ],
+    "defendants": [
+      "OUTLAW, KWAVEON",
+      "LEVINS, ZAHSHEEN",
+      "BONES, VICTORIA"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "260101560",
+    "caption": "BRIQ HOUSE LLC VS SANDERS ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "BRIQ HOUSE LLC"
+    ],
+    "defendants": [
+      "SANDERS, ANGELA",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "251202854",
+    "caption": "LORENZO JACKSON MANAGEMENT LLC VS ALL OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-09",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "LORENZO JACKSON MANAGEMENT LLC"
+    ],
+    "defendants": [
+      "ALL OCCUPANTS",
+      "JAY, ALIYAH"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "240901720",
+    "caption": "ADAMS VS THE PHILLIES, LP ETAL",
+    "case_type": "ASSAULT, BATTERY",
+    "trial_date": "2026-09-14",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR PLAINTIFF",
+    "known": false,
+    "disposition_date": "2026-09-17",
+    "award": "$15,000.00",
+    "plaintiffs": [
+      "ADAMS, DAQUAN"
+    ],
+    "defendants": [
+      "PHILLIES LP",
+      "JOHN / JANE DOES 1-8"
+    ],
+    "logged_at": "2026-09-17"
+  },
+  {
     "case_id": "260403931",
     "caption": "MARTINEZ VS H WILSON GROUP, LLC ETAL",
     "case_type": "FRAUD",
