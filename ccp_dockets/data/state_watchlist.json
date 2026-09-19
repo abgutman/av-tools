@@ -73,12 +73,6 @@
           "type": "ATTORNEY FOR DEFENDANT",
           "name": "KADOURA, JUSTIN M",
           "address": "1650 MARKET STREET SUITE 3300 PHILADELPHIA PA 19103 (215)252-9552 justin.kadoura@hklaw.com"
-        },
-        {
-          "seq": "10",
-          "type": "JUDGE",
-          "name": "ERDOS, MICHAEL",
-          "address": "532A CITY HALL PHILADELPHIA PA 19107"
         }
       ],
       "events": [],
@@ -545,12 +539,6 @@
           "address": "1524 LOCUST STREET PHILADELPHIA PA 19102 (215)735-3900 BSTANDER@BOCHETTOANDLENTZ.COM"
         },
         {
-          "seq": "9",
-          "type": "JUDGE",
-          "name": "HALL, CHRISTOPHER",
-          "address": "STOUT CENTER PHILADELPHIA PA 19107"
-        },
-        {
           "seq": "10",
           "type": "DEFENDANT",
           "name": "CAMAC 255 CORPORATION",
@@ -575,22 +563,10 @@
           "address": "1515 ARCH STREET PHILADELPHIA PA 19102 (215)686-5044 dominique.holly@phila.gov"
         },
         {
-          "seq": "14",
-          "type": "MOTION ASSIGNMENT JUDGE",
-          "name": "YU, KAY",
-          "address": "RM 606, CITY HALL BROAD AND MARKET ST. PHILADELPHIA PA 19107"
-        },
-        {
           "seq": "15",
           "type": "ATTORNEY FOR DEFENDANT",
           "name": "ROACH, MARIROSE",
           "address": "ROACH LAW LLC 6950 CASTOR AVE PHILADELPHIA PA 19149 (267)343-5818 marirose@roachjustice.com"
-        },
-        {
-          "seq": "16",
-          "type": "MOTION ASSIGNMENT JUDGE",
-          "name": "HALL, CHRISTOPHER",
-          "address": "STOUT CENTER PHILADELPHIA PA 19107"
         },
         {
           "seq": "17",

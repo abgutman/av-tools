@@ -1,5 +1,44 @@
 [
   {
+    "case_id": "250301023",
+    "caption": "ODK CAPITAL LLC VS TRANZITIONS HAIR AND BODY, LLC",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-18",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-18",
+    "award": "$41,050.12",
+    "plaintiffs": [
+      "ODK CAPITAL LLC"
+    ],
+    "defendants": [
+      "TRANZITIONS HAIR AND BODY LLC",
+      "PIERRE, MERLYNN"
+    ],
+    "logged_at": "2026-09-18"
+  },
+  {
+    "case_id": "240102638",
+    "caption": "COPELAND VS GAILLARD, JR. ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-09-14",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-09-18",
+    "award": null,
+    "plaintiffs": [
+      "COPELAND, ANNIE"
+    ],
+    "defendants": [
+      "GAILLARD JR, BRYANT K",
+      "GAILLARD SR, BRYANT K",
+      "DOE, JOHN"
+    ],
+    "logged_at": "2026-09-18"
+  },
+  {
     "case_id": "260301311",
     "caption": "GARCIA ROSALES VS ALL UNKNOWN OCCUPANTS",
     "case_type": "EJECTMENT",

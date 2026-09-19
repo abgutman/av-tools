@@ -1328,9 +1328,10 @@
     "trial_date": "2026-09-18",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250201793": {
     "caption": "LESHAK VS SAPIENT INDUSTRIES, INC",
@@ -2097,9 +2098,9 @@
     "trial_date": "2026-09-14",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-02",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240901720": {
