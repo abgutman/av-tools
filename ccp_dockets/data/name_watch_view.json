@@ -17,13 +17,6 @@
           "filing_date": "2026-09-15",
           "matched_name": "SHERIFF OF PHILADELPHIA",
           "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "260900871",
-          "caption": "OKYNE VS THE SHERIFF OF PHILADELPHIA C/O ROCHELLE",
-          "filing_date": "2026-09-05",
-          "matched_name": "SHERIFF OF PHILADELPHIA C/O ROCHELLE BILAL",
-          "roles": "DEFENDANT"
         }
       ]
     },
@@ -36,6 +29,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-09-18 10:55 EDT",
+  "generated_at": "2026-09-19 21:00 EDT",
   "window_days": 14
 }
