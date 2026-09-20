@@ -290,7 +290,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250600422": {
@@ -980,7 +980,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED RULE RETURNABLE DATE",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "251000037": {
@@ -1010,7 +1010,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED RULE RETURNABLE DATE",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "251002602": {
@@ -1020,7 +1020,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "251103098": {
@@ -1060,7 +1060,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250700101": {
