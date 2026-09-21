@@ -174,9 +174,10 @@
     "trial_date": "2026-09-21",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED-PROJ. SETTLEMENT CONF.",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240703157": {
     "caption": "PICKETT VS UNITED AUTO COLLISION, INC",
@@ -1603,9 +1604,10 @@
     "trial_date": "2026-09-21",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-08-13",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250200899": {
     "caption": "D'ALFONSO VS KAUR-JOSAN",
@@ -2025,9 +2027,10 @@
     "trial_date": "2026-09-21",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500463": {
     "caption": "PAPPAS-SFEDU VS FOX",
@@ -2089,9 +2092,10 @@
     "trial_date": "2026-09-21",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-01",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240102638": {
     "caption": "COPELAND VS GAILLARD, JR. ETAL",
