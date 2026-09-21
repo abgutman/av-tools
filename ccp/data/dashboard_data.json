@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-09-20T08:04:09 EDT",
+    "scraped_at": "2026-09-21T09:42:28 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-09-20",
-      "end": "2027-01-18"
+      "start": "2026-09-21",
+      "end": "2027-01-19"
     },
     "counts": {
-      "CM": 324,
+      "CM": 325,
       "MJ": 99,
-      "total": 423
+      "total": 424
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -1052,6 +1052,23 @@
       "judge": "CHRISTOPHER HALL",
       "court_type": "RENT, LEASE & EJECTMENT",
       "case_type": "EJECTMENT",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260901005",
+      "caption": "MITCHUM VS TAYLOR",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
       "attorneys": "",
       "trial_days": ""
     },
