@@ -1,5 +1,6431 @@
 [
   {
+    "case_id": "260902423",
+    "caption": "CITY OF PHILADELPHIA VS SANON ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "SANON, MARIAM",
+      "SANON, MARIAM",
+      "SANON, MOHAMED",
+      "SANON, MOHAMMED"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "WIECZOREK, JOHN O",
+        "address": "1515 ARCH ST. 15TH FLOOR PHILADELPHIA PA 19102 (215)686-6714 john.wieczorek@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "SANON, MARIAM",
+        "address": "2401 S. 61ST STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "SANON, MARIAM",
+        "address": "2424 S. 75TH STREET PHILADELPHIA PA 19153"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "SANON, MOHAMED",
+        "address": "2401 S. 61ST STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "SANON, MOHAMMED",
+        "address": "2424 S. 75TH STREET PHILADELPHIA PA 19153"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "03:33 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:33 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "WIECZOREK, JOHN O"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:33 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "WIECZOREK, JOHN O"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:33 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:33 PM",
+        "type": "CITY CHARGE",
+        "party": "WIECZOREK, JOHN O"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "03:33 PM",
+      "type": "CITY CHARGE",
+      "party": "WIECZOREK, JOHN O"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902421",
+    "caption": "BURNEY VS DANIELS",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "CONSTRUCTION CONTRACT",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "BURNEY, JOVAN"
+    ],
+    "defendants": [
+      "DANIELS, LINDA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PLAINTIFF",
+        "name": "BURNEY, JOVAN",
+        "address": "2241 N. 22ND ST PHILADELPHIA PA 19132"
+      },
+      {
+        "seq": "2",
+        "type": "DEFENDANT",
+        "name": "DANIELS, LINDA",
+        "address": "2267 N. VANFELT ST PHILADELPHIA PA 19132"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "04:10 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "04:13 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "04:13 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "BURNEY, JOVAN"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "04:13 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "BURNEY, JOVAN"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "04:13 PM",
+      "type": "MOT-PROCEED IN FORMA PAUPERIS",
+      "party": "BURNEY, JOVAN"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902420",
+    "caption": "CITY OF PHILADELPHIA VS TANG ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "TANG, NICK",
+      "TANG, NICK",
+      "NANU'S HOT CHICKEN INC.",
+      "BROAD HOT CHICKEN INC.",
+      "BROAD HOT CHICKEN INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "LOGUE, SEAN C",
+        "address": "1515 ARCH STREET, 15TH FLOOR PHILADELPHIA PA 19102 (215)686-0471 SEAN.LOGUE@PHILA.GOV"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "TANG, NICK",
+        "address": "4501 N. BROAD STREET PHILADELPHIA PA 19140"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "TANG, NICK",
+        "address": "7600 MONTGOMERY AVENUE ELKINS PARK PA 19027"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "NANU'S HOT CHICKEN INC.",
+        "address": "2210 COTMAN AVENUE UNIT B PHILADELPHIA PA 19149"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "BROAD HOT CHICKEN INC.",
+        "address": "4501 N. BROAD STREET PHILADELPHIA PA 19140"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "BROAD HOT CHICKEN INC.",
+        "address": "9649 COWDEN STREET PHILADELPHIA PA 19115"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "03:23 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:23 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "LOGUE, SEAN C"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:23 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "LOGUE, SEAN C"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:23 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:23 PM",
+        "type": "CITY CHARGE",
+        "party": "LOGUE, SEAN C"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "03:23 PM",
+      "type": "CITY CHARGE",
+      "party": "LOGUE, SEAN C"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902419",
+    "caption": "CITY OF PHILADELPHIA VS WHITE CAR LLC ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "WHITE CAR LLC",
+      "WHITE CAR LLC",
+      "WHITE CAR LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "KELLY, JAMES K",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19120 (215)683-5104 jim.kelly@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WHITE CAR LLC",
+        "address": "3300 N. FRONT STREET PHILADELPHIA PA 19140"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "WHITE CAR LLC",
+        "address": "2457-59 N. 54TH STREET PHILADELPHIA PA 19131"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "WHITE CAR LLC",
+        "address": "506 CHAUMONT DRIVE C/O MOHAMED ELEBAH VILLANOVA PA 19085"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "03:15 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:15 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "KELLY, JAMES K"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:15 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "KELLY, JAMES K"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:15 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:15 PM",
+        "type": "CITY CHARGE",
+        "party": "KELLY, JAMES K"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "03:15 PM",
+      "type": "CITY CHARGE",
+      "party": "KELLY, JAMES K"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902414",
+    "caption": "LEE VS CITY OF PHILADELPHIA ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "LEE, RYAN"
+    ],
+    "defendants": [
+      "CITY OF PHILADELPHIA",
+      "PENNDOT",
+      "COMCAST SPECTACOR",
+      "JOHN/JANE DOE 1-10",
+      "ABC CORP 1"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "OBRIEN, LIAM",
+        "address": "500 COTTMAN AVENUE CHELTENHAM PA 19012 (215)663-0400 lobrien@stamponelaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "LEE, RYAN",
+        "address": "2045 BUTTERNUT DRIVE HUNTINGDON VALLEY PA 19006"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "1515 ARCH STREET 14TH FLOOR PHILADELPHIA PA 19102"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "PENNDOT",
+        "address": "1700 ARSENAL BOULEVARD HARRISBURG PA 17104"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "COMCAST SPECTACOR",
+        "address": "1701 JFK BOULEVARD PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "JOHN/JANE DOE 1-10",
+        "address": "TBD TBD PA 19110"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "ABC CORP 1",
+        "address": "TBD TBD PA 19110"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "10:59 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:59 AM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "OBRIEN, LIAM"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:59 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "OBRIEN, LIAM"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:59 AM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "OBRIEN, LIAM"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:59 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "OBRIEN, LIAM"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:59 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "OBRIEN, LIAM"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902413",
+    "caption": "PATTERSON VS THE REVERE MANOR, LLC ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "PATTERSON, DELLRE"
+    ],
+    "defendants": [
+      "THE REVERE MANOR, LLC",
+      "REVERE MANOR APARTMENTS"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "WARD, DANIEL N",
+        "address": "SIMON & SIMON PC 18 CAMPUS BOULEVARD SUITE 100 NEWTOWN SQUARE PA 19073 (215)467-4666 CourtFilingsPHL2@gosimon.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "PATTERSON, DELLRE",
+        "address": "2301 WOODWARD STREET, H10 PHILADELPHIA PA 19115"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "THE REVERE MANOR, LLC",
+        "address": "9071 MILL CREEK ROAD LEVITTOWN PA 19054"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "REVERE MANOR APARTMENTS",
+        "address": "2301 WOODWARD STREET PHILADELPHIA, PA 19115"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "10:40 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:40 AM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "WARD, DANIEL N"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:40 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "WARD, DANIEL N"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:40 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "WARD, DANIEL N"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:40 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "WARD, DANIEL N"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902412",
+    "caption": "PIZZI VS PROGRESSIVE ADVANCED INSURANCE COMPANY",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "UNINSURED/UNDERINSURED SAVINGS",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "PIZZI, SHELLEY"
+    ],
+    "defendants": [
+      "PROGRESSIVE ADVANCED INSURANCE COMPANY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GARBER, JOEL WAYNE",
+        "address": "1101 MARKET STREET SUITE 2820 PHILADELPHIA PA 19107 (856)435-5800 garberlawoffice@comcast.net"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "PIZZI, SHELLEY",
+        "address": "338 BLAINE AVENUE BERLIN NJ 08091"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "PROGRESSIVE ADVANCED INSURANCE COMPANY",
+        "address": "300 NORTH COMMON BLVD. MAYFIELD VILLAGE OH 44143"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "09:47 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:47 AM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "GARBER, JOEL WAYNE"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:47 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GARBER, JOEL WAYNE"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:47 AM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "GARBER, JOEL WAYNE"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:47 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "GARBER, JOEL WAYNE"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "09:47 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "GARBER, JOEL WAYNE"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902409",
+    "caption": "GONZALEZ ETAL VS SAHOU",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "GONZALEZ, DANIELLE",
+      "SANTOS, VANESSA MARIE"
+    ],
+    "defendants": [
+      "SAHOU, MARIE CHRISTELL"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GREEN, ADAM M",
+        "address": "2332 SOUTH BROAD STREET PHILADELPHIA PA 19145 (215)462-3330 agreen@greenlegalteam.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "GONZALEZ, DANIELLE",
+        "address": "247 W. SHELDON STREET PHILADELPHIA PA 19120"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "SANTOS, VANESSA MARIE",
+        "address": "247 W. SHELDON STREET PHILADELPHIA PA 19120"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "SAHOU, MARIE CHRISTELL",
+        "address": "6149 OLD YORK ROAD, APT. A PHILADELPHIA PA 19141"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "09:23 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:23 AM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "GREEN, ADAM M"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:23 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GREEN, ADAM M"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:23 AM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "GREEN, ADAM M"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:23 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "GREEN, ADAM M"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "09:23 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "GREEN, ADAM M"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902403",
+    "caption": "REED VS CHILI'S ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "ARBITRATION",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "REED, STACY"
+    ],
+    "defendants": [
+      "CHILI'S",
+      "JOHN DOE ENTITIES 1-10"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "MIXON ESQ, AARON A",
+        "address": "100 SOUTH BROAD STREET SUITE 1518 PHILADELPHIA PA 19110-1006 (215)972-1777 aaron@mixonlawgroup.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "REED, STACY",
+        "address": "1021 E. DORSET STREET PHILADELPHIA PA 19150"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CHILI'S",
+        "address": "3000 OLYMPUS BOULEVARD COPPELL TX 75019"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "JOHN DOE ENTITIES 1-10",
+        "address": "3000 OLYMPUS BOULEVARD COPPELL TX 75019"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "12:49 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:49 AM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "MIXON ESQ, AARON A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:49 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "MIXON ESQ, AARON A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:49 AM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "MIXON ESQ, AARON A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:01 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "03:01 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902402",
+    "caption": "MARTINEZ VS TURNER ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "MARTINEZ, MICHAEL"
+    ],
+    "defendants": [
+      "TURNER, DARRYL",
+      "ZAMZAM TRANSPORTATION, INC.",
+      "EASTCOAST TRANSPORTING, LLC",
+      "LONG ISLAND TRANSPORT GROUP, INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GALAS, ROMAN T",
+        "address": "18 CAMPUS BLVD SUITE 100 NEWTOWN SQUARE PA 19073 (215)380-6347 CourtFilingsPHL2@gosimon.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "MARTINEZ, MICHAEL",
+        "address": "1943 GEORGIAN ROAD PHILADELPHIA PA 19138"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "TURNER, DARRYL",
+        "address": "374 HAWTHORNE STREET KEYPORT NJ 07735"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "ZAMZAM TRANSPORTATION, INC.",
+        "address": "89 W. LIDO PROMENADE LINDENHURST NY 11757"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "EASTCOAST TRANSPORTING, LLC",
+        "address": "92 WILLIAM STREET, APT. A8 ENGLEWOOD NJ 07631"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "LONG ISLAND TRANSPORT GROUP, INC.",
+        "address": "169 SYCAMORE LN. ISLANDIA NY 11749"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "08:26 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "08:26 AM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "GALAS, ROMAN T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "08:26 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GALAS, ROMAN T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "08:26 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "GALAS, ROMAN T"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "08:26 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "GALAS, ROMAN T"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902401",
+    "caption": "COMPUGROUP MEDICAL INC VS LITTLE DATA CENTERS INC",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "COMPUGROUP MEDICAL INC"
+    ],
+    "defendants": [
+      "LITTLE DATA CENTERS INC",
+      "ROSEN, WAYNE J"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "SCHNECK, JOEL S",
+        "address": "PORTNOY SCHNECK LLC 3705 QUAKERBRIDGE RD SUITE 116 HAMILTON NJ 08619 (609)514-8668 jss@splawoffice.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "COMPUGROUP MEDICAL INC",
+        "address": "1010 EAST ARAPAHO RD STE 300 RICHARDSON TX 75081"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "LITTLE DATA CENTERS INC",
+        "address": "2314 E YORK STREET PHILADELPHIA PA 19125"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "ROSEN, WAYNE J",
+        "address": "6502 BRADFORD TERRACE PHILADELPHIA PA 19149"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "05:27 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "05:27 AM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "SCHNECK, JOEL S"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "05:27 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "SCHNECK, JOEL S"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "05:27 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "SCHNECK, JOEL S"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "05:27 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "SCHNECK, JOEL S"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902400",
+    "caption": "PENNSYLVANIA SPCA VS OWNER/CARETAKER",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "PETITIONS",
+    "case_type": "NUNC PRO TUNC PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PETITIONER",
+        "name": "MCGINN, COURTNEY",
+        "address": "PENNSYLVANIA SPCA ATTN: COURTNEY MCGINN, ESQ. 350 E. ERIE AVE PHILADELPHIA PA 19134 (610)952-1514 cmcginn@pspca.org"
+      },
+      {
+        "seq": "2",
+        "type": "PETITIONER",
+        "name": "PENNSYLVANIA SPCA",
+        "address": "350 E. ERIE AVE PHILADELPHIA PA 19134"
+      },
+      {
+        "seq": "3",
+        "type": "RESPONDENT",
+        "name": "OWNER/CARETAKER,",
+        "address": "2045 N. AMERICAN ST PHILADELPHIA PA 19122"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "02:48 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:48 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": "MCGINN, COURTNEY"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:48 PM",
+        "type": "MOTION TO FILE NUNC PRO TUNC",
+        "party": "MCGINN, COURTNEY"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "02:48 PM",
+      "type": "MOTION TO FILE NUNC PRO TUNC",
+      "party": "MCGINN, COURTNEY"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902392",
+    "caption": "JOHNSON VS CANNON ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "JOHNSON, YUSHA"
+    ],
+    "defendants": [
+      "CANNON, SAMANTHA",
+      "GRUBHUB INC.",
+      "WONDER GROUP INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "FOXWORTH JR, RODERICK L",
+        "address": "TWO LOGAN SQUARE 100 N. 18TH STREET SUITE 303 PHILADELPHIA PA 19103 (445)248-9911 rfoxworth@foxworthlawgroup.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "JOHNSON, YUSHA",
+        "address": "817 S. CECIL STREET PHILADELPHIA PA 19143"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CANNON, SAMANTHA",
+        "address": "138 GILMORE ROAD HAVERTOWN PA 19083"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "GRUBHUB INC.",
+        "address": "BURNHAM CENTER 111 W. WASHINGTON STREET SUITE 2100 CHICAGO IL 60602"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "WONDER GROUP INC.",
+        "address": "4 WORLD TRADE CENTER 150 GREENWICH STREET 57TH FLOOR NEW YORK NY 10007"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "12:02 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:02 AM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "FOXWORTH JR, RODERICK L"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:02 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "FOXWORTH JR, RODERICK L"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:02 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "FOXWORTH JR, RODERICK L"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "12:02 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "FOXWORTH JR, RODERICK L"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902385",
+    "caption": "MEHL ETAL VS DO",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "ARBITRATION",
+    "case_type": "BAD FAITH",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "MEHL, MICHAEL",
+      "PIERCE, NATALIE"
+    ],
+    "defendants": [
+      "DO, PHUOC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PLAINTIFF",
+        "name": "MEHL, MICHAEL",
+        "address": "912 KLEMM AVENUE GLOUCESTER NJ 08030"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "PIERCE, NATALIE",
+        "address": "912 KLEMM AVENUE GLOUCESTER NJ 08030"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "DO, PHUOC",
+        "address": "270 WAYNE AVE EAST LANSDOWNE PA 19050"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "02:46 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:52 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "MEHL, MICHAEL"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:52 PM",
+        "type": "SHERIFF'S SURCHARGE 1 DEFT",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:52 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "MEHL, MICHAEL"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:52 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "MEHL, MICHAEL"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:59 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "PIERCE, NATALIE"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:29 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:29 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "04:18 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "04:54 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "MEHL, MICHAEL"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "04:54 PM",
+      "type": "CASE MANAGEMENT ORDER ISSUED",
+      "party": "MEHL, MICHAEL"
+    },
+    "entry_count": 10
+  },
+  {
+    "case_id": "260902376",
+    "caption": "CITY OF PHILADELPHIA VS KEITA ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "KEITA, SIAKA",
+      "KEITA, SIAKA",
+      "KEITA, SIAKA",
+      "KEITA, SIAKA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "KELLY, JAMES K",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19120 (215)683-5104 jim.kelly@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "KEITA, SIAKA",
+        "address": "6724-36 GREENWAY AVENUE PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "KEITA, SIAKA",
+        "address": "40 REMINGTON AVENUE COATESVILL PA 19320"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "KEITA, SIAKA",
+        "address": "6715 YOCUM STREET PHILADELPHIA PA 19142"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "KEITA, SIAKA",
+        "address": "6800 GUYER AVENUE PHILADELPHIA PA 19142"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:57 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:57 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "KELLY, JAMES K"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:57 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "KELLY, JAMES K"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:57 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:57 PM",
+        "type": "CITY CHARGE",
+        "party": "KELLY, JAMES K"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:57 PM",
+      "type": "CITY CHARGE",
+      "party": "KELLY, JAMES K"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902373",
+    "caption": "CITY OF PHILADELPHIA VS WATSON ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "WATSON, EMMA COX",
+      "WATSON, EMMA COX"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "OHARA, TAMMY T",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19102 (215)683-5288 tammy.ohara@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WATSON, EMMA COX",
+        "address": "1360 E. LYCOMING STREET PHILADELPHIA PA 19124"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "WATSON, EMMA COX",
+        "address": "6623 N. 8TH STREET #2 PHILADELPHIA PA 19126"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:49 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:49 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:49 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:49 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:49 PM",
+        "type": "CITY CHARGE",
+        "party": "OHARA, TAMMY T"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:49 PM",
+      "type": "CITY CHARGE",
+      "party": "OHARA, TAMMY T"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902371",
+    "caption": "CITY OF PHILADELPHIA VS WOODSON ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "WOODSON, PERNELL",
+      "WOODSON, GREGORY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "OHARA, TAMMY T",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19102 (215)683-5288 tammy.ohara@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WOODSON, PERNELL",
+        "address": "5966 N. NORWOOD STREET PHILADELPHIA PA 19138"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "WOODSON, GREGORY",
+        "address": "5966 N. NORWOOD STREET PHILADELPHIA PA 19138"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:39 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:39 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:39 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:39 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:39 PM",
+        "type": "CITY CHARGE",
+        "party": "OHARA, TAMMY T"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:39 PM",
+      "type": "CITY CHARGE",
+      "party": "OHARA, TAMMY T"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902370",
+    "caption": "CITY OF PHILADELPHIA VS GOODE ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "GOODE, KENNETH",
+      "GOODE, KENNETH",
+      "GOODE, KENNETH"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "SKILES, AMY A",
+        "address": "ONE PARKWAY BUILDING 1515 ARCH STREET PHILADELPHIA PA 19102 (215)683-8456 amy.skiles@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "GOODE, KENNETH",
+        "address": "1631 W. DIAMOND STREET APT 1 PHILADELPHIA PA 19121"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "GOODE, KENNETH",
+        "address": "2024 W. CAMBRIA PHILADELPHIA PA 19132"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "GOODE, KENNETH",
+        "address": "7901 POMPEY PLACE PHILADELPHIA PA 19153"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:33 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:33 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "SKILES, AMY A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:33 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "SKILES, AMY A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:33 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:33 PM",
+        "type": "CITY CHARGE",
+        "party": "SKILES, AMY A"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:33 PM",
+      "type": "CITY CHARGE",
+      "party": "SKILES, AMY A"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902369",
+    "caption": "CITY OF PHILADELPHIA VS BARKER ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "BARKER, ROBERT",
+      "BARKER, ROBERT",
+      "BARKER, ROBERT"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "OHARA, TAMMY T",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19102 (215)683-5288 tammy.ohara@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "BARKER, ROBERT",
+        "address": "5930 MARKET STREET PHILADELPHIA PA 19139"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "BARKER, ROBERT",
+        "address": "19 HOPKINS LANE WILLINGBORO NJ 08046"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "BARKER, ROBERT",
+        "address": "451 SYLVAN DRIVE WINTER PARK FL 32789"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:22 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:22 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:22 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:22 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:22 PM",
+        "type": "CITY CHARGE",
+        "party": "OHARA, TAMMY T"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:22 PM",
+      "type": "CITY CHARGE",
+      "party": "OHARA, TAMMY T"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902368",
+    "caption": "CITY OF PHILADELPHIA VS MOUTAN ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "MOUTAN, SAMEER M",
+      "MOUTAN, SAMEER M",
+      "MOUTAN, SAMEER M"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "OHARA, TAMMY T",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19102 (215)683-5288 tammy.ohara@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "MOUTAN, SAMEER M",
+        "address": "4743-45 MAPLE LANE PHILADELPHIA PA 19124"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "MOUTAN, SAMEER M",
+        "address": "4775 TAMPA STREET PHILADELPHIA PA 19120"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "MOUTAN, SAMEER M",
+        "address": "2760 PINE ROAD HUNTINGDON VALLEY PA 19006"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:15 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:15 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:15 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "OHARA, TAMMY T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:15 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:15 PM",
+        "type": "CITY CHARGE",
+        "party": "OHARA, TAMMY T"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:15 PM",
+      "type": "CITY CHARGE",
+      "party": "OHARA, TAMMY T"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902367",
+    "caption": "AMERICAN HERITAGE FEDERAL CREDIT UNION VS HADDONFI",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "JUDGMENTS",
+    "case_type": "CONFESSION OF JUDGMENT",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "AMERICAN HERITAGE FEDERAL CREDIT UNION"
+    ],
+    "defendants": [
+      "HADDONFIELD PARTNERS HOLDINGS I, LLC",
+      "HADDONFIELD PARTNERS HOLDINGS II, LLC",
+      "SCHLESINGER, FISHEL"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TRONE, ABBIE C",
+        "address": "79 E POMFRET STREET CARLISLE PA 17013 (717)205-2215 atrone@riceparklaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "AMERICAN HERITAGE FEDERAL CREDIT UNION",
+        "address": "2060 RED LION ROAD PHILADELPHIA PA 19115"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "HADDONFIELD PARTNERS HOLDINGS I, LLC",
+        "address": "184 PARK AVENUE BROOKLYN PA 11205"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "HADDONFIELD PARTNERS HOLDINGS II, LLC",
+        "address": "184 PARK AVENUE BROOKLYN PA 11205"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "SCHLESINGER, FISHEL",
+        "address": "184 PARK AVENUE BROOKLYN PA 11205"
+      },
+      {
+        "seq": "6",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "RICE, CHRISTOPHER E",
+        "address": "RICE PARK LAW, LLC 79 E. POMFRET STREET CARLISLE PA 17013 (717)205-2215 crice@riceparklaw.com"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:08 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:08 PM",
+        "type": "COMMENCEMENT BY JUDGMENT",
+        "party": "TRONE, ABBIE C"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:08 PM",
+        "type": "CONFESSION OF JUDGMENT FILED",
+        "party": "TRONE, ABBIE C"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:08 PM",
+      "type": "CONFESSION OF JUDGMENT FILED",
+      "party": "TRONE, ABBIE C"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902364",
+    "caption": "CITY OF PHILADELPHIA VS CASTRO ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "CASTRO, JOSE",
+      "CASTRO, JOSE",
+      "CASTRO, JOSE",
+      "DANIELS, JANIA",
+      "DANIELS, JANIA",
+      "DANIELS, JANIA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "PIETRAGALLO, KATHRYN",
+        "address": "1515 ARCH ST 15TH FLOOR PHILADELPHIA PA 19102 (215)683-5081 kathryn.pietragallo@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CASTRO, JOSE",
+        "address": "1029 VERNON ROAD PHILADELPHIA PA 19150"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "CASTRO, JOSE",
+        "address": "1231 E. CLIVEDEN STREET PHILADELPHIA PA 19119"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "CASTRO, JOSE",
+        "address": "2041 MAPLEWOOD AVENUE ABINGTON PA 19001"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "DANIELS, JANIA",
+        "address": "1029 VERNON ROAD PHILADELPHIA PA 19150"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "DANIELS, JANIA",
+        "address": "1231 E. CLIVEDEN STREET PHILADELPHIA PA 19119"
+      },
+      {
+        "seq": "8",
+        "type": "DEFENDANT",
+        "name": "DANIELS, JANIA",
+        "address": "2041 MAPLEWOOD AVENUE ABINGTON PA 19001"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:06 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:06 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "PIETRAGALLO, KATHRYN"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:06 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "PIETRAGALLO, KATHRYN"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:06 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:06 PM",
+        "type": "CITY CHARGE",
+        "party": "PIETRAGALLO, KATHRYN"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:06 PM",
+      "type": "CITY CHARGE",
+      "party": "PIETRAGALLO, KATHRYN"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902363",
+    "caption": "CITY OF PHILADELPHIA VS LANCHIN ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "LANCHIN, ALEXANDER",
+      "LANCHIN, ALEXANDER",
+      "BUDILOV, RUSLAN",
+      "BUDILOV, RUSLAN",
+      "BUDILOV, RUSLAN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "SKILES, AMY A",
+        "address": "ONE PARKWAY BUILDING 1515 ARCH STREET PHILADELPHIA PA 19102 (215)683-8456 amy.skiles@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "LANCHIN, ALEXANDER",
+        "address": "224 AMERICAN DRIVE RICHBORO PA 18954"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "LANCHIN, ALEXANDER",
+        "address": "3641 N. 17TH STREET PHILADELPHIA PA 19140"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "BUDILOV, RUSLAN",
+        "address": "224 AMERICAN DRIVE RICHBORO PA 18954"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "BUDILOV, RUSLAN",
+        "address": "3637 N. 17TH STREET PHILADELPHIA PA 19140"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "BUDILOV, RUSLAN",
+        "address": "3641 N. 17TH STREET PHILADELPHIA PA 19140"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "12:56 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:56 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "SKILES, AMY A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:56 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "SKILES, AMY A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:56 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:56 PM",
+        "type": "CITY CHARGE",
+        "party": "SKILES, AMY A"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "12:56 PM",
+      "type": "CITY CHARGE",
+      "party": "SKILES, AMY A"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902362",
+    "caption": "CITY OF PHILADELPHIA VS JOHNSON ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "JOHNSON, HELEN",
+      "JOHNSON, HELEN",
+      "JOHNSON, HELEN",
+      "JOHNSON, HELEN",
+      "JOHNSON, GERTRUDE"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "SPIRES, CORDELL",
+        "address": "1515 ARCH STREET 15TH FL. PHILADELPHIA PA 19102 (267)624-8787 cordell.m.spires@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "JOHNSON, HELEN",
+        "address": "1100 NEWPORTVILLE ROAD APT. 415 CROYDEN PA 19021"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "JOHNSON, HELEN",
+        "address": "2721 N. 24TH STREET PHILADELPHIA PA 19132"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "JOHNSON, HELEN",
+        "address": "295 GREENWICH DRIVE DOVER DE 19901"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "JOHNSON, HELEN",
+        "address": "4 9TH AVENUE BROOKLYN MD 21225"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "JOHNSON, GERTRUDE",
+        "address": "2721 N. 24TH STREET PHILADELPHIA PA 19132"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "12:43 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:43 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "SPIRES, CORDELL"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:43 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "SPIRES, CORDELL"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:43 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:43 PM",
+        "type": "CITY CHARGE",
+        "party": "SPIRES, CORDELL"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "12:43 PM",
+      "type": "CITY CHARGE",
+      "party": "SPIRES, CORDELL"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902361",
+    "caption": "LARKIN VS BOARD OF LICENSES AND INSPECTIONS REVIEW",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "PETITIONS",
+    "case_type": "NUNC PRO TUNC PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PETITIONER",
+        "name": "LARKIN, KHALIL",
+        "address": "1521 N. BOUVIER ST. 1R PHILADELPHIA PA 19121"
+      },
+      {
+        "seq": "2",
+        "type": "RESPONDENT",
+        "name": "FIREARMS - BOARD OF LICENSES AND INSPECTIONS REVIEW",
+        "address": "BOARDS ADMINISTRATOR MUNICIPAL SERVICES BUILDING 1401 JFK BLVD 11TH FLOOR PHILADELPHIA PA 19102 (215)686-2573"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "02:04 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:08 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:09 PM",
+        "type": "MOTION TO FILE NUNC PRO TUNC",
+        "party": "LARKIN, KHALIL"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:09 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "LARKIN, KHALIL"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:29 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:29 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "03:29 PM",
+      "type": "MOTION ASSIGNED",
+      "party": ""
+    },
+    "entry_count": 6
+  },
+  {
+    "case_id": "260902360",
+    "caption": "CITY OF PHILADELPHIA VS VILLAFANA ETAL",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "CODE ENFORCEMENT-CITY OF PHILA",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "defendants": [
+      "VILLAFANA, GILMA HERRERA",
+      "VILLAFANA, GILMA HERRERA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "KELLY, JAMES K",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19120 (215)683-5104 jim.kelly@phila.gov"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "c/o LAW DEPARTMENT 1515 ARCH ST., 14TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "VILLAFANA, GILMA HERRERA",
+        "address": "3034 ORMES STREET PHILADELPHIA PA 19134"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "VILLAFANA, GILMA HERRERA",
+        "address": "3325 ELLA STREET PHILADELPHIA PA 19134"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "12:31 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:31 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "KELLY, JAMES K"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:31 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "KELLY, JAMES K"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:31 PM",
+        "type": "RULE FOR INJUNCTION FILED",
+        "party": "CITY OF PHILADELPHIA,"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:31 PM",
+        "type": "CITY CHARGE",
+        "party": "KELLY, JAMES K"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "12:31 PM",
+      "type": "CITY CHARGE",
+      "party": "KELLY, JAMES K"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902359",
+    "caption": "MORRIS VS PHILA PARKING AUTHORITY",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "PETITIONS",
+    "case_type": "NUNC PRO TUNC PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PETITIONER",
+        "name": "MORRIS, STEVEN",
+        "address": "2206 S. BUCKNELL ST. PHILADELPHIA PA 19145 (267)846-8755"
+      },
+      {
+        "seq": "2",
+        "type": "RESPONDENT",
+        "name": "BUREAU OF ADMINISTRATIVE ADJUDICATION",
+        "address": "C/O DIRECTOR 45 N 8TH ST PHILADELPHIA PA 19107"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "01:22 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:30 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:30 PM",
+        "type": "MOTION TO FILE NUNC PRO TUNC",
+        "party": "MORRIS, STEVEN"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:30 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "MORRIS, STEVEN"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:46 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:47 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:47 PM",
+      "type": "MOTION ASSIGNED",
+      "party": ""
+    },
+    "entry_count": 6
+  },
+  {
+    "case_id": "260902358",
+    "caption": "PENNSYLVANIA SPCA VS OWNER/CARETAKER",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "PETITIONS",
+    "case_type": "MISCELLANEOUS PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "2",
+        "type": "ATTORNEY FOR PETITIONER",
+        "name": "MCGINN, COURTNEY",
+        "address": "PENNSYLVANIA SPCA ATTN: COURTNEY MCGINN, ESQ. 350 E. ERIE AVE PHILADELPHIA PA 19134 (610)952-1514 cmcginn@pspca.org"
+      },
+      {
+        "seq": "3",
+        "type": "PETITIONER",
+        "name": "PENNSYLVANIA SPCA",
+        "address": "350 E. ERIE AVE PHILADELPHIA PA 19134"
+      },
+      {
+        "seq": "4",
+        "type": "RESPONDENT",
+        "name": "OWNER/CARETAKER,",
+        "address": "1828 S. ALDEN STREET PHILADELPHIA PA 19143"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "12:22 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:22 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": "MCGINN, COURTNEY"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:22 PM",
+        "type": "MISCELLANEOUS MOTION/PETITION",
+        "party": "MCGINN, COURTNEY"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "12:22 PM",
+      "type": "MISCELLANEOUS MOTION/PETITION",
+      "party": "MCGINN, COURTNEY"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902301",
+    "caption": "CAMPENELLA DEVELOPMENT, LLC VS VICA TECHNOLOGIES,",
+    "filing_date": "2026-09-21",
+    "filing_date_raw": "Monday , September 21st, 2026",
+    "court": "JUDGMENTS",
+    "case_type": "CONFESSION OF JUDGMENT",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CAMPENELLA DEVELOPMENT, LLC"
+    ],
+    "defendants": [
+      "VICA TECHNOLOGIES, LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "CAROBUS, ANDREW M",
+        "address": "1735 MARKET ST 51ST FLOOR PHILADELPHIA PA 19103 (215)864-8364 carobusa@ballardspahr.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CAMPENELLA DEVELOPMENT, LLC",
+        "address": "1930 SOUTH 25TH STREET PHILADELPHIA PA 19145"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "VICA TECHNOLOGIES, LLC",
+        "address": "4153 LANCASTER AVENUE PHILADELPHIA PA 19104"
+      },
+      {
+        "seq": "4",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "QUAGLIA ESQ, RAYMOND A",
+        "address": "1735 MARKET ST 51STFL PHILADELPHIA PA 19103 (215)864-8530 quaglia@ballardspahr.com"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "21-SEP-2026",
+        "time": "08:58 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "08:58 AM",
+        "type": "COMMENCEMENT BY JUDGMENT",
+        "party": "CAROBUS, ANDREW M"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "08:58 AM",
+        "type": "CONFESSION OF JUDGMENT FILED",
+        "party": "CAROBUS, ANDREW M"
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "08:58 AM",
+      "type": "CONFESSION OF JUDGMENT FILED",
+      "party": "CAROBUS, ANDREW M"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902417",
+    "caption": "KAPLOWITZ VS O'NEILL",
+    "filing_date": "2026-09-20",
+    "filing_date_raw": "Sunday , September 20th, 2026",
+    "court": "PETITIONS",
+    "case_type": "MISCELLANEOUS PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "2",
+        "type": "PRO SE FILER",
+        "name": "KAPLOWITZ, NIALL T",
+        "address": "314 N. 12TH ST APT 205 PHILADELPHIA PA 19107 (267)258-0923"
+      },
+      {
+        "seq": "3",
+        "type": "PETITIONER",
+        "name": "KAPLOWITZ, NIALL T",
+        "address": "314 N. 12TH ST #205 PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "4",
+        "type": "RESPONDENT",
+        "name": "O'NEILL, ROBERT",
+        "address": "THE ATRIUM AT NAVESINK HARBOR 40 RIVERSIDE AVE. APT X RED BANK NJ 07701"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "20-SEP-2026",
+        "time": "03:32 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "03:32 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": "KAPLOWITZ, NIALL T"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "03:32 PM",
+        "type": "MISCELLANEOUS MOTION/PETITION",
+        "party": "KAPLOWITZ, NIALL T"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "03:32 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "KAPLOWITZ, NIALL T"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "04:02 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "04:02 PM",
+      "type": "MOTION ASSIGNED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902384",
+    "caption": "RAMIREZ-GRAY VS AUTOLENDERS LIQUIDATION CENTER INC",
+    "filing_date": "2026-09-20",
+    "filing_date_raw": "Sunday , September 20th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "RAMIREZ-GRAY, NIYA"
+    ],
+    "defendants": [
+      "AUTOLENDERS LIQUIDATION CENTER INC.",
+      "FIFTH THIRD BANK, N.A."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PRO SE FILER",
+        "name": "RAMIREZ-GRAY, NIYA",
+        "address": "3154 N SHERIDAN ST PHILADELPHIA PA (215)771-5053"
+      },
+      {
+        "seq": "2",
+        "type": "APPELLANT - PLAINTIFF - MC",
+        "name": "RAMIREZ-GRAY, NIYA",
+        "address": "3154 N SHERIDAN ST PHILADELPHIA PA 19133"
+      },
+      {
+        "seq": "3",
+        "type": "APPELLEE - DEFENDANT - MC",
+        "name": "AUTOLENDERS LIQUIDATION CENTER INC.",
+        "address": "305 WEST LINCOLN HIGHWAY EXTON PA 19341"
+      },
+      {
+        "seq": "4",
+        "type": "APPELLEE - DEFENDANT - MC",
+        "name": "FIFTH THIRD BANK, N.A.",
+        "address": "600 N. 2ND STREET, SUITE 401, HARRISBURG PA 17101"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "20-SEP-2026",
+        "time": "07:53 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:53 PM",
+        "type": "COMMENCEMENT BY APPEAL",
+        "party": "RAMIREZ-GRAY, NIYA"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:53 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "RAMIREZ-GRAY, NIYA"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:53 PM",
+        "type": "WAITING TO LIST M.C. APPEAL",
+        "party": "RAMIREZ-GRAY, NIYA"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:53 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "RAMIREZ-GRAY, NIYA"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:53 PM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "RAMIREZ-GRAY, NIYA"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:29 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "03:48 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "03:48 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": ""
+    },
+    "entry_count": 8
+  },
+  {
+    "case_id": "260902366",
+    "caption": "HAUGHTON VS CORBIN ETAL",
+    "filing_date": "2026-09-20",
+    "filing_date_raw": "Sunday , September 20th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "HAUGHTON, ANGELA"
+    ],
+    "defendants": [
+      "CORBIN JR., LORENZO",
+      "EASTERN ARMORED SERVICES, INC.",
+      "PROGRESSIVE ADVANTAGE AGENCY, INC.",
+      "NATIONWIDE GENERAL INSURANCE COMPANY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "WALLER, KRISTIN M",
+        "address": "1429 WALNUT STREET 14TH FLOOR PHILADELPHIA PA 19102 (267)457-5570 kwaller@kmfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "HAUGHTON, ANGELA",
+        "address": "2663 NORTH 7TH STREET PHILADELPHIA PA 19133"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CORBIN JR., LORENZO",
+        "address": "426 S. SPRINGFIELD ROAD APT. 9 CLIFTON HEIGHTS PA 19018"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "EASTERN ARMORED SERVICES, INC.",
+        "address": "2145 NOTTINGHAM WAY REAR BUILDING TRENTON NJ 08650"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "PROGRESSIVE ADVANTAGE AGENCY, INC.",
+        "address": "300 N. COMMONS BOULEVARD MAYFIELD VILLAGE OH 44143"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "NATIONWIDE GENERAL INSURANCE COMPANY",
+        "address": "ONE NATIONWIDE PLAZA COLUMBUS OH 43215"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "20-SEP-2026",
+        "time": "07:35 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:35 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "WALLER, KRISTIN M"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:35 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "WALLER, KRISTIN M"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "07:35 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "WALLER, KRISTIN M"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "02:37 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "02:37 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902311",
+    "caption": "IN RE: GREY YOLANDA TORRES",
+    "filing_date": "2026-09-20",
+    "filing_date_raw": "Sunday , September 20th, 2026",
+    "court": "PETITIONS",
+    "case_type": "CHANGE OF NAME (ADULT)",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PETITIONER",
+        "name": "PACHON, EMMA",
+        "address": "102 CENTER STREET GIBBSTOWN NJ 08027 (202)288-9007 epachon88@gmail.com"
+      },
+      {
+        "seq": "2",
+        "type": "PETITIONER",
+        "name": "TORRES, GREY YOLANDA",
+        "address": "428 W DUNCANNON AVE PHILADELPHIA PA 19120"
+      }
+    ],
+    "events": [
+      {
+        "event": "DISCOVERY HEARING",
+        "datetime": "22-SEP-2026 09:00 AM",
+        "room": "CITY HALL",
+        "location": "COURTROOM 285",
+        "judge": ""
+      }
+    ],
+    "entries": [
+      {
+        "date": "20-SEP-2026",
+        "time": "10:58 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "10:58 AM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": "PACHON, EMMA"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "10:58 AM",
+        "type": "MOTION TO CHANGE NAME",
+        "party": "PACHON, EMMA"
+      },
+      {
+        "date": "20-SEP-2026",
+        "time": "10:58 AM",
+        "type": "PRAECIPE - IN FORMA PAUPERIS",
+        "party": "PACHON, EMMA"
+      }
+    ],
+    "last_entry": {
+      "date": "20-SEP-2026",
+      "time": "10:58 AM",
+      "type": "PRAECIPE - IN FORMA PAUPERIS",
+      "party": "PACHON, EMMA"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902352",
+    "caption": "DIGGS ETAL VS ERIE INSURANCE COMPANY",
+    "filing_date": "2026-09-19",
+    "filing_date_raw": "Saturday , September 19th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "DIGGS, DAVONNA M",
+      "O., A."
+    ],
+    "defendants": [
+      "ERIE INSURANCE COMPANY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GINSBURG, DON S",
+        "address": "THE GINSBURG LAW FIRM 1461 BETHLEHEM PIKE, FLOURTOWN PA 19031 (215)381-9292 dginsburg@theginsburglawfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "DIGGS, DAVONNA M",
+        "address": "5426 OAKLAND STREET PHILADELPHIA PA 19124"
+      },
+      {
+        "seq": "3",
+        "type": "MINOR - PLAINTIFF",
+        "name": "O., A.",
+        "address": "5426 OAKLAND STREET PHILADELPHIA PA 19124"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "ERIE INSURANCE COMPANY",
+        "address": "100 ERIE INSURANCE PLACE ERIE PA 16530"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "19-SEP-2026",
+        "time": "01:54 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "01:54 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "GINSBURG, DON S"
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "01:54 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GINSBURG, DON S"
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "01:54 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "GINSBURG, DON S"
+      }
+    ],
+    "last_entry": {
+      "date": "19-SEP-2026",
+      "time": "01:54 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "GINSBURG, DON S"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902347",
+    "caption": "DIGGS ETAL VS PENNINGTON ETAL",
+    "filing_date": "2026-09-19",
+    "filing_date_raw": "Saturday , September 19th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "DIGGS, DAVONNA M",
+      "O., A."
+    ],
+    "defendants": [
+      "PENNINGTON, KRISTA",
+      "PENNINGTON, SHAYLA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GINSBURG, DON S",
+        "address": "THE GINSBURG LAW FIRM 1461 BETHLEHEM PIKE, FLOURTOWN PA 19031 (215)381-9292 dginsburg@theginsburglawfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "DIGGS, DAVONNA M",
+        "address": "5426 OAKLAND STREET PHILADELPHIA PA 19124"
+      },
+      {
+        "seq": "3",
+        "type": "MINOR - PLAINTIFF",
+        "name": "O., A.",
+        "address": "5426 OAKLAND STREET PHILADELPHIA PA 19124"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "PENNINGTON, KRISTA",
+        "address": "4319 CLOUD STREET PHILADELPHIA PA 19124"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "PENNINGTON, SHAYLA",
+        "address": "4319 CLOUD STREET PHILADELPHIA PA 19124"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "19-SEP-2026",
+        "time": "01:48 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "01:48 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "GINSBURG, DON S"
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "01:48 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GINSBURG, DON S"
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "01:48 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "GINSBURG, DON S"
+      }
+    ],
+    "last_entry": {
+      "date": "19-SEP-2026",
+      "time": "01:48 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "GINSBURG, DON S"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902341",
+    "caption": "MARK GREEN AUTO SALES & REPAIRS VS WILLIAMS ETAL",
+    "filing_date": "2026-09-19",
+    "filing_date_raw": "Saturday , September 19th, 2026",
+    "court": "PETITIONS",
+    "case_type": "MISCELLANEOUS PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "2",
+        "type": "ATTORNEY FOR PETITIONER",
+        "name": "SOBEL, JONATHAN J",
+        "address": "1500WALNUT STREET SUITE 900 PHILADELPHIA PA 19102 (215)735-7535 mate89@aol.com"
+      },
+      {
+        "seq": "3",
+        "type": "PETITIONER",
+        "name": "MARK GREEN AUTO SALES & REPAIRS",
+        "address": "1979 RENOVO STREET PHILADELPHIA PA 19138"
+      },
+      {
+        "seq": "4",
+        "type": "RESPONDENT",
+        "name": "WILLIAMS, MARISSA LYNNE",
+        "address": "5317 CARLISLE STREET PHILADELPHIA PA 19141"
+      },
+      {
+        "seq": "5",
+        "type": "RESPONDENT",
+        "name": "CAPITAL ONE AUTO FINANCE",
+        "address": "7933 PRESTON ROAD PLANO TX 75024"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "19-SEP-2026",
+        "time": "04:27 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "04:27 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": "SOBEL, JONATHAN J"
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "04:27 PM",
+        "type": "MISCELLANEOUS MOTION/PETITION",
+        "party": "SOBEL, JONATHAN J"
+      }
+    ],
+    "last_entry": {
+      "date": "19-SEP-2026",
+      "time": "04:27 PM",
+      "type": "MISCELLANEOUS MOTION/PETITION",
+      "party": "SOBEL, JONATHAN J"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902340",
+    "caption": "MARK GREEN AUTO SALES & REPAIRS VS PEEPLES ETAL",
+    "filing_date": "2026-09-19",
+    "filing_date_raw": "Saturday , September 19th, 2026",
+    "court": "PETITIONS",
+    "case_type": "MISCELLANEOUS PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "2",
+        "type": "ATTORNEY FOR PETITIONER",
+        "name": "SOBEL, JONATHAN J",
+        "address": "1500WALNUT STREET SUITE 900 PHILADELPHIA PA 19102 (215)735-7535 mate89@aol.com"
+      },
+      {
+        "seq": "3",
+        "type": "PETITIONER",
+        "name": "MARK GREEN AUTO SALES & REPAIRS",
+        "address": "1979 RENOVO STREET PHILADELPHIA PA 19138"
+      },
+      {
+        "seq": "4",
+        "type": "RESPONDENT",
+        "name": "PEEPLES, MARK THOMAS",
+        "address": "235 FELTON AVENUE COLLINGDALE PA 19023"
+      },
+      {
+        "seq": "5",
+        "type": "RESPONDENT",
+        "name": "PENFED CREDIT UNION",
+        "address": "P.O. BOX 255483 SACRAMENTO CA 95865"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "19-SEP-2026",
+        "time": "04:23 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "04:23 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": "SOBEL, JONATHAN J"
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "04:23 PM",
+        "type": "MISCELLANEOUS MOTION/PETITION",
+        "party": "SOBEL, JONATHAN J"
+      }
+    ],
+    "last_entry": {
+      "date": "19-SEP-2026",
+      "time": "04:23 PM",
+      "type": "MISCELLANEOUS MOTION/PETITION",
+      "party": "SOBEL, JONATHAN J"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902338",
+    "caption": "MARK GREEN AUTO SALES & REPAIRS VS GOLSON ETAL",
+    "filing_date": "2026-09-19",
+    "filing_date_raw": "Saturday , September 19th, 2026",
+    "court": "PETITIONS",
+    "case_type": "MISCELLANEOUS PETITION",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [],
+    "defendants": [],
+    "parties": [
+      {
+        "seq": "2",
+        "type": "ATTORNEY FOR PETITIONER",
+        "name": "SOBEL, JONATHAN J",
+        "address": "1500WALNUT STREET SUITE 900 PHILADELPHIA PA 19102 (215)735-7535 mate89@aol.com"
+      },
+      {
+        "seq": "3",
+        "type": "PETITIONER",
+        "name": "MARK GREEN AUTO SALES & REPAIRS",
+        "address": "1979 RENOVO STREET PHILADELPIHA PA 19138"
+      },
+      {
+        "seq": "4",
+        "type": "RESPONDENT",
+        "name": "GOLSON, HIRAM",
+        "address": "1340 STILES STREET PHILADELPHIA PA 19132"
+      },
+      {
+        "seq": "5",
+        "type": "RESPONDENT",
+        "name": "SUNTRUST BANK",
+        "address": "P.O. BOX 4000 WILMINGTON OH 45177"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "19-SEP-2026",
+        "time": "04:19 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "04:19 PM",
+        "type": "COMMENCEMENT BY PETITION",
+        "party": "SOBEL, JONATHAN J"
+      },
+      {
+        "date": "19-SEP-2026",
+        "time": "04:19 PM",
+        "type": "MISCELLANEOUS MOTION/PETITION",
+        "party": "SOBEL, JONATHAN J"
+      }
+    ],
+    "last_entry": {
+      "date": "19-SEP-2026",
+      "time": "04:19 PM",
+      "type": "MISCELLANEOUS MOTION/PETITION",
+      "party": "SOBEL, JONATHAN J"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902432",
+    "caption": "DELAWARE HUANGPU INVESTMENT GROUP, LLC ETAL VS ROD",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "COMMERCE",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "DELAWARE HUANGPU INVESTMENT GROUP, LLC",
+      "LI, BILL"
+    ],
+    "defendants": [
+      "FLOW DEVELOPMENTS LLC",
+      "ROD SMITH AS TRUSTEE FOR STULL, M W/FBO SMITH FAM TUA",
+      "ROD SMITH AS TRUSTEE FOR STULL, MILDRED W TUD NO.2",
+      "SMITH, CHADWICK",
+      "FRANKLIN, MARK",
+      "GRAFFITI PYRAMID LLC",
+      "75 ERIE ST LLC",
+      "LIVING ELEMENTS LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "MOON, SUSAN",
+        "address": "KANG HAGGERTY 123 S. BROAD ST. SUITE 1950 PHILADELPHIA PA 19109 (267)528-0269 so@kanghaggerty.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "DELAWARE HUANGPU INVESTMENT GROUP, LLC",
+        "address": "1700 GERMANTOWN AVENUE PHILADELPHIA PA 19122"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "FLOW DEVELOPMENTS LLC",
+        "address": "1700 GERMANTOWN AVENUE PHILADELPHIA PA 19122"
+      },
+      {
+        "seq": "4",
+        "type": "PLAINTIFF",
+        "name": "LI, BILL",
+        "address": "146 GRAYSON DR BELLE MEAD NJ 08502"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "ROD SMITH AS TRUSTEE FOR STULL, M W/FBO SMITH FAM TUA",
+        "address": "1561 BURMA RD. MOUNTAIN TOP PA 18707"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "ROD SMITH AS TRUSTEE FOR STULL, MILDRED W TUD NO.2",
+        "address": "1561 BURMA RD. MOUNTAIN TOP PA 18707"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "SMITH, CHADWICK",
+        "address": "900 N. 9TH ST APT 909 PHILADELPHIA PA 19123"
+      },
+      {
+        "seq": "8",
+        "type": "DEFENDANT",
+        "name": "FRANKLIN, MARK",
+        "address": "unavailable"
+      },
+      {
+        "seq": "9",
+        "type": "DEFENDANT",
+        "name": "GRAFFITI PYRAMID LLC",
+        "address": "1700 GERMANTOWN AVENUE PHILADELPHIA PA 19122"
+      },
+      {
+        "seq": "10",
+        "type": "DEFENDANT",
+        "name": "75 ERIE ST LLC",
+        "address": "1708 N. 5TH STREET UNIT 3 PHILADELPHIA PA 19122"
+      },
+      {
+        "seq": "11",
+        "type": "DEFENDANT",
+        "name": "LIVING ELEMENTS LLC",
+        "address": "1700 GERMANTOWN AVENUE PHILADELPHIA PA 19122"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "04:48 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:48 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "MOON, SUSAN"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:48 PM",
+        "type": "PRAE TO ISSUE WRIT OF SUMMONS",
+        "party": "MOON, SUSAN"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:48 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "MOON, SUSAN"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:48 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "MOON, SUSAN"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "04:48 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "MOON, SUSAN"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902354",
+    "caption": "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING VS",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING"
+    ],
+    "defendants": [
+      "HARRISON, SUSANNA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "RASE, LESLIE J",
+        "address": "985 OLD EAGLE SCHOOL ROAD SUITE 514 WAYNE PA 19087 (610)278-6800 pa-bk@logs.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING",
+        "address": "C/O LOGS LEGAL GROUP LLP 985 OLD EAGLE SCHOOL RD WAYNE PA 19087"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "HARRISON, SUSANNA",
+        "address": "2540 N. CLEVELAND ST PHILADELPHIA PA 19132"
+      },
+      {
+        "seq": "4",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "MILLER, WILLIAM E",
+        "address": "LOGS LEGAL GROUP LLP 985 OLD EAGLE SCHOOL ROAD SUITE 514 WAYNE PA 19087 (610)278-6800 wmiller@logs.com"
+      },
+      {
+        "seq": "5",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ARMSTRONG ESQ, KIRSTEN R",
+        "address": "16 MISTLETOE LN STE. 320 LEVITTOWN OH 19054 (570)660-5814 karmstrong@logs.com"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:18 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:18 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:18 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:18 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:02 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "12:02 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902353",
+    "caption": "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING VS",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING"
+    ],
+    "defendants": [
+      "JAIN, PAWAN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "RASE, LESLIE J",
+        "address": "985 OLD EAGLE SCHOOL ROAD SUITE 514 WAYNE PA 19087 (610)278-6800 pa-bk@logs.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING",
+        "address": "C/O LOGS LEGAL GROUP LLP 985 OLD EAGLE SCHOOL RD WAYNE PA 19087"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "JAIN, PAWAN",
+        "address": "5429 WALNUT STREET, APT A PHILADELPHIA PA 19139"
+      },
+      {
+        "seq": "4",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ARMSTRONG ESQ, KIRSTEN R",
+        "address": "16 MISTLETOE LN STE. 320 LEVITTOWN OH 19054 (570)660-5814 karmstrong@logs.com"
+      },
+      {
+        "seq": "5",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "MILLER, WILLIAM E",
+        "address": "LOGS LEGAL GROUP LLP 985 OLD EAGLE SCHOOL ROAD SUITE 514 WAYNE PA 19087 (610)278-6800 wmiller@logs.com"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:09 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:09 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:09 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:09 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "12:01 PM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "12:01 PM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902351",
+    "caption": "ALMINDE VS STEFANOPOULOS ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "ALMINDE, MARK"
+    ],
+    "defendants": [
+      "STEFANOPOULOS, THOMAS",
+      "NARJES TRANSIT, LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ABED, NIZAR M",
+        "address": "KWARTLER MANUS, LLC 1429 WALNUT STREET 4TH FLOOR PHILADELPHIA PA 19102 (267)457-5570 MAbed@KMFirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "ALMINDE, MARK",
+        "address": "20 LAMPOST LANE SOMERDALE NJ 08083"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "STEFANOPOULOS, THOMAS",
+        "address": "602 TAHOE COURT WILLIAMSTOWN NJ 08094"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "NARJES TRANSIT, LLC",
+        "address": "9422 KREWSTOWN ROAD PHILADELPHIA PA 19115"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "04:24 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:24 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "ABED, NIZAR M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:24 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "ABED, NIZAR M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:24 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "ABED, NIZAR M"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "04:24 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "ABED, NIZAR M"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902346",
+    "caption": "FUSCO VS CORBETT ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "FUSCO, NYA"
+    ],
+    "defendants": [
+      "XYZ CORPORATIONS #1-5",
+      "CORBETT, BRITTANY",
+      "WELLS, NAYYIR",
+      "GARDA CL ATLANTIC, INC.",
+      "GARDAWORLD CASH SERVICES, INC.",
+      "GARDA WORLD SECURITY SERVICES, INC.",
+      "WHELAN SECURITY MID ATLANTIC LLC",
+      "WHELAN SECURITY MANAGEMENT COMPANY, INC.",
+      "DOE, JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "DILEONARDO SR., GABRIEL A",
+        "address": "DILEONARDO LAW LLC 1415 ROUTE 70 EAST, LL-2A CHERRY HILL NJ 080034 (856)834-8272 gad@dileonardoinjuryfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "FUSCO, NYA",
+        "address": "1238 WEST HUNTINGDON ST\t\t: PHILADELPHIA PA 19133"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "XYZ CORPORATIONS #1-5",
+        "address": "UNKNOWN UNKNOWN PA 00000"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "CORBETT, BRITTANY",
+        "address": "1426 MCKINLEY STREET PHILADELPHIA PA 19149"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "WELLS, NAYYIR",
+        "address": "118 LEXINGTON AVE E. LANSDOWNE PA 19050"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "GARDA CL ATLANTIC, INC.",
+        "address": "1209 ORANGE STREET WILMINGTON DE 19801"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "GARDAWORLD CASH SERVICES, INC.",
+        "address": "1209 ORANGE STREET WILMINGTON DE 19801"
+      },
+      {
+        "seq": "8",
+        "type": "DEFENDANT",
+        "name": "GARDA WORLD SECURITY SERVICES, INC.",
+        "address": "1699 S. HANLEY RD., STE 350 ST. LOUIS MO 63144"
+      },
+      {
+        "seq": "9",
+        "type": "DEFENDANT",
+        "name": "WHELAN SECURITY MID ATLANTIC LLC",
+        "address": "1699 S. HANLEY RD. STE 350 ST. LOUIS MO 63144"
+      },
+      {
+        "seq": "10",
+        "type": "DEFENDANT",
+        "name": "WHELAN SECURITY MANAGEMENT COMPANY, INC.",
+        "address": "1699 S. HANLEY RD. STE 350 ST. LOUIS MO 63144"
+      },
+      {
+        "seq": "11",
+        "type": "DEFENDANT",
+        "name": "DOE, JOHN",
+        "address": "UNKNOWN UNKNOWN PA 00000"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "07:07 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "07:07 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "DILEONARDO SR., GABRIEL A"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "07:07 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "DILEONARDO SR., GABRIEL A"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "07:07 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "DILEONARDO SR., GABRIEL A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "11:42 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "11:42 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902344",
+    "caption": "REILLY ETAL VS SECTEK, INC.",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "REILLY, CRAIG",
+      "DANIELS, DOUG"
+    ],
+    "defendants": [
+      "SECTEK, INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "THIELE, RICHARD C",
+        "address": "110 EAST PITTSBURGH GREENSBURG PA 15601 (724)838-8600 Richard@Goldleaflaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "REILLY, CRAIG",
+        "address": "8170 GRAND CT. MANASSAS VA 20111"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "DANIELS, DOUG",
+        "address": "11629 CYGNET DR. WALDORF MD 20601"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "SECTEK, INC.",
+        "address": "SECTEK, INC. C/O INCORP. SERVICES 7208 RED TOP ROAD HUMMELSTOWN PA 17036"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "06:56 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "06:56 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "THIELE, RICHARD C"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "06:56 PM",
+        "type": "PRAE TO ISSUE WRIT OF SUMMONS",
+        "party": "THIELE, RICHARD C"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "06:56 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "THIELE, RICHARD C"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "06:56 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "THIELE, RICHARD C"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "06:56 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "THIELE, RICHARD C"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902342",
+    "caption": "MOSTAFA VS PHILADELPHIA LOTUS 03A, LLC",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "EQUITY - REAL ESTATE",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "MOSTAFA, MOSTAFA"
+    ],
+    "defendants": [
+      "PHILADELPHIA LOTUS 03A, LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PRO SE FILER",
+        "name": "MOSTAFA, MOSTAFA",
+        "address": "632 N 2ND ST UNIT 650 PHILADELPHIA PA 19123 (415)758-8986"
+      },
+      {
+        "seq": "2",
+        "type": "DEFENDANT",
+        "name": "PHILADELPHIA LOTUS 03A, LLC",
+        "address": "829 N 29TH ST #OFFICE PHILADELPHIA PA 19130"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "MOSTAFA, MOSTAFA",
+        "address": "632 N 2ND ST UNIT 650 PHILADELPHIA PA 19123"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "12:41 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "12:41 AM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "MOSTAFA, MOSTAFA"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "12:41 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "MOSTAFA, MOSTAFA"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "12:41 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "MOSTAFA, MOSTAFA"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "12:41 AM",
+        "type": "MOT-PROCEED IN FORMA PAUPERIS",
+        "party": "MOSTAFA, MOSTAFA"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "01:28 PM",
+        "type": "MOTION ASSIGNED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "01:28 PM",
+      "type": "MOTION ASSIGNED",
+      "party": ""
+    },
+    "entry_count": 6
+  },
+  {
+    "case_id": "260902337",
+    "caption": "MOORE VS PENSDALE II APARTMENTS ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "MOORE, MELVIN"
+    ],
+    "defendants": [
+      "DOES I-III, JOHN",
+      "DOES IV-VI, JOHN",
+      "PENSDALE II APARTMENTS",
+      "PENSDALE HOUSING, INC.",
+      "PENSDALE HOUSING II, INC.",
+      "PENSDALE HOUSING II, LP",
+      "PENSDALE II, LP",
+      "PENSDALE HOUSING, INC.",
+      "HUMANGOOD PENNSYLVANIA",
+      "HUMANGOOD"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ROSENBAUM, JEFFREY M",
+        "address": "1818 MARKET STREET SUITE 3200 PHILADELPHIA PA 19103 (215)569-0200 filings@rosenbaumfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "MOORE, MELVIN",
+        "address": "4200 MITCHELL STREET APARTMENT 110 PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "DOES I-III, JOHN",
+        "address": "4200 MITCHELL STREET PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "DOES IV-VI, JOHN",
+        "address": "6012 RIDGE AVENUE PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "PENSDALE II APARTMENTS",
+        "address": "4200 MITCHELL STREET PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "PENSDALE HOUSING, INC.",
+        "address": "4200 MITCHELL STREET PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "PENSDALE HOUSING II, INC.",
+        "address": "6012 RIDGE AVENUE PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "8",
+        "type": "DEFENDANT",
+        "name": "PENSDALE HOUSING II, LP",
+        "address": "4200 MITCHELL STREET PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "9",
+        "type": "DEFENDANT",
+        "name": "PENSDALE II, LP",
+        "address": "4200 MITCHELL STREET PHILADELPHIA PA 19128"
+      },
+      {
+        "seq": "10",
+        "type": "DEFENDANT",
+        "name": "PENSDALE HOUSING, INC.",
+        "address": "2000 JOSHUA ROAD LAFAYETTE HILL PA 19444"
+      },
+      {
+        "seq": "11",
+        "type": "DEFENDANT",
+        "name": "HUMANGOOD PENNSYLVANIA",
+        "address": "2000 JOSHUA ROAD LAFAYETTE HILL PA 19444"
+      },
+      {
+        "seq": "12",
+        "type": "DEFENDANT",
+        "name": "HUMANGOOD",
+        "address": "1900 HUNTINGTON DRIVE DUARTE  CA 91010-2694"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "04:21 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:21 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:21 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:21 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "ROSENBAUM, JEFFREY M"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "04:21 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "ROSENBAUM, JEFFREY M"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902336",
+    "caption": "WHEELER VS PORTER ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "WHEELER, IDA"
+    ],
+    "defendants": [
+      "PORTER, BREYANNA",
+      "CHASE IV, WARREN MARCUS",
+      "SHADDING, MARQUAN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "BRESLIN, MATTHEW",
+        "address": "RODDEN &  RODDEN 125 NORTH 20TH STREET PHILADELPHIA PA 19103 (215)940-2155 msbreslin@gmail.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "WHEELER, IDA",
+        "address": "3539 N MARVINE STREET PHILADELPHIA PA 19140"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "PORTER, BREYANNA",
+        "address": "7000 N BROAD STREET, APT. 304 PHILADELPHIA PA 19126"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "CHASE IV, WARREN MARCUS",
+        "address": "7000 N BROAD STREET, APT. 304 PHILADELPHIA PA 19126"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "SHADDING, MARQUAN",
+        "address": "5129 N 10TH STREET PHILADELPHIA PA 19141"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "04:18 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:18 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "BRESLIN, MATTHEW"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:18 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "BRESLIN, MATTHEW"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:18 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "BRESLIN, MATTHEW"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:18 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "BRESLIN, MATTHEW"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "04:18 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "BRESLIN, MATTHEW"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902335",
+    "caption": "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING VS",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING"
+    ],
+    "defendants": [
+      "MILLER, AJAYI"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "RASE, LESLIE J",
+        "address": "985 OLD EAGLE SCHOOL ROAD SUITE 514 WAYNE PA 19087 (610)278-6800 pa-bk@logs.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NEWREZ LLC, D/B/A SHELLPOINT MORTGAGE SERVICING",
+        "address": "C/O LOGS LEGAL GROUP LLP 985 OLD EAGLE SCHOOL RD WAYNE PA 19087"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "MILLER, AJAYI",
+        "address": "1014 N 64TH ST, UNIT 2 PHILADELPHIA PA 19151"
+      },
+      {
+        "seq": "4",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "MILLER, WILLIAM E",
+        "address": "LOGS LEGAL GROUP LLP 985 OLD EAGLE SCHOOL ROAD SUITE 514 WAYNE PA 19087 (610)278-6800 wmiller@logs.com"
+      },
+      {
+        "seq": "5",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ARMSTRONG ESQ, KIRSTEN R",
+        "address": "16 MISTLETOE LN STE. 320 LEVITTOWN OH 19054 (570)660-5814 karmstrong@logs.com"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:13 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:13 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:13 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:13 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "RASE, LESLIE J"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:58 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:58 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902333",
+    "caption": "DOMOE VS MONTLOUIS",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "DOMOE, CYRUS"
+    ],
+    "defendants": [
+      "MONTLOUIS, REGINALD"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "KOELSCH 273, YEKATERINA",
+        "address": "1429 WALNUT STREET 14TH FLOOR PHILADELPHIA PA 19102 (267)457-5570 kkoelsch@kmfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "DOMOE, CYRUS",
+        "address": "12 PENNY LANE BEAR DE 19701"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "MONTLOUIS, REGINALD",
+        "address": "5006 CHESTNUT STREET PHILADELPHIA PA 19139"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "04:16 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:16 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "KOELSCH 273, YEKATERINA"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:16 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "KOELSCH 273, YEKATERINA"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "04:16 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "KOELSCH 273, YEKATERINA"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "04:16 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "KOELSCH 273, YEKATERINA"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902330",
+    "caption": "NCB MANAGEMENT SERVICES, INC. VS MILLER",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NCB MANAGEMENT SERVICES, INC."
+    ],
+    "defendants": [
+      "MILLER, STEPHANIE"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TSAROUHIS, DEMETRIOS H",
+        "address": "21 S 9TH ST SUITE A ALLENTOWN PA 18102 (610)628-2440 dht@pacollections.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NCB MANAGEMENT SERVICES, INC.",
+        "address": "1 ALLIED DR TREVOSE PA 19053"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "MILLER, STEPHANIE",
+        "address": "3138 N MARSTON ST PHILADELPHIA PA 19132"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:47 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:47 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:47 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:47 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:51 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:51 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902329",
+    "caption": "GREENLEE VS YOUNGBLOOD ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "GREENLEE, SADE"
+    ],
+    "defendants": [
+      "YOUNGBLOOD, DENA",
+      "DOE, JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "STROUSE, BRADEN G",
+        "address": "CLEARFIELD & KOFSKY 1617 JOHN F. KENNEDY BOULEVARD SUITE 355 PHILADELPHIA PA 19103 (215)563-6333 BSTROUSE@CLEARFIELDLAWYERS.COM"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "GREENLEE, SADE",
+        "address": "303 MOHAWK AVENUE NORWOOD PA 19074"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "YOUNGBLOOD, DENA",
+        "address": "1422 S. 58TH STREET PHILADELPHIA PA 19143"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "DOE, JOHN",
+        "address": "ANY STREET ANY CITY PA 19103"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "STROUSE, BRADEN G"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "STROUSE, BRADEN G"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "STROUSE, BRADEN G"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:50 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:50 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902328",
+    "caption": "NCB MANAGEMENT SERVICES, INC. VS WILLIAMS",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NCB MANAGEMENT SERVICES, INC."
+    ],
+    "defendants": [
+      "WILLIAMS, ESHONNA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TSAROUHIS, DEMETRIOS H",
+        "address": "21 S 9TH ST SUITE A ALLENTOWN PA 18102 (610)628-2440 dht@pacollections.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NCB MANAGEMENT SERVICES, INC.",
+        "address": "1 ALLIED DR TREVOSE PA 19053"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WILLIAMS, ESHONNA",
+        "address": "1312 N 57TH ST PHILADELPHIA PA 19131"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:40 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:49 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:49 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902323",
+    "caption": "NATHANIEL VS STATE FARM MUTUAL AUTOMOBILE INSURANC",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "NATHANIEL, TESHONA"
+    ],
+    "defendants": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ROSENBAUM, JEFFREY M",
+        "address": "1818 MARKET STREET SUITE 3200 PHILADELPHIA PA 19103 (215)569-0200 filings@rosenbaumfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NATHANIEL, TESHONA",
+        "address": "9 WEST PHIL ELLENA STREET PHILADELPHIA PA 19119"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY",
+        "address": "PO BOX 2358 BLOOMINGTON IL 61702"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:25 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:25 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:25 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:25 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "ROSENBAUM, JEFFREY M"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "03:25 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "ROSENBAUM, JEFFREY M"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902322",
+    "caption": "NCB MANAGEMENT SERVICES, INC. VS WILKERSON",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NCB MANAGEMENT SERVICES, INC."
+    ],
+    "defendants": [
+      "WILKERSON, VERONICA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TSAROUHIS, DEMETRIOS H",
+        "address": "21 S 9TH ST SUITE A ALLENTOWN PA 18102 (610)628-2440 dht@pacollections.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NCB MANAGEMENT SERVICES, INC.",
+        "address": "1 ALLIED DR TREVOSE PA 19053"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WILKERSON, VERONICA",
+        "address": "2014 S BONSALL ST PHILADELPHIA PA 19145"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:22 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:22 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:22 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:22 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:41 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:41 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902321",
+    "caption": "KING VS MCNAIR ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "KING, ANITA"
+    ],
+    "defendants": [
+      "MCNAIR, JEREMIAH",
+      "CITY OF PHILADELPHIA",
+      "DOES I-III, JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ROSENBAUM, JEFFREY M",
+        "address": "1818 MARKET STREET SUITE 3200 PHILADELPHIA PA 19103 (215)569-0200 filings@rosenbaumfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "KING, ANITA",
+        "address": "5121 PINE STREET PHILADELPHIA PA 19143"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "MCNAIR, JEREMIAH",
+        "address": "5049 HAZEL AVENUE PHILADELPHIA PA 19143"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "CITY OF PHILADELPHIA",
+        "address": "1515 ARCH STREET 14TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "DOES I-III, JOHN",
+        "address": "5049 HAZEL AVENUE PHILADELPHIA PA 19143"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:19 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:19 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:19 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:19 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:40 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:40 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902319",
+    "caption": "NCB MANAGEMENT SERVICES, INC. VS NGUYEN",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NCB MANAGEMENT SERVICES, INC."
+    ],
+    "defendants": [
+      "NGUYEN, NANCY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TSAROUHIS, DEMETRIOS H",
+        "address": "21 S 9TH ST SUITE A ALLENTOWN PA 18102 (610)628-2440 dht@pacollections.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NCB MANAGEMENT SERVICES, INC.",
+        "address": "1 ALLIED DR TREVOSE PA 19053"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "NGUYEN, NANCY",
+        "address": "8618 COLONY DR PHILADELPHIA PA 19152"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:13 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:13 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:13 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:13 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:38 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:38 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902318",
+    "caption": "KHOKON VS SILVA ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "KHOKON, SARKAR"
+    ],
+    "defendants": [
+      "SILVA, ANTONIO",
+      "SILVA, IRENE",
+      "DOE I, JOHN",
+      "DOE II, JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ROSENBAUM, JEFFREY M",
+        "address": "1818 MARKET STREET SUITE 3200 PHILADELPHIA PA 19103 (215)569-0200 filings@rosenbaumfirm.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "KHOKON, SARKAR",
+        "address": "115 S. 55TH STREET PHILADELPHIA PA 19139"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "SILVA, ANTONIO",
+        "address": "10119 CLARK PLACE PHILADELPHIA PA 19116"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "SILVA, IRENE",
+        "address": "10119 CLARK PLACE PHILADELPHIA PA 19116"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "DOE I, JOHN",
+        "address": "10119 CLARK PLACE PHILADELPHIA PA 19116"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "DOE II, JOHN",
+        "address": "2551 SHELMIRE STREET PHILADELPHIA PA 19152"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "ROSENBAUM, JEFFREY M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "ROSENBAUM, JEFFREY M"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "03:11 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "ROSENBAUM, JEFFREY M"
+    },
+    "entry_count": 4
+  },
+  {
+    "case_id": "260902317",
+    "caption": "RIVERA VS JAMES ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "ASSAULT, BATTERY",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "RIVERA, DANNY J"
+    ],
+    "defendants": [
+      "JAMES, MICHAEL",
+      "MCCAULEY, BRENDAN",
+      "SCHANZ, JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ZEIGER, BRIAN",
+        "address": "TWO PENN CENTER 1500 JFK BLVD STE 620 PHILADELPHIA PA 19102 (215)825-5183 zeiger@levinzeiger.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "RIVERA, DANNY J",
+        "address": "1500 JFK BLVD SUITE 620 PHILADELPHIA PA 19102"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "JAMES, MICHAEL",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19102"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "MCCAULEY, BRENDAN",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19102"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "SCHANZ, JOHN",
+        "address": "1515 ARCH STREET PHILADELPHIA PA 19102"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:12 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:12 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "ZEIGER, BRIAN"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:12 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "ZEIGER, BRIAN"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:12 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "ZEIGER, BRIAN"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:12 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "ZEIGER, BRIAN"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "03:12 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "ZEIGER, BRIAN"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902310",
+    "caption": "ROCKETT, EXECUTOR AND ADMINISTRATOR VS LIBERTY INS",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "ROCKETT, EXECUTOR AND ADMINISTRATOR, DAVID"
+    ],
+    "defendants": [
+      "LIBERTY INSURANCE CORPORATION",
+      "GOLF VIEW ESTATES HOMEOWNERS ASSOCIATION"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "DURKIN, MARTIN A",
+        "address": "DURKIN LAW OFFICE PC 1760 MARKET ST SUITE 601 PHILADELPHIA PA 19103 (215)569-9090 mdurkin@durkinpc.com"
+      },
+      {
+        "seq": "2",
+        "type": "EXECUTOR - PLAINTIFF",
+        "name": "ROCKETT, EXECUTOR AND ADMINISTRATOR, DAVID",
+        "address": "1467 COUNTRY CLUB DRIVE SPRINGFIELD PA 19064"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "LIBERTY INSURANCE CORPORATION",
+        "address": "175 BERKELEY STREET BOSTON\t MA 02116"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "GOLF VIEW ESTATES HOMEOWNERS ASSOCIATION",
+        "address": "5 CHRISTY DRIVE CHADDS FORD PA 19317"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "DURKIN, MARTIN A"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "DURKIN, MARTIN A"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:11 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "DURKIN, MARTIN A"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "10:24 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "10:24 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902304",
+    "caption": "ARROYO VS ALLSTATE NORTH AMERICAN INSURANCE COMPAN",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "CLASS ACTION",
+    "case_type": "CLASS ACTION",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "ARROYO, JULIO"
+    ],
+    "defendants": [
+      "ALLSTATE NORTH AMERICAN INSURANCE COMPANY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "STANTON, JEFFREY",
+        "address": "1801 MARKET STREET SUITE 1100 PHILADELPHIA PA 19103 (267)350-6600 jstanton@hgsklawyers.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "ARROYO, JULIO",
+        "address": "1421 FAYETTE AVENUE READING PA 19607"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "ALLSTATE NORTH AMERICAN INSURANCE COMPANY",
+        "address": "3100 SANDERS ROAD SUITE 201 NORTHBROOK IL 60062"
+      },
+      {
+        "seq": "4",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "HAGGERTY, JAMES C",
+        "address": "1801 MARKET STREET SUITE 1100 PHILADELPHIA PA 19103 (267)350-6600 jhaggerty@hgsklawyers.com"
+      },
+      {
+        "seq": "5",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "COYNE, DENNIS C",
+        "address": "HAGGERTY GOLDBERG SCHLEIFER & 1801 MARKET STREET SUITE 1100 PHILADELPHIA PA 19103 (610)350-6600 DCoyne@hgsklawyers.com"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "11:25 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "11:25 AM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "STANTON, JEFFREY"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "11:25 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "STANTON, JEFFREY"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "11:25 AM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "STANTON, JEFFREY"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "11:25 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "STANTON, JEFFREY"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "11:25 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "STANTON, JEFFREY"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902300",
+    "caption": "NCB MANAGEMENT SERVICES, INC. VS MACK",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NCB MANAGEMENT SERVICES, INC."
+    ],
+    "defendants": [
+      "MACK, JAKIA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TSAROUHIS, DEMETRIOS H",
+        "address": "21 S 9TH ST SUITE A ALLENTOWN PA 18102 (610)628-2440 dht@pacollections.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NCB MANAGEMENT SERVICES, INC.",
+        "address": "1 ALLIED DR TREVOSE PA 19053"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "MACK, JAKIA",
+        "address": "6151 N 16TH ST PHILADELPHIA PA 19141"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:06 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:06 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:06 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:06 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:36 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "09:36 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902297",
+    "caption": "NCB MANAGEMENT SERVICES, INC. VS DOLAN",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NCB MANAGEMENT SERVICES, INC."
+    ],
+    "defendants": [
+      "DOLAN, KEVIN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TSAROUHIS, DEMETRIOS H",
+        "address": "21 S 9TH ST SUITE A ALLENTOWN PA 18102 (610)628-2440 dht@pacollections.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NCB MANAGEMENT SERVICES, INC.",
+        "address": "1 ALLIED DR TREVOSE PA 19053"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "DOLAN, KEVIN",
+        "address": "330 KINGSLEY ST PHILADELPHIA PA 19128"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:57 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:57 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:57 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:57 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:31 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "09:31 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902296",
+    "caption": "MATTHEWS VS CICALA RESTAURANT GROUP, LLC D/B/A CIC",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "MATTHEWS, DANA"
+    ],
+    "defendants": [
+      "CICALA RESTAURANT GROUP, LLC D/B/A CICALA AT THE DIVINE LORR"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ZANAN, BRANDON H",
+        "address": "21 EAST 5TH AVE SUITE 102 CONSHOHOCKEN PA 19428 (267)297-2077 bz@ethenostrofflaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "MATTHEWS, DANA",
+        "address": "28 SIRIUS COURT SEWELL NJ 08080"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CICALA RESTAURANT GROUP, LLC D/B/A CICALA AT THE DIVINE LORR",
+        "address": "699 N. BROAD STREET, SUITE 1 PHILADELPHIA PA 19123"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "03:01 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:01 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "ZANAN, BRANDON H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:01 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "ZANAN, BRANDON H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:01 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "ZANAN, BRANDON H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "03:01 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "ZANAN, BRANDON H"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "03:01 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "ZANAN, BRANDON H"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902294",
+    "caption": "COOPER VS SOUTHEASTERN PENNSYLVANIA TRANSPORTATION",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "COOPER, JESSE"
+    ],
+    "defendants": [
+      "SOUTHEASTERN PENNSYLVANIA TRANSPORTATION AUTHORITY",
+      "DOE, JOHN",
+      "TEJAN, AMARA",
+      "ABOUBACAR, DIARRA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "HIMMEL, PAUL B",
+        "address": "FREEDMAN & LORRY PC 1601 MARKET ST STE 1550 PHILADELPHIA PA 19103 (215)925-8400 phimmel@freedmanlorry.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "COOPER, JESSE",
+        "address": "2100 N. 49TH STREET PHILADELPHIA PA 19131"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "SOUTHEASTERN PENNSYLVANIA TRANSPORTATION AUTHORITY",
+        "address": "1234 MARKET STREET 5TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "DOE, JOHN",
+        "address": "1234 MARKET STREET 5TH FLOOR PHILADELPHIA PA 19107"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "TEJAN, AMARA",
+        "address": "1128 GLEN AVON ROAD DARBY PA 19023"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "ABOUBACAR, DIARRA",
+        "address": "830 HERBERT COURT PHILADELPHIA PA 19124"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:54 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:54 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "HIMMEL, PAUL B"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:54 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "HIMMEL, PAUL B"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:54 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "HIMMEL, PAUL B"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:26 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "09:26 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902293",
+    "caption": "1508 CHESTNUT STREET CORPORATION VS SUITCODE, LLC",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "JUDGMENTS",
+    "case_type": "CONFESSION OF JUDGMENT",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "1508 CHESTNUT STREET CORPORATION"
+    ],
+    "defendants": [
+      "SUITCODE, LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "PICKER ESQ, BENJAMIN R",
+        "address": "KAPLIN STEWART 910 HARVEST DRIVE, SUITE 200 PO BOX 3037 BLUE BELL PA 19422 (610)260-6000 bpicker@kaplaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "1508 CHESTNUT STREET CORPORATION",
+        "address": "486 E. EVESHAM ROAD, SUITE 201 CHERRY HILL NJ 08003"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "SUITCODE, LLC",
+        "address": "1508 CHESTNUT STREET 1ST FLOOR PHILADELPHIA PA 19102"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:36 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:36 PM",
+        "type": "COMMENCEMENT BY JUDGMENT",
+        "party": "PICKER ESQ, BENJAMIN R"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:36 PM",
+        "type": "CONFESSION OF JUDGMENT FILED",
+        "party": "PICKER ESQ, BENJAMIN R"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "02:36 PM",
+      "type": "CONFESSION OF JUDGMENT FILED",
+      "party": "PICKER ESQ, BENJAMIN R"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902291",
+    "caption": "JESUS-COLON VS WAWA, INC.",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "JESUS-COLON, CARMEN"
+    ],
+    "defendants": [
+      "WAWA, INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "KRUPNICK, BRAD R",
+        "address": "1333 RACE STREET PHILADELPHIA PA 19107 (215)665-0100 bkrupnick@fineandstaud.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "JESUS-COLON, CARMEN",
+        "address": "8118 LEONARD STREET PHILADELPHIA PA 19152"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WAWA, INC.",
+        "address": "260 WEST BALTIMORE PIKE MEDIA PA 19063"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:15 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:15 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "KRUPNICK, BRAD R"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:15 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "KRUPNICK, BRAD R"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:15 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "KRUPNICK, BRAD R"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:15 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "KRUPNICK, BRAD R"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "02:15 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "KRUPNICK, BRAD R"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902290",
+    "caption": "MILLER ETAL VS VENUS NAIL BAR, INC.",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "MILLER, KIMBERLY V",
+      "MILLER, JAMES"
+    ],
+    "defendants": [
+      "VENUS NAIL BAR, INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "ZAJAC, ERIC G",
+        "address": "ZAJAC & PADILLA, LLC 32 PARKING PLAZA SUITE 401 ARDMORE PA 19003 (215)575-7615 Eric@TeamLawyers.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "MILLER, KIMBERLY V",
+        "address": "723 CINNAMINSON ST PHILADELPHIA  PA 19128"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "MILLER, JAMES",
+        "address": "723 CINNAMINSON ST PHILADELPHIA  PA 19128"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "VENUS NAIL BAR, INC.",
+        "address": "6121 RIDGE AVENUE PHILADELPHIA PA 19128"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:10 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:10 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "ZAJAC, ERIC G"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:10 PM",
+        "type": "PRAE TO ISSUE WRIT OF SUMMONS",
+        "party": "ZAJAC, ERIC G"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:10 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "ZAJAC, ERIC G"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:10 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "ZAJAC, ERIC G"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "02:10 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "ZAJAC, ERIC G"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902287",
+    "caption": "CORTEZ ROSA VS HAROLD",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "CORTEZ ROSA, HERNANDO"
+    ],
+    "defendants": [
+      "HAROLD, SHANICQUA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "FINE, ANDREW M",
+        "address": "1333 RACE STREET PHILADELPHIA PA 19107 (215)665-0100 AFINE@FINEANDSTAUD.COM"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CORTEZ ROSA, HERNANDO",
+        "address": "5037 WALTON STREET PHILADELPHIA PA 19143"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "HAROLD, SHANICQUA",
+        "address": "5546 ADDISON STREET PHILADELPHIA PA 19143"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:00 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:00 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "FINE, ANDREW M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:00 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "FINE, ANDREW M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:00 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "FINE, ANDREW M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:00 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "FINE, ANDREW M"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "02:00 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "FINE, ANDREW M"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902286",
+    "caption": "WESCO INSURANCE COMPANY, AS SUBROGEE OF 759 DEKALB",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "FOREIGN SUBPOENA - UIDDA",
+    "case_type": "ISSUANCE OF FOREIGN SUBPOENA",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "WESCO INSURANCE COMPANY, AS SUBROGEE OF 759 DEKALB LLC"
+    ],
+    "defendants": [
+      "TOPDEKALB LLC",
+      "AMINY CONSTRUCTION LLC",
+      "ZAQ CONSTRUCTION, INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PRO SE FILER",
+        "name": "CANTER ESQ, NELSON E",
+        "address": "MCLAUGHLIN & STERN, LLP, 260 MADISON AVE. NEW YORK NY 10016 (914)434-1139"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "WESCO INSURANCE COMPANY, AS SUBROGEE OF 759 DEKALB LLC",
+        "address": "59 MAIDEN LANE, 43RD FLOOR NEW YORK NY 10038"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "TOPDEKALB LLC",
+        "address": "759 DEKALB AVENUE BROOKLYN NY 11216"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "AMINY CONSTRUCTION LLC",
+        "address": "3051 LINDEN PLACE, FLOOR 2 FLUSHING NY 11354"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "ZAQ CONSTRUCTION, INC.",
+        "address": "39-15 MAIN STREET, SUITE 308 FLUSHING NY 11354"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:29 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:29 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "CANTER ESQ, NELSON E"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:29 PM",
+        "type": "REQUEST-FOREIGN SUBPOENA",
+        "party": "CANTER ESQ, NELSON E"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "02:29 PM",
+      "type": "REQUEST-FOREIGN SUBPOENA",
+      "party": "CANTER ESQ, NELSON E"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902285",
+    "caption": "FARMER ETAL VS JAGIELSKI",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "FARMER, ALICIA",
+      "FARMER, LAWRENCE"
+    ],
+    "defendants": [
+      "JAGIELSKI, KRISTINA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GINSBURG, ALEXANDER J",
+        "address": "441 N. 5TH STREET SUITE 100 PHILADELPHIA PA 19123 (215)440-0300 alex@peterbowerspc.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "FARMER, ALICIA",
+        "address": "1319 PARKER ST. CHESTER PA 19013"
+      },
+      {
+        "seq": "3",
+        "type": "PLAINTIFF",
+        "name": "FARMER, LAWRENCE",
+        "address": "1319 PARKER ST. CHESTER PA 19013"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "JAGIELSKI, KRISTINA",
+        "address": "22 CEDARWOOD PLACE LOGAN TOWNSHIP NJ 05085"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "02:06 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:06 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "GINSBURG, ALEXANDER J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:06 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "GINSBURG, ALEXANDER J"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "02:06 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "GINSBURG, ALEXANDER J"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:14 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "09:14 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902284",
+    "caption": "NCB MANAGEMENT SERVICES, INC. VS KAEWELL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "ARBITRATION",
+    "case_type": "CONTRACTS OTHER",
+    "jury": "NON JURY",
+    "status": "ARBITRATION HEARING SCHEDULED",
+    "plaintiffs": [
+      "NCB MANAGEMENT SERVICES, INC."
+    ],
+    "defendants": [
+      "KAEWELL, DANA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "TSAROUHIS, DEMETRIOS H",
+        "address": "21 S 9TH ST SUITE A ALLENTOWN PA 18102 (610)628-2440 dht@pacollections.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "NCB MANAGEMENT SERVICES, INC.",
+        "address": "1 ALLIED DR TREVOSE PA 19053"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "KAEWELL, DANA",
+        "address": "6237 SHELBOURNE ST PHILADELPHIA PA 19111"
+      }
+    ],
+    "events": [
+      {
+        "event": "ARBITRATION HEARING",
+        "datetime": "21-JUN-2027 09:15 AM",
+        "room": "ARBITRATION CENTER",
+        "location": "1880 JFK BLVD 5TH FLOOR",
+        "judge": "unassigned"
+      }
+    ],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "01:28 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:28 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:28 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:28 PM",
+        "type": "CASE MANAGEMENT ORDER ISSUED",
+        "party": "TSAROUHIS, DEMETRIOS H"
+      },
+      {
+        "date": "21-SEP-2026",
+        "time": "09:11 AM",
+        "type": "ARBITRATION HEARING SCHEDULED",
+        "party": ""
+      }
+    ],
+    "last_entry": {
+      "date": "21-SEP-2026",
+      "time": "09:11 AM",
+      "type": "ARBITRATION HEARING SCHEDULED",
+      "party": ""
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902283",
+    "caption": "CAMPENELLA DEVELOPMENT, LLC VS WEST POWELTON DEVEL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "JUDGMENTS",
+    "case_type": "CONFESSION OF JUDGMENT",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "CAMPENELLA DEVELOPMENT, LLC"
+    ],
+    "defendants": [
+      "WEST POWELTON DEVELOPMENT CO., INC."
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "CAROBUS, ANDREW M",
+        "address": "1735 MARKET ST 51ST FLOOR PHILADELPHIA PA 19103 (215)864-8364 carobusa@ballardspahr.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CAMPENELLA DEVELOPMENT, LLC",
+        "address": "1930 SOUTH 25TH STREET PHILADELPHIA PA 19145"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "WEST POWELTON DEVELOPMENT CO., INC.",
+        "address": "1635 MARKET STREET 16TH FLOOR PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "4",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "QUAGLIA ESQ, RAYMOND A",
+        "address": "1735 MARKET ST 51STFL PHILADELPHIA PA 19103 (215)864-8530 quaglia@ballardspahr.com"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "09:04 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "09:04 AM",
+        "type": "COMMENCEMENT BY JUDGMENT",
+        "party": "CAROBUS, ANDREW M"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "09:04 AM",
+        "type": "CONFESSION OF JUDGMENT FILED",
+        "party": "CAROBUS, ANDREW M"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "09:04 AM",
+      "type": "CONFESSION OF JUDGMENT FILED",
+      "party": "CAROBUS, ANDREW M"
+    },
+    "entry_count": 3
+  },
+  {
+    "case_id": "260902282",
+    "caption": "YOUNGE VS PHILADELPHIA HOUSING AUTHORITY",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "WHISTLEBLOWER PROTECTION ACT",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "YOUNGE, JESSICA"
+    ],
+    "defendants": [
+      "PHILADELPHIA HOUSING AUTHORITY"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "MEACHUM, DANIEL R",
+        "address": "260 PEACHTREE STREET NW SUITE 502 ATLANTA GA 30303 (404)521-0029 Dmeachum@dmeachumlaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "YOUNGE, JESSICA",
+        "address": "2241 GEORGES LN CARRIAGE PHILADELPHIA PA 19131"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "PHILADELPHIA HOUSING AUTHORITY",
+        "address": "2013 RIDGE AVENUE PHILADELPHIA PA 19130"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "01:55 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:55 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "MEACHUM, DANIEL R"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:55 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "MEACHUM, DANIEL R"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:55 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "MEACHUM, DANIEL R"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:55 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "MEACHUM, DANIEL R"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "01:55 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "MEACHUM, DANIEL R"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902281",
+    "caption": "RYAN VS NATIONWIDE HEALTHCARE SERVICES, LLC ETAL",
+    "filing_date": "2026-09-18",
+    "filing_date_raw": "Friday , September 18th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "PERSONAL INJURY - OTHER",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "RYAN, KEVIN"
+    ],
+    "defendants": [
+      "NATIONWIDE HEALTHCARE SERVICES, LLC",
+      "BROOKSIDE HEALTHCARE & REHABILITATION CENTER, LLC",
+      "DOE I, ENTITY RESPONSIBLE FOR HEALTH, SAFETY, HIRING, ETC., JOHN",
+      "DOE 2, WHO ASSAULTED PETERS STEPHANE, JOHN",
+      "DOE 3, WHO ASSAULTED PETERS STEPHANE, JOHN",
+      "DOE 4, WHO ASSAULTED PETERS STEPHANE, JOHN",
+      "DOE 5, WHO ASSAULTED PETERS STEPHANE, JOHN"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GITMAN, STEVEN D",
+        "address": "P.O. BOX 481 NARBERTH PA 19072 (610)804-7549 steve@gitmanesquire.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "RYAN, KEVIN",
+        "address": "905 BETHLEHEM PIKE #650 SPRING HOUSE PA 19477"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "NATIONWIDE HEALTHCARE SERVICES, LLC",
+        "address": "318 SOUTH ORANGE STREET MEDIA PA 19063"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "BROOKSIDE HEALTHCARE & REHABILITATION CENTER, LLC",
+        "address": "2630 WOODLAND ROAD ABINGTON PA 19001"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "DOE I, ENTITY RESPONSIBLE FOR HEALTH, SAFETY, HIRING, ETC., JOHN",
+        "address": "C/O BROOKSIDE HEALTHCARE 2630 WOODLAND ROAD ABINGTON PA 19001"
+      },
+      {
+        "seq": "6",
+        "type": "DEFENDANT",
+        "name": "DOE 2, WHO ASSAULTED PETERS STEPHANE, JOHN",
+        "address": "C/O BROOKSIDE HEALTHCARE 2630 WOODLAND ROAD ABINGTON PA 19001"
+      },
+      {
+        "seq": "7",
+        "type": "DEFENDANT",
+        "name": "DOE 3, WHO ASSAULTED PETERS STEPHANE, JOHN",
+        "address": "C/O BROOKSIDE HEALTHCARE 2630 WOODLAND ROAD ABIINGTON PA 19001"
+      },
+      {
+        "seq": "8",
+        "type": "DEFENDANT",
+        "name": "DOE 4, WHO ASSAULTED PETERS STEPHANE, JOHN",
+        "address": "C/O BROOKSIDE HEALTHCARE 2630 WOODLAND ROAD ABINGTON PA 19001"
+      },
+      {
+        "seq": "9",
+        "type": "DEFENDANT",
+        "name": "DOE 5, WHO ASSAULTED PETERS STEPHANE, JOHN",
+        "address": "C/O BROOKSIDE HEALTHCARE 2630 WOODLAND ROAD ABINGTON PA 19001"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "18-SEP-2026",
+        "time": "01:48 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:48 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "GITMAN, STEVEN D"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:48 PM",
+        "type": "PRAE TO ISSUE WRIT OF SUMMONS",
+        "party": "GITMAN, STEVEN D"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:48 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "GITMAN, STEVEN D"
+      },
+      {
+        "date": "18-SEP-2026",
+        "time": "01:48 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "GITMAN, STEVEN D"
+      }
+    ],
+    "last_entry": {
+      "date": "18-SEP-2026",
+      "time": "01:48 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "GITMAN, STEVEN D"
+    },
+    "entry_count": 5
+  },
+  {
     "case_id": "260902275",
     "caption": "NCB MANAGEMENT SERVICES, INC. VS BURRELL",
     "filing_date": "2026-09-18",
@@ -5166,6 +11592,159 @@
       "party": "KOBOCI, JETMIR"
     },
     "entry_count": 5
+  },
+  {
+    "case_id": "260902433",
+    "caption": "JOHNSON-WILLIAMS ETAL VS LITTLE ONE'S OF WISDOM DA",
+    "filing_date": "2026-09-17",
+    "filing_date_raw": "Thursday , September 17th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "PERSONAL INJURY - OTHER",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "JOHNSON-WILLIAMS, DAVINA",
+      "A, N"
+    ],
+    "defendants": [
+      "LITTLE ONE'S OF WISDOM DAY CARE, LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "GREENE, JULIANNE LYNN",
+        "address": "1954 GREENSPRING DRIVE, SUITE 250 LUTHERVILLE MD 21093 (410)560-4999 JGREENE@GBLEGALTEAM.COM"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "JOHNSON-WILLIAMS, DAVINA",
+        "address": "1239 N 20TH STREET PHILADELPHIA PA 19138"
+      },
+      {
+        "seq": "3",
+        "type": "MINOR - PLAINTIFF",
+        "name": "A, N",
+        "address": "1239 N 20TH STREET PHILADELPHIA PA 19138"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "LITTLE ONE'S OF WISDOM DAY CARE, LLC",
+        "address": "5904 OLD YORK ROAD PHILADELPHIA PA 19141"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "17-SEP-2026",
+        "time": "11:34 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "17-SEP-2026",
+        "time": "11:34 AM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "GREENE, JULIANNE LYNN"
+      },
+      {
+        "date": "17-SEP-2026",
+        "time": "11:34 AM",
+        "type": "PRAE TO ISSUE WRIT OF SUMMONS",
+        "party": "GREENE, JULIANNE LYNN"
+      },
+      {
+        "date": "17-SEP-2026",
+        "time": "11:34 AM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "GREENE, JULIANNE LYNN"
+      },
+      {
+        "date": "17-SEP-2026",
+        "time": "11:34 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "GREENE, JULIANNE LYNN"
+      }
+    ],
+    "last_entry": {
+      "date": "17-SEP-2026",
+      "time": "11:34 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "GREENE, JULIANNE LYNN"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902334",
+    "caption": "CITADEL FEDERAL CREDIT UNION VS BEATTY",
+    "filing_date": "2026-09-17",
+    "filing_date_raw": "Thursday , September 17th, 2026",
+    "court": "MAJOR NON JURY",
+    "case_type": "REPLEVIN",
+    "jury": "NON JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "CITADEL FEDERAL CREDIT UNION"
+    ],
+    "defendants": [
+      "BEATTY, CHRISTINA TOTIANA"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "LARKIN, MARY J",
+        "address": "22 W. SECOND STREET MEDIA PA 19063 (610)615-1550 jackie@mvlawoffices.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CITADEL FEDERAL CREDIT UNION",
+        "address": "520 EAGLEVIEW BOULEVARD EXTON PA 19341"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "BEATTY, CHRISTINA TOTIANA",
+        "address": "1422 W. ROCKLAND STREET APT. B2 PHILADELPHIA PA 19141"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "17-SEP-2026",
+        "time": "03:48 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "17-SEP-2026",
+        "time": "03:48 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "LARKIN, MARY J"
+      },
+      {
+        "date": "17-SEP-2026",
+        "time": "03:48 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "LARKIN, MARY J"
+      },
+      {
+        "date": "17-SEP-2026",
+        "time": "03:48 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "LARKIN, MARY J"
+      }
+    ],
+    "last_entry": {
+      "date": "17-SEP-2026",
+      "time": "03:48 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "LARKIN, MARY J"
+    },
+    "entry_count": 4
   },
   {
     "case_id": "260902219",
@@ -11472,6 +18051,298 @@
       "party": ""
     },
     "entry_count": 5
+  },
+  {
+    "case_id": "260902298",
+    "caption": "DANIELS VS LINCOLN UNIVERSITY ETAL",
+    "filing_date": "2026-09-16",
+    "filing_date_raw": "Wednesday, September 16th, 2026",
+    "court": "MAJOR JURY",
+    "case_type": "PERSONAL INJURY - OTHER",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "DANIELS, ANII"
+    ],
+    "defendants": [
+      "LINCOLN UNIVERSITY",
+      "PARTEE, MARC",
+      "DOES #1-10, JOHN AND JANE"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "VAN DER VEEN, MICHAEL T",
+        "address": "1219 SPRUCE STREET PHILADELPHIA PA 19107 (215)546-1000 mtv@mtvlaw.com"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "DANIELS, ANII",
+        "address": "707 SPRINGTON CIRCLE UPPER CHICHESTER PA 19014"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "LINCOLN UNIVERSITY",
+        "address": "1570 BALTIMORE PIKE LINCOLN UNIVERSITY PA 19352"
+      },
+      {
+        "seq": "4",
+        "type": "DEFENDANT",
+        "name": "PARTEE, MARC",
+        "address": "1570 BALTIMORE PIKE LINCOLN UNIVERSITY PA 19352"
+      },
+      {
+        "seq": "5",
+        "type": "DEFENDANT",
+        "name": "DOES #1-10, JOHN AND JANE",
+        "address": "1570 BALTIMORE PIKE LINCOLN UNIVERSITY PA 19352"
+      },
+      {
+        "seq": "6",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "RASSIAS, JERRY D",
+        "address": "1219 SPRUCE STREET PHILADELPHIA PA 19107 (215)546-1000 jrassias@mtvlaw.com"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "16-SEP-2026",
+        "time": "10:32 AM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "10:32 AM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "VAN DER VEEN, MICHAEL T"
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "10:32 AM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "VAN DER VEEN, MICHAEL T"
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "10:32 AM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "VAN DER VEEN, MICHAEL T"
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "10:32 AM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "VAN DER VEEN, MICHAEL T"
+      }
+    ],
+    "last_entry": {
+      "date": "16-SEP-2026",
+      "time": "10:32 AM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "VAN DER VEEN, MICHAEL T"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902288",
+    "caption": "CALVERT ETAL VS BPS DIRECT, LLC ETAL",
+    "filing_date": "2026-09-16",
+    "filing_date_raw": "Wednesday, September 16th, 2026",
+    "court": "CLASS ACTION",
+    "case_type": "CLASS ACTION",
+    "jury": "JURY",
+    "status": "WAITING TO LIST CASE MGMT CONF",
+    "plaintiffs": [
+      "CALVERT, BRIAN",
+      "CORNELL, HEATHER",
+      "DURHAM, TIMOTHY",
+      "HERNANDEZ, MARILYN",
+      "MOORE, GREG",
+      "MONTECALVO, PETER",
+      "TUCKER, ARLIE",
+      "VONBERGEN, BRITTANY"
+    ],
+    "defendants": [
+      "CABELA'S LLC",
+      "BPS DIRECT, LLC"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "ATTORNEY FOR PLAINTIFF",
+        "name": "COLELLA, NICHOLAS A",
+        "address": "1133 PENN AVENUE 5TH FL PITTSBURGH PA 15222 (412)322-9243 NICKC@LCLLP.COM"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "CALVERT, BRIAN",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "CABELA'S LLC",
+        "address": "2500 E. KEARNEY ST. SPRINGFIELD MO 65898"
+      },
+      {
+        "seq": "4",
+        "type": "PLAINTIFF",
+        "name": "CORNELL, HEATHER",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "5",
+        "type": "PLAINTIFF",
+        "name": "DURHAM, TIMOTHY",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "6",
+        "type": "PLAINTIFF",
+        "name": "HERNANDEZ, MARILYN",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "7",
+        "type": "PLAINTIFF",
+        "name": "MOORE, GREG",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "8",
+        "type": "PLAINTIFF",
+        "name": "MONTECALVO, PETER",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "9",
+        "type": "PLAINTIFF",
+        "name": "TUCKER, ARLIE",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "10",
+        "type": "PLAINTIFF",
+        "name": "VONBERGEN, BRITTANY",
+        "address": "1133 PENN AVENUE, 5TH FLOOR PITTSBURGH PA 15222"
+      },
+      {
+        "seq": "11",
+        "type": "DEFENDANT",
+        "name": "BPS DIRECT, LLC",
+        "address": "2500 E. KEARNEY ST. SPRINGFIELD MO 65898"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "16-SEP-2026",
+        "time": "04:24 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "04:24 PM",
+        "type": "COMMENCEMENT CIVIL ACTION JURY",
+        "party": "COLELLA, NICHOLAS A"
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "04:24 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "COLELLA, NICHOLAS A"
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "04:24 PM",
+        "type": "JURY TRIAL PERFECTED",
+        "party": "COLELLA, NICHOLAS A"
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "04:24 PM",
+        "type": "WAITING TO LIST CASE MGMT CONF",
+        "party": "COLELLA, NICHOLAS A"
+      }
+    ],
+    "last_entry": {
+      "date": "16-SEP-2026",
+      "time": "04:24 PM",
+      "type": "WAITING TO LIST CASE MGMT CONF",
+      "party": "COLELLA, NICHOLAS A"
+    },
+    "entry_count": 5
+  },
+  {
+    "case_id": "260902280",
+    "caption": "YOON VS PROPERTY RESERVE, INC. D/B/A THE ALEXANDE",
+    "filing_date": "2026-09-16",
+    "filing_date_raw": "Wednesday, September 16th, 2026",
+    "court": "RENT, LEASE & EJECTMENT",
+    "case_type": "LANDLORD/TENANT - COMPLAINT",
+    "jury": "NON JURY",
+    "status": "ACTIVE CASE",
+    "plaintiffs": [
+      "YOON MD, UZUNG"
+    ],
+    "defendants": [
+      "PROPERTY RESERVE, INC.  D/B/A THE ALEXANDER"
+    ],
+    "parties": [
+      {
+        "seq": "1",
+        "type": "PRO SE FILER",
+        "name": "YOON, UZUNG",
+        "address": "300 ALEXANDER CT APT 2807 PHILADELPHIA PA 19103 (215)910-0557"
+      },
+      {
+        "seq": "2",
+        "type": "PLAINTIFF",
+        "name": "YOON MD, UZUNG",
+        "address": "300 ALEXANDER COURT APT 2807 PHILADELPHIA PA 19103"
+      },
+      {
+        "seq": "3",
+        "type": "DEFENDANT",
+        "name": "PROPERTY RESERVE, INC.  D/B/A THE ALEXANDER",
+        "address": "300 ALEXANDER COURT MANAGEMENT OFFICE PHILADELPHIA PA 19103"
+      }
+    ],
+    "events": [],
+    "entries": [
+      {
+        "date": "16-SEP-2026",
+        "time": "09:39 PM",
+        "type": "ACTIVE CASE",
+        "party": ""
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "09:39 PM",
+        "type": "COMMENCEMENT OF CIVIL ACTION",
+        "party": "YOON, UZUNG"
+      },
+      {
+        "date": "16-SEP-2026",
+        "time": "09:39 PM",
+        "type": "COMPLAINT FILED NOTICE GIVEN",
+        "party": "YOON, UZUNG"
+      }
+    ],
+    "last_entry": {
+      "date": "16-SEP-2026",
+      "time": "09:39 PM",
+      "type": "COMPLAINT FILED NOTICE GIVEN",
+      "party": "YOON, UZUNG"
+    },
+    "entry_count": 3
   },
   {
     "case_id": "260902113",
@@ -151129,88 +158000,5 @@
       "party": ""
     },
     "entry_count": 5
-  },
-  {
-    "case_id": "260803052",
-    "caption": "VALENCIA-JOHNSON VS CORNELL ABRAXAS GROUP, LLC ETA",
-    "filing_date": "2026-08-22",
-    "filing_date_raw": "Saturday , August 22nd, 2026",
-    "court": "MAJOR NON JURY",
-    "case_type": "PERSONAL INJURY - OTHER",
-    "jury": "NON JURY",
-    "status": "WAITING TO LIST CASE MGMT CONF",
-    "plaintiffs": [
-      "VALENCIA-JOHNSON, ANTONIO"
-    ],
-    "defendants": [
-      "CORNELL ABRAXAS GROUP LLC",
-      "GEO GROUP INC"
-    ],
-    "parties": [
-      {
-        "seq": "1",
-        "type": "ATTORNEY FOR PLAINTIFF",
-        "name": "CORNISH, DAVID WESLEY",
-        "address": "230 SOUTH BROAD STREET 17TH FLOOR PHILADELPHIA PA 19102 (215)990-8686 cornerstonelegalgroup@gmail.com"
-      },
-      {
-        "seq": "2",
-        "type": "PLAINTIFF",
-        "name": "VALENCIA-JOHNSON, ANTONIO",
-        "address": "734 EAST 8TH STREET ERIE PA 16503"
-      },
-      {
-        "seq": "3",
-        "type": "DEFENDANT",
-        "name": "CORNELL ABRAXAS GROUP LLC",
-        "address": "2840 LIBERTY AVENUE SUITE 300 PITTSBURGH PA 15222"
-      },
-      {
-        "seq": "4",
-        "type": "DEFENDANT",
-        "name": "GEO GROUP INC",
-        "address": "4955 TECHNOLOGY WAY BOCA RATON FL 33431"
-      },
-      {
-        "seq": "5",
-        "type": "MOTION ASSIGNMENT JUDGE",
-        "name": "YU, KAY",
-        "address": "RM 606, CITY HALL BROAD AND MARKET ST. PHILADELPHIA PA 19107"
-      }
-    ],
-    "events": [],
-    "entries": [
-      {
-        "date": "22-AUG-2026",
-        "time": "11:54 PM",
-        "type": "ACTIVE CASE",
-        "party": ""
-      },
-      {
-        "date": "22-AUG-2026",
-        "time": "11:54 PM",
-        "type": "COMMENCEMENT OF CIVIL ACTION",
-        "party": "CORNISH, DAVID WESLEY"
-      },
-      {
-        "date": "22-AUG-2026",
-        "time": "11:54 PM",
-        "type": "PRAE TO ISSUE WRIT OF SUMMONS",
-        "party": "CORNISH, DAVID WESLEY"
-      },
-      {
-        "date": "22-AUG-2026",
-        "time": "11:54 PM",
-        "type": "WAITING TO LIST CASE MGMT CONF",
-        "party": "CORNISH, DAVID WESLEY"
-      }
-    ],
-    "last_entry": {
-      "date": "22-AUG-2026",
-      "time": "11:54 PM",
-      "type": "WAITING TO LIST CASE MGMT CONF",
-      "party": "CORNISH, DAVID WESLEY"
-    },
-    "entry_count": 4
   }
 ]

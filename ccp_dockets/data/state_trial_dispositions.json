@@ -86,7 +86,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250102394": {
@@ -184,27 +184,30 @@
     "trial_date": "2026-09-22",
     "case_type": "MC - SMALL CLAIMS APPEALS",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250103603": {
     "caption": "VELOCITY INVESTMENTS, LLC VS CAJOUX",
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250103742": {
     "caption": "VELOCITY INVESTMENTS, LLC VS MATHEW",
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250202958": {
     "caption": "PENA SARATE VS PA FINANCIAL RESPONSIBILITY",
@@ -250,9 +253,10 @@
     "trial_date": "2026-09-22",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED-PROJ. PRE-TRIAL CONF",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "231100914": {
     "caption": "HALKIDIS ETAL VS NORTH AMERICAN STREET DEVELOPMENT",
@@ -659,9 +663,10 @@
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250103077": {
     "caption": "JOHNSON ETAL VS JOHNSON ETAL",
@@ -1339,9 +1344,10 @@
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250202687": {
     "caption": "PRIORE IMPROVEMENT LLC VS MAZZA ETAL",
@@ -2037,9 +2043,10 @@
     "trial_date": "2026-09-22",
     "case_type": "LIBEL, SLANDER, MISREPRESENT",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251001961": {
     "caption": "STATE FARM MUTUAL AUTO INS CO VS GOOD HANDZ TOWING",
