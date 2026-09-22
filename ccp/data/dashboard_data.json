@@ -1,57 +1,23 @@
 {
   "meta": {
-    "scraped_at": "2026-09-21T09:42:28 EDT",
+    "scraped_at": "2026-09-22T08:25:42 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-09-21",
-      "end": "2027-01-19"
+      "start": "2026-09-22",
+      "end": "2027-01-20"
     },
     "counts": {
-      "CM": 325,
-      "MJ": 99,
-      "total": 424
+      "CM": 330,
+      "MJ": 97,
+      "total": 427
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "250403619",
-      "caption": "ROSARIO VS JOSEPH",
-      "raw_date": "21-SEP-2026",
-      "iso_date": "2026-09-21",
-      "time": "09:00 AM",
-      "room": "Courtroom 426",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "DAVID L. BURDETT (Attorney For Defendant); MARINA KATS (Attorney For Plaintiff); EUGENE GITMAN (Attorney For Plaintiff); STAN SHNAYDER (Attorney For Plaintiff)",
-      "trial_days": "2"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "241100787",
-      "caption": "HUTTON ETAL VS 2319 DELANCEY PL LLC ETAL",
-      "raw_date": "21-SEP-2026",
-      "iso_date": "2026-09-21",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Major Non-Jury",
-      "case_type": "REAL PROPERTY - OTHER",
-      "attorneys": "VERN ANASTASIO (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
     {
       "program": "CM",
       "program_label": "Civil Motions",
@@ -526,23 +492,6 @@
       "court_type": "RENT, LEASE & EJECTMENT",
       "case_type": "EJECTMENT",
       "attorneys": "",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "260600114",
-      "caption": "IN RE: APPEAL OF TERRANCE TROWELL",
-      "raw_date": "24-SEP-2026",
-      "iso_date": "2026-09-24",
-      "time": "09:30 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "ORAL ARGUMENT",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "MUNICIPAL COURT APPEAL",
-      "case_type": "MC-IMPOUNDED VEHICLE APPEAL",
-      "attorneys": "DENNIS G. WELDON JR (Attorney - Agency); MICHAEL CASEY (Attorney - Agency)",
       "trial_days": ""
     },
     {
@@ -1041,6 +990,40 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "260603931",
+      "caption": "AYOUB VS WASHINGTON",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "PETITIONS",
+      "case_type": "NUNC PRO TUNC PETITION",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260900429",
+      "caption": "JOYNER VS ALL UNKNOWN OCCUPANTS",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "260900752",
       "caption": "KELLY VS MILLER ET AL",
       "raw_date": "30-SEP-2026",
@@ -1342,6 +1325,40 @@
       "court_type": "MAJOR NON JURY EXPEDITED",
       "case_type": "PREMISES LIABILITY, SLIP/FALL",
       "attorneys": "MARK S. DANEK (Attorney For Defendant); KENNETH S. SAFFREN (Attorney For Plaintiff); DREW SALAMAN (Attorney For Plaintiff); SARAH HILLMAN (Attorney For Respondent)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260703731",
+      "caption": "HUGGINS CROCKETT VS CROCKETT ETAL",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "CONTRACTS OTHER",
+      "attorneys": "JASON L. RABINOVICH (Attorney For Defendant); SEAN S. LITZ (Attorney For Plaintiff); ISABELLA H. GRAY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260900524",
+      "caption": "JEAN VS NEBULA LLC",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "CONTRACTS OTHER",
+      "attorneys": "",
       "trial_days": ""
     },
     {
@@ -3351,6 +3368,23 @@
       "trial_days": ""
     },
     {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260802075",
+      "caption": "HANDCRAFT TOWING & RECOVERY LLC VS MARTIN ETAL",
+      "raw_date": "13-OCT-2026",
+      "iso_date": "2026-10-13",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "PETITIONS",
+      "case_type": "MISCELLANEOUS PETITION",
+      "attorneys": "MICHAEL M. GESSNER (Attorney For Petitioner)",
+      "trial_days": ""
+    },
+    {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
       "case_id": "250201435",
@@ -4520,7 +4554,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MAJOR NON JURY EXPEDITED",
       "case_type": "EQUITY - REAL ESTATE",
-      "attorneys": "LOUIS I. LIPSKY (Attorney For Defendant); LUCAS MASIN-MOYER (Attorney For Plaintiff)",
+      "attorneys": "LOUIS I. LIPSKY (Attorney For Defendant); SCOTT H. BRANDT (Attorney For Defendant); RACHEL I. FREEDMAN (Attorney For Defendant); LUCAS MASIN-MOYER (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -5235,6 +5269,23 @@
       "court_type": "AGENCY APPEAL",
       "case_type": "MISC ADMINISTRATIVE AGENCY",
       "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260600114",
+      "caption": "IN RE: APPEAL OF TERRANCE TROWELL",
+      "raw_date": "22-OCT-2026",
+      "iso_date": "2026-10-22",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "ORAL ARGUMENT",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC-IMPOUNDED VEHICLE APPEAL",
+      "attorneys": "DENNIS G. WELDON JR (Attorney - Agency); MICHAEL CASEY (Attorney - Agency)",
       "trial_days": ""
     },
     {
