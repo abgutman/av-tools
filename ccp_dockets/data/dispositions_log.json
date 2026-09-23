@@ -1,5 +1,97 @@
 [
   {
+    "case_id": "250700468",
+    "caption": "MELCHIORRE VS CAPONE",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-22",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-22",
+    "award": "$52,800.00",
+    "plaintiffs": [
+      "MELCHIORRE, CHARLES"
+    ],
+    "defendants": [
+      "CAPONE, ROBERT"
+    ],
+    "logged_at": "2026-09-23"
+  },
+  {
+    "case_id": "250201793",
+    "caption": "LESHAK VS SAPIENT INDUSTRIES, INC",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-22",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-22",
+    "award": "$30,230.46",
+    "plaintiffs": [
+      "LESHAK, ANDREW J"
+    ],
+    "defendants": [
+      "SAPIENT INDUSTRIES INC",
+      "BINA, KAYVON",
+      "KOCH, MARTIN"
+    ],
+    "logged_at": "2026-09-23"
+  },
+  {
+    "case_id": "250103742",
+    "caption": "VELOCITY INVESTMENTS, LLC VS MATHEW",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-22",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-09-22",
+    "award": null,
+    "plaintiffs": [
+      "VELOCITY INVESTMENTS LLC"
+    ],
+    "defendants": [
+      "MATHEW, ALEXANDER"
+    ],
+    "logged_at": "2026-09-23"
+  },
+  {
+    "case_id": "250103603",
+    "caption": "VELOCITY INVESTMENTS, LLC VS CAJOUX",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-22",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-09-22",
+    "award": null,
+    "plaintiffs": [
+      "VELOCITY INVESTMENTS LLC"
+    ],
+    "defendants": [
+      "CAJOUX, JAMES"
+    ],
+    "logged_at": "2026-09-23"
+  },
+  {
+    "case_id": "240703157",
+    "caption": "PICKETT VS UNITED AUTO COLLISION, INC",
+    "case_type": "MC - SMALL CLAIMS APPEALS",
+    "trial_date": "2026-09-22",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-09-22",
+    "award": null,
+    "plaintiffs": [
+      "PICKETT, JUVYA"
+    ],
+    "defendants": [
+      "UNITED AUTO COLLISION INC"
+    ],
+    "logged_at": "2026-09-23"
+  },
+  {
     "case_id": "250301023",
     "caption": "ODK CAPITAL LLC VS TRANZITIONS HAIR AND BODY, LLC",
     "case_type": "CONTRACTS OTHER",
@@ -810,6 +902,25 @@
       "COHEN, STANLEY"
     ],
     "logged_at": "2026-09-08"
+  },
+  {
+    "case_id": "250803555",
+    "caption": "MOSLEY VS QUAYE BOYD ETAL",
+    "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
+    "trial_date": "2026-09-23",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-09-01",
+    "award": null,
+    "plaintiffs": [
+      "MOSLEY, SAMUEL"
+    ],
+    "defendants": [
+      "QUAYE BOYD, MOSES",
+      "CIRWITHEN-BROADNAX, BRANDON"
+    ],
+    "logged_at": "2026-09-23"
   },
   {
     "case_id": "250602715",

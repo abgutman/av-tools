@@ -184,9 +184,9 @@
     "trial_date": "2026-09-22",
     "case_type": "MC - SMALL CLAIMS APPEALS",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250103603": {
@@ -194,9 +194,9 @@
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250103742": {
@@ -204,9 +204,9 @@
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250202958": {
@@ -663,9 +663,9 @@
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250103077": {
@@ -673,18 +673,20 @@
     "trial_date": "2026-09-23",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260201039": {
     "caption": "JOHNSON ETAL VS JOHNSON ETAL",
     "trial_date": "2026-09-23",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250101371": {
     "caption": "WHITE VS HARRELL ETAL",
@@ -787,7 +789,7 @@
     "trial_date": "2026-08-11",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -857,7 +859,7 @@
     "trial_date": "2026-08-25",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "SUMMARY JUDG/DISP MOT GRANTED",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -867,7 +869,7 @@
     "trial_date": "2026-08-25",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1144,7 +1146,7 @@
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1344,9 +1346,9 @@
     "trial_date": "2026-09-22",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250202687": {
@@ -1429,9 +1431,10 @@
     "trial_date": "2026-09-23",
     "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250802763": {
     "caption": "COLON VS COLON",
@@ -2399,6 +2402,285 @@
     "trial_date": "2026-11-17",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-15",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241102846": {
+    "caption": "IN RE: APPEAL OF G R PARTNERS I LP",
+    "trial_date": "2026-10-06",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251002332": {
+    "caption": "IN RE: APPEAL OF 2101 WASHINGTON AVENUE DEVELOPMEN",
+    "trial_date": "2026-10-16",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251002333": {
+    "caption": "IN RE: APPEAL OF 2101 WASHINGTON AVENUE DEVELOPMEN",
+    "trial_date": "2026-10-16",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251002412": {
+    "caption": "IN RE: APPEAL OF 2101 WASHINGTON AVENUE DEVELOPMEN",
+    "trial_date": "2026-10-16",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250800213": {
+    "caption": "HRONEC VS REED",
+    "trial_date": "2026-10-19",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250601584": {
+    "caption": "MAYFIELD VS NORMA",
+    "trial_date": "2026-10-27",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250901709": {
+    "caption": "ESTATE OF JANE MCALINDEN, LLC ETAL VS ESTATE OF RO",
+    "trial_date": "2026-10-27",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250900828": {
+    "caption": "ROSA VS CRADDOCK ETAL",
+    "trial_date": "2026-10-28",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241003434": {
+    "caption": "COMMUNITY LOAN SERVICING VS STRONG ARM PROPERTIES",
+    "trial_date": "2026-10-30",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251001176": {
+    "caption": "GJ HOLDINGS LLC VS OSTROFF ETAL",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251202433": {
+    "caption": "BARBOUR-DANIEL VS ALL UNKNOWN OCCUPANTS",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260201612": {
+    "caption": "GARRETT VS LYONS",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260202071": {
+    "caption": "BEY, ADMIN VS UNKNOWN OCCUPANTS",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260202558": {
+    "caption": "CITIZENS BANK VS WILLIAMS, UNKNOWN HEIR OF",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260301387": {
+    "caption": "KEY VS GRIFFIN ETAL",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260301823": {
+    "caption": "PENALVERTH VS VEGA ET AL",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260303230": {
+    "caption": "ESTATE OF GLORIA NOVAK VS LUTTON",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260304037": {
+    "caption": "NEMBHARD VS UNKNOWN OCCUPANTS",
+    "trial_date": "2026-10-07",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260304491": {
+    "caption": "4657-61 PENN LLC VS ALL UNKNOWN OCCUPANTS",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260400804": {
+    "caption": "GOLDEN ASSET LLC VS OCCUPANTS ETAL",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260401125": {
+    "caption": "CECALA ETAL VS ORSINI ETAL",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260401340": {
+    "caption": "COOPER VS WEBB",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260401532": {
+    "caption": "PARKER VS CARTER ET AL",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260401558": {
+    "caption": "SLAFMAN VS BRIGGS ETAL",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260401789": {
+    "caption": "GEMMA VENDING, LLC VS GRIZZARD",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260401797": {
+    "caption": "MILLS VS DYALL",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260401801": {
+    "caption": "COX VS BLAGMON",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260402176": {
+    "caption": "BALILAJ VS ALL UNKNOWN OCCUPANTS",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260402678": {
+    "caption": "GRIER VS LAMBERT ETAL",
+    "trial_date": "2026-10-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250402070": {
+    "caption": "TESFAI ETAL VS DOE ETAL",
+    "trial_date": "2026-10-21",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251101468": {
+    "caption": "GALVEZ VS ABDELQADER ETAL",
+    "trial_date": "2026-10-23",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
     "last_status": "",
     "reported": false,
     "retired": false
