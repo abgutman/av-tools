@@ -1,4 +1,4 @@
-name: CCP party watch (15 min)
+name: CCP party watch (hourly)
 
 on:
   workflow_dispatch:          # manual trigger for testing
@@ -6,11 +6,11 @@ on:
     # Cadence is time-of-day aware. GitHub cron is fixed UTC and can't follow DST,
     # so these map Eastern time using EDT (UTC-4); under EST they drift 1 hour earlier
     # (same convention as ccp-dockets.yml).
-    # Minutes are offset from :00/:15/:30/:45 — GitHub silently drops scheduled runs
-    # on congested minutes (observed Sept 2026: */15 delivered only every 3-4 hours;
-    # same failure and fix as the Shapiro tracker, July 2026).
-    - cron: '4,19,34,49 0,11-23 * * *'  # every 15 min, daytime — ET 07:04–20:49 (EDT)
-    - cron: '4 1-10 * * *'               # hourly, overnight — ET 21:04–06:04 (EDT)
+    # Hourly daytime only — reduced 2026-08-04 from every-15-min + overnight-hourly:
+    # the FJD name index posts in daytime batches, so hourly is ample (~13 runs/day).
+    # NOTE Sept 2026: GitHub silently drops most of these scheduled runs anyway
+    # (observed ~4/day actual). The daily complaints digest is the backstop.
+    - cron: '4 11-23 * * *'  # hourly at :04, daytime — ET 07:04–19:04 (EDT)
 
 # Prevent overlapping runs of this workflow (a run should finish in well under a minute).
 concurrency:
