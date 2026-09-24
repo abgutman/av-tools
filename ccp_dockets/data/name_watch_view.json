@@ -25,10 +25,26 @@
       "rows": []
     },
     {
+      "label": "Drexel University",
+      "rows": [
+        {
+          "case_id": "260902759",
+          "caption": "D. VS DREXEL UNIVERSITY ETAL",
+          "filing_date": "2026-09-22",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "DEFENDANT"
+        }
+      ]
+    },
+    {
+      "label": "Academy of Natural Sciences",
+      "rows": []
+    },
+    {
       "label": "Anthony Hudgins",
       "rows": []
     }
   ],
-  "generated_at": "2026-09-19 21:00 EDT",
+  "generated_at": "2026-09-24 18:24 EDT",
   "window_days": 14
 }
