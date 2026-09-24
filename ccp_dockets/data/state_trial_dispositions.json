@@ -653,9 +653,9 @@
     "trial_date": "2026-09-17",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250700468": {
@@ -1146,7 +1146,7 @@
     "trial_date": "2026-08-12",
     "case_type": "EJECTMENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "SATISFACTION FILED",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2680,6 +2680,33 @@
     "caption": "GALVEZ VS ABDELQADER ETAL",
     "trial_date": "2026-10-23",
     "case_type": "EJECTMENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241101225": {
+    "caption": "RANDALL VS JANET BARNES",
+    "trial_date": "2026-10-05",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241102480": {
+    "caption": "BROOKS VS BROWN ETAL",
+    "trial_date": "2026-10-05",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250903167": {
+    "caption": "NEWMAN VS DYLE ETAL",
+    "trial_date": "2026-10-30",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
     "first_seen": "2026-09-23",
     "last_status": "",
     "reported": false,
