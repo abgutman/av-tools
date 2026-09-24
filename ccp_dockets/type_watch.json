@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Equity (non-real-estate) — non-City plaintiff",
+    "case_type_startswith": ["EQUITY - NO REAL ESTATE"],
+    "exclude_plaintiff_pattern": "\\bcity of phila",
+    "note": "Catches EQUITY - NO REAL ESTATE and EQUITY - NO REAL ESTATE (TRO). The City files these constantly for code enforcement, hence the plaintiff exclusion. Added 2026-09-24."
+  }
+]

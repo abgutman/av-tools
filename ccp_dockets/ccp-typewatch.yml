@@ -1,0 +1,51 @@
+name: CCP type watch (30 min)
+
+on:
+  workflow_dispatch:          # manual trigger for testing
+  schedule:
+    # UTC-fixed cron mapped from EDT (UTC-4), same convention as ccp-namewatch.yml.
+    # Offset :07/:37 to avoid the :00/:15/:30/:45 congestion the namewatch uses.
+    - cron: '7,37 0,11-23 * * *'  # every 30 min, daytime — ET 07:07–20:37 (EDT)
+    - cron: '7 1-10 * * *'         # hourly, overnight — ET 21:07–06:07 (EDT)
+
+concurrency:
+  group: ccp-typewatch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  typewatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r ccp_dockets/requirements.txt
+
+      - name: Scrape case-type watch
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python ccp_dockets/scrape_type_watch.py --live
+
+      - name: Commit & push (only when the pointer moved)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ccp_dockets/data/state_type_watch.json
+          if git diff --cached --quiet; then
+            echo "No new sequence numbers — skipping commit"
+          else
+            git commit -m "CCP type watch state $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # Rebase on any concurrent workflow push before pushing.
+            for i in 1 2 3; do
+              git pull --rebase --autostash && git push && break
+              echo "push attempt $i failed — retrying"; sleep 5
+            done
+          fi

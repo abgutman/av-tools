@@ -21,6 +21,18 @@
     "note": "Guard requires both 'philadelphia' and 'fire department' to drop PHILADELPHIA FIRE PROS LLC and PHILADELPHIA FIREFIGHTERS ... HEALTH PLAN, which the 'PHILADELPHIA FIRE' prefix also returns. Catches the dept under either name ordering."
   },
   {
+    "label": "Drexel University",
+    "queries": ["DREXEL", "TRUSTEES OF DREXEL"],
+    "pattern": "\\bdrexel\\b(?!\\s+hill)",
+    "note": "Negative lookahead drops DREXEL HILL * businesses (Delco place name) that the DREXEL prefix also returns. DREXELBROOK etc. never match (no word boundary). Catches DREXEL UNIVERSITY, DREXEL UNIVERSITY COLLEGE OF MEDICINE, and any TRUSTEES OF DREXEL styling. Added 2026-09-24."
+  },
+  {
+    "label": "Academy of Natural Sciences",
+    "queries": ["ACADEMY OF NATURAL", "THE ACADEMY OF NATURAL"],
+    "must_contain_all": ["academy of natural"],
+    "note": "Formal name is The Academy of Natural Sciences of Philadelphia (d/b/a ... of Drexel University). Both prefixes queried because the FJD search is full-string prefix — a leading THE would otherwise miss. Added 2026-09-24."
+  },
+  {
     "label": "Anthony Hudgins",
     "queries": ["HUDGINS, ANTHONY", "HUDGINS,ANTHONY", "HUDGINS ANTHONY"],
     "pattern": "\\bhudgins,?\\s+anthony\\b",

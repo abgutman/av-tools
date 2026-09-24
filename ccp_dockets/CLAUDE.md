@@ -19,6 +19,72 @@ Workflow `ccp-namewatch.yml`: every 15 min daytime, hourly overnight. Commits on
 (NOT the replica tree), and uses `git diff -I generated_at` so idle runs don't commit
 pure-timestamp churn. Reuses the `GMAIL_USER`/`GMAIL_APP_PASSWORD` secrets. Email to Av only.
 
+## Case-type watch (intraday email — separate from the party watch)
+
+`scrape_type_watch.py` + `type_watch.json` + workflow `ccp-typewatch.yml`. Alerts on new
+filings matching a **case type** rule — something the FJD name index cannot search. Runs
+its own incremental case-id enumeration (same `fjd_docket` engine as the daily complaints
+scan) with its **own pointer** (`data/state_type_watch.json`) so the daily scan's state is
+untouched; the two pointers advance independently and the daily digest remains the
+comprehensive backstop. Every 30 min daytime (`:07/:37`, offset from the namewatch's
+quarter-hour crons), hourly overnight.
+
+Rules (`type_watch.json`): `case_type_startswith` (any-of, case-insensitive) +
+`exclude_plaintiff_pattern` (regex; drop if ANY plaintiff matches). Current rule: case type
+starts with `EQUITY - NO REAL ESTATE` (also catches the `(TRO)` variant) and plaintiff is
+NOT the City (`\bcity of phila`) — the City files these constantly for code enforcement
+(19 of 25 in a sample month). Expected volume ≈ 5–6 alerts/month. A case landing in
+multiple rules is reported under the first matching label only.
+
+**Seeding:** `state_type_watch.json` must be seeded at the current frontier before first
+deploy (copy the month's pointer from `data/state_complaints.json`) or the first run walks
+the entire month's backlog. New months self-seed (seq 1 IS the frontier). First qualifying
+case emails immediately — there is no per-label silent-seed like the name watch, the
+pointer is the dedup. Email to Av only.
+
+## Philadelphia-in-court alert (daily email — separate from the party watch)
+
+`phila_party_alert.py` + `phila_gov_watch.json` + `phila_officials.json` + workflow
+`ccp-phila-alert.yml`. Daily morning digest to **Av + swalsh@inquirer.com** of NEW
+**civil** cases (last 7 days, rolling + deduped) where a party is a Philadelphia
+government/public body (name contains "Philadelphia") OR a Philadelphia elected /
+top-cabinet official. Two courts:
+- **PCCP** — reuses `PartySearchSession` + `name_matches`/`_search_window` from the
+  party watch (FJD participant-name index). Same 50-row cap + date-bisection.
+- **EDPA** — CourtListener `/search/?type=d&court=paed` (curl, token optional but
+  raises the rate limit). Matches caption **and** the structured `party[]` array;
+  civil-only via the `cv` docket-number token.
+
+Key design points:
+- **Tax liens excluded by default.** FJD "T"-division case IDs (`2607T...`) are
+  Revenue Dept tax liens — ~34/day for the City alone, routine and non-newsworthy,
+  and their volume blows past the 50-row/day search cap (silent truncation of real
+  cases). `TAX_LIEN_RE` drops them; `--include-tax-liens` keeps them.
+- **Routine case types excluded** (after enrichment): `self assessed taxes`,
+  `real estate tax claim/lien`, `auction motor vehicle` — automated collection/disposal
+  matters, not litigation. `EXCLUDE_CASE_TYPES` in `phila_party_alert.py`, matched on a
+  normalized (alphanumeric-only) substring so punctuation/spacing variants still hit.
+  This is separate from the T-division `TAX_LIEN_RE` drop (that keys on the case ID; this
+  keys on the enriched Case Type field, catching tax/auction matters with a normal ID).
+- **Officials matched on FULL name** (surname prefix query + both name parts required).
+  A personal-name match is POSSIBLE, not confirmed — could be a namesake — so every
+  officials hit is flagged "verify identity" in the email; common surnames get an
+  extra "higher false-match risk" flag (`common_name: true`).
+- **Email layout extras:** a top callout links to the public CCP **Civil Docket Search**
+  (`CCP_SEARCH_URL` = the bare `zk_fjd_public_qry_03.zp_dktrpt_setup_idx`, which 302s to a
+  fresh token — do NOT hardcode a tokened URL, the `uid`/`o` expire). Bottom of the email
+  has (1) a **"What this digest leaves out"** block (data-driven from `EXCLUDE_CASE_TYPES`
+  + T-division tax liens + criminal/non-civil) and (2) a **"Officials tracked (N)"** roster
+  of every `phila_officials.json` label with a note to **Slack Av** to add/change anyone.
+- **First run seeds silently** (per (court, label)), like the watchlist — no backlog blast.
+- **State:** `data/state_phila_alert.json` (`{seen: {pccp|edpa: {label: {id: iso}}}}`),
+  committed by the workflow. **Officials roster is journalist-editable** and carries
+  `source` + `review` notes (L&I leadership + a few deputy-mayor seats are flagged
+  "verify" — compiled July 2026, needs periodic refresh as officials change).
+- **Residual limitation:** high-volume filers (City, School District/Board of Ed) can
+  still exceed the 50-row cap on batch-filing days; the daily new-complaints scan is
+  the comprehensive backstop for numeric CP complaints.
+
 ## Trial dispositions (daily email)
 
 `scrape_trial_dispositions.py` — adds a **Trial Dispositions** section to the daily
