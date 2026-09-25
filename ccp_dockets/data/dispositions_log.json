@@ -1,5 +1,43 @@
 [
   {
+    "case_id": "250500463",
+    "caption": "PAPPAS-SFEDU VS FOX",
+    "case_type": "LIBEL, SLANDER, MISREPRESENT",
+    "trial_date": "2026-09-22",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-24",
+    "award": null,
+    "plaintiffs": [
+      "PAPPAS-SFEDU, DIANE"
+    ],
+    "defendants": [
+      "FOX, KIEREN"
+    ],
+    "logged_at": "2026-09-25"
+  },
+  {
+    "case_id": "250103077",
+    "caption": "JOHNSON ETAL VS JOHNSON ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-09-23",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-24",
+    "award": null,
+    "plaintiffs": [
+      "JOHNSON, JENNIFER",
+      "JOHNSON, ANDREA L"
+    ],
+    "defendants": [
+      "JOHNSON, CAROLYN R",
+      "DELLAROCCA, JOHN"
+    ],
+    "logged_at": "2026-09-25"
+  },
+  {
     "case_id": "250702202",
     "caption": "VANDINE ETAL VS GLOVER ETAL",
     "case_type": "EJECTMENT",
@@ -19,6 +57,25 @@
       "OCCUPANTS, ALL UNKNOWN"
     ],
     "logged_at": "2026-09-23"
+  },
+  {
+    "case_id": "250101371",
+    "caption": "WHITE VS HARRELL ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-09-24",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-09-23",
+    "award": null,
+    "plaintiffs": [
+      "WHITE, LINZY"
+    ],
+    "defendants": [
+      "HARRELL, CARL",
+      "SMITH, KEITH"
+    ],
+    "logged_at": "2026-09-25"
   },
   {
     "case_id": "250700468",

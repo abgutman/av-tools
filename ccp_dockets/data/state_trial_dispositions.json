@@ -214,9 +214,10 @@
     "trial_date": "2026-09-24",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250402741": {
     "caption": "IN RE: APPEAL OF FAGAN, TREVOR",
@@ -673,9 +674,9 @@
     "trial_date": "2026-09-23",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260201039": {
@@ -693,9 +694,10 @@
     "trial_date": "2026-09-24",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "240403379": {
     "caption": "THOMPSON VS SORRELL ETAL",
@@ -781,7 +783,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "241100894": {
@@ -1441,9 +1443,10 @@
     "trial_date": "2026-09-25",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250503577": {
     "caption": "SAPPHIRE REAL ESTATE GROUP, LLC VS DOUGLASS",
@@ -2046,9 +2049,9 @@
     "trial_date": "2026-09-22",
     "case_type": "LIBEL, SLANDER, MISREPRESENT",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251001961": {
