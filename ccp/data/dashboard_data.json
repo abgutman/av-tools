@@ -1,40 +1,23 @@
 {
   "meta": {
-    "scraped_at": "2026-09-25T08:36:56 EDT",
+    "scraped_at": "2026-09-26T08:05:58 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-09-25",
-      "end": "2027-01-23"
+      "start": "2026-09-26",
+      "end": "2027-01-24"
     },
     "counts": {
-      "CM": 348,
-      "MJ": 121,
-      "total": 469
+      "CM": 356,
+      "MJ": 118,
+      "total": 474
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "250802763",
-      "caption": "COLON VS COLON",
-      "raw_date": "25-SEP-2026",
-      "iso_date": "2026-09-25",
-      "time": "09:30 AM",
-      "room": "Courtroom 643",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Major Non-Jury",
-      "case_type": "QUIET TITLE",
-      "attorneys": "DONALD WILLIFORD (Attorney For Defendant)",
-      "trial_days": ""
-    },
     {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
@@ -361,23 +344,6 @@
     {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
-      "case_id": "240902897",
-      "caption": "CITIZENS BANK, N.A. VS SPRUILL ETAL",
-      "raw_date": "29-SEP-2026",
-      "iso_date": "2026-09-29",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Mortgage Foreclosure",
-      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
-      "attorneys": "GREGORY JAVARDIAN (Attorney For Plaintiff); MICHAEL C. MILEWSKI (Attorney For Plaintiff); MARY F. KENNEDY (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
       "case_id": "251002945",
       "caption": "LEMONIUS VS EVANS",
       "raw_date": "29-SEP-2026",
@@ -475,23 +441,6 @@
       "court_type": "MAJOR NON JURY",
       "case_type": "EQUITY - REAL ESTATE (TRO)",
       "attorneys": "JAMES K. KELLY (Attorney For Defendant); JETMIR KOBOCI (Attorney For Defendant)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "260902961",
-      "caption": "HARDEE VS CITY OF PHILA DEPT L&I",
-      "raw_date": "29-SEP-2026",
-      "iso_date": "2026-09-29",
-      "time": "10:00 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "MAJOR NON JURY",
-      "case_type": "EQUITY - REAL ESTATE (TRO)",
-      "attorneys": "",
       "trial_days": ""
     },
     {
@@ -754,6 +703,40 @@
       "program_label": "Civil Motions",
       "case_id": "260903013",
       "caption": "PHILADELPHIA HOUSING AUTHORITY VS WILCHER",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "JOCELYN C. OCONNOR (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260903139",
+      "caption": "PHILA.ASSET AND PROP. COPR VS ROBINSON",
+      "raw_date": "30-SEP-2026",
+      "iso_date": "2026-09-30",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260903212",
+      "caption": "2031 SOUTH STREET ASSOC. VS QUIROLI",
       "raw_date": "30-SEP-2026",
       "iso_date": "2026-09-30",
       "time": "01:30 PM",
@@ -1602,6 +1585,40 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "160802344",
+      "caption": "WELLS FARGO BANK, N.A.  VS CHANDLER  ETAL",
+      "raw_date": "02-OCT-2026",
+      "iso_date": "2026-10-02",
+      "time": "12:00 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "ERIK B. JENSEN (Attorney For Defendant); AKEEM J. PARSONS (Attorney For Defendant); FRANCIS S. HALLINAN (Attorney For Plaintiff); M TROY. FREEDMAN (Attorney For Plaintiff); JENINE R. DAVEY (Attorney For Plaintiff); SCOTT M. ROTHMAN (Attorney For Plaintiff); KENYA BATES (Attorney For Plaintiff); JONATHAN ETKOWICZ (Attorney For Plaintiff); JAMES BUCK (Attorney For Plaintiff); PETER WAPNER (Attorney For Plaintiff); CHRISTINA M. ZERN (Attorney For Plaintiff); VISHAL J. DOBARIA (Attorney For Plaintiff); ELIZABETH M. BENNETT (Attorney For Plaintiff); ABIGAIL BRUNNER (Attorney For Plaintiff); ROBERT FLACCO (Attorney For Plaintiff); DANIELLE A. COLEMAN (Attorney For Plaintiff); MEGHAN POWER (Attorney For Plaintiff); CHRISTIAN MILLER (Attorney For Plaintiff); JOHN G. SIMOLIKE (Attorney For Plaintiff); LAVANDA KIARA. HARRIS (Attorney For Plaintiff); NICOLE RIZZO (Attorney For Plaintiff); CIERRA-ZADIYAH MENDEZ (Attorney For Plaintiff); DANIELLE DREIER (Attorney For Plaintiff); QUEEN N. STEWART (Attorney For Plaintiff); KEVIN CORDERO (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "170203393",
+      "caption": "U.S. BANK NATIONAL ASSOCIATION VS HEARNS ETAL",
+      "raw_date": "02-OCT-2026",
+      "iso_date": "2026-10-02",
+      "time": "12:00 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "LORRAINE GAZZARA DOYLE (Attorney For Plaintiff); GERALDINE M. LINN (Attorney For Plaintiff); BERNADETTE IRACE (Attorney For Plaintiff); DANIELLE M. DILEVA (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "240101691",
       "caption": "DEUTSCHE BANK NATIONAL TRUST COMPANY, AS TRUSTEE F",
       "raw_date": "02-OCT-2026",
@@ -1647,7 +1664,7 @@
       "judge": "CHRISTOPHER HALL",
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
-      "attorneys": "RACHEL LABUSH (Attorney For Defendant); ROSEMARIE DIAMOND (Attorney For Plaintiff); CAROLYN TREGLIA (Attorney For Plaintiff); KARIN SCHWEIGER (Attorney For Plaintiff); PAIGE ZIRRITH (Attorney For Plaintiff)",
+      "attorneys": "RACHEL LABUSH (Attorney For Defendant); ROSEMARIE DIAMOND (Attorney For Plaintiff); JEFFREY V. CALCAGNO (Attorney For Plaintiff); CAROLYN TREGLIA (Attorney For Plaintiff); KARIN SCHWEIGER (Attorney For Plaintiff); PAIGE ZIRRITH (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -1682,6 +1699,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
       "attorneys": "ASHLEIGH L. MARIN (Attorney For Plaintiff); VINCENT L. DIMAIOLO (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250501575",
+      "caption": "EF MORTGAGE, LLC VS LUXENPHILLY HOMES LLC ETAL",
+      "raw_date": "02-OCT-2026",
+      "iso_date": "2026-10-02",
+      "time": "12:00 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "JOHN R. TIMMER (Attorney For Defendant); EDWARD S. ROBSON (Attorney For Defendant); MICHAEL J. CLARK (Attorney For Plaintiff); DANIEL C. FANASELLE (Attorney For Plaintiff); MICHAEL C. MILEWSKI (Attorney For Plaintiff); QUEEN N. STEWART (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -1733,6 +1767,40 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
       "attorneys": "STEPHEN M. HLADIK (Attorney For Plaintiff); ROBERT W. WILLIAMS (Attorney For Plaintiff); THOMAS C. DYER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260202938",
+      "caption": "CITIBANK, N.A., NOT IN ITS INDIVIDUAL CAPACITY BUT",
+      "raw_date": "02-OCT-2026",
+      "iso_date": "2026-10-02",
+      "time": "12:00 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "ROBERT FLACCO (Attorney For Plaintiff); YVONNE C. GANLEY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260304009",
+      "caption": "U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION, AS",
+      "raw_date": "02-OCT-2026",
+      "iso_date": "2026-10-02",
+      "time": "12:00 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "ASHLEIGH L. MARIN (Attorney For Plaintiff); VINCENT L. DIMAIOLO (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -2452,6 +2520,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "1805T0300",
+      "caption": "CITY OF PHILADELPHIA VS FULTON",
+      "raw_date": "07-OCT-2026",
+      "iso_date": "2026-10-07",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "JAMES J. ZWOLAK (Attorney For Plaintiff); HOWARD G. FORD (Attorney For Respondent); REGINALD C. ALLEN (Attorney For Respondent)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "180800057",
       "caption": "CITIZENS BANK OF PENNSYLVANIA VS MORROW",
       "raw_date": "07-OCT-2026",
@@ -2532,23 +2617,6 @@
       "court_type": "ARBITRATION",
       "case_type": "CREDIT CARD COLLECTION",
       "attorneys": "JONATHAN P. CAWLEY (Attorney For Plaintiff); FODAY TURAY (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "260203024",
-      "caption": "1324 LLC VS ALASTAIR ETAL",
-      "raw_date": "07-OCT-2026",
-      "iso_date": "2026-10-07",
-      "time": "09:30 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "RENT, LEASE & EJECTMENT",
-      "case_type": "EJECTMENT",
-      "attorneys": "REGINALD C. ALLEN (Attorney For Defendant); HOWARD G. FORD (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -2651,23 +2719,6 @@
       "court_type": "Rent, Lease & Ejectment",
       "case_type": "EJECTMENT",
       "attorneys": "NATHALIE PAUL (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "260301387",
-      "caption": "KEY VS GRIFFIN ETAL",
-      "raw_date": "07-OCT-2026",
-      "iso_date": "2026-10-07",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Rent, Lease & Ejectment",
-      "case_type": "EJECTMENT",
-      "attorneys": "JERMAINE HARRIS (Attorney For Plaintiff)",
       "trial_days": "1"
     },
     {
@@ -3081,23 +3132,6 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
-      "case_id": "240802505",
-      "caption": "MENTOR PROPERTIES LLC VS CITY OF PHILADELPHIA",
-      "raw_date": "08-OCT-2026",
-      "iso_date": "2026-10-08",
-      "time": "10:00 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "MAJOR NON JURY EXPEDITED",
-      "case_type": "EQUITY - REAL ESTATE (TRO)",
-      "attorneys": "JON C. SIRLIN (Attorney For Garnishee); PATRICK J. TROY (Attorney For Garnishee); ADAM NACHMANI (Attorney For Petitioner); DANIEL A. PALLEN (Attorney For Plaintiff); DREW SALAMAN (Attorney For Respondent); RYAN B. SMITH (Attorney For Respondent); MELISSA MEDINA (Attorney For Respondent)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
       "case_id": "251101754",
       "caption": "PHH MORTGAGE CORPORATION VS DOE ETAL",
       "raw_date": "08-OCT-2026",
@@ -3331,6 +3365,23 @@
       "court_type": "REAL ESTATE TAX LIEN PETITION",
       "case_type": "REAL ESTATE TAX LIEN PETITION",
       "attorneys": "LAUREN BURGESS (Attorney For Plaintiff); LEE M. SHLAMOWITZ (Attorney For Respondent)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260203003",
+      "caption": "ZOCHOWSKI ETAL VS AIR LOCUST ON THE PARK, LLC ETAL",
+      "raw_date": "13-OCT-2026",
+      "iso_date": "2026-10-13",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR JURY-STANDARD",
+      "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
+      "attorneys": "DELIA A. CLARK (Attorney For Defendant); ALYSA TALARICO (Attorney For Defendant); WENDY S. SMITH (Attorney For Defendant); LAUREN J. KRACHT (Attorney For Defendant); SCOTT M. ROTHMAN (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -3795,6 +3846,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "240802505",
+      "caption": "MENTOR PROPERTIES LLC VS CITY OF PHILADELPHIA",
+      "raw_date": "15-OCT-2026",
+      "iso_date": "2026-10-15",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "EQUITY - REAL ESTATE (TRO)",
+      "attorneys": "JON C. SIRLIN (Attorney For Garnishee); PATRICK J. TROY (Attorney For Garnishee); ADAM NACHMANI (Attorney For Petitioner); DANIEL A. PALLEN (Attorney For Plaintiff); DREW SALAMAN (Attorney For Respondent); RYAN B. SMITH (Attorney For Respondent); MELISSA MEDINA (Attorney For Respondent)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "2504T0107",
       "caption": "CITY OF PHILADELPHIA VS ROSEMARY ASHLEY MOBILE SAL",
       "raw_date": "15-OCT-2026",
@@ -3807,6 +3875,23 @@
       "court_type": "REAL ESTATE TAX LIEN PETITION",
       "case_type": "REAL ESTATE TAX LIEN PETITION",
       "attorneys": "DAVID H. DENENBERG (Attorney For Petitioner); JOSEPH J. CONSOLE (Attorney For Petitioner); JAMES J. ZWOLAK (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260303209",
+      "caption": "SANSOM STREET, LLC ETAL VS 2330 SANSOM STREET, LLC",
+      "raw_date": "15-OCT-2026",
+      "iso_date": "2026-10-15",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "EQUITY - REAL ESTATE",
+      "attorneys": "PAUL J. TONER (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -6203,7 +6288,7 @@
       "judge": "CHRISTOPHER HALL",
       "court_type": "AGENCY APPEAL",
       "case_type": "L&I - FIREARMS",
-      "attorneys": "",
+      "attorneys": "BRADFORD A. RICHMAN (Attorney For Appellee)",
       "trial_days": ""
     },
     {
