@@ -214,9 +214,9 @@
     "trial_date": "2026-09-24",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250402741": {
@@ -346,7 +346,7 @@
     "first_seen": "2026-07-23",
     "last_status": "HELD UNDER ADVISEMENT",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250503682": {
@@ -474,7 +474,7 @@
     "trial_date": "2026-09-02",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED-PROJ. SETTLEMENT CONF.",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -793,7 +793,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250600199": {
@@ -803,7 +803,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "240302043": {
@@ -2105,9 +2105,9 @@
     "trial_date": "2026-09-21",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-01",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240102638": {

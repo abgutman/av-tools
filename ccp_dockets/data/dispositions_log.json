@@ -1,5 +1,41 @@
 [
   {
+    "case_id": "250403619",
+    "caption": "ROSARIO VS JOSEPH",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-09-21",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-09-25",
+    "award": null,
+    "plaintiffs": [
+      "ROSARIO, GERMAN LOUIS"
+    ],
+    "defendants": [
+      "JOSEPH, LAMAR"
+    ],
+    "logged_at": "2026-09-26"
+  },
+  {
+    "case_id": "250202958",
+    "caption": "PENA SARATE VS PA FINANCIAL RESPONSIBILITY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-09-24",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-09-25",
+    "award": null,
+    "plaintiffs": [
+      "PENA SARATE, CARMEN"
+    ],
+    "defendants": [
+      "PENNSYLVANIA FINANCIAL RESPONSIBILITY ASSIGNED CLAIMS PLAN"
+    ],
+    "logged_at": "2026-09-26"
+  },
+  {
     "case_id": "250500463",
     "caption": "PAPPAS-SFEDU VS FOX",
     "case_type": "LIBEL, SLANDER, MISREPRESENT",
