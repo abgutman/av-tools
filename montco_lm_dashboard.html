@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated September 26, 2026 at 01:38 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated September 27, 2026 at 02:35 PM</div>
 </div>
 
 <div class="nav">
@@ -104,14 +104,14 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (15)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (10)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (2)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (28)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (33)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(15)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(10)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260903249</span>
@@ -212,7 +212,33 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-09-24 &middot; WAITING TO LIST CASE MGMT CONF</div>
         <div class="local-party"><strong>DEFENDANT:</strong> CONSALVO, FRANK <span class="locale">Havertown (19083)</span></div>
     </div>
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(2)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/b86dcbb825bf63660e2ac13d9cbd1cdf8c9875693c49096455501873c65338e6" target="_blank" rel="noopener" class="case-number">CV-2026-008634</a>
+            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/b86dcbb825bf63660e2ac13d9cbd1cdf8c9875693c49096455501873c65338e6" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">Pennsylvania State Employees Credit Union v. Florian</div>
+        <div class="case-meta">Filed: 2026-09-22</div>
+        <div class="local-party"><strong>Defendant:</strong> Georg Florian <span class="locale">Havertown (19083)</span></div>
+    </div>
 <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d78d9d09bc599069031e3e98cdf5559d81266e6bb291627770f1c163d9b537a8" target="_blank" rel="noopener" class="case-number">CV-2026-008441</a>
+            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d78d9d09bc599069031e3e98cdf5559d81266e6bb291627770f1c163d9b537a8" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION v. WIEMER et al</div>
+        <div class="case-meta">Filed: 2026-09-15</div>
+        <div class="local-party"><strong>Defendant:</strong> ROBBY J WIEMER <span class="locale">Havertown (19083)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(33)</span></h2>
+        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260902872</span>
             <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
@@ -262,33 +288,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-09-23</div>
         <div class="local-party"><strong>Defendant:</strong> JOHN P CRUMSHO <span class="locale">Newtown Square (19073)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(2)</span></h2>
-        <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/b86dcbb825bf63660e2ac13d9cbd1cdf8c9875693c49096455501873c65338e6" target="_blank" rel="noopener" class="case-number">CV-2026-008634</a>
-            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/b86dcbb825bf63660e2ac13d9cbd1cdf8c9875693c49096455501873c65338e6" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">Pennsylvania State Employees Credit Union v. Florian</div>
-        <div class="case-meta">Filed: 2026-09-22</div>
-        <div class="local-party"><strong>Defendant:</strong> Georg Florian <span class="locale">Havertown (19083)</span></div>
-    </div>
 <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d78d9d09bc599069031e3e98cdf5559d81266e6bb291627770f1c163d9b537a8" target="_blank" rel="noopener" class="case-number">CV-2026-008441</a>
-            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/d78d9d09bc599069031e3e98cdf5559d81266e6bb291627770f1c163d9b537a8" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION v. WIEMER et al</div>
-        <div class="case-meta">Filed: 2026-09-15</div>
-        <div class="local-party"><strong>Defendant:</strong> ROBBY J WIEMER <span class="locale">Havertown (19083)</span></div>
-    </div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(28)</span></h2>
-        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">260902662</span>
             <span class="case-type">TRANSFER STRUCTURED SETTLEMENT</span>
