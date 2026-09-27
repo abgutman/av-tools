@@ -1090,7 +1090,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "260103349": {
@@ -1110,7 +1110,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED-PROJ. SETTLEMENT CONF.",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "260103811": {
@@ -1140,7 +1140,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "260200562": {
@@ -1150,7 +1150,7 @@
     "first_seen": "2026-07-23",
     "last_status": "SATISFACTION FILED",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "260201007": {
@@ -1280,7 +1280,7 @@
     "first_seen": "2026-07-24",
     "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "240701023": {
