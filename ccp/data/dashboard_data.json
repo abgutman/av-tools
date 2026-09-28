@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-09-27T08:50:50 EDT",
+    "scraped_at": "2026-09-28T11:02:44 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-09-27",
-      "end": "2027-01-25"
+      "start": "2026-09-28",
+      "end": "2027-01-26"
     },
     "counts": {
-      "CM": 356,
+      "CM": 357,
       "MJ": 118,
-      "total": 474
+      "total": 475
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -7751,6 +7751,23 @@
       "court_type": "REAL ESTATE TAX LIEN PETITION",
       "case_type": "REAL ESTATE TAX LIEN PETITION",
       "attorneys": "LAUREN BURGESS (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260700396",
+      "caption": "IN RE: APPEAL OF WYNDER-PRESTON, RYSHEENA",
+      "raw_date": "17-NOV-2026",
+      "iso_date": "2026-11-17",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "ORAL ARGUMENT",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "AGENCY APPEAL",
+      "case_type": "BOARD OF REVISION OF TAXES-NPT",
+      "attorneys": "SHOBA BABU (Attorney For Appellee)",
       "trial_days": ""
     },
     {
