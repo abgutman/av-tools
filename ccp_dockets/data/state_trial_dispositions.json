@@ -911,9 +911,10 @@
     "trial_date": "2026-09-28",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250400804": {
     "caption": "CARRINGTON MORTGAGE SERVICES VS CACERES",
