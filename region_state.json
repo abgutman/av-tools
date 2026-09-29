@@ -1,8 +1,5 @@
 {
   "evaluated": {
-    "bucks:2026-06041": "2026-09-08T13:20:00.823015",
-    "bucks:2026-06040": "2026-09-08T13:20:00.823015",
-    "delaware:CV-2026-008196": "2026-09-08T13:20:00.823015",
     "philadelphia:260900863": "2026-09-09T13:26:22.989101",
     "philadelphia:260900861": "2026-09-09T13:26:22.989101",
     "philadelphia:260900860": "2026-09-09T13:26:22.989101",
@@ -3746,183 +3743,214 @@
     "delaware:CV-2026-008846": "2026-09-28T17:22:35.895500",
     "delaware:CV-2026-008838": "2026-09-28T17:22:35.895500",
     "delaware:CV-2026-008842": "2026-09-28T17:22:35.895500",
-    "delaware:CV-2026-008795": "2026-09-28T17:22:35.895500"
+    "delaware:CV-2026-008795": "2026-09-28T17:22:35.895500",
+    "philadelphia:260903456": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903455": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903452": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903451": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903450": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903447": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903445": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903443": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903442": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903441": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903440": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903439": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903437": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903436": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903435": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903434": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903433": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903432": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903431": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903430": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903429": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903427": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903425": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903423": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903422": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903419": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903417": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903416": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903415": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903414": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903410": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903408": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903406": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903405": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903402": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903401": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903400": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903399": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903398": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903397": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903396": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903395": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903394": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903390": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903386": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903385": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903369": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903367": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903366": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903365": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903364": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903363": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903362": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903361": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903359": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903358": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903357": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903356": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903355": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903353": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903330": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903352": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903351": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903350": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903349": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903348": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903347": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903345": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903389": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903388": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903382": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903381": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903380": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903378": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903377": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903336": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903333": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903332": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903329": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903328": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903327": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903326": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903325": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903324": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903323": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903322": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903320": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903319": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903318": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903317": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903316": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903315": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903314": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903313": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903393": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903376": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903375": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903374": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903373": "2026-09-29T15:23:07.729971",
+    "philadelphia:260903371": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06553": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06551": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06547": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06548": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06552": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06546": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06544": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06545": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06543": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06550": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06542": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06541": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06540": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06549": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73914": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73913": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73912": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73911": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73910": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73909": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73908": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73907": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73906": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73905": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73904": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73903": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73902": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73901": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73900": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73899": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73898": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73897": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73896": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73895": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73894": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73893": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73892": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73891": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73890": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06539": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06538": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06534": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06528": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06526": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06527": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06524": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06525": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06523": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06518": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06519": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06517": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06515": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06516": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06514": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06513": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06511": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06510": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06512": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06535": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06508": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06509": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06506": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06536": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06505": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06507": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06529": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06530": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06531": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06532": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06533": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73874": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06520": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06521": "2026-09-29T15:23:07.729971",
+    "bucks:2026-06522": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73880": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73881": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73882": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73915": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73916": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73917": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73918": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73889": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73888": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73883": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73926": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73925": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73924": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73923": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73922": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73921": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73920": "2026-09-29T15:23:07.729971",
+    "bucks:2026-73919": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008850": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008851": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008855": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008859": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008856": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008866": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008863": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008875": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008877": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008881": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008879": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008882": "2026-09-29T15:23:07.729971",
+    "delaware:CV-2026-008885": "2026-09-29T15:23:07.729971"
   },
   "matches": {
-    "philadelphia:260901390": {
-      "court": "philadelphia",
-      "case_number": "260901390",
-      "caption": "GARCIA VS WEINSTEIN",
-      "case_type": "CONTRACTS OTHER",
-      "filing_date": "2026-09-11",
-      "status": "ARBITRATION HEARING SCHEDULED",
-      "url": "",
-      "parties": [
-        {
-          "name": "GARCIA, CARLOS",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19107"
-        },
-        {
-          "name": "WEINSTEIN, ROBERT",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19046"
-        }
-      ],
-      "first_seen": "2026-09-12T12:38:23.381541"
-    },
-    "delaware:CV-2026-008330": {
-      "court": "delaware",
-      "case_number": "CV-2026-008330",
-      "caption": "Hall v. Defendant Delaware County Tax Claim Bureau",
-      "case_type": "Civil - Real Property - Real Property: Other",
-      "filing_date": "2026-09-11",
-      "status": "",
-      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/85cb264ae36680d56d3d8e430495d071bba5c00076cec89496a2c6d5976a0088",
-      "parties": [
-        {
-          "name": "Mandy Hall",
-          "role": "Plaintiff",
-          "city": "Eddystone",
-          "zip": "19022"
-        },
-        {
-          "name": "Defendant Delaware County Tax Claim Bureau",
-          "role": "Defendant",
-          "city": "Media",
-          "zip": "19063"
-        }
-      ],
-      "first_seen": "2026-09-13T13:40:47.769357"
-    },
-    "delaware:CV-2026-008338": {
-      "court": "delaware",
-      "case_number": "CV-2026-008338",
-      "caption": "Ketter v. Defendant Delaware County Tax Claim Bureau",
-      "case_type": "Civil - Civil Appeal - Civil Appeal: Other",
-      "filing_date": "2026-09-11",
-      "status": "",
-      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/6848743d44a18718cfc1f7e45bc218191796c76abc9b2ca9aca3a7acfd15ea75",
-      "parties": [
-        {
-          "name": "Defendant Delaware County Tax Claim Bureau",
-          "role": "Defendant",
-          "city": "Media",
-          "zip": "19063"
-        },
-        {
-          "name": "Ebony Ketter",
-          "role": "Plaintiff",
-          "city": "Sharon Hill",
-          "zip": "19079"
-        }
-      ],
-      "first_seen": "2026-09-13T13:40:47.769357"
-    },
-    "delaware:CV-2026-008339": {
-      "court": "delaware",
-      "case_number": "CV-2026-008339",
-      "caption": "Rebecca v. Adam",
-      "case_type": "Family - Divorce - Divorce with 3 counts and Custody",
-      "filing_date": "2026-09-11",
-      "status": "",
-      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/79e9b3416d2ceb7ffb2e99ce3a75debb9f5ca6e5359f584bb0ec61be6870d5a2",
-      "parties": [
-        {
-          "name": "Burnett K. Rebecca",
-          "role": "Plaintiff",
-          "city": "",
-          "zip": ""
-        },
-        {
-          "name": "Burnett H. Adam",
-          "role": "Defendant",
-          "city": "Havertown",
-          "zip": "19083"
-        }
-      ],
-      "first_seen": "2026-09-13T13:40:47.769357"
-    },
-    "bucks:2026-06152": {
-      "court": "bucks",
-      "case_number": "2026-06152",
-      "caption": "STREET & PHILMONT GP LLC v. R&R DEVELOPMENT HOLDINGS LLC",
-      "case_type": "COMPLAINT IN CONFESSION OF JUDGMENT FOR MONEY",
-      "filing_date": "2026-09-11",
-      "status": "",
-      "url": "https://propublic.buckscountyonline.org/psi/v/detail/Case/6393150",
-      "parties": [
-        {
-          "name": "STREET & PHILMONT GP LLC",
-          "role": "Plaintiff",
-          "city": "Warminster",
-          "zip": "18974"
-        },
-        {
-          "name": "R&R DEVELOPMENT HOLDINGS LLC",
-          "role": "Defendant",
-          "city": "Bryn Mawr",
-          "zip": "19010"
-        }
-      ],
-      "first_seen": "2026-09-14T15:40:57.417230"
-    },
-    "delaware:CV-2026-008358": {
-      "court": "delaware",
-      "case_number": "CV-2026-008358",
-      "caption": "Castillo-Sandoval v. Gambardella",
-      "case_type": "Family - Divorce - No Fault Only",
-      "filing_date": "2026-09-11",
-      "status": "",
-      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/2bdba09c13095e27c4198edc6d2141f45b0d10a8c05d2ef20f47afbcfe144fc5",
-      "parties": [
-        {
-          "name": "Silvana Gambardella",
-          "role": "Defendant",
-          "city": "Haverford",
-          "zip": "19041"
-        },
-        {
-          "name": "Roberto Castillo-Sandoval",
-          "role": "Plaintiff",
-          "city": "Ardmore",
-          "zip": "19003"
-        }
-      ],
-      "first_seen": "2026-09-14T15:40:57.417230"
-    },
-    "delaware:CV-2026-008356": {
-      "court": "delaware",
-      "case_number": "CV-2026-008356",
-      "caption": "Lewis v. Jones Jr",
-      "case_type": "Family - Custody - Grandparent/Third Party Complaint for Custody/Partial Custody/Shared Custody/Visitation",
-      "filing_date": "2026-09-11",
-      "status": "",
-      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/2332a8a445a02664d5079ab4aa7c70a26700ccf49674ecd1e20477caf9768775",
-      "parties": [
-        {
-          "name": "Maat A. Lewis",
-          "role": "Plaintiff",
-          "city": "Media",
-          "zip": "19063"
-        },
-        {
-          "name": "Darriel Jones Jr",
-          "role": "Defendant",
-          "city": "Waymart",
-          "zip": "18472"
-        },
-        {
-          "name": "Doreen Shaw",
-          "role": "Deceased",
-          "city": "",
-          "zip": ""
-        }
-      ],
-      "first_seen": "2026-09-14T15:40:57.417230"
-    },
     "philadelphia:260901567": {
       "court": "philadelphia",
       "case_number": "260901567",
@@ -4045,318 +4073,6 @@
           "role": "DEFENDANT",
           "city": "Unknown Philadelphia",
           "zip": "19119"
-        }
-      ],
-      "first_seen": "2026-09-15T14:10:49.182619"
-    },
-    "philadelphia:260901537": {
-      "court": "philadelphia",
-      "case_number": "260901537",
-      "caption": "HAMMERS CONTRACTORS INC VS CHEKEMIAN ETAL",
-      "case_type": "CONSTRUCTION CONTRACT",
-      "filing_date": "2026-09-11",
-      "status": "ARBITRATION HEARING SCHEDULED",
-      "url": "",
-      "parties": [
-        {
-          "name": "HAMMERS CONTRACTORS INC",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19006"
-        },
-        {
-          "name": "CHEKEMIAN, DAVE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19041"
-        },
-        {
-          "name": "BALAR, MAHUL",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19041"
-        },
-        {
-          "name": "FOUNTAIN STREET REALTY LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19041"
-        },
-        {
-          "name": "STATESIDE BUILDERS LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19047"
-        }
-      ],
-      "first_seen": "2026-09-15T14:10:49.182619"
-    },
-    "philadelphia:260901536": {
-      "court": "philadelphia",
-      "case_number": "260901536",
-      "caption": "LEX ELECTRIC CO., INC. VS UNITED CASUALTY AND SURE",
-      "case_type": "CONSTRUCTION CONTRACT",
-      "filing_date": "2026-09-11",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "LEX ELECTRIC CO., INC.",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19063"
-        },
-        {
-          "name": "UNITED CASUALTY AND SURETY INSURANCE COMPANY",
-          "role": "DEFENDANT",
-          "city": "Suite 502 Boston",
-          "zip": "02210"
-        },
-        {
-          "name": "CAHILL CONTROLS, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19047"
-        }
-      ],
-      "first_seen": "2026-09-15T14:10:49.182619"
-    },
-    "philadelphia:260901512": {
-      "court": "philadelphia",
-      "case_number": "260901512",
-      "caption": "COLEMAN VS THE HELSTON APARTMENTS ETAL",
-      "case_type": "PREMISES LIABILITY, SLIP/FALL",
-      "filing_date": "2026-09-11",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "COLEMAN, ASHLEY",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19027"
-        },
-        {
-          "name": "THE HELSTON APARTMENTS",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19131"
-        },
-        {
-          "name": "3801 CONSHOHOCKEN ASSOCIATES LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19131"
-        },
-        {
-          "name": "SCULLY COMPANY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19046"
-        }
-      ],
-      "first_seen": "2026-09-15T14:10:49.182619"
-    },
-    "philadelphia:260901482": {
-      "court": "philadelphia",
-      "case_number": "260901482",
-      "caption": "JEWART VS BRASLOW ETAL",
-      "case_type": "MALPRACTICE - MEDICAL",
-      "filing_date": "2026-09-11",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "JEWART, KYLE",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19022"
-        },
-        {
-          "name": "BRASLOW, BENJAMIN M",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        },
-        {
-          "name": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        },
-        {
-          "name": "HOSPITAL OF THE UNIVERSITY OF PENNSYLVANIA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        },
-        {
-          "name": "UNIVERSITY OF PENNSYLVANIA HEALTH SYSTEMS",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        },
-        {
-          "name": "CLINICAL PRACTICES OF THE UNIVERSITY OF PENNSYLVANIA",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        },
-        {
-          "name": "CLINICAL CARE ASSOCIATES OF THE UNIVERSITY OF PENNSYLVANIA..",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19087"
-        },
-        {
-          "name": "LYNN JONES, CRNP, BRITTNEY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19104"
-        }
-      ],
-      "first_seen": "2026-09-15T14:10:49.182619"
-    },
-    "philadelphia:260901443": {
-      "court": "philadelphia",
-      "case_number": "260901443",
-      "caption": "STEWART VS 3700 LANCASTER PROJECT OWNER LLC ETAL",
-      "case_type": "PREMISES LIABILITY, SLIP/FALL",
-      "filing_date": "2026-09-11",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "STEWART, DANIEL",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19123"
-        },
-        {
-          "name": "GMH COMMUNITIES GP TRUST",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "78738"
-        },
-        {
-          "name": "JOHN DOE PROPERTY MANAGER",
-          "role": "DEFENDANT",
-          "city": "Unknown Philadelphia",
-          "zip": "19103"
-        },
-        {
-          "name": "JOHN DOE SNOW REMOVAL COMPANY",
-          "role": "DEFENDANT",
-          "city": "Unknown Philadelphia",
-          "zip": "19103"
-        },
-        {
-          "name": "3700 LANCASTER PROJECT OWNER LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "GMH ASSOCIATES, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "GMH CAPITAL PARTNERS, L.P.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "GMH CAPITAL PARTNERS COMMERCIAL REALTY SERVICES, L.P.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "GMH CAPITAL PARTNERS ASSET SERVICES, L.P.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "GMH CONSTRUCTION COMPANY, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19072"
-        },
-        {
-          "name": "GMH COMMUNITIES, L.P.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "78738"
-        },
-        {
-          "name": "GMH COMMUNITIES SERVICES, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "78738"
-        }
-      ],
-      "first_seen": "2026-09-15T14:10:49.182619"
-    },
-    "philadelphia:260901426": {
-      "court": "philadelphia",
-      "case_number": "260901426",
-      "caption": "CARGILL EWART VS DOE ETAL",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "filing_date": "2026-09-11",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "CARGILL EWART, ISOLYN",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19111"
-        },
-        {
-          "name": "DOE, JANE",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": ""
-        },
-        {
-          "name": "LANG, ADOLPH",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19090"
-        }
-      ],
-      "first_seen": "2026-09-15T14:10:49.182619"
-    },
-    "philadelphia:260901425": {
-      "court": "philadelphia",
-      "case_number": "260901425",
-      "caption": "UNIVEST BANK AND TRUST CO VS ALWAYS DO IT BIG REAL",
-      "case_type": "CONFESSION OF JUDGMENT",
-      "filing_date": "2026-09-11",
-      "status": "ACTIVE CASE",
-      "url": "",
-      "parties": [
-        {
-          "name": "UNIVEST BANK AND TRUST CO",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19130"
-        },
-        {
-          "name": "ALWAYS DO IT BIG REAL ESTATE LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19095"
-        },
-        {
-          "name": "RICHARDSON, BRITTANY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19095"
         }
       ],
       "first_seen": "2026-09-15T14:10:49.182619"
@@ -8698,7 +8414,355 @@
         }
       ],
       "first_seen": "2026-09-28T17:22:35.895500"
+    },
+    "philadelphia:260903450": {
+      "court": "philadelphia",
+      "case_number": "260903450",
+      "caption": "LOGAN VS STATE FARM MUTUAL AUTOMOBILE INSURANCE CO",
+      "case_type": "MOTOR VEHICLE ACCIDENT",
+      "filing_date": "2026-09-28",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "url": "",
+      "parties": [
+        {
+          "name": "LOGAN, WILLIAM",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19027"
+        },
+        {
+          "name": "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "61710"
+        },
+        {
+          "name": "HENRY, JOSHUA",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19141"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903443": {
+      "court": "philadelphia",
+      "case_number": "260903443",
+      "caption": "DASHIELL VS MCDONALD?S CORPORATION ETAL",
+      "case_type": "PREMISES LIABILITY, SLIP/FALL",
+      "filing_date": "2026-09-28",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "url": "",
+      "parties": [
+        {
+          "name": "DASHIELL, RAYMOND",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19001"
+        },
+        {
+          "name": "MCDONALD?S CORPORATION",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "60607"
+        },
+        {
+          "name": "TANWAY ENTERPRISES LP",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19131"
+        },
+        {
+          "name": "DOE, JOHN",
+          "role": "DEFENDANT",
+          "city": "Unknown Unknown",
+          "zip": "00000"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903432": {
+      "court": "philadelphia",
+      "case_number": "260903432",
+      "caption": "DJS ASSOCIATES, INC. VS CLARK HILL PLC",
+      "case_type": "CONTRACTS OTHER",
+      "filing_date": "2026-09-28",
+      "status": "ARBITRATION HEARING SCHEDULED",
+      "url": "",
+      "parties": [
+        {
+          "name": "DJS ASSOCIATES INC",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19001"
+        },
+        {
+          "name": "CLARK HILL PLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19103"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903395": {
+      "court": "philadelphia",
+      "case_number": "260903395",
+      "caption": "MARLOW VS EVRARD ETAL",
+      "case_type": "MOTOR VEHICLE ACCIDENT",
+      "filing_date": "2026-09-28",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "url": "",
+      "parties": [
+        {
+          "name": "MARLOW, LEROY",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19142"
+        },
+        {
+          "name": "EVRARD, DANIEL L",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19066"
+        },
+        {
+          "name": "DOE(S) 1-3, JOHN",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": ""
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903385": {
+      "court": "philadelphia",
+      "case_number": "260903385",
+      "caption": "GAINES ETAL VS DARMON ETAL",
+      "case_type": "CONSTRUCTION CONTRACT",
+      "filing_date": "2026-09-28",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "url": "",
+      "parties": [
+        {
+          "name": "GAINES, COURTNEY",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19125"
+        },
+        {
+          "name": "KHAN, EVAN",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19125"
+        },
+        {
+          "name": "DARMON, NATANEL",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19122"
+        },
+        {
+          "name": "KIDDMA LLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19122"
+        },
+        {
+          "name": "DARMON, NETANEL",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19004"
+        },
+        {
+          "name": "2656-70 SALMON STREET LLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19125"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903357": {
+      "court": "philadelphia",
+      "case_number": "260903357",
+      "caption": "GARRISON PROPERTY AND CASUALTY INSURANCE COMPANY V",
+      "case_type": "MOTOR VEHICLE PROPERTY DAMAGE",
+      "filing_date": "2026-09-28",
+      "status": "ARBITRATION HEARING SCHEDULED",
+      "url": "",
+      "parties": [
+        {
+          "name": "GARRISON PROPERTY AND CASUALTY INSURANCE COMPANY",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "78288"
+        },
+        {
+          "name": "SBG MANAGEMENT SERVICES PA INC",
+          "role": "DEFENDANT",
+          "city": "Suite 375 Jenkintown",
+          "zip": "19046"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903326": {
+      "court": "philadelphia",
+      "case_number": "260903326",
+      "caption": "NEEDLES VS PRIVILEGE UNDERWRITERS RECIPROCAL EXCHA",
+      "case_type": "CONTRACTS OTHER",
+      "filing_date": "2026-09-25",
+      "status": "WAITING TO LIST CASE MGMT CONF",
+      "url": "",
+      "parties": [
+        {
+          "name": "NEEDLES, JAY",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19006"
+        },
+        {
+          "name": "PRIVILEGE UNDERWRITERS RECIPROCAL EXCHANGE",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "10601"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903323": {
+      "court": "philadelphia",
+      "case_number": "260903323",
+      "caption": "BOWMAN VS RIVERVIEW PROPERTY OWNER LLC ETAL",
+      "case_type": "PREMISES LIABILITY, SLIP/FALL",
+      "filing_date": "2026-09-25",
+      "status": "ARBITRATION HEARING SCHEDULED",
+      "url": "",
+      "parties": [
+        {
+          "name": "BOWMAN, JAMILA",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "08104"
+        },
+        {
+          "name": "RIVERVIEW PROPERTY OWNER LLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19901"
+        },
+        {
+          "name": "JEFFERSON APARTMENT GROUP LLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "22102"
+        },
+        {
+          "name": "DELAWARE RIVER WATERFRONT CORPORATION",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19106"
+        },
+        {
+          "name": "HAVERFORD PROPERTIES INC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "17110"
+        },
+        {
+          "name": "HAVERFORD DEVELOPMENT PARTNERS LLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19087"
+        },
+        {
+          "name": "JAG MANAGEMENT COMPANY LLC",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19901"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "philadelphia:260903314": {
+      "court": "philadelphia",
+      "case_number": "260903314",
+      "caption": "GRANDE VS SEPTA",
+      "case_type": "MOTOR VEHICLE ACCIDENT",
+      "filing_date": "2026-09-25",
+      "status": "ARBITRATION HEARING SCHEDULED",
+      "url": "",
+      "parties": [
+        {
+          "name": "GRANDE, JEAN-MARIE",
+          "role": "PLAINTIFF",
+          "city": "",
+          "zip": "19073"
+        },
+        {
+          "name": "SEPTA",
+          "role": "DEFENDANT",
+          "city": "",
+          "zip": "19107"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "bucks:2026-06549": {
+      "court": "bucks",
+      "case_number": "2026-06549",
+      "caption": "PB WARMINSTER PLAZA LLC v. HRUSLINSKI, JENNIFER",
+      "case_type": "COMPLAINT",
+      "filing_date": "2026-09-29",
+      "status": "",
+      "url": "https://propublic.buckscountyonline.org/psi/v/detail/Case/6394967",
+      "parties": [
+        {
+          "name": "PB WARMINSTER PLAZA LLC",
+          "role": "Plaintiff",
+          "city": "Jenkintown",
+          "zip": "19046"
+        },
+        {
+          "name": "WHARTON-WARMINSTER LLC",
+          "role": "Plaintiff",
+          "city": "Jenkintown",
+          "zip": "19046"
+        },
+        {
+          "name": "HRUSLINSKI, JENNIFER",
+          "role": "Defendant",
+          "city": "Moorestown",
+          "zip": "08057"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
+    },
+    "delaware:CV-2026-008875": {
+      "court": "delaware",
+      "case_number": "CV-2026-008875",
+      "caption": "WELLS FARGO BANK, N.A. v. COLLARI",
+      "case_type": "Civil - Contract - Debt Collection: Credit Card",
+      "filing_date": "2026-09-28",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/933b6b567da79ffca83f940dc88a3d97588cd97f5c8637a55c055d086aaa40d4",
+      "parties": [
+        {
+          "name": "PAJTIM COLLARI",
+          "role": "Defendant",
+          "city": "WAYNE",
+          "zip": "19087"
+        },
+        {
+          "name": "WELLS FARGO BANK, N.A.",
+          "role": "Plaintiff",
+          "city": "Des Moines",
+          "zip": "50328"
+        }
+      ],
+      "first_seen": "2026-09-29T15:23:07.729971"
     }
   },
-  "last_run": "2026-09-28T17:22:48.309310"
+  "last_run": "2026-09-29T15:23:28.491852"
 }
