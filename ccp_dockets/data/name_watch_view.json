@@ -28,6 +28,13 @@
       "label": "Drexel University",
       "rows": [
         {
+          "case_id": "260903697",
+          "caption": "DREXEL UNIVERSITY VS NDIRIPO",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "260903694",
           "caption": "DREXEL UNIVERSITY VS GRIFFIN",
           "filing_date": "2026-09-29",
@@ -122,6 +129,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-09-29 16:00 EDT",
+  "generated_at": "2026-09-29 17:00 EDT",
   "window_days": 14
 }
