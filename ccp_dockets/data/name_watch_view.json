@@ -28,6 +28,83 @@
       "label": "Drexel University",
       "rows": [
         {
+          "case_id": "260903694",
+          "caption": "DREXEL UNIVERSITY VS GRIFFIN",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903691",
+          "caption": "DREXEL UNIVERSITY VS HALL",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903690",
+          "caption": "DREXEL UNIVERSITY VS PAYNE",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903689",
+          "caption": "DREXEL UNIVERSITY VS MLADENOVIC",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903687",
+          "caption": "DREXEL UNIVERSITY VS MELARAGNI",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903686",
+          "caption": "DREXEL UNIVERSITY VS OGUNDANA",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903684",
+          "caption": "DREXEL UNIVERSITY VS PANDYA",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903683",
+          "caption": "DREXEL UNIVERSITY VS HOWARD",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903682",
+          "caption": "DREXEL UNIVERSITY VS KASHUBA",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903680",
+          "caption": "DREXEL UNIVERSITY VS ORLENA",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "260903679",
+          "caption": "DREXEL UNIVERSITY VS CLARK",
+          "filing_date": "2026-09-29",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "260902759",
           "caption": "D. VS DREXEL UNIVERSITY ETAL",
           "filing_date": "2026-09-22",
@@ -45,6 +122,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-09-24 18:24 EDT",
+  "generated_at": "2026-09-29 16:00 EDT",
   "window_days": 14
 }
