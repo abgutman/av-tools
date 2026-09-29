@@ -1359,9 +1359,10 @@
     "trial_date": "2026-09-29",
     "case_type": "CONSTRUCTION CONTRACT",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250902116": {
     "caption": "CAPITAL ONE NA VS ULETT",
@@ -1444,9 +1445,9 @@
     "trial_date": "2026-09-25",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-08-06",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250503577": {
@@ -1454,18 +1455,20 @@
     "trial_date": "2026-09-29",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250900817": {
     "caption": "EVANS VS HEATH",
     "trial_date": "2026-09-29",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250703098": {
     "caption": "SHAW VS POLICE OFFICER JOHN DOE, BADGE NO. 1513 ET",
@@ -1544,18 +1547,20 @@
     "trial_date": "2026-09-29",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240902897": {
     "caption": "CITIZENS BANK, N.A. VS SPRUILL ETAL",
     "trial_date": "2026-09-29",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "201001597": {
     "caption": "AJX MORTGAGE TRUST I VS TAGGART",
@@ -1571,9 +1576,10 @@
     "trial_date": "2026-09-29",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260402401": {
     "caption": "BAUGH VS WOODS",
@@ -1607,9 +1613,9 @@
     "trial_date": "2026-09-11",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-08-13",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240203248": {
@@ -1636,9 +1642,10 @@
     "trial_date": "2026-09-29",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-08-14",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "170104504": {
     "caption": "MOORE ETAL VS JOHNSON & JOHNSON ETAL",
@@ -1982,18 +1989,20 @@
     "trial_date": "2026-09-29",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250102998": {
     "caption": "IN RE: APPEAL OF RAILROAD RECOVERY INC",
     "trial_date": "2026-09-29",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240200923": {
     "caption": "IRA DEVELOPMENT ETAL VS GF UNIVERSITY PROPERTIES",

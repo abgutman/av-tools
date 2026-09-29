@@ -1,5 +1,45 @@
 [
   {
+    "case_id": "250802763",
+    "caption": "COLON VS COLON",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-09-25",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-28",
+    "award": null,
+    "plaintiffs": [
+      "COLON, ANTOINETTE"
+    ],
+    "defendants": [
+      "COLON, NELSON"
+    ],
+    "logged_at": "2026-09-29"
+  },
+  {
+    "case_id": "240800150",
+    "caption": "WINT VS DIALLO ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-09-11",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-09-28",
+    "award": null,
+    "plaintiffs": [
+      "WINT JR., AYON"
+    ],
+    "defendants": [
+      "DIALLO, AMADOU",
+      "LUU, GIA",
+      "BICH TRAN, LIEN THI",
+      "CITY CAB",
+      "SCHOOL DISTRICT OF PHILADELPHIA"
+    ],
+    "logged_at": "2026-09-29"
+  },
+  {
     "case_id": "260200562",
     "caption": "EF MORTGAGE LLC VS JENKINS ETAL",
     "case_type": "EJECTMENT",
@@ -11,6 +51,25 @@
     "plaintiffs": [],
     "defendants": [],
     "logged_at": "2026-09-27"
+  },
+  {
+    "case_id": "250503577",
+    "caption": "SAPPHIRE REAL ESTATE GROUP, LLC VS DOUGLASS",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-09-29",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-09-25",
+    "award": null,
+    "plaintiffs": [
+      "SAPPHIRE REAL ESTATE GROUP LLC"
+    ],
+    "defendants": [
+      "DOUGLASS, RONALD",
+      "DOUGLASS, KIA C"
+    ],
+    "logged_at": "2026-09-29"
   },
   {
     "case_id": "250403619",
