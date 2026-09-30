@@ -1359,9 +1359,9 @@
     "trial_date": "2026-09-29",
     "case_type": "CONSTRUCTION CONTRACT",
     "first_seen": "2026-08-06",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250902116": {
@@ -1475,9 +1475,10 @@
     "trial_date": "2026-09-30",
     "case_type": "ASSAULT, BATTERY",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250200046": {
     "caption": "WALL VS JOHN DOE 1-3, JANE DOE 1-3 ABC PARTNERSHIP",
@@ -1547,9 +1548,9 @@
     "trial_date": "2026-09-29",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-08-06",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240902897": {
@@ -1870,99 +1871,110 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260301917": {
     "caption": "FEHNEL VS BUTLER",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260302245": {
     "caption": "ONEKEYHOMES PHL LLC ETAL VS BRACLEY",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260302637": {
     "caption": "MACHADO VS CHANDLER ETAL",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260302799": {
     "caption": "MIDFIRST BANK VS WILLIAMS ETAL",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "SUMMARY JUDG/DISP MOT GRANTED",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260302891": {
     "caption": "BLOCKER VS CHEEKS",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260303057": {
     "caption": "COMMONS AT POINT BREEZE VS TINDAL",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260303333": {
     "caption": "COOPER VS TURAY",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260303643": {
     "caption": "MESZAROS VS ALL UNKNOWN OCCUPANTS",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260303795": {
     "caption": "LARGO VS WALKER ETAL",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260304258": {
     "caption": "HAAMID VS BURRELL",
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250101143": {
     "caption": "OGUNDOJU VS PHAIR",

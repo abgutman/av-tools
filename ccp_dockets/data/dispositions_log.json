@@ -1,5 +1,60 @@
 [
   {
+    "case_id": "250202687",
+    "caption": "PRIORE IMPROVEMENT LLC VS MAZZA ETAL",
+    "case_type": "CONSTRUCTION CONTRACT",
+    "trial_date": "2026-09-29",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-29",
+    "award": "$15,000",
+    "plaintiffs": [
+      "PRIORE IMPROVEMENT LLC"
+    ],
+    "defendants": [
+      "MAZZA, EMILY",
+      "MAZZA, ANTHONY"
+    ],
+    "logged_at": "2026-09-30"
+  },
+  {
+    "case_id": "230100707",
+    "caption": "DEUTSCHE BANK NATIONAL TRUST VS BAKER",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-09-29",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-09-29",
+    "award": null,
+    "plaintiffs": [
+      "DEUTSCHE BANK NATIONAL TRUST COMPANY"
+    ],
+    "defendants": [
+      "BAKER, MYRON"
+    ],
+    "logged_at": "2026-09-30"
+  },
+  {
+    "case_id": "260303057",
+    "caption": "COMMONS AT POINT BREEZE VS TINDAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-09-28",
+    "award": null,
+    "plaintiffs": [
+      "COMMONS AT POINT BREEZE"
+    ],
+    "defendants": [
+      "TINDAL, ERIC"
+    ],
+    "logged_at": "2026-09-30"
+  },
+  {
     "case_id": "250802763",
     "caption": "COLON VS COLON",
     "case_type": "QUIET TITLE",
