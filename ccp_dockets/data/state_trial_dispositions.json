@@ -684,9 +684,9 @@
     "trial_date": "2026-09-23",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250101371": {
@@ -911,9 +911,9 @@
     "trial_date": "2026-09-28",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250400804": {
@@ -1643,7 +1643,7 @@
     "trial_date": "2026-09-29",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-08-14",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "ASSIGNED TO JUDGE",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2081,27 +2081,30 @@
     "trial_date": "2026-10-01",
     "case_type": "REPLEVIN",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260300648": {
     "caption": "EL-AMIN ETAL VS ZARA RENTAL INC ETAL",
     "trial_date": "2026-10-01",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260403936": {
     "caption": "RAMOS ETAL VS WINN",
     "trial_date": "2026-10-01",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250703516": {
     "caption": "ZHAO ETAL VS CARRIE TURNER NEHEMIAH HOMEOWNERS ASS",
@@ -2733,6 +2736,60 @@
     "trial_date": "2026-10-30",
     "case_type": "EQUITY - NO REAL ESTATE (TRO)",
     "first_seen": "2026-09-23",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241003699": {
+    "caption": "BULLOCK VS CUNILLERA ETAL",
+    "trial_date": "2026-10-13",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250203426": {
+    "caption": "COTTMAN VS QUEVEDO-GUZMAN",
+    "trial_date": "2026-10-13",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250401855": {
+    "caption": "SANNI VS KELLY",
+    "trial_date": "2026-10-13",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240400795": {
+    "caption": "SPENCER ETAL VS SCHOOL DISTRICT OF PHILADELPHIA ET",
+    "trial_date": "2026-10-26",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240600745": {
+    "caption": "ADAMS ETAL VS GRAHAM ETAL",
+    "trial_date": "2026-10-26",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250200254": {
+    "caption": "ADAMS ETAL VS GRAHAM ETAL",
+    "trial_date": "2026-10-26",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-01",
     "last_status": "",
     "reported": false,
     "retired": false

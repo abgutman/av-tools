@@ -1,5 +1,47 @@
 [
   {
+    "case_id": "260201039",
+    "caption": "JOHNSON ETAL VS JOHNSON ETAL",
+    "case_type": "EQUITY - REAL ESTATE",
+    "trial_date": "2026-09-23",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-30",
+    "award": null,
+    "plaintiffs": [
+      "JOHNSON, JENNIFER",
+      "JOHNSON, ANDREA"
+    ],
+    "defendants": [
+      "JOHNSON, CAROLYN R",
+      "DELLA ROCCA, JOHN"
+    ],
+    "logged_at": "2026-10-01"
+  },
+  {
+    "case_id": "171000971",
+    "caption": "NATIONSTAR MORTGAGE LLC VS WLSON ETAL",
+    "case_type": "RESIDENTIAL REVERSE MORT-MR",
+    "trial_date": "2026-09-28",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-09-30",
+    "award": null,
+    "plaintiffs": [
+      "NATIONSTAR MORTGAGE LLC",
+      "MORTGAGE ASSETS MANAGEMENT LLC",
+      "MORTGAGE ASSETS MANAGEMENT LLC"
+    ],
+    "defendants": [
+      "WLSON JR, WALDO",
+      "WILSON, CATHERINE G",
+      "WILSON, KENNETH"
+    ],
+    "logged_at": "2026-10-01"
+  },
+  {
     "case_id": "250202687",
     "caption": "PRIORE IMPROVEMENT LLC VS MAZZA ETAL",
     "case_type": "CONSTRUCTION CONTRACT",
