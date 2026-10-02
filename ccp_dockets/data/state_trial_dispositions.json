@@ -1781,9 +1781,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260203220": {
@@ -1871,9 +1871,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "ORDER ENTERED - FINAL DISPOS",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260301917": {
@@ -1881,7 +1881,7 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1891,9 +1891,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "ORDER ENTERED - FINAL DISPOS",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260302637": {
@@ -1901,9 +1901,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260302799": {
@@ -1921,9 +1921,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260303057": {
@@ -1941,9 +1941,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260303643": {
@@ -1951,9 +1951,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "ORDER ENTERED - FINAL DISPOS",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260303795": {
@@ -1961,9 +1961,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260304258": {
@@ -1971,9 +1971,9 @@
     "trial_date": "2026-09-30",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250101143": {
@@ -2111,9 +2111,10 @@
     "trial_date": "2026-10-02",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-08-25",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240100683": {
     "caption": "FIALCO PROPERTIES, INC. VS CHILDREN PLANET, INC. E",
@@ -2790,6 +2791,15 @@
     "trial_date": "2026-10-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260502335": {
+    "caption": "KELEMEN VS KRAUSE",
+    "trial_date": "2026-12-14",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-10-02",
     "last_status": "",
     "reported": false,
     "retired": false

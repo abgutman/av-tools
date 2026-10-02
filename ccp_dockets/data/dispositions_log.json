@@ -1,5 +1,173 @@
 [
   {
+    "case_id": "260304258",
+    "caption": "HAAMID VS BURRELL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "HAAMID, SUNNI"
+    ],
+    "defendants": [
+      "BURRELL, DEVIN"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260303795",
+    "caption": "LARGO VS WALKER ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "LARGO, EVELYN"
+    ],
+    "defendants": [
+      "WALKER, LAKIA L",
+      "ALL OCCUPANTS,"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260303643",
+    "caption": "MESZAROS VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Judgment",
+    "status": "ORDER ENTERED - FINAL DISPOS",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "MESZAROS, WILLIAM"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260303333",
+    "caption": "COOPER VS TURAY",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "COOPER, JONATHAN"
+    ],
+    "defendants": [
+      "TURAY, SITHA"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260302891",
+    "caption": "BLOCKER VS CHEEKS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "BLOCKER, GERALD"
+    ],
+    "defendants": [
+      "CHEEKS, MONICA"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260302637",
+    "caption": "MACHADO VS CHANDLER ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "MACHADO, JULISSA"
+    ],
+    "defendants": [
+      "CHANDLER, ROMAN",
+      "ROBINSON, AVERYANNA"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260302245",
+    "caption": "ONEKEYHOMES PHL LLC ETAL VS BRACLEY",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Judgment",
+    "status": "ORDER ENTERED - FINAL DISPOS",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "ONEKEYHOMES PHL LLC",
+      "PHILADELPHIA REALTY EXCHANGE INC"
+    ],
+    "defendants": [
+      "BRACLEY, TROY"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260301857",
+    "caption": "BELANOVSKI VS FIELDS ET AL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Judgment",
+    "status": "ORDER ENTERED - FINAL DISPOS",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "BELADOVSKI, VASSILI"
+    ],
+    "defendants": [
+      "FIELDS, KIARA",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
+    "case_id": "260202667",
+    "caption": "3M EQUITIES LTD VS ELAM ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-16",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-01",
+    "award": null,
+    "plaintiffs": [
+      "3M EQUITIES LTD"
+    ],
+    "defendants": [
+      "ELAM, DOMENIQUE",
+      "RICHARDS, LATOYA",
+      "ALL OTHER OCCUPANTS,"
+    ],
+    "logged_at": "2026-10-02"
+  },
+  {
     "case_id": "260201039",
     "caption": "JOHNSON ETAL VS JOHNSON ETAL",
     "case_type": "EQUITY - REAL ESTATE",
