@@ -1,5 +1,97 @@
 [
   {
+    "case_id": "240701071",
+    "caption": "KHAN VS FARMERS INSURANCE EXCHANGE ETAL",
+    "case_type": "BAD FAITH",
+    "trial_date": "2026-08-18",
+    "category": "Unclassified \u2014 verify",
+    "status": "SUMMARY JUDG/DISP MOT GRANTED",
+    "known": false,
+    "disposition_date": "2026-10-03",
+    "plaintiffs": [],
+    "defendants": [],
+    "logged_at": "2026-10-03"
+  },
+  {
+    "case_id": "260403936",
+    "caption": "RAMOS ETAL VS WINN",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-01",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-10-02",
+    "award": "$110,000",
+    "plaintiffs": [
+      "RAMOS, WILFREDO",
+      "RAMOS, CYNTHIA",
+      "H, H"
+    ],
+    "defendants": [
+      "WINN, JERMAINE"
+    ],
+    "logged_at": "2026-10-03"
+  },
+  {
+    "case_id": "260302799",
+    "caption": "MIDFIRST BANK VS WILLIAMS ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-30",
+    "category": "Judgment",
+    "status": "JUDGMENT-COURT ORDER FINAL DIS",
+    "known": true,
+    "disposition_date": "2026-10-02",
+    "award": null,
+    "plaintiffs": [
+      "MIDFIRST BANK"
+    ],
+    "defendants": [
+      "WILLIAMS, KWABENA",
+      "UNKNOWN OCCUPANT(S)"
+    ],
+    "logged_at": "2026-10-03"
+  },
+  {
+    "case_id": "260300648",
+    "caption": "EL-AMIN ETAL VS ZARA RENTAL INC ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-01",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-10-02",
+    "award": "$181,405.00",
+    "plaintiffs": [
+      "EL-AMIN, JAMELL",
+      "LEE, CHARLES",
+      "MASHORE, JASON",
+      "HILL, MALACHI"
+    ],
+    "defendants": [
+      "ZARA RENTAL INC",
+      "DOE, JOHN"
+    ],
+    "logged_at": "2026-10-03"
+  },
+  {
+    "case_id": "251001961",
+    "caption": "STATE FARM MUTUAL AUTO INS CO VS GOOD HANDZ TOWING",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-10-01",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-10-02",
+    "award": "$6,323.00",
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+    ],
+    "defendants": [
+      "GOOD HANDZ TOWING AND RECOVERY LLC"
+    ],
+    "logged_at": "2026-10-03"
+  },
+  {
     "case_id": "260304258",
     "caption": "HAAMID VS BURRELL",
     "case_type": "EJECTMENT",

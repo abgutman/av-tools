@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HODGE VS BLACK RIVERA ETAL — CCP Docket</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: #1a1a1a; background: #f5f5f3; }
+.back { display: inline-block; margin: 14px 20px 6px;
+        font-size: .82rem; color: #1a1a2e; text-decoration: none;
+        font-weight: 600; }
+.back:hover { text-decoration: underline; }
+header { background: #1a1a2e; color: white; padding: 20px 24px 22px; }
+header h1 { margin: 0 0 6px; font-size: 1.25rem; line-height: 1.3; }
+.meta-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.pill { background: rgba(255,255,255,0.12); padding: 4px 10px; border-radius: 4px;
+        font-size: .78rem; white-space: nowrap; }
+.pill span { opacity: .7; margin-right: 4px; }
+section { background: white; margin: 14px 16px; border-radius: 8px;
+          box-shadow: 0 1px 4px rgba(0,0,0,.07); overflow: hidden; }
+section h2 { margin: 0; padding: 12px 16px; background: #f0f0f0;
+             font-size: .85rem; text-transform: uppercase; letter-spacing: .04em;
+             color: #444; border-bottom: 1px solid #ddd; }
+table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+th { padding: 8px 12px; text-align: left; background: #fafafa; border-bottom: 1px solid #e8e8e8;
+     font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; color: #777;
+     white-space: nowrap; }
+td { padding: 9px 12px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #f8f8f8; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: .75rem;
+         background: #e8f0f8; color: #1a4a8a; font-weight: 600; }
+.mono { font-family: ui-monospace, Menlo, monospace; font-size: .82rem; }
+.addr { color: #555; font-size: .8rem; }
+.notice { margin: 14px 16px; padding: 10px 14px; background: #fff8e6;
+          border: 1px solid #e6c34d; border-radius: 6px;
+          font-size: .82rem; color: #5a4a10; }
+footer { margin: 14px 16px 30px; font-size: .78rem; color: #888; line-height: 1.6; }
+@media (max-width: 600px) {
+  table, thead, tbody, tr, th, td { display: block; }
+  thead { display: none; }
+  td { padding: 5px 12px; }
+  td::before { content: attr(data-label); display: block; font-size: .68rem;
+               text-transform: uppercase; color: #999; letter-spacing: .04em; }
+}
+</style>
+</head>
+<body>
+
+<div id="auth-gate" style="position:fixed;inset:0;background:#1a1a2e;z-index:99999;display:flex;align-items:center;justify-content:center;">
+  <div style="background:white;padding:40px;border-radius:12px;text-align:center;max-width:360px;width:90%;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+    <div style="font-size:28px;margin-bottom:20px;">&#128274;</div>
+    <input id="auth-pw" type="password" placeholder="Password" autofocus
+      style="width:100%;padding:12px;border:2px solid #ddd;border-radius:6px;font-size:15px;margin-bottom:12px;box-sizing:border-box;"
+      onkeydown="if(event.key==='Enter')checkPw()">
+    <button onclick="checkPw()"
+      style="width:100%;padding:12px;background:#1a1a2e;color:white;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;">
+      Enter</button>
+    <p id="auth-err" style="color:#c0392b;font-size:13px;margin-top:10px;display:none;">Incorrect password</p>
+  </div>
+</div>
+<script>
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+async function checkPw() {
+  const h = await sha256(document.getElementById('auth-pw').value);
+  if (h === 'c93289ef40f052d7086625037e113760e055ec65d162906acc0d8645fcbbd336') {
+    sessionStorage.setItem('court_auth','1');
+    document.getElementById('auth-gate').remove();
+  } else {
+    document.getElementById('auth-err').style.display='block';
+    document.getElementById('auth-pw').value='';
+  }
+}
+if (sessionStorage.getItem('court_auth')==='1') {
+  document.getElementById('auth-gate').remove();
+}
+</script>
+
+<a href="https://abgutman.github.io/av-tools/" style="position:fixed;top:12px;right:12px;z-index:9998;background:#1a1a2e;color:white;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.2);">Av's Tools Homepage</a>
+<a class="back" href="../ccp_dockets_dashboard.html" style="display:inline-block;margin:14px 20px 6px;font-size:.82rem;color:#1a1a2e;text-decoration:none;font-weight:600;">← Back to dashboard</a>
+
+<header>
+  <h1>HODGE VS BLACK RIVERA ETAL</h1>
+  <div class="meta-pills">
+    <div class="pill"><span>Case ID</span>261000349</div>
+    <div class="pill"><span>Filed</span>2026-10-02</div>
+    <div class="pill"><span>Type</span>PERSONAL INJURY - OTHER</div>
+    <div class="pill"><span>Court</span>MAJOR JURY</div>
+    <div class="pill"><span>Jury</span>JURY</div>
+    <div class="pill"><span>Status</span>WAITING TO LIST CASE MGMT CONF</div>
+  </div>
+</header>
+
+
+
+<section>
+  <h2>Parties (31)</h2>
+  <table>
+    <thead><tr><th>Seq</th><th>Type</th><th>Name / Address</th></tr></thead>
+    <tbody><tr><td class="mono" data-label="Seq">1</td><td data-label="Type"><span class="badge">ATTORNEY FOR PLAINTIFF</span></td><td data-label="Name"><strong>MONACO ESQ, JOSEPH</strong><br><span class="addr">MONACO LAW PC 1818 MARKET STREET SUITE 3200 PHILADELPHIA PA 19103 (888)992-3166 jmonaco@monacolawpc.com</span></td></tr><tr><td class="mono" data-label="Seq">2</td><td data-label="Type"><span class="badge">ADMINISTRATRIX - PLAINTIFF</span></td><td data-label="Name"><strong>HODGE, JUANITA</strong><br><span class="addr">4733 OAKMONT STREET PHILADELPHIA PA 19136</span></td></tr><tr><td class="mono" data-label="Seq">3</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PACE-O-MATIC INC.</strong><br><span class="addr">3450 CORPORATE WAY SUITE A DULUTH GA 30096</span></td></tr><tr><td class="mono" data-label="Seq">4</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>MIELE MANUFACTURING INC.</strong><br><span class="addr">66 MALL PARKWAY MUNCY PA 17756</span></td></tr><tr><td class="mono" data-label="Seq">5</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>BANILLA GAMES INC.</strong><br><span class="addr">3506 GREENVILLE BOULEVARD NE GREENVILLE NC 27834</span></td></tr><tr><td class="mono" data-label="Seq">6</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PRIMERO GAMES LLC</strong><br><span class="addr">4260 COMMUNUCATIONS DRIVE NORCROSS PA 30093</span></td></tr><tr><td class="mono" data-label="Seq">7</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>GRACIE TECHNOLOGIES LLC</strong><br><span class="addr">418 BROADWAY SUITE N ALBANY NY 12207</span></td></tr><tr><td class="mono" data-label="Seq">8</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PONG GAME STUDIOS CORPORATION</strong><br><span class="addr">201 CREDITVIEW ROAD WOODBRIDGE ON L4L 9T1</span></td></tr><tr><td class="mono" data-label="Seq">9</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>JVL SYSTEMS INC.</strong><br><span class="addr">1380 CAPITAL CIRCLE LAWRENCEVILLE GA 30043</span></td></tr><tr><td class="mono" data-label="Seq">10</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>RCC AMUSEMENTS LLC</strong><br><span class="addr">29 RACE STREET HILLSIDE NJ 07205</span></td></tr><tr><td class="mono" data-label="Seq">11</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>ACTION SKILL GAMES LLC</strong><br><span class="addr">603 NORTHAVEN CIRCLE GLENSHAW PA 15116</span></td></tr><tr><td class="mono" data-label="Seq">12</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>STRATEGIC MARKETING GROUP LLC</strong><br><span class="addr">10018 JEANES STREET PHILADELPHIA PA 19116</span></td></tr><tr><td class="mono" data-label="Seq">13</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>BLACK RIVERA, SAGE</strong><br><span class="addr">3835 ASPEN STREET PHILADELPHIA PA 19104</span></td></tr><tr><td class="mono" data-label="Seq">14</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>HUGO AMUSEMENTS LLC</strong><br><span class="addr">420 WALSH STREET SCRANTON PA 18505</span></td></tr><tr><td class="mono" data-label="Seq">15</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PENNSYLVANIA SKILL GAMES LLC</strong><br><span class="addr">1 CONSTUTUTION BOUELVARD ALIQUIPPA PA 15001</span></td></tr><tr><td class="mono" data-label="Seq">16</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>POM OF PENNSYLVANIA LLC</strong><br><span class="addr">3870 PEACHTREE INDUSTRIAL BLVD SUITE 340-194 DULUTH GA 30096</span></td></tr><tr><td class="mono" data-label="Seq">17</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PDS GAMING LLC</strong><br><span class="addr">871 GRIER DRIVE SUITE B1 LAS VEGAS NV 89119</span></td></tr><tr><td class="mono" data-label="Seq">18</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>PDS GAMING CORPORATION</strong><br><span class="addr">871 GRIER DRIVE SUITE B1 LAS VEGAS NV 89119</span></td></tr><tr><td class="mono" data-label="Seq">19</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>INTEGRATED GAMING SOLUTIONS</strong><br><span class="addr">66599 EAST HIGHWAY 60 WYANDOTTE OK 74370</span></td></tr><tr><td class="mono" data-label="Seq">20</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>INTERNATIONAL GAME TECHNOLOGY PLC</strong><br><span class="addr">101 WEST OLNEY AVENUE PHILADELPHIA PA 19120</span></td></tr><tr><td class="mono" data-label="Seq">21</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>IGT COMMONWEALTH GAMES OF PENNSYLVANIA INC.</strong><br><span class="addr">101 WEST OLNEY AVENUE PHILADELPHIA PA 19120</span></td></tr><tr><td class="mono" data-label="Seq">22</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>KEVIN SMITH AMUSEMENTS INC.</strong><br><span class="addr">3425 RUMMERFIELD CREEK ROAD WYALUSING PA 18853</span></td></tr><tr><td class="mono" data-label="Seq">23</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>SV OF PENN STATE LLC D/B/A BIG BOY GAMES</strong><br><span class="addr">14 EAST MAIN STREET SUITE 1 LOCK HAVEN PA 17745</span></td></tr><tr><td class="mono" data-label="Seq">24</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>S &amp; S CANDY SNACK TIME INC.</strong><br><span class="addr">800 N. 40TH STREET PHILADELPHIA PA 19104</span></td></tr><tr><td class="mono" data-label="Seq">25</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>JOHN DOE 1 TO 10</strong><br><span class="addr">999 UNKNOWN STREET UNKNOWN PA 99999</span></td></tr><tr><td class="mono" data-label="Seq">26</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>ASSAE, HANI</strong><br><span class="addr">800 N. 40TH STREET PHILADELPHIA PA 19104</span></td></tr><tr><td class="mono" data-label="Seq">27</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>KIEU HUA, THI</strong><br><span class="addr">80 CAMBRIDGE ROAD BROOMALL PA 19008</span></td></tr><tr><td class="mono" data-label="Seq">28</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>TANG, LIM</strong><br><span class="addr">80 CAMBRIDGE ROAD BROOMALL PA 19008</span></td></tr><tr><td class="mono" data-label="Seq">29</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>ZERESHK LLC</strong><br><span class="addr">4088 BALWYNNE PARK ROAD 2ND FLOOR PHILADELPHIA PA 19131</span></td></tr><tr><td class="mono" data-label="Seq">30</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>LENDELL VENDING INC.</strong><br><span class="addr">1435 POOLE CIRCLE GARNET VALLEY PA 19060</span></td></tr><tr><td class="mono" data-label="Seq">31</td><td data-label="Type"><span class="badge">DEFENDANT</span></td><td data-label="Name"><strong>CAPITAL VENDING COMPANY INC.</strong><br><span class="addr">807 S. 27TH STREET HARRISBURG PA 17111</span></td></tr></tbody>
+  </table>
+</section>
+
+
+
+<section>
+  <h2>Docket Entries (5)</h2>
+  <table>
+    <thead><tr><th>Date</th><th>Time</th><th>Type</th><th>Party</th></tr></thead>
+    <tbody><tr><td class="mono" data-label="Date" style="white-space:nowrap;">02-OCT-2026</td><td data-label="Time" style="white-space:nowrap;">11:59 AM</td><td data-label="Type">ACTIVE CASE</td><td data-label="Party"></td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">02-OCT-2026</td><td data-label="Time" style="white-space:nowrap;">11:59 AM</td><td data-label="Type">COMMENCEMENT CIVIL ACTION JURY</td><td data-label="Party">MONACO ESQ, JOSEPH</td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">02-OCT-2026</td><td data-label="Time" style="white-space:nowrap;">11:59 AM</td><td data-label="Type">COMPLAINT FILED NOTICE GIVEN</td><td data-label="Party">MONACO ESQ, JOSEPH</td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">02-OCT-2026</td><td data-label="Time" style="white-space:nowrap;">11:59 AM</td><td data-label="Type">JURY TRIAL PERFECTED</td><td data-label="Party">MONACO ESQ, JOSEPH</td></tr><tr><td class="mono" data-label="Date" style="white-space:nowrap;">02-OCT-2026</td><td data-label="Time" style="white-space:nowrap;">11:59 AM</td><td data-label="Type">WAITING TO LIST CASE MGMT CONF</td><td data-label="Party">MONACO ESQ, JOSEPH</td></tr></tbody>
+  </table>
+</section>
+
+<footer>
+  Source: First Judicial District of Pennsylvania (<a href="https://fjdefile.phila.gov/efsfjd/" style="color:#888;">fjdefile.phila.gov</a>).
+  This is an automated extract for journalistic reference. Documents shown in the docket entries
+  are available on the official FJD docket (paid download) — not here.
+  <strong>Always confirm this information against the official docket before relying on or publishing it.</strong>
+</footer>
+</body>
+</html>
