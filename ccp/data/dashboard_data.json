@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-10-03T08:17:40 EDT",
+    "scraped_at": "2026-10-04T09:04:32 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-10-03",
-      "end": "2027-01-31"
+      "start": "2026-10-04",
+      "end": "2027-02-01"
     },
     "counts": {
-      "CM": 377,
+      "CM": 378,
       "MJ": 95,
-      "total": 472
+      "total": 473
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -8041,6 +8041,23 @@
       "case_type": "FRAUD",
       "attorneys": "PAUL C. TROY (Attorney For Defendant); NOREEN P. KEMETHER (Attorney For Defendant); BERNADETTE IRACE (Attorney For Defendant); THOMAS J. ZIMMERMAN (Attorney For Defendant); JOSEPH CARR (Attorney For Plaintiff); JORDAN RAND (Judge Pro Tempore)",
       "trial_days": "1"
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260303213",
+      "caption": "IN RE: APPEAL OF TEMPLE UNIVERSITY OF THE COMMONWE",
+      "raw_date": "01-FEB-2027",
+      "iso_date": "2027-02-01",
+      "time": "09:00 AM",
+      "room": "Courtroom 602",
+      "location": "City Hall",
+      "event_type": "TRIAL READY POOL",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "AGENCY APPEAL",
+      "case_type": "BOARD OF REVISION OF TAXES-MVA",
+      "attorneys": "RAYMOND P. WENDOLOWSKI (Attorney For Appellee); AMANDA J. DOUGHERTY (Attorney For Appellee); FRANCESCO J. GRIECO (Attorney For Appellee); MYER S. MESSINGER (Attorney For Appellee); NATHANAEL CLARK. FARRIS (Attorney For Appellant); PATRICK A. ZANCOLLI (Attorney For Appellant)",
+      "trial_days": ""
     }
   ]
 }
