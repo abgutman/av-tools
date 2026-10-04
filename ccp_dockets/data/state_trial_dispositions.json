@@ -1221,7 +1221,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "260202090": {
