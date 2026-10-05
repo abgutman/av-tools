@@ -14,7 +14,15 @@
     },
     {
       "label": "Philadelphia Fire Department",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "261000519",
+          "caption": "MEALY VS TEMPLE UNIVERSITY HOSPITAL ETAL",
+          "filing_date": "2026-10-05",
+          "matched_name": "PHILADELPHIA FIRE DEPARTMENT",
+          "roles": "DEFENDANT"
+        }
+      ]
     },
     {
       "label": "Drexel University",
@@ -121,6 +129,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-09-29 21:09 EDT",
+  "generated_at": "2026-10-05 14:13 EDT",
   "window_days": 14
 }
