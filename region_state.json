@@ -1,21 +1,5 @@
 {
   "evaluated": {
-    "bucks:2026-06156": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06153": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06155": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06154": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06151": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06149": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06148": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06150": "2026-09-14T15:40:57.417230",
-    "bucks:2026-06152": "2026-09-14T15:40:57.417230",
-    "delaware:CV-2026-008335": "2026-09-14T15:40:57.417230",
-    "delaware:CV-2026-008358": "2026-09-14T15:40:57.417230",
-    "delaware:CV-2026-008366": "2026-09-14T15:40:57.417230",
-    "delaware:CV-2026-008350": "2026-09-14T15:40:57.417230",
-    "delaware:CV-2026-008362": "2026-09-14T15:40:57.417230",
-    "delaware:CV-2026-008356": "2026-09-14T15:40:57.417230",
-    "delaware:CV-2026-008368": "2026-09-14T15:40:57.417230",
     "philadelphia:260901584": "2026-09-15T14:10:49.182619",
     "philadelphia:260901582": "2026-09-15T14:10:49.182619",
     "philadelphia:260901581": "2026-09-15T14:10:49.182619",
@@ -3757,69 +3741,63 @@
     "delaware:CV-2026-009013": "2026-10-04T14:38:11.665005",
     "delaware:CV-2026-009040": "2026-10-04T14:38:11.665005",
     "delaware:CV-2026-009048": "2026-10-04T14:38:11.665005",
-    "delaware:CV-2026-009050": "2026-10-04T14:38:11.665005"
+    "delaware:CV-2026-009050": "2026-10-04T14:38:11.665005",
+    "bucks:2026-06700": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06701": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06699": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06697": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06696": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06698": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06695": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06694": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06693": "2026-10-05T17:56:44.961704",
+    "bucks:2026-73964": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06691": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06690": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06689": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06688": "2026-10-05T17:56:44.961704",
+    "bucks:2026-73963": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06687": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06692": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06686": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06685": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06684": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06683": "2026-10-05T17:56:44.961704",
+    "bucks:2026-73962": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06682": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06681": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06679": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06680": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06678": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06677": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52234": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52233": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52232": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06676": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52231": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52230": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52229": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52228": "2026-10-05T17:56:44.961704",
+    "bucks:2026-52227": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06669": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06675": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06672": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06670": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06667": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06674": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06673": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06671": "2026-10-05T17:56:44.961704",
+    "bucks:2026-06668": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009041": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009052": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009061": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009077": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009043": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009063": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009081": "2026-10-05T17:56:44.961704",
+    "delaware:CV-2026-009087": "2026-10-05T17:56:44.961704"
   },
   "matches": {
-    "philadelphia:260902096": {
-      "court": "philadelphia",
-      "case_number": "260902096",
-      "caption": "PECO ENERGY COMPANY VS TEMPLE UNIVERSITY ETAL",
-      "case_type": "PERSONAL PROPERTY DAMAGE-OTHER",
-      "filing_date": "2026-09-17",
-      "status": "WAITING TO LIST CASE MGMT CONF",
-      "url": "",
-      "parties": [
-        {
-          "name": "PECO ENERGY COMPANY",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19103"
-        },
-        {
-          "name": "TEMPLE UNIVERSITY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19140"
-        },
-        {
-          "name": "AP CONSTRUCTION, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "08012"
-        },
-        {
-          "name": "TRACEY MECHANICAL, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19073"
-        },
-        {
-          "name": "JPC GROUP, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "08012"
-        },
-        {
-          "name": "COLLINS & COLLINS MECHANICAL, INC.",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19007"
-        },
-        {
-          "name": "USIC LOCATING SERVICES LLC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19403"
-        },
-        {
-          "name": "DOE, JOHN",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19103"
-        }
-      ],
-      "first_seen": "2026-09-18T13:24:38.857906"
-    },
     "philadelphia:260902260": {
       "court": "philadelphia",
       "case_number": "260902260",
@@ -4035,102 +4013,6 @@
         }
       ],
       "first_seen": "2026-09-19T12:53:34.834687"
-    },
-    "philadelphia:260902219": {
-      "court": "philadelphia",
-      "case_number": "260902219",
-      "caption": "ECONOME VS FULTON BOILER WORKS INC. ETAL",
-      "case_type": "MASS TORT - ASBESTOS",
-      "filing_date": "2026-09-17",
-      "status": "WAITING FOR LISTING MASS TORT",
-      "url": "",
-      "parties": [
-        {
-          "name": "ECONOME, OGLA",
-          "role": "PLAINTIFF",
-          "city": "",
-          "zip": "19090"
-        },
-        {
-          "name": "FULTON BOILER WORKS INC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "13142"
-        },
-        {
-          "name": "HAJOCA CORPORATION",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "19444"
-        },
-        {
-          "name": "HOFFMAN/NEW YORKER INC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "07601"
-        },
-        {
-          "name": "MACYS INC",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "08002"
-        },
-        {
-          "name": "MACYS RETAIL HOLDINGS INC",
-          "role": "DEFENDANT",
-          "city": "Suite 300 Erie",
-          "zip": "16501"
-        },
-        {
-          "name": "QUALITEX COMPANY",
-          "role": "DEFENDANT",
-          "city": "Suite 814 Chicago",
-          "zip": "60604"
-        },
-        {
-          "name": "RHEEM MANUFACTURING COMPANY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "30328"
-        },
-        {
-          "name": "TINGUE BROWN & COMPANY",
-          "role": "DEFENDANT",
-          "city": "",
-          "zip": "07662"
-        }
-      ],
-      "first_seen": "2026-09-19T12:53:34.834687"
-    },
-    "delaware:CV-2026-008501": {
-      "court": "delaware",
-      "case_number": "CV-2026-008501",
-      "caption": "Owens v. Everly et al",
-      "case_type": "Civil - Tort - Premises Liability",
-      "filing_date": "2026-09-17",
-      "status": "",
-      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/5ff123f2486cfd6cb00ecb6666df27bdb5c1ee8132bdd7ba341a7f12b3bf0802",
-      "parties": [
-        {
-          "name": "Dominic Owens",
-          "role": "Plaintiff",
-          "city": "Philadelphia",
-          "zip": "19104"
-        },
-        {
-          "name": "Bradd Everly",
-          "role": "Defendant",
-          "city": "Media",
-          "zip": "19063"
-        },
-        {
-          "name": "Stacy Everly",
-          "role": "Defendant",
-          "city": "Media",
-          "zip": "19063"
-        }
-      ],
-      "first_seen": "2026-09-20T13:27:43.137990"
     },
     "delaware:CV-2026-008551": {
       "court": "delaware",
@@ -9063,7 +8945,55 @@
         }
       ],
       "first_seen": "2026-10-04T14:38:11.665005"
+    },
+    "bucks:2026-06672": {
+      "court": "bucks",
+      "case_number": "2026-06672",
+      "caption": "EHRESMANN, GERALD v. DELANEY, LEO J III",
+      "case_type": "WRIT OF SUMMONS",
+      "filing_date": "2026-10-04",
+      "status": "",
+      "url": "https://propublic.buckscountyonline.org/psi/v/detail/Case/6394882",
+      "parties": [
+        {
+          "name": "EHRESMANN, GERALD",
+          "role": "Plaintiff",
+          "city": "Bristol",
+          "zip": "19007"
+        },
+        {
+          "name": "DELANEY, LEO J III",
+          "role": "Defendant",
+          "city": "Roslyn",
+          "zip": "19001"
+        }
+      ],
+      "first_seen": "2026-10-05T17:56:44.961704"
+    },
+    "delaware:CV-2026-009077": {
+      "court": "delaware",
+      "case_number": "CV-2026-009077",
+      "caption": "CKS Prime Investments, LLC v. Hays",
+      "case_type": "Civil - Contract - Debt Collection: Other",
+      "filing_date": "2026-10-02",
+      "status": "",
+      "url": "https://delcopublicaccess.co.delaware.pa.us/#/cases/c24fa7b7155a8ad992d2d3b86a4c0806b3504bc502fa0b7134dd4517bc87b254",
+      "parties": [
+        {
+          "name": "CKS Prime Investments, LLC",
+          "role": "Plaintiff",
+          "city": "Wall Township",
+          "zip": "07719"
+        },
+        {
+          "name": "Scott M Hays",
+          "role": "Defendant",
+          "city": "Media",
+          "zip": "19063"
+        }
+      ],
+      "first_seen": "2026-10-05T17:56:44.961704"
     }
   },
-  "last_run": "2026-10-04T14:38:20.550458"
+  "last_run": "2026-10-05T17:56:54.527839"
 }
