@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-10-04T09:04:32 EDT",
+    "scraped_at": "2026-10-05T11:38:03 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-10-04",
-      "end": "2027-02-01"
+      "start": "2026-10-05",
+      "end": "2027-02-02"
     },
     "counts": {
-      "CM": 378,
-      "MJ": 95,
-      "total": 473
+      "CM": 386,
+      "MJ": 96,
+      "total": 482
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -50,6 +50,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
       "attorneys": "KENYA BATES (Attorney For Plaintiff); STEVEN P. KELLY (Attorney For Plaintiff); ANDREW MARLEY (Attorney For Plaintiff); JESSICA N. MANIS (Attorney For Plaintiff); MATTHEW C. FALLINGS (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "230100163",
+      "caption": "BANK OF AMERICA, N.A. VS SWANS",
+      "raw_date": "05-OCT-2026",
+      "iso_date": "2026-10-05",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "CHRISTOPHER B. CASERIO (Attorney For Defendant); RODERICK L. FOXWORTH (Attorney For Defendant); MARGARET GAIRO (Attorney For Plaintiff); JEROME BLANK (Attorney For Plaintiff); MARISA COHEN (Attorney For Plaintiff); CHRISTINE L. GRAHAM (Attorney For Plaintiff); JOSEPH I. FOLEY (Attorney For Plaintiff); NATHALIE PAUL (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -106,6 +123,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "240500773",
+      "caption": "WILMINGTON SAVINGS FUND SOCIETY. FSB, NOT IN ITS I",
+      "raw_date": "05-OCT-2026",
+      "iso_date": "2026-10-05",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "DEMETRIUS J. PARRISH (Attorney For Defendant); STACY L. SHIELDS (Attorney For Defendant); JACQUELINE F. MCNALLY (Attorney For Plaintiff); ROBERT FLACCO (Attorney For Plaintiff); DANA N. MARKS (Attorney For Plaintiff); NICOLE M. FRANCESE (Attorney For Plaintiff); PERRY RUSSELL (Attorney For Plaintiff); IAN A. YORKE (Attorney For Plaintiff); DANIELLE JOHNSON (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "241000957",
       "caption": "PENNYMAC LOAN SERVICES, LLC VS HUGHES",
       "raw_date": "05-OCT-2026",
@@ -152,6 +186,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
       "attorneys": "JERMAINE HARRIS (Attorney For Defendant); MICHAEL KULDINER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250403776",
+      "caption": "BANK OF NEW YORK MELLON VS CUTICCHIA",
+      "raw_date": "05-OCT-2026",
+      "iso_date": "2026-10-05",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "MICHAEL B. GRASSO (Attorney For Defendant); STEPHEN M. HLADIK (Attorney For Plaintiff); ROBERT W. WILLIAMS (Attorney For Plaintiff); THOMAS C. DYER (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -259,6 +310,40 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "251002823",
+      "caption": "PENNYMAC LOAN SERVICES, LLC VS SHOATZ",
+      "raw_date": "05-OCT-2026",
+      "iso_date": "2026-10-05",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "OLIVIA GABRIEL (Attorney For Defendant); JILL M. COUGHLIN (Attorney For Plaintiff); KARINA VELTER (Attorney For Plaintiff); JOLANTA M. PEKALSKA (Attorney For Plaintiff); HARRY B. REESE (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260101378",
+      "caption": "METROPOLITAN LIFE INSURANCE COMPANY VS SHABAZZ-PER",
+      "raw_date": "05-OCT-2026",
+      "iso_date": "2026-10-05",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "CHRISTOPHER B. CASERIO (Attorney For Defendant); ANDREW T. KRAVITZ (Attorney For Plaintiff); JACQUELINE F. MCNALLY (Attorney For Plaintiff); ROBERT FLACCO (Attorney For Plaintiff); QUENTEN GILLIAM (Attorney For Plaintiff); CATHERINE APONTE  (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "260102949",
       "caption": "U.S. BANK TRUST COMPANY, NATIONAL ASSOCIATION, NOT",
       "raw_date": "05-OCT-2026",
@@ -271,6 +356,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
       "attorneys": "JERMAINE HARRIS (Attorney For Defendant); JACQUELINE F. MCNALLY (Attorney For Plaintiff); ROBERT FLACCO (Attorney For Plaintiff); TIMOTHY CIRINO (Attorney For Plaintiff); YVONNE C. GANLEY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260200378",
+      "caption": "FAY SERVICING, LLC VS SCHNOLIS",
+      "raw_date": "05-OCT-2026",
+      "iso_date": "2026-10-05",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "JESSICA N. MANIS (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -752,23 +854,6 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
-      "case_id": "260501478",
-      "caption": "NEILL ETAL VS KENNY'S AUTO SALES",
-      "raw_date": "06-OCT-2026",
-      "iso_date": "2026-10-06",
-      "time": "09:30 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "PETITIONS",
-      "case_type": "MISCELLANEOUS PETITION",
-      "attorneys": "MICHAEL M. GESSNER (Attorney For Petitioner); ALAN JAY. GELB ESQ (Attorney For Respondent)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
       "case_id": "260702006",
       "caption": "CITY OF PHILADELPHIA VS MOLA ETAL",
       "raw_date": "06-OCT-2026",
@@ -1211,8 +1296,42 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "261000378",
+      "caption": "KING VS DAJ CORINTHIAN PARTNERS LLC ETAL",
+      "raw_date": "07-OCT-2026",
+      "iso_date": "2026-10-07",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MAJOR NON JURY",
+      "case_type": "EQUITY - REAL ESTATE",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "261000402",
       "caption": "PACL HOLDINGS LLC VS COPPER ETAL",
+      "raw_date": "07-OCT-2026",
+      "iso_date": "2026-10-07",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "261000473",
+      "caption": "PHILADELPHIA HOUSING AUTHORITY VS GREEN",
       "raw_date": "07-OCT-2026",
       "iso_date": "2026-10-07",
       "time": "01:30 PM",
@@ -2956,7 +3075,7 @@
       "judge": "",
       "court_type": "Board of Revision of Taxes",
       "case_type": "BOARD OF REVISION OF TAXES-MVA",
-      "attorneys": "RAYMOND P. WENDOLOWSKI (Attorney For Appellee); STEVEN A. WAKEFIELD (Attorney For Appellee); FRANCESCO J. GRIECO (Attorney For Appellee); MYER S. MESSINGER (Attorney For Appellee); SEAN P. WHALEN (Attorney For Appellant); DAVID P. DEAN (Attorney For Appellant)",
+      "attorneys": "RAYMOND P. WENDOLOWSKI (Attorney For Appellee); AMANDA J. DOUGHERTY (Attorney For Appellee); STEVEN A. WAKEFIELD (Attorney For Appellee); MYER S. MESSINGER (Attorney For Appellee); SEAN P. WHALEN (Attorney For Appellant); DAVID P. DEAN (Attorney For Appellant)",
       "trial_days": "1"
     },
     {
@@ -2973,7 +3092,7 @@
       "judge": "",
       "court_type": "Board of Revision of Taxes",
       "case_type": "BOARD OF REVISION OF TAXES-MVA",
-      "attorneys": "RAYMOND P. WENDOLOWSKI (Attorney For Appellee); STEVEN A. WAKEFIELD (Attorney For Appellee); FRANCESCO J. GRIECO (Attorney For Appellee); MYER S. MESSINGER (Attorney For Appellee); SEAN P. WHALEN (Attorney For Appellant); DAVID P. DEAN (Attorney For Appellant)",
+      "attorneys": "RAYMOND P. WENDOLOWSKI (Attorney For Appellee); AMANDA J. DOUGHERTY (Attorney For Appellee); STEVEN A. WAKEFIELD (Attorney For Appellee); MYER S. MESSINGER (Attorney For Appellee); SEAN P. WHALEN (Attorney For Appellant); DAVID P. DEAN (Attorney For Appellant)",
       "trial_days": "1"
     },
     {
@@ -5646,6 +5765,23 @@
       "trial_days": ""
     },
     {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "191102588",
+      "caption": "POLICE AND FIRE FEDERAL CREDIT UNION VS THOMPSON",
+      "raw_date": "30-OCT-2026",
+      "iso_date": "2026-10-30",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "MARGARET GAIRO (Attorney For Plaintiff); ANTHONY L. RICHARDSON (Attorney For Plaintiff); MARISA COHEN (Attorney For Plaintiff); KENYA BATES (Attorney For Plaintiff); CHRISTINE L. GRAHAM (Attorney For Plaintiff); NATHALIE PAUL (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff); ERIC B. ROCHKIND (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
       "case_id": "250903167",
@@ -6715,6 +6851,23 @@
       "case_type": "CONTRACTS OTHER",
       "attorneys": "NICOLE E. COLLINS (Attorney For Plaintiff); MICHAEL F. MCGUIGAN (Attorney For Plaintiff); JASON E. STRAND (Attorney For Plaintiff); KIRSTEN R. ARMSTRONG (Attorney For Plaintiff); ERIN R. GRADY (Attorney For Plaintiff); SETH J. HOJNACKI (Attorney For Plaintiff)",
       "trial_days": ""
+    },
+    {
+      "program": "MJ",
+      "program_label": "Trial Dates Certain",
+      "case_id": "150101366",
+      "caption": "TAGGART VS JP MORGAN MORGAGE TRUST 2006-A-7 ETAL",
+      "raw_date": "10-NOV-2026",
+      "iso_date": "2026-11-10",
+      "time": "09:30 AM",
+      "room": "Complex Litigation Ctr Rm 622",
+      "location": "City Hall",
+      "event_type": "",
+      "judge": "",
+      "court_type": "Major Non-Jury",
+      "case_type": "QUIET TITLE",
+      "attorneys": "HENRY F. REICHNER (Attorney For Defendant); STEVEN J. ADAMS (Attorney For Defendant); ANDREW L. MARKOWITZ (Attorney For Defendant); ALEXIS G. COCCO (Attorney For Defendant); JOSEPH I. FOLEY (Attorney For Defendant); ROBERT W. WILLIAMS (Attorney For Defendant)",
+      "trial_days": "1"
     },
     {
       "program": "MJ",
