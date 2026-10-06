@@ -1,5 +1,40 @@
 [
   {
+    "case_id": "250703516",
+    "caption": "ZHAO ETAL VS CARRIE TURNER NEHEMIAH HOMEOWNERS ASS",
+    "case_type": "REAL PROPERTY - OTHER",
+    "trial_date": "2026-10-02",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-10-05",
+    "award": null,
+    "plaintiffs": [
+      "ZHAO, YING QUIN",
+      "LI, LEYI",
+      "TRAN, KHANH HUE",
+      "NGUYEN, TY XUAN"
+    ],
+    "defendants": [
+      "CARRIE TURNER NEHEMIAH HOMEOWNERS ASSOCIATION INC"
+    ],
+    "logged_at": "2026-10-06"
+  },
+  {
+    "case_id": "241102846",
+    "caption": "IN RE: APPEAL OF G R PARTNERS I LP",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "trial_date": "2026-10-06",
+    "category": "Settlement",
+    "status": "SETTLED BY STIPULATION",
+    "known": true,
+    "disposition_date": "2026-10-05",
+    "award": null,
+    "plaintiffs": [],
+    "defendants": [],
+    "logged_at": "2026-10-06"
+  },
+  {
     "case_id": "240701071",
     "caption": "KHAN VS FARMERS INSURANCE EXCHANGE ETAL",
     "case_type": "BAD FAITH",
