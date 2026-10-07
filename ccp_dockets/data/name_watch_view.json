@@ -110,13 +110,6 @@
           "filing_date": "2026-09-29",
           "matched_name": "DREXEL UNIVERSITY",
           "roles": "PLAINTIFF"
-        },
-        {
-          "case_id": "260902759",
-          "caption": "D. VS DREXEL UNIVERSITY ETAL",
-          "filing_date": "2026-09-22",
-          "matched_name": "DREXEL UNIVERSITY",
-          "roles": "DEFENDANT"
         }
       ]
     },
@@ -129,6 +122,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-10-05 14:13 EDT",
+  "generated_at": "2026-10-06 22:10 EDT",
   "window_days": 14
 }
