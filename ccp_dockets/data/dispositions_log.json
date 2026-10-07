@@ -1,5 +1,77 @@
 [
   {
+    "case_id": "250902116",
+    "caption": "CAPITAL ONE NA VS ULETT",
+    "case_type": "MC - SMALL CLAIMS APPEALS",
+    "trial_date": "2026-10-06",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-10-06",
+    "award": null,
+    "plaintiffs": [
+      "CAPITAL ONE NA"
+    ],
+    "defendants": [
+      "ULETT, JALEEL J"
+    ],
+    "logged_at": "2026-10-07"
+  },
+  {
+    "case_id": "250600746",
+    "caption": "WILLIAMS VS BRYANT",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-09-08",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-06",
+    "award": null,
+    "plaintiffs": [
+      "WILLIAMS, ROBERT"
+    ],
+    "defendants": [
+      "BRYANT, CECILIA"
+    ],
+    "logged_at": "2026-10-07"
+  },
+  {
+    "case_id": "250400529",
+    "caption": "JPMORGAN CHASE BANK N.A. VS TORRES",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-10-06",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-06",
+    "award": "$16,418.47",
+    "plaintiffs": [
+      "JPMORGAN CHASE BANK NA"
+    ],
+    "defendants": [
+      "TORRES, WILBERTH"
+    ],
+    "logged_at": "2026-10-07"
+  },
+  {
+    "case_id": "250200899",
+    "caption": "D'ALFONSO VS KAUR-JOSAN",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-05",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-10-06",
+    "award": null,
+    "plaintiffs": [
+      "DALFONSO, JAMES"
+    ],
+    "defendants": [
+      "KAUR-JOSAN, INDERJIT"
+    ],
+    "logged_at": "2026-10-07"
+  },
+  {
     "case_id": "250703516",
     "caption": "ZHAO ETAL VS CARRIE TURNER NEHEMIAH HOMEOWNERS ASS",
     "case_type": "REAL PROPERTY - OTHER",
@@ -443,6 +515,25 @@
     "plaintiffs": [],
     "defendants": [],
     "logged_at": "2026-09-27"
+  },
+  {
+    "case_id": "260301387",
+    "caption": "KEY VS GRIFFIN ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-09-25",
+    "award": null,
+    "plaintiffs": [
+      "KEY, GWENDOLYN"
+    ],
+    "defendants": [
+      "GRIFFIN, JOHNNY",
+      "ROWSER, AMINA"
+    ],
+    "logged_at": "2026-10-07"
   },
   {
     "case_id": "250503577",

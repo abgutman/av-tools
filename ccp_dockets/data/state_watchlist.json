@@ -466,8 +466,8 @@
     }
   },
   "260800873": {
-    "sig": "35|17-SEP-2026|PRELIM OBJECTIONS-MARKED MOOT",
-    "entry_count": 35,
+    "sig": "36|06-OCT-2026|PRELIMINARY OBJECTIONS",
+    "entry_count": 36,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -792,15 +792,21 @@
           "time": "09:18 AM",
           "type": "PRELIM OBJECTIONS-MARKED MOOT",
           "party": ""
+        },
+        {
+          "date": "06-OCT-2026",
+          "time": "03:32 PM",
+          "type": "PRELIMINARY OBJECTIONS",
+          "party": "MCDERMOTT, ANNE"
         }
       ],
       "last_entry": {
-        "date": "17-SEP-2026",
-        "time": "09:18 AM",
-        "type": "PRELIM OBJECTIONS-MARKED MOOT",
-        "party": ""
+        "date": "06-OCT-2026",
+        "time": "03:32 PM",
+        "type": "PRELIMINARY OBJECTIONS",
+        "party": "MCDERMOTT, ANNE"
       },
-      "entry_count": 35
+      "entry_count": 36
     }
   }
 }
