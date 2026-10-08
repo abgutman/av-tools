@@ -1,5 +1,118 @@
 [
   {
+    "case_id": "260304037",
+    "caption": "NEMBHARD VS UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-07",
+    "award": null,
+    "plaintiffs": [
+      "NEMBHARD, LIONEL G"
+    ],
+    "defendants": [
+      "UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-08"
+  },
+  {
+    "case_id": "260301823",
+    "caption": "PENALVERTH VS VEGA ET AL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-07",
+    "award": null,
+    "plaintiffs": [
+      "PENALVERTH, ROSA"
+    ],
+    "defendants": [
+      "VEGA, ROBERTO J",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-08"
+  },
+  {
+    "case_id": "260202558",
+    "caption": "CITIZENS BANK VS WILLIAMS, UNKNOWN HEIR OF",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-10-07",
+    "award": null,
+    "plaintiffs": [
+      "CITIZENS BANK NA"
+    ],
+    "defendants": [
+      "WILLIAMS UNKNOWN HEIRS OF ESTATE OF, GLORIA J",
+      "OCCUPANTS,",
+      "WILLIAMS KNOWN SURVIVING HEIR OF GLORIA J WILLIAMS, SIERRA",
+      "MCDONALD KNOWN SURVIVING HEIR OF GLORIA J WILLIAM, SHAPELLA",
+      "MCDONALD, ELIZABETH"
+    ],
+    "logged_at": "2026-10-08"
+  },
+  {
+    "case_id": "260202071",
+    "caption": "BEY, ADMIN VS UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-07",
+    "award": null,
+    "plaintiffs": [
+      "BEY ADMINISTRATOR OF THE ESTATE OF JOSEPH HOLDER BEY, FELICIA"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS,"
+    ],
+    "logged_at": "2026-10-08"
+  },
+  {
+    "case_id": "260201612",
+    "caption": "GARRETT VS LYONS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-07",
+    "award": null,
+    "plaintiffs": [
+      "GARRETT, CLACY"
+    ],
+    "defendants": [
+      "LYONS, SABRIA"
+    ],
+    "logged_at": "2026-10-08"
+  },
+  {
+    "case_id": "251202433",
+    "caption": "BARBOUR-DANIEL VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-07",
+    "award": null,
+    "plaintiffs": [
+      "BARBOUR-DANIEL, RENEE"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-08"
+  },
+  {
     "case_id": "250902116",
     "caption": "CAPITAL ONE NA VS ULETT",
     "case_type": "MC - SMALL CLAIMS APPEALS",

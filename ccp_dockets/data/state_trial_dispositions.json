@@ -514,7 +514,7 @@
     "trial_date": "2026-09-08",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR PRE-TRIAL CONF",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2219,7 +2219,7 @@
     "trial_date": "2026-10-06",
     "case_type": "MOTOR VEHICLE PROPERTY DAMAGE",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED FOR PRE-TRIAL CONF",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2537,9 +2537,9 @@
     "trial_date": "2026-10-07",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260201612": {
@@ -2547,9 +2547,9 @@
     "trial_date": "2026-10-07",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260202071": {
@@ -2557,9 +2557,9 @@
     "trial_date": "2026-10-07",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260202558": {
@@ -2567,9 +2567,9 @@
     "trial_date": "2026-10-07",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT OF NON PROS ENTERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260301387": {
@@ -2587,9 +2587,9 @@
     "trial_date": "2026-10-07",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260303230": {
@@ -2607,9 +2607,9 @@
     "trial_date": "2026-10-07",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260304491": {
@@ -2835,6 +2835,303 @@
     "trial_date": "2026-11-17",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-10-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250203742": {
+    "caption": "HEADWAY CAPITAL LLC VS KIM KOOKS CO ETAL",
+    "trial_date": "2026-11-13",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250402487": {
+    "caption": "ABDELKAWEY VS ALHAFFAR",
+    "trial_date": "2026-11-17",
+    "case_type": "CONSTRUCTION CONTRACT",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250600485": {
+    "caption": "HANCE VS RIVERA",
+    "trial_date": "2026-11-17",
+    "case_type": "MOTOR VEHICLE PROPERTY DAMAGE",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250403586": {
+    "caption": "2232 OAKFORD STREET LTD LLC VS XBLOCK LLC ETAL",
+    "trial_date": "2026-11-23",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241201673": {
+    "caption": "KOWALCZYK VS WEBER",
+    "trial_date": "2026-12-04",
+    "case_type": "MC - SMALL CLAIMS APPEALS",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250403761": {
+    "caption": "THIRD S 836 LLC VS HAFFEY ETAL",
+    "trial_date": "2026-12-10",
+    "case_type": "FRAUD",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240900536": {
+    "caption": "DISCOVER BANK VS WILSON",
+    "trial_date": "2026-12-17",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241101092": {
+    "caption": "DISCOVER BANK VS WATKINS",
+    "trial_date": "2026-12-17",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251001407": {
+    "caption": "SELF MENTOR TRUST VS WILSON ETAL",
+    "trial_date": "2026-11-03",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250901805": {
+    "caption": "ESTATE OF VINCENT CAMPBELL VS NICHOLS",
+    "trial_date": "2026-11-04",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250901488": {
+    "caption": "ALLY BANK VS GUZMAN ETAL",
+    "trial_date": "2026-11-06",
+    "case_type": "REPLEVIN",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250102957": {
+    "caption": "MNH MANAGEMENT LLC VS STRAWBERRY MANSION HOUSING C",
+    "trial_date": "2026-11-16",
+    "case_type": "EQUITY - REAL ESTATE",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250302076": {
+    "caption": "HARRISON SMITH LLC VS PICK 1 REALTY ETAL",
+    "trial_date": "2026-11-16",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250600722": {
+    "caption": "GEIGER VS A2Z HOMES LLC ETAL",
+    "trial_date": "2026-11-17",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251000856": {
+    "caption": "WALKER VS THE SALVATION ARMY ETAL",
+    "trial_date": "2026-11-24",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250800323": {
+    "caption": "SINGH ETAL VS WASHINGTON ETAL",
+    "trial_date": "2026-12-01",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250800562": {
+    "caption": "CONNEXUS CREDIT UNION VS RUDOLPH",
+    "trial_date": "2026-12-01",
+    "case_type": "REPLEVIN",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251001552": {
+    "caption": "MARTINEZ VS OLVIDA",
+    "trial_date": "2026-12-03",
+    "case_type": "EQUITY - REAL ESTATE",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250803226": {
+    "caption": "LOANDEPOT.COM, LLC VS GILLIAM ETAL",
+    "trial_date": "2026-12-08",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250302444": {
+    "caption": "SMITH ETAL VS STATE FARM FIRE AND CASUALTY COMPANY",
+    "trial_date": "2026-12-10",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240902805": {
+    "caption": "EDWARDS ETAL VS MAYFAIR IMPORTS AUTO SALES, INC. E",
+    "trial_date": "2026-12-15",
+    "case_type": "FRAUD",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250402377": {
+    "caption": "BARNETT VS SOUTHEASTERN PENNSYLVANIA TRANSPORTATIO",
+    "trial_date": "2026-12-15",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250703409": {
+    "caption": "AMERICAN CREDIT ACCEPTANCE VS FINAL DESTINATION",
+    "trial_date": "2026-12-22",
+    "case_type": "REPLEVIN",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250901043": {
+    "caption": "MALBACIAS VS HUYNH",
+    "trial_date": "2027-01-05",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250902778": {
+    "caption": "KOROMA VS WEEDOR",
+    "trial_date": "2027-01-20",
+    "case_type": "REPLEVIN",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251001389": {
+    "caption": "KLICHINSKY VS HOLY REDEEMER HEALTH SYSTEM ETAL",
+    "trial_date": "2027-01-25",
+    "case_type": "PERSONAL INJURY - OTHER",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250903132": {
+    "caption": "WILMINGTON SAVINGS FUND VS REGEIS REALTY",
+    "trial_date": "2026-11-19",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250301090": {
+    "caption": "PENNYMAC LOAN SERVICES, LLC VS RICH",
+    "trial_date": "2026-11-24",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241203073": {
+    "caption": "WILMINGTON SAVINGS FUND VS PING",
+    "trial_date": "2026-12-01",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251002742": {
+    "caption": "LHOME MORTGAGE TRUST VS EFFICIENT DESIGNER",
+    "trial_date": "2026-12-04",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "220602647": {
+    "caption": "WBL SPO II, LLC VS ALSTON ETAL",
+    "trial_date": "2026-12-15",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250600180": {
+    "caption": "FEDERAL HOME LOAN MORTGAGE VS MICHAUD",
+    "trial_date": "2026-12-18",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250601138": {
+    "caption": "PENNA. HOUSING FINANCE AGENCY VS MORRIS",
+    "trial_date": "2026-12-21",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-10-08",
     "last_status": "",
     "reported": false,
     "retired": false
