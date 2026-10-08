@@ -28,6 +28,13 @@
       "label": "Drexel University",
       "rows": [
         {
+          "case_id": "2610W26010716",
+          "caption": "CITY OF PHILADELPHIA VS. DREXEL UNIVERSITY",
+          "filing_date": "2026-10-08",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "DEFENDANT"
+        },
+        {
           "case_id": "260903697",
           "caption": "DREXEL UNIVERSITY VS NDIRIPO",
           "filing_date": "2026-09-29",
@@ -122,6 +129,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-10-06 22:10 EDT",
+  "generated_at": "2026-10-08 11:01 EDT",
   "window_days": 14
 }
