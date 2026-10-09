@@ -1,5 +1,24 @@
 [
   {
+    "case_id": "250802526",
+    "caption": "ROBINS ETAL VS ERIE INSURANCE COMPANY",
+    "case_type": "INSURANCE, DECLARATORY JUDGMNT",
+    "trial_date": "2026-09-08",
+    "category": "Default judgment",
+    "status": "COURT ORDERED DEFAULT JUDGMENT",
+    "known": true,
+    "disposition_date": "2026-10-08",
+    "award": null,
+    "plaintiffs": [
+      "ROBINS, TRAVIS",
+      "ROBINS, MISTY"
+    ],
+    "defendants": [
+      "ERIE INSURANCE COMPANY"
+    ],
+    "logged_at": "2026-10-09"
+  },
+  {
     "case_id": "260304037",
     "caption": "NEMBHARD VS UNKNOWN OCCUPANTS",
     "case_type": "EJECTMENT",
