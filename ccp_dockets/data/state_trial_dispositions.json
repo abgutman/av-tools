@@ -864,7 +864,7 @@
     "first_seen": "2026-07-23",
     "last_status": "SUMMARY JUDG/DISP MOT GRANTED",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "220202382": {
@@ -874,7 +874,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "220701999": {
@@ -3133,6 +3133,51 @@
     "trial_date": "2026-12-21",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-10-08",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250202767": {
+    "caption": "GEDEUS VS NGO",
+    "trial_date": "2026-11-03",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-10",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250600459": {
+    "caption": "WALLER VS SERAFIM ETAL",
+    "trial_date": "2026-11-09",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-10",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240900417": {
+    "caption": "RAINEY VS GRIFFIN",
+    "trial_date": "2026-11-16",
+    "case_type": "CONTRACTS (GOODS), ENFORCE",
+    "first_seen": "2026-10-10",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250401925": {
+    "caption": "CITIBANK NA VS NWACHUKWU",
+    "trial_date": "2026-11-24",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-10-10",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250900684": {
+    "caption": "BRYANT VS SCHOLFIELD ETAL",
+    "trial_date": "2026-11-09",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-10-10",
     "last_status": "",
     "reported": false,
     "retired": false

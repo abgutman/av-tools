@@ -1,5 +1,18 @@
 [
   {
+    "case_id": "220102136",
+    "caption": "PHH MORTGAGE CORPORATION VS HAYNES ETAL",
+    "case_type": "RESIDENTIAL REVERSE MORT-MR",
+    "trial_date": "2026-08-25",
+    "category": "Unclassified \u2014 verify",
+    "status": "SUMMARY JUDG/DISP MOT GRANTED",
+    "known": false,
+    "disposition_date": "2026-10-10",
+    "plaintiffs": [],
+    "defendants": [],
+    "logged_at": "2026-10-10"
+  },
+  {
     "case_id": "250802526",
     "caption": "ROBINS ETAL VS ERIE INSURANCE COMPANY",
     "case_type": "INSURANCE, DECLARATORY JUDGMNT",
