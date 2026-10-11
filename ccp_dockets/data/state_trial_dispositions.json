@@ -456,7 +456,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "240802422": {
@@ -894,7 +894,7 @@
     "first_seen": "2026-07-23",
     "last_status": "DEFERRED - BANKRUPTCY",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250102935": {
