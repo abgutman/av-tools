@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-10-10T09:20:32 EDT",
+    "scraped_at": "2026-10-11T09:50:04 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-10-10",
-      "end": "2027-02-07"
+      "start": "2026-10-11",
+      "end": "2027-02-08"
     },
     "counts": {
-      "CM": 345,
+      "CM": 346,
       "MJ": 116,
-      "total": 461
+      "total": 462
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -7853,6 +7853,23 @@
       "court_type": "AGENCY APPEAL",
       "case_type": "BOARD OF REVISION OF TAXES-MVA",
       "attorneys": "RAYMOND P. WENDOLOWSKI (Attorney For Appellee); AMANDA J. DOUGHERTY (Attorney For Appellee); FRANCESCO J. GRIECO (Attorney For Appellee); MYER S. MESSINGER (Attorney For Appellee); NATHANAEL CLARK. FARRIS (Attorney For Appellant); PATRICK A. ZANCOLLI (Attorney For Appellant)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "2605T0228",
+      "caption": "CITY OF PHILADELPHIA VS TOMASZEWSKI ETAL",
+      "raw_date": "08-FEB-2027",
+      "iso_date": "2027-02-08",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "RULE RETURNABLE DATE",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "JAMES J. ZWOLAK (Attorney For Plaintiff); WILLIAM J. TAYLOR (Attorney For Respondent)",
       "trial_days": ""
     }
   ]
