@@ -466,7 +466,7 @@
     "first_seen": "2026-07-23",
     "last_status": "HELD UNDER ADVISEMENT",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250202669": {
