@@ -32,6 +32,25 @@
     "logged_at": "2026-10-09"
   },
   {
+    "case_id": "250200046",
+    "caption": "WALL VS JOHN DOE 1-3, JANE DOE 1-3 ABC PARTNERSHIP",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "trial_date": "2026-10-13",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-10-08",
+    "award": null,
+    "plaintiffs": [
+      "WALL, CHERISE"
+    ],
+    "defendants": [
+      "JOHN DOE 1-3 JANE DOE 1-3 ABC PARTNERSHIPS/ XYZ CORPORATION",
+      "CITY OF PHILADELPHIA"
+    ],
+    "logged_at": "2026-10-13"
+  },
+  {
     "case_id": "260304037",
     "caption": "NEMBHARD VS UNKNOWN OCCUPANTS",
     "case_type": "EJECTMENT",
@@ -1129,6 +1148,26 @@
       "JOHN / JANE DOES 1-8"
     ],
     "logged_at": "2026-09-17"
+  },
+  {
+    "case_id": "240701098",
+    "caption": "JOHNSON VS KIM ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-13",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-09-17",
+    "award": null,
+    "plaintiffs": [
+      "JOHNSON, MATEENMA"
+    ],
+    "defendants": [
+      "KIM, SOON BAE",
+      "KIM, TAE SOON",
+      "GRAY, DONALD"
+    ],
+    "logged_at": "2026-10-13"
   },
   {
     "case_id": "260403931",

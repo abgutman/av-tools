@@ -1380,9 +1380,10 @@
     "trial_date": "2026-10-13",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250201467": {
     "caption": "DREXEL UNIVERSITY VS THOMPSON OLATIGBE",
@@ -1487,18 +1488,20 @@
     "trial_date": "2026-10-13",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-08-06",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250203316": {
     "caption": "SMITH VS PAR RECYCLE WORKS",
     "trial_date": "2026-10-13",
     "case_type": "EMPLOYMENT, WRONGFUL DISCHARGE",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250203314": {
     "caption": "LAW VS 311 WEST MARSHALL LLC ETAL",
@@ -2174,9 +2177,10 @@
     "trial_date": "2026-10-13",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-09",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250203748": {
     "caption": "WATSON VS MIDDLEBROOK ETAL",
@@ -2229,18 +2233,20 @@
     "trial_date": "2026-10-13",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250403296": {
     "caption": "DISCOVER BANK VS THOMAS",
     "trial_date": "2026-10-13",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250202247": {
     "caption": "POLLINI VS BOYLE ETAL",
@@ -2428,9 +2434,10 @@
     "trial_date": "2026-10-13",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241200904": {
     "caption": "MOODY ETAL VS PRIESTER ETAL",
@@ -2764,27 +2771,30 @@
     "trial_date": "2026-10-13",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250203426": {
     "caption": "COTTMAN VS QUEVEDO-GUZMAN",
     "trial_date": "2026-10-13",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250401855": {
     "caption": "SANNI VS KELLY",
     "trial_date": "2026-10-13",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240400795": {
     "caption": "SPENCER ETAL VS SCHOOL DISTRICT OF PHILADELPHIA ET",
