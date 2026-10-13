@@ -1,14 +1,14 @@
 {
   "meta": {
-    "scraped_at": "2026-10-12T12:33:26 EDT",
+    "scraped_at": "2026-10-13T10:51:23 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-10-12",
-      "end": "2027-02-09"
+      "start": "2026-10-13",
+      "end": "2027-02-10"
     },
     "counts": {
       "CM": 346,
@@ -3914,6 +3914,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "261000048",
+      "caption": "FGD INVESTMENTS LLC VS PHILADELPHIA LICENSE & INSP",
+      "raw_date": "02-NOV-2026",
+      "iso_date": "2026-11-02",
+      "time": "11:00 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "PETITIONS",
+      "case_type": "MISCELLANEOUS PETITION",
+      "attorneys": "PAUL A. BUCCO (Attorney For Petitioner); AMY A. SKILES (Attorney For Respondent); MARY C. HAGGERTY (Attorney For Respondent)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "180503270",
       "caption": "DEUTSCHE BANK NATIONAL TRUST COMPANY VS WILSON ETA",
       "raw_date": "03-NOV-2026",
@@ -7343,23 +7360,6 @@
       "court_type": "AGENCY APPEAL",
       "case_type": "ZONING BOARD OF ADJUSTMENT",
       "attorneys": "COREN J. WISE (Attorney For Appellant)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "261000048",
-      "caption": "FGD INVESTMENTS LLC VS PHILADELPHIA LICENSE & INSP",
-      "raw_date": "02-DEC-2026",
-      "iso_date": "2026-12-02",
-      "time": "11:00 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "PETITIONS",
-      "case_type": "MISCELLANEOUS PETITION",
-      "attorneys": "PAUL A. BUCCO (Attorney For Petitioner); AMY A. SKILES (Attorney For Respondent); MARY C. HAGGERTY (Attorney For Respondent)",
       "trial_days": ""
     },
     {
