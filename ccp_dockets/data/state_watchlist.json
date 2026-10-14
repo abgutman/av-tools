@@ -466,8 +466,8 @@
     }
   },
   "260800873": {
-    "sig": "36|06-OCT-2026|PRELIMINARY OBJECTIONS",
-    "entry_count": 36,
+    "sig": "37|13-OCT-2026|LISTED FOR CASE MGMT CONF",
+    "entry_count": 37,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -477,7 +477,7 @@
       "court": "MAJOR NON JURY EXPEDITED",
       "case_type": "REAL PROPERTY - OTHER",
       "jury": "JURY",
-      "status": "WAITING TO LIST CASE MGMT CONF",
+      "status": "LISTED FOR CASE MGMT CONF",
       "plaintiffs": [
         "SAVE OUR NEIGHBORHOOD FOR TOMORROW INC"
       ],
@@ -581,7 +581,15 @@
           "address": "1500 MARKET STREET CENTRE SQUARE, WEST TOWER SUITE W-3110 PHILADELPHIA PA 19102 (215)972-1500 pherron@kellyherronlaw.com"
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "event": "CASE MANAGEMENT CONFERENCE",
+          "datetime": "03-NOV-2026 03:00 PM",
+          "room": "VIA ADVANCED COMMUN. TECH.",
+          "location": "REMOTE HEARING",
+          "judge": "unassigned"
+        }
+      ],
       "entries": [
         {
           "date": "06-AUG-2026",
@@ -798,15 +806,21 @@
           "time": "03:32 PM",
           "type": "PRELIMINARY OBJECTIONS",
           "party": "MCDERMOTT, ANNE"
+        },
+        {
+          "date": "13-OCT-2026",
+          "time": "03:35 PM",
+          "type": "LISTED FOR CASE MGMT CONF",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "06-OCT-2026",
-        "time": "03:32 PM",
-        "type": "PRELIMINARY OBJECTIONS",
-        "party": "MCDERMOTT, ANNE"
+        "date": "13-OCT-2026",
+        "time": "03:35 PM",
+        "type": "LISTED FOR CASE MGMT CONF",
+        "party": ""
       },
-      "entry_count": 36
+      "entry_count": 37
     }
   }
 }

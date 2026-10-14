@@ -1,5 +1,63 @@
 [
   {
+    "case_id": "250903069",
+    "caption": "PALACIO VS WILLARD",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-10-09",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-13",
+    "award": null,
+    "plaintiffs": [
+      "PALACIO, STANLEY"
+    ],
+    "defendants": [
+      "WILLARD, HAL"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "250703098",
+    "caption": "SHAW VS POLICE OFFICER JOHN DOE, BADGE NO. 1513 ET",
+    "case_type": "ASSAULT, BATTERY",
+    "trial_date": "2026-09-30",
+    "category": "Damages assessed",
+    "status": "DAMAGES ASSESSED",
+    "known": true,
+    "disposition_date": "2026-10-13",
+    "award": "$50,000",
+    "plaintiffs": [
+      "SHAW, SWAINSON"
+    ],
+    "defendants": [
+      "POLICE OFFICER JOHN DOE BADGE NO 1513,",
+      "POLICE OFFICER RICHARD ROE BADGE NO 4302,",
+      "CITY OF PHILADELPHIA",
+      "CARR BADGE 1513, TIMOTHY P/O",
+      "STRALO BADGE 4302, JONATHON P/O"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "250201435",
+    "caption": "VELOCITY INVESTMENTS, LLC VS DAVIS",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-10-13",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-10-13",
+    "award": null,
+    "plaintiffs": [
+      "VELOCITY INVESTMENTS LLC"
+    ],
+    "defendants": [
+      "DAVIS, EBONY"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
     "case_id": "220102136",
     "caption": "PHH MORTGAGE CORPORATION VS HAYNES ETAL",
     "case_type": "RESIDENTIAL REVERSE MORT-MR",
@@ -791,6 +849,25 @@
       "DELLAROCCA, JOHN"
     ],
     "logged_at": "2026-09-25"
+  },
+  {
+    "case_id": "260400804",
+    "caption": "GOLDEN ASSET LLC VS OCCUPANTS ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-09-23",
+    "award": null,
+    "plaintiffs": [
+      "GOLDEN ASSET LLC"
+    ],
+    "defendants": [
+      "OCCUPANTS, UNKNOWN",
+      "SATCHELL, SHANNON"
+    ],
+    "logged_at": "2026-10-14"
   },
   {
     "case_id": "250702202",

@@ -23,7 +23,7 @@
     "case_type": "REAL PROPERTY - OTHER",
     "caption": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. VS BAR X",
     "filing_date": "2026-08-06",
-    "status": "WAITING TO LIST CASE MGMT CONF",
+    "status": "LISTED FOR CASE MGMT CONF",
     "plaintiffs": [
       "SAVE OUR NEIGHBORHOOD FOR TOMORROW INC"
     ],
@@ -35,8 +35,8 @@
       "COLLINS-GREENWALD, BRIDGET",
       "CAMAC 255 CORPORATION"
     ],
-    "entry_count": 36,
-    "last_entry_type": "PRELIMINARY OBJECTIONS",
-    "last_entry_date": "06-OCT-2026"
+    "entry_count": 37,
+    "last_entry_type": "LISTED FOR CASE MGMT CONF",
+    "last_entry_date": "13-OCT-2026"
   }
 ]
