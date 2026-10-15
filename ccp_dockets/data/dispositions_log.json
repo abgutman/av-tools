@@ -1,5 +1,248 @@
 [
   {
+    "case_id": "260402678",
+    "caption": "GRIER VS LAMBERT ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "GRIER, ABDUL"
+    ],
+    "defendants": [
+      "LAMBERT, KHALIF",
+      "BENNETT, CHARDIA",
+      "GOOSBY, SHAHEED",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260402176",
+    "caption": "BALILAJ VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "BALILAJ, PELLUMB"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260401801",
+    "caption": "COX VS BLAGMON",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "COX, BERNICE M"
+    ],
+    "defendants": [
+      "BLAGMON, YVONNE"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260401797",
+    "caption": "MILLS VS DYALL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Discontinuance",
+    "status": "DISCONTINUANCE ORDERED",
+    "known": false,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "MILLS, RAMON"
+    ],
+    "defendants": [
+      "DYALL, SPARKLE"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260401789",
+    "caption": "GEMMA VENDING, LLC VS GRIZZARD",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Discontinuance",
+    "status": "DISCONTINUANCE ORDERED",
+    "known": false,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "GEMMA VENDING LLC"
+    ],
+    "defendants": [
+      "GRIZZARD, KYLE"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260401558",
+    "caption": "SLAFMAN VS BRIGGS ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "SLAFMAN, DAVID"
+    ],
+    "defendants": [
+      "BRIGGS, STEPHANIE",
+      "ALL OCCUPANTS,"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260401532",
+    "caption": "PARKER VS CARTER ET AL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "PARKER, NATHAN"
+    ],
+    "defendants": [
+      "CARTER, DANERA",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260401340",
+    "caption": "COOPER VS WEBB",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "COOPER, WILLIAM"
+    ],
+    "defendants": [
+      "WEBB, KIM"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260401125",
+    "caption": "CECALA ETAL VS ORSINI ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "CECALA, GABRIELLE",
+      "CECALA, GABRIELLE"
+    ],
+    "defendants": [
+      "ORSINI, WILFREDO",
+      "ORSINI, WILFREDO"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "260304491",
+    "caption": "4657-61 PENN LLC VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-14",
+    "category": "Discontinuance",
+    "status": "DISCONTINUANCE ORDERED",
+    "known": false,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "4657-61 PENN LLC"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "250901925",
+    "caption": "PHILA HOUSING AUTHORITY VS COOKS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-13",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "PHILADELPHIA HOUSING AUTHORITY"
+    ],
+    "defendants": [
+      "COOKS, SYLVIA"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "250403296",
+    "caption": "DISCOVER BANK VS THOMAS",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-10-13",
+    "category": "Discontinuance",
+    "status": "DISCONTINUANCE ORDERED",
+    "known": false,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "DISCOVER BANK",
+      "CAPITAL ONE NA SUCCESSOR BY MERGER TO DISCOVER BANK"
+    ],
+    "defendants": [
+      "THOMAS, QUINITA"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
+    "case_id": "250302473",
+    "caption": "DISCOVER BANK VS SCHER",
+    "case_type": "CREDIT CARD COLLECTION",
+    "trial_date": "2026-10-13",
+    "category": "Discontinuance",
+    "status": "DISCONTINUANCE ORDERED",
+    "known": false,
+    "disposition_date": "2026-10-14",
+    "award": null,
+    "plaintiffs": [
+      "DISCOVER BANK",
+      "CAPITAL ONE BANK"
+    ],
+    "defendants": [
+      "SCHER, MARILYN"
+    ],
+    "logged_at": "2026-10-14"
+  },
+  {
     "case_id": "250903069",
     "caption": "PALACIO VS WILLARD",
     "case_type": "QUIET TITLE",

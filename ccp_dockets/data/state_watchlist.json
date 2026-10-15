@@ -466,8 +466,8 @@
     }
   },
   "260800873": {
-    "sig": "37|13-OCT-2026|LISTED FOR CASE MGMT CONF",
-    "entry_count": 37,
+    "sig": "40|14-OCT-2026|NOTICE GIVEN",
+    "entry_count": 40,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -812,15 +812,33 @@
           "time": "03:35 PM",
           "type": "LISTED FOR CASE MGMT CONF",
           "party": ""
+        },
+        {
+          "date": "13-OCT-2026",
+          "time": "04:47 PM",
+          "type": "ANSWER (MOTION/PETITION) FILED",
+          "party": "ROACH, MARIROSE"
+        },
+        {
+          "date": "13-OCT-2026",
+          "time": "04:48 PM",
+          "type": "PRELIMINARY OBJECTIONS",
+          "party": "ROACH, MARIROSE"
+        },
+        {
+          "date": "14-OCT-2026",
+          "time": "07:33 AM",
+          "type": "NOTICE GIVEN",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "13-OCT-2026",
-        "time": "03:35 PM",
-        "type": "LISTED FOR CASE MGMT CONF",
+        "date": "14-OCT-2026",
+        "time": "07:33 AM",
+        "type": "NOTICE GIVEN",
         "party": ""
       },
-      "entry_count": 37
+      "entry_count": 40
     }
   }
 }
