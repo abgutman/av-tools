@@ -874,6 +874,24 @@
     "logged_at": "2026-10-01"
   },
   {
+    "case_id": "250700726",
+    "caption": "3114 GRAYS FERRY AVE VS NEW AGE DEVELOPMENT GROUP",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-10-15",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-09-29",
+    "award": null,
+    "plaintiffs": [
+      "3114 GRAYS FERRY AVENUE LLC"
+    ],
+    "defendants": [
+      "NEW AGE DEVELOPMENT GROUP LLC"
+    ],
+    "logged_at": "2026-10-15"
+  },
+  {
     "case_id": "250202687",
     "caption": "PRIORE IMPROVEMENT LLC VS MAZZA ETAL",
     "case_type": "CONSTRUCTION CONTRACT",

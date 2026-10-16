@@ -714,18 +714,20 @@
     "trial_date": "2026-10-15",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250700726": {
     "caption": "3114 GRAYS FERRY AVE VS NEW AGE DEVELOPMENT GROUP",
     "trial_date": "2026-10-15",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "230100907": {
     "caption": "MORTGAGE ASSETS MANAGEMENT VS LOGAN ETAL",
@@ -2007,7 +2009,7 @@
     "trial_date": "2026-09-29",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR PRE-TRIAL CONF",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2017,7 +2019,7 @@
     "trial_date": "2026-09-29",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR PRE-TRIAL CONF",
     "reported": false,
     "retired": false,
     "_polled_before": true
