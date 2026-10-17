@@ -906,7 +906,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "171000971": {
@@ -2255,9 +2255,9 @@
     "trial_date": "2026-10-14",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241000972": {
@@ -2466,27 +2466,30 @@
     "trial_date": "2026-10-16",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-09-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251002333": {
     "caption": "IN RE: APPEAL OF 2101 WASHINGTON AVENUE DEVELOPMEN",
     "trial_date": "2026-10-16",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-09-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251002412": {
     "caption": "IN RE: APPEAL OF 2101 WASHINGTON AVENUE DEVELOPMEN",
     "trial_date": "2026-10-16",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-09-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250800213": {
     "caption": "HRONEC VS REED",
@@ -2795,9 +2798,9 @@
     "trial_date": "2026-10-13",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250401855": {
