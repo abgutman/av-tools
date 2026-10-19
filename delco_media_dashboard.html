@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Greater Media Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated October 18, 2026 at 12:59 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated October 19, 2026 at 04:13 PM</div>
 </div>
 
 <div class="nav">
@@ -104,14 +104,31 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (2)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (0)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (1)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (21)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (23)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(2)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(0)</span></h2>
+        <div class="empty">No cases in this category.</div>
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f2f2246148bac13aefa65e0de06977078f1add759dea8cf7fe01a9e0b1c5c9d0" target="_blank" rel="noopener" class="case-number">CV-2026-009241</a>
+            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f2f2246148bac13aefa65e0de06977078f1add759dea8cf7fe01a9e0b1c5c9d0" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">PARK FUNDING IV TRUST v. HOFFMAN et al</div>
+        <div class="case-meta">Filed: 2026-10-07</div>
+        <div class="local-party"><strong>Defendant:</strong> JOYCE W HOFFMAN <span class="locale">Media (19063)</span></div><div class="local-party"><strong>Defendant:</strong> SARAH HOFFMAN <span class="locale">Media (19063)</span></div><div class="local-party"><strong>Defendant:</strong> JEFFREY ROBERT HOFFMAN <span class="locale">Media (19063)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(23)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/31e0ba7ce39f5dc7fe9773d580cc4b60cec9389e379fa657674925529e7b4917" target="_blank" rel="noopener" class="case-number">CV-2026-009489</a>
@@ -132,23 +149,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-10-15</div>
         <div class="local-party"><strong>Plaintiff:</strong> Richard K Shaw <span class="locale">Media (19063)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
-        <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f2f2246148bac13aefa65e0de06977078f1add759dea8cf7fe01a9e0b1c5c9d0" target="_blank" rel="noopener" class="case-number">CV-2026-009241</a>
-            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f2f2246148bac13aefa65e0de06977078f1add759dea8cf7fe01a9e0b1c5c9d0" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">PARK FUNDING IV TRUST v. HOFFMAN et al</div>
-        <div class="case-meta">Filed: 2026-10-07</div>
-        <div class="local-party"><strong>Defendant:</strong> JOYCE W HOFFMAN <span class="locale">Media (19063)</span></div><div class="local-party"><strong>Defendant:</strong> SARAH HOFFMAN <span class="locale">Media (19063)</span></div><div class="local-party"><strong>Defendant:</strong> JEFFREY ROBERT HOFFMAN <span class="locale">Media (19063)</span></div>
-    </div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(21)</span></h2>
-        <div class="case-card">
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261001848</span>
             <span class="case-type">EQUITY - NO REAL ESTATE</span>
