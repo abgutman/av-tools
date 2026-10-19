@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-10-18T07:58:02 EDT",
+    "scraped_at": "2026-10-19T10:25:28 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-10-18",
-      "end": "2027-02-15"
+      "start": "2026-10-19",
+      "end": "2027-02-16"
     },
     "counts": {
-      "CM": 367,
+      "CM": 374,
       "MJ": 90,
-      "total": 457
+      "total": 464
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -1087,6 +1087,23 @@
       "court_type": "Major Non-Jury",
       "case_type": "EQUITY - REAL ESTATE",
       "attorneys": "MATTHEW S. OLESH (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250303695",
+      "caption": "GSD PROPERTIES, LLC VS ALL UNKNOWN OCCUPANTS OF 57",
+      "raw_date": "21-OCT-2026",
+      "iso_date": "2026-10-21",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "DAVID K. LEHMAN (Attorney For Intervenor); JEFFREY KATZ (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -2384,6 +2401,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "2308T0045",
+      "caption": "CITY OF PHILADELPHIA VS ELLIS",
+      "raw_date": "27-OCT-2026",
+      "iso_date": "2026-10-27",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "JAMES J. ZWOLAK (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "231001157",
       "caption": "HOPKINSON HOUSE OWNERS ASSOC VS WAKSMAN ETAL",
       "raw_date": "27-OCT-2026",
@@ -2435,6 +2469,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "2403T0159",
+      "caption": "CITY OF PHILADELPHIA VS WILLIAMS",
+      "raw_date": "27-OCT-2026",
+      "iso_date": "2026-10-27",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "NICOLA MITCHELL (Attorney For Petitioner); LAUREN BURGESS (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "240501973",
       "caption": "J.P. MORGAN MORTGAGE ACQUISITION CORP., VS MEREDIT",
       "raw_date": "27-OCT-2026",
@@ -2447,6 +2498,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
       "attorneys": "ALEXANDER PALMER (Attorney For Petitioner); MICHAEL J. SHAVEL (Attorney For Plaintiff); STEPHEN M. HLADIK (Attorney For Plaintiff); ROBERT W. WILLIAMS (Attorney For Plaintiff); JILL M. FEIN (Attorney For Plaintiff); KAITLIN D. SHIRE (Attorney For Plaintiff); THOMAS C. DYER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "240503541",
+      "caption": "TOWD POINT MASTER FUNDING TRUST VS HUMPHRIES",
+      "raw_date": "27-OCT-2026",
+      "iso_date": "2026-10-27",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+      "attorneys": "MICHAEL J. SHAVEL (Attorney For Plaintiff); JILL M. FEIN (Attorney For Plaintiff); KAITLIN D. SHIRE (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -2498,6 +2566,23 @@
       "court_type": "REAL ESTATE TAX LIEN PETITION",
       "case_type": "REAL ESTATE TAX LIEN PETITION",
       "attorneys": "JAMES J. ZWOLAK (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "251102371",
+      "caption": "CITIBANK, N.A., NOT IN ITS INDIVIDUAL CAPACITY BUT",
+      "raw_date": "27-OCT-2026",
+      "iso_date": "2026-10-27",
+      "time": "01:30 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "JACQUELINE F. MCNALLY (Attorney For Plaintiff); ROBERT FLACCO (Attorney For Plaintiff); NICOLE M. FRANCESE (Attorney For Plaintiff); YVONNE C. GANLEY (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -4203,6 +4288,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "250402801",
+      "caption": "DIEHL ETAL VS URENA GUZMAN",
+      "raw_date": "04-NOV-2026",
+      "iso_date": "2026-11-04",
+      "time": "10:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "ARBITRATION",
+      "case_type": "SUBROGATION ACTION",
+      "attorneys": "AMANDA L. RAUER (Attorney For Defendant); CANDEE WILDE (Attorney For Defendant); KEVIN RICARD (Attorney For Defendant); DOUGLAS G. AARON (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "2602M0019",
       "caption": "COMPUTER INCORE SAMIR FOUZIR, LLC VS SKGKK INVESTM",
       "raw_date": "04-NOV-2026",
@@ -5677,6 +5779,23 @@
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
       "attorneys": "ANDREW L. MARKOWITZ (Attorney For Plaintiff); ANDREW T. KRAVITZ (Attorney For Plaintiff); ROBERT FLACCO (Attorney For Plaintiff); TIMOTHY CIRINO (Attorney For Plaintiff); PERRY RUSSELL (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250402984",
+      "caption": "J.G. WENTWORTH ORIGINATIONS, LLC VS METROPOLITAN L",
+      "raw_date": "19-NOV-2026",
+      "iso_date": "2026-11-19",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "PETITIONS",
+      "case_type": "TRANSFER STRUCTURED SETTLEMENT",
+      "attorneys": "ROBERT A. MARO (Attorney For Petitioner)",
       "trial_days": ""
     },
     {
