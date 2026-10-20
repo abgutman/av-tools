@@ -21,13 +21,6 @@
           "filing_date": "2026-10-08",
           "matched_name": "PHILADELPHIA FIRE DEPARTMENT",
           "roles": "DEFENDANT"
-        },
-        {
-          "case_id": "261000519",
-          "caption": "MEALY VS TEMPLE UNIVERSITY HOSPITAL ETAL",
-          "filing_date": "2026-10-05",
-          "matched_name": "PHILADELPHIA FIRE DEPARTMENT",
-          "roles": "DEFENDANT"
         }
       ]
     },
@@ -52,6 +45,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-10-13 21:41 EDT",
+  "generated_at": "2026-10-19 21:38 EDT",
   "window_days": 14
 }
