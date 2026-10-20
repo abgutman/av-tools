@@ -924,9 +924,10 @@
     "trial_date": "2026-10-19",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "240802252": {
     "caption": "FREEDOM MORTGAGE CORP VS TRAN",
@@ -1392,9 +1393,10 @@
     "trial_date": "2026-10-20",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "231101283": {
     "caption": "GUTTMAN VS MARINE CLUB ASSOCIATES, LLC",
@@ -1510,18 +1512,20 @@
     "trial_date": "2026-10-20",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "WAITING TO LIST ARBITRATION",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250503006": {
     "caption": "CARRINGTON MORTGAGE SERVICES, LLC VS HAYMES ETAL",
     "trial_date": "2026-10-20",
     "case_type": "EQUITY - REAL ESTATE",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250803199": {
     "caption": "CAIN ETAL VS GLASS ETAL",
@@ -1709,9 +1713,9 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED IN TRIAL READY POOL",
-    "reported": false,
-    "retired": false,
+    "last_status": "ORDER ENTERED - FINAL DISPOS",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251202854": {
@@ -2029,7 +2033,7 @@
     "trial_date": "2026-09-08",
     "case_type": "EQUITY - REAL ESTATE (TRO)",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
+    "last_status": "NON-SUIT ENTERED",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2265,18 +2269,20 @@
     "trial_date": "2026-10-20",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-15",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250401637": {
     "caption": "DISCOVER BANK VS DIXON",
     "trial_date": "2026-10-20",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250304138": {
     "caption": "RENOLD VS SEAY",
@@ -2496,9 +2502,10 @@
     "trial_date": "2026-10-19",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250601584": {
     "caption": "MAYFIELD VS NORMA",
