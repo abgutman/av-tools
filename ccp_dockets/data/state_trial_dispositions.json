@@ -174,7 +174,7 @@
     "trial_date": "2026-09-21",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED-PROJ. SETTLEMENT CONF.",
+    "last_status": "LISTED FOR SETTLEMENT CONF",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1773,7 +1773,7 @@
     "trial_date": "2026-09-09",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "WAITING TO LIST FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1813,7 +1813,7 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "WAITING TO LIST FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1853,7 +1853,7 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "WAITING TO LIST FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2073,7 +2073,7 @@
     "trial_date": "2026-09-21",
     "case_type": "REAL PROPERTY - OTHER",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2618,7 +2618,7 @@
     "trial_date": "2026-10-07",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "WAITING TO LIST FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -3212,6 +3212,51 @@
     "trial_date": "2026-11-09",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-10",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "231003258": {
+    "caption": "VELEZ FUENTES VS ALLEGHENY SHOPPING CENTER, INC. E",
+    "trial_date": "2026-10-27",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "first_seen": "2026-10-20",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250500394": {
+    "caption": "FISKE VS TALLMAN ETAL",
+    "trial_date": "2026-11-02",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-20",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250802155": {
+    "caption": "IN RE: APPEAL OF JOHNSTON JR GEORGE",
+    "trial_date": "2026-11-17",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-10-20",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250700529": {
+    "caption": "IN RE: APPEAL OF TWO LIBERTY PLACE, LP",
+    "trial_date": "2027-01-26",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-10-20",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250700530": {
+    "caption": "IN RE: APPEAL OF TWO LIBERTY PLACE, LP",
+    "trial_date": "2027-01-26",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-10-20",
     "last_status": "",
     "reported": false,
     "retired": false
