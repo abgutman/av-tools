@@ -1,5 +1,79 @@
 [
   {
+    "case_id": "251001176",
+    "caption": "GJ HOLDINGS LLC VS OSTROFF ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-07",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-10-21",
+    "award": null,
+    "plaintiffs": [
+      "GJ HOLDINGS LLC"
+    ],
+    "defendants": [
+      "OSTROFF, JASON",
+      "ALL OTHER OCCUPANTS OF 6541 EDMUND STREET"
+    ],
+    "logged_at": "2026-10-21"
+  },
+  {
+    "case_id": "250800213",
+    "caption": "HRONEC VS REED",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-19",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-10-21",
+    "award": null,
+    "plaintiffs": [
+      "HRONEC, CHRISTINE"
+    ],
+    "defendants": [
+      "REED, ROBERT"
+    ],
+    "logged_at": "2026-10-21"
+  },
+  {
+    "case_id": "250401855",
+    "caption": "SANNI VS KELLY",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-13",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR PLAINTIFF",
+    "known": false,
+    "disposition_date": "2026-10-21",
+    "award": "$8,695.17",
+    "plaintiffs": [
+      "SANNI, HAFDIL"
+    ],
+    "defendants": [
+      "BRIANA, COLLEEN",
+      "KELLY, BRIANA"
+    ],
+    "logged_at": "2026-10-21"
+  },
+  {
+    "case_id": "250201467",
+    "caption": "DREXEL UNIVERSITY VS THOMPSON OLATIGBE",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-10-20",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-10-21",
+    "award": null,
+    "plaintiffs": [
+      "DREXEL UNIVERSITY"
+    ],
+    "defendants": [
+      "THOMPSON OLATIGBE, OPEOLUWA"
+    ],
+    "logged_at": "2026-10-21"
+  },
+  {
     "case_id": "251102456",
     "caption": "MIDFIRST BANK VS GILLARD ETAL",
     "case_type": "EJECTMENT",
