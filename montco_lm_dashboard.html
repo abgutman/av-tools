@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Lower Merion and Radnor Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated October 22, 2026 at 02:22 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated October 23, 2026 at 02:04 PM</div>
 </div>
 
 <div class="nav">
@@ -98,21 +98,31 @@ if (sessionStorage.getItem('court_auth')==='1') {
     <strong>any</strong> of the four regional Court of Common Pleas systems &mdash; Philadelphia,
     Montgomery, Bucks and Delaware &mdash; where at least one party (plaintiff or defendant, not
     their attorney) has an address in Ardmore, Bala Cynwyd, Broomall, Bryn Mawr, Gladwyne, Haverford, Havertown, Merion Station, Narberth, Newtown Square, Villanova, Wayne and Wynnewood. Each case is tagged with the court where it
-    was filed. Tax and municipal liens are excluded. In this window: Bucks 3 · Delaware 8 · Philadelphia 31.
+    was filed. Tax and municipal liens are excluded. In this window: Bucks 1 · Delaware 6 · Philadelphia 32.
 </div>
 
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (8)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (7)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (1)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (33)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (31)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(8)</span></h2>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(7)</span></h2>
         <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261003080</span>
+            <span class="case-type">MALPRACTICE - MEDICAL</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">KOROPEY VS HUMANGOOD PENNSYLVANIA ETAL</div>
+        <div class="case-meta">Filed: 2026-10-22 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>EXECUTOR - PLAINTIFF:</strong> KOROPEY ESQ, ROMAN J <span class="locale">Bryn Mawr (19010)</span></div>
+    </div>
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261003027</span>
             <span class="case-type">PREMISES LIABILITY, SLIP/FALL</span>
@@ -154,6 +164,16 @@ if (sessionStorage.getItem('court_auth')==='1') {
     </div>
 <div class="case-card">
         <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261003059</span>
+            <span class="case-type">MALPRACTICE - MEDICAL</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">KOTAPALLY VS MUCKSAVAGE ETAL</div>
+        <div class="case-meta">Filed: 2026-10-21 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>ADMINISTRATRIX - PLAINTIFF:</strong> KOTAPALLY, VANDANA <span class="locale">Wayne (19087)</span></div>
+    </div>
+<div class="case-card">
+        <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261002875</span>
             <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
             <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
@@ -162,7 +182,23 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-10-20 &middot; WAITING TO LIST CASE MGMT CONF</div>
         <div class="local-party"><strong>DEFENDANT:</strong> REVOLUTION EVENT PRODUCTION LLC <span class="locale">Haverford (19041)</span></div>
     </div>
-<div class="case-card">
+    </div>
+    <div class="section" id="foreclosures">
+        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/c92d435b67c0995ac5cc141e95f2299bcdfa55000273a7fb1f38011400bbf5f4" target="_blank" rel="noopener" class="case-number">CV-2026-009593</a>
+            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
+            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/c92d435b67c0995ac5cc141e95f2299bcdfa55000273a7fb1f38011400bbf5f4" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
+        </div>
+        <div class="caption">Freedom Mortgage Corporation v. Baez et al</div>
+        <div class="case-meta">Filed: 2026-10-19</div>
+        <div class="local-party"><strong>Defendant:</strong> Priscilla Baez <span class="locale">Havertown (19083)</span></div>
+    </div>
+    </div>
+    <div class="section" id="older">
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(31)</span></h2>
+        <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261002487</span>
             <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
@@ -192,23 +228,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="case-meta">Filed: 2026-10-19</div>
         <div class="local-party"><strong>Plaintiff:</strong> Thomas Chan-Kelley <span class="locale">Ardmore (19003)</span></div>
     </div>
-    </div>
-    <div class="section" id="foreclosures">
-        <h2>&#x1f3e0; Foreclosures <span class="count">(1)</span></h2>
-        <div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/c92d435b67c0995ac5cc141e95f2299bcdfa55000273a7fb1f38011400bbf5f4" target="_blank" rel="noopener" class="case-number">CV-2026-009593</a>
-            <span class="case-type">Civil - Real Property - Mortgage Foreclosure: Residential</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/c92d435b67c0995ac5cc141e95f2299bcdfa55000273a7fb1f38011400bbf5f4" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">Freedom Mortgage Corporation v. Baez et al</div>
-        <div class="case-meta">Filed: 2026-10-19</div>
-        <div class="local-party"><strong>Defendant:</strong> Priscilla Baez <span class="locale">Havertown (19083)</span></div>
-    </div>
-    </div>
-    <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(33)</span></h2>
-        <div class="case-card">
+<div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6397080" target="_blank" rel="noopener" class="case-number">2026-07104</a>
             <span class="case-type">PRAECIPE TO REVIVE JUDGMENT FILED. EO DIE JUDGMENT MARKED REVIVED.</span>
@@ -487,56 +507,6 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="caption">SLIGHT VS HONEYGROW, LLC ETAL</div>
         <div class="case-meta">Filed: 2026-10-09 &middot; ARBITRATION HEARING SCHEDULED</div>
         <div class="local-party"><strong>DEFENDANT:</strong> HONEYGROW LLC <span class="locale">Bala Cynwyd (19004)</span></div><div class="local-party"><strong>DEFENDANT:</strong> JOHN DOES (FICTITIOUS NAMES 1-10) <span class="locale">Bala Cynwyd (19004)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6396120" target="_blank" rel="noopener" class="case-number">2026-06819</a>
-            <span class="case-type">COMPLAINT</span>
-            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6396120" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">TAMMAC HOLDING CORPORATION v. LUDLOW, CHRISTOPHER A</div>
-        <div class="case-meta">Filed: 2026-10-08</div>
-        <div class="local-party"><strong>Plaintiff:</strong> TAMMAC HOLDING CORPORATION <span class="locale">Wayne (19087)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261001193</span>
-            <span class="case-type">TRANSFER STRUCTURED SETTLEMENT</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">STONE STREET ORIGINATIONS, LLC VS GENWORTH LIFE IN</div>
-        <div class="case-meta">Filed: 2026-10-08 &middot; ACTIVE CASE</div>
-        <div class="local-party"><strong>PETITIONER:</strong> STONE STREET ORIGINATIONS, LLC <span class="locale">Wayne (19087)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6396169" target="_blank" rel="noopener" class="case-number">2026-06847</a>
-            <span class="case-type">PETITION TO TRANSFER STRUCTURED SETTLEMENT PURSUANT TO STRUCTURED SETTLEMENT ACT 40 P.S. SEC. 4001 ET SEQ.</span>
-            <a href="https://propublic.buckscountyonline.org/psi/v/detail/Case/6396169" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">STONE STREET ORIGINATIONS LLC v. —</div>
-        <div class="case-meta">Filed: 2026-10-08</div>
-        <div class="local-party"><strong>Plaintiff:</strong> STONE STREET ORIGINATIONS LLC <span class="locale">Wayne (19087)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f24b0cf5cf3a04eabc2f4b00963ed36339c67a4c26d13bd4a011414dabc11be2" target="_blank" rel="noopener" class="case-number">CV-2026-009276</a>
-            <span class="case-type">Family - Divorce - Divorce with 1 count and Custody</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/f24b0cf5cf3a04eabc2f4b00963ed36339c67a4c26d13bd4a011414dabc11be2" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">Scherzer v. Scherzer</div>
-        <div class="case-meta">Filed: 2026-10-08</div>
-        <div class="local-party"><strong>Defendant:</strong> Danielle H. Scherzer <span class="locale">Havertown (19083)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/c1e1d0b4420bcf5b77618e4ff943656b377449c8c8ca173e99ec80969340125c" target="_blank" rel="noopener" class="case-number">CV-2026-009271</a>
-            <span class="case-type">Family - Divorce - Foreign Divorce/ Registration</span>
-            <a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/c1e1d0b4420bcf5b77618e4ff943656b377449c8c8ca173e99ec80969340125c" target="_blank" rel="noopener" class="docket-link">View Docket &rarr;</a>
-        </div>
-        <div class="caption">Kiss-Gary v. Kiss</div>
-        <div class="case-meta">Filed: 2026-10-08</div>
-        <div class="local-party"><strong>Defendant:</strong> Michael Kiss <span class="locale">Villanova (19085)</span></div>
     </div>
     </div>
 </div>
