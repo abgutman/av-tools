@@ -14,27 +14,11 @@
     },
     {
       "label": "Philadelphia Fire Department",
-      "rows": [
-        {
-          "case_id": "261001168",
-          "caption": "BOYD VS CITY OF PHILADELPHIA LAW DEPARTMENT ETAL",
-          "filing_date": "2026-10-08",
-          "matched_name": "PHILADELPHIA FIRE DEPARTMENT",
-          "roles": "DEFENDANT"
-        }
-      ]
+      "rows": []
     },
     {
       "label": "Drexel University",
-      "rows": [
-        {
-          "case_id": "2610W26010716",
-          "caption": "CITY OF PHILADELPHIA VS. DREXEL UNIVERSITY",
-          "filing_date": "2026-10-08",
-          "matched_name": "DREXEL UNIVERSITY",
-          "roles": "DEFENDANT"
-        }
-      ]
+      "rows": []
     },
     {
       "label": "Academy of Natural Sciences",
@@ -45,6 +29,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-10-19 21:38 EDT",
+  "generated_at": "2026-10-22 21:25 EDT",
   "window_days": 14
 }
