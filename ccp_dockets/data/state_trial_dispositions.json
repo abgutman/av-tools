@@ -236,7 +236,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250600614": {
@@ -516,7 +516,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "241102619": {
@@ -2005,7 +2005,7 @@
     "first_seen": "2026-08-25",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250102996": {
@@ -2035,7 +2035,7 @@
     "first_seen": "2026-08-25",
     "last_status": "NON-SUIT ENTERED",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250702895": {
