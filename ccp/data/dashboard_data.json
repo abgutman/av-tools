@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-10-25T08:23:17 EDT",
+    "scraped_at": "2026-10-26T09:58:15 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-10-25",
-      "end": "2027-02-22"
+      "start": "2026-10-26",
+      "end": "2027-02-23"
     },
     "counts": {
-      "CM": 270,
+      "CM": 269,
       "MJ": 126,
-      "total": 396
+      "total": 395
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -130,7 +130,7 @@
       "time": "01:30 PM",
       "room": "Courtroom 275",
       "location": "City Hall",
-      "event_type": "MOTION HEARING",
+      "event_type": "RULE RETURNABLE DATE",
       "judge": "CHRISTOPHER HALL",
       "court_type": "REAL ESTATE TAX LIEN PETITION",
       "case_type": "REAL ESTATE TAX LIEN PETITION",
@@ -951,23 +951,6 @@
       "court_type": "AGENCY APPEAL",
       "case_type": "L&I - FIREARMS",
       "attorneys": "BRADFORD A. RICHMAN (Attorney For Appellee)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "260300973",
-      "caption": "IN RE: APPEAL OF OSEI-NTANSAH, ADJOA",
-      "raw_date": "29-OCT-2026",
-      "iso_date": "2026-10-29",
-      "time": "09:30 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "ORAL ARGUMENT",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "AGENCY APPEAL",
-      "case_type": "MISC ADMINISTRATIVE AGENCY",
-      "attorneys": "DENNIS G. WELDON JR (Attorney For Appellee); MEGAN M. POLEY (Attorney For Appellee)",
       "trial_days": ""
     },
     {
