@@ -1616,9 +1616,10 @@
     "trial_date": "2026-10-27",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-10",
-    "last_status": "",
+    "last_status": "LISTED FOR PRE-TRIAL CONF",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240800150": {
     "caption": "WINT VS DIALLO ETAL",
@@ -1803,9 +1804,9 @@
     "trial_date": "2026-09-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-21",
-    "last_status": "LISTED IN TRIAL READY POOL",
-    "reported": false,
-    "retired": false,
+    "last_status": "ORDER ENTERED - FINAL DISPOS",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260203649": {
@@ -2133,7 +2134,7 @@
     "trial_date": "2026-09-16",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-09-01",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2193,9 +2194,10 @@
     "trial_date": "2026-10-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-09",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250303111": {
     "caption": "PARK PLAZA CONDOMINIUM ASSOCIATION VS BAILEY",
@@ -2336,27 +2338,30 @@
     "trial_date": "2026-10-26",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-15",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "230600622": {
     "caption": "BROWN VS ESTATE OF GENEVIEVE BOULDEN ETAL",
     "trial_date": "2026-10-27",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250901430": {
     "caption": "CHESTNUT ETAL VS JONES",
     "trial_date": "2026-10-27",
     "case_type": "FRAUD",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250902211": {
     "caption": "CHANG ETAL VS CHEN ETAL",
@@ -2513,18 +2518,20 @@
     "trial_date": "2026-10-27",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250901709": {
     "caption": "ESTATE OF JANE MCALINDEN, LLC ETAL VS ESTATE OF RO",
     "trial_date": "2026-10-27",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250900828": {
     "caption": "ROSA VS CRADDOCK ETAL",
@@ -2759,9 +2766,9 @@
     "trial_date": "2026-10-23",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "DIRECTED VERDICT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241101225": {
@@ -2828,27 +2835,30 @@
     "trial_date": "2026-10-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240600745": {
     "caption": "ADAMS ETAL VS GRAHAM ETAL",
     "trial_date": "2026-10-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250200254": {
     "caption": "ADAMS ETAL VS GRAHAM ETAL",
     "trial_date": "2026-10-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260502335": {
     "caption": "KELEMEN VS KRAUSE",
@@ -3224,9 +3234,10 @@
     "trial_date": "2026-10-27",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-10-20",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250500394": {
     "caption": "FISKE VS TALLMAN ETAL",
@@ -3512,6 +3523,33 @@
     "trial_date": "2026-12-02",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250101130": {
+    "caption": "GONZALEZ ETAL VS UNDERWOOD-CARTER",
+    "trial_date": "2026-11-02",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-27",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241100732": {
+    "caption": "MUJAHED-ALTIMIMI VS DASILVA ETAL",
+    "trial_date": "2026-11-16",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-10-27",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260301172": {
+    "caption": "NELSON VS ALLEN",
+    "trial_date": "2026-12-02",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-10-27",
     "last_status": "",
     "reported": false,
     "retired": false

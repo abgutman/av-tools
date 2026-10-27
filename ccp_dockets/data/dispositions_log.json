@@ -1,5 +1,63 @@
 [
   {
+    "case_id": "260203220",
+    "caption": "PHILLY PROPERTIES GROUP VS AND ALL OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-16",
+    "category": "Judgment",
+    "status": "ORDER ENTERED - FINAL DISPOS",
+    "known": true,
+    "disposition_date": "2026-10-26",
+    "award": null,
+    "plaintiffs": [
+      "PHILLY PROPERTIES GROUP LLC"
+    ],
+    "defendants": [
+      "ALL OCCUPANTS,",
+      "ROBINSON, SHAY"
+    ],
+    "logged_at": "2026-10-27"
+  },
+  {
+    "case_id": "251101468",
+    "caption": "GALVEZ VS ABDELQADER ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-10-23",
+    "category": "Finding / verdict",
+    "status": "DIRECTED VERDICT",
+    "known": false,
+    "disposition_date": "2026-10-26",
+    "award": null,
+    "plaintiffs": [
+      "GALVEZ, RAFAEL"
+    ],
+    "defendants": [
+      "ABDELQADER, SADAT MOHAMED",
+      "CABRALES PENA, LIDIA IVETH"
+    ],
+    "logged_at": "2026-10-27"
+  },
+  {
+    "case_id": "250203748",
+    "caption": "WATSON VS MIDDLEBROOK ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-26",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-10-26",
+    "award": null,
+    "plaintiffs": [
+      "WATSON, CATHLEEN"
+    ],
+    "defendants": [
+      "MIDDLEBROOK, WAYNE",
+      "TRAN, THUANH",
+      "VO, HUNG"
+    ],
+    "logged_at": "2026-10-27"
+  },
+  {
     "case_id": "240200923",
     "caption": "IRA DEVELOPMENT ETAL VS GF UNIVERSITY PROPERTIES",
     "case_type": "EQUITY - REAL ESTATE (TRO)",
@@ -85,6 +143,24 @@
       "THOMPSON OLATIGBE, OPEOLUWA"
     ],
     "logged_at": "2026-10-21"
+  },
+  {
+    "case_id": "250900787",
+    "caption": "ESCOTO DE LOS SANTOS VS CITY OF PHILADELPHIA",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-10-26",
+    "category": "Settlement",
+    "status": "PRAEC/SETTLE DISCONTINUE END",
+    "known": true,
+    "disposition_date": "2026-10-20",
+    "award": null,
+    "plaintiffs": [
+      "ESCOTO DELOSSANTOS, WENDOLY J"
+    ],
+    "defendants": [
+      "CITY OF PHILADELPHIA"
+    ],
+    "logged_at": "2026-10-27"
   },
   {
     "case_id": "251102456",
