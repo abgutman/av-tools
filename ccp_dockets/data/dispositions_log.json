@@ -1,5 +1,62 @@
 [
   {
+    "case_id": "250300414",
+    "caption": "JACKSON VS MACKEY",
+    "case_type": "LIBEL, SLANDER, MISREPRESENT",
+    "trial_date": "2026-10-22",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-10-27",
+    "award": null,
+    "plaintiffs": [
+      "JACKSON, SHANTE"
+    ],
+    "defendants": [
+      "MACKEY, DEANNA"
+    ],
+    "logged_at": "2026-10-28"
+  },
+  {
+    "case_id": "241101225",
+    "caption": "RANDALL VS JANET BARNES",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-05",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-10-27",
+    "award": null,
+    "plaintiffs": [
+      "RANDALL, RANESHA"
+    ],
+    "defendants": [
+      "BARNES, JANET"
+    ],
+    "logged_at": "2026-10-28"
+  },
+  {
+    "case_id": "241003699",
+    "caption": "BULLOCK VS CUNILLERA ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-13",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR PLAINTIFF",
+    "known": false,
+    "disposition_date": "2026-10-27",
+    "award": "$17,500.00",
+    "plaintiffs": [
+      "BULLOCK, MELANIE"
+    ],
+    "defendants": [
+      "CUNILLERA, PEDRO",
+      "CUNILLERA, KRYSTAL",
+      "MAZUMDER, RUPAN K",
+      "MAZUMDER, HRITHIK"
+    ],
+    "logged_at": "2026-10-28"
+  },
+  {
     "case_id": "260203220",
     "caption": "PHILLY PROPERTIES GROUP VS AND ALL OCCUPANTS",
     "case_type": "EJECTMENT",
