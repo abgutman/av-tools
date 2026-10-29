@@ -84,7 +84,7 @@ if (sessionStorage.getItem('court_auth')==='1') {
 
 <div class="header">
     <h1>Greater Media Civil Lawsuits</h1>
-    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated October 28, 2026 at 03:44 PM</div>
+    <div class="meta">Across Philadelphia, Montgomery, Bucks &amp; Delaware county courts &middot; Updated October 29, 2026 at 03:52 PM</div>
 </div>
 
 <div class="nav">
@@ -104,22 +104,31 @@ if (sessionStorage.getItem('court_auth')==='1') {
 <div class="legend"><span class="lbl">Courts:</span><span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="court-badge" style="background:#009E73">Filed in: Montgomery County</span><span class="court-badge" style="background:#9467BD">Filed in: Bucks County</span><span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span></div>
 
 <div class="tabs">
-    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (0)</div>
+    <div class="tab active" onclick="showTab('new', this)">New Lawsuits (1)</div>
     <div class="tab" onclick="showTab('foreclosures', this)">Foreclosures (0)</div>
-    <div class="tab" onclick="showTab('older', this)">Older Cases (14)</div>
+    <div class="tab" onclick="showTab('older', this)">Older Cases (13)</div>
 </div>
 
 <div class="content">
     <div class="section" id="new">
-        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(0)</span></h2>
-        <div class="empty">No cases in this category.</div>
+        <h2>&#x1f4c4; New Lawsuits (last 3 days) <span class="count">(1)</span></h2>
+        <div class="case-card">
+        <div class="case-header">
+            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261004011</span>
+            <span class="case-type">MOTOR VEHICLE ACCIDENT</span>
+            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
+        </div>
+        <div class="caption">FRAZIER VS BIGELOW</div>
+        <div class="case-meta">Filed: 2026-10-28 &middot; WAITING TO LIST CASE MGMT CONF</div>
+        <div class="local-party"><strong>PLAINTIFF:</strong> FRAZIER, GREGORY <span class="locale">Media (19063)</span></div>
+    </div>
     </div>
     <div class="section" id="foreclosures">
         <h2>&#x1f3e0; Foreclosures <span class="count">(0)</span></h2>
         <div class="empty">No cases in this category.</div>
     </div>
     <div class="section" id="older">
-        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(14)</span></h2>
+        <h2>&#x1f4cb; Older Cases (days 4&ndash;14) <span class="count">(13)</span></h2>
         <div class="case-card">
         <div class="case-header">
             <span class="court-badge" style="background:#D55E00">Filed in: Delaware County</span><a href="https://delcopublicaccess.co.delaware.pa.us/#/cases/46094a31bdd18f3a1e2269d68510608ec178219430f6048750eec7c5f49e9e5b" target="_blank" rel="noopener" class="case-number">CV-2026-009756</a>
@@ -249,16 +258,6 @@ if (sessionStorage.getItem('court_auth')==='1') {
         <div class="caption">Shaw v. Kolstein Music, INC</div>
         <div class="case-meta">Filed: 2026-10-15</div>
         <div class="local-party"><strong>Plaintiff:</strong> Richard K Shaw <span class="locale">Media (19063)</span></div>
-    </div>
-<div class="case-card">
-        <div class="case-header">
-            <span class="court-badge" style="background:#0072B2">Filed in: Philadelphia County</span><span class="case-number">261001848</span>
-            <span class="case-type">EQUITY - NO REAL ESTATE</span>
-            <a href="https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_00.zp_disclaimer" target="_blank" rel="noopener" class="docket-link">Search case number &rarr;</a>
-        </div>
-        <div class="caption">SKIPWORTH VS COMPASS SELF STORAGE</div>
-        <div class="case-meta">Filed: 2026-10-14 &middot; WAITING TO LIST CASE MGMT CONF</div>
-        <div class="local-party"><strong>DEFENDANT:</strong> COMPANY SELF STORAGE <span class="locale">Media (19063)</span></div>
     </div>
     </div>
 </div>
