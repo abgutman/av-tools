@@ -1512,7 +1512,7 @@
     "trial_date": "2026-10-20",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "WAITING TO LIST ARBITRATION",
+    "last_status": "ARBITRATION HEARING SCHEDULED",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2281,9 +2281,9 @@
     "trial_date": "2026-10-20",
     "case_type": "CREDIT CARD COLLECTION",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250304138": {
@@ -2358,9 +2358,9 @@
     "trial_date": "2026-10-27",
     "case_type": "FRAUD",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250902211": {
@@ -2368,18 +2368,20 @@
     "trial_date": "2026-10-29",
     "case_type": "FRAUD",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250902522": {
     "caption": "BULK BOY, LLC VS ALL UNKNOWN OCCUPANTS",
     "trial_date": "2026-10-29",
     "case_type": "LANDLORD/TENANT - COMPLAINT",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250900372": {
     "caption": "UDDIN VS CANAZZI & ASSOCIATES LLC ETAL",
@@ -2518,9 +2520,9 @@
     "trial_date": "2026-10-27",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "DISCONTINUANCE ORDERED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250901709": {
@@ -2528,9 +2530,9 @@
     "trial_date": "2026-10-27",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JUDGMENT ENTERED BY AGREEMENT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250900828": {
@@ -2538,9 +2540,9 @@
     "trial_date": "2026-10-28",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241003434": {
@@ -3551,6 +3553,15 @@
     "trial_date": "2026-12-02",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-27",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241200632": {
+    "caption": "LIN ETAL VS WILKERSON",
+    "trial_date": "2026-11-09",
+    "case_type": "SUBROGATION ACTION",
+    "first_seen": "2026-10-29",
     "last_status": "",
     "reported": false,
     "retired": false

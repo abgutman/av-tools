@@ -466,8 +466,8 @@
     }
   },
   "260800873": {
-    "sig": "42|26-OCT-2026|ANSWER TO PRELIMINARY OBJCTNS",
-    "entry_count": 42,
+    "sig": "44|28-OCT-2026|PREL OBJECT-RESP DATE UPDATED",
+    "entry_count": 44,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -842,15 +842,27 @@
           "time": "03:31 PM",
           "type": "ANSWER TO PRELIMINARY OBJCTNS",
           "party": "STANDER, BRETT E"
+        },
+        {
+          "date": "28-OCT-2026",
+          "time": "10:27 AM",
+          "type": "PREL OBJECT-RESP DATE UPDATED",
+          "party": ""
+        },
+        {
+          "date": "28-OCT-2026",
+          "time": "10:27 AM",
+          "type": "PREL OBJECT-RESP DATE UPDATED",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "26-OCT-2026",
-        "time": "03:31 PM",
-        "type": "ANSWER TO PRELIMINARY OBJCTNS",
-        "party": "STANDER, BRETT E"
+        "date": "28-OCT-2026",
+        "time": "10:27 AM",
+        "type": "PREL OBJECT-RESP DATE UPDATED",
+        "party": ""
       },
-      "entry_count": 42
+      "entry_count": 44
     }
   }
 }
