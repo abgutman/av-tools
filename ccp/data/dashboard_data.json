@@ -1,40 +1,23 @@
 {
   "meta": {
-    "scraped_at": "2026-10-28T09:52:19 EDT",
+    "scraped_at": "2026-10-29T09:58:30 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-10-28",
-      "end": "2027-02-25"
+      "start": "2026-10-29",
+      "end": "2027-02-26"
     },
     "counts": {
-      "CM": 250,
+      "CM": 251,
       "MJ": 116,
-      "total": 366
+      "total": 367
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "250900828",
-      "caption": "ROSA VS CRADDOCK ETAL",
-      "raw_date": "28-OCT-2026",
-      "iso_date": "2026-10-28",
-      "time": "09:30 AM",
-      "room": "Courtroom 675",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Major Non-Jury",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "ALLAN J. AIGELDINGER III (Attorney For Plaintiff)",
-      "trial_days": "3"
-    },
     {
       "program": "CM",
       "program_label": "Civil Motions",
@@ -293,23 +276,6 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
-      "case_id": "260300539",
-      "caption": "IN RE: APPEAL OF MBULI, RENE",
-      "raw_date": "29-OCT-2026",
-      "iso_date": "2026-10-29",
-      "time": "09:30 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "ORAL ARGUMENT",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "AGENCY APPEAL",
-      "case_type": "PHILA PARKING AUTHORITY",
-      "attorneys": "DENNIS G. WELDON JR (Attorney For Appellee); MEGAN M. POLEY (Attorney For Appellee)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
       "case_id": "260300971",
       "caption": "IN RE: APPEAL OF PERKINS, NYREE",
       "raw_date": "29-OCT-2026",
@@ -366,7 +332,7 @@
       "raw_date": "29-OCT-2026",
       "iso_date": "2026-10-29",
       "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
+      "room": "Courtroom 653",
       "location": "City Hall",
       "event_type": "",
       "judge": "",
@@ -536,7 +502,7 @@
       "raw_date": "02-NOV-2026",
       "iso_date": "2026-11-02",
       "time": "09:00 AM",
-      "room": "Courtroom Unassigned",
+      "room": "Courtroom 246",
       "location": "City Hall",
       "event_type": "",
       "judge": "",
@@ -1188,7 +1154,24 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
-      "attorneys": "EDWARD D. CONWAY (Attorney For Plaintiff); MARGARET GAIRO (Attorney For Plaintiff); JEROME BLANK (Attorney For Plaintiff); TERRENCE J. MCCABE (Attorney For Plaintiff); JOSEPH F. RIGA (Attorney For Plaintiff); ANDREW L. MARKOWITZ (Attorney For Plaintiff); MARISA COHEN (Attorney For Plaintiff); KENYA BATES (Attorney For Plaintiff); CHRISTINE L. GRAHAM (Attorney For Plaintiff); BRIAN T. LAMANNA (Attorney For Plaintiff); NATHALIE PAUL (Attorney For Plaintiff); LAUREN M. MOYER (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff)",
+      "attorneys": "EDWARD D. CONWAY (Attorney For Plaintiff); MARGARET GAIRO (Attorney For Plaintiff); JEROME BLANK (Attorney For Plaintiff); TERRENCE J. MCCABE (Attorney For Plaintiff); JOSEPH F. RIGA (Attorney For Plaintiff); ANDREW L. MARKOWITZ (Attorney For Plaintiff); MARISA COHEN (Attorney For Plaintiff); KENYA BATES (Attorney For Plaintiff); CHRISTINE L. GRAHAM (Attorney For Plaintiff); BRIAN T. LAMANNA (Attorney For Plaintiff); NATHALIE PAUL (Attorney For Plaintiff); LAUREN M. MOYER (Attorney For Plaintiff); SAMANTHA N. GABLE (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260502194",
+      "caption": "L3C ALDEN PARK APARTMENTS LLC VS JONES ETAL",
+      "raw_date": "04-NOV-2026",
+      "iso_date": "2026-11-04",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - LANDLORD/TENANT",
+      "attorneys": "TODD L. BARITZ (Attorney For Plaintiff); JOHN R. BEHRMANN (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -1196,6 +1179,23 @@
       "program_label": "Civil Motions",
       "case_id": "260903454",
       "caption": "S&R ASSOCIATES VS EDELMAN",
+      "raw_date": "04-NOV-2026",
+      "iso_date": "2026-11-04",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260903733",
+      "caption": "SHIRMAN VS YOUNG ETAL",
       "raw_date": "04-NOV-2026",
       "iso_date": "2026-11-04",
       "time": "01:30 PM",
@@ -1256,7 +1256,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MUNICIPAL COURT APPEAL",
       "case_type": "MC - SUPPLEMENTAL ORDER",
-      "attorneys": "",
+      "attorneys": "JOCELYN C. OCONNOR (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -1443,7 +1443,7 @@
       "judge": "",
       "court_type": "Rent, Lease & Ejectment",
       "case_type": "EJECTMENT",
-      "attorneys": "",
+      "attorneys": "KEVIN L. VALENTINE (Attorney For Plaintiff)",
       "trial_days": "1"
     },
     {
@@ -1682,6 +1682,23 @@
       "court_type": "ARBITRATION APPEAL",
       "case_type": "WRONGFUL USE OF CIVIL PROCESS",
       "attorneys": "ANTHONY B. QUINN (Attorney For Defendant); JOSH JT. BYRNE (Attorney For Defendant); PETER E. MELTZER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260900743",
+      "caption": "JOYNER VS FARLEY",
+      "raw_date": "04-NOV-2026",
+      "iso_date": "2026-11-04",
+      "time": "11:00 AM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "",
       "trial_days": ""
     },
     {
@@ -2006,6 +2023,23 @@
       "case_type": "CONTRACTS OTHER",
       "attorneys": "JEFFREY J. GOLDIN (Attorney For Defendant); DANIEL ROSS (Attorney For Defendant); STEPHAN J. TULL (Attorney For Plaintiff); MICHAEL C. CORTESE (Attorney For Plaintiff)",
       "trial_days": "2"
+    },
+    {
+      "program": "MJ",
+      "program_label": "Trial Dates Certain",
+      "case_id": "241200632",
+      "caption": "LIN ETAL VS WILKERSON",
+      "raw_date": "09-NOV-2026",
+      "iso_date": "2026-11-09",
+      "time": "09:00 AM",
+      "room": "Courtroom Unassigned",
+      "location": "City Hall",
+      "event_type": "",
+      "judge": "",
+      "court_type": "Arbitration Appeals",
+      "case_type": "SUBROGATION ACTION",
+      "attorneys": "JOHN G. DEVLIN (Attorney For Defendant); DOUGLAS G. AARON (Attorney For Plaintiff)",
+      "trial_days": "1"
     },
     {
       "program": "MJ",
@@ -3383,23 +3417,6 @@
       "case_type": "EJECTMENT",
       "attorneys": "LYDIA E. ELLSWORTH (Attorney For Defendant); MINH V. NGUYEN (Attorney For Plaintiff)",
       "trial_days": "1"
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "230600622",
-      "caption": "BROWN VS ESTATE OF GENEVIEVE BOULDEN ETAL",
-      "raw_date": "19-NOV-2026",
-      "iso_date": "2026-11-19",
-      "time": "01:30 PM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "MAJOR NON JURY EXPEDITED",
-      "case_type": "QUIET TITLE",
-      "attorneys": "LOPEZ T. THOMPSON (Attorney For Defendant); SEAN M. CRAIG (Attorney For Plaintiff)",
-      "trial_days": ""
     },
     {
       "program": "CM",
