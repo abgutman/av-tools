@@ -1,5 +1,25 @@
 [
   {
+    "case_id": "240600745",
+    "caption": "ADAMS ETAL VS GRAHAM ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-26",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-10-29",
+    "award": null,
+    "plaintiffs": [
+      "ADAMS, MARK",
+      "HENRY, BRITTANY"
+    ],
+    "defendants": [
+      "GRAHAM, JAMAL",
+      "MITCHELL, YVETTE"
+    ],
+    "logged_at": "2026-10-30"
+  },
+  {
     "case_id": "250901709",
     "caption": "ESTATE OF JANE MCALINDEN, LLC ETAL VS ESTATE OF RO",
     "case_type": "EJECTMENT",
