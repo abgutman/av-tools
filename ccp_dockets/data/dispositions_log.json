@@ -1,5 +1,63 @@
 [
   {
+    "case_id": "250902522",
+    "caption": "BULK BOY, LLC VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "LANDLORD/TENANT - COMPLAINT",
+    "trial_date": "2026-10-29",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMENT",
+    "known": true,
+    "disposition_date": "2026-10-30",
+    "award": null,
+    "plaintiffs": [
+      "BULK BOY LLC"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS",
+      "WELLS, KAILAK"
+    ],
+    "logged_at": "2026-10-31"
+  },
+  {
+    "case_id": "250900817",
+    "caption": "EVANS VS HEATH",
+    "case_type": "EQUITY - REAL ESTATE",
+    "trial_date": "2026-09-29",
+    "category": "Judgment",
+    "status": "JUDGMENT ON COURT'S FINDING",
+    "known": true,
+    "disposition_date": "2026-10-30",
+    "award": null,
+    "plaintiffs": [
+      "EVANS, VERLINDA"
+    ],
+    "defendants": [
+      "HEATH, JAMES P"
+    ],
+    "logged_at": "2026-10-31"
+  },
+  {
+    "case_id": "240400795",
+    "caption": "SPENCER ETAL VS SCHOOL DISTRICT OF PHILADELPHIA ET",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-10-26",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR DEFENDANT",
+    "known": false,
+    "disposition_date": "2026-10-30",
+    "award": null,
+    "plaintiffs": [
+      "SPENCER, JENINE",
+      "SPENCER, MARIA"
+    ],
+    "defendants": [
+      "SCHOOL DISTRICT OF PHILADELPHIA",
+      "SHERIDAN, MATTHEW",
+      "DOES, JOHN"
+    ],
+    "logged_at": "2026-10-31"
+  },
+  {
     "case_id": "240600745",
     "caption": "ADAMS ETAL VS GRAHAM ETAL",
     "case_type": "MOTOR VEHICLE ACCIDENT",
