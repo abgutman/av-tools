@@ -646,7 +646,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250702202": {
@@ -1816,7 +1816,7 @@
     "first_seen": "2026-08-21",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "260300353": {
@@ -1856,7 +1856,7 @@
     "first_seen": "2026-08-21",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "260301306": {
@@ -2136,7 +2136,7 @@
     "first_seen": "2026-09-01",
     "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250403619": {
