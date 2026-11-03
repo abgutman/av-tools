@@ -2293,7 +2293,7 @@
     "trial_date": "2026-11-02",
     "case_type": "MALPRACTICE - LEGAL",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2401,9 +2401,10 @@
     "trial_date": "2026-11-03",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250902031": {
     "caption": "CARRINGTON MORTGAGE SERVICES VS CACERES ETAL",
@@ -2804,9 +2805,9 @@
     "trial_date": "2026-10-30",
     "case_type": "EQUITY - NO REAL ESTATE (TRO)",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "241003699": {
@@ -2973,9 +2974,10 @@
     "trial_date": "2026-11-03",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250901805": {
     "caption": "ESTATE OF VINCENT CAMPBELL VS NICHOLS",
@@ -3198,9 +3200,10 @@
     "trial_date": "2026-11-03",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-10",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250600459": {
     "caption": "WALLER VS SERAFIM ETAL",
@@ -3243,9 +3246,9 @@
     "trial_date": "2026-10-27",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-10-20",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250500394": {
@@ -3290,27 +3293,30 @@
     "trial_date": "2026-11-03",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
     "first_seen": "2026-10-21",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250302754": {
     "caption": "MILLIGAN VS 2133 ARCH STREET ASSOCIATES, LLC",
     "trial_date": "2026-11-03",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251002869": {
     "caption": "OWNER Z LLC VS HINTON ETAL",
     "trial_date": "2026-11-03",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240701439": {
     "caption": "PUGH VS GREEN ETAL",

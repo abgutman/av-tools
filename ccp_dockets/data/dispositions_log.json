@@ -1,5 +1,64 @@
 [
   {
+    "case_id": "250903167",
+    "caption": "NEWMAN VS DYLE ETAL",
+    "case_type": "EQUITY - NO REAL ESTATE (TRO)",
+    "trial_date": "2026-10-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-02",
+    "award": "$2,541.63",
+    "plaintiffs": [
+      "NEWMAN, ANISSA"
+    ],
+    "defendants": [
+      "DYLE, SOLANGE",
+      "GERSHON, JEAN"
+    ],
+    "logged_at": "2026-11-03"
+  },
+  {
+    "case_id": "250202767",
+    "caption": "GEDEUS VS NGO",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-11-03",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-11-02",
+    "award": null,
+    "plaintiffs": [
+      "GEDEUS, MARTINO"
+    ],
+    "defendants": [
+      "NGO, UYSENG"
+    ],
+    "logged_at": "2026-11-03"
+  },
+  {
+    "case_id": "231003258",
+    "caption": "VELEZ FUENTES VS ALLEGHENY SHOPPING CENTER, INC. E",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "trial_date": "2026-10-27",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR PLAINTIFF",
+    "known": false,
+    "disposition_date": "2026-11-02",
+    "award": "$100,000.00",
+    "plaintiffs": [
+      "VELEZ FUENTES, LYDIA"
+    ],
+    "defendants": [
+      "ALLEGHENY SHOPPING CENTER INC",
+      "COUSINS FAMILY MARKET INC",
+      "FRESH SUPERMARKET INC DBA COUSINS FAMILY MARKETS",
+      "JOHN DOES (1-99)",
+      "ABC CORPORATIONS (1-99)"
+    ],
+    "logged_at": "2026-11-03"
+  },
+  {
     "case_id": "250902522",
     "caption": "BULK BOY, LLC VS ALL UNKNOWN OCCUPANTS",
     "case_type": "LANDLORD/TENANT - COMPLAINT",
@@ -324,6 +383,33 @@
     "plaintiffs": [],
     "defendants": [],
     "logged_at": "2026-10-24"
+  },
+  {
+    "case_id": "250202318",
+    "caption": "NAVARRO VS ROMAN GROCERY #2 INC. ETAL",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "trial_date": "2026-11-03",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-10-23",
+    "award": null,
+    "plaintiffs": [
+      "NAVARRO, ANGELO"
+    ],
+    "defendants": [
+      "DOES, JANE",
+      "ROMAN GROCERY #2 INC",
+      "ROMAN GROCERY 2",
+      "TORRES, ROMAN",
+      "ROMAN GROCERY #1 INC",
+      "WANDALY GROCERY II INC",
+      "ANTONIO RODRIGUEZ GROCERY",
+      "ABC COMPANIES 1-10",
+      "DOES, JOHN",
+      "RODRIGUEZ-MINAYA, ROBENNY YAHILIN"
+    ],
+    "logged_at": "2026-11-03"
   },
   {
     "case_id": "251001176",
