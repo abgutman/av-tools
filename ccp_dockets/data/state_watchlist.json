@@ -466,18 +466,18 @@
     }
   },
   "260800873": {
-    "sig": "44|28-OCT-2026|PREL OBJECT-RESP DATE UPDATED",
-    "entry_count": 44,
+    "sig": "52|03-NOV-2026|NOTICE GIVEN UNDER RULE 236",
+    "entry_count": 52,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
       "caption": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. VS BAR X",
       "filing_date": "2026-08-06",
       "filing_date_raw": "Thursday , August 06th, 2026",
-      "court": "MAJOR NON JURY EXPEDITED",
+      "court": "MAJOR NON JURY STANDARD",
       "case_type": "REAL PROPERTY - OTHER",
       "jury": "JURY",
-      "status": "LISTED FOR CASE MGMT CONF",
+      "status": "LISTED-PROJ. SETTLEMENT CONF.",
       "plaintiffs": [
         "SAVE OUR NEIGHBORHOOD FOR TOMORROW INC"
       ],
@@ -583,11 +583,25 @@
       ],
       "events": [
         {
-          "event": "CASE MANAGEMENT CONFERENCE",
-          "datetime": "03-NOV-2026 03:00 PM",
-          "room": "VIA ADVANCED COMMUN. TECH.",
-          "location": "REMOTE HEARING",
-          "judge": "unassigned"
+          "event": "PROJECTED SETTLEMENT CONF DATE",
+          "datetime": "06-DEC-2027 09:00 AM",
+          "room": "CITY HALL",
+          "location": "COURTROOM 602",
+          "judge": "ROBERTS, JOSHUA"
+        },
+        {
+          "event": "PROJECTED PRE-TRIAL CONF. DATE",
+          "datetime": "07-FEB-2028 09:00 AM",
+          "room": "CITY HALL",
+          "location": "COURTROOM 602",
+          "judge": "ROBERTS, JOSHUA"
+        },
+        {
+          "event": "TRIAL READY POOL",
+          "datetime": "MARCH     2028",
+          "room": "CITY HALL",
+          "location": "COURTROOM 602",
+          "judge": "ROBERTS, JOSHUA"
         }
       ],
       "entries": [
@@ -854,15 +868,63 @@
           "time": "10:27 AM",
           "type": "PREL OBJECT-RESP DATE UPDATED",
           "party": ""
+        },
+        {
+          "date": "02-NOV-2026",
+          "time": "02:35 PM",
+          "type": "ANSWER TO PRELIMINARY OBJCTNS",
+          "party": "STANDER, BRETT E"
+        },
+        {
+          "date": "02-NOV-2026",
+          "time": "02:56 PM",
+          "type": "ANSWER TO PRELIMINARY OBJCTNS",
+          "party": "STANDER, BRETT E"
+        },
+        {
+          "date": "03-NOV-2026",
+          "time": "03:20 PM",
+          "type": "CASE MGMT CONFERENCE COMPLETED",
+          "party": "SULLIVAN, JOAN"
+        },
+        {
+          "date": "03-NOV-2026",
+          "time": "03:20 PM",
+          "type": "CASE MANAGEMENT ORDER ISSUED",
+          "party": ""
+        },
+        {
+          "date": "03-NOV-2026",
+          "time": "03:20 PM",
+          "type": "LISTED-PROJ. SETTLEMENT CONF.",
+          "party": ""
+        },
+        {
+          "date": "03-NOV-2026",
+          "time": "03:20 PM",
+          "type": "LISTED-PROJ. PRE-TRIAL CONF",
+          "party": ""
+        },
+        {
+          "date": "03-NOV-2026",
+          "time": "03:20 PM",
+          "type": "LISTED IN TRIAL READY POOL",
+          "party": ""
+        },
+        {
+          "date": "03-NOV-2026",
+          "time": "03:20 PM",
+          "type": "NOTICE GIVEN UNDER RULE 236",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "28-OCT-2026",
-        "time": "10:27 AM",
-        "type": "PREL OBJECT-RESP DATE UPDATED",
+        "date": "03-NOV-2026",
+        "time": "03:20 PM",
+        "type": "NOTICE GIVEN UNDER RULE 236",
         "party": ""
       },
-      "entry_count": 44
+      "entry_count": 52
     }
   }
 }

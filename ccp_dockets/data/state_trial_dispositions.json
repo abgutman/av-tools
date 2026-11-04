@@ -254,7 +254,7 @@
     "trial_date": "2026-09-22",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR PRE-TRIAL CONF",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -1598,9 +1598,10 @@
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "220802711": {
     "caption": "COMM OF PA VS A IMPULS AUTO ET AL",
@@ -2016,7 +2017,7 @@
     "trial_date": "2026-09-29",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED FOR PRE-TRIAL CONF",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2026,7 +2027,7 @@
     "trial_date": "2026-09-29",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-08-25",
-    "last_status": "LISTED FOR PRE-TRIAL CONF",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2391,9 +2392,9 @@
     "trial_date": "2026-11-02",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250303508": {
@@ -2555,9 +2556,9 @@
     "trial_date": "2026-10-30",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251001176": {
@@ -2974,9 +2975,9 @@
     "trial_date": "2026-11-03",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-08",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250901805": {
@@ -2984,9 +2985,10 @@
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250901488": {
     "caption": "ALLY BANK VS GUZMAN ETAL",
@@ -3368,81 +3370,90 @@
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260500805": {
     "caption": "M MCNEAL PROPERTIES LLC VS BREWTOM ETAL",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260501128": {
     "caption": "JOHNSON VS JOHNSON",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260501373": {
     "caption": "HNB INVESTMENT PROPERTIES VS ELLMORE ETAL",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260501469": {
     "caption": "COFFEEHOUSE HOLDINGS, LLC VS DOE ETAL",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260501772": {
     "caption": "EUGENE VS LEONARD ETAL",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260501865": {
     "caption": "DICARA VS SPALINO ETAL",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260501866": {
     "caption": "HUNGOVER REAL ESTATE VS ALL UNKNOWN OCCUPANTS",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260503839": {
     "caption": "JUDAH ENTERPRIZE LLC VS UNKNOWN OCCUPANTS",
     "trial_date": "2026-11-04",
     "case_type": "EJECTMENT",
     "first_seen": "2026-10-21",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251200079": {
     "caption": "FLORES VS ALGARIN",
@@ -3576,6 +3587,33 @@
     "trial_date": "2026-11-09",
     "case_type": "SUBROGATION ACTION",
     "first_seen": "2026-10-29",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260100340": {
+    "caption": "IN RE: APPEAL OF ORTIZ, STEVEN",
+    "trial_date": "2026-12-08",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-11-04",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "260101512": {
+    "caption": "IN RE: APPEAL OF ELLIOTT, PHAEDRA",
+    "trial_date": "2027-01-12",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-11-04",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251002491": {
+    "caption": "IN RE: APPEAL OF BRANDYWINE CIRA, LP",
+    "trial_date": "2027-01-19",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-11-04",
     "last_status": "",
     "reported": false,
     "retired": false

@@ -1,5 +1,63 @@
 [
   {
+    "case_id": "251001407",
+    "caption": "SELF MENTOR TRUST VS WILSON ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-11-03",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-03",
+    "award": null,
+    "plaintiffs": [
+      "SELF MENTOR TRUST BY ITS TRUSTEE STEVE DEBLASIO"
+    ],
+    "defendants": [
+      "WILSON, KHALEESHA",
+      "ANY UNKNOWN HEIRS OF RITA DARDANELLI"
+    ],
+    "logged_at": "2026-11-04"
+  },
+  {
+    "case_id": "250900372",
+    "caption": "UDDIN VS CANAZZI & ASSOCIATES LLC ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-11-02",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-11-03",
+    "award": null,
+    "plaintiffs": [
+      "UDDIN, MD GIAS"
+    ],
+    "defendants": [
+      "CANAZZI & ASSOCIATES LLC",
+      "DELANEY, KAREN M",
+      "DOE 1 THRU 10, JOHN"
+    ],
+    "logged_at": "2026-11-04"
+  },
+  {
+    "case_id": "241003434",
+    "caption": "COMMUNITY LOAN SERVICING VS STRONG ARM PROPERTIES",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-10-30",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-03",
+    "award": "$609,253.48",
+    "plaintiffs": [
+      "COMMUNITY LOAN SERVICING LLC",
+      "SILVER HILL CAPITAL LLC"
+    ],
+    "defendants": [
+      "STRONG ARM PROPERTIES LP"
+    ],
+    "logged_at": "2026-11-04"
+  },
+  {
     "case_id": "250903167",
     "caption": "NEWMAN VS DYLE ETAL",
     "case_type": "EQUITY - NO REAL ESTATE (TRO)",
