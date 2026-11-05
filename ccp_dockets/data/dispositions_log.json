@@ -1,5 +1,200 @@
 [
   {
+    "case_id": "260501866",
+    "caption": "HUNGOVER REAL ESTATE VS ALL UNKNOWN OCCUPANTS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "HUNGOVER REAL ESTATE LLC"
+    ],
+    "defendants": [
+      "ALL UNKNOWN OCCUPANTS",
+      "WALTON, KHIRY"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "260501865",
+    "caption": "DICARA VS SPALINO ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "DICARA, SALVATORE"
+    ],
+    "defendants": [
+      "SPALINO, VINCENZO",
+      "SPALINO JR, VINCENZO",
+      "SPALINO, JOHN",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "260501772",
+    "caption": "EUGENE VS LEONARD ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "EUGENE, FABRICE"
+    ],
+    "defendants": [
+      "LEONARD, LATASHA",
+      "ALL UNKNOWN OCCUPANTS"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "260501469",
+    "caption": "COFFEEHOUSE HOLDINGS, LLC VS DOE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "COFFEEHOUSE HOLDINGS LLC"
+    ],
+    "defendants": [
+      "DOE, JOHN",
+      "DOE, JOHN",
+      "DOE, JOHN",
+      "HALL, SHAI"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "260501373",
+    "caption": "HNB INVESTMENT PROPERTIES VS ELLMORE ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "HNB INVESTMENT PROPERTIES LLC"
+    ],
+    "defendants": [
+      "ELLMORE, RACHEL",
+      "WEBB, ANDREW",
+      "ALL OCCUPANTS"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "260501128",
+    "caption": "JOHNSON VS JOHNSON",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "JOHNSON, SEPTIMA"
+    ],
+    "defendants": [
+      "JOHNSON, BENJAMIN"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "260500805",
+    "caption": "M MCNEAL PROPERTIES LLC VS BREWTOM ETAL",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "M MCNEAL PROPERTIES LLC"
+    ],
+    "defendants": [
+      "BREWTOM, TIAON",
+      "DOE AND ALL OCCUPANTS, JOHN/JANE"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "260402401",
+    "caption": "BAUGH VS WOODS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Non pros (dismissed)",
+    "status": "JUDGMENT OF NON PROS ENTERED",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "BAUGH, THIA"
+    ],
+    "defendants": [
+      "WOODS, LATOSHA",
+      "NUBLE, SAEED F",
+      "DOE OCCUPANT #1, JANE",
+      "DOE OCCUPANT #2, JOE",
+      "PHILADELPHIA INTERFAITH HOSPITALITY NETWORK"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "251002945",
+    "caption": "LEMONIUS VS EVANS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-09-29",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "LEMONIUS, GREG"
+    ],
+    "defendants": [
+      "EVANS, VERLINDA"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
+    "case_id": "250901805",
+    "caption": "ESTATE OF VINCENT CAMPBELL VS NICHOLS",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-04",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-04",
+    "award": null,
+    "plaintiffs": [
+      "CAMPBELL ESTATE OF, VINCENT"
+    ],
+    "defendants": [
+      "NICHOLS, DEBORAH"
+    ],
+    "logged_at": "2026-11-05"
+  },
+  {
     "case_id": "251001407",
     "caption": "SELF MENTOR TRUST VS WILSON ETAL",
     "case_type": "QUIET TITLE",
