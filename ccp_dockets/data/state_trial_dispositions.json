@@ -176,7 +176,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR SETTLEMENT CONF",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "240703157": {
@@ -1502,9 +1502,9 @@
     "trial_date": "2026-10-13",
     "case_type": "EMPLOYMENT, WRONGFUL DISCHARGE",
     "first_seen": "2026-08-06",
-    "last_status": "HELD UNDER ADVISEMENT",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR DEFENDANT",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250203314": {
@@ -2080,7 +2080,7 @@
     "first_seen": "2026-08-25",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250500463": {
@@ -2767,7 +2767,7 @@
     "trial_date": "2026-10-21",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-23",
-    "last_status": "LISTED FOR TRIAL",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2996,9 +2996,10 @@
     "trial_date": "2026-11-06",
     "case_type": "REPLEVIN",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250102957": {
     "caption": "MNH MANAGEMENT LLC VS STRAWBERRY MANSION HOUSING C",
@@ -3259,7 +3260,7 @@
     "trial_date": "2026-11-02",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-20",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
+    "last_status": "MISTRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true

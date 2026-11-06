@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "250203316",
+    "caption": "SMITH VS PAR RECYCLE WORKS",
+    "case_type": "EMPLOYMENT, WRONGFUL DISCHARGE",
+    "trial_date": "2026-10-13",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-11-05",
+    "award": null,
+    "plaintiffs": [
+      "SMITH, TAURON"
+    ],
+    "defendants": [
+      "PAR RECYCLE WORKS"
+    ],
+    "logged_at": "2026-11-06"
+  },
+  {
     "case_id": "260501866",
     "caption": "HUNGOVER REAL ESTATE VS ALL UNKNOWN OCCUPANTS",
     "case_type": "EJECTMENT",
