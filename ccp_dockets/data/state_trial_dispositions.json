@@ -256,7 +256,7 @@
     "first_seen": "2026-07-23",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "231100914": {
@@ -1618,7 +1618,7 @@
     "trial_date": "2026-10-27",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-10",
-    "last_status": "LISTED FOR PRE-TRIAL CONF",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2996,9 +2996,9 @@
     "trial_date": "2026-11-06",
     "case_type": "REPLEVIN",
     "first_seen": "2026-10-08",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250102957": {
@@ -3260,9 +3260,9 @@
     "trial_date": "2026-11-02",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-20",
-    "last_status": "MISTRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "JURY VERDICT FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250802155": {
@@ -3616,6 +3616,411 @@
     "trial_date": "2027-01-19",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-11-04",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250603258": {
+    "caption": "MELAKU VS INTERNATIONAL CITY APARTMENTS",
+    "trial_date": "2026-12-08",
+    "case_type": "CONTRACTS (GOODS), ENFORCE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241101245": {
+    "caption": "CAVALRY SPV I, LLC VS CURTIS",
+    "trial_date": "2026-12-21",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250203469": {
+    "caption": "PARK PLAZA CONDOMINIUM ASSOCIATION VS KANE ETAL",
+    "trial_date": "2027-01-05",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250300216": {
+    "caption": "PARK PLAZA CONDOMINIUM ASSOCIATION VS KANE",
+    "trial_date": "2027-01-05",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250502181": {
+    "caption": "US BANK NATIONAL ASSOC VS PERKINS ETAL",
+    "trial_date": "2027-01-07",
+    "case_type": "CREDIT CARD COLLECTION",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250702953": {
+    "caption": "CITIZENS BANK, N.A. VS GARCIA ETAL",
+    "trial_date": "2027-01-13",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250700593": {
+    "caption": "GERMANTOWN CAB COMPANY VS GALLAGHER ETAL",
+    "trial_date": "2027-01-22",
+    "case_type": "MOTOR VEHICLE PROPERTY DAMAGE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250600476": {
+    "caption": "MAHER, ETAL VS WAWA, INC.",
+    "trial_date": "2027-01-26",
+    "case_type": "PERSONAL INJURY - OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250101756": {
+    "caption": "VELOCITY INVESTMENTS, LLC VS SREY",
+    "trial_date": "2027-02-09",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250702211": {
+    "caption": "FIRST PORTFOLIO VENTURES II VS ISRAEL",
+    "trial_date": "2027-02-26",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250101602": {
+    "caption": "IN RE: APPEAL OF 27 NORTH 9TH STREET ASSOCIATES LL",
+    "trial_date": "2026-12-15",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250401393": {
+    "caption": "IN RE: APPEAL OF PMC 33 N 22ND STREET ASSOCIATES L",
+    "trial_date": "2026-12-15",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251101261": {
+    "caption": "CARMICHAEL ETAL VS BANKERS TRUST COMPANY OF CALIFO",
+    "trial_date": "2026-12-08",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250500719": {
+    "caption": "WALTON VS CARTER",
+    "trial_date": "2027-01-07",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250702951": {
+    "caption": "CARABALLO RAMOS VS LANAUSSE MENDEZ",
+    "trial_date": "2027-01-11",
+    "case_type": "EQUITY - REAL ESTATE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240701048": {
+    "caption": "KONDZIELA VS WALLACE ETAL",
+    "trial_date": "2027-01-12",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251002572": {
+    "caption": "MOORE VS MOORE",
+    "trial_date": "2027-01-12",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251002706": {
+    "caption": "FAJARDO VS DEPARTMENT OF LICENSE AND INSPECTION",
+    "trial_date": "2027-01-14",
+    "case_type": "EQUITY - REAL ESTATE (TRO)",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250403071": {
+    "caption": "GESNA VS FRANCK",
+    "trial_date": "2027-01-19",
+    "case_type": "CONSTRUCTION CONTRACT",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251003925": {
+    "caption": "AGONDANOU VS GANSA",
+    "trial_date": "2027-01-19",
+    "case_type": "CONSTRUCTION CONTRACT",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251101554": {
+    "caption": "HOUSE VS DENNIS AND OCCUPANTS",
+    "trial_date": "2027-01-19",
+    "case_type": "EQUITY - NO REAL ESTATE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250900412": {
+    "caption": "J. MEZA CONSTRUCTION LLC VS ODIN PROPERTIES LLC ET",
+    "trial_date": "2027-01-25",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250501363": {
+    "caption": "JOHN VS WILSON",
+    "trial_date": "2027-01-26",
+    "case_type": "LIBEL, SLANDER, MISREPRESENT",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250304058": {
+    "caption": "BIZ AS USUAL, LLC VS HARD MONEY BANKERS",
+    "trial_date": "2027-01-28",
+    "case_type": "EQUITY - REAL ESTATE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251001382": {
+    "caption": "E & M PROPERTY GROUP, LLC VS DAVAANYAM",
+    "trial_date": "2027-01-29",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250903043": {
+    "caption": "VARGAS VS URENA ETAL",
+    "trial_date": "2027-02-16",
+    "case_type": "REAL PROPERTY - OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251001074": {
+    "caption": "PLANET HOME LENDING, LLC VS BLAKE ETAL",
+    "trial_date": "2027-02-16",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240502842": {
+    "caption": "SEV'S CLEANING SERVICES VS 1300 WAGNER LLC ET AL",
+    "trial_date": "2027-02-22",
+    "case_type": "QUIET TITLE",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250800057": {
+    "caption": "MIJOCEVIC ETAL VS NATIONWIDE GENERAL INSURANCE COM",
+    "trial_date": "2027-02-22",
+    "case_type": "CONTRACTS OTHER",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250700513": {
+    "caption": "PWBH HOLDINGS 2, LLC VS DOE AND ANY/ALL OCCUPANTS",
+    "trial_date": "2027-02-23",
+    "case_type": "EJECTMENT",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250901516": {
+    "caption": "ROJAS VS HEALTHCARE TRANSPORTATION SERVICES LLC ET",
+    "trial_date": "2027-02-24",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241202390": {
+    "caption": "CITY OF PHILA VS LIPSCOMB SQUARE HOUSING CO",
+    "trial_date": "2027-02-25",
+    "case_type": "CITY OF PHILA - TAX COLLECTION",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250600155": {
+    "caption": "KAERICHER VS FILMORE ETAL",
+    "trial_date": "2027-02-25",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250801862": {
+    "caption": "THOMPSON VS DEMARCO ETAL",
+    "trial_date": "2027-03-02",
+    "case_type": "PREMISES LIABILITY, SLIP/FALL",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240602480": {
+    "caption": "US BANK N.A. VS AOZ PROPERTIES",
+    "trial_date": "2026-12-08",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250703571": {
+    "caption": "DEUTSCHE BANK NATIONAL TRUST VS ALSTON",
+    "trial_date": "2027-01-08",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241202921": {
+    "caption": "US BANK TRUST N.A. VS PLAY BALL PROPERTIES",
+    "trial_date": "2027-01-12",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250503631": {
+    "caption": "TOORAK CAPITAL PARTNERS VS 423 CEDAR LANE LLC",
+    "trial_date": "2027-01-12",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250102840": {
+    "caption": "EF MORTGAGE LLC VS ROMERO ET AL",
+    "trial_date": "2027-01-15",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250202340": {
+    "caption": "WILMINGTON SAVINGS FUND VS RYAN ET AL",
+    "trial_date": "2027-01-15",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "231001762": {
+    "caption": "NEWREZ LLC VS RIVERA",
+    "trial_date": "2027-01-19",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "240701539": {
+    "caption": "GULF COAST BANK & TRUST CO VS MUHAMMAD ET AL",
+    "trial_date": "2027-01-26",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250902437": {
+    "caption": "METROPOLITAN LIFE INS CO VS KEYS & DEED HOLDING",
+    "trial_date": "2027-01-26",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "251100705": {
+    "caption": "QUAINT OAK BANK VS SALSA ON THE SQUARE, LLC",
+    "trial_date": "2027-01-27",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250500624": {
+    "caption": "U.S. BANK TRUST COMPANY VS TRUVISION LLC",
+    "trial_date": "2027-02-26",
+    "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+    "first_seen": "2026-11-07",
     "last_status": "",
     "reported": false,
     "retired": false

@@ -1,5 +1,43 @@
 [
   {
+    "case_id": "250901488",
+    "caption": "ALLY BANK VS GUZMAN ETAL",
+    "case_type": "REPLEVIN",
+    "trial_date": "2026-11-06",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-06",
+    "award": "$37,633.27",
+    "plaintiffs": [
+      "ALLY BANK"
+    ],
+    "defendants": [
+      "GUZMAN, ANGEL",
+      "SUDAIYAH REPO INC"
+    ],
+    "logged_at": "2026-11-07"
+  },
+  {
+    "case_id": "250500394",
+    "caption": "FISKE VS TALLMAN ETAL",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "trial_date": "2026-11-02",
+    "category": "Finding / verdict",
+    "status": "JURY VERDICT FOR PLAINTIFF",
+    "known": false,
+    "disposition_date": "2026-11-06",
+    "award": "$32,358.12",
+    "plaintiffs": [
+      "FISKE, ALEXANDER"
+    ],
+    "defendants": [
+      "TALLMAN, COLIN",
+      "VOLPE, NICOLE"
+    ],
+    "logged_at": "2026-11-07"
+  },
+  {
     "case_id": "250203316",
     "caption": "SMITH VS PAR RECYCLE WORKS",
     "case_type": "EMPLOYMENT, WRONGFUL DISCHARGE",
