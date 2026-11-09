@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-11-08T10:07:24 EDT",
+    "scraped_at": "2026-11-09T13:14:42 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-11-08",
-      "end": "2027-03-08"
+      "start": "2026-11-09",
+      "end": "2027-03-09"
     },
     "counts": {
-      "CM": 261,
+      "CM": 264,
       "MJ": 137,
-      "total": 398
+      "total": 401
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -1160,6 +1160,40 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "251100249",
+      "caption": "OKOLO VS DOE ETAL",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "BART E. LEVY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260801260",
+      "caption": "BENGEMINI CONSULTANTS INC VS DEEN",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "261100954",
       "caption": "PHILADELPHIA HOUSING AUTHORITY VS. LUCINDA COATES",
       "raw_date": "18-NOV-2026",
@@ -1171,6 +1205,23 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MUNICIPAL COURT APPEAL",
       "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "261100961",
+      "caption": "IN RE : SMITH MARCUS",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "PETITIONS",
+      "case_type": "NUNC PRO TUNC PETITION",
       "attorneys": "",
       "trial_days": ""
     },
@@ -2979,23 +3030,6 @@
     {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
-      "case_id": "251100377",
-      "caption": "ABRAHAM ETAL VS PLEASANT CONSTRUCTION",
-      "raw_date": "02-DEC-2026",
-      "iso_date": "2026-12-02",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Major Non-Jury",
-      "case_type": "EQUITY - REAL ESTATE",
-      "attorneys": "GREGORY JAVARDIAN (Attorney For Defendant); BROOKE WOODWARD. BUCHAN (Attorney For Defendant); MATTHEW S. OLESH (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
       "case_id": "260301172",
       "caption": "NELSON VS ALLEN",
       "raw_date": "02-DEC-2026",
@@ -4471,6 +4505,23 @@
       "case_type": "FRAUD",
       "attorneys": "JASON L. RABINOVICH (Attorney For Defendant); JAMES DIMAGGIO (Attorney For Defendant); JAMES P. MCGARRITY (Attorney For Plaintiff)",
       "trial_days": "1"
+    },
+    {
+      "program": "MJ",
+      "program_label": "Trial Dates Certain",
+      "case_id": "250600605",
+      "caption": "WHEELER VS SUPEROIR SUTOBODY LLC ETAL",
+      "raw_date": "16-DEC-2026",
+      "iso_date": "2026-12-16",
+      "time": "09:00 AM",
+      "room": "Courtroom Unassigned",
+      "location": "City Hall",
+      "event_type": "",
+      "judge": "",
+      "court_type": "Arbitration Appeals",
+      "case_type": "MOTOR VEHICLE ACCIDENT",
+      "attorneys": "RICHARD A. STEIGER (Attorney For Defendant); TIMERA W. BULLOCK (Attorney For Defendant)",
+      "trial_days": "2"
     },
     {
       "program": "CM",
@@ -6662,7 +6713,7 @@
       "judge": "",
       "court_type": "Major Non-Jury",
       "case_type": "CONTRACTS OTHER",
-      "attorneys": "JACQUELINE S. WARE (Attorney For Defendant); JOSEPH A. ZENSTEIN (Attorney For Plaintiff); VINCENT F. REILLY (Judge Pro Tempore)",
+      "attorneys": "JACQUELINE S. WARE (Attorney For Defendant); JOSEPH A. ZENSTEIN (Attorney For Plaintiff); DANIEL BRUCE. LENGEMAN (Attorney For Plaintiff); VINCENT F. REILLY (Judge Pro Tempore)",
       "trial_days": "2"
     },
     {
