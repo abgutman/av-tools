@@ -38,6 +38,24 @@
     "logged_at": "2026-11-07"
   },
   {
+    "case_id": "240802252",
+    "caption": "FREEDOM MORTGAGE CORP VS TRAN",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-11-09",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMNT",
+    "known": false,
+    "disposition_date": "2026-11-06",
+    "award": null,
+    "plaintiffs": [
+      "FREEDOM MORTGAGE CORPORATION"
+    ],
+    "defendants": [
+      "TRAN, RAYMOND"
+    ],
+    "logged_at": "2026-11-09"
+  },
+  {
     "case_id": "250203316",
     "caption": "SMITH VS PAR RECYCLE WORKS",
     "case_type": "EMPLOYMENT, WRONGFUL DISCHARGE",
@@ -288,6 +306,25 @@
       "DOE 1 THRU 10, JOHN"
     ],
     "logged_at": "2026-11-04"
+  },
+  {
+    "case_id": "241200632",
+    "caption": "LIN ETAL VS WILKERSON",
+    "case_type": "SUBROGATION ACTION",
+    "trial_date": "2026-11-09",
+    "category": "Settlement",
+    "status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "known": true,
+    "disposition_date": "2026-11-03",
+    "award": null,
+    "plaintiffs": [
+      "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY",
+      "LIN, QIHUAN"
+    ],
+    "defendants": [
+      "WILKERSON, JASMINE"
+    ],
+    "logged_at": "2026-11-09"
   },
   {
     "case_id": "241003434",

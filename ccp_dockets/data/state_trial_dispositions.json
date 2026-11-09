@@ -934,9 +934,10 @@
     "trial_date": "2026-11-09",
     "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
     "first_seen": "2026-07-23",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "JUDGMENT ENTERED BY AGREEMNT",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "241101348": {
     "caption": "SPILLER, JR. VS DOE ETAL",
@@ -3214,9 +3215,10 @@
     "trial_date": "2026-11-09",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-10",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "240900417": {
     "caption": "RAINEY VS GRIFFIN",
@@ -3241,9 +3243,10 @@
     "trial_date": "2026-11-09",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-10",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "231003258": {
     "caption": "VELEZ FUENTES VS ALLEGHENY SHOPPING CENTER, INC. E",
@@ -3589,9 +3592,10 @@
     "trial_date": "2026-11-09",
     "case_type": "SUBROGATION ACTION",
     "first_seen": "2026-10-29",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "260100340": {
     "caption": "IN RE: APPEAL OF ORTIZ, STEVEN",
