@@ -1,56 +1,39 @@
 {
   "meta": {
-    "scraped_at": "2026-11-09T13:14:42 EDT",
+    "scraped_at": "2026-11-10T11:27:24 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-11-09",
-      "end": "2027-03-09"
+      "start": "2026-11-10",
+      "end": "2027-03-10"
     },
     "counts": {
-      "CM": 264,
-      "MJ": 137,
-      "total": 401
+      "CM": 273,
+      "MJ": 135,
+      "total": 408
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
     {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "250900684",
-      "caption": "BRYANT VS SCHOLFIELD ETAL",
-      "raw_date": "09-NOV-2026",
-      "iso_date": "2026-11-09",
-      "time": "01:30 PM",
-      "room": "Courtroom 602",
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "250303356",
+      "caption": "HEADWAY CAPITAL LLC VS HILL ENTERPRISE LLC ETAL",
+      "raw_date": "10-NOV-2026",
+      "iso_date": "2026-11-10",
+      "time": "09:30 AM",
+      "room": "Courtroom 275",
       "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Major Non-Jury",
-      "case_type": "QUIET TITLE",
-      "attorneys": "",
-      "trial_days": "1"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "250600459",
-      "caption": "WALLER VS SERAFIM ETAL",
-      "raw_date": "09-NOV-2026",
-      "iso_date": "2026-11-09",
-      "time": "09:00 AM",
-      "room": "Courtroom 650",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "ORVILLE R. WALLS (Attorney For Defendant); BRYAN V. ARNER (Attorney For Defendant)",
-      "trial_days": "2"
+      "event_type": "TRIAL",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "ARBITRATION APPEAL",
+      "case_type": "CONTRACTS OTHER",
+      "attorneys": "NICOLE E. COLLINS (Attorney For Plaintiff); MICHAEL F. MCGUIGAN (Attorney For Plaintiff); JASON E. STRAND (Attorney For Plaintiff); KIRSTEN R. ARMSTRONG (Attorney For Plaintiff); ERIN R. GRADY (Attorney For Plaintiff); SETH J. HOJNACKI (Attorney For Plaintiff)",
+      "trial_days": ""
     },
     {
       "program": "MJ",
@@ -60,7 +43,7 @@
       "raw_date": "10-NOV-2026",
       "iso_date": "2026-11-10",
       "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
+      "room": "Courtroom 275",
       "location": "City Hall",
       "event_type": "",
       "judge": "",
@@ -77,7 +60,7 @@
       "raw_date": "10-NOV-2026",
       "iso_date": "2026-11-10",
       "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
+      "room": "Courtroom 696",
       "location": "City Hall",
       "event_type": "",
       "judge": "",
@@ -135,23 +118,6 @@
       "court_type": "Arbitration Appeals",
       "case_type": "CONTRACTS OTHER",
       "attorneys": "SEAN L. PHELAN (Attorney For Defendant); DAVID H. DENENBERG (Attorney For Plaintiff); RICHARD L. STUTMAN (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "240403223",
-      "caption": "COMMONWEALTH OF PENNSYLVANIA OFFICE OF ATTORNEY GE",
-      "raw_date": "12-NOV-2026",
-      "iso_date": "2026-11-12",
-      "time": "12:30 PM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "JUDGMENTS",
-      "case_type": "ASSURANCE VOLUNTARY COMPLIANCE",
-      "attorneys": "EDWIN LEON (Attorney For Defendant); JON C. SIRLIN (Attorney For Garnishee); LINDA WONG (Attorney For Plaintiff); MELISSA L. KAPLAN (Attorney For Plaintiff); SUSAN A. APEL (Attorney For Plaintiff); AMELIA T. TAYLOR (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -695,7 +661,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MAJOR NON JURY EXPEDITED",
       "case_type": "INSURANCE, DECLARATORY JUDGMNT",
-      "attorneys": "LAURENCE A. MESTER (Attorney For Defendant); MICHAEL V. PHILLIPS (Attorney For Plaintiff); AUGUSTA M. ONEILL (Attorney For Plaintiff)",
+      "attorneys": "LAURENCE A. MESTER (Attorney For Defendant); MICHAEL V. PHILLIPS (Attorney For Plaintiff); WILLIAM D. FERNANDEZ (Attorney For Plaintiff); AUGUSTA M. ONEILL (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -905,6 +871,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "2407T0102",
+      "caption": "CITY OF PHILADELPHIA VS GREEN ETAL",
+      "raw_date": "17-NOV-2026",
+      "iso_date": "2026-11-17",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "RULE RETURNABLE DATE",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "PAMELA HARRIS-WILLIAMS (Attorney For Petitioner); JAMES J. ZWOLAK (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "2602T0044",
       "caption": "CITY OF PHILADELPHIA VS SNYDER ETAL",
       "raw_date": "17-NOV-2026",
@@ -1001,7 +984,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "AGENCY APPEAL",
       "case_type": "BOARD OF REVISION OF TAXES-NPT",
-      "attorneys": "SHOBA BABU (Attorney For Appellee)",
+      "attorneys": "SHOBA BABU (Attorney For Appellee); SHAWN D. WARD (Attorney For Appellant)",
       "trial_days": ""
     },
     {
@@ -1018,7 +1001,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "AGENCY APPEAL",
       "case_type": "BOARD OF REVISION OF TAXES-NPT",
-      "attorneys": "SHOBA BABU (Attorney For Appellee)",
+      "attorneys": "SHOBA BABU (Attorney For Appellee); SHAWN D. WARD (Attorney For Appellant)",
       "trial_days": ""
     },
     {
@@ -1167,11 +1150,62 @@
       "time": "01:30 PM",
       "room": "Courtroom 475",
       "location": "City Hall",
-      "event_type": "MOTION HEARING",
+      "event_type": "EMERGENCY MOTION HEARING",
       "judge": "DAMARIS GARCIA",
       "court_type": "RENT, LEASE & EJECTMENT",
       "case_type": "EJECTMENT",
       "attorneys": "BART E. LEVY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260103320",
+      "caption": "LAWRENCE COTTRELL, ADMINISTRATOR VS MANN",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "ALEXANDER PALMER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260301413",
+      "caption": "MILLENNIUM DEVELOPMENT, LLC VS ALL UNKNOWN OCCUPAN",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "JERMAINE HARRIS (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260501020",
+      "caption": "JSB PROPERTY GROUP LLC VS DOE ETAL",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "ROSARIO A. GRIFO (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -1184,11 +1218,45 @@
       "time": "01:30 PM",
       "room": "Courtroom 475",
       "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "261003125",
+      "caption": "MISSON FIRST VS BUTLER ETAL",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
       "event_type": "EMERGENCY MOTION HEARING",
       "judge": "DAMARIS GARCIA",
       "court_type": "MUNICIPAL COURT APPEAL",
       "case_type": "MC - SUPPLEMENTAL ORDER",
       "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "261100168",
+      "caption": "CASA FARNESE INC. VS PETTA",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "BEVERLY A. BEAVER (Attorney For Defendant)",
       "trial_days": ""
     },
     {
@@ -2163,6 +2231,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "260800688",
+      "caption": "FAIRELL VS UNI PENN HOUSING PARTNERSHIP II",
+      "raw_date": "24-NOV-2026",
+      "iso_date": "2026-11-24",
+      "time": "12:00 PM",
+      "room": "Courtroom 275",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "CHRISTOPHER HALL",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "LANDLORD/TENANT - COMPLAINT",
+      "attorneys": "SKYLER R. MORGAN (Attorney For Defendant); ROBERT C. DWYER (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "210901708",
       "caption": "REVERSE MORTGAGE FUNDING LLC VS BENNETT",
       "raw_date": "30-NOV-2026",
@@ -2174,7 +2259,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
-      "attorneys": "LESLIE J. RASE (Attorney For Plaintiff); KRISTEN D. LITTLE (Attorney For Plaintiff); CHRISTOPHER A. DENARDO (Attorney For Plaintiff); WILLIAM E. MILLER (Attorney For Plaintiff); HEATHER S. RILOFF (Attorney For Plaintiff); SAMANTHA N. GABLE (Attorney For Plaintiff); KEVIN T. TONCZYCZYN (Attorney For Plaintiff)",
+      "attorneys": "LESLIE J. RASE (Attorney For Plaintiff); KRISTEN D. LITTLE (Attorney For Plaintiff); CHRISTOPHER A. DENARDO (Attorney For Plaintiff); WILLIAM E. MILLER (Attorney For Plaintiff); HEATHER S. RILOFF (Attorney For Plaintiff); SAMANTHA N. GABLE (Attorney For Plaintiff); JOSEPH LOCASTRO (Attorney For Plaintiff); KEVIN T. TONCZYCZYN (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -4339,6 +4424,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "2607T0248",
+      "caption": "CITY OF PHILADELPHIA VS WOODS ETAL",
+      "raw_date": "15-DEC-2026",
+      "iso_date": "2026-12-15",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "RULE RETURNABLE DATE",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "JAMES J. ZWOLAK (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "2607T0300",
       "caption": "CITY OF PHILADELPHIA VS GARDINER ETAL",
       "raw_date": "15-DEC-2026",
@@ -4419,6 +4521,23 @@
       "court_type": "ARBITRATION APPEAL",
       "case_type": "CONTRACTS (GOODS), ENFORCE",
       "attorneys": "JOSEPH D. RUTALA (Attorney For Defendant); IBN DEVIN UQDAH (Attorney For Defendant); LAWRENCE A. KATZ (Attorney For Plaintiff); JOSEPH D. LENTO (Attorney For Plaintiff); ANGELA R. TATE MARTINEZ (Attorney For Plaintiff); D'NIESHA SUDDUTH (Attorney For Plaintiff); GREGORY J. BEDNARZ (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "2603T0108",
+      "caption": "CITY OF PHILADELPHIA VS WALNUT WAY, L.P.",
+      "raw_date": "15-DEC-2026",
+      "iso_date": "2026-12-15",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "RULE RETURNABLE DATE",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "REAL ESTATE TAX LIEN PETITION",
+      "case_type": "REAL ESTATE TAX LIEN PETITION",
+      "attorneys": "SHOBA BABU (Attorney For Petitioner); JAMES J. ZWOLAK (Attorney For Plaintiff); LOPEZ T. THOMPSON (Attorney For Respondent)",
       "trial_days": ""
     },
     {
@@ -5200,7 +5319,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "RENT, LEASE & EJECTMENT",
       "case_type": "EJECTMENT",
-      "attorneys": "MARK D. COPOULOS (Attorney For Plaintiff)",
+      "attorneys": "J EDWARD. MCCAIN (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
