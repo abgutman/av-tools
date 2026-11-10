@@ -1581,9 +1581,10 @@
     "trial_date": "2026-11-10",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251002945": {
     "caption": "LEMONIUS VS EVANS",
@@ -2306,9 +2307,10 @@
     "trial_date": "2026-11-10",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250401878": {
     "caption": "BEAUX ARTS LOFTS CONDO ASSOC VS KUJDYCH",
@@ -2887,9 +2889,10 @@
     "trial_date": "2026-11-10",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "260101024": {
     "caption": "IN RE: APPEAL OF SANTOS, ABEL",
@@ -3215,7 +3218,7 @@
     "trial_date": "2026-11-09",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-10",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
+    "last_status": "NON-SUIT ENTERED",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -4025,6 +4028,15 @@
     "trial_date": "2027-02-26",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-11-07",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250600605": {
+    "caption": "WHEELER VS SUPEROIR SUTOBODY LLC ETAL",
+    "trial_date": "2026-12-16",
+    "case_type": "MOTOR VEHICLE ACCIDENT",
+    "first_seen": "2026-11-10",
     "last_status": "",
     "reported": false,
     "retired": false

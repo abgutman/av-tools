@@ -466,8 +466,8 @@
     }
   },
   "260800873": {
-    "sig": "52|03-NOV-2026|NOTICE GIVEN UNDER RULE 236",
-    "entry_count": 52,
+    "sig": "58|09-NOV-2026|PREL OBJECT-ASSIGNMENT UPDATED",
+    "entry_count": 58,
     "note": "SAVE OUR NEIGHBORHOOD FOR TOMORROW, INC. v. BAR X et al. \u2014 real property dispute; City of Philadelphia among defendants (filed 2026-08-06)",
     "docket": {
       "case_id": "260800873",
@@ -916,15 +916,51 @@
           "time": "03:20 PM",
           "type": "NOTICE GIVEN UNDER RULE 236",
           "party": ""
+        },
+        {
+          "date": "09-NOV-2026",
+          "time": "10:17 AM",
+          "type": "PRELIM OBJECTIONS ASSIGNED",
+          "party": ""
+        },
+        {
+          "date": "09-NOV-2026",
+          "time": "10:17 AM",
+          "type": "PRELIM OBJECTIONS ASSIGNED",
+          "party": ""
+        },
+        {
+          "date": "09-NOV-2026",
+          "time": "10:17 AM",
+          "type": "PRELIM OBJECTIONS ASSIGNED",
+          "party": ""
+        },
+        {
+          "date": "09-NOV-2026",
+          "time": "03:50 PM",
+          "type": "PREL OBJECT-ASSIGNMENT UPDATED",
+          "party": ""
+        },
+        {
+          "date": "09-NOV-2026",
+          "time": "03:50 PM",
+          "type": "PREL OBJECT-ASSIGNMENT UPDATED",
+          "party": ""
+        },
+        {
+          "date": "09-NOV-2026",
+          "time": "03:50 PM",
+          "type": "PREL OBJECT-ASSIGNMENT UPDATED",
+          "party": ""
         }
       ],
       "last_entry": {
-        "date": "03-NOV-2026",
-        "time": "03:20 PM",
-        "type": "NOTICE GIVEN UNDER RULE 236",
+        "date": "09-NOV-2026",
+        "time": "03:50 PM",
+        "type": "PREL OBJECT-ASSIGNMENT UPDATED",
         "party": ""
       },
-      "entry_count": 52
+      "entry_count": 58
     }
   }
 }
