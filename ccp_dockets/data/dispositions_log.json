@@ -1,5 +1,25 @@
 [
   {
+    "case_id": "250900684",
+    "caption": "BRYANT VS SCHOLFIELD ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-11-09",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-10",
+    "award": null,
+    "plaintiffs": [
+      "BRYANT (KT0632), JAMES L"
+    ],
+    "defendants": [
+      "SCHOLFIELD, THELMA W",
+      "SCHOLFIELD, MAURICE",
+      "BILAL, ROCHELLE"
+    ],
+    "logged_at": "2026-11-11"
+  },
+  {
     "case_id": "250901488",
     "caption": "ALLY BANK VS GUZMAN ETAL",
     "case_type": "REPLEVIN",

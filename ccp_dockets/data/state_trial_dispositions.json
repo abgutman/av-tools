@@ -3246,9 +3246,9 @@
     "trial_date": "2026-11-09",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-10",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "231003258": {
