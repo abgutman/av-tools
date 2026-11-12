@@ -10,7 +10,15 @@
     },
     {
       "label": "Philadelphia Sheriff",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "261100014",
+          "caption": "TUCI VS THE SHERIFF OF PHILADELPHIA C/O ROCHELLE B",
+          "filing_date": "2026-10-31",
+          "matched_name": "SHERIFF OF PHILADELPHIA C/O ROCHELLE BILAL",
+          "roles": "DEFENDANT"
+        }
+      ]
     },
     {
       "label": "Philadelphia Fire Department",
@@ -29,6 +37,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-10-22 21:25 EDT",
+  "generated_at": "2026-11-12 13:58 EDT",
   "window_days": 14
 }
