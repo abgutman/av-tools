@@ -1,19 +1,19 @@
 {
   "meta": {
-    "scraped_at": "2026-11-11T10:57:41 EDT",
+    "scraped_at": "2026-11-12T11:49:49 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-11-11",
-      "end": "2027-03-11"
+      "start": "2026-11-12",
+      "end": "2027-03-12"
     },
     "counts": {
       "CM": 277,
-      "MJ": 133,
-      "total": 410
+      "MJ": 132,
+      "total": 409
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
@@ -3637,23 +3637,6 @@
       "court_type": "Arbitration Appeals",
       "case_type": "MC - SMALL CLAIMS APPEALS",
       "attorneys": "JOSEPH T. PACE (Attorney For Defendant); WILLIAM J. TAYLOR (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "251002742",
-      "caption": "LHOME MORTGAGE TRUST VS EFFICIENT DESIGNER",
-      "raw_date": "04-DEC-2026",
-      "iso_date": "2026-12-04",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Mortgage Foreclosure",
-      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
-      "attorneys": "ADAM M. DEJOHN (Attorney For Defendant); MICHAEL J. CLARK (Attorney For Plaintiff); ELANA M. KACHHI (Attorney For Plaintiff)",
       "trial_days": "1"
     },
     {
