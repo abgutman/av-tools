@@ -26,7 +26,85 @@
     },
     {
       "label": "Drexel University",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "261101596",
+          "caption": "DREXEL UNIVERSITY VS MCKEVITT",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101594",
+          "caption": "DREXEL UNIVERSITY VS SEDDON",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101593",
+          "caption": "DREXEL UNIVERSITY VS WALKER",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101592",
+          "caption": "DREXEL UNIVERSITY VS TOLA",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101591",
+          "caption": "DREXEL UNIVERSITY VS TINGLEY",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101590",
+          "caption": "DREXEL UNIVERSITY VS PAZMINO",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101588",
+          "caption": "DREXEL UNIVERSITY VS SAKO",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101587",
+          "caption": "DREXEL UNIVERSITY VS SCOTT",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101584",
+          "caption": "DREXEL UNIVERSITY VS ADENAIKE",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101583",
+          "caption": "DREXEL UNIVERSITY VS DESHIELDS",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101582",
+          "caption": "DREXEL UNIVERSITY VS NEDDERMAN",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        }
+      ]
     },
     {
       "label": "Academy of Natural Sciences",
@@ -37,6 +115,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-11-12 13:58 EDT",
+  "generated_at": "2026-11-12 17:57 EDT",
   "window_days": 14
 }
