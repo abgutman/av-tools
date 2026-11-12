@@ -1404,9 +1404,10 @@
     "trial_date": "2026-11-12",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250600746": {
     "caption": "WILLIAMS VS BRYANT",
