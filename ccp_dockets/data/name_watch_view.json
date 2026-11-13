@@ -28,6 +28,55 @@
       "label": "Drexel University",
       "rows": [
         {
+          "case_id": "261101608",
+          "caption": "DREXEL UNIVERSITY VS SANKURI",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101607",
+          "caption": "DREXEL UNIVERSITY VS STEUBER",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101606",
+          "caption": "DREXEL UNIVERSITY VS ARCE-ORTIZ",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101605",
+          "caption": "DREXEL UNIVERSITY VS BARBER",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101603",
+          "caption": "DREXEL UNIVERSITY VS ATKERSON",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101602",
+          "caption": "DREXEL UNIVERSITY VS FERRANTE",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101601",
+          "caption": "DREXEL UNIVERSITY VS IMNAISHVILI",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "261101596",
           "caption": "DREXEL UNIVERSITY VS MCKEVITT",
           "filing_date": "2026-11-12",
@@ -103,6 +152,13 @@
           "filing_date": "2026-11-12",
           "matched_name": "DREXEL UNIVERSITY",
           "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "2611M0010",
+          "caption": "VIKXS SERVICES INC. VS DREXEL UNIVERSITY ETAL",
+          "filing_date": "2026-11-10",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "DEFENDANT"
         }
       ]
     },
@@ -115,6 +171,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-11-12 17:57 EDT",
+  "generated_at": "2026-11-13 11:00 EDT",
   "window_days": 14
 }
