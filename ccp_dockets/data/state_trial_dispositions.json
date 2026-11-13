@@ -2909,9 +2909,10 @@
     "trial_date": "2026-11-13",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250402487": {
     "caption": "ABDELKAWEY VS ALHAFFAR",
