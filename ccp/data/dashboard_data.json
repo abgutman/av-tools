@@ -1,57 +1,23 @@
 {
   "meta": {
-    "scraped_at": "2026-11-12T11:49:49 EDT",
+    "scraped_at": "2026-11-13T11:09:52 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-11-12",
-      "end": "2027-03-12"
+      "start": "2026-11-13",
+      "end": "2027-03-13"
     },
     "counts": {
-      "CM": 277,
-      "MJ": 132,
-      "total": 409
+      "CM": 281,
+      "MJ": 130,
+      "total": 411
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "220702658",
-      "caption": "HARPER VS E-BUILT, INC. ETAL",
-      "raw_date": "12-NOV-2026",
-      "iso_date": "2026-11-12",
-      "time": "09:00 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "JURY SELECTION",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "MAJOR JURY-COMPLEX",
-      "case_type": "PRODUCT LIABILITY",
-      "attorneys": "GLENN A. RICKETTI (Attorney For Defendant); PAUL C. TROY (Attorney For Defendant); ANDREW R. BENEDICT (Attorney For Defendant); GREGORY F. BROWN (Attorney For Defendant); CHRISTOPHER J. TELLNER (Attorney For Defendant); ANTHONY J. CALATI (Attorney For Defendant); REGINA S. JOHNSON (Attorney For Defendant); RYAN R. BOROWSKI (Attorney For Defendant); THOMAS F. SACCHETTA (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "231101283",
-      "caption": "GUTTMAN VS MARINE CLUB ASSOCIATES, LLC",
-      "raw_date": "12-NOV-2026",
-      "iso_date": "2026-11-12",
-      "time": "09:30 AM",
-      "room": "Courtroom 246",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Arbitration Appeals",
-      "case_type": "CONTRACTS OTHER",
-      "attorneys": "SEAN L. PHELAN (Attorney For Defendant); DAVID H. DENENBERG (Attorney For Plaintiff); RICHARD L. STUTMAN (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
     {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
@@ -60,7 +26,7 @@
       "raw_date": "13-NOV-2026",
       "iso_date": "2026-11-13",
       "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
+      "room": "Courtroom 285",
       "location": "City Hall",
       "event_type": "",
       "judge": "",
@@ -83,7 +49,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "ARBITRATION",
       "case_type": "CREDIT CARD COLLECTION",
-      "attorneys": "TESSA L. FREDERICK (Attorney For Garnishee); BRYAN JON. POLAS (Attorney For Plaintiff); KARA G. BETZENBERGER (Attorney For Plaintiff)",
+      "attorneys": "TESSA L. FREDERICK (Attorney For Garnishee); JONATHAN P. CAWLEY (Attorney For Plaintiff); BRYAN JON. POLAS (Attorney For Plaintiff); KARA G. BETZENBERGER (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -599,23 +565,6 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
-      "case_id": "251003978",
-      "caption": "WEESE ETAL VS PIERCE",
-      "raw_date": "17-NOV-2026",
-      "iso_date": "2026-11-17",
-      "time": "01:30 PM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "MOTION HEARING",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "MAJOR NON JURY EXPEDITED",
-      "case_type": "INSURANCE, DECLARATORY JUDGMNT",
-      "attorneys": "LAURENCE A. MESTER (Attorney For Defendant); MICHAEL V. PHILLIPS (Attorney For Plaintiff); WILLIAM D. FERNANDEZ (Attorney For Plaintiff); AUGUSTA M. ONEILL (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
       "case_id": "251101354",
       "caption": "LOANDEPOT.COM, LLC VS OCCUPANTS",
       "raw_date": "17-NOV-2026",
@@ -905,23 +854,6 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
-      "case_id": "260802346",
-      "caption": "IN RE: APPEAL OF WRIGHT, HARRIET",
-      "raw_date": "17-NOV-2026",
-      "iso_date": "2026-11-17",
-      "time": "09:30 AM",
-      "room": "Courtroom 475",
-      "location": "City Hall",
-      "event_type": "ORAL ARGUMENT",
-      "judge": "DAMARIS GARCIA",
-      "court_type": "AGENCY APPEAL",
-      "case_type": "BOARD OF REVISION OF TAXES-NPT",
-      "attorneys": "SHOBA BABU (Attorney For Appellee)",
-      "trial_days": ""
-    },
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
       "case_id": "260802667",
       "caption": "IN RE: APPEAL OF ONEILL, JASON",
       "raw_date": "17-NOV-2026",
@@ -1143,6 +1075,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "260201327",
+      "caption": "MORTGAGE ASSETS MANAGEMENT, LLC VS HAMMOCK ETAL",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "RENT, LEASE & EJECTMENT",
+      "case_type": "EJECTMENT",
+      "attorneys": "DANIELLE A. COLEMAN (Attorney For Plaintiff); LAVANDA KIARA. HARRIS (Attorney For Plaintiff); LEAH D. ZAWASKY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "260201478",
       "caption": "CASCADE FUNDING MORTGAGE VS UNKNOWN OCCUPANTS",
       "raw_date": "18-NOV-2026",
@@ -1245,6 +1194,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "261100759",
+      "caption": "LAU VS JAHOVIC",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "261100954",
       "caption": "PHILADELPHIA HOUSING AUTHORITY VS. LUCINDA COATES",
       "raw_date": "18-NOV-2026",
@@ -1315,6 +1281,23 @@
       "program_label": "Civil Motions",
       "case_id": "261101294",
       "caption": "FERNROCK APARTMENTS LP VS JENNINGS JR",
+      "raw_date": "18-NOV-2026",
+      "iso_date": "2026-11-18",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "261101585",
+      "caption": "HATTON II VS NELSON",
       "raw_date": "18-NOV-2026",
       "iso_date": "2026-11-18",
       "time": "01:30 PM",
@@ -1613,7 +1596,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MAJOR JURY-STANDARD",
       "case_type": "CONTRACTS OTHER",
-      "attorneys": "CHRYSTALE B. HEWITT (Attorney For Defendant); BRYON R. KASTER (Attorney For Defendant); DENNIS J. GEIS (Attorney For Defendant); JOHN D. ZIEGLER (Attorney For Defendant); JACOB P. GUERRA (Attorney For Defendant); NIAYLA-DIA H. MURRAY (Attorney For Defendant); MATTHEW C. COLLINS (Attorney For Plaintiff); MEGAN K. SHANNON (Attorney For Plaintiff)",
+      "attorneys": "CHRYSTALE B. HEWITT (Attorney For Defendant); BRYON R. KASTER (Attorney For Defendant); DENNIS J. GEIS (Attorney For Defendant); JOHN D. ZIEGLER (Attorney For Defendant); JACOB P. GUERRA (Attorney For Defendant); NIAYLA-DIA H. MURRAY (Attorney For Defendant); MATTHEW C. COLLINS (Attorney For Plaintiff); JENNIFER M. HORN (Attorney For Plaintiff); MEGAN K. SHANNON (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -1851,7 +1834,7 @@
       "judge": "DAMARIS GARCIA",
       "court_type": "MORTGAGE FORECLOSURE",
       "case_type": "RESIDENTIAL REVERSE MORT-MR",
-      "attorneys": "JEROME BLANK (Attorney For Plaintiff); MARISA COHEN (Attorney For Plaintiff); NATHALIE PAUL (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff)",
+      "attorneys": "JEROME BLANK (Attorney For Plaintiff); ANTHONY L. RICHARDSON (Attorney For Plaintiff); MARISA COHEN (Attorney For Plaintiff); NATHALIE PAUL (Attorney For Plaintiff); CHELSEA A. NIXON (Attorney For Plaintiff)",
       "trial_days": ""
     },
     {
@@ -2957,23 +2940,6 @@
       "court_type": "Major Non-Jury",
       "case_type": "CONTRACTS OTHER",
       "attorneys": "DEAN E. WEISGOLD (Attorney For Defendant); MATTHEW J. MCCONNELL (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "250800323",
-      "caption": "SINGH ETAL VS WASHINGTON ETAL",
-      "raw_date": "01-DEC-2026",
-      "iso_date": "2026-12-01",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Major Non-Jury",
-      "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "MICHAEL S. TAKACS (Attorney For Defendant); ANDREW P. ROSSI (Attorney For Defendant); JOSEPH M. KUNNEL (Attorney For Plaintiff); JIMMY M. KUNNEL (Attorney For Plaintiff)",
       "trial_days": "1"
     },
     {
@@ -4656,7 +4622,7 @@
       "judge": "",
       "court_type": "Arbitration Appeals",
       "case_type": "MOTOR VEHICLE ACCIDENT",
-      "attorneys": "RICHARD A. STEIGER (Attorney For Defendant); TIMERA W. BULLOCK (Attorney For Defendant)",
+      "attorneys": "RICHARD A. STEIGER (Attorney For Defendant); MARCOS LONG (Attorney For Defendant)",
       "trial_days": "2"
     },
     {
@@ -5750,6 +5716,40 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "250503525",
+      "caption": "UMB BANK, NATIONAL ASSOCIATION, NOT IN ITS INDIVID",
+      "raw_date": "30-DEC-2026",
+      "iso_date": "2026-12-30",
+      "time": "12:00 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "WILLIAM J. TAYLOR (Attorney For Defendant); JACQUELINE F. MCNALLY (Attorney For Plaintiff); ROBERT F. FLACCO (Attorney For Plaintiff); TIMOTHY CIRINO (Attorney For Plaintiff); YVONNE C. GANLEY (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260400604",
+      "caption": "WILMINGTON SAVINGS FUND SOCIETY, FSB, NOT IN ITS I",
+      "raw_date": "30-DEC-2026",
+      "iso_date": "2026-12-30",
+      "time": "12:00 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MORTGAGE FORECLOSURE",
+      "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
+      "attorneys": "WILLIAM J. TAYLOR (Attorney For Defendant); JACQUELINE F. MCNALLY (Attorney For Plaintiff); ROBERT F. FLACCO (Attorney For Plaintiff); TIMOTHY CIRINO (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "260303213",
       "caption": "IN RE: APPEAL OF TEMPLE UNIVERSITY OF THE COMMONWE",
       "raw_date": "04-JAN-2027",
@@ -5935,6 +5935,23 @@
       "trial_days": "1"
     },
     {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "251003978",
+      "caption": "WEESE ETAL VS PIERCE",
+      "raw_date": "11-JAN-2027",
+      "iso_date": "2027-01-11",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MAJOR NON JURY EXPEDITED",
+      "case_type": "INSURANCE, DECLARATORY JUDGMNT",
+      "attorneys": "LAURENCE A. MESTER (Attorney For Defendant); MICHAEL V. PHILLIPS (Attorney For Plaintiff); WILLIAM D. FERNANDEZ (Attorney For Plaintiff); AUGUSTA M. ONEILL (Attorney For Plaintiff)",
+      "trial_days": ""
+    },
+    {
       "program": "MJ",
       "program_label": "Trial Dates Certain",
       "case_id": "250702951",
@@ -6102,6 +6119,23 @@
       "court_type": "REAL ESTATE TAX LIEN PETITION",
       "case_type": "REAL ESTATE TAX LIEN PETITION",
       "attorneys": "PAMELA HARRIS-WILLIAMS (Attorney For Petitioner); JAMES J. ZWOLAK (Attorney For Plaintiff); CHRISTOPHER W. DEAN (Attorney For Respondent)",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
+      "case_id": "260802346",
+      "caption": "IN RE: APPEAL OF WRIGHT, HARRIET",
+      "raw_date": "13-JAN-2027",
+      "iso_date": "2027-01-13",
+      "time": "09:30 AM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "ORAL ARGUMENT",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "AGENCY APPEAL",
+      "case_type": "BOARD OF REVISION OF TAXES-NPT",
+      "attorneys": "SHOBA BABU (Attorney For Appellee)",
       "trial_days": ""
     },
     {
