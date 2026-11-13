@@ -28,6 +28,34 @@
       "label": "Drexel University",
       "rows": [
         {
+          "case_id": "261101621",
+          "caption": "DREXEL UNIVERSITY VS FLORES",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101618",
+          "caption": "DREXEL UNIVERSITY VS VEITCH",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101617",
+          "caption": "DREXEL UNIVERSITY VS OUTEN",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
+          "case_id": "261101616",
+          "caption": "DREXEL UNIVERSITY VS PARKER",
+          "filing_date": "2026-11-12",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "PLAINTIFF"
+        },
+        {
           "case_id": "261101608",
           "caption": "DREXEL UNIVERSITY VS SANKURI",
           "filing_date": "2026-11-12",
@@ -171,6 +199,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-11-13 11:00 EDT",
+  "generated_at": "2026-11-13 13:54 EDT",
   "window_days": 14
 }
