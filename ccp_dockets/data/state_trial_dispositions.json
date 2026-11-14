@@ -704,9 +704,9 @@
     "trial_date": "2026-10-05",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-07-23",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "240401071": {
@@ -1574,7 +1574,7 @@
     "first_seen": "2026-08-06",
     "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "201001597": {
@@ -1663,7 +1663,7 @@
     "first_seen": "2026-08-14",
     "last_status": "ASSIGNED TO JUDGE",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "170104504": {
@@ -2023,7 +2023,7 @@
     "first_seen": "2026-08-25",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250102998": {
@@ -2033,7 +2033,7 @@
     "first_seen": "2026-08-25",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "240200923": {
@@ -2308,9 +2308,9 @@
     "trial_date": "2026-11-10",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250401878": {
@@ -2909,9 +2909,9 @@
     "trial_date": "2026-11-13",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-10-08",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250402487": {

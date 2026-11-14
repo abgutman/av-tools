@@ -1,5 +1,80 @@
 [
   {
+    "case_id": "250101140",
+    "caption": "BLUEBIRD LENDING I, LLC VS IM-UL ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-09-29",
+    "category": "Unclassified \u2014 verify",
+    "status": "ASSIGNED TO JUDGE",
+    "known": false,
+    "disposition_date": "2026-11-14",
+    "plaintiffs": [],
+    "defendants": [],
+    "logged_at": "2026-11-14"
+  },
+  {
+    "case_id": "250303356",
+    "caption": "HEADWAY CAPITAL LLC VS HILL ENTERPRISE LLC ETAL",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-11-10",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-13",
+    "award": "$16,413.69",
+    "plaintiffs": [
+      "HEADWAY CAPITAL LLC"
+    ],
+    "defendants": [
+      "HILL ENTERPRISE LLC",
+      "HILL, TERRANCE"
+    ],
+    "logged_at": "2026-11-14"
+  },
+  {
+    "case_id": "250203742",
+    "caption": "HEADWAY CAPITAL LLC VS KIM KOOKS CO ETAL",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-11-13",
+    "category": "Settlement",
+    "status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "known": true,
+    "disposition_date": "2026-11-13",
+    "award": null,
+    "plaintiffs": [
+      "HEADWAY CAPITAL LLC"
+    ],
+    "defendants": [
+      "KIM KOOKS COMPANY",
+      "LAWRENCE, KIMBERLEE"
+    ],
+    "logged_at": "2026-11-14"
+  },
+  {
+    "case_id": "240403379",
+    "caption": "THOMPSON VS SORRELL ETAL",
+    "case_type": "QUIET TITLE",
+    "trial_date": "2026-10-05",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-13",
+    "award": null,
+    "plaintiffs": [
+      "THOMPSON, DARRELL E"
+    ],
+    "defendants": [
+      "SORRELL, JOHN DAVID",
+      "ANDERSON, SHEREIMBA",
+      "ANDERSON, JULIE",
+      "MONROE, BERNADETTE",
+      "MONROE, MARC",
+      "HUNTER, ROBIN",
+      "SORRELL, SUSAN H"
+    ],
+    "logged_at": "2026-11-14"
+  },
+  {
     "case_id": "250900684",
     "caption": "BRYANT VS SCHOLFIELD ETAL",
     "case_type": "QUIET TITLE",
