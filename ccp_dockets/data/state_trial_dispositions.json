@@ -1544,18 +1544,20 @@
     "trial_date": "2026-11-17",
     "case_type": "CONTRACTS OTHER",
     "first_seen": "2026-08-06",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAEC/SETTLE DISCONTINUE END",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "250802112": {
     "caption": "COWAN ETAL VS ALAMEDA ETAL",
     "trial_date": "2026-11-17",
     "case_type": "TORTS TO LAND",
     "first_seen": "2026-08-06",
-    "last_status": "",
-    "reported": false,
-    "retired": false
+    "last_status": "PRAECIPE TO DISCONTINUE",
+    "reported": true,
+    "retired": true,
+    "_polled_before": true
   },
   "230100707": {
     "caption": "DEUTSCHE BANK NATIONAL TRUST VS BAKER",
@@ -2472,9 +2474,10 @@
     "trial_date": "2026-11-17",
     "case_type": "EJECTMENT",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241102846": {
     "caption": "IN RE: APPEAL OF G R PARTNERS I LP",
@@ -2900,9 +2903,10 @@
     "trial_date": "2026-11-17",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-10-07",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250203742": {
     "caption": "HEADWAY CAPITAL LLC VS KIM KOOKS CO ETAL",
@@ -2919,18 +2923,20 @@
     "trial_date": "2026-11-17",
     "case_type": "CONSTRUCTION CONTRACT",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250600485": {
     "caption": "HANCE VS RIVERA",
     "trial_date": "2026-11-17",
     "case_type": "MOTOR VEHICLE PROPERTY DAMAGE",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250403586": {
     "caption": "2232 OAKFORD STREET LTD LLC VS XBLOCK LLC ETAL",
@@ -3032,9 +3038,10 @@
     "trial_date": "2026-11-17",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "251000856": {
     "caption": "WALKER VS THE SALVATION ARMY ETAL",
@@ -3281,9 +3288,10 @@
     "trial_date": "2026-11-17",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-10-20",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250700529": {
     "caption": "IN RE: APPEAL OF TWO LIBERTY PLACE, LP",
