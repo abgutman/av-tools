@@ -1,5 +1,23 @@
 [
   {
+    "case_id": "250102957",
+    "caption": "MNH MANAGEMENT LLC VS STRAWBERRY MANSION HOUSING C",
+    "case_type": "EQUITY - REAL ESTATE",
+    "trial_date": "2026-11-16",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-17",
+    "award": null,
+    "plaintiffs": [
+      "MNH MANAGEMENT LLC"
+    ],
+    "defendants": [
+      "STRAWBERRY MANSION HOUSING COALITION INC"
+    ],
+    "logged_at": "2026-11-18"
+  },
+  {
     "case_id": "250802112",
     "caption": "COWAN ETAL VS ALAMEDA ETAL",
     "case_type": "TORTS TO LAND",
