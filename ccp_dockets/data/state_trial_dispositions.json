@@ -2359,7 +2359,7 @@
     "trial_date": "2026-10-27",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "WAITING TO LIST FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2455,9 +2455,10 @@
     "trial_date": "2026-11-19",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250901925": {
     "caption": "PHILA HOUSING AUTHORITY VS COOKS",
@@ -3028,9 +3029,9 @@
     "trial_date": "2026-11-16",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-08",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250600722": {
@@ -3038,9 +3039,9 @@
     "trial_date": "2026-11-17",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-08",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED AFTER ASSGN TRIAL JUDG",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "251000856": {
@@ -3156,9 +3157,10 @@
     "trial_date": "2026-11-19",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-10-08",
-    "last_status": "",
+    "last_status": "LISTED IN TRIAL READY POOL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "250301090": {
     "caption": "PENNYMAC LOAN SERVICES, LLC VS RICH",
@@ -3239,9 +3241,9 @@
     "trial_date": "2026-11-16",
     "case_type": "CONTRACTS (GOODS), ENFORCE",
     "first_seen": "2026-10-10",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "FINDING FOR PLAINTIFF",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250401925": {
@@ -3346,9 +3348,9 @@
     "trial_date": "2026-11-18",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-21",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250703140": {
@@ -3383,9 +3385,9 @@
     "trial_date": "2026-11-18",
     "case_type": "NOT RESIDENTIAL OWNER OCCUP-MR",
     "first_seen": "2026-10-21",
-    "last_status": "LISTED/ASSESSMNT DAMAGES HRNG",
-    "reported": false,
-    "retired": false,
+    "last_status": "DAMAGES ASSESSED",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260500076": {
@@ -4053,6 +4055,15 @@
     "trial_date": "2026-12-16",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-11-10",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "220701786": {
+    "caption": "COMMONWEALTH OF PA VS CARSPOT INC",
+    "trial_date": "2027-01-19",
+    "case_type": "EQUITY - NO REAL ESTATE",
+    "first_seen": "2026-11-19",
     "last_status": "",
     "reported": false,
     "retired": false
