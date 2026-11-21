@@ -1,57 +1,23 @@
 {
   "meta": {
-    "scraped_at": "2026-11-20T11:56:56 EDT",
+    "scraped_at": "2026-11-21T11:08:37 EDT",
     "source_url": "https://fjdefile.phila.gov/efsfjd/zk_fjd_public_qry_04.zp_legalhearlist_menu_idx",
     "programs": {
       "CM": "Civil Motions (motion hearings, all judges)",
       "MJ": "Trial Dates Certain"
     },
     "date_range": {
-      "start": "2026-11-20",
-      "end": "2027-03-20"
+      "start": "2026-11-21",
+      "end": "2027-03-21"
     },
     "counts": {
       "CM": 247,
-      "MJ": 106,
-      "total": 353
+      "MJ": 104,
+      "total": 351
     },
     "note": "Calendar listing only. Verify every detail against the official FJD docket before publishing."
   },
   "hearings": [
-    {
-      "program": "CM",
-      "program_label": "Civil Motions",
-      "case_id": "241201603",
-      "caption": "THOMAS VS MCKNIGHT",
-      "raw_date": "20-NOV-2026",
-      "iso_date": "2026-11-20",
-      "time": "09:00 AM",
-      "room": "Courtroom 275",
-      "location": "City Hall",
-      "event_type": "JURY SELECTION",
-      "judge": "CHRISTOPHER HALL",
-      "court_type": "MAJOR JURY-STANDARD",
-      "case_type": "CONTRACTS OTHER",
-      "attorneys": "JOHN J. BRANIGAN (Attorney For Defendant); DREW SALAMAN (Attorney For Plaintiff); DONALD CHISHOLM II (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "250902031",
-      "caption": "CARRINGTON MORTGAGE SERVICES VS CACERES ETAL",
-      "raw_date": "20-NOV-2026",
-      "iso_date": "2026-11-20",
-      "time": "09:30 AM",
-      "room": "Courtroom 426",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Major Non-Jury",
-      "case_type": "QUIET TITLE",
-      "attorneys": "HEATHER S. RILOFF (Attorney For Plaintiff); SAMANTHA N. GABLE (Attorney For Plaintiff); KEVIN T. TONCZYCZYN (Attorney For Plaintiff)",
-      "trial_days": ""
-    },
     {
       "program": "CM",
       "program_label": "Civil Motions",
@@ -905,6 +871,23 @@
     {
       "program": "CM",
       "program_label": "Civil Motions",
+      "case_id": "260803074",
+      "caption": "BIDDLEMAN VS MCGUIRE",
+      "raw_date": "02-DEC-2026",
+      "iso_date": "2026-12-02",
+      "time": "01:30 PM",
+      "room": "Courtroom 475",
+      "location": "City Hall",
+      "event_type": "EMERGENCY MOTION HEARING",
+      "judge": "DAMARIS GARCIA",
+      "court_type": "MUNICIPAL COURT APPEAL",
+      "case_type": "MC - SUPPLEMENTAL ORDER",
+      "attorneys": "",
+      "trial_days": ""
+    },
+    {
+      "program": "CM",
+      "program_label": "Civil Motions",
       "case_id": "260902410",
       "caption": "DO VS PIERCE ETAL",
       "raw_date": "02-DEC-2026",
@@ -1104,23 +1087,6 @@
       "court_type": "Rent, Lease & Ejectment",
       "case_type": "EJECTMENT",
       "attorneys": "MICHAEL GUMBEL (Attorney For Plaintiff)",
-      "trial_days": "1"
-    },
-    {
-      "program": "MJ",
-      "program_label": "Trial Dates Certain",
-      "case_id": "260303363",
-      "caption": "SEC. OF VETERANS AFFAIRS VS ROXBURY ETAL",
-      "raw_date": "02-DEC-2026",
-      "iso_date": "2026-12-02",
-      "time": "09:30 AM",
-      "room": "Complex Litigation Ctr Rm 622",
-      "location": "City Hall",
-      "event_type": "",
-      "judge": "",
-      "court_type": "Rent, Lease & Ejectment",
-      "case_type": "EJECTMENT",
-      "attorneys": "ELANA M. KACHHI (Attorney For Plaintiff)",
       "trial_days": "1"
     },
     {
