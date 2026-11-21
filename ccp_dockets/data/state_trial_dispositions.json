@@ -2242,7 +2242,7 @@
     "first_seen": "2026-09-15",
     "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250302473": {
@@ -2379,7 +2379,7 @@
     "trial_date": "2026-10-29",
     "case_type": "FRAUD",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -2419,9 +2419,10 @@
     "trial_date": "2026-11-20",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-09-15",
-    "last_status": "",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
-    "retired": false
+    "retired": false,
+    "_polled_before": true
   },
   "241101770": {
     "caption": "FULTON VS CAMPOVERDE ETAL",
@@ -2807,7 +2808,7 @@
     "first_seen": "2026-09-23",
     "last_status": "ARBITRATION HEARING SCHEDULED",
     "reported": false,
-    "retired": false,
+    "retired": true,
     "_polled_before": true
   },
   "250903167": {
@@ -2875,9 +2876,9 @@
     "trial_date": "2026-10-26",
     "case_type": "MOTOR VEHICLE ACCIDENT",
     "first_seen": "2026-10-01",
-    "last_status": "LISTED FOR TRIAL DATE CERTAIN",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED PRIOR TO ASSGN TRL JUD",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "260502335": {
@@ -2904,9 +2905,9 @@
     "trial_date": "2026-11-17",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-10-07",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED BY STIPULATION",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250203742": {
@@ -3290,9 +3291,9 @@
     "trial_date": "2026-11-17",
     "case_type": "BOARD OF REVISION OF TAXES-MVA",
     "first_seen": "2026-10-20",
-    "last_status": "LISTED FOR TRIAL",
-    "reported": false,
-    "retired": false,
+    "last_status": "SETTLED BY STIPULATION",
+    "reported": true,
+    "retired": true,
     "_polled_before": true
   },
   "250700529": {
@@ -4064,6 +4065,24 @@
     "trial_date": "2027-01-19",
     "case_type": "EQUITY - NO REAL ESTATE",
     "first_seen": "2026-11-19",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "241200854": {
+    "caption": "ROBERTSON VS NGUYEN ETAL",
+    "trial_date": "2027-01-05",
+    "case_type": "PERSONAL INJURY - OTHER",
+    "first_seen": "2026-11-21",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250602752": {
+    "caption": "MALDONADO ETAL VS SMITH- MORRISON ETAL",
+    "trial_date": "2027-01-12",
+    "case_type": "PERSONAL INJURY - OTHER",
+    "first_seen": "2026-11-21",
     "last_status": "",
     "reported": false,
     "retired": false
