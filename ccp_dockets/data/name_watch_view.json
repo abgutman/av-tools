@@ -20,6 +20,13 @@
       "label": "Drexel University",
       "rows": [
         {
+          "case_id": "261102842",
+          "caption": "FELICIANO VS STC OPCO, LLC D/B/A ST. CHRISTOPHER'S",
+          "filing_date": "2026-11-23",
+          "matched_name": "DREXEL UNIVERSITY",
+          "roles": "DEFENDANT"
+        },
+        {
           "case_id": "261101621",
           "caption": "DREXEL UNIVERSITY VS FLORES",
           "filing_date": "2026-11-12",
@@ -191,6 +198,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-11-14 20:06 EDT",
+  "generated_at": "2026-11-23 14:00 EDT",
   "window_days": 14
 }
