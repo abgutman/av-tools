@@ -179,13 +179,6 @@
           "filing_date": "2026-11-12",
           "matched_name": "DREXEL UNIVERSITY",
           "roles": "PLAINTIFF"
-        },
-        {
-          "case_id": "2611M0010",
-          "caption": "VIKXS SERVICES INC. VS DREXEL UNIVERSITY ETAL",
-          "filing_date": "2026-11-10",
-          "matched_name": "DREXEL UNIVERSITY",
-          "roles": "DEFENDANT"
         }
       ]
     },
@@ -198,6 +191,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-11-23 14:00 EDT",
+  "generated_at": "2026-11-24 20:08 EDT",
   "window_days": 14
 }
