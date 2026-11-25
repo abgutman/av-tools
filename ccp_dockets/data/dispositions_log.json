@@ -1,5 +1,114 @@
 [
   {
+    "case_id": "251201763",
+    "caption": "RESTORATION LLC VS TYSON",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-23",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMENT",
+    "known": true,
+    "disposition_date": "2026-11-24",
+    "award": null,
+    "plaintiffs": [
+      "RESTORATION LLC"
+    ],
+    "defendants": [
+      "TYSON, LATCOSKA"
+    ],
+    "logged_at": "2026-11-25"
+  },
+  {
+    "case_id": "251200079",
+    "caption": "FLORES VS ALGARIN",
+    "case_type": "EJECTMENT",
+    "trial_date": "2026-11-23",
+    "category": "Judgment",
+    "status": "JUDGMENT ENTERED BY AGREEMENT",
+    "known": true,
+    "disposition_date": "2026-11-24",
+    "award": null,
+    "plaintiffs": [
+      "FLORES, CARMEN"
+    ],
+    "defendants": [
+      "ALGARIN, JOVIANCA"
+    ],
+    "logged_at": "2026-11-25"
+  },
+  {
+    "case_id": "250600485",
+    "caption": "HANCE VS RIVERA",
+    "case_type": "MOTOR VEHICLE PROPERTY DAMAGE",
+    "trial_date": "2026-11-17",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-11-24",
+    "award": null,
+    "plaintiffs": [
+      "HANCE, LA'JUAN"
+    ],
+    "defendants": [
+      "RIVERA, VANESSA"
+    ],
+    "logged_at": "2026-11-25"
+  },
+  {
+    "case_id": "250403586",
+    "caption": "2232 OAKFORD STREET LTD LLC VS XBLOCK LLC ETAL",
+    "case_type": "CONTRACTS OTHER",
+    "trial_date": "2026-11-23",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-24",
+    "award": "$20,880.35",
+    "plaintiffs": [
+      "2232 OAKFORD STREET LTD LLC"
+    ],
+    "defendants": [
+      "XBLOCK LLC",
+      "BAGGA, KHUSHI"
+    ],
+    "logged_at": "2026-11-25"
+  },
+  {
+    "case_id": "250402487",
+    "caption": "ABDELKAWEY VS ALHAFFAR",
+    "case_type": "CONSTRUCTION CONTRACT",
+    "trial_date": "2026-11-17",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR DEFENDANT",
+    "known": true,
+    "disposition_date": "2026-11-24",
+    "award": null,
+    "plaintiffs": [
+      "ABDELKAWEY, ADEL"
+    ],
+    "defendants": [
+      "ALHAFFER, MAHER"
+    ],
+    "logged_at": "2026-11-25"
+  },
+  {
+    "case_id": "250301090",
+    "caption": "PENNYMAC LOAN SERVICES, LLC VS RICH",
+    "case_type": "RESIDENTIAL OWNER OCCUPIED-MR",
+    "trial_date": "2026-11-24",
+    "category": "Finding / verdict",
+    "status": "FINDING FOR PLAINTIFF",
+    "known": true,
+    "disposition_date": "2026-11-24",
+    "award": "$115,004.62",
+    "plaintiffs": [
+      "PENNYMAC LOAN SERVICES LLC"
+    ],
+    "defendants": [
+      "RICH, ROSETTA"
+    ],
+    "logged_at": "2026-11-25"
+  },
+  {
     "case_id": "241102480",
     "caption": "BROOKS VS BROWN ETAL",
     "case_type": "PREMISES LIABILITY, SLIP/FALL",
