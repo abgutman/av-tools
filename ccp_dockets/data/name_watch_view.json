@@ -2,11 +2,27 @@
   "labels": [
     {
       "label": "DraftKings",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "261103176",
+          "caption": "MIKESELL VS DRAFTKINGS INC. ETAL",
+          "filing_date": "2026-11-24",
+          "matched_name": "DRAFTKINGS INC.",
+          "roles": "DEFENDANT"
+        }
+      ]
     },
     {
       "label": "FanDuel",
-      "rows": []
+      "rows": [
+        {
+          "case_id": "261103176",
+          "caption": "MIKESELL VS DRAFTKINGS INC. ETAL",
+          "filing_date": "2026-11-24",
+          "matched_name": "FANDUEL GROUP PARENT LLC",
+          "roles": "DEFENDANT"
+        }
+      ]
     },
     {
       "label": "Philadelphia Sheriff",
@@ -191,6 +207,6 @@
       "rows": []
     }
   ],
-  "generated_at": "2026-11-24 20:08 EDT",
+  "generated_at": "2026-11-25 13:27 EDT",
   "window_days": 14
 }
