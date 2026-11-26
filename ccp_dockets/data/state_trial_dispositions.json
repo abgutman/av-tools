@@ -2300,7 +2300,7 @@
     "trial_date": "2026-11-02",
     "case_type": "MALPRACTICE - LEGAL",
     "first_seen": "2026-09-15",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "WAITING TO LIST FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -3333,7 +3333,7 @@
     "trial_date": "2026-11-03",
     "case_type": "QUIET TITLE",
     "first_seen": "2026-10-21",
-    "last_status": "LISTED IN TRIAL READY POOL",
+    "last_status": "LISTED FOR TRIAL",
     "reported": false,
     "retired": false,
     "_polled_before": true
@@ -4278,6 +4278,15 @@
     "trial_date": "2026-12-16",
     "case_type": "EJECTMENT",
     "first_seen": "2026-11-25",
+    "last_status": "",
+    "reported": false,
+    "retired": false
+  },
+  "250200123": {
+    "caption": "IN RE: APPEAL OF 2990 HOLME REALTY LLC",
+    "trial_date": "2026-12-11",
+    "case_type": "BOARD OF REVISION OF TAXES-MVA",
+    "first_seen": "2026-11-26",
     "last_status": "",
     "reported": false,
     "retired": false
